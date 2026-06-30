@@ -1,0 +1,37 @@
+name: AI release-notes watcher
+
+on:
+  schedule:
+    # Runs at the top of every hour. GitHub's cron scheduler can lag by a
+    # few minutes under load — that's normal and fine for this use case.
+    - cron: "0 * * * *"
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab to test
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Set up Python
+        run: uv python install 3.13
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run watcher
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+        run: uv run python -m news_bot.check_updates
+        # No continue-on-error and no commit-back step needed anymore —
+        # state lives in Upstash now, not in a file this workflow has to
+        # write back to the repo. A non-zero exit here just marks the run
+        # as failed in the Actions tab, which is the right signal.
