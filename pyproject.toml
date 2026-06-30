@@ -9,6 +9,11 @@ dependencies = [
     "requests>=2.31.0",
 ]
 
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
 [project.scripts]
 news-bot = "news_bot.check_updates:main"
 manage-sources = "news_bot.manage_sources:main"
