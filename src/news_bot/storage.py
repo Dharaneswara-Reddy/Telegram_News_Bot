@@ -100,24 +100,10 @@ DEFAULT_SOURCES = [
         "url": "https://docs.anthropic.com/en/release-notes/overview",
         "mode": "rolling_log",
     },
-    {
-        "id": "openai_news",
-        "label": "OpenAI",
-        "url": "https://openai.com/news/",
-        "mode": "article_list",
-    },
-    {
-        "id": "chatgpt_release_notes",
-        "label": "ChatGPT (app)",
-        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "mode": "rolling_log",
-    },
-    {
-        "id": "openai_model_release_notes",
-        "label": "OpenAI models",
-        "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
-        "mode": "rolling_log",
-    },
+    # NOTE: OpenAI pages (openai.com/news, help.openai.com) are excluded from
+    # defaults because they block requests from cloud datacenter IPs (GitHub
+    # Actions runners). You can still add them locally via manage_sources if
+    # you run the bot from a non-datacenter IP.
     {
         "id": "gemini_api_changelog",
         "label": "Gemini API",
