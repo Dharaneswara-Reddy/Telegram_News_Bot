@@ -52,11 +52,9 @@ def _redis_get(key: str) -> str | None:
 def _redis_set(key: str, value: str) -> None:
     _require_config()
     resp = requests.post(
-        f"{UPSTASH_URL}/set/{key}",
+        UPSTASH_URL,
         headers={"Authorization": f"Bearer {UPSTASH_TOKEN}"},
-        json=[
-            value
-        ],  # Upstash REST expects the value as a JSON array element for POST-with-body form
+        json=["SET", key, value],
         timeout=REQUEST_TIMEOUT,
     )
     resp.raise_for_status()
@@ -65,8 +63,9 @@ def _redis_set(key: str, value: str) -> None:
 def _redis_delete(key: str) -> None:
     _require_config()
     resp = requests.post(
-        f"{UPSTASH_URL}/del/{key}",
+        UPSTASH_URL,
         headers={"Authorization": f"Bearer {UPSTASH_TOKEN}"},
+        json=["DEL", key],
         timeout=REQUEST_TIMEOUT,
     )
     resp.raise_for_status()

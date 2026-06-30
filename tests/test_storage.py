@@ -217,5 +217,8 @@ class TestSnapshots:
             set_snapshot("test_source", snapshot)
 
         assert mock_post.called
-        call_url = mock_post.call_args[0][0]
-        assert f"{SNAPSHOT_KEY_PREFIX}test_source" in call_url
+        call_kwargs = mock_post.call_args
+        # The key should be in the JSON command array: ["SET", key, value]
+        json_body = call_kwargs[1]["json"] if "json" in call_kwargs[1] else call_kwargs[0][1]
+        assert json_body[0] == "SET"
+        assert f"{SNAPSHOT_KEY_PREFIX}test_source" in json_body[1]
