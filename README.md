@@ -56,6 +56,12 @@ history to manage.
 - Sign up at console.groq.com, create an API key. That's `GROQ_API_KEY`.
 - Free tier is plenty for ~11 pages checked hourly — this is a tiny amount
   of token volume per day.
+- The model is set by `GROQ_MODEL` and defaults to `openai/gpt-oss-120b`,
+  with `openai/gpt-oss-20b` as an automatic fallback. Groq retires model
+  ids periodically; when that happens the chat endpoint returns a 404 and
+  the watcher logs the reason from the response body. Check
+  `https://api.groq.com/openai/v1/models` for what's currently live and
+  set `GROQ_MODEL` to a working id.
 
 ### 3. Set up Upstash Redis (free tier)
 
