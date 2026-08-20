@@ -39,7 +39,12 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
-GROQ_MODEL = "llama-3.3-70b-versatile"  # solid general-purpose Groq model; swap freely
+# Groq retires model ids fairly often, and a retired id comes back from the
+# chat endpoint as a bare 404 that reads like a broken URL. Keep the primary
+# overridable via env and fall back to a second model so one decommission
+# doesn't stall the watcher until someone edits this file.
+GROQ_MODEL = os.environ.get("GROQ_MODEL") or "openai/gpt-oss-120b"
+GROQ_FALLBACK_MODELS = ["openai/gpt-oss-20b"]
 
 # Sources now live in Upstash Redis (see storage.py) rather than being
 # hardcoded here. storage.get_sources() returns the current list, seeded
@@ -167,33 +172,24 @@ USE_CASE: <text>
 """
 
 
-def summarize_with_groq(label: str, url: str, fragment: str) -> dict | None:
-    if not fragment.strip():
-        return None
+def _response_detail(exc: Exception) -> str:
+    """Pull the API's own error body off a failed request, for logging.
 
-    prompt = SUMMARY_PROMPT_TEMPLATE.format(label=label, url=url, fragment=fragment)
-
+    Groq explains the actual problem in the response body (e.g. "model has
+    been decommissioned") while the status line only says 404. Without this
+    the logs are undiagnosable.
+    """
+    resp = getattr(exc, "response", None)
+    if resp is None:
+        return ""
     try:
-        resp = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {GROQ_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": GROQ_MODEL,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.3,
-                "max_tokens": 300,
-            },
-            timeout=30,
-        )
-        resp.raise_for_status()
-        content = resp.json()["choices"][0]["message"]["content"].strip()
-    except Exception as e:
-        log.error("Groq call failed for %s: %s", label, e)
-        return None
+        return f" — {resp.text[:300]}"
+    except Exception:
+        return ""
 
+
+def _parse_summary(content: str) -> dict | None:
+    """Pull the EXPLANATION/USE_CASE pair out of a model response, or None."""
     explanation_match = re.search(r"EXPLANATION:\s*(.+?)(?=\nUSE_CASE:|\Z)", content, re.DOTALL)
     use_case_match = re.search(r"USE_CASE:\s*(.+)", content, re.DOTALL)
 
@@ -201,10 +197,64 @@ def summarize_with_groq(label: str, url: str, fragment: str) -> dict | None:
     use_case = use_case_match.group(1).strip() if use_case_match else None
 
     if not explanation or not use_case:
-        log.warning("Groq response for %s didn't match expected format: %r", label, content)
         return None
 
     return {"explanation": explanation, "use_case": use_case}
+
+
+def summarize_with_groq(label: str, url: str, fragment: str) -> dict | None:
+    if not fragment.strip():
+        return None
+
+    prompt = SUMMARY_PROMPT_TEMPLATE.format(label=label, url=url, fragment=fragment)
+
+    for model in [GROQ_MODEL, *GROQ_FALLBACK_MODELS]:
+        try:
+            resp = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {GROQ_API_KEY}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": model,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": 0.3,
+                    # Reasoning models bill their hidden thinking against
+                    # max_tokens, so a 300-token cap can be spent entirely on
+                    # reasoning and hand back empty content. Keep the budget
+                    # generous and the thinking short.
+                    "max_tokens": 1200,
+                    "reasoning_effort": "low",
+                },
+                timeout=30,
+            )
+            resp.raise_for_status()
+            content = resp.json()["choices"][0]["message"]["content"].strip()
+        except Exception as e:
+            log.error(
+                "Groq call failed for %s with model %s: %s%s",
+                label,
+                model,
+                e,
+                _response_detail(e),
+            )
+            continue
+
+        summary = _parse_summary(content)
+        if summary is not None:
+            return summary
+
+        # A 200 that doesn't parse is still a failure for our purposes — let
+        # the next model have a go rather than giving up on the fragment.
+        log.warning(
+            "Groq response for %s from model %s didn't match expected format: %r",
+            label,
+            model,
+            content,
+        )
+
+    return None
 
 
 # ---------------------------------------------------------------------------
