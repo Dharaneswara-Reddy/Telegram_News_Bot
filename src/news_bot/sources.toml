@@ -240,7 +240,9 @@ weight = 3
 max_age_days = 45
 
 [[source]]
+# Muted: *.substack.com returns 403 to GitHub Actions and epoch.ai has no feed.
 id = "epoch_ai"
+enabled = false
 name = "Epoch AI"
 url = "https://epochai.substack.com/feed"
 homepage = "https://epoch.ai/"
@@ -268,7 +270,8 @@ weight = 4
 [[source]]
 id = "import_ai"
 name = "Import AI"
-url = "https://importai.substack.com/feed"
+# Mirror of importai.substack.com, which blocks GitHub Actions IPs.
+url = "https://jack-clark.net/feed/"
 homepage = "https://importai.substack.com/"
 category = "analysis"
 weight = 4
