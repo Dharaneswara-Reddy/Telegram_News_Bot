@@ -219,6 +219,7 @@ let lastRoute = null;
 async function render({ keepScroll = false } = {}) {
   const { route, params } = parseHash();
   const seq = ++renderSeq;
+  if (!keepScroll) togglePaletteMenu(false);
   $$("#nav .section-links a").forEach((a) => a.classList.toggle("active", a.dataset.route === route));
   const view = $("#view");
   const fn = VIEWS[route] || VIEWS.today;
@@ -511,6 +512,30 @@ VIEWS.sources = async () => {
     }</tbody></table></div>`;
 };
 
+VIEWS.palettes = async () => {
+  const week = await loadRange(3).catch(() => []);
+  const s = [...week].sort((a, b) => b.score - a.score)[0] || {
+    title: "Gemini 4 Argon: our next era of frontier intelligence", source_name: "Google DeepMind",
+    summary: "A new flagship model with a million-token context window.", category: "models", importance: 5,
+  };
+  const current = root.dataset.palette;
+  const sample = (p, theme) => `<div class="pal-sample" data-palette="${p.id}" data-theme="${theme}">
+      <div class="ps-ticker"><span>Latest</span><em>${esc(s.title)}</em></div>
+      <div class="ps-body">
+        <div class="ps-mark">AI${heartbeat(`${p.id}-${theme}`, { delay: 0.3 })}Pulse</div>
+        <div class="kicker"><span class="flag">Must read</span><span class="cat cat-${esc(s.category)}">${esc(catName(s.category))}</span><span class="src">${esc(s.source_name)}</span></div>
+        <h3 class="hl"><a href="#/palettes" tabindex="-1">${esc(s.title)}</a></h3>
+        <p class="dek">${esc((s.summary || s.excerpt || "").slice(0, 150))}</p>
+        <div class="ps-cats">${Object.keys(state.index.categories || {}).map((c) => `<i class="cat-${c}" title="${esc(catName(c))}"></i>`).join("")}</div>
+      </div></div>`;
+  return head("Palettes", "Every colour palette with today's top story, in the day and night editions. Pick one to use it across the site — it's remembered on this device. Press P anywhere to cycle through them.") +
+    `<div class="pal-grid reveal">${PALETTES.map((p, i) => `<section class="pal-card ${p.id === current ? "current" : ""}" style="--i:${i}">
+        <div class="pal-pair">${sample(p, "light")}${sample(p, "dark")}</div>
+        <div class="pal-meta"><div><h2>${esc(p.name)}</h2><p>${esc(p.desc)}</p></div>
+          ${p.id === current ? '<span class="pal-current">In use</span>' : `<button class="big-btn" data-choose-palette="${p.id}">Use ${esc(p.name)}</button>`}</div>
+      </section>`).join("")}</div>`;
+};
+
 // ---------------------------------------------------------------- ticker
 async function fillTicker() {
   const stories = (await loadRange(2)).filter((s) => s.importance >= 3).slice(0, 18);
@@ -639,14 +664,102 @@ let searchTimer;
 $("#search").addEventListener("input", (e) => { clearTimeout(searchTimer); searchTimer = setTimeout(() => search(e.target.value), 280); });
 $("#search-form").addEventListener("submit", (e) => { e.preventDefault(); search($("#search").value); });
 
-$("#theme-toggle").addEventListener("click", () => {
-  const root = document.documentElement;
-  const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
-  const next = dark ? "light" : "dark";
-  const apply = () => { root.dataset.theme = next; };
-  if (document.startViewTransition) document.startViewTransition(apply); else apply();
-  try { localStorage.setItem("pulse.theme", next); } catch (err) { /* private mode */ }
+// ---------------------------------------------------------------- palettes
+// Keep in sync with palettes.css and the boot script in index.html.
+const PALETTES = [
+  { id: "broadsheet", name: "Broadsheet", desc: "Warm newsprint, ink and vermilion" },
+  { id: "salmon", name: "Salmon", desc: "Financial-paper pink with claret" },
+  { id: "riso", name: "Riso", desc: "Federal blue and fluorescent pink" },
+  { id: "cobalt", name: "Cobalt", desc: "Swiss white, black and electric blue" },
+  { id: "phosphor", name: "Phosphor", desc: "Terminal green on black" },
+  { id: "nocturne", name: "Nocturne", desc: "Midnight navy with amber" },
+];
+const root = document.documentElement;
+const paletteName = (id) => (PALETTES.find((p) => p.id === id) || PALETTES[0]).name;
+
+function storeLook(key, value) {
+  try { localStorage.setItem("pulse." + key, value); } catch (err) { /* private mode */ }
+}
+
+/** Switch palette and/or edition, cross-fading where the browser supports it. */
+function applyLook({ palette = root.dataset.palette, theme = root.dataset.theme } = {}, animate = true) {
+  const apply = () => {
+    root.dataset.palette = palette;
+    root.dataset.theme = theme;
+    $("#theme-color").content = getComputedStyle(root).getPropertyValue("--paper").trim();
+    renderPaletteMenu();
+  };
+  if (animate && document.startViewTransition && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.startViewTransition(apply);
+  } else apply();
+}
+
+function choosePalette(id) {
+  storeLook("palette", id);
+  applyLook({ palette: id });
+  toast("Palette · " + paletteName(id));
+  if (parseHash().route === "palettes") render({ keepScroll: true });
+}
+
+function renderPaletteMenu() {
+  const current = root.dataset.palette, theme = root.dataset.theme;
+  // Each option carries its own data-palette, so it previews itself in place.
+  $("#palette-menu").innerHTML = `<div class="pal-title">Colour palette</div>${PALETTES.map((p) => `
+    <button class="pal-opt" role="menuitemradio" aria-checked="${p.id === current}" data-choose-palette="${p.id}" data-palette="${p.id}" data-theme="${theme}">
+      <span class="pal-chip" aria-hidden="true"><b>Aa</b><i></i></span>
+      <span class="pal-text"><span class="pal-name">${esc(p.name)}</span><span class="pal-desc">${esc(p.desc)}</span></span>
+      <span class="pal-check" aria-hidden="true">${p.id === current ? "●" : ""}</span>
+    </button>`).join("")}
+    <div class="pal-foot"><a href="#/palettes" data-close-palette>Compare all side by side →</a><span><kbd>P</kbd> cycles</span></div>`;
+}
+
+function togglePaletteMenu(open) {
+  const menu = $("#palette-menu"), btn = $("#palette-btn");
+  const show = open ?? menu.hidden;
+  menu.hidden = !show;
+  btn.setAttribute("aria-expanded", String(show));
+  if (show) menu.querySelector('[aria-checked="true"]')?.focus();
+}
+
+$("#palette-btn").addEventListener("click", (e) => { e.stopPropagation(); togglePaletteMenu(); });
+document.addEventListener("click", (e) => {
+  const opt = e.target.closest("[data-choose-palette]");
+  if (opt) { choosePalette(opt.dataset.choosePalette); return; }
+  if (e.target.closest("[data-close-palette]") || !e.target.closest(".palette-picker")) togglePaletteMenu(false);
 });
+
+$("#theme-toggle").addEventListener("click", () => {
+  const next = root.dataset.theme === "dark" ? "light" : "dark";
+  storeLook("theme", next);
+  applyLook({ theme: next });
+});
+// Follow the system's light/dark setting until the reader picks one.
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+  let chosen = null;
+  try { chosen = localStorage.getItem("pulse.theme"); } catch (err) { /* private mode */ }
+  if (!chosen) applyLook({ theme: e.matches ? "dark" : "light" });
+});
+
+/** The ECG mark: a faint trace that draws in once, then a bright pen with a
+    glowing tip sweeps along it each beat. Pen and tip are SMIL animations on
+    one clock so they never drift apart. `uid` keeps ids unique per page. */
+function heartbeat(uid, { delay = 1.2 } = {}) {
+  const d = "M2 22h30l7-15 10 30 9-24 6 9h54";
+  const t = `dur="1.35s" begin="${delay}s" repeatCount="indefinite"`;
+  return `<svg class="pulse-line" viewBox="0 0 120 40" aria-hidden="true">
+    <path id="ecg-${uid}" class="trace-base" pathLength="100" d="${d}" opacity=".38">
+      <animate attributeName="opacity" ${t} values=".38;.38;.75;.38;.38" keyTimes="0;0.1;0.2;0.36;1"/>
+    </path>
+    <path class="trace-pen" pathLength="100" d="${d}" stroke-dasharray="20 220" stroke-dashoffset="16">
+      <animate attributeName="stroke-dashoffset" ${t} values="20;-80;-100;-100" keyTimes="0;0.6;0.68;1"/>
+    </path>
+    <g opacity="0">
+      <circle class="trace-tip" r="3.6"/><circle class="trace-tip-core" r="1.3"/>
+      <animateMotion ${t} keyPoints="0;1;1" keyTimes="0;0.6;1" calcMode="linear"><mpath href="#ecg-${uid}"/></animateMotion>
+      <animate attributeName="opacity" ${t} values="0;1;1;0;0" keyTimes="0;0.04;0.58;0.64;1"/>
+    </g>
+  </svg>`;
+}
 
 // Keyboard navigation over stories.
 document.addEventListener("keydown", (e) => {
@@ -655,6 +768,12 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "/" && !typing) { e.preventDefault(); $("#search").focus(); return; }
   if (e.key === "Escape" && typing) { document.activeElement.blur(); return; }
   if (typing) return;
+  if (e.key === "Escape") { togglePaletteMenu(false); return; }
+  if (e.key === "p" || e.key === "P") {
+    const i = PALETTES.findIndex((p) => p.id === root.dataset.palette);
+    choosePalette(PALETTES[(i + 1) % PALETTES.length].id);
+    return;
+  }
   const cards = $$("#view .story");
   if (!cards.length) return;
   const move = (d) => {
@@ -679,6 +798,8 @@ function updateSavedCount() { $("#saved-count").textContent = state.saved.size |
 
 // ---------------------------------------------------------------- boot
 async function boot() {
+  $("#mast-pulse").outerHTML = heartbeat("mast");
+  applyLook({}, false);
   $("#dateline").textContent = new Date().toLocaleDateString(undefined, { weekday: "long", year: "numeric", month: "long", day: "numeric" });
   updateSavedCount();
   // Sticky day headers sit just under the section bar, whatever its height.

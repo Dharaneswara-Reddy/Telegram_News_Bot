@@ -1,0 +1,110 @@
+/* Colour palettes. Each one defines the full token set for a light and a
+   night edition. Selectors are attribute-scoped (not :root-only) so any
+   element can carry its own palette — the compare page renders every
+   palette side by side this way. app.js keeps data-palette and data-theme
+   on <html>; the list of palette names lives in PALETTES in app.js and in
+   the boot script in index.html. */
+
+/* ---- shared by every palette: category inks, grain, scheme ---- */
+[data-theme="light"] {
+  --c-models: #1f4fd8; --c-research: #0f766e; --c-opensource: #3f7d20; --c-agents: #b4237a;
+  --c-industry: #a16207; --c-policy: #9f1239; --c-events: #0369a1; --c-other: #6b6358;
+  --good: #2f6b1f; --bad: #b5300f;
+  --grain-opacity: .38; --grain-blend: multiply;
+  color-scheme: light;
+}
+[data-theme="dark"] {
+  --c-models: #8aa8ff; --c-research: #5ccfc2; --c-opensource: #9bd377; --c-agents: #f08cc8;
+  --c-industry: #e7b45a; --c-policy: #ff8fa3; --c-events: #72c3f5; --c-other: #b2a898;
+  --good: #8ccf6d; --bad: #ff8a62;
+  --grain-opacity: .22; --grain-blend: screen;
+  color-scheme: dark;
+}
+
+/* ---- Broadsheet: warm newsprint, ink, vermilion ---- */
+[data-palette="broadsheet"][data-theme="light"] {
+  --paper: #f4efe6; --paper-2: #ebe4d7; --paper-3: #e2d9c8;
+  --ink: #17140f; --ink-2: #4a443b; --ink-3: #7d7466; --rule: #d3c9b8;
+  --signal: #e2401b; --signal-ink: #b5300f; --on-signal: #fff; --marker: #ffe14d;
+  --ticker-bg: #17140f; --ticker-fg: #f4efe6;
+}
+[data-palette="broadsheet"][data-theme="dark"] {
+  --paper: #15120e; --paper-2: #1f1b15; --paper-3: #2a251d;
+  --ink: #efe8da; --ink-2: #bdb3a2; --ink-3: #8b8273; --rule: #3a3329;
+  --signal: #ff6b3d; --signal-ink: #ff8a62; --on-signal: #fff; --marker: #6b5a12;
+  --ticker-bg: #0a0806; --ticker-fg: #e6dccb;
+}
+
+/* ---- Salmon: pink financial paper, slate ink, claret ---- */
+[data-palette="salmon"][data-theme="light"] {
+  --paper: #fff1e5; --paper-2: #f7e4d4; --paper-3: #efd6c2;
+  --ink: #33302e; --ink-2: #5d5753; --ink-3: #85796f; --rule: #e6cdb8;
+  --signal: #990f3d; --signal-ink: #990f3d; --on-signal: #fff1e5; --marker: #ffc89b;
+  --ticker-bg: #262a33; --ticker-fg: #fff1e5;
+  --c-events: #0d7680;
+}
+[data-palette="salmon"][data-theme="dark"] {
+  --paper: #262a33; --paper-2: #2f343f; --paper-3: #3a404c;
+  --ink: #fff1e5; --ink-2: #d9c9bb; --ink-3: #a59b92; --rule: #474e5b;
+  --signal: #ff7fa6; --signal-ink: #ff9fbc; --on-signal: #2a0612; --marker: #6b3a52;
+  --ticker-bg: #1b1e25; --ticker-fg: #fff1e5;
+}
+
+/* ---- Riso: risograph print, federal-blue ink, fluorescent pink ---- */
+[data-palette="riso"][data-theme="light"] {
+  --paper: #f7f3ea; --paper-2: #efe9dc; --paper-3: #e6dfcf;
+  --ink: #1d2a5b; --ink-2: #44507a; --ink-3: #7a83a3; --rule: #d9d3c4;
+  --signal: #ff3fa4; --signal-ink: #d4127a; --on-signal: #fff; --marker: #ffe800;
+  --ticker-bg: #1d2a5b; --ticker-fg: #f7f3ea;
+}
+[data-palette="riso"][data-theme="dark"] {
+  --paper: #141a33; --paper-2: #1b2242; --paper-3: #242c52;
+  --ink: #f4efe4; --ink-2: #c3c6dc; --ink-3: #8b90b0; --rule: #2f3864;
+  --signal: #ff5cba; --signal-ink: #ff86cc; --on-signal: #fff; --marker: #6a5d00;
+  --ticker-bg: #0c1022; --ticker-fg: #f4efe4;
+}
+
+/* ---- Cobalt: Swiss white, black type, electric cobalt, acid highlight ---- */
+[data-palette="cobalt"][data-theme="light"] {
+  --paper: #f6f6f3; --paper-2: #ececE8; --paper-3: #e0e0db;
+  --ink: #0f0f10; --ink-2: #45464a; --ink-3: #7b7c80; --rule: #d4d4cf;
+  --signal: #2346ff; --signal-ink: #1a35c9; --on-signal: #fff; --marker: #d9ff3f;
+  --ticker-bg: #0f0f10; --ticker-fg: #f6f6f3;
+  --grain-opacity: .22;
+}
+[data-palette="cobalt"][data-theme="dark"] {
+  --paper: #0e0f12; --paper-2: #16181d; --paper-3: #1f222a;
+  --ink: #ededea; --ink-2: #b1b2b6; --ink-3: #7f8188; --rule: #2a2d35;
+  --signal: #5b7bff; --signal-ink: #8aa0ff; --on-signal: #fff; --marker: #4d5c00;
+  --ticker-bg: #050608; --ticker-fg: #ededea;
+  --grain-opacity: .14;
+}
+
+/* ---- Phosphor: CRT terminal green on black; mint paper by day ---- */
+[data-palette="phosphor"][data-theme="light"] {
+  --paper: #eef3ec; --paper-2: #e3ebe0; --paper-3: #d6e1d2;
+  --ink: #0f1d12; --ink-2: #3d5240; --ink-3: #6a806d; --rule: #c7d5c4;
+  --signal: #0a8f3c; --signal-ink: #077332; --on-signal: #fff; --marker: #c8ff4d;
+  --ticker-bg: #0b120c; --ticker-fg: #8dff9e;
+}
+[data-palette="phosphor"][data-theme="dark"] {
+  --paper: #0a0f0b; --paper-2: #101812; --paper-3: #17221a;
+  --ink: #d3f5d6; --ink-2: #8fc398; --ink-3: #5f8b67; --rule: #1f3024;
+  --signal: #39ff7a; --signal-ink: #6dff9c; --on-signal: #04140a; --marker: #2a5a00;
+  --ticker-bg: #050806; --ticker-fg: #7dffa0;
+  --grain-opacity: .16;
+}
+
+/* ---- Nocturne: midnight navy, cream type, amber ---- */
+[data-palette="nocturne"][data-theme="light"] {
+  --paper: #f3f1ec; --paper-2: #e9e6de; --paper-3: #dedad0;
+  --ink: #14213d; --ink-2: #3f4a63; --ink-3: #737b8f; --rule: #d3cfc3;
+  --signal: #e59a00; --signal-ink: #9c6400; --on-signal: #1a1200; --marker: #ffd36b;
+  --ticker-bg: #14213d; --ticker-fg: #f3f1ec;
+}
+[data-palette="nocturne"][data-theme="dark"] {
+  --paper: #0d1424; --paper-2: #131c30; --paper-3: #1a253d;
+  --ink: #ece6d6; --ink-2: #b5b2a8; --ink-3: #7e8296; --rule: #26304a;
+  --signal: #ffb627; --signal-ink: #ffc75a; --on-signal: #1a1200; --marker: #5a4300;
+  --ticker-bg: #070b15; --ticker-fg: #ece6d6;
+}

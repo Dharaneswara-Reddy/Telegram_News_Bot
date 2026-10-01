@@ -28,6 +28,10 @@ inbox, just a front page to open when you want to catch up.
 - **Briefs** — archive of daily briefings and weekly reviews.
 - **Saved / read state** — kept in your browser. Keyboard: `j`/`k` move,
   `o` open, `m` mark read, `s` save, `/` search.
+- **Palettes** — six colour schemes (Broadsheet, Salmon, Riso, Cobalt,
+  Phosphor, Nocturne), each with a day and night edition. Pick one from the
+  swatch button in the section bar, press `p` to cycle, or compare them all
+  at `#/palettes`. Link someone to a palette with `?palette=riso`.
 
 ## Where the news comes from
 
