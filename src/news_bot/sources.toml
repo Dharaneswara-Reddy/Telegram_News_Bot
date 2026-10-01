@@ -1,0 +1,548 @@
+# Where AI Pulse looks for news.
+#
+# Each [[source]] is one feed or API. Fields:
+#   id         stable snake_case id (changing it re-ingests the feed as new)
+#   name       display name
+#   url        RSS/Atom feed URL, or API endpoint for the special kinds
+#   kind       feed (RSS/Atom, default) | hn | hf_papers | hf_trending
+#   category   labs | research | opensource | analysis | news | community | events
+#   weight     1-5: how much this source counts toward ranking
+#              (5 = primary source for major announcements)
+#   include / exclude   optional case-insensitive regexes on titles
+#   max_age_days        ignore entries older than this (default 21)
+#   enabled    set false to mute a source without deleting it
+#
+# Check every source with:  uv run news-bot sources
+
+# ---------------------------------------------------------------- labs
+[[source]]
+id = "openai_news"
+name = "OpenAI"
+url = "https://openai.com/news/rss.xml"
+homepage = "https://openai.com/news/"
+category = "labs"
+weight = 5
+
+[[source]]
+id = "anthropic_news"
+name = "Anthropic"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
+homepage = "https://www.anthropic.com/news"
+category = "labs"
+weight = 5
+
+[[source]]
+id = "deepmind_blog"
+name = "Google DeepMind"
+url = "https://deepmind.google/blog/rss.xml"
+homepage = "https://deepmind.google/discover/blog/"
+category = "labs"
+weight = 5
+
+[[source]]
+id = "google_ai_blog"
+name = "Google AI"
+url = "https://blog.google/technology/ai/rss/"
+homepage = "https://blog.google/technology/ai/"
+category = "labs"
+weight = 4
+
+[[source]]
+id = "google_research"
+name = "Google Research"
+url = "https://research.google/blog/rss/"
+homepage = "https://research.google/blog/"
+category = "research"
+weight = 4
+
+[[source]]
+id = "microsoft_research"
+name = "Microsoft Research"
+url = "https://www.microsoft.com/en-us/research/feed/"
+homepage = "https://www.microsoft.com/en-us/research/blog/"
+category = "research"
+weight = 3
+
+[[source]]
+id = "nvidia_blog"
+name = "NVIDIA"
+url = "https://blogs.nvidia.com/feed/"
+homepage = "https://blogs.nvidia.com/"
+category = "labs"
+weight = 2
+exclude = "GeForce|gaming|\\bgames?\\b"
+
+[[source]]
+id = "apple_ml"
+name = "Apple Machine Learning"
+url = "https://machinelearning.apple.com/rss.xml"
+homepage = "https://machinelearning.apple.com/"
+category = "research"
+weight = 3
+max_age_days = 45
+
+[[source]]
+id = "huggingface_blog"
+name = "Hugging Face"
+url = "https://huggingface.co/blog/feed.xml"
+homepage = "https://huggingface.co/blog"
+category = "opensource"
+weight = 4
+
+[[source]]
+id = "aws_ml_blog"
+name = "AWS Machine Learning"
+url = "https://aws.amazon.com/blogs/machine-learning/feed/"
+homepage = "https://aws.amazon.com/blogs/machine-learning/"
+category = "labs"
+weight = 2
+
+[[source]]
+id = "bair_blog"
+name = "Berkeley AI Research"
+url = "https://bair.berkeley.edu/blog/feed.xml"
+homepage = "https://bair.berkeley.edu/blog/"
+category = "research"
+weight = 3
+max_age_days = 60
+
+[[source]]
+id = "anthropic_research"
+name = "Anthropic Research"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"
+homepage = "https://www.anthropic.com/research"
+category = "labs"
+weight = 4
+title_strip = "^[A-Z][a-z]{2} \\d{1,2}, \\d{4}(Science|Economics|Economic Research|Frontier Red Team|Societal Impacts|Alignment|Interpretability|Policy|Announcements|Product|Evaluations)?"
+
+[[source]]
+id = "claude_blog"
+name = "Claude"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_claude.xml"
+homepage = "https://claude.com/blog"
+category = "labs"
+weight = 4
+
+[[source]]
+id = "gemini_blog"
+name = "Gemini"
+url = "https://blog.google/products/gemini/rss/"
+homepage = "https://blog.google/products/gemini/"
+category = "labs"
+weight = 4
+
+[[source]]
+id = "meta_ai"
+name = "Meta AI"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml"
+homepage = "https://ai.meta.com/blog/"
+category = "labs"
+weight = 5
+max_age_days = 30
+
+[[source]]
+id = "mistral_news"
+name = "Mistral AI"
+url = "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/main/feeds/mistral-news.xml"
+homepage = "https://mistral.ai/news"
+category = "labs"
+weight = 5
+
+[[source]]
+id = "xai_news"
+name = "xAI"
+url = "https://raw.githubusercontent.com/0xSMW/rss-feeds/main/feeds/feed_xai_news.xml"
+homepage = "https://x.ai/news"
+category = "labs"
+weight = 5
+
+[[source]]
+id = "deepseek_updates"
+name = "DeepSeek"
+url = "https://raw.githubusercontent.com/tedzards509/ai-blogs-rss/main/feeds/feed_deepseek_updates.xml"
+homepage = "https://api-docs.deepseek.com/updates"
+category = "labs"
+weight = 5
+max_age_days = 30
+
+[[source]]
+id = "qwen_blog"
+name = "Qwen"
+url = "https://raw.githubusercontent.com/tedzards509/ai-blogs-rss/main/feeds/feed_qwen.xml"
+homepage = "https://qwen.ai/research"
+category = "labs"
+weight = 4
+max_age_days = 30
+
+[[source]]
+id = "zai_releases"
+name = "Z.ai (GLM)"
+url = "https://raw.githubusercontent.com/tedzards509/ai-blogs-rss/main/feeds/feed_zai_release_notes.xml"
+homepage = "https://docs.z.ai/release-notes/new-released"
+category = "labs"
+weight = 3
+max_age_days = 30
+
+[[source]]
+id = "cohere_blog"
+name = "Cohere"
+url = "https://raw.githubusercontent.com/tedzards509/ai-blogs-rss/main/feeds/feed_cohere.xml"
+homepage = "https://cohere.com/blog"
+category = "labs"
+weight = 2
+max_items = 15
+
+[[source]]
+id = "microsoft_ai_blog"
+name = "Microsoft AI"
+url = "https://www.microsoft.com/en-us/ai/blog/feed/"
+homepage = "https://www.microsoft.com/en-us/ai/blog/"
+category = "labs"
+weight = 3
+
+[[source]]
+id = "thinking_machines"
+name = "Thinking Machines"
+url = "https://thinkingmachines.ai/blog/index.xml"
+homepage = "https://thinkingmachines.ai/blog/"
+category = "labs"
+weight = 4
+max_age_days = 90
+
+# ---------------------------------------------------------------- research
+[[source]]
+id = "hf_daily_papers"
+name = "HF Daily Papers"
+url = "https://huggingface.co/api/daily_papers"
+homepage = "https://huggingface.co/papers"
+kind = "hf_papers"
+category = "research"
+weight = 3
+max_items = 15
+min_upvotes = 5
+days = 3
+
+[[source]]
+id = "ai2_blog"
+name = "Ai2"
+url = "https://allenai.org/rss.xml"
+homepage = "https://allenai.org/blog"
+category = "research"
+weight = 3
+
+[[source]]
+id = "sakana_ai"
+name = "Sakana AI"
+url = "https://sakana.ai/feed.xml"
+homepage = "https://sakana.ai/blog/"
+category = "research"
+weight = 3
+max_age_days = 45
+
+[[source]]
+id = "epoch_ai"
+name = "Epoch AI"
+url = "https://epochai.substack.com/feed"
+homepage = "https://epoch.ai/"
+category = "research"
+weight = 3
+
+[[source]]
+id = "amazon_science"
+name = "Amazon Science"
+url = "https://www.amazon.science/index.rss"
+homepage = "https://www.amazon.science/"
+category = "research"
+weight = 2
+
+# ---------------------------------------------------------------- analysis
+
+[[source]]
+id = "simon_willison"
+name = "Simon Willison"
+url = "https://simonwillison.net/atom/entries/"
+homepage = "https://simonwillison.net/"
+category = "analysis"
+weight = 4
+
+[[source]]
+id = "import_ai"
+name = "Import AI"
+url = "https://importai.substack.com/feed"
+homepage = "https://importai.substack.com/"
+category = "analysis"
+weight = 4
+max_age_days = 30
+
+[[source]]
+id = "interconnects"
+name = "Interconnects"
+url = "https://www.interconnects.ai/feed"
+homepage = "https://www.interconnects.ai/"
+category = "analysis"
+weight = 4
+max_age_days = 30
+
+[[source]]
+id = "latent_space"
+name = "Latent Space"
+url = "https://www.latent.space/feed"
+homepage = "https://www.latent.space/"
+category = "analysis"
+weight = 4
+max_age_days = 30
+
+[[source]]
+id = "ahead_of_ai"
+name = "Ahead of AI"
+url = "https://magazine.sebastianraschka.com/feed"
+homepage = "https://magazine.sebastianraschka.com/"
+category = "analysis"
+weight = 4
+max_age_days = 45
+
+[[source]]
+id = "one_useful_thing"
+name = "One Useful Thing"
+url = "https://www.oneusefulthing.org/feed"
+homepage = "https://www.oneusefulthing.org/"
+category = "analysis"
+weight = 3
+max_age_days = 30
+
+[[source]]
+id = "last_week_in_ai"
+name = "Last Week in AI"
+url = "https://lastweekin.ai/feed"
+homepage = "https://lastweekin.ai/"
+category = "analysis"
+weight = 3
+
+[[source]]
+id = "lilian_weng"
+name = "Lil'Log (Lilian Weng)"
+url = "https://lilianweng.github.io/index.xml"
+homepage = "https://lilianweng.github.io/"
+category = "analysis"
+weight = 4
+max_age_days = 90
+
+[[source]]
+id = "artificial_analysis"
+name = "Artificial Analysis"
+url = "https://raw.githubusercontent.com/tedzards509/ai-blogs-rss/main/feeds/feed_artificialanalysis.xml"
+homepage = "https://artificialanalysis.ai/"
+category = "analysis"
+weight = 4
+
+[[source]]
+id = "uk_aisi"
+name = "UK AI Security Institute"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_aisi.xml"
+homepage = "https://www.aisi.gov.uk/"
+category = "analysis"
+weight = 3
+
+[[source]]
+id = "semianalysis"
+name = "SemiAnalysis"
+url = "https://newsletter.semianalysis.com/feed"
+homepage = "https://semianalysis.com/"
+category = "analysis"
+weight = 3
+
+[[source]]
+id = "understanding_ai"
+name = "Understanding AI"
+url = "https://www.understandingai.org/feed"
+homepage = "https://www.understandingai.org/"
+category = "analysis"
+weight = 3
+max_age_days = 30
+
+[[source]]
+id = "bens_bites"
+name = "Ben's Bites"
+url = "https://www.bensbites.com/feed"
+homepage = "https://www.bensbites.com/"
+category = "analysis"
+weight = 2
+
+[[source]]
+id = "ai_snake_oil"
+name = "AI as Normal Technology"
+url = "https://www.aisnakeoil.com/feed"
+homepage = "https://www.aisnakeoil.com/"
+category = "analysis"
+weight = 2
+max_age_days = 30
+
+[[source]]
+id = "karpathy"
+name = "Andrej Karpathy"
+url = "https://karpathy.bearblog.dev/feed/"
+homepage = "https://karpathy.bearblog.dev/"
+category = "analysis"
+weight = 4
+max_age_days = 365
+
+# ---------------------------------------------------------------- news
+[[source]]
+id = "the_decoder"
+name = "The Decoder"
+url = "https://the-decoder.com/feed/"
+homepage = "https://the-decoder.com/"
+category = "news"
+weight = 3
+
+[[source]]
+id = "verge_ai"
+name = "The Verge"
+url = "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+homepage = "https://www.theverge.com/ai-artificial-intelligence"
+category = "news"
+weight = 3
+
+[[source]]
+id = "techcrunch_ai"
+name = "TechCrunch"
+url = "https://techcrunch.com/category/artificial-intelligence/feed/"
+homepage = "https://techcrunch.com/category/artificial-intelligence/"
+category = "news"
+weight = 3
+
+[[source]]
+id = "ars_ai"
+name = "Ars Technica"
+url = "https://arstechnica.com/ai/feed/"
+homepage = "https://arstechnica.com/ai/"
+category = "news"
+weight = 3
+
+[[source]]
+id = "mit_tech_review_ai"
+name = "MIT Technology Review"
+url = "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+homepage = "https://www.technologyreview.com/topic/artificial-intelligence/"
+category = "news"
+weight = 3
+
+[[source]]
+id = "wired_ai"
+name = "Wired"
+url = "https://www.wired.com/feed/tag/ai/latest/rss"
+homepage = "https://www.wired.com/tag/artificial-intelligence/"
+category = "news"
+weight = 2
+
+[[source]]
+id = "ieee_spectrum_ai"
+name = "IEEE Spectrum"
+url = "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+homepage = "https://spectrum.ieee.org/topic/artificial-intelligence/"
+category = "news"
+weight = 2
+
+# ---------------------------------------------------------------- community
+[[source]]
+id = "hacker_news"
+name = "Hacker News"
+url = "https://hn.algolia.com/api/v1/search_by_date"
+homepage = "https://news.ycombinator.com/"
+kind = "hn"
+category = "community"
+weight = 3
+min_points = 80
+lookback_hours = 36
+
+[[source]]
+id = "lobsters_ai"
+name = "Lobsters"
+url = "https://lobste.rs/t/ai.rss"
+homepage = "https://lobste.rs/t/ai"
+category = "community"
+weight = 2
+
+# ---------------------------------------------------------------- open source
+[[source]]
+id = "hf_trending_models"
+name = "Hugging Face Trending"
+url = "https://huggingface.co/api/models"
+homepage = "https://huggingface.co/models?sort=trending"
+kind = "hf_trending"
+category = "opensource"
+weight = 3
+min_downloads = 1000
+top_n = 15
+
+[[source]]
+id = "gh_vllm"
+name = "vLLM releases"
+url = "https://github.com/vllm-project/vllm/releases.atom"
+homepage = "https://github.com/vllm-project/vllm/releases"
+category = "opensource"
+weight = 2
+exclude = "rc\\d*|alpha|beta|dev|nightly"
+
+[[source]]
+id = "gh_ollama"
+name = "Ollama releases"
+url = "https://github.com/ollama/ollama/releases.atom"
+homepage = "https://github.com/ollama/ollama/releases"
+category = "opensource"
+weight = 2
+exclude = "rc\\d*|alpha|beta|dev|nightly"
+
+[[source]]
+id = "gh_transformers"
+name = "Transformers releases"
+url = "https://github.com/huggingface/transformers/releases.atom"
+homepage = "https://github.com/huggingface/transformers/releases"
+category = "opensource"
+weight = 2
+exclude = "rc\\d*|alpha|beta|dev|nightly|patch release"
+
+[[source]]
+id = "gh_claude_code"
+name = "Claude Code releases"
+url = "https://github.com/anthropics/claude-code/releases.atom"
+homepage = "https://github.com/anthropics/claude-code/releases"
+category = "opensource"
+weight = 2
+max_items = 5
+
+[[source]]
+id = "gh_codex"
+name = "OpenAI Codex CLI releases"
+url = "https://github.com/openai/codex/releases.atom"
+homepage = "https://github.com/openai/codex/releases"
+category = "opensource"
+weight = 2
+max_items = 5
+exclude = "alpha|beta|rc\\d*|nightly"
+
+[[source]]
+id = "gh_gemini_cli"
+name = "Gemini CLI releases"
+url = "https://github.com/google-gemini/gemini-cli/releases.atom"
+homepage = "https://github.com/google-gemini/gemini-cli/releases"
+category = "opensource"
+weight = 2
+max_items = 5
+exclude = "preview|nightly|alpha|beta|rc\\d*"
+
+[[source]]
+id = "pytorch_blog"
+name = "PyTorch"
+url = "https://pytorch.org/feed/"
+homepage = "https://pytorch.org/blog/"
+category = "opensource"
+weight = 3
+
+[[source]]
+id = "ollama_blog"
+name = "Ollama"
+url = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml"
+homepage = "https://ollama.com/blog"
+category = "opensource"
+weight = 3

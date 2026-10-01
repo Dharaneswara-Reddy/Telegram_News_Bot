@@ -1,0 +1,182 @@
+[
+ {
+  "name": "COLM 2026",
+  "dates": "Oct 6–9, 2026 (workshops Oct 9)",
+  "start": "2026-10-06",
+  "end": "2026-10-09",
+  "location": "San Francisco, CA, USA",
+  "deadline": null,
+  "url": "https://colm.org/",
+  "estimated": false
+ },
+ {
+  "name": "EMNLP 2026",
+  "dates": "Oct 24–29, 2026",
+  "start": "2026-10-24",
+  "end": "2026-10-29",
+  "location": "Budapest, Hungary (hybrid)",
+  "deadline": null,
+  "url": "https://2026.emnlp.org/",
+  "estimated": false
+ },
+ {
+  "name": "CoRL 2026",
+  "dates": "Nov 9–12, 2026 (main Nov 9–11, workshops Nov 12)",
+  "start": "2026-11-09",
+  "end": "2026-11-12",
+  "location": "Austin, TX, USA",
+  "deadline": null,
+  "url": "https://www.corl.org/",
+  "estimated": false
+ },
+ {
+  "name": "NeurIPS 2026",
+  "dates": "Dec 6–12, 2026 (Sydney main); satellites Dec 9–13 in Atlanta and Paris",
+  "start": "2026-12-06",
+  "end": "2026-12-13",
+  "location": "Sydney, Australia + Atlanta, USA + Paris, France",
+  "deadline": null,
+  "url": "https://neurips.cc/Conferences/2026",
+  "estimated": false
+ },
+ {
+  "name": "WACV 2027",
+  "dates": "Jan 4–8, 2027",
+  "start": "2027-01-04",
+  "end": "2027-01-08",
+  "location": "Orlando, FL, USA",
+  "deadline": null,
+  "url": "https://www.thecvf.com/",
+  "estimated": false
+ },
+ {
+  "name": "AAAI-27",
+  "dates": "Feb 16–23, 2027",
+  "start": "2027-02-16",
+  "end": "2027-02-23",
+  "location": "Montréal, Canada",
+  "deadline": "2026-07-28",
+  "url": "https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/",
+  "estimated": false
+ },
+ {
+  "name": "ICLR 2027",
+  "dates": "Apr 26–30, 2027",
+  "start": "2027-04-26",
+  "end": "2027-04-30",
+  "location": "California, USA (city TBA)",
+  "deadline": "2026-09-25",
+  "url": "https://iclr.cc/Conferences/2027",
+  "estimated": false
+ },
+ {
+  "name": "NAACL 2027",
+  "dates": "Jun 1–5, 2027",
+  "start": "2027-06-01",
+  "end": "2027-06-05",
+  "location": "San Francisco, CA, USA",
+  "deadline": "2026-10-12",
+  "url": "https://2027.naacl.org/",
+  "estimated": false
+ },
+ {
+  "name": "CVPR 2027",
+  "dates": "Jun 20–25, 2027 (workshops Jun 20–21, main Jun 22–25)",
+  "start": "2027-06-20",
+  "end": "2027-06-25",
+  "location": "Seattle, WA, USA",
+  "deadline": "2026-11-16",
+  "url": "https://cvpr.thecvf.com/Conferences/2027/Dates",
+  "estimated": false
+ },
+ {
+  "name": "ICML 2027",
+  "dates": "~July 2027 (exact dates and city TBA)",
+  "start": "2027-07-04",
+  "end": "2027-07-09",
+  "location": "South America (city TBA)",
+  "deadline": null,
+  "url": "https://icml.cc/Conferences/FutureMeetings",
+  "estimated": true
+ },
+ {
+  "name": "KDD 2027",
+  "dates": "August 2027 (exact days TBA; ~Aug 1–5 reported)",
+  "start": "2027-08-01",
+  "end": "2027-08-05",
+  "location": "San Jose, CA, USA",
+  "deadline": null,
+  "url": "https://kdd2027.kdd.org/",
+  "estimated": true
+ },
+ {
+  "name": "IJCAI 2027",
+  "dates": "Aug 7–13, 2027 (satellite in Hengqin, China, Aug 15–17)",
+  "start": "2027-08-07",
+  "end": "2027-08-13",
+  "location": "Kyoto, Japan",
+  "deadline": "2027-01-11",
+  "url": "https://2027.ijcai.org/",
+  "estimated": false
+ },
+ {
+  "name": "ACL 2027",
+  "dates": "Aug 17–22, 2027 (main conference Aug 20–22)",
+  "start": "2027-08-17",
+  "end": "2027-08-22",
+  "location": "Kyoto, Japan",
+  "deadline": "2027-01-04",
+  "url": "https://2027.aclweb.org/",
+  "estimated": false
+ },
+ {
+  "name": "COLM 2027",
+  "dates": "~October 2027 (TBA)",
+  "start": "2027-10-01",
+  "end": "2027-10-31",
+  "location": "TBA",
+  "deadline": null,
+  "url": "https://colm.org/",
+  "estimated": true
+ },
+ {
+  "name": "ICCV 2027",
+  "dates": "Oct 2–8, 2027",
+  "start": "2027-10-02",
+  "end": "2027-10-08",
+  "location": "Hong Kong",
+  "deadline": null,
+  "url": "https://www.thecvf.com/",
+  "estimated": false
+ },
+ {
+  "name": "EMNLP 2027",
+  "dates": "~Oct–Nov 2027 (TBA)",
+  "start": "2027-10-15",
+  "end": "2027-11-15",
+  "location": "TBA",
+  "deadline": null,
+  "url": "https://www.aclweb.org/",
+  "estimated": true
+ },
+ {
+  "name": "CoRL 2027",
+  "dates": "~Nov 2027 (TBA)",
+  "start": "2027-11-01",
+  "end": "2027-11-30",
+  "location": "TBA",
+  "deadline": null,
+  "url": "https://www.corl.org/",
+  "estimated": true
+ },
+ {
+  "name": "NeurIPS 2027",
+  "dates": "~December 2027 (TBA)",
+  "start": "2027-12-01",
+  "end": "2027-12-15",
+  "location": "Europe (city TBA)",
+  "deadline": null,
+  "url": "https://neurips.cc/Conferences/FutureMeetings",
+  "estimated": true
+ }
+]

@@ -1,0 +1,97 @@
+name: Collect & publish
+
+on:
+  schedule:
+    # Every two hours, off the top of the hour when GitHub's scheduler is busiest.
+    - cron: "17 */2 * * *"
+  workflow_dispatch: {} # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "content/**"
+      - "src/**"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".github/workflows/news.yml"
+
+permissions:
+  contents: write # push the archive to the data branch
+  pages: write
+  id-token: write
+  actions: write # keep this scheduled workflow from being auto-disabled
+
+# Runs push the data branch with --force, so two must never overlap.
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DATA_REMOTE: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Check out the news archive (data branch)
+        run: |
+          if git ls-remote --exit-code --heads "$DATA_REMOTE" data >/dev/null; then
+            git clone --quiet --depth 1 --branch data "$DATA_REMOTE" data-store
+          else
+            echo "No data branch yet; starting a fresh archive."
+            mkdir -p data-store
+          fi
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Set up Python
+        run: uv python install 3.13
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Collect, summarise and build the site
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # Optional repo variables (Settings → Secrets and variables → Variables).
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+          NEWS_TZ: ${{ vars.NEWS_TZ || 'Asia/Kolkata' }}
+        run: uv run news-bot run --data-dir data-store --out _site
+
+      - name: Save the archive to the data branch
+        # One squashed commit, force-pushed: the archive lives in the files,
+        # not in git history, so the repository never grows without bound.
+        run: |
+          cd data-store
+          rm -rf .git
+          git init --quiet --initial-branch data
+          git add --all
+          git -c user.name="ai-pulse-bot" -c user.email="ai-pulse-bot@users.noreply.github.com" \
+            commit --quiet -m "News archive as of $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --quiet --force "$DATA_REMOTE" data
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Keep the schedule alive
+        # GitHub disables cron workflows after 60 days without repository
+        # activity; re-enabling is a no-op that resets that clock.
+        run: gh workflow enable news.yml --repo "${{ github.repository }}" || true
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

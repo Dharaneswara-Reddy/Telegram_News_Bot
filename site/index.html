@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AI Pulse</title>
+  <meta name="description" content="An independent daily broadsheet of artificial intelligence: models, research, open source, tools, industry and policy.">
+  <meta name="theme-color" content="#f4efe6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#15120e" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400..600&family=Schibsted+Grotesk:wght@400..700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { const t = localStorage.getItem("pulse.theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#view">Skip to stories</a>
+
+  <div class="ticker" aria-label="Latest headlines">
+    <span class="ticker-label"><i class="beat" aria-hidden="true"></i>Latest</span>
+    <div class="ticker-window"><div class="ticker-track" id="ticker"></div></div>
+  </div>
+
+  <header class="masthead">
+    <div class="mast-meta">
+      <span id="dateline"></span>
+      <span id="edition" class="edition"></span>
+    </div>
+    <a class="wordmark" href="#/today" aria-label="AI Pulse — front page">
+      <span>AI</span>
+      <svg class="pulse-line" viewBox="0 0 120 40" aria-hidden="true"><path d="M2 22h30l7-15 10 30 9-24 6 9h54"/></svg>
+      <span>Pulse</span>
+    </a>
+    <p class="motto">The state of artificial intelligence, gathered every two hours</p>
+  </header>
+
+  <nav class="sections" id="nav" aria-label="Sections">
+    <a class="mini-mark" href="#/today" aria-hidden="true" tabindex="-1">AI&nbsp;Pulse</a>
+    <div class="section-links">
+      <a href="#/today" data-route="today">Front page</a>
+      <a href="#/feed" data-route="feed">All news</a>
+      <a href="#/research" data-route="research">Research</a>
+      <a href="#/opensource" data-route="opensource">Open source</a>
+      <a href="#/conferences" data-route="conferences">Conferences</a>
+      <a href="#/catchup" data-route="catchup">Catch up</a>
+      <a href="#/briefs" data-route="briefs">Briefs</a>
+      <a href="#/saved" data-route="saved">Saved<sup id="saved-count"></sup></a>
+      <a href="#/sources" data-route="sources">Sources</a>
+    </div>
+    <form class="search" role="search" id="search-form">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.6-4.6"/></svg>
+      <input id="search" type="search" placeholder="Search" autocomplete="off" aria-label="Search stories">
+      <kbd aria-hidden="true">/</kbd>
+    </form>
+    <button class="theme-btn" id="theme-toggle" type="button" title="Switch edition">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+      <span class="sr">Toggle night edition</span>
+    </button>
+  </nav>
+
+  <main id="view" tabindex="-1">
+    <div class="loading"><span class="beat"></span> Setting the type…</div>
+  </main>
+
+  <footer class="colophon">
+    <span>AI Pulse — set in Newsreader, Schibsted Grotesk &amp; JetBrains Mono.</span>
+    <span id="colophon-run"></span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>

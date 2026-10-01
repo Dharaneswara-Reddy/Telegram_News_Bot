@@ -1,11 +1,12 @@
 [project]
 name = "news-bot"
 version = "0.1.0"
-description = "AI release-notes watcher — monitors official AI product pages hourly and sends Telegram alerts summarized by Groq."
+description = "AI Pulse — collects AI news, research and releases from feeds and APIs, ranks and summarizes them with Groq, and publishes a static reading site."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.13"
 dependencies = [
+    "feedparser>=6.0.11",
     "requests>=2.31.0",
 ]
 
@@ -15,8 +16,7 @@ build-backend = "hatchling.build"
 
 
 [project.scripts]
-news-bot = "news_bot.check_updates:main"
-manage-sources = "news_bot.manage_sources:main"
+news-bot = "news_bot.cli:main"
 
 [dependency-groups]
 dev = [

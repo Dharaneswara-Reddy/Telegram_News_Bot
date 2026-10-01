@@ -1,167 +1,102 @@
-# AI release-notes watcher
+# AI Pulse
 
-Checks a configurable list of official AI product pages (Anthropic, OpenAI,
-Google/Gemini, Microsoft Copilot by default — add your own anytime) once an
-hour, and sends a Telegram message for anything genuinely new, summarized
-by Groq.
+A personal broadsheet for artificial intelligence. Every two hours it
+collects news, research and releases from 60+ machine-readable sources,
+de-duplicates the same story across outlets, has an LLM summarise and rank
+everything, and publishes a static reading site — no notifications, no
+inbox, just a front page to open when you want to catch up.
 
-## What it does each run
+**Live site:** https://dharaneswara-reddy.github.io/Telegram_News_Bot/
 
-1. Reads the current source list from Upstash Redis (seeded with 11
-   defaults the first time it's ever run).
-2. Fetches each page and compares it against the last snapshot saved for
-   that source (also in Upstash).
-3. If new lines appear, extracts just the new fragment (not the whole
-   page).
-4. Sends that fragment to Groq, asking for a small explanation and a
-   "how/where an average developer could use this" note.
-5. Posts the result to your Telegram chat in the four-field format.
-6. Saves the new snapshot so next hour's check only flags what's new
-   *since this run*.
+## What you get
 
-The first time it ever checks a given source, it saves a baseline silently
-— it won't dump a "summary" of an entire existing page on day one, since
-that's not actually new information.
+- **Front page** — the lead story, *The Briefing* (an LLM-written rundown
+  of the last 24 hours with links to every source), top stories set in
+  newspaper columns, fresh research, trending open models and upcoming
+  conferences.
+- **All news** — every story, filterable by topic (models, research, open
+  source, agents & dev tools, industry, policy, events), time window and
+  importance. Search across 60 days.
+- **Research** — Hugging Face Daily Papers ranked by community upvotes, plus
+  lab and analyst research posts.
+- **Open source** — what's trending on Hugging Face and notable releases
+  (vLLM, Ollama, Transformers, Claude Code, Codex, Gemini CLI, PyTorch…).
+- **Conferences** — NeurIPS, ICLR, ICML, CVPR, ACL and the rest, with
+  countdowns and paper deadlines.
+- **Catch up** — a guided tour of October 2025 → October 2026 for anyone
+  who looked away for a year, with progress tracking.
+- **Briefs** — archive of daily briefings and weekly reviews.
+- **Saved / read state** — kept in your browser. Keyboard: `j`/`k` move,
+  `o` open, `m` mark read, `s` save, `/` search.
 
-## Architecture
+## Where the news comes from
 
-- `check_updates.py` — the main script, run on a schedule. No hardcoded
-  source list anymore; pulls sources from storage at runtime.
-- `storage.py` — thin wrapper around Upstash Redis's REST API. Holds the
-  sources list (one Redis key, a JSON list) and one snapshot per source
-  (one Redis key each). Plain HTTPS calls, no persistent connection or
-  driver — suits a script that starts cold every hour.
-- `manage_sources.py` — small CLI for adding/removing/listing sources
-  without touching `check_updates.py` or redeploying anything.
+Structured feeds and APIs only — nothing scrapes or diffs web pages.
 
-State lives entirely in Upstash now — nothing is written back to the repo,
-so the GitHub Action doesn't need write permissions and there's no commit
-history to manage.
+| Desk | Examples |
+| --- | --- |
+| Labs | OpenAI, Anthropic, Google DeepMind, Gemini, Meta AI, Mistral, xAI, DeepSeek, Qwen, Microsoft, NVIDIA, Thinking Machines |
+| Research | HF Daily Papers, Google Research, Apple ML, Microsoft Research, Ai2, Sakana, Epoch AI, BAIR |
+| Analysis | Simon Willison, Import AI, Interconnects, Latent Space (AINews), Artificial Analysis, Ahead of AI, SemiAnalysis, Karpathy |
+| News | The Decoder, The Verge, TechCrunch, Ars Technica, MIT Technology Review, Wired, IEEE Spectrum |
+| Community | Hacker News (AI stories above a points bar), Lobsters |
+| Open source | Hugging Face trending models & blog, GitHub releases, PyTorch, Ollama |
 
-## One-time setup
+Labs without official RSS (Anthropic, Meta, Mistral, xAI, DeepSeek, Qwen)
+are covered through maintained community-generated feeds. The full list,
+with weights, lives in [`src/news_bot/sources.toml`](src/news_bot/sources.toml);
+the **Sources** page on the site shows each one's live health.
 
-### 1. Make a Telegram bot and get your chat ID
+## How it works
 
-- Open Telegram, message **@BotFather**, send `/newbot`, follow the prompts.
-  You'll get a token that looks like `123456789:AAH...` — that's
-  `TELEGRAM_BOT_TOKEN`.
-- Send your new bot any message (e.g. "hi") so it has a conversation to
-  reply into.
-- Visit `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates` in a browser
-  (replace `<YOUR_TOKEN>`). Look for `"chat":{"id": ...}` in the response —
-  that number is your `TELEGRAM_CHAT_ID`.
-
-### 2. Get a Groq API key
-
-- Sign up at console.groq.com, create an API key. That's `GROQ_API_KEY`.
-- Free tier is plenty for ~11 pages checked hourly — this is a tiny amount
-  of token volume per day.
-- The model is set by `GROQ_MODEL` and defaults to `openai/gpt-oss-120b`,
-  with `openai/gpt-oss-20b` as an automatic fallback. Groq retires model
-  ids periodically; when that happens the chat endpoint returns a 404 and
-  the watcher logs the reason from the response body. Check
-  `https://api.groq.com/openai/v1/models` for what's currently live and
-  set `GROQ_MODEL` to a working id.
-
-### 3. Set up Upstash Redis (free tier)
-
-- Sign up at upstash.com (no credit card needed for the free tier).
-- Create a new Redis database. Any region is fine — this isn't
-  latency-sensitive.
-- On the database's detail page, find the **REST API** section. You need
-  two values: `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`
-  (sometimes shown as just "URL" and "Token" — they're right next to each
-  other, copy both).
-- Free tier covers this comfortably: 11 sources checked hourly is roughly
-  22 Redis commands/hour (one read + one write per source), nowhere close
-  to free-tier daily limits.
-
-### 4. Put this in a GitHub repo
-
-- Create a new repo (can be private), push this `news-bot/` folder into it
-  (including the `.github/workflows/watch.yml` file — that path matters,
-  GitHub only picks up workflows from exactly `.github/workflows/`).
-- Go to **Settings → Secrets and variables → Actions** in the repo, and add
-  five repository secrets: `GROQ_API_KEY`, `TELEGRAM_BOT_TOKEN`,
-  `TELEGRAM_CHAT_ID`, `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`,
-  using the values from steps 1–3.
-- Go to the **Actions** tab, find "AI release-notes watcher," and click
-  **Run workflow** to trigger it manually once — this both tests that
-  everything's wired correctly and establishes the baseline snapshot for
-  every source (so you won't get an 11-message flood the first real hour).
-- After that first manual run, it'll run automatically every hour via the
-  cron schedule. No further action needed.
-
-## Adding or removing sources
-
-This is the part that used to require editing Python — now it doesn't.
-From any machine with Python and the same Upstash credentials set as
-environment variables:
-
-```bash
-# See what's currently being watched
-python manage_sources.py list
-
-# Add a new source — id should be short/stable/no-spaces, label is what
-# shows in the "Who posted" field, mode is rolling_log (changelog-style,
-# one accumulating page) or article_list (news/blog index with discrete
-# posts) — both currently behave the same, the distinction just documents
-# intent for future tuning
-python manage_sources.py add mistral_news "Mistral AI" https://mistral.ai/news/ article_list
-
-# Remove one
-python manage_sources.py remove mistral_news
+```
+GitHub Actions (every 2h)
+  fetch 60+ feeds/APIs concurrently ─► archive (data branch, one JSON file per day)
+  ─► Groq: summary · "why it matters" · topic · importance 1-5 (batched, rate-limit aware)
+  ─► cluster the same event across sources ─► rank
+  ─► Groq: daily brief + weekly review
+  ─► build static site ─► GitHub Pages
 ```
 
-A newly added source gets the same silent-baseline treatment as the
-original 11 did — its first check just establishes a starting point, no
-message is sent for "everything currently on the page," only for what's
-new after that.
+- `src/news_bot/fetchers.py` — RSS/Atom (feedparser), Hacker News Algolia,
+  HF Daily Papers and HF trending adapters. A failing source is reported on
+  the Sources page, never fatal.
+- `src/news_bot/llm.py` — Groq client that rotates across models (each has
+  its own free-tier token bucket), honours rate-limit headers, and detects
+  retired model ids automatically.
+- `src/news_bot/enrich.py` — prompts and validation for summaries and briefs.
+- `src/news_bot/cluster.py` — merges coverage of one event (same URL, or
+  matching rare names like "Gemini 4 Argon") into one story.
+- `src/news_bot/store.py` — the archive, kept on the `data` branch as one
+  squashed commit so the repo never grows.
+- `site/` — the reader: plain HTML/CSS/JS, no build step.
+- `content/` — the curated catch-up guide and conference calendar.
 
-If you'd rather not run this from your own machine, you can also trigger
-it via a one-off `workflow_dispatch` style manual Action run — but a
-script with an `add`/`remove` command isn't something a scheduled trigger
-maps onto cleanly, so running it locally (or wherever you have Python) is
-the more natural fit here.
+## Setup
 
-## A few things worth knowing going in
+Already done for this repository; for a fork:
 
-- **The first run for each source is silent by design.** This applies to
-  the original 11 *and* anything you add later via `manage_sources.py`.
-- **Some sources will rarely fire.** Pages like the OpenAI/Anthropic news
-  pages update in bursts (a model launch, then quiet for days). Pages like
-  changelogs update more often but sometimes in small increments. This is
-  expected — an hourly check on a page that updates twice a week will
-  mostly say "no change."
-- **If a Groq or Telegram call fails mid-run, that source's snapshot is
-  deliberately *not* updated**, so the same new content gets retried on the
-  next run instead of silently disappearing. You may occasionally see the
-  same item attempted twice if e.g. Telegram's API hiccups right after Groq
-  succeeded — rare, but worth knowing the failure mode is "retry" not
-  "silent gap."
-- **The page-scraping is intentionally simple** (regex tag-stripping, not a
-  full HTML/JS-rendering browser). The default 11 sources are all
-  server-rendered pages, so this works, but if you add a source that's a
-  heavy JavaScript-rendered single-page app, this approach won't see its
-  content — that would need a headless browser instead, which is a bigger
-  dependency than this project currently carries.
-- **Diff quality on `rolling_log` pages depends on line-level changes being
-  genuinely new lines**, not reformatted versions of old lines (e.g. if a
-  site re-renders its whole changelog with different whitespace/wrapping
-  on every request, the diff could over-trigger). If you notice a specific
-  source behaving oddly after a week of real use, that's the first place
-  to look — not a sign the whole approach is broken.
-- **Cost**: GitHub Actions free tier covers way more than 24 runs/day for a
-  public repo, and a comfortable amount even for a private repo on the
-  free plan. Groq's free tier covers this volume easily. Upstash's free
-  tier covers it easily too. Telegram is free. This should cost you
-  nothing to run as-is, even as you add a handful more sources.
-- **This watches official sources only, by design.** It does not search
-  Reddit, Medium, Hacker News, or general web search — those surfaces
-  involve people reacting to news, not the news itself, and mixing
-  "company announced X" with "someone's blog post about X" in the same
-  feed makes the feed harder to trust, not more useful. If you want to
-  track something outside official channels later, the cleanest way is
-  still adding it as its own labeled source via `manage_sources.py` — the
-  bot will just treat it as one more page to diff, same as everything
-  else.
+1. **Groq key** — create a free key at console.groq.com and add it as the
+   repository secret `GROQ_API_KEY`.
+2. **Pages** — Settings → Pages → Source: *GitHub Actions*.
+3. **Run** — Actions → *Collect & publish* → *Run workflow*. After that it
+   runs every two hours by itself.
+
+Optional repository variables: `GROQ_MODEL` (preferred model) and `NEWS_TZ`
+(timezone for daily-brief dates, default `Asia/Kolkata`).
+
+## Local use
+
+```sh
+uv sync --dev
+cp .env.example .env               # add GROQ_API_KEY
+set -a; . ./.env; set +a
+uv run news-bot run                # fetch + summarise + build into _site/
+uv run news-bot serve              # http://localhost:8000
+uv run news-bot sources            # health check of every source
+uv run news-bot build              # rebuild site from stored data, no network
+uv run pytest && uv run ruff check src tests
+```
+
+To add a source, append a `[[source]]` block to `sources.toml` and run
+`uv run news-bot sources <id>` to check it.

@@ -40,3 +40,7 @@ Thumbs.db
 # Distribution
 *.tar.gz
 *.zip
+
+# AI Pulse local data and build output
+data-store/
+_site/
