@@ -80,6 +80,10 @@ class Store:
         """Insert or refresh an item. Returns True if it was not seen before."""
         existing = self.items.get(item["id"])
         if existing is None:
+            # Long-lived feeds keep serving posts older than the archive keeps;
+            # admitting them would just re-add and re-prune them every run.
+            if parse_iso(item["published"]) < utcnow() - timedelta(days=self.retention_days):
+                return False
             self.items[item["id"]] = item
             self._dirty_days.add(day_of(item))
             return True

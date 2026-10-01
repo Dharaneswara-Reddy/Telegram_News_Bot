@@ -431,9 +431,10 @@ VIEWS.conferences = async (params) => {
   const list = rows.map((c, i) => {
     const start = c.start ? parseDay(c.start) : null;
     const end = c.end ? new Date(parseDay(c.end).getTime() + 12 * HOUR) : start;
-    const days = start ? Math.ceil((start - now) / DAY) : null;
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const days = start ? Math.round((new Date(start).setHours(0, 0, 0, 0) - today) / DAY) : null;
     const live = start && start <= now && end >= now;
-    const dl = c.deadline ? Math.ceil((parseDay(c.deadline).getTime() + 12 * HOUR - now) / DAY) : null;
+    const dl = c.deadline ? Math.round((parseDay(c.deadline).setHours(0, 0, 0, 0) - today) / DAY) : null;
     const countdown = live ? '<div class="countdown live"><b>Live</b>happening now</div>'
       : days != null && days >= 0 ? `<div class="countdown"><b>${days}</b>day${days === 1 ? "" : "s"} away</div>` : "";
     return `<li style="--i:${Math.min(i, 12)}"><div class="d">${start ? `<small>${start.toLocaleDateString(undefined, { month: "short" })}</small>${start.getDate()}<small>${start.getFullYear()}</small>` : "TBA"}</div>
@@ -442,7 +443,7 @@ VIEWS.conferences = async (params) => {
       ${dl != null && dl >= 0 ? `<span class="deadline ${dl <= 21 ? "soon" : ""}">Paper deadline ${fmtDate(c.deadline, { month: "short", day: "numeric" })} — ${plural(dl, "day")} left</span>` : ""}</div>
       ${countdown}</li>`;
   }).join("");
-  return head("Conferences", "The major AI and ML venues, where new research is presented. Best-paper awards and announcements appear in the news below.", plural(rows.length, "upcoming")) +
+  return head("Conferences", "The major AI and ML venues, where new research is presented. Best-paper awards and announcements appear in the news below.", `${rows.length} upcoming`) +
     (list ? `<ol class="confs reveal">${list}</ol>` : '<div class="empty">No conference data yet.</div>') +
     `<div class="sect-head"><h2>Conference <em>news</em></h2></div>` +
     await feedView(params, { categories: false, range: "60", filter: (s) => s.category === "events", empty: "No conference news in this window." });

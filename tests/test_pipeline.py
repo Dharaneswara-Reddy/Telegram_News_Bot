@@ -200,8 +200,10 @@ def test_store_roundtrip_upsert_and_refresh(tmp_path):
 
 def test_store_prune(tmp_path):
     store = Store(tmp_path, retention_days=10).load()
-    store.upsert(item("old", hours_ago=24 * 30))
     store.upsert(item("new"))
+    # Archived before retention was shortened: still on disk, now past the cutoff.
+    store.items["stale"] = dict(item("old", hours_ago=24 * 30), id="stale")
+    assert store.upsert(item("ancient", hours_ago=24 * 400)) is False  # never admitted
     assert store.prune() == 1
     store.save()
     assert [i["title"] for i in Store(tmp_path).load().items.values()] == ["new"]
