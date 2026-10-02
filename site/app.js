@@ -198,6 +198,23 @@ function river(stories, { group = false, limit = Infinity } = {}) {
   return `<div class="river reveal">${html}</div>`;
 }
 
+// ---------------------------------------------------------------- analytics
+// Umami (index.html) is cookieless and may be blocked or still loading, so
+// every call is best-effort and never allowed to break the page.
+function track(name, data) {
+  try { window.umami?.track(name, data); } catch (err) { /* analytics is optional */ }
+}
+/** One page view per section, keyed by route only, so filter tweaks don't count as visits. */
+function trackView(route, tries = 0) {
+  if (!window.umami) {
+    if (tries < 20) setTimeout(() => trackView(route, tries + 1), 500);
+    return;
+  }
+  try {
+    window.umami.track((p) => ({ ...p, url: `${location.pathname}#/${route}`, title: `AI Pulse · ${route}` }));
+  } catch (err) { /* analytics is optional */ }
+}
+
 // ---------------------------------------------------------------- routing
 function parseHash() {
   const raw = location.hash.replace(/^#\/?/, "");
@@ -233,6 +250,7 @@ async function render({ keepScroll = false } = {}) {
   if (seq !== renderSeq) return; // a newer navigation won
   const routeChanged = route !== lastRoute;
   lastRoute = route;
+  if (routeChanged) trackView(VIEWS[route] ? route : "today");
   const swap = () => {
     view.innerHTML = html;
     state.focus = -1;
@@ -564,6 +582,7 @@ function toggleSave(id, card) {
   const story = onPage.get(id) || state.saved.get(id);
   if (!story) return;
   const on = !state.saved.has(id);
+  if (on) track("save-story", { source: story.source_name, category: story.category });
   if (on) state.saved.set(id, { ...story, savedAt: Date.now() });
   else state.saved.delete(id);
   persistSaved();
@@ -575,7 +594,13 @@ function toggleSave(id, card) {
 document.addEventListener("click", (e) => {
   const t = e.target;
   const open = t.closest("[data-open]");
-  if (open) { setRead(open.dataset.open, cardFor(open.dataset.open), true); return; }
+  if (open) {
+    const s = onPage.get(open.dataset.open);
+    const where = open.closest(".ticker") ? "ticker" : open.closest(".briefing, .brief-list") ? "briefing" : parseHash().route;
+    track("open-story", { source: s?.source_name || "unknown", category: s?.category || "unknown", from: where });
+    setRead(open.dataset.open, cardFor(open.dataset.open), true);
+    return;
+  }
 
   const act = t.closest("[data-act]");
   if (act) {
@@ -587,7 +612,7 @@ document.addEventListener("click", (e) => {
     return;
   }
   const tag = t.closest("[data-tag]");
-  if (tag) { $("#search").value = tag.dataset.tag; search(tag.dataset.tag); return; }
+  if (tag) { track("search", { query: tag.dataset.tag, via: "tag" }); $("#search").value = tag.dataset.tag; search(tag.dataset.tag); return; }
 
   const param = t.closest("button[data-param]");
   if (param) {
@@ -618,6 +643,7 @@ document.addEventListener("click", (e) => {
     const key = c.dataset.catch;
     const on = !state.catchDone.has(key);
     if (on) state.catchDone.add(key); else state.catchDone.delete(key);
+    if (on) track("catchup-understood", { chapter: key.split(":")[0] });
     LS.set("catchDone", [...state.catchDone]);
     const entry = c.closest(".entry");
     entry.classList.toggle("done", on);
@@ -662,7 +688,12 @@ function search(q) {
 }
 let searchTimer;
 $("#search").addEventListener("input", (e) => { clearTimeout(searchTimer); searchTimer = setTimeout(() => search(e.target.value), 280); });
-$("#search-form").addEventListener("submit", (e) => { e.preventDefault(); search($("#search").value); });
+$("#search-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const q = $("#search").value.trim();
+  if (q) track("search", { query: q.toLowerCase().slice(0, 60) });
+  search(q);
+});
 
 // ---------------------------------------------------------------- palettes
 // Keep in sync with palettes.css and the boot script in index.html.
@@ -696,6 +727,7 @@ function applyLook({ palette = root.dataset.palette, theme = root.dataset.theme 
 
 function choosePalette(id) {
   storeLook("palette", id);
+  track("palette", { palette: id });
   applyLook({ palette: id });
   toast("Palette · " + paletteName(id));
   if (parseHash().route === "palettes") render({ keepScroll: true });
@@ -731,6 +763,7 @@ document.addEventListener("click", (e) => {
 $("#theme-toggle").addEventListener("click", () => {
   const next = root.dataset.theme === "dark" ? "light" : "dark";
   storeLook("theme", next);
+  track("theme", { theme: next });
   applyLook({ theme: next });
 });
 // Follow the system's light/dark setting until the reader picks one.
