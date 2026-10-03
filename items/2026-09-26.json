@@ -1,0 +1,113 @@
+[
+{
+"id": "8ecfca14c40d",
+"key": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+"title": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF is trending on Hugging Face",
+"published": "2026-09-26T03:37:50Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "text-generation · 301 likes · 11,585 downloads",
+"meta": {
+"likes": 301,
+"downloads": 11585
+},
+"ai": {
+"summary": "The model orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF is trending on Hugging Face with 225 likes and 8,412 downloads.",
+"why": "Developers may consider using this open‑weight model for cybersecurity or QA tasks.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"orca",
+"huggingface",
+"cybersecurity"
+]
+}
+},
+{
+"id": "e618f86457a6",
+"key": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+"title": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF is trending on Hugging Face",
+"published": "2026-09-26T09:42:51Z",
+"fetched": "2026-10-02T05:33:54Z",
+"excerpt": "image-text-to-text · 226 likes · 303,256 downloads",
+"meta": {
+"likes": 226,
+"downloads": 303256
+},
+"ai": {
+"summary": "The Qwen3.8‑Flash‑Next‑GSQ‑RCO‑Coder model (GGUF format) is trending, featuring flash‑attention optimizations for coding tasks and has amassed 184 likes and over 148,000 downloads on Hugging Face.",
+"why": "It offers a fast, locally runnable coder model that developers can embed in IDE extensions or offline tools.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"qwen",
+"coder",
+"gguf"
+]
+}
+},
+{
+"id": "b250b026a8ba",
+"key": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
+"title": "Intel Panther Lake Teardown",
+"published": "2026-09-26T13:36:32Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Looking inside Intel 18A and Intel’s Panther Lake.\nA free SemiAnalysis STEEL teardown.",
+"meta": {},
+"ai": {
+"summary": "SemiAnalysis released a free teardown of Intel's Panther Lake processor, providing a detailed look inside the Intel 18A manufacturing process and the chip's architecture.",
+"why": "Offers technical insights into Intel's latest node and hardware capabilities, relevant for understanding future compute options.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"intel",
+"hardware",
+"teardown",
+"18a"
+]
+}
+},
+{
+"id": "c62d1ba6ce2a",
+"key": "https://youtube.com/watch?v=Yo4eqoRC1o0",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://www.youtube.com/watch?v=Yo4eqoRC1o0",
+"title": "A Brief Perspective on Deep Learning Using Common Lisp",
+"published": "2026-09-26T17:34:14Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A discussion on Lobsters about using Common Lisp for deep learning, offering a perspective on implementing neural networks in a non-standard language.",
+"why": "Niche technical interest for developers exploring alternative programming languages for AI tasks.",
+"category": "research",
+"importance": 2,
+"tags": [
+"common-lisp",
+"deep-learning",
+"programming"
+]
+}
+}
+]

@@ -1,0 +1,662 @@
+[
+{
+"id": "06487c225521",
+"key": "https://cohere.com/blog/ai-change-management",
+"source": "cohere_blog",
+"source_name": "Cohere",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://cohere.com/blog/ai-change-management",
+"title": "AI change management: A human-centric approach",
+"published": "2026-09-22T00:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "AI change management: A human-centric approach",
+"meta": {},
+"ai": {
+"summary": "Cohere published a guide on human‑centric AI change management, focusing on strategies for organizational adoption of AI systems.",
+"why": "Helps engineering leaders plan smoother AI integration projects.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"cohere",
+"change‑management",
+"ai‑adoption"
+]
+}
+},
+{
+"id": "44ed62b43946",
+"key": "https://huggingface.co/blog/evaleval-aisi",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/evaleval-aisi",
+"title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+"published": "2026-09-22T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "The article explains how the UK AI Safety Institute and the EvalEval tool are improving reproducibility of AI benchmark results.",
+"why": "Improved reproducibility helps developers trust and compare model performance across studies.",
+"category": "research",
+"importance": 3,
+"tags": [
+"uk-aisi",
+"evaleval",
+"benchmark",
+"reproducibility"
+]
+}
+},
+{
+"id": "5b18ddaf1164",
+"key": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
+"source": "artificial_analysis",
+"source_name": "Artificial Analysis",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
+"title": "GPT-6 Sol and Luna push the cost efficiency frontier",
+"published": "2026-09-22T00:00:00Z",
+"fetched": "2026-10-01T19:40:22Z",
+"excerpt": "GPT-6 Sol and Luna push the cost efficiency frontier",
+"meta": {},
+"ai": {
+"summary": "OpenAI released GPT‑6 Sol and Luna, two new models that claim to reduce inference costs while maintaining performance.",
+"why": "Developers can use them to lower hosting expenses for large‑language‑model workloads.",
+"category": "models",
+"importance": 3,
+"tags": [
+"openai",
+"gpt-6",
+"cost-efficiency"
+]
+}
+},
+{
+"id": "5b3816ff68ee",
+"key": "https://artificialanalysis.ai/articles/claude-opus-5-5",
+"source": "artificial_analysis",
+"source_name": "Artificial Analysis",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
+"title": "Claude Opus 5.5 takes the top spot on the Artificial Analysis Intelligence Index",
+"published": "2026-09-22T00:00:00Z",
+"fetched": "2026-10-01T19:40:22Z",
+"excerpt": "Claude Opus 5.5 takes the top spot on the Artificial Analysis Intelligence Index",
+"meta": {},
+"ai": {
+"summary": "Claude Opus 5.5 achieved the top rank on the Artificial Analysis Intelligence Index, surpassing other models in performance metrics.",
+"why": "The ranking signals Claude Opus 5.5’s superior capabilities, informing developers choosing models for production use.",
+"category": "models",
+"importance": 4,
+"tags": [
+"claude",
+"opus",
+"aiindex"
+]
+}
+},
+{
+"id": "a33693c0289d",
+"key": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+"title": "Transformers now runs llama.cpp quants",
+"published": "2026-09-22T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "The Hugging Face Transformers library now supports running llama.cpp quantized models.",
+"why": "Developers can load and run quantized Llama models directly in Transformers, simplifying deployment on edge devices.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"huggingface",
+"transformers",
+"llama.cpp",
+"quantization"
+]
+}
+},
+{
+"id": "af6fc5409284",
+"key": "https://openai.com/index/priorities-principles-third-party-assessments",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/priorities-principles-third-party-assessments",
+"title": "Priorities and principles for effective third party assessments",
+"published": "2026-09-22T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+"meta": {},
+"ai": {
+"summary": "OpenAI published guidelines outlining priorities and principles for rigorous, secure, and independent third‑party safety assessments of frontier models and safeguards.",
+"why": "Provides a framework for developers and auditors to evaluate AI safety in new models.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"safety",
+"third-party"
+]
+}
+},
+{
+"id": "d2717d0cbf52",
+"key": "https://x.ai/news/grok-bot-customer-support",
+"source": "xai_news",
+"source_name": "xAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://x.ai/news/grok-bot-customer-support",
+"title": "How SpaceXAI is using Grok Bot to scale customer support",
+"published": "2026-09-22T00:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "We rebuilt the combined SpaceXAI and Cursor support operation around Grok Bot, expanding to a much broader product portfolio without adding headcount.",
+"meta": {},
+"ai": {
+"summary": "SpaceXAI uses Grok Bot to scale its customer support, expanding the product portfolio without adding headcount.",
+"why": "Demonstrates how large language models can replace human support staff, informing cost‑efficiency strategies for developers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"spacexai",
+"grok",
+"support"
+]
+}
+},
+{
+"id": "f279cb202c09",
+"key": "https://huggingface.co/blog/omlx",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/omlx",
+"title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+"published": "2026-09-22T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Jun Kim, creator and maintainer of the MLX framework, has joined Hugging Face to support the MLX community.",
+"why": "This partnership may lead to tighter integration of MLX with Hugging Face tools and broader adoption among developers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"huggingface",
+"mlx",
+"jun-kim"
+]
+}
+},
+{
+"id": "2204abe32050",
+"key": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+"title": "Viggle/Qwen-Image-2.1-viggle-turbo is trending on Hugging Face",
+"published": "2026-09-22T04:14:56Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "text-to-image · 561 likes · 257,298 downloads",
+"meta": {
+"likes": 561,
+"downloads": 257298
+},
+"ai": {
+"summary": "The model Viggle/Qwen-Image-2.1-viggle-turbo, a text‑to‑image model, is trending on Hugging Face with 491 likes and 217,638 downloads.",
+"why": "",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"qwen",
+"text-to-image",
+"huggingface"
+]
+}
+},
+{
+"id": "2313e0d27dcb",
+"key": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+"source": "gh_vllm",
+"source_name": "vLLM releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+"title": "vllm v0.30.0",
+"published": "2026-09-22T05:20:54Z",
+"fetched": "2026-10-01T19:23:59Z",
+"excerpt": "v0.30.0\nHighlights\nThis release features 762 commits from 315 contributors (104 new)!\nNew models : DeepSeek-V4.1-Flash ( #56214 , #56228 , #56208 ) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 ( #56893 ), DeepGEMM Mega-mHC ( #56962 ), and async Engram prefetch with Engram DP sharding ( #56512 ); DeepSeek-V4-Flash-Vision-Exp ( #54566 ), also on ROCm ( #55107 ) and with LoRA ( #55897 ); GLM-5.3-Flash ( #53906 ) with EPLB ( #55119 ); K2-Horizon ( #55063 ); Cohere Compass ( #54774 ); Bailing V3 VL ( #55921 ); Nanbeige4.2 via the Transformers backend ( #56071 ); and a DeepSeek-V4 CPU backend with AVX512/AMX sparse MLA, indexer, mHC and compressor kernels ( #55355…",
+"meta": {},
+"ai": {
+"summary": "vLLM 0.30.0 was released, adding support for new models such as DeepSeek‑V4.1‑Flash, DeepSeek‑V4‑Flash‑Vision‑Exp, GLM‑5.3‑Flash, K2‑Horizon, and Cohere Comp, along with features like full KV storage in MXFP8, async Engram prefetch, and ROCm compatibility.",
+"why": "Developers can now serve these latest high‑throughput models with vLLM’s optimized inference engine.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"vllm",
+"deepseek",
+"glm",
+"cohere"
+]
+}
+},
+{
+"id": "f4e7cb8d0c4f",
+"key": "https://latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+"title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+"published": "2026-09-22T06:30:56Z",
+"fetched": "2026-10-01T19:24:22Z",
+"excerpt": "crowning a new Chinese frontier lab",
+"meta": {},
+"ai": {
+"summary": "Xiaomi's MiMo‑V2.6‑Pro 1T‑A42B, an open‑weight model trained with a $3 million budget, is highlighted as the leading Chinese frontier‑lab model.",
+"why": "Shows that large‑scale model training is expanding beyond traditional AI labs, offering new options for developers.",
+"category": "models",
+"importance": 3,
+"tags": [
+"xiaomi",
+"mimo-v2.6-pro",
+"open-weights"
+]
+}
+},
+{
+"id": "0dabad674f94",
+"key": "https://technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+"title": "Don’t be fooled by this summer of AI hype",
+"published": "2026-09-22T11:04:51Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed…",
+"meta": {},
+"ai": {
+"summary": "The article reviews recent AI hype, noting claims by Anthropic about Claude Mythos finding software vulnerabilities, the OpenAI–Hugging Face hacking incident, and similar disclosures by Anthropic and Meta.",
+"why": "It highlights the need for cautious evaluation of AI security claims and incidents.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"anthropic",
+"openai",
+"huggingface",
+"security"
+]
+}
+},
+{
+"id": "5158a36264b8",
+"key": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+"title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+"published": "2026-09-22T12:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+"meta": {},
+"ai": {
+"summary": "Parallel’s agents used GPT‑6 Astra to research and synthesize labor‑market data in half the time and at half the cost compared to earlier models.",
+"why": "Demonstrates GPT‑6 Astra’s efficiency gains for data‑driven research workflows.",
+"category": "models",
+"importance": 3,
+"tags": [
+"openai",
+"gpt-6-astra",
+"parallel"
+]
+}
+},
+{
+"id": "2b3fa0751d04",
+"key": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+"title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+"published": "2026-09-22T12:00:41Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA released Isaac ROS 5.0, a GPU‑accelerated package set built on the ROS framework, aimed at enabling developers to build robotics applications that can perceive, reason, and act in dynamic environments.",
+"why": "Developers can now leverage NVIDIA’s GPU acceleration to speed up perception and control pipelines in robotics projects.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"nvidia",
+"isaac",
+"ros",
+"robotics"
+]
+}
+},
+{
+"id": "222a657e6bb9",
+"key": "https://spectrum.ieee.org/fanless-liquid-cooled-ai-servers-coolit",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/fanless-liquid-cooled-ai-servers-coolit",
+"title": "The Future Is Fanless: 100% Heat Capture for Liquid Cooled AI Servers",
+"published": "2026-09-22T12:22:50Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "This article is brought to you by CoolIT, an Ecolab Company .\nBeyond 250 kW a server rack can no longer be cooled by a hybrid approach of liquid and air. At this density a 70/30 liquid-air split leaves 75 kW of air load. The air cooling system needed to move it brings cost and complexity few operators will accept. The answer is near-total heat capture. Liquid takes effectively all the heat, air falls below 1 percent of the load, allowing the server to run fanless.\nCoolIT builds these loops today from modular coldplate blocks proven across six generations of fanless designs. Processor thermal design power (TDP) keeps climbing generation over generation. This rising heat load is now cascading…",
+"meta": {},
+"ai": {
+"summary": "CoolIT describes fanless, liquid‑cooled AI server racks that capture 100% of heat, enabling operation beyond 250 kW per rack without traditional air cooling.",
+"why": "Provides a roadmap for building high‑density AI compute clusters with lower power and maintenance costs.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"coolit",
+"liquid‑cooling",
+"ai‑servers"
+]
+}
+},
+{
+"id": "52e6a5ae7831",
+"key": "https://bensbites.com/p/what-can-you-build-with-jev",
+"source": "bens_bites",
+"source_name": "Ben's Bites",
+"src_category": "analysis",
+"weight": 2,
+"kind": "article",
+"url": "https://www.bensbites.com/p/what-can-you-build-with-jev",
+"title": "What can you build with Jev",
+"published": "2026-09-22T13:01:13Z",
+"fetched": "2026-10-01T19:40:23Z",
+"excerpt": "Muse is off to a good start",
+"meta": {},
+"ai": {
+"summary": "The piece showcases projects built with Jev, a low‑code platform, highlighting a demo called Muse.",
+"why": "Shows practical use‑cases for Jev that developers can replicate or extend.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"jev",
+"low‑code",
+"demo"
+]
+}
+},
+{
+"id": "7a4e1c8e4cb5",
+"key": "https://interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+"title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+"published": "2026-09-22T13:37:45Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "Podcast #19",
+"meta": {},
+"ai": {
+"summary": "Epoch AI’s JS Denain discussed RSI, the US‑China AI gap, and the concept of ‘jaggedness’ in podcast episode #19.",
+"why": "",
+"category": "events",
+"importance": 1,
+"tags": [
+"epoch-ai",
+"rsi",
+"podcast"
+]
+}
+},
+{
+"id": "af85eb598637",
+"key": "https://pytorch.org/blog/how-shopify-built-a-continual-learning-loop-with-pytorch-and-vllm",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/how-shopify-built-a-continual-learning-loop-with-pytorch-and-vllm/",
+"title": "How Shopify built a continual learning loop with PyTorch and vLLM",
+"published": "2026-09-22T13:45:18Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "TL;DR: This case study explores how Shopify compresses production failures into model weights every day, beats frontier-model quality, and cuts serving costs 96% by building a continual learning loop with...",
+"meta": {},
+"ai": {
+"summary": "Shopify built a continual learning loop using PyTorch and vLLM, compressing daily production failures into model weights, surpassing frontier‑model quality and cutting serving costs by 96%.",
+"why": "Shows a practical way to maintain high‑quality models at low cost, useful for production ML teams.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"shopify",
+"pytorch",
+"vllm",
+"continual-learning"
+]
+}
+},
+{
+"id": "e56a892ac5a9",
+"key": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
+"title": "Why Read a Research Paper When You Can Turn It Into an AI Agent?",
+"published": "2026-09-22T15:00:05Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Have you ever read a paper in Science or Nature and thought, “Man, that research was so cool. I wish I could try that method on my own data,” only to spend a week wrestling with someone else’s undocumented repo, broken dependencies, and half-finished readme.txt?\nWell, now you can, more or less.\nSay hello to Paper2Agent, a new open-source framework that transforms academic reports into interactive AI agents you can talk to. Give it a paper, along with the accompanying codebase, data, or other supplementary material, and the system automatically extracts the core workflows, then spins up a tested, runnable toolkit that you can use on your own datasets.\nThe concept may sound a little like…",
+"meta": {},
+"ai": {
+"summary": "Paper2Agent is an open‑source framework that converts academic papers, along with their code and data, into interactive AI agents that can be queried about the work.",
+"why": "Developers can quickly prototype and test research ideas without manually setting up fragile codebases.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"paper2agent",
+"open-source",
+"ai‑agents"
+]
+}
+},
+{
+"id": "c94ffda2bf4e",
+"key": "https://pytorch.org/blog/hardware-agnostic-models-in-vllm",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/hardware-agnostic-models-in-vllm/",
+"title": "Hardware-Agnostic Models in vLLM",
+"published": "2026-09-22T15:45:46Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "TL;DR To achieve state-of-the-art performance at the frontier, vLLM is changing its internal implementation in ways that make it incompatible with fullgraph torch.compile. This may have consequences for users who...",
+"meta": {},
+"ai": {
+"summary": "vLLM updated its internal implementation to be hardware‑agnostic, breaking compatibility with torch.compile’s fullgraph mode.",
+"why": "Users of vLLM must adjust their compilation pipelines or accept reduced performance on certain hardware.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"vllm",
+"pytorch",
+"torch-compile"
+]
+}
+},
+{
+"id": "a6fcfaa46b67",
+"key": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+"title": "Introducing GPT-6 Sol and Luna",
+"published": "2026-09-22T18:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+"meta": {},
+"ai": {
+"summary": "OpenAI announced GPT‑6 Sol and Luna, two models that balance capability and cost for everyday work, offering different performance‑price trade‑offs.",
+"why": "Developers can choose between Sol and Luna based on their budget and required intelligence level.",
+"category": "models",
+"importance": 3,
+"tags": [
+"openai",
+"gpt-6-sol",
+"gpt-6-luna"
+]
+}
+},
+{
+"id": "8723586fcb7e",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+"title": "ollama v0.34.3",
+"published": "2026-09-22T20:42:48Z",
+"fetched": "2026-10-01T19:23:58Z",
+"excerpt": "What's Changed\nGET /api/show now advertises each model's thinking controls and default:\nAvailable in the CLI with:\nollama show gemma4\nthinking\nlevels false, true\ndefault true\nAvailable in the API with:\ncurl http://localhost:11434/api/show -d ' {\"model\": \"glm-5.3-flash:cloud\"} '\n{\n\"thinking\" : {\n\"values\" : [ \" low \" , \" high \" , \" max \" ],\n\"default\" : \" max \"\n}\n}\nAlso available on ollama.com directly for cloud models.\nNemotron H vision models are now supported on Apple Silicon with MLX\nOllama's macOS app will now no longer reopen windows you've closed when activating it\nFix for model pulls from HuggingFace\nFull Changelog : v0.34.2...v0.34.3",
+"meta": {},
+"ai": {
+"summary": "Ollama released v0.34.3, adding a GET /api/show endpoint that reports each model’s thinking controls and defaults, CLI support for gemma4, and Apple Silicon support for Nemotron H vision models via MLX.",
+"why": "Enables developers to query and configure model inference settings programmatically and run vision models on Apple Silicon.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"ollama",
+"gemma4",
+"mlx"
+]
+}
+},
+{
+"id": "9077f5bcc6c2",
+"key": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+"title": "Better prompt caching for GPT-6",
+"published": "2026-09-22T21:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+"meta": {},
+"ai": {
+"summary": "OpenAI released GPT‑6 with improved prompt caching, achieving higher cache hit rates, new diagnostics, explicit breakpoints, and controls that lower latency and cost.",
+"why": "Developers can reduce API latency and cost by leveraging the enhanced caching behavior in GPT‑6.",
+"category": "models",
+"importance": 3,
+"tags": [
+"openai",
+"gpt-6",
+"prompt-caching"
+]
+}
+},
+{
+"id": "f77dcd836872",
+"key": "https://latent.space/p/john-platt",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/john-platt",
+"title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+"published": "2026-09-22T21:07:39Z",
+"fetched": "2026-10-01T19:24:22Z",
+"excerpt": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+"meta": {},
+"ai": {
+"summary": "Google’s John Platt discussed automating scientific research, climate solutions, and the role of AI in science during an interview titled “An Oscar, Two Asteroids, and the Algorithm in Your sklearn.”",
+"why": "Provides insight into how AI tools may be integrated into scientific workflows, useful for developers building research platforms.",
+"category": "research",
+"importance": 2,
+"tags": [
+"google",
+"john-platt",
+"ai-for-science"
+]
+}
+},
+{
+"id": "22f763f43ad3",
+"key": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+"source": "simon_willison",
+"source_name": "Simon Willison",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+"title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+"published": "2026-09-22T23:46:41Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far.\nGPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents\nGPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being really cheap . Somehow GPT-6 Luna is half the price of that again - and GPT-6 Sol had a similar reduction compared to GPT-5.6 Sol.\nHere's what the pricing landscape looks like today:\nModel\nInput\nCached…",
+"meta": {},
+"ai": {
+"summary": "Simon Willison reported that Anthropic released Claude Opus 5.5 and OpenAI released GPT‑6 Sol and GPT‑6 Luna, both priced at roughly half of their GPT‑5.6 equivalents.",
+"why": "Significant price drops may drive rapid adoption of these newer, higher‑perform models in applications.",
+"category": "models",
+"importance": 4,
+"tags": [
+"anthropic",
+"openai",
+"gpt-6",
+"claude-5.5"
+]
+}
+}
+]

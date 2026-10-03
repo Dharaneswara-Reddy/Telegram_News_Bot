@@ -1,0 +1,70 @@
+[
+{
+"id": "f178d6395fd9",
+"key": "https://qwen.ai/blog?id=qwen-drive-1.0",
+"source": "qwen_blog",
+"source_name": "Qwen",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://qwen.ai/blog?id=qwen-drive-1.0",
+"title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+"published": "2026-09-03T00:00:00Z",
+"fetched": "2026-10-01T19:40:45Z",
+"excerpt": "We introduce Qwen-Drive-1.0, the first vision-language foundation model for autonomous driving that unifies 3D perception and visual question answering at the pretraining stage and further extends to motion planning, while keeping the pretrained VLM architecture entirely untouched. Built on the natively multimodal Qwen3.5-4B, it attaches two external modules. A BEV perception head serves as an exp",
+"meta": {},
+"ai": {
+"summary": "Qwen-Drive-1.0 is a vision‑language foundation model for autonomous driving built on Qwen3.5‑4B, adding a BEV perception head and a motion‑planning module while keeping the base VLM architecture unchanged.",
+"why": "It enables developers to train perception and planning models jointly on multimodal driving data without redesigning the core architecture.",
+"category": "models",
+"importance": 3,
+"tags": [
+"qwen",
+"autonomous-driving",
+"vision-language",
+"bev"
+]
+}
+},
+{
+"id": "833b93df86d0",
+"key": "https://qwen.ai/blog?id=e-commerce-bench",
+"source": "qwen_blog",
+"source_name": "Qwen",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://qwen.ai/blog?id=e-commerce-bench",
+"title": "E-Commerce Bench: Long-Horizon Operations, Multi-Dimensional Evaluation",
+"published": "2026-09-03T02:00:00Z",
+"fetched": "2026-10-01T19:40:45Z",
+"excerpt": "Agent benchmarks over the past few years have mostly followed one pattern. A goal is handed to the model, and the model tries to reach it within a bounded number of turns, whether that means finding the treasure in a maze, producing a report, or fixing a piece of code. Performance is then scored on the quality of the deliverable or on how much of the task got done, and evaluations of this kind usu",
+"meta": {},
+"ai": {
+"summary": "Qwen introduced the E‑Commerce Bench, a long‑horizon, multi‑dimensional evaluation for agent performance in e‑commerce scenarios.",
+"why": "\"\"",
+"category": "research",
+"importance": 3,
+"tags": [
+"qwen",
+"benchmark"
+]
+}
+},
+{
+"id": "87a4415ca308",
+"key": "https://understandingai.org/p/robot-startups-are-trying-everything",
+"source": "understanding_ai",
+"source_name": "Understanding AI",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://www.understandingai.org/p/robot-startups-are-trying-everything",
+"title": "Robot startups are trying everything they can think of to get more data",
+"published": "2026-09-03T18:16:36Z",
+"fetched": "2026-10-01T19:40:22Z",
+"excerpt": "Free apartment cleanings, exoskeletons, 100 robots in a warehouse...",
+"meta": {},
+"ai": null
+}
+]

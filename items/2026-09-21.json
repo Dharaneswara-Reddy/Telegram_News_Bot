@@ -1,0 +1,683 @@
+[
+{
+"id": "0632f9a53ac1",
+"key": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
+"source": "artificial_analysis",
+"source_name": "Artificial Analysis",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
+"title": "Benchmarking Grok 4.7",
+"published": "2026-09-21T00:00:00Z",
+"fetched": "2026-10-01T19:40:22Z",
+"excerpt": "Benchmarking Grok 4.7",
+"meta": {},
+"ai": {
+"summary": "A benchmark study evaluated Grok 4.7, measuring its performance across standard LLM tasks.",
+"why": "Provides developers with comparative data to assess Grok 4.7 for their applications.",
+"category": "research",
+"importance": 2,
+"tags": [
+"grok",
+"benchmark",
+"llm"
+]
+}
+},
+{
+"id": "0ca60e1f847f",
+"key": "https://huggingface.co/blog/tokenizers-v1",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/tokenizers-v1",
+"title": "tokenizers v1: encode, decode and scaling, measured",
+"published": "2026-09-21T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face released tokenizers v1, adding encode, decode, and scaling features with performance measurements.",
+"why": "Developers can use the updated tokenizer library for more efficient text preprocessing in NLP pipelines.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"huggingface",
+"tokenizers",
+"nlp"
+]
+}
+},
+{
+"id": "c676ab63133e",
+"key": "https://openai.com/index/v7",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/v7",
+"title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
+"published": "2026-09-21T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+"meta": {},
+"ai": {
+"summary": "V7 reports that using OpenAI's GPT‑5.6 Luna reduces processing costs by 78% and increases accuracy when converting scattered company files into context agents for complex work.",
+"why": "The cost and accuracy improvements could make AI‑augmented workflows more affordable for enterprises.",
+"category": "models",
+"importance": 2,
+"tags": [
+"openai",
+"gpt-5.6",
+"v7",
+"cost"
+]
+}
+},
+{
+"id": "d23b75989807",
+"key": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+"title": "Expanding OpenAI Academy with new learning paths",
+"published": "2026-09-21T07:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+"meta": {},
+"ai": {
+"summary": "OpenAI expanded its Academy platform with new learning paths targeting employees, developers, leaders, educators, and students.",
+"why": "Developers can use the curated curricula to upskill teams on practical AI techniques.",
+"category": "other",
+"importance": 2,
+"tags": [
+"openai",
+"academy",
+"learning-paths"
+]
+}
+},
+{
+"id": "888772275f8c",
+"key": "https://openai.com/index/building-standards-next-phase-ai",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/building-standards-next-phase-ai",
+"title": "Building standards for the next phase of AI",
+"published": "2026-09-21T10:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+"meta": {},
+"ai": {
+"summary": "OpenAI published a proposal for shared global AI standards, calling for coordinated evaluation, reporting, and governance mechanisms.",
+"why": "Adopting these standards can help developers align products with emerging safety expectations.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"standards",
+"governance"
+]
+}
+},
+{
+"id": "afbf640bceb1",
+"key": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+"title": "5 Companies Using NVIDIA AI for Clean Energy",
+"published": "2026-09-21T10:00:35Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA highlighted five companies using its AI technology for clean‑energy projects at New York Climate Week, emphasizing AI’s role in accelerating research, design, and deployment of sustainable solutions.",
+"why": "Demonstrates practical AI applications in clean energy, offering developers insights into industry adoption and potential collaboration avenues.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"clean energy",
+"nvidia",
+"ai"
+]
+}
+},
+{
+"id": "24a290935ed6",
+"key": "https://interconnects.ai/p/the-current-balance-of-power-in-open",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+"title": "The current balance of power in open models",
+"published": "2026-09-21T11:56:56Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "The expanded form of a testimony I prepared for Congress.",
+"meta": {},
+"ai": {
+"summary": "A testimony prepared for Congress discusses the current balance of power in open AI models.",
+"why": "",
+"category": "policy",
+"importance": 2,
+"tags": [
+"congress",
+"openai",
+"policy"
+]
+}
+},
+{
+"id": "86091144f866",
+"key": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+"title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+"published": "2026-09-21T12:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+"meta": {},
+"ai": {
+"summary": "Higgsfield AI launched video ad creation tools built on its GPT-6 Astra model, promising faster creative workflows for small businesses.",
+"why": "Developers can explore the new video generation API to prototype ad content quickly.",
+"category": "models",
+"importance": 2,
+"tags": [
+"higgsfield",
+"gpt-6",
+"video"
+]
+}
+},
+{
+"id": "c33927c1a6ca",
+"key": "https://technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+"title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+"published": "2026-09-21T12:00:00Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled towers and later died nearby, where their bodies remained unnoticed for…",
+"meta": {},
+"ai": {
+"summary": "MIT Technology Review released a follow‑up piece outlining four remedial actions for failures identified along the US border’s AI‑enabled “virtual wall,” including improved detection, accountability, transparency, and community engagement.",
+"why": "Provides actionable guidance for developers and policymakers to mitigate unintended harm from AI surveillance deployments.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"us border",
+"ai safety",
+"remediation"
+]
+}
+},
+{
+"id": "fc97e5ae14c3",
+"key": "https://technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+"title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+"published": "2026-09-21T12:00:00Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of Dying on Camera, a collaboration between MIT Technology Review and Times of San Diego. Journalists in both newsrooms spent the past…",
+"meta": {},
+"ai": {
+"summary": "MIT Technology Review published a 15‑month investigation mapping deaths near US‑Mexico border surveillance towers, revealing that many fatalities occurred in areas monitored by AI‑enabled towers yet went undetected.",
+"why": "Sheds light on the societal impact of AI surveillance, informing policy and ethical considerations for developers deploying similar systems.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"us border",
+"ai surveillance",
+"mortality"
+]
+}
+},
+{
+"id": "fe19709a1e59",
+"key": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+"title": "Advisory Group on Mathematics and Artificial Intelligence",
+"published": "2026-09-21T12:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+"meta": {},
+"ai": {
+"summary": "OpenAI announced an independent Advisory Group on Mathematics and Artificial Intelligence to review and communicate emerging AI research results.",
+"why": "The group could influence how mathematical breakthroughs are safely integrated into products.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"advisory-group",
+"mathematics"
+]
+}
+},
+{
+"id": "7900ba926dc5",
+"key": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
+"source": "import_ai",
+"source_name": "Import AI",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
+"title": "Import AI 473: The US's superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+"published": "2026-09-21T12:31:04Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Is the wall AI is hitting in the room with us right now?",
+"meta": {},
+"ai": {
+"summary": "Import AI episode 473 covers the U.S. superintelligence strategy, a human brain implanted in a mouse skull, and machine hermeneutics.",
+"why": "Provides context on policy and research directions that may influence future AI development and regulation.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"importai",
+"superintelligence",
+"policy"
+]
+}
+},
+{
+"id": "a8e06c216f59",
+"key": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics",
+"source": "import_ai",
+"source_name": "Import AI",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
+"title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+"published": "2026-09-21T12:31:04Z",
+"fetched": "2026-10-01T19:45:31Z",
+"excerpt": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open:…It’s not clear exactly what is optimal, so the US should spend […]",
+"meta": {},
+"ai": {
+"summary": "A RAND report advises the United States to keep all AI development options open as its superintelligence strategy, a new study reports successful integration of human brain tissue into a mouse skull, and a paper introduces a framework for machine hermeneutics.",
+"why": "The strategy guidance could shape funding and regulation, the brain‑in‑mouse work may impact neuro‑AI research, and hermeneutics could affect interpretability tools.",
+"category": "research",
+"importance": 3,
+"tags": [
+"rand",
+"superintelligence",
+"brain‑in‑mouse",
+"hermeneutics"
+]
+}
+},
+{
+"id": "1fe1cdd3270c",
+"key": "https://blogs.nvidia.com/blog/ai-security-agent-stack",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+"title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+"published": "2026-09-21T14:51:34Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA’s article argues that AI security must be treated as an engineering discipline, requiring defined requirements, enforceable controls, ownership, and evidence across all layers of the agent stack.",
+"why": "Provides a framework for developers to embed security practices into AI systems, reducing vulnerability exposure.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"ai security",
+"nvidia",
+"engineering"
+]
+}
+},
+{
+"id": "d485c2c485eb",
+"key": "https://microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera",
+"source": "microsoft_research",
+"source_name": "Microsoft Research",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+"title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+"published": "2026-09-21T15:30:19Z",
+"fetched": "2026-10-01T19:23:58Z",
+"excerpt": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules.\nThe post Improving synthesis prediction of small molecules at scale with RetroChimera appeared first on Microsoft Research .",
+"meta": {},
+"ai": {
+"summary": "Microsoft Research released RetroChimera, a predictive model that accelerates small‑molecule synthesis by forecasting reaction pathways at scale, aiming to reduce cost and time for drug, material and agricultural research.",
+"why": "Developers in computational chemistry can integrate RetroChimera to streamline molecule design pipelines and lower experimental overhead.",
+"category": "research",
+"importance": 4,
+"tags": [
+"retrochimera",
+"molecule synthesis",
+"msr"
+]
+}
+},
+{
+"id": "c0269f8851e5",
+"key": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+"title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+"published": "2026-09-21T16:00:10Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead […]",
+"meta": {},
+"ai": {
+"summary": "Egypt’s AI community convened at the Grand Egyptian Museum, showcasing a growing ecosystem that includes AI natives, developers, researchers, startups and enterprises building cross‑industry applications. The event featured a keynote by NVIDIA’s Paolo Guglielmini and remarks from regional AI adoption lead Ahmed Mostafa.",
+"why": "Highlights Egypt’s rapid AI maturation and NVIDIA’s regional engagement, indicating potential market and partnership opportunities for developers in the region.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"egypt",
+"nvidia",
+"ai ecosystem"
+]
+}
+},
+{
+"id": "f5d779c19fda",
+"key": "https://blogs.nvidia.com/blog/physical-ai-halos-safety",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+"title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+"published": "2026-09-21T16:00:46Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, […]",
+"meta": {},
+"ai": {
+"summary": "An article discusses the safety demands of deploying physical AI at scale, citing projections of 49 million autonomous vehicles by 2035 and 60 million industrial robots by 2035, and the need for safety at every layer.",
+"why": "Highlights the importance of robust safety frameworks for large‑scale physical AI deployments.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"autonomous-vehicles",
+"industrial-robots",
+"safety"
+]
+}
+},
+{
+"id": "4eca57e65988",
+"key": "https://github.com/volotat/mini-AGI",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://github.com/volotat/mini-AGI/",
+"title": "A Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data",
+"published": "2026-09-21T17:22:31Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A continual‑learning model was trained from scratch on a laptop with only 8 GB of VRAM using a batch‑1 streaming data setup.",
+"why": "Demonstrates that useful continual‑learning can be built on modest hardware, useful for edge developers.",
+"category": "models",
+"importance": 2,
+"tags": [
+"continual-learning",
+"laptop",
+"vram"
+]
+}
+},
+{
+"id": "fd6191d4ff69",
+"key": "https://amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies",
+"source": "amazon_science",
+"source_name": "Amazon Science",
+"src_category": "research",
+"weight": 2,
+"kind": "article",
+"url": "https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies",
+"title": "Advancing AI for biology: Teaching models to design and characterize antibodies",
+"published": "2026-09-21T17:51:00Z",
+"fetched": "2026-10-01T19:40:21Z",
+"excerpt": "Three new papers from Amazon Bio Discovery address bottlenecks in AI-driven antibody engineering, from benchmarking binding predictors to experimentally validating de novo design.",
+"meta": {},
+"ai": {
+"summary": "Amazon Bio Discovery released three papers on AI‑driven antibody engineering, covering benchmark binding predictors, de novo design validation, and model training pipelines.",
+"why": "Provides new datasets and evaluation methods that developers can use to build or improve antibody design models.",
+"category": "research",
+"importance": 4,
+"tags": [
+"amazon",
+"antibody‑design",
+"bio‑ai"
+]
+}
+},
+{
+"id": "909990a3c275",
+"key": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+"title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+"published": "2026-09-21T18:00:07Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA launched DSX, a suite of power and cooling products designed to qualify AI factory infrastructure, addressing site and grid constraints for AI computing.",
+"why": "AI builders can use DSX to align power and cooling solutions with their computing architecture, improving deployment efficiency.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"dsx",
+"ai-factory"
+]
+}
+},
+{
+"id": "62a82f0805c2",
+"key": "https://newsletter.semianalysis.com/p/computation-and-data-movement-for",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/computation-and-data-movement-for",
+"title": "Computation and Data Movement for Inference",
+"published": "2026-09-21T18:14:15Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Mapping MoE models onto inference hardware: structure, flow, and efficient serving",
+"meta": {},
+"ai": {
+"summary": "The article outlines methods for mapping mixture-of-experts (MoE) models onto inference hardware, detailing model structure, data flow, and techniques for efficient serving.",
+"why": "Understanding these mapping strategies helps developers deploy large MoE models with lower latency and cost.",
+"category": "research",
+"importance": 3,
+"tags": [
+"moe",
+"inference",
+"hardware"
+]
+}
+},
+{
+"id": "966004c9ae4d",
+"key": "https://amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science",
+"source": "amazon_science",
+"source_name": "Amazon Science",
+"src_category": "research",
+"weight": 2,
+"kind": "article",
+"url": "https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science",
+"title": "Amazon launches research initiative with Stanford University to advance AI and science",
+"published": "2026-09-21T19:31:59Z",
+"fetched": "2026-10-01T19:40:21Z",
+"excerpt": "The collaboration aims to advance research while broadening participation and translating discovery into real-world solutions.",
+"meta": {},
+"ai": {
+"summary": "Amazon and Stanford University launched a joint research initiative to advance AI and scientific discovery, emphasizing broader participation and real‑world impact.",
+"why": "Opens opportunities for collaborative projects and access to joint resources for developers in academia and industry.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"amazon",
+"stanford",
+"research‑initiative"
+]
+}
+},
+{
+"id": "3ede5ac2797b",
+"key": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+"title": "Contrastive-LM/CLM-v0.1-8B is trending on Hugging Face",
+"published": "2026-09-21T20:09:04Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "text-ranking · 688 likes · 3,190 downloads",
+"meta": {
+"likes": 688,
+"downloads": 3190
+},
+"ai": {
+"summary": "Contrastive-LM/CLM-v0.1-8B, a text‑ranking model, is trending on Hugging Face with 619 likes and 2,720 downloads.",
+"why": "",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"contrastive-lm",
+"text-ranking",
+"huggingface"
+]
+}
+},
+{
+"id": "cd22337537cc",
+"key": "https://pytorch.org/blog/tinytorch-dont-just-import-pytorch-build-it",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/tinytorch-dont-just-import-pytorch-build-it/",
+"title": "TinyTorch: Don’t Just Import PyTorch. Build It.",
+"published": "2026-09-21T20:41:14Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "A framework you write yourself, tensors through transformers TL;DR Every mature systems project eventually needs a teaching version. TinyTorch is a free, open-source curriculum where you build a working ML...",
+"meta": {},
+"ai": {
+"summary": "TinyTorch is an open‑source curriculum that lets developers build a minimal PyTorch‑like framework from scratch, including tensors and transformers.",
+"why": "Can be used as an educational tool to deepen understanding of ML internals.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"tinytorch",
+"pytorch",
+"education"
+]
+}
+},
+{
+"id": "080229da9f0f",
+"key": "https://latent.space/p/jev",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/jev",
+"title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+"published": "2026-09-21T22:13:49Z",
+"fetched": "2026-10-01T19:24:22Z",
+"excerpt": "The definitive Jev podcast with its lead creator.",
+"meta": {},
+"ai": {
+"summary": "A podcast interview with Diogo Almeida, CEO of TypeSafe AI, discusses the Jev System One model and its production use cases.",
+"why": "Provides insights into practical deployment and business strategy for decision models.",
+"category": "other",
+"importance": 1,
+"tags": [
+"typesafe",
+"jev",
+"podcast"
+]
+}
+},
+{
+"id": "64c79b66ef4a",
+"key": "https://simonwillison.net/2026/Sep/21/jev",
+"source": "simon_willison",
+"source_name": "Simon Willison",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://simonwillison.net/2026/Sep/21/jev/",
+"title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+"published": "2026-09-21T23:09:20Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores.\nTypeSafe describe Jev like this:\nThink of Jev as a frontier-intelligence function call: unstructured state in, typed probabilistic decisions out.\nIt's also very fast, and really cheap . Regular LLMs are priced in terms of input and output tokens, with…",
+"meta": {},
+"ai": {
+"summary": "TypeSafe AI released Jev, a new “System One” or decision model that outputs floating‑point scores for categories, yes/no questions, ratings, and confidence levels instead of text.",
+"why": "Developers can use Jev for structured decision tasks where numeric confidence is needed, such as recommendation or risk scoring.",
+"category": "models",
+"importance": 3,
+"tags": [
+"typesafe",
+"jev",
+"decision-model"
+]
+}
+}
+]

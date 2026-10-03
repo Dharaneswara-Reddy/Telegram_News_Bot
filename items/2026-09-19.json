@@ -1,0 +1,132 @@
+[
+{
+"id": "932c10bdfd3c",
+"key": "https://latent.space/p/ainews-here-are-6-clones-of-jev-in",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+"title": "[AINews] Here are 6 Clones of Jev in 2 days",
+"published": "2026-09-19T05:48:28Z",
+"fetched": "2026-10-01T19:24:22Z",
+"excerpt": "Imitation is the sincerest form of Flattery",
+"meta": {},
+"ai": {
+"summary": "A post titled “Here are 6 Clones of Jev in 2 days” highlights six AI clones of the Jev model released within a two‑day span.",
+"why": "Rapid cloning showcases the ease of reproducing popular models, raising considerations for IP and model differentiation.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"jev",
+"clones",
+"model-replication"
+]
+}
+},
+{
+"id": "febd8e31073b",
+"key": "https://spectrum.ieee.org/llms-for-chip-design",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/llms-for-chip-design",
+"title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+"published": "2026-09-19T09:52:30Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "OpenAI used its own language models to generate the design specifications for the Jalapeño custom AI accelerator chip.",
+"why": "Demonstrates a closed‑loop AI‑design workflow that could reduce hardware development cycles.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"openai",
+"jalapeño",
+"chip",
+"llm‑design"
+]
+}
+},
+{
+"id": "aefd3241c4ed",
+"key": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
+"title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
+"published": "2026-09-19T13:41:57Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A developer reported building non‑autoregressive decision models a year ago, later highlighted as a breakthrough by a leading AI lab.",
+"why": "Shows that non‑autoregressive approaches can achieve competitive performance, worth exploring in production systems.",
+"category": "research",
+"importance": 2,
+"tags": [
+"non-autoregressive",
+"decision-models"
+]
+}
+},
+{
+"id": "8889e89b6b6e",
+"key": "https://interconnects.ai/p/where-i-stand-on-rsi",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+"title": "Why I still haven’t bought into true RSI",
+"published": "2026-09-19T15:42:20Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
+"meta": {},
+"ai": {
+"summary": "The author argues they remain skeptical of the concept of true Recursive Self‑Improvement (RSI) for AI, citing recent developments and the current trajectory of frontier models.",
+"why": "Understanding skepticism around RSI helps developers gauge realistic expectations for future model capabilities.",
+"category": "research",
+"importance": 2,
+"tags": [
+"rsi",
+"frontier-models",
+"skepticism"
+]
+}
+},
+{
+"id": "ed3e4a5117d7",
+"key": "https://laya.convaiinnovations.com/",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://laya.convaiinnovations.com/",
+"title": "Laya — 33ms Multilingual System 1 Decision Engine",
+"published": "2026-09-19T16:31:05Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "Laya released a multilingual decision engine that processes inputs in 33 ms per request across multiple languages.",
+"why": "Fast multilingual inference can be integrated into real‑time applications and services.",
+"category": "models",
+"importance": 3,
+"tags": [
+"laya",
+"multilingual",
+"decision-engine"
+]
+}
+}
+]
