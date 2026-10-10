@@ -1,0 +1,585 @@
+[
+{
+"id": "2096f8ca4557",
+"key": "https://machinelearning.apple.com/research/latent-space-distillation",
+"source": "apple_ml",
+"source_name": "Apple Machine Learning",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://machinelearning.apple.com/research/latent-space-distillation",
+"title": "Compressing Streaming Neural Audio Encoders via Latent-Space Distillation",
+"published": "2026-09-24T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that maps short windows of waveform onto the representation the language model reads. Because that model is sparsely activated under Instruction-Following Pruning, only a small subset of its experts occupies DRAM at any time, so the always-on tokenizer competes for the same memory, and its parameter count bears directly on power and latency. In this work we study how to compress such a tokenizer by distillation, taking as the supervision…",
+"meta": {},
+"ai": {
+"summary": "Apple researchers present a method to compress streaming neural audio encoders using latent‑space distillation, reducing parameter count and power consumption for on‑device dictation.",
+"why": "The technique can be applied to build lighter, always‑on speech models for mobile devices.",
+"category": "research",
+"importance": 3,
+"tags": [
+"apple",
+"audio",
+"distillation"
+]
+}
+},
+{
+"id": "34521f066407",
+"key": "https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+"title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+"published": "2026-09-24T00:00:00Z",
+"fetched": "2026-10-07T05:56:09Z",
+"excerpt": "Our latest Opus model is priced and trained to optimize costs for how developers code now.",
+"meta": {},
+"ai": {
+"summary": "Claude Opus 5.5 is priced and trained to optimize costs for developers’ coding patterns, supporting longer sessions and more context.",
+"why": "Developers can expect more efficient, cost‑effective coding assistance tailored to modern development workflows.",
+"category": "models",
+"importance": 3,
+"tags": [
+"claude",
+"opus",
+"cost-optimization",
+"context"
+]
+}
+},
+{
+"id": "36748034f89c",
+"key": "https://anthropic.com/research/project-swap",
+"source": "anthropic_research",
+"source_name": "Anthropic Research",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://www.anthropic.com/research/project-swap",
+"title": "Project Swap: What happens when agents trade for us?",
+"published": "2026-09-24T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Project Swap: What happens when agents trade for us?",
+"meta": {},
+"ai": {
+"summary": "Anthropic published a research project titled \"Project Swap,\" exploring the economic implications of AI agents conducting trades on behalf of users.",
+"why": "Investigates the intersection of AI agents and financial systems, relevant for developers building autonomous trading or economic simulation tools.",
+"category": "research",
+"importance": 3,
+"tags": [
+"anthropic",
+"agents",
+"economics",
+"trading"
+]
+}
+},
+{
+"id": "400dc03c8bda",
+"key": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
+"source": "apple_ml",
+"source_name": "Apple Machine Learning",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
+"title": "A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization",
+"published": "2026-09-24T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Automatic Speech Recognition (ASR) is particularly fragile here: pseudo-label errors compound across the output sequence and across training rounds into divergence, leaving a large gap to fully-supervised FL. We show that closing this gap turns on two coupled design axes—the teacher (which model generates the pseudo-labels) and the anchor (the server-side updates on labeled data that stabilize training). On the teacher…",
+"meta": {},
+"ai": {
+"summary": "Apple proposes a semi‑supervised federated ASR approach that combines online pseudo‑labels with server‑update stabilization to close the performance gap to fully supervised training.",
+"why": "The recipe enables more accurate speech models trained on private user data without centralizing recordings.",
+"category": "research",
+"importance": 3,
+"tags": [
+"apple",
+"federated-asr",
+"semi-supervised"
+]
+}
+},
+{
+"id": "7f2930432a40",
+"key": "https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels",
+"title": "Claude Tag now supports personal connectors in channels",
+"published": "2026-09-24T00:00:00Z",
+"fetched": "2026-10-07T05:56:09Z",
+"excerpt": "Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.",
+"meta": {},
+"ai": {
+"summary": "Claude Tag now supports personal connectors in channels, letting users make requests with their own connectors that remain private and controllable.",
+"why": "Users can securely integrate personal services into channel interactions without exposing them to others.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"claude",
+"tag",
+"connectors",
+"channels"
+]
+}
+},
+{
+"id": "d02e4a097c62",
+"key": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+"title": "Claude Tag now supports personal connectors in channels",
+"published": "2026-09-24T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Claude Tag now supports personal connectors in channels",
+"meta": {},
+"ai": {
+"summary": "Claude Tag now supports personal connectors in channels, allowing users to link personal data sources directly within the chat interface.",
+"why": "Developers can integrate their own data streams into Claude conversations, enabling more personalized AI interactions.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude",
+"personal-connectors",
+"channels"
+]
+}
+},
+{
+"id": "edd16a9c94f5",
+"key": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+"title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+"published": "2026-09-24T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+"meta": {},
+"ai": {
+"summary": "Anthropic announced Claude Opus 5.5, a model update specifically designed to handle longer coding sessions and larger context windows.",
+"why": "Improves the model's utility for complex, long-running development tasks, reducing the need for context management workarounds.",
+"category": "models",
+"importance": 4,
+"tags": [
+"anthropic",
+"claude",
+"coding",
+"context-window"
+]
+}
+},
+{
+"id": "b4a8bb5adbed",
+"key": "https://huggingface.co/orcarouter/OrcaSAQ-2-27B",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/orcarouter/OrcaSAQ-2-27B",
+"title": "orcarouter/OrcaSAQ-2-27B is trending on Hugging Face",
+"published": "2026-09-24T03:44:51Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "text-generation · 243 likes · 2,728 downloads",
+"meta": {
+"likes": 243,
+"downloads": 2728
+},
+"ai": {
+"summary": "The OrcaSAQ-2-27B model, a 27‑billion‑parameter text generation model, is trending on Hugging Face with 243 likes and 2,728 downloads.",
+"why": "Developers can experiment with the open‑weight model for large‑scale generation tasks.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"orcasaq",
+"huggingface",
+"27b"
+]
+}
+},
+{
+"id": "a7a56fbb7fc4",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
+"title": "ollama v0.34.4",
+"published": "2026-09-24T04:45:43Z",
+"fetched": "2026-10-01T19:23:58Z",
+"excerpt": "What's Changed\nStructured outputs on thinking models now apply in a single pass, making them faster and more reliable.\nFixed intermittent \"model not found\" errors with a large local library\nFixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running.\nQwen 3.8 prompt processing is faster on Apple Silicon.\nGemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images.\nUpdated llama.cpp, MLX, and XGrammar.\nFull Changelog : v0.34.3...v0.34.4",
+"meta": {},
+"ai": {
+"summary": "Ollama v0.34.4 added single‑pass structured outputs for thinking models, fixed intermittent model‑not‑found errors, improved macOS app stability, faster Qwen 3.8 prompt processing on Apple Silicon, and enhanced Gemma 4 image resolution handling.",
+"why": "Improves reliability and performance for developers using Ollama’s local model hosting and structured output features.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"ollama",
+"structured-output",
+"gemma4"
+]
+}
+},
+{
+"id": "13f94500f20c",
+"key": "https://latent.space/p/ainews-meta-connect-2026-muse-glasses",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+"title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+"published": "2026-09-24T08:12:59Z",
+"fetched": "2026-10-01T19:24:22Z",
+"excerpt": "Team Zuck is absolutely on fire.",
+"meta": {},
+"ai": {
+"summary": "Meta Connect 2026 showcased Muse glasses, new voice and video capabilities, and the Charm platform.",
+"why": "Developers can explore new hardware and media APIs announced at the event.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"meta",
+"muse",
+"connect2026",
+"hardware"
+]
+}
+},
+{
+"id": "d5bed1f8af06",
+"key": "https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai",
+"source": "last_week_in_ai",
+"source_name": "Last Week in AI",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai",
+"title": "LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents",
+"published": "2026-09-24T09:12:28Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "A belated discussion of Astra’s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety.",
+"meta": {},
+"ai": {
+"summary": "The LWiAI Podcast episode 257 covered the release of Astra, recent AI security incidents, and discussions on AI safety and extinction risks.",
+"why": "Highlights current safety concerns that developers need to consider when deploying advanced models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"astra",
+"ai-safety",
+"security"
+]
+}
+},
+{
+"id": "1f10b3998432",
+"key": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 3,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
+"title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
+"published": "2026-09-24T13:00:36Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate membership through Sunday, Sept. 27, and receive […]",
+"meta": {},
+"ai": {
+"summary": "Remedy Entertainment released the game CONTROL Resonant on GeForce NOW, offering a 12‑month Ultimate membership bundle promotion until Sept 27.",
+"why": "Shows continued growth of cloud gaming platforms, relevant for developers targeting GPU‑streamed experiences.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"geforce-now",
+"control-resonant"
+]
+}
+},
+{
+"id": "9f86feff6631",
+"key": "https://bensbites.com/p/back-to-claude",
+"source": "bens_bites",
+"source_name": "Ben's Bites",
+"src_category": "analysis",
+"weight": 2,
+"kind": "article",
+"url": "https://www.bensbites.com/p/back-to-claude",
+"title": "Back to Claude",
+"published": "2026-09-24T13:04:08Z",
+"fetched": "2026-10-01T19:40:23Z",
+"excerpt": "GPT-6 Sol and Luna got cheaper",
+"meta": {},
+"ai": {
+"summary": "The article notes that GPT‑6 Sol and Luna have become cheaper to run, prompting a return to Claude for some users.",
+"why": "It highlights cost trends that may influence model choice for production deployments.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"openai",
+"claude",
+"cost"
+]
+}
+},
+{
+"id": "1fe0dc81cf6e",
+"key": "https://machinelearning.apple.com/research/homomorphic-encryption",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://machinelearning.apple.com/research/homomorphic-encryption",
+"title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+"published": "2026-09-24T13:27:42Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "Apple announced a research effort combining machine learning with homomorphic encryption to enable privacy‑preserving inference on iOS devices.",
+"why": "This could allow developers to run sensitive ML models locally without exposing data to the cloud.",
+"category": "research",
+"importance": 2,
+"tags": [
+"apple",
+"homomorphic-encryption",
+"ml"
+]
+}
+},
+{
+"id": "f95b58746e47",
+"key": "https://blogs.nvidia.com/blog/open-protein-dataset",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+"title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+"published": "2026-09-24T14:00:50Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA joined a coalition with Google and other research groups to promote open‑science practices for pandemic preparedness, aiming to accelerate data sharing and model development for future outbreaks.",
+"why": "Open‑science tools and datasets can help developers build faster response pipelines for emerging diseases.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"open-science",
+"pandemic"
+]
+}
+},
+{
+"id": "e43af4bd1d43",
+"key": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+"title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+"published": "2026-09-24T14:08:57Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face released the LFM2.5‑VL‑DSpark vision‑language model, designed to accelerate training and inference for multimodal tasks.",
+"why": "Developers can use the model for faster prototyping of image‑text applications.",
+"category": "models",
+"importance": 3,
+"tags": [
+"huggingface",
+"vision-language",
+"lfm2.5",
+"model"
+]
+}
+},
+{
+"id": "3ca954f7ec2d",
+"key": "https://latent.space/p/foundries-vs-navigators-lowering",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+"title": "Foundries vs Navigators: Lowering the Cost of Science",
+"published": "2026-09-24T15:03:16Z",
+"fetched": "2026-10-01T19:24:22Z",
+"excerpt": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+"meta": {},
+"ai": {
+"summary": "Latent Space publishes a guest post titled \"Foundries vs Navigators: Lowering the Cost of Science,\" discussing how cheap thinking but expensive doing is reshaping research companies.",
+"why": "Highlights economic pressures in scientific research that may affect AI research funding and collaboration models.",
+"category": "other",
+"importance": 2,
+"tags": [
+"researchcosts",
+"science",
+"business"
+]
+}
+},
+{
+"id": "d6cbb0ef595d",
+"key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+"title": "Introducing Gemini 3.8 Live with Live Avatar",
+"published": "2026-09-24T15:30:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "an image with the phrase \"Gemini 3.8 Live with Live Avatar\"",
+"meta": {},
+"ai": {
+"summary": "Google introduced Gemini 3.8 Live with Live Avatar, a new feature or model variant focused on real-time interaction with avatar capabilities.",
+"why": "Represents a significant product update in Google's AI lineup, potentially impacting real-time AI applications and user interfaces.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini",
+"real-time",
+"avatar"
+]
+}
+},
+{
+"id": "ffda5f52d3dd",
+"key": "https://epochai.substack.com/p/how-far-behind-nvidia-is-huawei",
+"source": "epoch_ai",
+"source_name": "Epoch AI",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://epochai.substack.com/p/how-far-behind-nvidia-is-huawei",
+"title": "How far behind Nvidia is Huawei?",
+"published": "2026-09-24T16:04:51Z",
+"fetched": "2026-10-01T19:40:21Z",
+"excerpt": "Huawei will substantially improve its AI compute solutions by 2030, but export controls constrain its most important scaling levers, making it unlikely to catch up with Nvidia.",
+"meta": {},
+"ai": {
+"summary": "Epoch AI reports that Huawei plans to improve its AI compute solutions by 2030, but export controls limit its ability to catch up with Nvidia.",
+"why": "The analysis highlights geopolitical constraints that could affect hardware availability for AI developers.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"huawei",
+"nvidia",
+"export-controls"
+]
+}
+},
+{
+"id": "01cf49e88b68",
+"key": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+"source": "deepmind_blog",
+"source_name": "Google DeepMind",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+"title": "Introducing Gemini 3.8 Live with Live Avatar",
+"published": "2026-09-24T16:20:39Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind announced Gemini 3.8 Live, a version of Gemini that includes a live avatar for interactive demonstrations.",
+"why": "The live avatar showcases real‑time multimodal interaction, hinting at future developer tools that blend conversational AI with visual agents.",
+"category": "models",
+"importance": 3,
+"tags": [
+"google",
+"gemini-3.8",
+"live-avatar",
+"multimodal"
+]
+}
+},
+{
+"id": "3848fc47a8ee",
+"key": "https://research.google/blog/coherent-long-form-video-generation",
+"source": "google_research",
+"source_name": "Google Research",
+"src_category": "research",
+"weight": 4,
+"kind": "article",
+"url": "https://research.google/blog/coherent-long-form-video-generation/",
+"title": "Automating coherent long-form video generation",
+"published": "2026-09-24T19:40:00Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "Generative AI",
+"meta": {},
+"ai": {
+"summary": "Google Research publishes a paper on automating coherent long‑form video generation.",
+"why": "Researchers and developers can explore new methods for generating extended video content.",
+"category": "research",
+"importance": 3,
+"tags": [
+"google",
+"videogeneration",
+"research"
+]
+}
+},
+{
+"id": "de5e1a0bf0c0",
+"key": "https://pytorch.org/blog/accelerate-your-ai-journey-with-new-introduction-track-at-pytorch-conference-na-2026-and-pytorch-associate-training",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/accelerate-your-ai-journey-with-new-introduction-track-at-pytorch-conference-na-2026-and-pytorch-associate-training/",
+"title": "Accelerate Your AI Journey with new Introduction Track at PyTorch Conference NA 2026 and PyTorch Associate Training",
+"published": "2026-09-24T21:06:09Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "As deep learning models move rapidly from research prototypes into core enterprise infrastructure, the demand for practical, end-to-end PyTorch expertise has never been higher. Building robust neural networks requires more...\nThe post Accelerate Your AI Journey with new Introduction Track at PyTorch Conference NA 2026 and PyTorch Associate Training appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "PyTorch Conference NA 2026 launches a new Introduction Track and PyTorch Associate Training to help practitioners build robust neural networks.",
+"why": "The program offers hands‑on learning paths for developers transitioning from research to production with PyTorch.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"pytorch",
+"conference",
+"training"
+]
+}
+}
+]

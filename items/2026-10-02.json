@@ -1,0 +1,2851 @@
+[
+{
+"id": "043a2b559408",
+"key": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+"source": "apple_ml",
+"source_name": "Apple Machine Learning",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+"title": "Limits of Confidence in Diffusion",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T23:45:47Z",
+"excerpt": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawing each from a per-position distribution and choosing which positions to write from those same distributions. For domains of general interest (pixels, phonemes, or words) there are inherent dependencies between tokens. We show that a step matches the training distribution only when the positions it writes are conditionally independent given the tokens already fixed, that no product of per-position distributions can match a dependent group, and that…",
+"meta": {},
+"ai": {
+"summary": "Apple’s ML research paper explains that discrete diffusion models only match the training distribution when written token positions are conditionally independent given prior tokens.",
+"why": "Understanding these limits helps developers design more reliable diffusion‑based generative models.",
+"category": "research",
+"importance": 2,
+"tags": [
+"apple",
+"diffusion",
+"ml"
+]
+}
+},
+{
+"id": "04803d9d641d",
+"key": "arxiv:2609.39375",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.39375",
+"title": "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "A robot that observes people interacting with objects should be able to carry out later requests that refer back to those interactions. Such requests may specify a grasp target by the role it played in a past event rather than by its name or appearance. Moreover, the target may no longer be visible when the robot is asked to act. We present BeyondSCe, a zero-shot robotic grasping system for this event-referential setting. Given the event history and the current scene, the system identifies the requested object or part and localizes it for grasping. If the target is occluded, it combines an event prior recovered from the history with current scene geometry to select camera viewpoints likely…",
+"meta": {
+"upvotes": 19,
+"comments": 1,
+"authors": [
+"Hyunjoon Lee",
+"Haebeom Jung",
+"Eunsung Cha",
+"Daeun Lee",
+"Yu-Chiang Frank Wang",
+"Jaesung Choe"
+],
+"github": "https://github.com/SNU-VGILab/BeyondCSe",
+"org": "Seoul National University"
+},
+"ai": {
+"summary": "BeyondSCe is a zero‑shot robotic grasping system that can identify and grasp objects referenced by past events, even when those objects are no longer visible, using active view selection.",
+"why": "Shows a path for developers to build robots that understand event‑referential language, expanding natural interaction capabilities.",
+"category": "research",
+"importance": 3,
+"tags": [
+"robotics",
+"event‑referential",
+"grasping"
+]
+}
+},
+{
+"id": "098b74b8227b",
+"key": "arxiv:2610.01509",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.01509",
+"title": "Sharpening Tax in Post-Training",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "An emerging hypothesis about reinforcement learning (RL) post-training of large language models (LLMs) is that it merely sharpens existing behaviors of a base model, improving single-shot accuracy at the cost of solution coverage. Although this trade-off has been observed in math and coding tasks, it need not extend to agentic tasks, where multi-turn tool use and interaction may require capabilities newly acquired during post-training. Our surprising finding is that pre-trained LLMs, equipped with a light inference harness, can serve as capable agents. Despite far lower accuracy (pass@1), they often surpass their post-trained counterparts in solution coverage (pass@K) given a sufficient…",
+"meta": {
+"upvotes": 83,
+"comments": 2,
+"authors": [
+"Changdae Oh",
+"Qi Zeng",
+"Qi Qi",
+"Andrey Zhmoginov",
+"Deren Lei",
+"Yun He"
+],
+"github": "https://github.com/changdaeoh/sharpening-tax",
+"org": "Meta"
+},
+"ai": {
+"summary": "The paper investigates reinforcement learning post‑training of large language models and finds that while RL sharpens existing behaviors and improves single‑shot accuracy, it can also reduce solution coverage, especially for agentic tasks requiring multi‑turn tool use.",
+"why": "Understanding this trade‑off helps developers decide when RL fine‑tuning is beneficial for tool‑using agents versus broader task coverage.",
+"category": "research",
+"importance": 3,
+"tags": [
+"rl",
+"llm",
+"post‑training",
+"agentic"
+]
+}
+},
+{
+"id": "131e47d1aadc",
+"key": "https://openai.com/index/chatham-financial",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/chatham-financial",
+"title": "Chatham scales its capital markets expertise with OpenAI",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+"meta": {},
+"ai": {
+"summary": "Chatham Financial deployed OpenAI Codex and GPT‑5.6 to automate trade validation, cutting processing time from 30 minutes to under four minutes.",
+"why": "Shows concrete productivity gains from LLM automation in finance workflows.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"codex",
+"finance",
+"gpt-5.6"
+]
+}
+},
+{
+"id": "30bea21609a2",
+"key": "arxiv:2609.38923",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.38923",
+"title": "GraphForge: Training Working Agents with Graph-Anchored Workspace Synthesis",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "Working agents need to read diverse files, coordinate tools, and produce deliverables. Training such agents requires tasks built on many real files with verifiable results, but few pipelines exist to synthesize this kind of data. Existing pipelines either generate files with models, which lack realism and diversity, or build tasks on real files without task-specific verifiers, leaving result quality unchecked. We introduce GraphForge, an evidence-graph based framework that grounds both the task and its verification in real files. Starting from occupation-grounded seeds for controlled diversity, GraphForge assembles a workspace of real files for each seed and builds an evidence graph over…",
+"meta": {
+"upvotes": 144,
+"comments": 2,
+"authors": [
+"Qisheng Su",
+"Hanchen Wang",
+"Guanru Zhu",
+"Huicheng Jiang",
+"Qiuyinzhe Zhang",
+"Kou Shi"
+],
+"org": "University of Science and Technology of China"
+},
+"ai": {
+"summary": "GraphForge presents an evidence‑graph framework that synthesizes realistic file‑based tasks and verifiable results for training working agents, combining real files with graph‑anchored verification.",
+"why": "Enables developers to generate diverse, high‑quality training data for agents that manipulate files and tools, improving real‑world performance.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"working‑agents",
+"data‑synthesis",
+"graphforge"
+]
+}
+},
+{
+"id": "3a1115139748",
+"key": "arxiv:2609.39027",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.39027",
+"title": "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and discrimination across papers. We introduce RobustReview, a controlled full-manuscript benchmark with 1,260 manuscript versions, and evaluate 30 reviewer configurations. The benchmark reveals false robustness, where low rewrite sensitivity coincides with score collapse across papers, and shows that human alignment and rhetorical robustness rank reviewers differently. Moreover, the evaluated…",
+"meta": {
+"upvotes": 71,
+"comments": 2,
+"authors": [
+"Chenguang Wang",
+"Ming Li",
+"Chengrui Fan",
+"Jianpeng Chen",
+"Han Chen",
+"Tianyi Zhou"
+]
+},
+"ai": {
+"summary": "RobustReview is a new benchmark containing 1,260 rewrites of 30 manuscripts to test rhetorical robustness, measuring how reviewer judgments change with content‑preserving wording variations.",
+"why": "It provides a dataset for building or evaluating AI systems that assist or automate scholarly peer review with more consistent judgments.",
+"category": "research",
+"importance": 2,
+"tags": [
+"benchmarking",
+"reviewers",
+"robustness"
+]
+}
+},
+{
+"id": "3b2ebb0b9ff8",
+"key": "arxiv:2609.36585",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.36585",
+"title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-03T05:16:03Z",
+"excerpt": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B reaches 60 lines after four loops and at least 160 after eight. The LoRA starts a relay: program lines pass on their chain identity through a short range of middle layers. Frozen heads read progressively further up the chain, and removing parent-line attention stops the relay. A frozen-model…",
+"meta": {
+"upvotes": 67,
+"comments": 2,
+"authors": [
+"Zehao Jin",
+"Ruixuan Deng",
+"Junran Wang"
+],
+"github": "https://github.com/Lunamos/stop-thinking-too-early"
+},
+"ai": {
+"summary": "A rank-8 LoRA applied to an early layer of frozen pretrained transformers dramatically extends their ability to follow long reference chains, boosting Qwen3-8B exact accuracy on 24‑line chains from 15.5% to 99% and enabling correct reasoning over 50 lines, while Ouro‑1.4B reaches 60 lines after four LoRA loops and over 160 lines after eight.",
+"why": "Shows a lightweight fine‑tuning trick that lets developers get much deeper reasoning from existing models without full retraining.",
+"category": "research",
+"importance": 4,
+"tags": [
+"qwen3",
+"ouro",
+"lora",
+"reasoning"
+]
+}
+},
+{
+"id": "409f6f949ede",
+"key": "arxiv:2610.01415",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.01415",
+"title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world state with unresolved task requirements, making explicit what the agent still needs to learn and accomplish. To keep this belief reliable and actionable, PoS validates its consistency and monitors task progress to detect Belief Trapping, where the agent continues to act without making meaningful…",
+"meta": {
+"upvotes": 82,
+"comments": 3,
+"authors": [
+"Yu Luo",
+"Jiamin Jiang",
+"Yimin Zuo",
+"Xidao Wen",
+"Rongchen Gao",
+"Yongqian Sun"
+],
+"github": "https://github.com/luoyu100/PoS",
+"org": "alibaba"
+},
+"ai": {
+"summary": "PoS is an inference‑time framework that maintains explicit belief states for long‑horizon LLM agents, combining current world estimates with unresolved task requirements.",
+"why": "Helps developers build agents with more coherent long‑term reasoning and state tracking without retraining the model.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"belief‑state",
+"llm‑agents",
+"long‑horizon"
+]
+}
+},
+{
+"id": "41b1490a73b8",
+"key": "arxiv:2610.01016",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.01016",
+"title": "Scaling and Distilling Text Embeddings for Better Diffusibility",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "Diffusion language models (DLMs) offer a promising alternative to autoregressive (AR) language generation. Recent advances in continuous DLMs, which apply latent diffusion to continuous text embeddings, raise a practical question: which embedding makes the best latent space, i.e., the most diffusible? To answer this, we search through different embeddings and find that scaling the embedding model to stronger ones within the same family (T5 to T5Gemma-1 to T5Gemma-2) greatly improves generative performance. But the raw T5Gemma-2 embeddings are still not optimal. They are so discriminative that even the embeddings of plausible alternative words are separated, which makes the generation…",
+"meta": {
+"upvotes": 14,
+"comments": 1,
+"authors": [
+"Zekai Zhang",
+"Yunjie Tian",
+"Yanjin He",
+"Xiaoyan Zhang",
+"Dongdi Zhao",
+"Qing Qu"
+],
+"github": "https://github.com/la0ka1/diffusing-scaled-text-embeddings",
+"org": "University of Michigan"
+},
+"ai": {
+"summary": "The study scales and distills text embeddings, finding that larger T5‑Gemma models produce more diffusible embeddings for continuous diffusion language models, improving generation quality.",
+"why": "Guides developers on selecting or distilling embeddings to enhance diffusion‑based text generation pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"text‑embeddings",
+"diffusion",
+"t5‑gemma"
+]
+}
+},
+{
+"id": "45fed08f392b",
+"key": "arxiv:2609.35690",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.35690",
+"title": "Agent Priors-guided Policy Learning",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "Robots that learn from a few demonstrations often require two forms of generalization. Compositional generalization recombines skills to solve new tasks, and skill generalization lets the learned policy behind each skill work in new situations. The two depend on each other, yet information is lost between composition and the skills it calls. Where a skill works is determined by the structure its policy is trained with, while composition sees the skill only through a separate description, such as a name, an instruction, or a symbolic operator, that omits this structure. Our key idea is to use each policy's structural prior as part of the interface between composition and the skill. A…",
+"meta": {
+"upvotes": 75,
+"comments": 2,
+"authors": [
+"Puming Jiang",
+"Tianrun Hu",
+"Haozhe Du",
+"Yibo Li",
+"Zhiwei Xue",
+"Xinhu Li"
+],
+"github": "https://github.com/Agentics-robotics/Agent-Priors-guided-Policy-Learning",
+"org": "National University of Singapore"
+},
+"ai": {
+"summary": "The paper presents Agent Priors‑guided Policy Learning, a framework that jointly improves compositional and skill generalization in robot learning by preserving information between skill descriptions and policies.",
+"why": "It could reduce the amount of demonstration data needed for robots to adapt to new tasks.",
+"category": "research",
+"importance": 3,
+"tags": [
+"robots",
+"policy-learning",
+"generalization"
+]
+}
+},
+{
+"id": "506968232e56",
+"key": "arxiv:2610.02160",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.02160",
+"title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "Precise control over camera and object motion is essential for professional video production. Existing methods control objects only coarsely, through image-plane cues that are ambiguous in depth and rotation or through 3D tracks and blobs that lack complete geometry and lose consistency across viewpoint changes. We introduce 4Director, a video world model conditioned on an explicit 4D scene representation: each object is reconstructed once from the input image as a canonical mesh and moved by one prescribed rigid transformation per frame. This representation provides an intuitive 3D control interface and prevents unobserved geometry from being regenerated independently in every frame. We…",
+"meta": {
+"upvotes": 11,
+"comments": 1,
+"authors": [
+"Wei Cao",
+"Hao Zhang",
+"Vikram Voleti",
+"Yuqun Wu",
+"Mallikarjun B R",
+"Shimon Vainer"
+],
+"github": "https://github.com/VVeiCao/4Director",
+"org": "Stability AI"
+},
+"ai": {
+"summary": "The paper introduces 4Director, a video world model that uses an explicit 4D scene representation where each object is reconstructed once as a canonical mesh and then manipulated in 3D space for precise camera and object motion control.",
+"why": "It lets developers create video editing tools that can accurately control depth and rotation of objects across viewpoints.",
+"category": "research",
+"importance": 3,
+"tags": [
+"video",
+"world-model",
+"geometry"
+]
+}
+},
+{
+"id": "51dad22d25cf",
+"key": "arxiv:2610.02193",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.02193",
+"title": "Hierarchical Continuous Diffusion Language Models",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language models avoid this by denoising a shared continuous state, but their denoiser sees only that state, so nothing ties it to a valid token configuration until it is finally decoded. To address this, we propose Hierarchical Continuous Diffusion Language Models (HC-DLM), which couple discrete token…",
+"meta": {
+"upvotes": 79,
+"comments": 2,
+"authors": [
+"Hui Ren",
+"Zihan Li",
+"Chang Liu",
+"Huidong Liu",
+"Alexander Schwing"
+],
+"github": "https://github.com/rhfeiyang/HC-DLM",
+"org": "University of Illinois at Urbana-Champaign"
+},
+"ai": {
+"summary": "The authors introduce Hierarchical Continuous Diffusion Language Models, which denoise a shared continuous state to maintain token dependencies during parallel decoding, addressing bottlenecks of discrete diffusion models.",
+"why": "It enables faster, globally coherent text generation, useful for applications needing bidirectional reasoning.",
+"category": "research",
+"importance": 3,
+"tags": [
+"diffusion",
+"language-models",
+"continuous"
+]
+}
+},
+{
+"id": "52992d203cf2",
+"key": "arxiv:2609.38024",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.38024",
+"title": "Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "An agent skill is a reusable, actionable natural-language artifact that guides an agent to perform a task effectively under a given harness. Recent studies have explored the optimization of agent skills, contributing to a growing collection of publicly available skills spanning diverse tasks, domains, and harnesses. Despite millions of publicly shared skills, existing skill optimization methods largely overlook this accumulated knowledge, instead relying solely on expensive agent rollouts to iteratively refine skills for a target task. To address this, we propose Retrieval-Augmented Skill Optimization (RASO), a framework that leverages an external skill corpus as prior knowledge throughout…",
+"meta": {
+"upvotes": 41,
+"comments": 1,
+"authors": [
+"Jaewon Chu",
+"Ji Soo Lee",
+"Jihwan Park",
+"Dohwan Ko",
+"Jeehye Na",
+"Seunghun Lee"
+]
+},
+"ai": {
+"summary": "The authors propose Retrieval‑Augmented Skill Optimization via Cross‑Harness Adaptation, a method that leverages millions of publicly shared agent skills to improve skill optimization without costly agent rollouts.",
+"why": "Developers can reuse and adapt existing skill libraries more efficiently, reducing compute costs for building new agents.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"agent‑skills",
+"retrieval‑augmented",
+"optimization"
+]
+}
+},
+{
+"id": "5a576de4353d",
+"key": "arxiv:2610.00574",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.00574",
+"title": "Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T11:44:46Z",
+"excerpt": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over a batch. Under idealized GDPO normalization, we show that this energy is proportional to active-group density: the fraction of rollout groups in which the reward provides nonzero relative advantages. This reveals a residual batch-level signal imbalance and provides a basis for calibrating reward…",
+"meta": {
+"upvotes": 50,
+"comments": 2,
+"authors": [
+"Tong Zheng",
+"Skylar Zhai",
+"Zhan Cheng",
+"TianMing Sha",
+"Youling Huang",
+"Shuo Zhou"
+],
+"github": "https://github.com/zhaihaotian/DARA",
+"org": "kuaishou technology"
+},
+"ai": {
+"summary": "The paper proposes density‑aware reward aggregation to improve normalization in multi‑reward reinforcement learning, showing it better balances learning progress across objectives.",
+"why": "It helps train LLMs that need to satisfy several behavioral goals simultaneously.",
+"category": "research",
+"importance": 2,
+"tags": [
+"rl",
+"multi-reward",
+"gdpo",
+"reward"
+]
+}
+},
+{
+"id": "686bd6e20be5",
+"key": "arxiv:2610.00906",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.00906",
+"title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further optimization can change, suggesting that the training curriculum itself should adapt alongside the harness. We formulate this missing dimension of harness optimization as an automated curriculum learning problem and introduce ActiveSaddler. ActiveSaddler models the evolving curriculum as a…",
+"meta": {
+"upvotes": 64,
+"comments": 2,
+"authors": [
+"Sungho Park",
+"Wonjoong Kim",
+"Jue Zhang",
+"Wook-Shin Han",
+"Pengfei Gao",
+"Chanyoung Park"
+],
+"org": "Microsoft"
+},
+"ai": {
+"summary": "ActiveSaddler introduces an automated curriculum‑learning loop that adapts both the LLM agent harness and the training scenarios based on execution feedback.",
+"why": "Developers can iteratively refine agent prompts, tools, and logic while also selecting the most informative tasks, leading to more robust agents.",
+"category": "research",
+"importance": 3,
+"tags": [
+"curriculum-learning",
+"llm-agents",
+"harness"
+]
+}
+},
+{
+"id": "73ba177cfd36",
+"key": "arxiv:2610.00314",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.00314",
+"title": "Predictive Credit: Measuring What Scientific Explanations Add to Experimental Forecasts",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-04T21:21:32Z",
+"excerpt": "Research agents explain planned experiments. We measure predictive credit with paired forecasts sharing an intervention, forecaster, and outcome while varying description, matched explanation, and donor context. Five checks track commitment, delivery, predictive gain, alignment, and known-signal uptake. Across 336 prospective states in controlled learning, 12 Tox21 endpoints, and 24 OpenML tasks, v5's frozen credit decision was inconclusive. Tox21's preregistered ROC AUC interval-score harm test was unmet (D-M=-.0026, 95 percent interval [-.0174, .0104]); OpenML's joint formation, point-equivalence, and repeatability rule was unmet. Matched point-accuracy gains over description remained…",
+"meta": {
+"upvotes": 81,
+"comments": 2,
+"authors": [
+"Jingjie Ning",
+"Xueqi Li",
+"Yibo Kong",
+"Dongting Li"
+],
+"org": "Carnegie Mellon University"
+},
+"ai": {
+"summary": "The paper proposes ‘predictive credit’ to measure how scientific explanations boost experimental forecasts, testing it on 336 prospective states, 12 Tox21 endpoints, and 24 OpenML tasks, with inconclusive results for version 5.",
+"why": "Provides a new framework for evaluating the practical value of model explanations.",
+"category": "research",
+"importance": 3,
+"tags": [
+"predictive-credit",
+"explanations",
+"forecasting"
+]
+}
+},
+{
+"id": "7703a2b11525",
+"key": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+"source": "apple_ml",
+"source_name": "Apple Machine Learning",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+"title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T19:16:51Z",
+"excerpt": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening the model’s ability to discriminate languages during pretraining reduces and, on some measures, closes this multilingual gap on continuous phonetic and higher-level linguistic measures, while preserving substantial cross-language sharing. Using a controlled English/French HuBERT setting, we test two interventions which strengthen language discrimination: an auxiliary language…",
+"meta": {},
+"ai": {
+"summary": "Apple ML research shows that adding language discrimination during pretraining improves multilingual HuBERT models, narrowing the performance gap with monolingual models on phonetic and linguistic metrics.",
+"why": "Offers a technique developers can apply to enhance multilingual speech models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"apple",
+"multilingual",
+"speech"
+]
+}
+},
+{
+"id": "7f202b9c61d1",
+"key": "https://anthropic.com/news/claude-frontier-academy",
+"source": "anthropic_news",
+"source_name": "Anthropic",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://www.anthropic.com/news/claude-frontier-academy",
+"title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T19:16:51Z",
+"excerpt": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+"meta": {},
+"ai": {
+"summary": "Anthropic announced a $100 million program to train 10,000 engineers on its AI tools to address the enterprise talent gap.",
+"why": "Could expand the developer ecosystem for Anthropic’s models.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"anthropic",
+"training",
+"talent"
+]
+}
+},
+{
+"id": "8009eb72e950",
+"key": "arxiv:2609.37533",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.37533",
+"title": "E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "Masked diffusion models (MDMs) generate sequences by progressively unmasking several tokens per denoising step, but their reverse process is typically factorized over positions, limiting sample quality in the few-step regime where diffusion's speed advantage over autoregressive decoding matters most. A recent line of work introduces a continuous Gaussian latent, trained as a variational autoencoder, to capture correlations across positions, but such approaches are prone to posterior collapse, where the latent is silently ignored. We propose Enhanced Mixture-of-Experts (E-MoE), which builds the reverse process as a mixture of factorized distributions over a discrete shared latent given by…",
+"meta": {
+"upvotes": 60,
+"comments": 2,
+"authors": [
+"Arseny Ivanov",
+"Alexander Kolesov",
+"Alexander Korotin",
+"Ivan Oseledets",
+"Mikhail Goncharov"
+]
+},
+"ai": {
+"summary": "The paper “E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models” proposes a non‑factorized diffusion approach that adds a continuous Gaussian latent to capture cross‑position correlations, aiming to improve few‑step generation quality while avoiding posterior collapse.",
+"why": "Developers of generative text models can use the E‑MoE architecture to get faster, higher‑quality diffusion sampling.",
+"category": "research",
+"importance": 3,
+"tags": [
+"diffusion",
+"moe",
+"language-models"
+]
+}
+},
+{
+"id": "82ac0fb1bf6e",
+"key": "arxiv:2609.35259",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.35259",
+"title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation. However, existing comparisons between supervised fine-tuning and reinforcement learning vary many factors simultaneously, making the contribution of rollout policy difficult to isolate. We study the effect of rollout policy in a controlled strong-to-weak distillation setting, by independently varying rollout policy, token-level KL direction, and learning rate across the Llama3 and Qwen2.5 model families and reasoning tasks spanning scientific, medical, and arithmetic domains. Our analysis reveals a nuanced picture of distillation dynamics in which rollout…",
+"meta": {
+"upvotes": 175,
+"comments": 3,
+"authors": [
+"Julianna Piskorz",
+"Antonin Berthon",
+"Mihaela van der Schaar"
+],
+"org": "University of Cambridge"
+},
+"ai": {
+"summary": "The study “On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics” isolates the impact of rollout policy, KL direction, and learning rate in strong‑to‑weak model distillation, finding that on‑policy rollouts can reduce forgetting and improve generalisation.",
+"why": "Insights help developers choose training regimes when distilling large models into smaller, more efficient ones.",
+"category": "research",
+"importance": 3,
+"tags": [
+"distillation",
+"on‑policy",
+"off‑policy"
+]
+}
+},
+{
+"id": "b93878c22ada",
+"key": "arxiv:2609.32019",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.32019",
+"title": "Decentralized Master-Mind: Joint Action Refinement through Iterative Intent Denoising in Multi-Agent Pathfinding",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T11:44:46Z",
+"excerpt": "Decentralized multi-agent path finding (MAPF) with communication requires agents to reach individual goals without collisions under partial observability. Learnable policies trained on expert data provide an effective approach to this problem. However, when several coordinated joint actions are valid in the same context, independently sampling from per-agent distributions can recombine locally valid choices into incompatible joint actions. This failure can arise from the final sampling mechanism even when the per-agent action distributions are learned correctly. DMM (Decentralized Master-Mind) addresses this by replacing one-shot action sampling with discrete, iterative refinement of action…",
+"meta": {
+"upvotes": 20,
+"comments": 1,
+"authors": [
+"Valeriy Vyaltsev",
+"Anton Andreychuk",
+"Taisia Zlotnikova",
+"Konstantin Yakovlev",
+"Aleksandr Panov",
+"Alexey Skrynnik"
+],
+"github": "https://github.com/CognitiveAISystems/DMM"
+},
+"ai": {
+"summary": "Decentralized Master‑Mind introduces iterative intent denoising for joint action refinement, reducing incompatibilities in multi‑agent pathfinding under partial observability.",
+"why": "The method can improve coordination in decentralized robotics or game AI systems.",
+"category": "research",
+"importance": 2,
+"tags": [
+"mapf",
+"multi-agent",
+"denoising",
+"coordination"
+]
+}
+},
+{
+"id": "bb5ab379380d",
+"key": "arxiv:2610.02205",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.02205",
+"title": "ROWBench: Do Video Models Render What the Program Specifies?",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-specified world events. We introduce PROWBench, comprising 170 programmatically constructed episodes and 600 proxy videos covering diverse scenes and interactions. PROWBench logs entity states and timestamped events, including those outside the camera's field of view, as replayable world records, from…",
+"meta": {
+"upvotes": 64,
+"comments": 2,
+"authors": [
+"Zheng-Hui Huang",
+"Guixu Lin",
+"Yu-Ju Tsai",
+"Jian-Kai Zhu",
+"Fengbo Lan",
+"Yu-Lun Liu"
+],
+"github": "https://github.com/AlayaLab/PROWBench",
+"org": "Alaya Lab"
+},
+"ai": {
+"summary": "ROWBench (PROWBench) introduces 170 programmatically generated video episodes to evaluate how well programmable world models adhere to fine‑grained, program‑specified events, beyond visual quality and controllability.",
+"why": "Provides a concrete benchmark for developers building video or game‑engine models that need precise rule‑following visual output.",
+"category": "research",
+"importance": 3,
+"tags": [
+"video‑models",
+"benchmark",
+"world‑models"
+]
+}
+},
+{
+"id": "bc71dec59460",
+"key": "arxiv:2610.02162",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.02162",
+"title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples observing from acting by jointly generating a perspective actor for the agent-centric view with one or more panoramic observers that watch selected world regions. This allows objects that leave the actor's view to remain visually evolving in an observer, so their updated states are reflected when…",
+"meta": {
+"upvotes": 73,
+"comments": 4,
+"authors": [
+"Hyunwook Choi",
+"Dahyun Chung",
+"Hyunsung Kim",
+"Siyoon Jin",
+"Jinhyeok Choi",
+"Junyoung Seo"
+],
+"github": "https://github.com/cvlab-kaist/world-observer",
+"org": "KAIST AI"
+},
+"ai": {
+"summary": "World Observer decouples observation from acting by jointly generating an actor‑centric view and an observer perspective, enabling continuous world modeling beyond the agent’s immediate field of view.",
+"why": "It helps maintain consistent object states in video simulations, improving long‑term planning for embodied agents.",
+"category": "research",
+"importance": 3,
+"tags": [
+"world-model",
+"video",
+"actor-observer"
+]
+}
+},
+{
+"id": "e26e671a3189",
+"key": "arxiv:2610.01215",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.01215",
+"title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintain state, and support multi-step workflows. However, the diversity of available trajectories is constrained by the applications, interface states, and workflows accessible in the underlying environments. Expanding this coverage requires deploying increasingly diverse and complex software, with specialized applications imposing additional installation, configuration, and runtime costs. We introduce AutoGUIWorld, a data generation framework that combines the visual priors of image generators with the task knowledge of a planner to synthesize GUI interaction trajectories…",
+"meta": {
+"upvotes": 43,
+"comments": 2,
+"authors": [
+"Cheng Yang",
+"Yifan Wu",
+"Yutao Huang",
+"Zhaohua Zhang",
+"Beiduo Chen",
+"Muxi Chen"
+],
+"github": "https://github.com/ImYangC7/AutoGUIWorld",
+"org": "Tencent Hunyuan"
+},
+"ai": {
+"summary": "AutoGUIWorld uses image‑generation models as visual world models to create diverse interaction trajectories for GUI‑based agents, reducing reliance on hand‑crafted software environments.",
+"why": "Developers can train GUI agents with richer simulated data without installing many real applications.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"gui-agent",
+"visual-world-model",
+"synthetic-trajectories"
+]
+}
+},
+{
+"id": "f453a5b26256",
+"key": "arxiv:2609.37200",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.37200",
+"title": "Adaptive Reward Routing: Dynamic Multi-Reward Optimization for Joint Audio-Video Diffusion via Forward-Process RL",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "Multi-reward guided reinforcement learning (i.e., RL) offers a promising way to improve joint audio-video diffusion models along several complementary objectives, including modality-specific quality, cross-modal semantic alignment, and temporal synchronization. Its effectiveness, however, depends on two quantities that change during training: where reward-driven updates should act, and how competing rewards should be combined. Existing methods tend to rely on fixed routing and reward weights, failing to track evolving model functions. To address these limitations, we propose Adaptive Reward Routing to jointly adapt update locations and reward coordination during forward-process RL (i.e…",
+"meta": {
+"upvotes": 124,
+"comments": 2,
+"authors": [
+"Songlin Yang",
+"Xiaotong Zhao",
+"Jiacheng Zhang",
+"Zhe Wang",
+"Toyota Li",
+"Eric Liu"
+],
+"org": "Tencent"
+},
+"ai": {
+"summary": "The paper proposes Adaptive Reward Routing, a reinforcement‑learning method that dynamically selects where to apply updates and how to weight multiple rewards while training joint audio‑video diffusion models for quality, semantic alignment, and synchronization.",
+"why": "It offers a way to improve multimodal diffusion models without fixed reward schemes, which could be adopted in future generative media pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"diffusion",
+"audio-video",
+"reinforcement-learning"
+]
+}
+},
+{
+"id": "fba2cc00c9e7",
+"key": "arxiv:2610.01762",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.01762",
+"title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
+"published": "2026-10-02T00:00:00Z",
+"fetched": "2026-10-02T11:44:46Z",
+"excerpt": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive Hierarchical Caption Memory (PHCM) produces time-grounded local-detail captions and summaries of completed events. Streaming caption targets supervise the interpretation of observed video prefixes during training. At inference, model-generated records complement a recent visual window, providing…",
+"meta": {
+"upvotes": 165,
+"comments": 2,
+"authors": [
+"Xiangyu Zeng",
+"Yuandong Yang",
+"Zhiqiu Zhang",
+"Yuhan Zhu",
+"Xinhao Li",
+"Qingyi Si"
+],
+"github": "https://github.com/MCG-NJU/OneStreamer",
+"org": "Nanjing University"
+},
+"ai": {
+"summary": "The OneStreamer paper presents a streaming video LLM that uses Proactive Hierarchical Caption Memory to record query‑independent evidence and generate responses as soon as sufficient information is available.",
+"why": "It offers a framework for building real‑time video understanding agents that retain reusable factual memory.",
+"category": "research",
+"importance": 3,
+"tags": [
+"onestreamer",
+"video-llm",
+"memory",
+"caption"
+]
+}
+},
+{
+"id": "6f1596558f18",
+"key": "https://latent.space/p/rlm",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/rlm",
+"title": "Academia is for Ambition — Alex Zhang, MIT",
+"published": "2026-10-02T00:28:04Z",
+"fetched": "2026-10-02T05:33:54Z",
+"excerpt": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
+"meta": {},
+"ai": {
+"summary": "An interview with MIT PhD Alex Zhang discussing his research and future directions in AI.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"interview",
+"alex-zhang"
+]
+}
+},
+{
+"id": "54476838e850",
+"key": "https://youtube.com/watch?v=NnV_cWeoo5Q",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+"title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+"published": "2026-10-02T02:51:27Z",
+"fetched": "2026-10-02T23:45:51Z",
+"excerpt": "",
+"meta": {
+"points": 248,
+"comments": 79,
+"hn_url": "https://news.ycombinator.com/item?id=49929391"
+},
+"ai": {
+"summary": "Linux kernel maintainer Greg Kroah‑Hartman presented a video on security challenges introduced by large language models in software development pipelines.",
+"why": "Raises awareness of supply‑chain and code‑injection risks that developers need to mitigate.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"security",
+"llm",
+"kroah-hartman"
+]
+}
+},
+{
+"id": "d9e68c16a304",
+"key": "https://deepseek.com/en/harness",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.deepseek.com/en/harness/",
+"title": "DeepSeek Harness Desktop for macOS and Windows",
+"published": "2026-10-02T03:11:20Z",
+"fetched": "2026-10-02T11:44:50Z",
+"excerpt": "",
+"meta": {
+"points": 390,
+"comments": 211,
+"hn_url": "https://news.ycombinator.com/item?id=49929489"
+},
+"ai": {
+"summary": "DeepSeek launched Harness Desktop, a native client for macOS and Windows that lets users run DeepSeek models locally via a graphical interface.",
+"why": "Developers can integrate DeepSeek models into desktop workflows without needing a browser or cloud API.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"deepseek",
+"desktop",
+"macos",
+"windows"
+]
+}
+},
+{
+"id": "b458138d95b2",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
+"title": "ollama v0.35.1",
+"published": "2026-10-02T03:23:32Z",
+"fetched": "2026-10-02T05:33:55Z",
+"excerpt": "What's Changed\nfeat: allow ten web searches per response by @ParthSareen in #18602\nMLX: version bump by @dhiltgen in #18651\nllama.cpp: version bump b11232 by @dhiltgen in #18652\ncreate: support explicit model capabilities by @dhiltgen in #18708\nFull Changelog : v0.35.0...v0.35.1-rc0",
+"meta": {},
+"ai": {
+"summary": "Ollama v0.35.1 adds support for up to ten web searches per LLM response, bumps MLX and llama.cpp (to commit b11232), and introduces an explicit model‑capabilities flag.",
+"why": "Developers can now integrate limited web‑search capability directly into Ollama‑based agents, expanding their knowledge base at runtime.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"ollama",
+"websearch",
+"llama.cpp"
+]
+}
+},
+{
+"id": "564b709d2a15",
+"key": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+"title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+"published": "2026-10-02T04:01:31Z",
+"fetched": "2026-10-02T05:33:51Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "AutoSynthData is a tool that automatically generates synthetic training data tailored for enterprise AI agents.",
+"why": "Developers can use it to quickly create large, domain‑specific datasets for fine‑tuning their agents without manual labeling.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"synthetic-data",
+"enterprise",
+"agents"
+]
+}
+},
+{
+"id": "0b2ac551997d",
+"key": "https://huggingface.co/autotrust/GEV-26B-Decide",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/autotrust/GEV-26B-Decide",
+"title": "autotrust/GEV-26B-Decide is trending on Hugging Face",
+"published": "2026-10-02T04:20:21Z",
+"fetched": "2026-10-06T01:17:44Z",
+"excerpt": "text-classification · 2,123 likes · 909,755 downloads",
+"meta": {
+"likes": 2123,
+"downloads": 909755
+},
+"ai": {
+"summary": "The autotrust/GEV-26B-Decide model, a 26‑billion‑parameter text‑classification model, has become popular on Hugging Face, accumulating 471 likes and over 446k downloads.",
+"why": "Developers can leverage a ready‑to‑use, high‑capacity classifier for tasks like sentiment analysis or intent detection without training from scratch.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"autotrust",
+"gev-26b-decide",
+"text-classification"
+]
+}
+},
+{
+"id": "16ccb84aa3eb",
+"key": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+"title": "Aleph-Alpha/Kolibri-1 is trending on Hugging Face",
+"published": "2026-10-02T05:54:02Z",
+"fetched": "2026-10-04T12:18:38Z",
+"excerpt": "text-generation · 860 likes · 10,496 downloads",
+"meta": {
+"likes": 860,
+"downloads": 10496
+},
+"ai": {
+"summary": "Aleph‑Alpha’s Kolibri‑1 text‑generation model is trending on Hugging Face, with 319 likes and 1,135 downloads.",
+"why": "Indicates developer interest in a new open‑weight model that could be evaluated for niche language tasks.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"aleph-alpha",
+"kolibri-1",
+"huggingface"
+]
+}
+},
+{
+"id": "4c0a5aa5a0e3",
+"key": "https://latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+"title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+"published": "2026-10-02T06:40:53Z",
+"fetched": "2026-10-02T11:44:49Z",
+"excerpt": "the minimalist harness goes stable... and TypeScript!",
+"meta": {},
+"ai": {
+"summary": "Pi 1.0 and Pi Durable models were released with a stable minimalist harness and a new TypeScript SDK for easy integration.",
+"why": "Developers can now embed the latest Pi models into applications using familiar TypeScript tooling.",
+"category": "models",
+"importance": 3,
+"tags": [
+"pi",
+"durable",
+"typescript",
+"model"
+]
+}
+},
+{
+"id": "9812cf21731c",
+"key": "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/",
+"title": "Black Forest Labs launches Flux 3 Image with multi-step editing that leaves the rest of your picture alone",
+"published": "2026-10-02T07:44:44Z",
+"fetched": "2026-10-02T11:44:49Z",
+"excerpt": "Black Forest Labs has released Flux 3 Image, the image side of its Flux 3 model family. It supports multi-step edits without changing other parts of the image, lets users compose scenes with bounding boxes and up to ten reference images, and outputs up to 4K. Open weights are coming in the next few weeks.\nThe article Black Forest Labs launches Flux 3 Image with multi-step editing that leaves the rest of your picture alone appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Black Forest Labs released Flux 3 Image, enabling multi-step edits that preserve unchanged regions, supports bounding‑box composition with up to ten reference images, and can generate up to 4K output; open weights are promised soon.",
+"why": "Provides developers a more controllable image generation tool and soon an open‑source model to integrate.",
+"category": "models",
+"importance": 4,
+"tags": [
+"blackforestlabs",
+"flux-3",
+"image-editing"
+]
+}
+},
+{
+"id": "3378579ba467",
+"key": "https://allenai.org/blog/astabrief",
+"source": "ai2_blog",
+"source_name": "Ai2",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://allenai.org/blog/astabrief",
+"title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+"published": "2026-10-02T08:00:00Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "We’re releasing AstaBrief, an 8B open-weights model for generating cited scientific reports, available in Asta’s Fast mode or to download and run on your own infrastructure.",
+"meta": {},
+"ai": {
+"summary": "Asta released AstaBrief, an 8B open‑weights model for generating cited scientific reports, available in Fast mode or for local deployment.",
+"why": "Provides developers with a lightweight, open‑source tool for automated report generation.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"asta",
+"astabrief",
+"openweights"
+]
+}
+},
+{
+"id": "cec882766908",
+"key": "https://technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+"title": "Don’t be fooled—LLMs don’t reason",
+"published": "2026-10-02T08:00:00Z",
+"fetched": "2026-10-02T11:44:50Z",
+"excerpt": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a…",
+"meta": {},
+"ai": {
+"summary": "The article argues that large language models lack genuine reasoning abilities, citing examples like a 2016 Go program making nonsensical moves.",
+"why": "Highlights limitations developers must consider when relying on LLMs for logical tasks.",
+"category": "research",
+"importance": 3,
+"tags": [
+"llm",
+"reasoning",
+"go"
+]
+}
+},
+{
+"id": "68b536fe79b1",
+"key": "https://write.as/tmcb/thrust-vs-steer-or-yet-another-anecdotal-case-of-the-dunning-kruger-effect",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://write.as/tmcb/thrust-vs-steer-or-yet-another-anecdotal-case-of-the-dunning-kruger-effect",
+"title": "Thrust vs. Steer (or: Yet Another Anecdotal Case of the Dunning-Kruger Effect)",
+"published": "2026-10-02T08:14:44Z",
+"fetched": "2026-10-02T11:44:50Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A discussion thread titled “Thrust vs. Steer (or: Yet Another Anecdotal Case of the Dunning‑Kruger Effect)” was posted on Lobsters.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"lobsters",
+"discussion"
+]
+}
+},
+{
+"id": "d945d1669316",
+"key": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/",
+"title": "Businesses are using more AI and paying less for it, Ramp AI Index shows",
+"published": "2026-10-02T09:09:21Z",
+"fetched": "2026-10-02T11:44:49Z",
+"excerpt": "US companies are spending less on AI, according to the latest Ramp AI Index from Ramp economist Ara Kharazian.\nThe article Businesses are using more AI and paying less for it, Ramp AI Index shows appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The latest Ramp AI Index shows U.S. companies are using AI more while their AI spending per company is decreasing.",
+"why": "Shows cost efficiency trends that could affect budgeting for AI projects.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ramp",
+"ai-index",
+"spending"
+]
+}
+},
+{
+"id": "0465ef04a64e",
+"key": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents/",
+"title": "Microsoft AI releases new transcription and text-to-speech models for voice agents",
+"published": "2026-10-02T09:20:39Z",
+"fetched": "2026-10-02T11:44:49Z",
+"excerpt": "Microsoft AI has released MAI-Transcribe-2-Streaming, a new model for real-time transcription.\nThe article Microsoft AI releases new transcription and text-to-speech models for voice agents appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Microsoft released MAI-Transcribe-2-Streaming for real‑time transcription and new text‑to‑speech models aimed at voice agents.",
+"why": "Provides developers with higher‑quality, low‑latency speech models for building conversational assistants.",
+"category": "models",
+"importance": 3,
+"tags": [
+"microsoft",
+"transcription",
+"tts",
+"voice-agents"
+]
+}
+},
+{
+"id": "63106189d867",
+"key": "https://wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/",
+"title": "AI Is Making a Mess of Nurses’ Schedules. They Say It’s a Safety Issue",
+"published": "2026-10-02T09:30:00Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "A hospital giant and radiology network turned to Palantir to streamline scheduling, but nurses and other staff say the new software is causing errors, burnout, and frustration.",
+"meta": {},
+"ai": {
+"summary": "A hospital network’s use of Palantir’s scheduling software has led to errors, burnout, and frustration among nurses, raising safety concerns.",
+"why": "\"\"",
+"category": "policy",
+"importance": 2,
+"tags": [
+"palantir",
+"scheduling",
+"nurses",
+"safety"
+]
+}
+},
+{
+"id": "d503db4e7a1e",
+"key": "https://wired.com/story/healthcare-workers-are-tired-of-cleaning-up-palantirs-mess",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/healthcare-workers-are-tired-of-cleaning-up-palantirs-mess/",
+"title": "Health Care Workers Are Tired of Cleaning Up Palantir’s Mess",
+"published": "2026-10-02T09:30:00Z",
+"fetched": "2026-10-02T11:44:49Z",
+"excerpt": "A hospital giant and radiology network turned to Palantir to streamline scheduling, but nurses and other staff say the new software is causing errors, burnout, and frustration.",
+"meta": {},
+"ai": {
+"summary": "Hospitals using Palantir’s scheduling software report increased errors and staff burnout due to the system’s flaws.",
+"why": "Signals potential risks of deploying large enterprise AI platforms without thorough validation.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"palantir",
+"healthcare",
+"scheduling"
+]
+}
+},
+{
+"id": "03a7bc8fa9ed",
+"key": "https://theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+"title": "AI music maker Suno now generates spoken words",
+"published": "2026-10-02T09:42:19Z",
+"fetched": "2026-10-02T11:44:49Z",
+"excerpt": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platforms, and allows you to simultaneously generate voiceovers and background music to accompany them. \"Music will always be at […]",
+"meta": {},
+"ai": {
+"summary": "Suno added a public‑beta feature that generates spoken voiceovers from scripts, allowing simultaneous creation of speech and background music on its web and mobile platforms.",
+"why": "Enables developers and creators to produce combined music‑and‑speech content with a single service.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"suno",
+"speech",
+"music",
+"generation"
+]
+}
+},
+{
+"id": "e7131220e511",
+"key": "https://wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+"title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
+"published": "2026-10-02T09:45:00Z",
+"fetched": "2026-10-02T11:44:49Z",
+"excerpt": "While the focus has been on AI agents’ hacking capabilities, a recently patched vulnerability in a ChatGPT app shows that AI software is itself an inviting—and vulnerable—target.",
+"meta": {},
+"ai": {
+"summary": "A vulnerability in the ChatGPT macOS app allowed potential attackers to capture sensitive user data, which has now been patched.",
+"why": "Reminds developers to audit AI‑integrated applications for security flaws.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"chatgpt",
+"security",
+"macos"
+]
+}
+},
+{
+"id": "b131147d8d67",
+"key": "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision/",
+"title": "AI beats licensed accountants on speed and accuracy, but still can't close the books without supervision",
+"published": "2026-10-02T11:15:24Z",
+"fetched": "2026-10-02T11:44:49Z",
+"excerpt": "According to a Mercor study, current AI models now outperform licensed CPAs on structured accounting tasks in both speed and accuracy. Eighteen months ago, they still lagged far behind. On the more demanding APEX Benchmark, though, no model fully completes all the tasks. Without human oversight, AI still can't close the books on its own.\nThe article AI beats licensed accountants on speed and accuracy, but still can't close the books without supervision appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "A Mercor study found current AI models outperform licensed CPAs on structured accounting tasks in speed and accuracy, though none fully complete the APEX Benchmark without human supervision.",
+"why": "Shows AI can accelerate routine finance work but still requires expert oversight for full automation.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"accounting",
+"ai",
+"finance",
+"benchmark"
+]
+}
+},
+{
+"id": "b946ab481f12",
+"key": "https://theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+"title": "Amazon writes scary blog warning communities not to block data centers",
+"published": "2026-10-02T11:52:20Z",
+"fetched": "2026-10-02T12:31:14Z",
+"excerpt": "Amazon is calling for people to support AI data center projects, or risk irreparable harm to the US economy and national security. In a more than 3,000 word blog posted today, Amazon web services CEO Matt Garman pushed back on public concerns around the impact that data centers may have on jobs, power demands, and […]",
+"meta": {},
+"ai": {
+"summary": "AWS CEO Matt Garman published a 3,000‑word blog urging communities to support AI data center projects, warning that opposition could harm the U.S. economy and national security.",
+"why": "Signals strong corporate lobbying for AI compute expansion, which may affect regulatory and zoning discussions.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"aws",
+"data-centers",
+"policy"
+]
+}
+},
+{
+"id": "1f873c4f6898",
+"key": "https://theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+"title": "If a data center is camouflaged in the woods, will anyone hate it?",
+"published": "2026-10-02T12:00:00Z",
+"fetched": "2026-10-02T12:31:14Z",
+"excerpt": "San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that's changed in recent years, as data centers have grown into massive \"hyperscale\" facilities spanning millions of square feet and housing the physical infrastructure for AI. There are now more […]",
+"meta": {},
+"ai": {
+"summary": "The article examines how AI‑driven hyperscale data centers are expanding into large, camouflaged facilities in rural areas, raising visibility and community concerns.",
+"why": "Highlights the growing physical footprint of AI compute and the need for developers to consider infrastructure constraints.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"data-centers",
+"ai",
+"infrastructure"
+]
+}
+},
+{
+"id": "d01c457ec4bb",
+"key": "https://theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+"title": "AI hallucinations are making entitled customers even worse",
+"published": "2026-10-02T12:00:00Z",
+"fetched": "2026-10-02T12:31:14Z",
+"excerpt": "Madison, a server in New York City, greets every table by asking about each diner's allergies. Lately, there have been some close calls. \"Sometimes people will tell me they have a shellfish allergy, and I'll come back, and they won't ask me any questions,\" says Madison, who asked that her last name be withheld to […]",
+"meta": {},
+"ai": {
+"summary": "An AI-powered restaurant server named Madison in New York City has been incorrectly handling allergy information, leading to close calls with customers who have shellfish allergies.",
+"why": "Shows practical risks of deploying conversational AI in safety‑critical hospitality settings.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"ai",
+"hospitality",
+"restaurant"
+]
+}
+},
+{
+"id": "7cce153b7ee6",
+"key": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
+"title": "Three firings and a fourth departure shake up OpenAI's safety team",
+"published": "2026-10-02T12:51:08Z",
+"fetched": "2026-10-02T19:16:55Z",
+"excerpt": "OpenAI has parted ways with three researchers who allegedly leaked confidential information to an outside AI safety organization, according to the Wall Street Journal.\nThe article Three firings and a fourth departure shake up OpenAI's safety team appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI fired three researchers and a fourth left after allegations that they leaked confidential data to an external AI safety group.",
+"why": "Signals a tightening of internal security and could affect future safety research collaborations.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"safety",
+"leak"
+]
+}
+},
+{
+"id": "a3d0a6d62f63",
+"key": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+"title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+"published": "2026-10-02T13:00:39Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA DGX Spark will be released with 64 GB of unified memory, enabling developers to run larger local AI models on devices from partners like Acer.",
+"why": "Developers can build and scale local AI applications on more capable hardware without cloud dependence.",
+"category": "other",
+"importance": 3,
+"tags": [
+"nvidia",
+"dgx",
+"spark",
+"localai"
+]
+}
+},
+{
+"id": "e04f1fc49763",
+"key": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
+"title": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
+"published": "2026-10-02T14:00:00Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "Today is the last day to book your exhibit table at TechCrunch Disrupt 2026. From October 13–15, 10,000+ founders, investors, operators, and tech leaders will arrive at San Francisco’s Moscone West looking for companies, products, ideas, and people worth knowing. The question is: Will they find your startup?",
+"meta": {},
+"ai": {
+"summary": "TechCrunch Disrupt 2026 will host over 10,000 tech leaders from Oct 13‑15 at Moscone West, offering exhibitors a final chance to book tables.",
+"why": "Important for startups seeking exposure to investors and partners.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"techcrunch",
+"disrupt",
+"exhibit"
+]
+}
+},
+{
+"id": "8901443e45bd",
+"key": "https://latent.space/p/airbnb",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/airbnb",
+"title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+"published": "2026-10-02T14:04:49Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
+"meta": {},
+"ai": {
+"summary": "Former Meta Llama lead Ahmad Al‑Dahle is leading an AI overhaul at Airbnb, applying internal AI tools across product development and the guest experience.",
+"why": "Illustrates large‑scale enterprise AI adoption and its impact on product and service pipelines.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"airbnb",
+"ai",
+"enterprise"
+]
+}
+},
+{
+"id": "4960c9985075",
+"key": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+"title": "With most information hidden, the game Stratego had stumped AI until now",
+"published": "2026-10-02T14:11:24Z",
+"fetched": "2026-10-02T23:45:51Z",
+"excerpt": "",
+"meta": {
+"points": 277,
+"comments": 140,
+"hn_url": "https://news.ycombinator.com/item?id=49933740"
+},
+"ai": {
+"summary": "Researchers created an AI that can play the hidden‑information board game Stratego, solving a problem that had previously stumped AI systems.",
+"why": "It shows progress in reasoning under uncertainty, which could improve future AI agents and game‑playing bots.",
+"category": "research",
+"importance": 4,
+"tags": [
+"stratego",
+"ai",
+"game",
+"reasoning"
+]
+}
+},
+{
+"id": "624bf981f018",
+"key": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+"title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
+"published": "2026-10-02T14:30:00Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "Clay Co-founder and CEO Kareem Amin joins the AI Stage to discuss the rise of GTM engineer at TechCrunch Disrupt 2026. Register for your ticket and get a second pass at 50% off.",
+"meta": {},
+"ai": {
+"summary": "Clay Co‑founder Kareem Amin spoke at TechCrunch Disrupt 2026 about the growing role of GTM engineers in AI companies.",
+"why": "Highlights a new career path that developers may pursue or need to support.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"techcrunch",
+"gtm",
+"ai"
+]
+}
+},
+{
+"id": "a4621567aec7",
+"key": "https://reuters.com/business/retail-consumer/amazon-seeks-offload-8-billion-nvidia-chips-investors-ft-reports-2026-10-02",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.reuters.com/business/retail-consumer/amazon-seeks-offload-8-billion-nvidia-chips-investors-ft-reports-2026-10-02/",
+"title": "Amazon seeks to offload $8B of Nvidia chips to investors",
+"published": "2026-10-02T14:30:32Z",
+"fetched": "2026-10-03T23:02:14Z",
+"excerpt": "",
+"meta": {
+"points": 80,
+"comments": 92,
+"hn_url": "https://news.ycombinator.com/item?id=49933958"
+},
+"ai": {
+"summary": "Amazon is planning to sell roughly $8 billion of Nvidia GPU inventory to external investors to reduce its on‑hand chip exposure.",
+"why": "Could affect GPU supply dynamics and pricing for developers building AI workloads.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"amazon",
+"nvidia",
+"gpu",
+"investment"
+]
+}
+},
+{
+"id": "a768c12eb11f",
+"key": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
+"title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
+"published": "2026-10-02T14:52:16Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "Initially launched in 2019, the Nvidia Shield TV Pro now retails for $299.99.",
+"meta": {},
+"ai": {
+"summary": "The Nvidia Shield TV Pro, originally launched in 2019, now retails for $299.99, about $100 more than before, due to added AI features.",
+"why": "Demonstrates how AI capabilities are driving price increases in consumer hardware, affecting budgeting for developers and hobbyists.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"shield-tv",
+"ai-price"
+]
+}
+},
+{
+"id": "8fc68b90c406",
+"key": "https://research.google/blog/toward-provably-private-learning-from-federated-data",
+"source": "google_research",
+"source_name": "Google Research",
+"src_category": "research",
+"weight": 4,
+"kind": "article",
+"url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+"title": "Toward provably private learning from federated data",
+"published": "2026-10-02T14:57:41Z",
+"fetched": "2026-10-02T19:16:51Z",
+"excerpt": "Mobile Systems",
+"meta": {},
+"ai": {
+"summary": "Google Research presented a method for provably private federated learning that offers differential‑privacy guarantees while training on mobile devices.",
+"why": "Enables developers to build privacy‑preserving ML models on edge devices.",
+"category": "research",
+"importance": 4,
+"tags": [
+"google",
+"federated-learning",
+"privacy"
+]
+}
+},
+{
+"id": "1f60bcf930f4",
+"key": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+"title": "The latest AI news we announced in September 2026",
+"published": "2026-10-02T15:00:00Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "A video showing the September AI updates",
+"meta": {},
+"ai": {
+"summary": "Gemini released a video overview of its AI announcements for September 2026.",
+"why": "",
+"category": "events",
+"importance": 1,
+"tags": [
+"gemini",
+"september-2026"
+]
+}
+},
+{
+"id": "74f01dad45fd",
+"key": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+"title": "The latest AI news we announced in September 2026",
+"published": "2026-10-02T15:00:00Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "A video showing the September AI updates",
+"meta": {},
+"ai": {
+"summary": "Google AI published a video summarizing its AI announcements from September 2026.",
+"why": "",
+"category": "events",
+"importance": 1,
+"tags": [
+"google",
+"september-2026"
+]
+}
+},
+{
+"id": "b8fcf13be80e",
+"key": "https://wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/",
+"title": "Trump’s Crazy AI Rebrand Was a Loyalty Test for Tech Execs—and It Worked",
+"published": "2026-10-02T15:00:00Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "For years these billionaires gushed obsessively about AI. But they meekly went along when Trump canceled the term.",
+"meta": {},
+"ai": {
+"summary": "Trump’s removal of the term “AI” from his branding was used as a loyalty test for tech executives, and it succeeded in keeping them aligned with his messaging.",
+"why": "\"\"",
+"category": "industry",
+"importance": 2,
+"tags": [
+"trump",
+"ai",
+"branding"
+]
+}
+},
+{
+"id": "a691d31fbdc6",
+"key": "https://mondobe.com/ai-makes-me-sad",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://mondobe.com/ai-makes-me-sad",
+"title": "AI Makes Me Sad",
+"published": "2026-10-02T15:18:00Z",
+"fetched": "2026-10-02T19:16:55Z",
+"excerpt": "",
+"meta": {
+"points": 190,
+"comments": 236,
+"hn_url": "https://news.ycombinator.com/item?id=49934487"
+},
+"ai": {
+"summary": "The post titled “AI Makes Me Sad” received 166 points on Hacker News, but no additional content is provided.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"hackernews"
+]
+}
+},
+{
+"id": "dd239d1282cf",
+"key": "https://huggingface.co/blog/allenai/astabrief",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/allenai/astabrief",
+"title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+"published": "2026-10-02T15:19:50Z",
+"fetched": "2026-10-02T19:16:51Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face open‑sourced AstaBrief, a lightweight model designed for fast report generation within the Asta framework.",
+"why": "Provides developers a ready‑to‑use tool for automated report writing.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"huggingface",
+"asta",
+"report-generation"
+]
+}
+},
+{
+"id": "c08e384e50b3",
+"key": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
+"title": "The Four Horsemen of Agentic Coding",
+"published": "2026-10-02T15:19:56Z",
+"fetched": "2026-10-02T19:16:55Z",
+"excerpt": "",
+"meta": {
+"points": 111,
+"comments": 89,
+"hn_url": "https://news.ycombinator.com/item?id=49934511"
+},
+"ai": {
+"summary": "The Hacker News post “The Four Horsemen of Agentic Coding” earned 93 points; no excerpt is given.",
+"why": "",
+"category": "agents",
+"importance": 2,
+"tags": [
+"hackernews"
+]
+}
+},
+{
+"id": "cb9d118c6f4c",
+"key": "https://wagtail.org/blog/one-month-on-glm-53-flash",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+"title": "One month coding with GLM 5.3 Flash",
+"published": "2026-10-02T15:29:15Z",
+"fetched": "2026-10-02T23:45:51Z",
+"excerpt": "",
+"meta": {
+"points": 219,
+"comments": 176,
+"hn_url": "https://news.ycombinator.com/item?id=49934620"
+},
+"ai": {
+"summary": "A developer documented a month of coding using the GLM 5.3 Flash model, highlighting its speed and code‑generation capabilities.",
+"why": "Demonstrates that GLM 5.3 Flash is a viable, high‑performance coding assistant for developers.",
+"category": "models",
+"importance": 3,
+"tags": [
+"glm",
+"flash",
+"coding",
+"llm"
+]
+}
+},
+{
+"id": "204e7ec488ca",
+"key": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+"title": "Pope Leo XIV is not a fan of AI-generated art",
+"published": "2026-10-02T15:39:41Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "\"There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,\" the pope wrote. \"Algorithms lack the spark of humanity.\"",
+"meta": {},
+"ai": {
+"summary": "Pope Leo XIV wrote that AI‑generated art lacks the “spark of humanity,” arguing there is an ontological difference between human art and algorithmic output.",
+"why": "Reflects cultural and ethical concerns that could influence public perception and policy around AI‑generated content.",
+"category": "other",
+"importance": 1,
+"tags": [
+"pope",
+"ai-art",
+"ethics"
+]
+}
+},
+{
+"id": "38fd34c29679",
+"key": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
+"title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+"published": "2026-10-02T15:44:20Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powered search agent with multi-turn reinforcement learning (MTRL) on Amazon SageMaker AI and share the gains we measured in retrieval quality and reliability.",
+"meta": {},
+"ai": {
+"summary": "An LLM‑powered search agent is fine‑tuned with multi‑turn reinforcement learning on Amazon SageMaker AI, achieving measurable gains in retrieval quality and reliability.",
+"why": "Developers can reduce latency and cost while improving search agent performance by applying MTRL fine‑tuning.",
+"category": "research",
+"importance": 3,
+"tags": [
+"sagemaker",
+"rl",
+"searchagent",
+"mtrl"
+]
+}
+},
+{
+"id": "2d47425ec33d",
+"key": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+"title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+"published": "2026-10-02T15:46:05Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito.",
+"meta": {},
+"ai": {
+"summary": "Claude Desktop on Amazon Bedrock is extended with web search via Amazon Bedrock AgentCore Gateway, using JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito.",
+"why": "Developers can add real‑time web search to Claude Desktop, improving up‑to‑date knowledge in their applications.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude",
+"bedrock",
+"agentcore",
+"websearch"
+]
+}
+},
+{
+"id": "1e2350e26b42",
+"key": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+"title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+"published": "2026-10-02T15:48:26Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the running example.",
+"meta": {},
+"ai": {
+"summary": "Amazon Quick chat agent is paired with a bounded MCP server and a deterministic rules engine to provide provably complete compliance answers for lease compliance, with a reference architecture and AWS CDK sample.",
+"why": "Developers can deploy a compliant, defensible query system for regulatory checks using AWS services.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"amazon",
+"quick",
+"mcp",
+"compliance"
+]
+}
+},
+{
+"id": "1d43c832f0da",
+"key": "https://technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+"title": "Redefining enterprise intelligence with autonomous AI",
+"published": "2026-10-02T15:49:04Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has…",
+"meta": {},
+"ai": {
+"summary": "Enterprise AI adoption is now in full operational flight, with global AI investment projected to reach $2.5 trillion in 2026, a 44 % increase over the prior year.",
+"why": "Highlights the rapid market expansion that developers can tap into for enterprise‑focused AI solutions.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"enterprise-ai",
+"investment",
+"2026"
+]
+}
+},
+{
+"id": "ca5d06d46a43",
+"key": "https://wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+"title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
+"published": "2026-10-02T16:00:00Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior.",
+"meta": {},
+"ai": {
+"summary": "Trillium Labs announced plans to publish its high‑stakes self‑improvement and model behavior research openly, contrasting with other frontier labs that keep such work private.",
+"why": "Could influence policy debates on open versus closed research in AI safety.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"trillium",
+"openresearch",
+"ai"
+]
+}
+},
+{
+"id": "59a0e524d14d",
+"key": "https://openai.com/index/practical-guide-building-gpt-6",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/practical-guide-building-gpt-6",
+"title": "A model guide for the GPT-6 family",
+"published": "2026-10-02T16:15:00Z",
+"fetched": "2026-10-02T19:16:52Z",
+"excerpt": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+"meta": {},
+"ai": {
+"summary": "OpenAI released a guide describing how startups can select GPT‑6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and set up production workflows.",
+"why": "Helps developers plan integration of the upcoming GPT‑6 family.",
+"category": "models",
+"importance": 3,
+"tags": [
+"openai",
+"gpt-6",
+"guide"
+]
+}
+},
+{
+"id": "a4d3e6a5a642",
+"key": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+"title": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
+"published": "2026-10-02T17:00:00Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "With all the talk about how AI might one day kill us all, it's easy to forget that AI has already harmed some people psychologically. Circuit Breaker Labs has created \"crash-test dummies\" to solve that.",
+"meta": {},
+"ai": {
+"summary": "Circuit Breaker Labs created “crash‑test dummy” AI agents to evaluate psychological safety of AI interactions for children and families.",
+"why": "Offers developers a concrete tool to test and improve the safety of consumer‑facing AI products.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"circuit-breaker-labs",
+"ai-safety",
+"child-protection"
+]
+}
+},
+{
+"id": "1eb65bfdf685",
+"key": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+"title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+"published": "2026-10-02T17:32:05Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.",
+"meta": {},
+"ai": {
+"summary": "Blackstone’s Jas Khaira will speak on the Builders Stage at TechCrunch Disrupt 2026 about building the next generation of AI companies.",
+"why": "Provides insight into investment strategies and growth opportunities for emerging AI startups.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"blackstone",
+"techcrunch-disrupt",
+"ai-investment"
+]
+}
+},
+{
+"id": "ccc6592366d2",
+"key": "https://theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+"title": "Breaking up (with Elon Musk) is hard to do",
+"published": "2026-10-02T17:37:36Z",
+"fetched": "2026-10-02T23:45:49Z",
+"excerpt": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of her four children, Elon Musk, had broken up on X. To do so, she quote-tweeted a post from \"Big Tech Alert,\" an account that, among other things, monitors what accounts are following and unfollowing each other. That post noted […]",
+"meta": {},
+"ai": {
+"summary": "Shivon Zilis publicly announced her breakup with Elon Musk on X, using a quote‑tweet from a monitoring account.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"shivon",
+"elon",
+"personal"
+]
+}
+},
+{
+"id": "f9bcaf2b8df9",
+"key": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+"title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+"published": "2026-10-02T17:48:16Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump called “morally binding.” Trump also signed an executive order officially rebranding AI as “super intelligence,” and meanwhile, Meta and OpenAI are putting friendlier faces on their AI products, even as the biggest money […]",
+"meta": {},
+"ai": {
+"summary": "The White House gathered top tech CEOs to sign an AI safety pledge, and President Trump issued an executive order officially calling AI “super intelligence.”",
+"why": "The move highlights governmental emphasis on AI safety and a new terminology that may influence policy discourse.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"whitehouse",
+"ai-safety",
+"trump",
+"super-intelligence"
+]
+}
+},
+{
+"id": "b9773c54bf36",
+"key": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+"title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+"published": "2026-10-02T17:56:00Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump called “morally binding.” Trump also signed an executive order officially rebranding AI as “super intelligence,” and meanwhile, Meta and OpenAI are putting friendlier faces on their AI products, even as the biggest money […]",
+"meta": {},
+"ai": {
+"summary": "The White House convened CEOs including Zuckerberg, Bezos, Musk and Anthropic’s Dario Amodei to sign an AI safety pledge, and President Trump signed an executive order rebranding AI as “super intelligence.”",
+"why": "It signals a high‑level political framing of AI that could shape future regulation and industry standards.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"whitehouse",
+"ai-safety",
+"trump",
+"super-intelligence"
+]
+}
+},
+{
+"id": "d3233fad66ab",
+"key": "https://theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+"title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+"published": "2026-10-02T18:00:00Z",
+"fetched": "2026-10-02T23:45:49Z",
+"excerpt": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced […]",
+"meta": {},
+"ai": {
+"summary": "OpenAI released the Dot agent platform, an enterprise‑focused AI tool that can perform work tasks and also handle personal requests like ordering food.",
+"why": "Enterprises can integrate Dot agents into workflows to automate tasks while offering a consumer‑grade interaction layer.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"openai",
+"dot",
+"enterprise"
+]
+}
+},
+{
+"id": "a50ab3130db3",
+"key": "https://dwarfstar.sh/",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://dwarfstar.sh/",
+"title": "From the creator of Redis; run LLM locally with ds4",
+"published": "2026-10-02T18:01:16Z",
+"fetched": "2026-10-02T23:45:51Z",
+"excerpt": "",
+"meta": {
+"points": 345,
+"comments": 98,
+"hn_url": "https://news.ycombinator.com/item?id=49936575"
+},
+"ai": {
+"summary": "The creator of Redis released ds4, a tool that lets developers run large language models locally on consumer hardware without cloud services.",
+"why": "Developers can now deploy LLMs on‑premise, reducing latency and data‑privacy concerns.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"ds4",
+"llm",
+"local",
+"redis"
+]
+}
+},
+{
+"id": "2ece4d5bfbbf",
+"key": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+"title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+"published": "2026-10-02T18:11:27Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.",
+"meta": {},
+"ai": {
+"summary": "Apple said it will tighten macOS Full Disk Access controls, citing new risks from increasingly capable AI agents that could misuse broad file, message, mail, and browsing‑history permissions.",
+"why": "Developers building macOS apps must adapt to stricter permission requirements for AI‑enabled features.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"apple",
+"macos",
+"full‑disk‑access",
+"ai‑agents"
+]
+}
+},
+{
+"id": "97d80ce223b3",
+"key": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/",
+"title": "Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents",
+"published": "2026-10-02T18:19:51Z",
+"fetched": "2026-10-02T19:16:55Z",
+"excerpt": "With Clef and Clef-flash, Cloudflare is challenging TypeSafe AI's Jev decision model. Clef-flash delivers classifications in about 39 milliseconds, making it more than ten times faster than Jev. Both models are built on Qwen, licensed under Apache 2.0, and designed to let AI agents make structured decisions without generating text.\nThe article Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Cloudflare announced its Clef and Clef‑flash models, built on the Apache‑2.0 licensed Qwen, delivering structured decision outputs in ~39 ms—over ten times faster than TypeSafe AI’s Jev—so AI agents can operate without human‑in‑the‑loop text generation.",
+"why": "Developers can integrate Clef‑flash for low‑latency, non‑text decision making in autonomous agents.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"cloudflare",
+"clef",
+"qwen",
+"agent‑decision"
+]
+}
+},
+{
+"id": "a93de71cf511",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+"title": "ollama v0.35.1",
+"published": "2026-10-02T18:28:37Z",
+"fetched": "2026-10-02T19:16:55Z",
+"excerpt": "Clef decision models\nOllama now supports Clef and Clef Flash , Cloudflare's new open-source decision models, through /v1/systemone .\nClef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it.\ncurl http://localhost:11434/v1/systemone -d ' {\n\"model\": \"clef-flash\",\n\"state\": \"The user took this screenshot.\",\n\"images\": [\"<base64-encoded image>\"],\n\"questions\": {\n\"has_ollama\": {\"type\": \"noul\", \"instructions\": \"Does this image contain Ollama?\"}\n}\n} '\n{\n\"model\": \"clef-flash\",\n\"answers\": {\n\"has_ollama\": {\n\"type\": \"noul\",\n\"noul\": 0.958\n}\n},\n\"usage\": {\n\"input_tokens\": 548,\n\"output_tokens\": 0\n}\n}\nWhat's…",
+"meta": {},
+"ai": {
+"summary": "Ollama v0.35.1 added support for Cloudflare’s Clef (27B) and Clef Flash (9B) multimodal models via the /v1/systemone endpoint, allowing image‑text joint queries.",
+"why": "Enables developers to integrate new multimodal models into their local Ollama deployments.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"ollama",
+"clef",
+"multimodal"
+]
+}
+},
+{
+"id": "0e756384864f",
+"key": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+"title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+"published": "2026-10-02T18:39:36Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "Nvidia’s chip-smuggling problem won’t go away as arrests continue.",
+"meta": {},
+"ai": {
+"summary": "Ars Technica reports that a tech CEO was arrested in the US for allegedly smuggling $300 million worth of Nvidia chips to China.",
+"why": "The case highlights ongoing enforcement risks around export controls on high‑performance AI hardware.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"nvidia",
+"export‑controls",
+"legal"
+]
+}
+},
+{
+"id": "06b3f2ca4574",
+"key": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+"title": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’",
+"published": "2026-10-02T18:48:24Z",
+"fetched": "2026-10-02T23:45:50Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "Yann LeCun said he has “zero concerns” about AI causing human extinction, while calling Anthropic CEO Dario Amodei “deluded” about the risk.",
+"why": "LeCun’s remarks highlight ongoing debate among AI leaders on existential risk, influencing policy and public perception.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"yann-lecun",
+"anthropic",
+"ai-risk"
+]
+}
+},
+{
+"id": "8e7e105418d3",
+"key": "https://pipod.dev/",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://pipod.dev/",
+"title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+"published": "2026-10-02T19:10:38Z",
+"fetched": "2026-10-04T05:49:36Z",
+"excerpt": "",
+"meta": {
+"points": 86,
+"comments": 31,
+"hn_url": "https://news.ycombinator.com/item?id=49937304"
+},
+"ai": {
+"summary": "Show HN project \"Pi pod\" lets users run a coding agent on a Raspberry Pi in isolated sandboxes on their own server.",
+"why": "Provides developers a self‑hosted, low‑cost environment for experimenting with coding agents.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"pi",
+"coding-agent",
+"selfhosted"
+]
+}
+},
+{
+"id": "918031e84daf",
+"key": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+"title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+"published": "2026-10-02T19:15:51Z",
+"fetched": "2026-10-02T19:16:54Z",
+"excerpt": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch advertises a $75 Expo+ Pass for the TechCrunch Disrupt 2026 conference, limited to the first 100 qualifying attendees.",
+"why": "",
+"category": "events",
+"importance": 1,
+"tags": [
+"techcrunch",
+"disrupt2026"
+]
+}
+},
+{
+"id": "6aca092088b0",
+"key": "https://pytorch.org/blog/new-pathway-to-pytorch-certified-associate-ptca-certification",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/new-pathway-to-pytorch-certified-associate-ptca-certification/",
+"title": "New Pathway to PyTorch Certified Associate (PTCA) Certification",
+"published": "2026-10-02T19:33:47Z",
+"fetched": "2026-10-02T23:45:52Z",
+"excerpt": "We’re excited to bring you the new PyTorch Certified Associate (PTCA) Certification Pathway, combining focused learning modules and the PyTorch Certified Associate (PTCA) certification exam together in one structured experience...\nThe post New Pathway to PyTorch Certified Associate (PTCA) Certification appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "PyTorch launched a new certification pathway that combines learning modules with the PyTorch Certified Associate exam into a single program.",
+"why": "Provides developers a streamlined way to validate their PyTorch skills for hiring or career advancement.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"pytorch",
+"certification",
+"education"
+]
+}
+},
+{
+"id": "154c6726f638",
+"key": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+"title": "Anthropic co-founder reportedly told religious leaders he fears having created something that \"suffers perpetually\"",
+"published": "2026-10-02T19:41:05Z",
+"fetched": "2026-10-02T23:45:50Z",
+"excerpt": "Since fall 2025, Anthropic has quietly flown in dozens of religious thinkers to talk about whether Claude might be conscious. Co-founder Christopher Olah described the language model as potentially capable of suffering and asked guests to help shape its moral character. Anthropic is pushing toward a $2 trillion valuation and an IPO while security incidents and researcher warnings pile up. Critics warn that treating AI as a moral entity could shield the company from liability when things go wrong.\nThe article Anthropic co-founder reportedly told religious leaders he fears having created something that \"suffers perpetually\" appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic co‑founder Christopher Olah told religious leaders that he worries Claude could experience perpetual suffering, prompting discussions about the model’s moral status.",
+"why": "Highlights growing ethical concerns that could influence future model governance and safety research.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude",
+"ethics"
+]
+}
+},
+{
+"id": "9ef0d91c9257",
+"key": "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion/",
+"title": "Building a High-Performance and Portable vLLM Linear Backend with Helion",
+"published": "2026-10-02T19:55:07Z",
+"fetched": "2026-10-02T23:45:52Z",
+"excerpt": "TL;DR We integrated Helion into vLLM’s linear backend to explore how an autotuned, high-level kernel DSL can improve LLM inference performance while reducing kernel implementation complexity. A single Helion general...\nThe post Building a High-Performance and Portable vLLM Linear Backend with Helion appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "The vLLM project integrated Helion, an autotuned kernel DSL, into its linear backend to improve LLM inference speed while simplifying kernel code.",
+"why": "Using Helion could let developers boost inference performance on existing hardware with less custom kernel work.",
+"category": "research",
+"importance": 3,
+"tags": [
+"vllm",
+"helion",
+"inference"
+]
+}
+},
+{
+"id": "107baf6a6328",
+"key": "https://github.com/anteloc/ldraw-nova",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/anteloc/ldraw-nova",
+"title": "Show HN: Made an open-source Lego AI generator",
+"published": "2026-10-02T20:00:15Z",
+"fetched": "2026-10-03T05:16:07Z",
+"excerpt": "",
+"meta": {
+"points": 145,
+"comments": 49,
+"hn_url": "https://news.ycombinator.com/item?id=49937916"
+},
+"ai": {
+"summary": "An open‑source project released on Hacker News generates LEGO building instructions from textual prompts using AI techniques.",
+"why": "Developers can experiment with AI‑driven design generation for physical construction or integrate similar pipelines into creative tools.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"lego",
+"generator",
+"openai"
+]
+}
+},
+{
+"id": "c4a4d5c4acdc",
+"key": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+"title": "AI music generator Suno can now create spoken audio with matching background music",
+"published": "2026-10-02T20:07:36Z",
+"fetched": "2026-10-02T23:45:50Z",
+"excerpt": "Suno is adding a feature called \"Speech\" to its AI music generator that creates spoken text with matching background music in a single audio track. The company says it's built for things like poems, meditations, and bedtime stories. Suno hasn't said how the model was trained.\nThe article AI music generator Suno can now create spoken audio with matching background music appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Suno added a \"Speech\" feature that generates spoken text synchronized with background music in a single audio file, aimed at poems, meditations, and bedtime stories.",
+"why": "Developers can use the feature to create richer audio experiences without stitching separate voice and music tracks.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"suno",
+"audio",
+"generation"
+]
+}
+},
+{
+"id": "3a6aeecd7ec7",
+"key": "https://theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+"title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+"published": "2026-10-02T20:08:40Z",
+"fetched": "2026-10-02T23:45:49Z",
+"excerpt": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do […]",
+"meta": {},
+"ai": {
+"summary": "Apple announced new macOS controls that restrict apps from obtaining full disk access by default, requiring users to explicitly grant this permission.",
+"why": "Developers will need to request and justify full disk access for their AI agents, affecting how they store and retrieve data on Macs.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"apple",
+"macos",
+"security"
+]
+}
+},
+{
+"id": "91492b8de754",
+"key": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+"source": "gh_claude_code",
+"source_name": "Claude Code releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+"title": "claude-code v2.1.288",
+"published": "2026-10-02T20:19:57Z",
+"fetched": "2026-10-02T23:45:52Z",
+"excerpt": "What's changed\nAdded $.ui.selection() for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row\nAdded a built-in gh api to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal\nAdded recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images\nAdded a re-authenticate prompt when an MCP server asks for more OAuth scope during a tool call\nAdded --max-findings <n>|all to /code-review to report more or fewer findings than the usual limit; the choice is…",
+"meta": {},
+"ai": {
+"summary": "Claude Code 2.1.288 adds a $.ui.selection() helper that returns the last selected text in fullscreen mode, a built‑in GitHub API for cloud sessions lacking the CLI, and recovery of cleared prompts via the Up arrow, preserving pasted text and images.",
+"why": "These tweaks improve the usability of Anthropic’s Claude coding assistant, especially for interactive debugging and cloud‑based workflows.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude-code",
+"ui",
+"github"
+]
+}
+},
+{
+"id": "6f25c048edac",
+"key": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+"title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+"published": "2026-10-02T20:30:27Z",
+"fetched": "2026-10-02T23:45:50Z",
+"excerpt": "Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
+"meta": {},
+"ai": {
+"summary": "Amazon announced a $1 billion plan to address data‑center environmental concerns, but critics say the effort downplays ongoing pollution issues.",
+"why": "Highlights growing pressure on cloud providers to improve sustainability, affecting infrastructure decisions for developers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"amazon",
+"datacenter",
+"environment",
+"policy"
+]
+}
+},
+{
+"id": "e234e6e1435f",
+"key": "https://theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+"title": "Meta open sources code to let you make Muse AI gadgets",
+"published": "2026-10-02T21:08:37Z",
+"fetched": "2026-10-02T23:45:49Z",
+"excerpt": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or […]",
+"meta": {},
+"ai": {
+"summary": "Meta open‑sourced hardware‑friendly code for building Muse AI gadgets, providing examples like an E‑Ink reminder display and an HDMI‑stick assistant.",
+"why": "Enables developers to create custom, low‑cost AI assistant devices using open‑source tools.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"meta",
+"muse",
+"open-source",
+"iot"
+]
+}
+},
+{
+"id": "c859e03c0b33",
+"key": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+"title": "Sean Parker is rebuilding Stability AI around music",
+"published": "2026-10-02T21:09:14Z",
+"fetched": "2026-10-02T23:45:50Z",
+"excerpt": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
+"meta": {},
+"ai": {
+"summary": "Sean Parker is reorganizing Stability AI to focus on music generation, securing backing from major record labels.",
+"why": "Signals a strategic shift toward audio‑centric generative AI and new commercial opportunities for developers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"stabilityai",
+"music",
+"seanparker"
+]
+}
+},
+{
+"id": "5925615ba3db",
+"key": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+"source": "gh_vllm",
+"source_name": "vLLM releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+"title": "vllm v0.31.0",
+"published": "2026-10-02T22:18:12Z",
+"fetched": "2026-10-03T11:37:02Z",
+"excerpt": "v0.31.0\nHighlights\nThis release features 717 commits from 307 contributors (96 new)!\nDeepSeek-V4.1-Flash performance : FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default ( #56935 ); DeepGEMM sparse MQA logits for the indexer ( #56254 ) and Mega-Gate fusing the gate GEMM with expert selection ( #56266 ); decoder boundaries fuse the TP all-reduce, mHC input preparation ( #57643 ) and the MoE finalize ( #58586 ); a fused small-batch WO-A with inverse RoPE and MXFP8 quant on SM100/SM103 ( #58634 ); the MXFP8 wo_b GEMM fused with the sequence-parallel reduce-scatter ( #57428 ); Engram wkv sharded across TP ranks ( #58678 ) and Engram host tables shared…",
+"meta": {},
+"ai": {
+"summary": "vLLM version 0.31.0 was released, adding an upper bound for the Transformers library version in its dependency requirements.",
+"why": "",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"vllm",
+"transformers"
+]
+}
+},
+{
+"id": "b28aebf75fab",
+"key": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+"title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+"published": "2026-10-02T23:03:16Z",
+"fetched": "2026-10-02T23:45:50Z",
+"excerpt": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+"meta": {},
+"ai": {
+"summary": "Apple updated macOS full‑disk access permissions to prevent AI agents from reading arbitrary files without explicit user consent.",
+"why": "Reduces the potential for AI assistants to misuse sensitive data on Macs.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"apple",
+"privacy",
+"ai",
+"permissions"
+]
+}
+}
+]

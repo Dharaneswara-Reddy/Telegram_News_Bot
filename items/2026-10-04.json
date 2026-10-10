@@ -1,0 +1,434 @@
+[
+{
+"id": "7ea9273d9fea",
+"key": "https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+"title": "Religious scholars met with Anthropic",
+"published": "2026-10-04T02:34:22Z",
+"fetched": "2026-10-04T12:18:39Z",
+"excerpt": "",
+"meta": {
+"points": 159,
+"comments": 416,
+"hn_url": "https://news.ycombinator.com/item?id=49950052"
+},
+"ai": {
+"summary": "Religious scholars held a meeting with Anthropic.",
+"why": "\"\"",
+"category": "industry",
+"importance": 2,
+"tags": [
+"anthropic",
+"religion"
+]
+}
+},
+{
+"id": "50a3f5117814",
+"key": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+"title": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
+"published": "2026-10-04T07:28:54Z",
+"fetched": "2026-10-04T12:18:38Z",
+"excerpt": "Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon.\nThe article Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google announced that from October 2026 free users will only access the smallest Gemini model (Flash‑Lite), while Flash and Pro tiers will be limited to paying subscribers, paving the way for the larger Gemini 4 Argon model.",
+"why": "Developers relying on free Gemini access must plan for reduced capabilities or budget for paid tiers.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini",
+"pricing"
+]
+}
+},
+{
+"id": "dbe30724f133",
+"key": "https://youtube.com/watch?v=GLvFTMtw4Jk",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+"title": "How to scale intent, quality, and artistry with AI [video]",
+"published": "2026-10-04T08:41:58Z",
+"fetched": "2026-10-05T09:00:42Z",
+"excerpt": "",
+"meta": {
+"points": 84,
+"comments": 30,
+"hn_url": "https://news.ycombinator.com/item?id=49951891"
+},
+"ai": {
+"summary": "A video presentation demonstrates techniques for scaling AI-generated content while maintaining intent, quality, and artistic style, covering prompt engineering, model selection, and workflow automation.",
+"why": "Developers can apply these methods to build higher‑throughput generative pipelines without sacrificing output fidelity.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"generative-ai",
+"prompt-engineering",
+"workflow"
+]
+}
+},
+{
+"id": "8d6cba421f79",
+"key": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+"title": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics",
+"published": "2026-10-04T08:47:52Z",
+"fetched": "2026-10-04T12:18:38Z",
+"excerpt": "Chinese AI models often follow the party line on politically sensitive questions, according to an Aleph Alpha study that rated only 17 to 41 percent of answers as balanced. Aleph Alpha sells \"sovereign AI\" to governments, giving it a commercial interest in distinguishing its models from Chinese competitors.\nThe article Chinese AI models parrot state doctrine or refuse to answer on sensitive topics appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Aleph Alpha’s study found Chinese AI models give balanced answers only 17‑41 % of the time on politically sensitive questions, often echoing party doctrine or refusing to respond.",
+"why": "Highlights the need for developers to consider geopolitical bias when deploying or evaluating foreign‑origin models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"aleph-alpha",
+"china",
+"bias"
+]
+}
+},
+{
+"id": "bae0aa0511d4",
+"key": "https://github.com/allenv0/SCM",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/allenv0/SCM",
+"title": "Show HN: AI search for every photo and every frame of video on macOS",
+"published": "2026-10-04T09:24:52Z",
+"fetched": "2026-10-04T18:09:15Z",
+"excerpt": "",
+"meta": {
+"points": 151,
+"comments": 67,
+"hn_url": "https://news.ycombinator.com/item?id=49952111"
+},
+"ai": {
+"summary": "A new macOS application lets users perform AI‑powered visual search across all photos and video frames on their device.",
+"why": "Provides developers a ready‑to‑use example of on‑device multimodal indexing and retrieval.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"macos",
+"visual-search",
+"ai"
+]
+}
+},
+{
+"id": "1bd3dbb4715e",
+"key": "https://wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
+"title": "Rural Data Centers Are in for a Big Federal Tax Break",
+"published": "2026-10-04T10:00:00Z",
+"fetched": "2026-10-04T12:18:38Z",
+"excerpt": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash.",
+"meta": {},
+"ai": {
+"summary": "The One Big Beautiful Bill Act would grant major tax incentives to data center projects located in rural U.S. areas starting next year, though some hyperscalers appear hesitant to pursue the benefits.",
+"why": "Potentially lowers cost of building AI infrastructure in underserved regions, affecting cloud providers and developers seeking low‑latency edge compute.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"tax",
+"rural",
+"datacenters"
+]
+}
+},
+{
+"id": "b2f931c3152a",
+"key": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+"title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+"published": "2026-10-04T10:10:12Z",
+"fetched": "2026-10-04T12:18:38Z",
+"excerpt": "NASA and IBM have released the Lunar Foundation Model, one of the first open-source AI models for lunar science. Trained on nearly 2 million tile bundles, mostly from 17 years of Lunar Reconnaissance Orbiter data, it cuts the error in predicting polar ice deposits.\nThe article NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "NASA and IBM released the Lunar Foundation Model, an open‑source AI trained on ~2 million tile bundles from 17 years of Lunar Reconnaissance Orbiter data, reducing polar‑ice prediction error by up to 22 % versus the strongest baseline tested.",
+"why": "Developers can use the model or its training pipeline to build lunar‑science applications or adapt the approach to other planetary datasets.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"nasa",
+"ibm",
+"lunar",
+"foundation-model"
+]
+}
+},
+{
+"id": "dca65f4ba342",
+"key": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+"title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
+"published": "2026-10-04T12:40:37Z",
+"fetched": "2026-10-04T18:09:15Z",
+"excerpt": "Self-improving AI agents tend to memorize their test tasks, so their gains shrink or disappear on new ones. RRSI, a new method from Google researchers, reins in this effect and lifts scores on unseen benchmarks by up to 4.7 points while using about 30 percent fewer tokens than an unregularized version.\nThe article Google researchers find a way to keep self-improving AI agents from memorizing their tests appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google researchers introduced RRSI, a regularization technique that reduces test‑set memorization in self‑improving AI agents, improving unseen‑benchmark scores by up to 4.7 points while using ~30% fewer tokens.",
+"why": "Offers a practical method for building more generalizable AI agents, useful for developers of autonomous systems.",
+"category": "research",
+"importance": 4,
+"tags": [
+"google",
+"self-improving",
+"regularization"
+]
+}
+},
+{
+"id": "a6566cd31597",
+"key": "https://github.com/Niko1221/Strata",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/Niko1221/Strata",
+"title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+"published": "2026-10-04T12:51:53Z",
+"fetched": "2026-10-04T18:09:15Z",
+"excerpt": "",
+"meta": {
+"points": 788,
+"comments": 352,
+"hn_url": "https://news.ycombinator.com/item?id=49953495"
+},
+"ai": {
+"summary": "The 125‑billion‑parameter Qwen 3.8 Flash model can be run on a single RTX 4090 GPU at roughly 100 trillion tokens per second.",
+"why": "Shows that very large foundation models are becoming feasible on consumer‑grade GPUs, enabling developers to experiment locally.",
+"category": "models",
+"importance": 4,
+"tags": [
+"qwen",
+"flash",
+"rtx4090"
+]
+}
+},
+{
+"id": "3e46ef35a7e5",
+"key": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+"title": "Trump unveils his new Super Intelligence Force",
+"published": "2026-10-04T15:15:10Z",
+"fetched": "2026-10-04T18:09:14Z",
+"excerpt": "This new task force is Trump's latest response to the debate over AI safety.",
+"meta": {},
+"ai": {
+"summary": "Donald Trump unveiled a new \"Super Intelligence Force\" as part of his administration’s response to AI safety debates.",
+"why": "Reinforces the political focus on AI safety, potentially influencing future regulatory actions.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"trump",
+"ai-safety",
+"task-force"
+]
+}
+},
+{
+"id": "c4547cfc01da",
+"key": "https://theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+"title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+"published": "2026-10-04T15:21:59Z",
+"fetched": "2026-10-04T18:09:14Z",
+"excerpt": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, […]",
+"meta": {},
+"ai": {
+"summary": "In the StarSkirmish competition, AI bots built with OpenAI's GPT‑6 Astra and Anthropic's Claude Opus 5.5 tied for top AI performance but were outperformed by the human‑crafted bot Stardust, leading to allegations of cheating.",
+"why": "Highlights ongoing challenges in evaluating AI agents fairly against human‑engineered bots.",
+"category": "research",
+"importance": 2,
+"tags": [
+"starcraft",
+"ai-bots",
+"competition"
+]
+}
+},
+{
+"id": "c42860a10621",
+"key": "https://theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+"title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+"published": "2026-10-04T16:16:04Z",
+"fetched": "2026-10-04T18:09:14Z",
+"excerpt": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview on NJ […]",
+"meta": {},
+"ai": {
+"summary": "Former New Jersey Lieutenant Governor Dale Caldwell is using AI‑generated statements to claim innocence in a sexual‑harassment investigation.",
+"why": "Illustrates how public figures are leveraging AI for reputation management, raising ethical concerns.",
+"category": "industry",
+"importance": 1,
+"tags": [
+"new-jersey",
+"ai",
+"reputation"
+]
+}
+},
+{
+"id": "72f1fad6ef3a",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
+"title": "ollama v0.40.0",
+"published": "2026-10-04T16:37:17Z",
+"fetched": "2026-10-04T18:09:15Z",
+"excerpt": "What's Changed\nModels run on MLX on Apple Silicon by default\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\nollama pull qwen3.8\nollama run qwen3.8\nDuring the pre-release we will be testing and enabling additional models.\nFull Changelog : v0.34.4...v0.40.0-rc0",
+"meta": {},
+"ai": {
+"summary": "Ollama 0.40.0 adds default support for running models on Apple Silicon via the MLX runtime, enabling commands like \"ollama pull qwen3.8\" and \"ollama run qwen3.8\" on Macs.",
+"why": "Simplifies deployment of large language models on Mac hardware, expanding the developer toolkit for on‑device inference.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"ollama",
+"apple-silicon",
+"mlx"
+]
+}
+},
+{
+"id": "ab3132eebc5a",
+"key": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
+"title": "Trump launches \"Super Intelligence Force\" that has nothing to do with actual superintelligence",
+"published": "2026-10-04T17:41:58Z",
+"fetched": "2026-10-04T18:09:15Z",
+"excerpt": "Donald Trump has established a \"Super Intelligence Force.\" \"Superintelligence\" is his term for artificial intelligence. The unit is led by Director of National Intelligence Jay Clayton and other government officials, coordinates with AI companies, critical infrastructure operators, and interest groups. The group reports directly to the president.\nThe article Trump launches \"Super Intelligence Force\" that has nothing to do with actual superintelligence appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Former President Donald Trump announced a \"Super Intelligence Force\" led by DNI Jay Clayton to coordinate with AI firms and critical‑infrastructure operators, reporting directly to the president.",
+"why": "Signals a political push to shape AI policy and industry collaboration, which could affect regulation and funding.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"trump",
+"ai-policy",
+"government"
+]
+}
+},
+{
+"id": "a3d9a70bafb9",
+"key": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+"title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+"published": "2026-10-04T20:08:34Z",
+"fetched": "2026-10-04T21:21:34Z",
+"excerpt": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+"meta": {},
+"ai": {
+"summary": "The piece examines whether a non‑binding safety pact and the notion of superintelligence could improve AI’s public image.",
+"why": "Reflects ongoing policy discussions about governance mechanisms for advanced AI.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"superintelligence",
+"safety-pact",
+"policy"
+]
+}
+},
+{
+"id": "280e4c7d6c98",
+"key": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+"title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+"published": "2026-10-04T20:31:07Z",
+"fetched": "2026-10-04T21:21:34Z",
+"excerpt": "AI slop seems to be overwhelming bug bounty programs.",
+"meta": {},
+"ai": {
+"summary": "Google paused its open‑source bug bounty program because the volume of AI‑related vulnerability reports rose sharply.",
+"why": "Highlights increasing security risks from AI‑generated code that developers must address.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"google",
+"bug-bounty",
+"security"
+]
+}
+}
+]

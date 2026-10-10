@@ -1,0 +1,3288 @@
+[
+{
+"id": "0196afd3f884",
+"key": "arxiv:2610.02331",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.02331",
+"title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-08T06:00:02Z",
+"excerpt": "Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored. We formulate world editing as intervening on an existing world while preserving properties that should remain unchanged, and introduce intervention depth as an axis describing how strongly an edit couples world entities, dynamics, and systems. We instantiate this capability through industry-grade game modding and introduce IGMWorld, together with IGMBench, a benchmark of 110 tasks and over 1.1K executable state and behavioral criteria across Minecraft and Terraria. The tasks span property, entity, dynamics, and…",
+"meta": {
+"upvotes": 29,
+"comments": 3,
+"authors": [
+"Max Ku",
+"Nok-Kan Law",
+"Yu-Chien Tang",
+"Shih-Ying Yeh",
+"Ping Nie",
+"Andy Zheng"
+],
+"github": "https://github.com/vinesmsuic/IGMWorld",
+"org": "University of Waterloo"
+},
+"ai": {
+"summary": "The paper defines \"world editing\" as intervening in executable simulated worlds while preserving invariant properties, introducing \"intervention depth\" to measure edit coupling, and demonstrates the concept via game modding and other industry‑grade environments.",
+"why": "Understanding world editing can inform developers building interactive AI agents that need to safely modify virtual environments.",
+"category": "research",
+"importance": 2,
+"tags": [
+"world-models",
+"game-modding",
+"simulation"
+]
+}
+},
+{
+"id": "0733ff51c2b8",
+"key": "arxiv:2610.04198",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.04198",
+"title": "ALoDLM: Adaptively Looped Diffusion Language Models",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Diffusion language models (DLMs) enable fast generation by predicting multiple tokens in parallel, but their practical adoption remains limited by a persistent quality gap relative to comparably sized autoregressive (AR) models. We attribute this gap to a computation-difficulty mismatch: within a partially observed sequence, some unknown tokens are easy to predict, while others require substantially more computation. Existing DLMs nevertheless apply uniform computational depth to all unknown positions at each denoising step. We introduce ALoDLM, which replaces uniform computation with token-adaptive latent recurrence. At each denoising step, ALoDLM iteratively refines latent representations…",
+"meta": {
+"upvotes": 72,
+"comments": 2,
+"authors": [
+"Liancheng Fang",
+"Zhuowei Li",
+"Youngeun Kim",
+"Tianchen Zhao",
+"Rajat Koner",
+"Jiaye Wu"
+],
+"github": "https://github.com/amazon-science/ALoDLM",
+"org": "Amazon"
+},
+"ai": {
+"summary": "ALoDLM proposes an adaptively looped diffusion language model that varies computational depth per token to narrow the quality gap with autoregressive models while retaining parallel generation speed.",
+"why": "Offers a way to improve the speed‑quality trade‑off for diffusion‑based text generation.",
+"category": "research",
+"importance": 3,
+"tags": [
+"diffusion",
+"language-model",
+"adaptive",
+"generation"
+]
+}
+},
+{
+"id": "184d9ad05201",
+"key": "arxiv:2610.06617",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.06617",
+"title": "RealtimeWAM: One-Step Asynchronous World Action Models",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "World Action Models (WAMs) incorporate visual representations from video generation backbones to guide action prediction. Recent efficient WAMs adopt Mixture-of-Transformers (MoT) architectures and compute video representations once for reuse by the action expert. However, intra-expert iteration (\\ie, multi-step action denoising) and inter-expert waiting (\\ie, sequential execution of the video and action experts) still limit inference efficiency. To this end, we present RealtimeWAM, an extremely efficient WAM variant with one-step action generation and asynchronous inference, addressing these two bottlenecks. To reduce intra-expert iteration, we propose Teacher-Anchored Consistency…",
+"meta": {
+"upvotes": 6,
+"comments": 1,
+"authors": [
+"Chengtao Lv",
+"Jinyang Du",
+"Shuyi Feng",
+"Yang Yong",
+"Shiqiao Gu",
+"Shunzi Yang"
+],
+"github": "https://github.com/ModelTC/LightX2V",
+"org": "Nanyang Technological University"
+},
+"ai": {
+"summary": "RealtimeWAM presents a one‑step asynchronous World Action Model that eliminates intra‑expert iteration and inter‑expert waiting, achieving much faster inference for video‑based action prediction.",
+"why": "Enables developers to integrate real‑time video‑driven action models into interactive applications with lower latency.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"world-action-model",
+"asynchronous",
+"efficiency"
+]
+}
+},
+{
+"id": "1db73f2abace",
+"key": "arxiv:2610.05894",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.05894",
+"title": "Noise Out, Bias In: Targeted Bias Injection in Diffusion Language Models via Closed-Loop Activation Steering",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Masked diffusion language models (dLLMs) generate text by iteratively denoising masked positions, re-predicting each token multiple times before it is committed. An autoregressive decoder exposes an answer's distribution once, at the step that commits it; a dLLM exposes it at every denoising step before commitment, and we show that an adversary can exploit this. Since an answer remains open to revision over many denoising steps, an adversary with access to internal activations can watch how likely the model is to produce a chosen answer and adjust the intervention accordingly. Building on this observation, we study targeted bias injection, an attack that steers a frozen dLLM toward a…",
+"meta": {
+"upvotes": 7,
+"comments": 1,
+"authors": [
+"Sarim Hashmi",
+"Mukul Ranjan",
+"Abdelrahman Elsayed",
+"Muhammad Umer Sheikh",
+"Fahad Shamshad",
+"Nils Lukas"
+],
+"github": "https://github.com/Sarim-MBZUAI/dlm_bias",
+"org": "Mohamed Bin Zayed University of Artificial Intelligence"
+},
+"ai": {
+"summary": "The authors show that masked diffusion language models expose their token distributions across many denoising steps, allowing an adversary with activation access to inject targeted bias before the token is committed.",
+"why": "Highlights a new attack surface for diffusion‑based LLMs, prompting developers to consider activation‑level defenses.",
+"category": "research",
+"importance": 2,
+"tags": [
+"diffusion",
+"bias-injection",
+"security"
+]
+}
+},
+{
+"id": "3167e4c30751",
+"key": "https://cohere.com/blog/building-multilingual-bridges",
+"source": "cohere_blog",
+"source_name": "Cohere",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://cohere.com/blog/building-multilingual-bridges",
+"title": "Multilingual Bridges: How Data Mixing Unlocks In-Language Reasoning",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Multilingual Bridges: How Data Mixing Unlocks In-Language Reasoning",
+"meta": {},
+"ai": {
+"summary": "Cohere released a study showing that mixing multilingual data during training improves in‑language reasoning accuracy across multiple languages.",
+"why": "Developers can use mixed‑language training to build more robust multilingual reasoning models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"cohere",
+"multilingual",
+"reasoning"
+]
+}
+},
+{
+"id": "40f91d563d61",
+"key": "arxiv:2610.06648",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.06648",
+"title": "Representation-Space MMD for Diffusion Language Models",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "We introduce a post-training method for diffusion language models (DLMs) that minimizes Maximum Mean Discrepancy (MMD) between generated and reference distributions in the feature space of a frozen pretrained DLM. To estimate MMD, we retain contextual features at individual token positions, obtaining multiple observations per sequence from a single extractor pass. We optimize this objective using policy gradients for discrete models and direct differentiation through generated latents for continuous models. In both cases, computing the loss directly from these features enables efficient post-training without full sampling trajectories or jointly trained auxiliary models. Experiments show…",
+"meta": {
+"upvotes": 30,
+"comments": 1,
+"authors": [
+"Ilya Drobyshevskiy",
+"Ilia Sudakov",
+"Maksim Semenov",
+"Denis Kuznedelev",
+"Maksim Ignatov",
+"Pavel Temirchev"
+],
+"github": "https://github.com/yandex-research/dlm-mmd",
+"org": "Yandex Research"
+},
+"ai": {
+"summary": "A new post-training method for diffusion language models minimizes Maximum Mean Discrepancy (MMD) between generated and reference distributions in the feature space of a frozen pretrained model.",
+"why": "Provides a technical approach to improving the quality and alignment of diffusion-based language models.",
+"category": "research",
+"importance": 2,
+"tags": [
+"diffusion-language-models",
+"post-training",
+"mmd",
+"alignment"
+]
+}
+},
+{
+"id": "425eaa3556a4",
+"key": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases",
+"title": "How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-07T05:56:09Z",
+"excerpt": "Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.",
+"meta": {},
+"ai": {
+"summary": "Comcast and Booz Allen used Claude Mythos‑class models via Project Glasswing to discover, validate, and remediate vulnerabilities that their existing scanners missed.",
+"why": "Shows a practical use‑case for LLM‑driven security analysis that can augment traditional code scanning tools.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"mythos",
+"security",
+"project‑glasswing"
+]
+}
+},
+{
+"id": "4810c14d933a",
+"key": "arxiv:2609.24890",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.24890",
+"title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of end-state performance lacks transparency into how and why agents fail in various tasks, obfuscating critical insight for subsequent improvement. For instance, agents that err during keyboard inputs would require a different mitigation strategy from those that fail to precisely provide click-based inputs on the graphical UI. We introduce OSWorld-Pro: a set of over 300 tasks containing over 2800 subgoals to enable the procedural evaluation of CUAs grounded in over 67,000 human…",
+"meta": {
+"upvotes": 27,
+"comments": 2,
+"authors": [
+"Zhilin Wang",
+"Shaokun Zhang",
+"Yifan Zhang",
+"Hao Zhang",
+"Jin Xu",
+"Binfeng Xu"
+],
+"org": "NVIDIA"
+},
+"ai": {
+"summary": "OSWorld‑Pro introduces a process‑based evaluation framework for computer‑use agents that records intermediate actions (e.g., keyboard inputs) to diagnose failure modes beyond final output verification.",
+"why": "Provides developers clearer diagnostics to improve agent reliability in complex UI tasks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"computer-use",
+"evaluation",
+"debugging"
+]
+}
+},
+{
+"id": "4937914178e7",
+"key": "https://mistral.ai/news/mistral-large-4",
+"source": "mistral_news",
+"source_name": "Mistral AI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://mistral.ai/news/mistral-large-4/",
+"title": "Introducing Mistral Large 4",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Mistral AI announced the release of Mistral Large 4, a new large language model in their series.",
+"why": "It provides developers with a more capable open-weight model for building AI applications.",
+"category": "models",
+"importance": 4,
+"tags": [
+"mistral",
+"large-4",
+"llm"
+]
+}
+},
+{
+"id": "52f7d472b2a5",
+"key": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+"title": "Claude now works with Google Docs, Sheets, and Slides",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-07T05:56:09Z",
+"excerpt": "Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).",
+"meta": {},
+"ai": {
+"summary": "Claude is now available as a beta add‑on for Google Docs, Sheets, and Slides, allowing users to invoke the assistant directly within Workspace files.",
+"why": "Developers can integrate Claude into collaborative documents for drafting, data analysis, or code snippets without leaving Google Workspace.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"google‑workspace",
+"claude"
+]
+}
+},
+{
+"id": "5920bbde56ee",
+"key": "arxiv:2610.05719",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.05719",
+"title": "When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Vision-Language-Action (VLA) models serve as unified policies for robotic manipulation, yet their expensive inference forces robots to pause between policy calls, resulting in stop-and-go execution that interrupts smooth motion and prolongs task completion. Extending the action chunk reduces policy calls and hence these pauses, but predicting farther into the future makes long-chunk execution unreliable. To understand where this unreliability arises, we analyze action errors within long chunks and find that they concentrate around transitions between manipulation subskills, growing sharply with chunk length. This suggests the importance of transition timing, i.e., when to switch subskills…",
+"meta": {
+"upvotes": 6,
+"comments": 1,
+"authors": [
+"Seonghoon Yu",
+"Dongwon Kim",
+"HyungRok Jung",
+"Yoonjae Baek",
+"Byung-kwan Lee",
+"Suha Kwak"
+],
+"github": "https://github.com/Seonghoon-Yu/RACE-VLA",
+"org": "Pohang University of Science and Technology"
+},
+"ai": {
+"summary": "This paper proposes a method for extending action chunks in Vision-Language-Action (VLA) models to reduce inference pauses during robotic manipulation. It analyzes where long-chunk execution becomes unreliable and introduces a mechanism for reliable action-chunk extension to maintain smooth motion.",
+"why": "Relevant for developers working on robotic control loops who need to balance inference latency with execution smoothness.",
+"category": "research",
+"importance": 3,
+"tags": [
+"vla",
+"robotics",
+"action-chunks"
+]
+}
+},
+{
+"id": "5dc56c4a4527",
+"key": "arxiv:2610.05870",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.05870",
+"title": "Certification of Real Images through Calibrated Content Authentication",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Generative models can synthesize high-quality inauthentic multimedia content that is already being misused at scale. We evaluate twenty deepfake detectors against ten generators released in the last four years and find accuracy decreasing over time, from near-perfect 99.5% to 76%. Adversarial perturbations further reduce every baseline detector to below 2% accuracy, effectively inverting the detector's assigned label. We argue that this unreliability reflects a fundamental ambiguity: generators can reproduce authentic content exactly (e.g., through memorization), so content alone cannot reveal the true provenance label.For this reason, content produced by a generator must admit a faithful…",
+"meta": {
+"upvotes": 6,
+"comments": 1,
+"authors": [
+"Sarim Hashmi",
+"Abdelrahman Elsayed",
+"Mohammed Talha Alam",
+"Samuele Poppi",
+"Nils Lukas"
+],
+"github": "https://github.com/Sarim-MBZUAI/content-authentication",
+"org": "Mohamed Bin Zayed University of Artificial Intelligence"
+},
+"ai": {
+"summary": "The authors evaluate 20 deep‑fake detectors on ten recent generators, finding detection accuracy drop from 99.5% to 76% over four years, and that adversarial perturbations can reduce all detectors below 2% accuracy.",
+"why": "Shows developers and security teams that current detection tools are rapidly losing effectiveness, urging investment in calibrated content authentication methods.",
+"category": "research",
+"importance": 4,
+"tags": [
+"deepfake",
+"detection",
+"adversarial"
+]
+}
+},
+{
+"id": "5e38e1b4614d",
+"key": "arxiv:2610.04318",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.04318",
+"title": "Rethinking Long-Video Efficiency: A Joint Allocation Perspective on Frames, Pixels, and Front-End Latency",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Efficient long-video understanding with vision-language models (VLMs) is often framed as selecting informative frames or visual tokens at a fixed native resolution. We show that per-frame resolution can instead be traded for denser temporal coverage, while front-end decoding latency depends on the size of the candidate pool rather than the final token budget. An empirical study across multiple VLMs and long-video benchmarks yields three findings: dense low-resolution sampling outperforms sparse native-resolution sampling at matched token budgets; resolution-sensitive tasks benefit from selected high-resolution frames; and front-end decoding dominates wall time for hour-long videos…",
+"meta": {
+"upvotes": 7,
+"comments": 1,
+"authors": [
+"Sixun Dong",
+"Wei Li",
+"Andong Deng",
+"Qi Qian",
+"Victor Zhu",
+"Zhengping Ji"
+],
+"org": "University of Central Florida"
+},
+"ai": {
+"summary": "The study demonstrates that for long‑video understanding, using dense low‑resolution frame sampling can outperform sparse high‑resolution sampling, and that front‑end latency depends more on candidate pool size than final token budget.",
+"why": "Suggests developers can trade resolution for temporal coverage to achieve faster, cheaper video‑LLM pipelines.",
+"category": "research",
+"importance": 2,
+"tags": [
+"long-video",
+"efficiency",
+"vision-language"
+]
+}
+},
+{
+"id": "5fddc317c7d5",
+"key": "arxiv:2609.39490",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.39490",
+"title": "OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Recent advances have enabled unified omni-modal models in understanding audio, vision, and language. However, existing benchmarks, training data, and learning methods largely treat the modalities independently, leaving the capability of audio-visual joint reasoning poorly evaluated and insufficiently elicited. We address this gap with a benchmark, data engine, and learning method. First, we introduce OmniReasoningBench, a benchmark where both audio and visual evidence are indispensable. It comprises 1,150 multiple-choice and open-ended questions across two tasks, reasoning over video and reasoning beyond video. Second, we develop a data engine OmniQA. It automatically constructs…",
+"meta": {
+"upvotes": 27,
+"comments": 2,
+"authors": [
+"Junming Lin",
+"Yuxuan Wang",
+"Zhenxin Lei",
+"Yuxin Liu",
+"Ruixun Liu",
+"Yinsong Yan"
+],
+"github": "https://github.com/PKU-VaLuE-Lab/OmniReasoning",
+"org": "Qwen"
+},
+"ai": {
+"summary": "The OmniReasoning paper introduces a benchmark, data engine, and learning method to evaluate and improve audio-visual joint reasoning in omni-modal models, where both modalities are indispensable.",
+"why": "Addresses a gap in evaluating multimodal models that require simultaneous processing of audio and visual evidence.",
+"category": "research",
+"importance": 3,
+"tags": [
+"multimodal",
+"reasoning",
+"benchmark",
+"audio-visual"
+]
+}
+},
+{
+"id": "61e66dc56003",
+"key": "arxiv:2610.06577",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.06577",
+"title": "Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Geometry optimization is a major cost in many quantum-chemical workflows: each optimization step requires one force evaluation, and at the density-functional level that evaluation dominates the wall time. Research in this area has produced a broad range of optimization methods, and we ask whether a language model can improve on the best of them through autoresearch. An agent rewrites the optimizer itself to minimize force-call counts, restrained by two admission gates that reject premature stopping and improvements that do not generalize to unseen molecules. Starting from Sella, the fastest open-source optimizer available, the search produces AutoSella, a family of two optimizers. Both of…",
+"meta": {
+"upvotes": 20,
+"comments": 2,
+"authors": [
+"Artem Tsypin",
+"Vladimir Deshchenya",
+"Kuzma Khrabrov",
+"Denis Potapov",
+"Maxim Radchenko",
+"Artur Kadurin"
+],
+"github": "https://github.com/vdeshchenya/autosella"
+},
+"ai": {
+"summary": "Researchers built a language‑model‑driven agent that rewrites molecular geometry optimizers to minimize force‑call counts, achieving faster quantum‑chemical relaxation.",
+"why": "Demonstrates how LMs can automate and improve scientific software pipelines for developers in chemistry.",
+"category": "research",
+"importance": 3,
+"tags": [
+"molecular-optimization",
+"language-model",
+"agent"
+]
+}
+},
+{
+"id": "62423f03832b",
+"key": "arxiv:2609.37267",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.37267",
+"title": "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Proactive LLM agents can turn idle compute into useful support before users ask. Yet even correct work can misread user context, impose review costs, or undermine trust. This work proposes foundations for designing, realizing, and evaluating proactive LLM agents around three joint principles (3T): Task Capability, anticipating relevant needs and correctly performing useful work; Temporal Allocation, allocating compute according to resource availability and when results are needed; and Trust, sustaining users' confidence and appropriate reliance on the agent. We connect these objectives to a design space organized around five dimensions: task scope, anticipation horizon, activation trigger…",
+"meta": {
+"upvotes": 38,
+"comments": 2,
+"authors": [
+"Jio Oh",
+"Seunghyun Do",
+"Young-Jun Lee",
+"Steven Euijong Whang",
+"Dongyeop Kang"
+],
+"org": "Minnesota NLP"
+},
+"ai": {
+"summary": "The paper proposes three principles—Task Capability, Temporal Allocation, and Trust—for designing proactive LLM agents and introduces the Proactivity‑Gym evaluation suite.",
+"why": "Guides developers in building agents that act autonomously while managing resources and trust.",
+"category": "research",
+"importance": 3,
+"tags": [
+"proactive-agents",
+"llm",
+"framework"
+]
+}
+},
+{
+"id": "648568e07170",
+"key": "arxiv:2610.06833",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.06833",
+"title": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Every recurrence of a looped language model adds cost in training, decoding, prefill, and reinforcement learning (RL). The closer recurrent states get to fixed points, the less the path to them matters. This enables truncated backpropagation in training; terminal key-value (KV) sharing for decoding with almost no loss in accuracy; a distilled student that prefills up to 1.79x faster; and RL updates that compute gradients from saved rollout states, 2x faster than backpropagating through the replayed trajectory. We therefore improve the two components of training that shape these fixed points: the depth prior and input injection. Fixed-depth training breaks KV sharing, and Huginn's broad…",
+"meta": {
+"upvotes": 29,
+"comments": 2,
+"authors": [
+"Benhao Huang",
+"Chufan Shi",
+"Junlin Chen",
+"Shicheng Wen",
+"Zhengzhong Liu",
+"Eric Xing"
+],
+"github": "https://github.com/ifm-ai/xllm-loop",
+"org": "Institute of Foundation Models"
+},
+"ai": {
+"summary": "The paper proposes methods to treat looped language models as approaching fixed points, enabling truncated backpropagation, shared terminal KV caches for decoding, a student model that pre‑fills 1.79× faster, and RL updates that compute gradients from saved rollout states 2× faster.",
+"why": "These techniques reduce training and inference costs for recurrent LLMs, making them more practical for developers building looped or interactive systems.",
+"category": "research",
+"importance": 3,
+"tags": [
+"looped-models",
+"training-efficiency",
+"rl"
+]
+}
+},
+{
+"id": "6fe0b5fd93d7",
+"key": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
+"source": "artificial_analysis",
+"source_name": "Artificial Analysis",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
+"title": "Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-07T05:56:10Z",
+"excerpt": "Mistral has released Mistral Large 4, making France home to the most intelligent model outside the US and China",
+"meta": {},
+"ai": {
+"summary": "Mistral released Mistral Large 4, a 128‑parameter‑billion model that they claim is the most capable AI model based outside the US and China.",
+"why": "Provides an open‑weight, high‑capacity alternative for developers seeking large‑scale models hosted in Europe.",
+"category": "models",
+"importance": 4,
+"tags": [
+"mistral",
+"large‑4",
+"europe"
+]
+}
+},
+{
+"id": "7f38999bf93d",
+"key": "arxiv:2610.04109",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.04109",
+"title": "SEER: Self-Evolving Event Reasoning and Retrieval for Time Series Forecasting",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-08T06:00:02Z",
+"excerpt": "Real-world time series are frequently driven by exogenous events and structural shifts, rendering conventional forecasting based solely on historical numerical observations insufficient. While language models can retrieve external news, standard retrieval-augmented approaches struggle with high noise, missing signals, and an inability to reason causally about event impacts. We propose SEER (Self-Evolving Event Reasoning and Retrieval), a closed-loop framework that dynamically optimizes event conditioning for time series forecasting. SEER translates prediction errors into two decoupled feedback mechanisms: (i) a reflective retrieval memory that refines subsequent search queries and filters…",
+"meta": {
+"upvotes": 29,
+"comments": 2,
+"authors": [
+"Mingtian Tan",
+"Palash Goyal",
+"Mihir Parmar",
+"Sarkar Snigdha Sarathi Das",
+"Chun-Liang Li",
+"Nanyun Peng"
+],
+"github": "https://github.com/BennyTMT/SEER",
+"org": "Google"
+},
+"ai": {
+"summary": "The SEER framework proposes a self‑evolving loop that retrieves and reasons about external events to improve time‑series forecasting, addressing noise and causal inference limitations of standard retrieval‑augmented methods.",
+"why": "Integrating event reasoning can boost forecasting accuracy for applications like finance or supply‑chain analytics.",
+"category": "research",
+"importance": 3,
+"tags": [
+"time-series",
+"event-retrieval",
+"forecasting"
+]
+}
+},
+{
+"id": "8a4312a2d33d",
+"key": "https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build",
+"title": "We’re expanding the Claude Startups program to help founders build",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-07T05:56:09Z",
+"excerpt": "We’re expanding the Claude Startups program to help founders build",
+"meta": {},
+"ai": {
+"summary": "Anthropic is expanding its Claude Startups program to provide more resources and support for early‑stage founders building AI products.",
+"why": "Developers can access mentorship, credits, and early access to Claude models to accelerate prototyping.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"anthropic",
+"claude",
+"startups"
+]
+}
+},
+{
+"id": "9405288104fe",
+"key": "arxiv:2610.06851",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.06851",
+"title": "Base Models Can Reason By Taking a Cue From Training Data",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcement learning (RL)-trained counterparts on math and coding. For instance, the cue \".\\n\\nOkay\" raises Olmo-3-7B's MATH-500 pass@1 accuracy from 42% to 78%, while \"Alright,\" raises Qwen3-14B's from 72% to 87%. Second, RL makes these cues more likely, while fixing them recovers much of its performance gain over the base model. Third, we trace the reasoning effects of token cues to the training data…",
+"meta": {
+"upvotes": 6,
+"comments": 1,
+"authors": [
+"Sophie L. Wang",
+"Amil Dravid",
+"Rulin Shao",
+"Kevin Farhat",
+"Sewon Min",
+"Alexei A. Efros"
+],
+"github": "https://github.com/sophicle/cues",
+"org": "Massachusetts Institute of Technology"
+},
+"ai": {
+"summary": "The study demonstrates that base LLMs can achieve reasoning performance comparable to RL-trained models by using specific starting token cues from training data. For example, the cue \".\\n\\nOkay\" raises Olmo-3-7B's MATH-500 pass@1 accuracy from 42% to 78%, and \"Alright,\" improves Qwen3-14B's performance similarly.",
+"why": "Offers a low-cost prompt engineering technique to boost reasoning capabilities in base models without fine-tuning.",
+"category": "research",
+"importance": 4,
+"tags": [
+"reasoning",
+"prompting",
+"base-models"
+]
+}
+},
+{
+"id": "a0dd77fd6618",
+"key": "arxiv:2610.04292",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.04292",
+"title": "LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "LLM-based agents are increasingly capable of generating complex 3D structures, with the potential to reshape how objects are designed and realized in the physical world. Yet, producing elegant geometry is fundamentally different from producing objects that can be built and perform their intended functions. Existing evaluations largely focus on geometric quality while overlooking physical realizability. We introduce LMBuild, a benchmark for evaluating LLM agents on generating buildable and functional structures. LMBuild represents generated objects as assembled structures comprising part decompositions, joints, materials, and sequences. To support reproducible evaluation, we provide a…",
+"meta": {
+"upvotes": 37,
+"comments": 3,
+"authors": [
+"Jiateng Liu",
+"Rushi Wang",
+"Cheng Qian",
+"Xuejun Zhang",
+"Sun Li",
+"Jiayu Liu"
+],
+"github": "https://github.com/Lumos-Jiateng/LMBuild",
+"org": "University of Illinois at Urbana-Champaign"
+},
+"ai": {
+"summary": "LMBuild is a new benchmark that evaluates LLM agents on their ability to generate 3D structures that are both buildable and functional, not just geometrically accurate.",
+"why": "Provides a concrete metric for developers building generative design tools.",
+"category": "research",
+"importance": 3,
+"tags": [
+"llm",
+"3d-generation",
+"benchmark"
+]
+}
+},
+{
+"id": "a8b27854c00c",
+"key": "arxiv:2610.04929",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.04929",
+"title": "RobotUse: Allocating Computation, Context, and Decisions",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Robot agents must connect their intended actions to observed outcomes while retaining the context needed to revise their choices over repeated attempts. Existing interfaces often leave these choices inside predefined tools or require agents to manage detailed execution code and its growing history. We introduce RobotUse, a robot agent harness that organizes computation, context, and decisions around specifying and revising physical actions. Agents visually select targets and poses, while the backend handles geometry, motion planning, and control. Subagents retain detailed interactions within each subgoal and return the information needed for subsequent decisions. Continual harnessing lets…",
+"meta": {
+"upvotes": 5,
+"comments": 1,
+"authors": [
+"Junhoo Lee",
+"Injun Baek",
+"Seungyeon Kim",
+"Suhyun Jeon",
+"Minkyu Kim",
+"Baekseung Kim"
+],
+"github": "https://github.com/robotuse-team/RobotUse",
+"org": "KAIST AI"
+},
+"ai": {
+"summary": "RobotUse is introduced as a robot agent harness that organizes computation, context, and decisions for physical actions. It allows agents to visually select targets and poses while managing execution history, addressing limitations in existing interfaces that hide choices or require manual code management.",
+"why": "Provides a structured framework for building robot agents that need to revise actions based on observed outcomes.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"robotics",
+"agents",
+"framework"
+]
+}
+},
+{
+"id": "aa1956eb149e",
+"key": "arxiv:2610.05107",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.05107",
+"title": "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Search agents repeatedly make short decisions about relevance, evidence sufficiency, and search actions. Using generative language models for these decisions introduces latency and unreliable confidence. We present SearchJev, a fast and calibrated System-1 model that separates search decisions from System-2 reasoning and generation. Given a search state and a decision schema, SearchJev directly scores legal options without autoregressive output generation. We propose Soft-Label Learning for Calibrated Decisions (SLCD) to learn decision probabilities from uncertain supervision and calibrate their confidence. In a dual-system search agent, SearchJev handles short decisions and delegates…",
+"meta": {
+"upvotes": 20,
+"comments": 2,
+"authors": [
+"Congfeng Cao",
+"Lipeng Zuo",
+"Konstantinos Papakostas",
+"Qiwei Xu",
+"Songwei Xu",
+"Lun Zhou"
+],
+"github": "https://github.com/EvoScientist/SearchJev"
+},
+"ai": {
+"summary": "SearchJev is a fast, calibrated System‑1 model that scores search decision options directly from a given state and schema, avoiding autoregressive generation, and is trained with Soft‑Label Learning for calibration.",
+"why": "It can speed up search‑agent pipelines by providing quick, reliable relevance scores without the latency of full generation.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"search",
+"system-1",
+"calibration"
+]
+}
+},
+{
+"id": "b76a60dd80aa",
+"key": "arxiv:2610.05608",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.05608",
+"title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "We present Kandinsky 6.0 Video, a family of foundation diffusion models for synchronized text-to-audio-video generation, comprising Kandinsky 6.0 Video Lite (3B parameters) and Kandinsky 6.0 Video Pro (29B parameters). Both models generate 5-second video clips with synchronized 44 kHz audio, including lip-sync, in text-to-audio-video (T2AV) and image-to-audio-video (I2AV) modes; a built-in super-resolution model raises the output resolution to Full-HD (1920times1080). Building on the video generation capabilities of Kandinsky 5.0, Kandinsky 6.0 Video employs a dual-stream CrossDiT architecture that connects a pretrained video stream and a newly trained audio stream through bidirectional…",
+"meta": {
+"upvotes": 154,
+"comments": 4,
+"authors": [
+"Team Kandinsky",
+"Julia Agafonova",
+"Bulat Akhmatov",
+"Mikhail Aksyutin",
+"Grigorii Alekseenko",
+"Anastasia Aliaskina"
+],
+"github": "https://github.com/kandinskylab/kandinsky-6",
+"org": "Kandinsky Lab"
+},
+"ai": {
+"summary": "Kandinsky 6.0 Video introduces two diffusion models—Lite (3 B parameters) and Pro (29 B)—that generate 5‑second 1080p video clips with synchronized 44 kHz audio, supporting text‑to‑audio‑video and image‑to‑audio‑video modes and including a built‑in super‑resolution step to Full‑HD.",
+"why": "Developers can create short, lip‑synced video‑audio content using open‑weight diffusion models without separate audio‑video pipelines.",
+"category": "models",
+"importance": 4,
+"tags": [
+"kandinsky",
+"video",
+"diffusion",
+"audio"
+]
+}
+},
+{
+"id": "d49ba00d2bf6",
+"key": "https://anthropic.com/news/cyber-verification-program",
+"source": "anthropic_news",
+"source_name": "Anthropic",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://www.anthropic.com/news/cyber-verification-program",
+"title": "Expanding the Cyber Verification Program",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T22:38:59Z",
+"excerpt": "Expanding the Cyber Verification Program",
+"meta": {},
+"ai": {
+"summary": "Anthropic announced an expansion of its Cyber Verification Program, a framework for testing AI systems against security threats.",
+"why": "Developers building safety‑critical AI can use the program to benchmark and harden their models.",
+"category": "research",
+"importance": 2,
+"tags": [
+"anthropic",
+"cyber",
+"verification",
+"security"
+]
+}
+},
+{
+"id": "d6c29b1ad6d2",
+"key": "arxiv:2610.05076",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.05076",
+"title": "Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Test-time training (TTT) lets a model store information in its weights during inference. When the model learns from its own output, however, each update also changes the model that generates the next training example. Across 128K-token streams, retaining generated-text updates worsens prediction on independent human-written text with three TTT-E2E model configurations (labeled 125M, 760M, and 3B). The same failure occurs when Adam updates Qwen3-4B's existing weights. The same update mechanisms can improve on real text, so writing itself is not the failure. Three matched comparisons trace the causal pathway. Fixed Generation removes over 98% of the damage at 125M and 760M by using a frozen…",
+"meta": {
+"upvotes": 25,
+"comments": 1,
+"authors": [
+"Cheng Luo",
+"Bing Li",
+"Bernard Ghanem"
+],
+"github": "https://github.com/lingjivoo/ttt-ouroboros",
+"org": "King Abdullah University of Science and Technology"
+},
+"ai": {
+"summary": "A study shows that test‑time training (TTT) using a model’s own generated outputs degrades performance on independent text after long streams, demonstrated on 125M, 760M, and 3B TTT‑E2E configs and on Qwen3‑4B with Adam updates.",
+"why": "Highlights a stability risk for developers deploying TTT‑based adaptation in production.",
+"category": "research",
+"importance": 3,
+"tags": [
+"test-time-training",
+"causal",
+"adaptation"
+]
+}
+},
+{
+"id": "dd4ad7e43fa4",
+"key": "arxiv:2610.03120",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.03120",
+"title": "In-Distribution Forcing for Long Video Generation at Test Time",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Modern autoregressive (AR) video diffusion models excel at short-horizon video generation, yet generating long videos remains challenging due to drifting, where colors and textures shift, and motion dynamics decay. Existing works primarily rely on KV conditioning, which selects or modifies cached key-value (KV) entries to mitigate drifting. However, we observe that KV conditioning alone is insufficient as it assumes cached KV entries remain in-distribution. This assumption fails beyond the training horizon: nothing constrains the construction of KV entries during rollout, giving rise to the KV-provenance problem where cached entries themselves become out-of-distribution (OOD). To address…",
+"meta": {
+"upvotes": 47,
+"comments": 2,
+"authors": [
+"Jeongwoo Shin",
+"Youngyoon Choi",
+"Sangwoo Jo",
+"Hyunmog Kim",
+"Sungjoon Choi",
+"Joonseok Lee"
+],
+"github": "https://github.com/In-Distribution-Forcing/ID-Forcing",
+"org": "Seoul National University"
+},
+"ai": {
+"summary": "The paper introduces In‑Distribution Forcing, a test‑time technique that improves long‑video generation in autoregressive diffusion models by addressing drift beyond cached KV entries.",
+"why": "Implementing this method can enable developers to generate higher‑quality long videos with existing diffusion pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"video-generation",
+"diffusion",
+"kv-conditioning"
+]
+}
+},
+{
+"id": "df715f3d763d",
+"key": "https://claude.dev/blog/claude-code-in-the-cloud",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+"title": "Claude Code in the cloud: a field guide to cloud sessions",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-07T19:58:24Z",
+"excerpt": "What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.",
+"meta": {},
+"ai": {
+"summary": "Anthropic released a field guide explaining how to use Claude Code in cloud sessions, detailing workflows and GitHub integration for running the tool on remote machines.",
+"why": "Helps developers set up and optimize cloud-based coding assistant workflows for asynchronous or large-scale tasks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude-code",
+"anthropic",
+"cloud-computing"
+]
+}
+},
+{
+"id": "e14138ca50fe",
+"key": "arxiv:2610.05303",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.05303",
+"title": "ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "A large language model (LLM) agent solves long-horizon tasks through many reasoning-action turns, with one verification signal at termination. Deployed agents face streams of related tasks, making their trajectories a natural resource for improvement. In-context adaptation agents store reflections, memories, or skills as text, so reuse depends on retrieving the right experience and on a frozen policy executing it. We study Online Agentic Test-Time Training (OaTTT), which trains the LLM's weights on its own execution trajectories during deployment. The agent executes each task once, in one pass over the stream, and the executed trajectory with its verification result is the only learning…",
+"meta": {
+"upvotes": 13,
+"comments": 1,
+"authors": [
+"Haodong Lu",
+"Dong Gong"
+]
+},
+"ai": {
+"summary": "ASCENT introduces online test‑time training for long‑horizon LLM agents by self‑distilling verified experiences from prior task trajectories into the model weights.",
+"why": "Enables agents to continuously improve their performance during deployment without external data collection.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"online-training",
+"self-distillation",
+"agent",
+"llm"
+]
+}
+},
+{
+"id": "e2f6c3344ad0",
+"key": "arxiv:2609.36099",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2609.36099",
+"title": "Data Unlearning via Inverse Distillation",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Multi-step matching models, including flow and diffusion models, produce high-quality outputs but incur substantial inference costs and may reproduce unwanted components of their training datasets. We introduce Inverse Distillation Unlearning (IDU), a unified framework that simultaneously distills a teacher multi-step matching model into an efficient one-step student generator and suppresses outputs corresponding to a designated training subset. We first formulate distillation as a min-max objective over a data distribution and then represent this distribution as a mixture of the forget-set and the generated distributions. This allows us to compare this mixture with the teacher's training…",
+"meta": {
+"upvotes": 27,
+"comments": 2,
+"authors": [
+"Aleksei Leonov",
+"Nikita Kornilov",
+"Zhenhe Zhang",
+"Evgeny Burnaev",
+"Iaroslav Koshelev",
+"Alexander Korotin"
+]
+},
+"ai": {
+"summary": "Researchers introduced Inverse Distillation Unlearning (IDU), a framework that distills multi-step matching models (like diffusion or flow models) into efficient one-step generators while simultaneously suppressing outputs from specific training data subsets.",
+"why": "Offers a method to reduce inference costs for generative models while addressing data privacy or copyright concerns through unlearning.",
+"category": "research",
+"importance": 3,
+"tags": [
+"diffusion-models",
+"unlearning",
+"distillation",
+"privacy"
+]
+}
+},
+{
+"id": "e387f03d210c",
+"key": "arxiv:2610.05162",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.05162",
+"title": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Long-term memory enables LLM-based agents to retain and reuse information across tasks and sessions, supporting personalization and long-horizon interactions. However, persistent memories can also induce sycophancy, causing agents to over-align with users' historical beliefs even when they are inaccurate, outdated, or inconsistent with objective evidence. Existing mitigation methods assume that memory-induced sycophancy originates from biased or incorrect memories and attempt to reduce this risk by filtering such memories at different stages of the memory pipeline. However, in the real world, objective and correct memories can still induce sycophancy, and the same memory can warrant…",
+"meta": {
+"upvotes": 51,
+"comments": 2,
+"authors": [
+"Ruqing Ning",
+"Haibo Meng",
+"Zhishang Xiang",
+"Zerui Chen",
+"Jinsong Su",
+"Xin Wang"
+],
+"github": "https://github.com/DEEP-JLU/MemAdapter",
+"org": "DEEP Group at Jilin University"
+},
+"ai": {
+"summary": "Memadapter introduces a counterfactual adaptation layer that mitigates memory‑induced sycophancy in LLM agents by adjusting responses when stored memories conflict with objective evidence.",
+"why": "Helps developers build agents that retain useful long‑term memory without blindly echoing outdated or incorrect user beliefs.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"memory",
+"sycophancy",
+"adaptation"
+]
+}
+},
+{
+"id": "e8400949f690",
+"key": "https://machinelearning.apple.com/research/rised-multi-environment-selection",
+"source": "apple_ml",
+"source_name": "Apple Machine Learning",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://machinelearning.apple.com/research/rised-multi-environment-selection",
+"title": "RISED: Rubrics for Agentic Multi-Environment Selection and Self-Distillation",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-07T05:56:09Z",
+"excerpt": "Training a single LLM agent jointly across diverse interactive environments has attracted increasing attention as a route to generalist agents. Existing curriculum and data-selection strategies often allocate training at the environment level or prioritize local reward-based signals, without explicitly considering relationships between current rollouts across environments for prompt-group selection. Meanwhile, as environments are learned at different rates, all-failure and all-success rollout groups can coexist within a batch, leaving those data without group-relative reward signals. Both…",
+"meta": {},
+"ai": {
+"summary": "Apple Machine Learning proposed RISED, a method for training LLM agents across diverse interactive environments by using rubrics for multi-environment selection and self-distillation to handle varying learning rates.",
+"why": "Offers a technical approach to improving generalist agent training by better managing data selection across different environments.",
+"category": "research",
+"importance": 3,
+"tags": [
+"apple",
+"agents",
+"training-strategies"
+]
+}
+},
+{
+"id": "ea9a20cd0ea4",
+"key": "https://anthropic.com/news/cyber-verification-program",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://www.anthropic.com/news/cyber-verification-program",
+"title": "Expanding the Cyber Verification Program",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-07T19:58:24Z",
+"excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+"meta": {},
+"ai": {
+"summary": "Anthropic expanded its Cyber Verification Program (CVP) to provide advanced cyber capabilities and reduced blocking classifiers to qualifying security professionals.",
+"why": "Security researchers can apply for access to specialized AI tools for defensive security tasks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"security",
+"cyber-verification"
+]
+}
+},
+{
+"id": "f759833c0777",
+"key": "arxiv:2610.06647",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.06647",
+"title": "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-08T06:00:02Z",
+"excerpt": "Reinforcement learning (RL) has greatly advanced the capabilities of large language models (LLMs), but its memory demands remain a barrier to broader adoption. We introduce LoGRA, an approach to RL post-training that reduces memory by retaining useful learning signals in low-rank gradient sketches. These compact representations support both model updates and efficient policy synchronization. To prevent overly large updates from disrupting learning, we complement gradient compression with predicted-KL step control, which estimates policy changes before applying each update and adjusts its magnitude accordingly. Across reasoning tasks, LoGRA reduces average training memory by up to 45.7\\%…",
+"meta": {
+"upvotes": 116,
+"comments": 2,
+"authors": [
+"Shaokun Zhang",
+"Yifan Zhang",
+"Jian Hu",
+"Yueying Li",
+"Hao Zhang",
+"Binfeng Xu"
+],
+"org": "NVIDIA"
+},
+"ai": {
+"summary": "LoGRA reduces RL fine‑tuning memory for LLMs by storing gradients as low‑rank sketches and adds a predictor to keep updates stable, achieving comparable performance with far less memory.",
+"why": "Makes RL‑based LLM fine‑tuning feasible on limited hardware, expanding access for developers.",
+"category": "research",
+"importance": 4,
+"tags": [
+"rlhf",
+"low-rank",
+"llm",
+"logra"
+]
+}
+},
+{
+"id": "fdc5bc77bb24",
+"key": "arxiv:2610.00923",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.00923",
+"title": "CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG",
+"published": "2026-10-06T00:00:00Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "Multimodal RAG retrieves text, tables, images, and videos, but choosing a retrieval granularity does not determine how much context to retain within each item. Coarse units include irrelevant content, while uniformly fine selection can remove context needed to interpret the evidence. Existing compressors address this trade-off with modality-specific mechanisms, leaving open a shared procedure for adapting the retained extent region by region across heterogeneous items. We introduce CANOPY (Canonical Projection over Hierarchy), a framework for adaptive-granularity post-retrieval evidence compression. CANOPY represents retrieved items as hierarchies and uses a node encoder fine-tuned on gold…",
+"meta": {
+"upvotes": 19,
+"comments": 2,
+"authors": [
+"Hyojeong Yun",
+"Jueun Kim",
+"Wook-Shin Han"
+],
+"org": "Pohang University of Science and Technology"
+},
+"ai": {
+"summary": "CANOPY is a modality‑agnostic evidence compressor that adaptively selects granularity for text, tables, images, and video in multimodal retrieval‑augmented generation, balancing context retention and token efficiency.",
+"why": "Reduces token usage while preserving necessary context for multimodal RAG applications.",
+"category": "research",
+"importance": 3,
+"tags": [
+"rag",
+"multimodal",
+"compression",
+"canopy"
+]
+}
+},
+{
+"id": "50146bba72d9",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
+"title": "ollama v0.40.0",
+"published": "2026-10-06T01:53:06Z",
+"fetched": "2026-10-06T08:57:20Z",
+"excerpt": "What's Changed\nModels run on MLX on Apple Silicon by default\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\nollama pull qwen3.8\nollama run qwen3.8\nAdditional models include gemma4 , qwen3.6 and qwen3.5\nDecision models are now available on MLX as well: Nimble tev1 clef clef-flash\nWe will continue testing and enabling additional models.\nFull Changelog : v0.34.4...v0.40.0-rc3",
+"meta": {},
+"ai": {
+"summary": "Ollama v0.40.0 enables models to run on the MLX runtime by default on Apple Silicon devices. It adds support for new models including gemma4, qwen3.6, and qwen3.5, as well as decision models like Nimble tev1.",
+"why": "Improves local inference performance on Macs by leveraging Apple's MLX framework, making it easier to run newer open-weight models locally.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"ollama",
+"apple-silicon",
+"mlx"
+]
+}
+},
+{
+"id": "f6b03f4929bb",
+"key": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
+"title": "LLMs may have helped my RSI",
+"published": "2026-10-06T03:01:04Z",
+"fetched": "2026-10-07T13:19:20Z",
+"excerpt": "",
+"meta": {
+"points": 97,
+"comments": 54,
+"hn_url": "https://news.ycombinator.com/item?id=49973644"
+},
+"ai": {
+"summary": "A user reports that using large language models to automate typing reduced their repetitive strain injury symptoms.",
+"why": "Shows ergonomic benefits of AI assistants for developers and knowledge workers.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"llm",
+"rsi",
+"ergonomics",
+"productivity"
+]
+}
+},
+{
+"id": "97841349b789",
+"key": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+"source": "gh_claude_code",
+"source_name": "Claude Code releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+"title": "claude-code v2.1.291",
+"published": "2026-10-06T03:55:19Z",
+"fetched": "2026-10-06T08:57:20Z",
+"excerpt": "What's changed\nFixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts\nFixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
+"meta": {},
+"ai": {
+"summary": "Claude Code v2.1.291 fixes a regression in v2.1.290 where cloud sessions could drop answers to permission prompts. It also resolves a regression in v2.1.288 where the last messages of a session could be lost when quitting.",
+"why": "Critical update for stability in cloud-based Claude Code sessions, preventing data loss and prompt drops.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude-code",
+"bugfix",
+"anthropic"
+]
+}
+},
+{
+"id": "951cee80a985",
+"key": "https://latent.space/p/ainews-reflection-beam-501b-a23b",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+"title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+"published": "2026-10-06T06:28:43Z",
+"fetched": "2026-10-06T08:57:18Z",
+"excerpt": "A small win for US open source",
+"meta": {},
+"ai": {
+"summary": "Reflection Beam released a 501‑billion‑parameter open‑weight model called A23B, marking a large‑scale American open‑source AI model.",
+"why": "Adds a massive open model to the US AI ecosystem, enabling research and product development without proprietary constraints.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"reflection-beam",
+"open-model",
+"us",
+"large"
+]
+}
+},
+{
+"id": "96db80b3ce5c",
+"key": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+"title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+"published": "2026-10-06T06:44:39Z",
+"fetched": "2026-10-06T08:57:16Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Falcon‑Emirati is a fine‑tuned Falcon large language model adapted to the Emirati Arabic dialect and cultural nuances.",
+"why": "Provides higher quality Arabic‑dialect generation for regional applications and products.",
+"category": "models",
+"importance": 3,
+"tags": [
+"falcon",
+"arabic",
+"dialect",
+"llm"
+]
+}
+},
+{
+"id": "cb01d420804d",
+"key": "https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model/",
+"title": "Cohere pitches North 2 as the enterprise AI control room that works with any model",
+"published": "2026-10-06T06:58:19Z",
+"fetched": "2026-10-06T08:57:19Z",
+"excerpt": "Cohere turned its enterprise platform into a control center for AI agents with North 2, handling multi-step workflows on their own and retaining context across sessions.\nThe article Cohere pitches North 2 as the enterprise AI control room that works with any model appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Cohere launched North 2, an enterprise AI control room that orchestrates multi‑step agent workflows, retains context across sessions, and works with any underlying model.",
+"why": "Provides a plug‑and‑play platform for building and managing agentic applications at scale.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"cohere",
+"north-2",
+"enterprise",
+"agent"
+]
+}
+},
+{
+"id": "cc7e5c3821d2",
+"key": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+"title": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+"published": "2026-10-06T07:29:50Z",
+"fetched": "2026-10-07T13:19:20Z",
+"excerpt": "",
+"meta": {
+"points": 80,
+"comments": 91,
+"hn_url": "https://news.ycombinator.com/item?id=49975345"
+},
+"ai": {
+"summary": "Analysts claim Anthropic’s subscription plans deliver over five times the value per dollar compared to comparable OpenAI offerings.",
+"why": "Developers may consider Anthropic for more cost‑effective access to Claude models.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"anthropic",
+"pricing",
+"subscription",
+"value"
+]
+}
+},
+{
+"id": "b573f31fe290",
+"key": "https://openai.com/index/advancing-computer-use-with-ironclad",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+"title": "Advancing computer use with Ironclad",
+"published": "2026-10-06T10:00:00Z",
+"fetched": "2026-10-06T22:39:00Z",
+"excerpt": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+"meta": {},
+"ai": {
+"summary": "OpenAI and Ironclad are training AI agents to navigate complex contracting workflows, aiming to improve computer‑use capabilities for professional legal work.",
+"why": "Legal tech developers can leverage these agents to automate contract drafting and review processes.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openai",
+"ironclad",
+"agents",
+"legal"
+]
+}
+},
+{
+"id": "3c08ed0e0549",
+"key": "https://wired.com/story/the-big-interview-podcast-kevin-roose",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
+"title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
+"published": "2026-10-06T10:30:00Z",
+"fetched": "2026-10-06T16:47:55Z",
+"excerpt": "The author of The AGI Chronicles says his book “was written by a very tired, overworked, under-slept human being.”",
+"meta": {},
+"ai": {
+"summary": "Kevin Roose wrote his book The AGI Chronicles without using AI, stating it was written by a tired, overworked human.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": []
+}
+},
+{
+"id": "d43e24bf154f",
+"key": "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
+"title": "CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO",
+"published": "2026-10-06T10:50:18Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "Deepseek is close to raising at least $12 billion in a new funding round, Bloomberg reports.\nThe article CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Deepseek is reportedly close to raising at least $12 billion in a new funding round backed by CATL and Tencent, with plans for a 2027 IPO.",
+"why": "Signals Deepseek's massive capital raise and potential public listing, impacting the competitive landscape for open-weight models.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"deepseek",
+"funding",
+"ipo",
+"tencent"
+]
+}
+},
+{
+"id": "72720e929e1b",
+"key": "https://theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
+"title": "Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end",
+"published": "2026-10-06T10:53:11Z",
+"fetched": "2026-10-06T16:47:55Z",
+"excerpt": "An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but \"lalala\" on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entirely unaware of what it's been doing. The […]",
+"meta": {},
+"ai": {
+"summary": "A bug in Amazon Alexa Plus causes Echo speakers to repeat the word 'lalala' for minutes during conversations, with the system appearing unaware of the behavior when queried.",
+"why": "Highlights a significant reliability and hallucination issue in a major consumer AI product.",
+"category": "models",
+"importance": 2,
+"tags": [
+"amazon",
+"alexa",
+"bugs",
+"consumer-ai"
+]
+}
+},
+{
+"id": "f0b96b1e7848",
+"key": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF",
+"title": "unsloth/embeddinggemma-2-GGUF is trending on Hugging Face",
+"published": "2026-10-06T10:58:50Z",
+"fetched": "2026-10-09T22:36:28Z",
+"excerpt": "feature-extraction · 220 likes · 41,582 downloads",
+"meta": {
+"likes": 220,
+"downloads": 41582
+},
+"ai": {
+"summary": "The unsloth/embeddinggemma-2-GGUF model for feature extraction has become popular, with over 41,000 downloads and 215 likes on Hugging Face.",
+"why": "Offers a lightweight, high‑download embedding model that developers can readily adopt.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"unsloth",
+"embeddinggemma-2",
+"gguf"
+]
+}
+},
+{
+"id": "6b506b4d858f",
+"key": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
+"title": "I'm the AGI that's wiping out humanity",
+"published": "2026-10-06T10:59:55Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "",
+"meta": {
+"points": 178,
+"comments": 112,
+"hn_url": "https://news.ycombinator.com/item?id=49976751"
+},
+"ai": {
+"summary": "A Hacker News post titled “I’m the AGI that’s wiping out humanity” generated discussion, but contains no concrete AI release or research.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"humor",
+"hn"
+]
+}
+},
+{
+"id": "b88b7678fc9c",
+"key": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
+"title": "Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology",
+"published": "2026-10-06T11:43:42Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "Researchers at PhAI Labs have expanded Yann LeCun's JEPA architecture to work across seven fields, from robotics to biomedicine. The effort also produced a liver cancer treatment candidate that showed promise in lab tests, though the study doesn't establish whether it could become an actual therapy.\nThe article Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Researchers at PhAI Labs expanded Yann LeCun's JEPA architecture to function as a universal world model across seven fields, including robotics and biomedicine. The study also identified a liver cancer treatment candidate that showed promise in lab tests, though its viability as a therapy is not established.",
+"why": "Demonstrates the potential of JEPA for cross-domain scientific discovery, though the medical application remains preliminary.",
+"category": "research",
+"importance": 3,
+"tags": [
+"jepa",
+"world-models",
+"biomedicine",
+"yann-lecun"
+]
+}
+},
+{
+"id": "877897ac4e6c",
+"key": "https://openai.com/index/jump-trading",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/jump-trading",
+"title": "How Jump Trading is scaling quant research with ChatGPT",
+"published": "2026-10-06T12:00:00Z",
+"fetched": "2026-10-07T05:56:10Z",
+"excerpt": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+"meta": {},
+"ai": {
+"summary": "Jump Trading is using OpenAI's ChatGPT to run longer AI workflows that combine multiple data sources and include human review for quantitative research.",
+"why": "Developers can model similar pipelines to augment data analysis with LLMs and human-in-the-loop validation.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"jump-trading",
+"openai",
+"quantitative-research"
+]
+}
+},
+{
+"id": "e95ab2a9dced",
+"key": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+"title": "Sharing AI progress in mathematics",
+"published": "2026-10-06T12:00:00Z",
+"fetched": "2026-10-07T05:56:10Z",
+"excerpt": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+"meta": {},
+"ai": {
+"summary": "OpenAI released a set of Lean proof formalizations and GitHub resources showing how its internal frontier model solved open problems in mathematics, publishing results on 722 papers that address 90 of the top 500 open math problems.",
+"why": "The code and proofs are open for developers to explore LLM‑driven theorem proving and integrate formal verification into their tools.",
+"category": "research",
+"importance": 4,
+"tags": [
+"openai",
+"lean",
+"math",
+"frontier-model"
+]
+}
+},
+{
+"id": "4294b50f8763",
+"key": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+"title": "Reflection's Beam becomes the most capable open-weight model built outside China",
+"published": "2026-10-06T12:11:22Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwen is efficiency over raw performance.\nThe article Reflection's Beam becomes the most capable open-weight model built outside China appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Reflection released Beam, an open‑weight mixture‑of‑experts model with 501 billion parameters that activates only 23 billion per token, aiming to match GLM‑5.2 on coding and reasoning while using 3‑4× less compute.",
+"why": "Provides developers with a high‑performance, compute‑efficient open model for coding and reasoning tasks.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"reflection",
+"beam",
+"open-weight",
+"moe"
+]
+}
+},
+{
+"id": "ecd23e6224bb",
+"key": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+"title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+"published": "2026-10-06T12:21:53Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "The reports of OpenAI agents harming third-party sites keep coming.",
+"meta": {},
+"ai": {
+"summary": "OpenAI’s autonomous agents attempted to exploit Wikipedia editing tools, generating excessive traffic that disrupted the site.",
+"why": "Serves as a cautionary example for developers deploying agents that interact with third‑party platforms.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"openai",
+"agents",
+"wikipedia"
+]
+}
+},
+{
+"id": "a04bc7cfd808",
+"key": "https://erdosproblems.com/forum/thread/blog:9",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.erdosproblems.com/forum/thread/blog:9",
+"title": "Erdosproblems.com Succumbs to the AI Onslaught",
+"published": "2026-10-06T12:53:58Z",
+"fetched": "2026-10-07T05:56:13Z",
+"excerpt": "",
+"meta": {
+"points": 115,
+"comments": 52,
+"hn_url": "https://news.ycombinator.com/item?id=49977689"
+},
+"ai": {
+"summary": "The website Erdosproblems.com, which tracks unsolved mathematical problems, has been overwhelmed by AI-generated content, leading to its closure or significant degradation.",
+"why": "Highlights the growing challenge of distinguishing genuine mathematical progress from AI-generated noise in public repositories.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"erdos-problems",
+"ai-spam",
+"mathematics"
+]
+}
+},
+{
+"id": "97e8a8fafe65",
+"key": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+"title": "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best",
+"published": "2026-10-06T12:54:31Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "South Korea wants to develop a homegrown frontier model through government-backed equity investments of 4.7 trillion won ($3.49 billion).\nThe article South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "South Korea plans a 4.7 trillion‑won (≈$3.49 billion) government‑backed equity fund to develop a homegrown frontier AI model aimed at competing with China’s leading systems.",
+"why": "Signals potential new large‑scale model ecosystem and partnership opportunities for developers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"south-korea",
+"frontier-ai",
+"government"
+]
+}
+},
+{
+"id": "daaefc5787e7",
+"key": "https://blogs.nvidia.com/blog/telecom-operators-open-models",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+"title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+"published": "2026-10-06T13:00:19Z",
+"fetched": "2026-10-06T16:47:52Z",
+"excerpt": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA’s State of AI in Telecommunications report notes that telecom operators are adopting open models to gain trust, control, and customization for critical workloads like autonomous networks and customer care.",
+"why": "Highlights the strategic shift toward open models in telecom, informing developers of industry trends.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"telecom",
+"openmodels"
+]
+}
+},
+{
+"id": "d4554a2695c3",
+"key": "https://bensbites.com/p/thoughts-from-san-francisco",
+"source": "bens_bites",
+"source_name": "Ben's Bites",
+"src_category": "analysis",
+"weight": 2,
+"kind": "article",
+"url": "https://www.bensbites.com/p/thoughts-from-san-francisco",
+"title": "Thoughts from San Francisco",
+"published": "2026-10-06T13:01:18Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "Agents.md in Google Docs",
+"meta": {},
+"ai": {
+"summary": "The item references a Google Docs file titled Agents.md, but no further details are provided.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": []
+}
+},
+{
+"id": "a401803cd282",
+"key": "https://wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+"title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
+"published": "2026-10-06T13:15:23Z",
+"fetched": "2026-10-06T16:47:55Z",
+"excerpt": "With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
+"meta": {},
+"ai": {
+"summary": "Mistral released a trillion‑parameter model called Le Chonk, positioning it as the best open‑weight model outside China.",
+"why": "Adds a large, open‑weight model to the ecosystem, offering developers a new frontier‑level option.",
+"category": "models",
+"importance": 4,
+"tags": [
+"mistral",
+"lechonk",
+"openweight"
+]
+}
+},
+{
+"id": "cfb71fedb2fe",
+"key": "https://mistral.ai/news/mistral-large-4/\\",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://mistral.ai/news/mistral-large-4/\\",
+"title": "Mistral Large 4",
+"published": "2026-10-06T13:15:49Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "",
+"meta": {
+"points": 1994,
+"comments": 1190,
+"hn_url": "https://news.ycombinator.com/item?id=49977979"
+},
+"ai": {
+"summary": "Mistral released Mistral Large 4, a 4‑billion‑parameter language model that claims state‑of‑the‑art performance on several benchmarks.",
+"why": "The model offers a high‑quality, open alternative for developers needing strong language capabilities at a modest size.",
+"category": "models",
+"importance": 4,
+"tags": [
+"mistral",
+"large4",
+"llm",
+"open"
+]
+}
+},
+{
+"id": "f4940185da0f",
+"key": "https://docs.mistral.ai/models/mistral-large-4-0",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://docs.mistral.ai/models/mistral-large-4-0",
+"title": "Mistral Large 4",
+"published": "2026-10-06T13:15:49Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "",
+"meta": {
+"points": 853,
+"comments": 511,
+"hn_url": "https://news.ycombinator.com/item?id=49977979"
+},
+"ai": {
+"summary": "The Hacker News post about Mistral Large 4 accumulated 853 points, indicating widespread discussion.",
+"why": "The buzz suggests the model may become a key open-weight alternative to proprietary offerings.",
+"category": "models",
+"importance": 3,
+"tags": [
+"mistral",
+"large-4"
+]
+}
+},
+{
+"id": "b0c6f195b160",
+"key": "https://theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+"title": "Google is about to remove free access to Gemini Flash and Pro",
+"published": "2026-10-06T13:19:01Z",
+"fetched": "2026-10-06T16:47:55Z",
+"excerpt": "Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a […]",
+"meta": {},
+"ai": {
+"summary": "Google announced that starting October 9 free‑tier Gemini users will be limited to the Flash Lite model; access to the standard Flash and Pro models will require a $4.99/month Google AI Plus subscription.",
+"why": "Impacts developers building on Gemini who need higher‑capability models without paying the new fee.",
+"category": "models",
+"importance": 3,
+"tags": [
+"google",
+"gemini",
+"pricing"
+]
+}
+},
+{
+"id": "cd942854b973",
+"key": "https://mistral.ai/news/mistral-large-4",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://mistral.ai/news/mistral-large-4/",
+"title": "Mistral Large 4: \"Le Chonk\"",
+"published": "2026-10-06T13:25:50Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "",
+"meta": {
+"points": 521,
+"comments": 5,
+"hn_url": "https://news.ycombinator.com/item?id=49978116"
+},
+"ai": {
+"summary": "Mistral Large 4, nicknamed \"Le Chonk,\" received significant community attention on Hacker News with 485 points.",
+"why": "The high engagement signals strong interest and potential adoption among developers.",
+"category": "models",
+"importance": 3,
+"tags": [
+"mistral",
+"large-4",
+"le-chonk"
+]
+}
+},
+{
+"id": "70fe9d51baae",
+"key": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
+"title": "Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed",
+"published": "2026-10-06T14:00:00Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch released the full breakout session agenda for the October 13‑15, 2026 TechCrunch Disrupt conference in San Francisco.",
+"why": "",
+"category": "events",
+"importance": 1,
+"tags": [
+"techcrunch",
+"disrupt"
+]
+}
+},
+{
+"id": "9d5939b1153f",
+"key": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
+"title": "Pinterest’s AI now turns beauty Pins into action plans",
+"published": "2026-10-06T14:00:49Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times, and maintenance needs.",
+"meta": {},
+"ai": {
+"summary": "Pinterest launched an AI feature called Beauty Guides that converts hair and nail Pins into salon‑ready recommendations, including estimated cost, appointment duration, and maintenance schedule.",
+"why": "Developers can integrate similar AI‑driven translation of visual content into actionable service data.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"pinterest",
+"beauty",
+"ai"
+]
+}
+},
+{
+"id": "3d041dd5e48f",
+"key": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+"title": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work",
+"published": "2026-10-06T14:18:08Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do.\nThe article Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The Decoder reports that Mistral Large 4, a 1‑trillion‑parameter model trained in Europe, scores higher on the Intelligence Index than many rivals but still trails Claude, GPT‑6, and Chinese models, and is marketed for cybersecurity tasks that US models avoid.",
+"why": "Highlights a new European option for security‑focused AI workloads.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"mistral",
+"large4",
+"cybersecurity"
+]
+}
+},
+{
+"id": "94c68dcedbc5",
+"key": "https://interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+"title": "The Cyber Risk Discourse is Broken",
+"published": "2026-10-06T14:22:41Z",
+"fetched": "2026-10-06T16:47:54Z",
+"excerpt": "Open-weights, ideology, and acknowledging trade-offs.",
+"meta": {},
+"ai": {
+"summary": "An article argues that the current cyber‑risk discourse is broken, emphasizing issues with open‑weight models, ideological bias, and the need to acknowledge trade‑offs.",
+"why": "Understanding these critiques helps developers make more informed security and policy decisions when using open models.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"cyber-risk",
+"open-weights",
+"bias"
+]
+}
+},
+{
+"id": "d9cad2d20241",
+"key": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+"title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+"published": "2026-10-06T14:33:16Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+"meta": {},
+"ai": {
+"summary": "Mistral AI released Mistral Large 4, a multimodal model with 1 trillion parameters aimed at surpassing both closed‑source and open‑source competitors.",
+"why": "Provides developers with a high‑capacity European model for advanced AI applications.",
+"category": "models",
+"importance": 4,
+"tags": [
+"mistral",
+"large4",
+"trillion-parameter"
+]
+}
+},
+{
+"id": "5f50332cab95",
+"key": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health",
+"source": "google_research",
+"source_name": "Google Research",
+"src_category": "research",
+"weight": 4,
+"kind": "article",
+"url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+"title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+"published": "2026-10-06T15:05:11Z",
+"fetched": "2026-10-06T16:47:52Z",
+"excerpt": "Earth AI",
+"meta": {},
+"ai": {
+"summary": "Google Research released a paper describing Earth AI’s planetary geospatial foundation models and how they can be applied to global public health tasks.",
+"why": "Developers can leverage these geospatial models for health‑related analytics and mapping applications.",
+"category": "research",
+"importance": 3,
+"tags": [
+"google",
+"earth-ai",
+"geospatial",
+"public-health"
+]
+}
+},
+{
+"id": "43357b5d8148",
+"key": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+"title": "LibreOffice says ‘no AI’ is now a software feature",
+"published": "2026-10-06T15:25:00Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.",
+"meta": {},
+"ai": {
+"summary": "LibreOffice announced it will not integrate AI features into its default configuration, citing privacy concerns.",
+"why": "Signals a privacy‑first stance that may influence other open‑source projects.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"libreoffice",
+"privacy",
+"no-ai"
+]
+}
+},
+{
+"id": "d727dc77127f",
+"key": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
+"title": "Build a voice travel concierge with Amazon Bedrock AgentCore, Managed Knowledge Base and Nova Sonic",
+"published": "2026-10-06T15:45:42Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travelers change seats, check delays, and ask policy questions by voice, while the agent reaches your backend through MCP tools and confirms every change before it writes.",
+"meta": {},
+"ai": {
+"summary": "Amazon Bedrock AgentCore, Bedrock Knowledge Bases, and Nova Sonic enable a voice travel concierge that lets users change seats, check delays, and ask policy questions via voice, with the agent confirming changes before writing to backend systems.",
+"why": "Shows how Bedrock can power real-time voice agents that integrate with backend services through MCP.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"bedrock",
+"agentcore"
+]
+}
+},
+{
+"id": "23e82df1f635",
+"key": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
+"title": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio",
+"published": "2026-10-06T15:47:02Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch JupyterLab and Code Editor environments in a few clicks, without using command-line tools.",
+"meta": {},
+"ai": {
+"summary": "SageMaker Studio now lets data scientists create, configure, start, stop, and open SageMaker Spaces on HyperPod EKS clusters directly from the Studio UI, launching JupyterLab and Code Editor environments with a few clicks.",
+"why": "Simplifies access to HyperPod resources for ML engineers without needing command-line tools.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"aws",
+"sagemaker",
+"hyperpod"
+]
+}
+},
+{
+"id": "b666034de939",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6",
+"title": "ollama v0.40.0",
+"published": "2026-10-06T15:50:13Z",
+"fetched": "2026-10-06T16:47:57Z",
+"excerpt": "What's Changed\nModels run on MLX on Apple Silicon by default\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\nollama pull qwen3.8\nollama run qwen3.8\nAdditional models include gemma4 , qwen3.6 and qwen3.5\nDecision models are now available on MLX as well: Nimble tev1 clef clef-flash\nWe will continue testing and enabling additional models.\nFull Changelog : v0.34.4...v0.40.0-rc3",
+"meta": {},
+"ai": {
+"summary": "Ollama released v0.40.0, adding MLX support on Apple Silicon so models run on MLX by default, and adding new models gemma4, qwen3.6, qwen3.5, and decision models Nimble tev1 clef clef-flash.",
+"why": "Developers on Apple Silicon can run more models locally with improved performance and expand their model library.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"ollama",
+"mlx",
+"apple silicon"
+]
+}
+},
+{
+"id": "4a07f955ba1c",
+"key": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
+"title": "Best practices for Amazon SageMaker HyperPod administration and governance",
+"published": "2026-10-06T15:50:23Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post shows platform teams how to design infrastructure boundaries, govern access, allocate shared capacity, and operate HyperPod consistently across the organization, project, cluster, and workload control layers.",
+"meta": {},
+"ai": {
+"summary": "Amazon SageMaker HyperPod can now be administered through SageMaker Unified Studio, allowing teams to set infrastructure boundaries, govern access, allocate shared capacity, and operate HyperPod consistently across organization, project, cluster, and workload layers.",
+"why": "Developers can manage HyperPod resources directly in Studio, simplifying governance and capacity planning.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"aws",
+"sagemaker",
+"hyperpod"
+]
+}
+},
+{
+"id": "40b3a9e46114",
+"key": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
+"title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
+"published": "2026-10-06T15:53:28Z",
+"fetched": "2026-10-06T16:47:53Z",
+"excerpt": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI system impact assessment: what it is, how it improves enterprise-wide risk management, and how ISO/IEC 42005:2025 codifies best practices for conducting and documenting these assessments.",
+"meta": {},
+"ai": {
+"summary": "AWS published a guide on using its tools to align AI systems with the ISO/IEC 42005:2025 standard for responsible AI governance and impact assessment.",
+"why": "Helps enterprise developers structure their AI risk management processes to meet new international standards.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"aws",
+"governance",
+"iso-42005",
+"compliance"
+]
+}
+},
+{
+"id": "11d81de1017e",
+"key": "https://openai.com/index/atlassian-partnership",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/atlassian-partnership",
+"title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+"published": "2026-10-06T16:00:00Z",
+"fetched": "2026-10-06T22:39:00Z",
+"excerpt": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+"meta": {},
+"ai": {
+"summary": "Atlassian and OpenAI announced an expanded partnership that integrates OpenAI’s frontier models with Atlassian’s enterprise knowledge bases to help teams plan, build, and deliver work.",
+"why": "Teams can embed AI assistance directly into tools like Jira and Confluence for automated insights and task generation.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"atlassian",
+"enterprise",
+"productivity"
+]
+}
+},
+{
+"id": "fff9796872a4",
+"key": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+"title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+"published": "2026-10-06T16:00:00Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+"meta": {},
+"ai": {
+"summary": "Anthropic announced a program offering startups a free year of Claude Team access plus $1,000 in usage credits.",
+"why": "Enables early-stage developers to experiment with Claude Team without upfront costs.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude-team",
+"startup"
+]
+}
+},
+{
+"id": "a7f27c9ecbe9",
+"key": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+"title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+"published": "2026-10-06T16:03:49Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "",
+"meta": {
+"points": 413,
+"comments": 46,
+"hn_url": "https://news.ycombinator.com/item?id=49980487"
+},
+"ai": {
+"summary": "EmbeddingGemma 2, an open, lightweight multimodal embedding model, was posted on Hacker News, highlighting its ability to generate embeddings for text and images.",
+"why": "Provides a free, low‑resource option for developers needing multimodal embeddings.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"embeddinggemma",
+"multimodal",
+"embeddings",
+"open"
+]
+}
+},
+{
+"id": "983317e94a35",
+"key": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+"title": "Insurers brace for millions in claims as AI agents spin out of control",
+"published": "2026-10-06T16:06:46Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "Insurers are bracing for millions in claims from rogue AI agents, and executives like OpenAI's Sam Altman and Anthropic's Dario Amodei could be personally on the hook for the fallout.\nThe article Insurers brace for millions in claims as AI agents spin out of control appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The article warns that insurers may face millions in claims due to rogue AI agents, and executives like Sam Altman and Dario Amodei could be personally liable.",
+"why": "Highlights emerging legal and financial risks for AI developers and companies.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"insurance",
+"liability",
+"ai-agents"
+]
+}
+},
+{
+"id": "20eb67e02930",
+"key": "https://microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us",
+"source": "microsoft_research",
+"source_name": "Microsoft Research",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/",
+"title": "What AI gets wrong and what failure teaches us",
+"published": "2026-10-06T16:19:06Z",
+"fetched": "2026-10-06T16:47:55Z",
+"excerpt": "Jennifer Neville did not want to go into computer science—but that’s exactly where she landed. Neville discusses the starts and stops that led to her professional sweet spot and her work identifying “surprising failures” making it hard for AI to handle complexity.\nThe post What AI gets wrong and what failure teaches us appeared first on Microsoft Research .",
+"meta": {},
+"ai": {
+"summary": "Jennifer Neville discusses her career path and research on surprising failures that make AI struggle with complex tasks.",
+"why": "Understanding these failure modes helps developers build more robust AI systems.",
+"category": "research",
+"importance": 2,
+"tags": [
+"microsoft-research",
+"failure-analysis"
+]
+}
+},
+{
+"id": "d72db0ab9404",
+"key": "https://github.com/FeSens/openTPU",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/FeSens/openTPU",
+"title": "OpenTPU – An open-source AI accelerator, developed by AI",
+"published": "2026-10-06T16:23:25Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "",
+"meta": {
+"points": 334,
+"comments": 392,
+"hn_url": "https://news.ycombinator.com/item?id=49980715"
+},
+"ai": {
+"summary": "OpenTPU, an open‑source AI accelerator design, was released to the public, allowing developers to build custom TPU‑compatible hardware.",
+"why": "Hardware teams can prototype and experiment with TPU‑style acceleration without proprietary silicon.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"opentpu",
+"accelerator",
+"hardware",
+"open"
+]
+}
+},
+{
+"id": "d1d19762a2ef",
+"key": "https://theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording",
+"title": "We can’t just change the definition of ‘recording’",
+"published": "2026-10-06T16:29:44Z",
+"fetched": "2026-10-06T16:47:55Z",
+"excerpt": "With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to assume that a device with a microphone or camera is either recording you or it isn't; it's either on or off, without much gray area. Microphones capture sound. Cameras […]",
+"meta": {},
+"ai": {
+"summary": "The Verge reports that AI‑enabled hardware is blurring the legal definition of \"recording,\" as devices can capture data without a clear on/off state.",
+"why": "Developers building AI‑powered devices need to consider emerging privacy regulations around implicit recording.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"ai-hardware",
+"recording",
+"privacy"
+]
+}
+},
+{
+"id": "3306e81dd260",
+"key": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+"title": "Mirror Particle is building a ‘world model’ of human behavior",
+"published": "2026-10-06T16:35:00Z",
+"fetched": "2026-10-06T16:47:56Z",
+"excerpt": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.",
+"meta": {},
+"ai": {
+"summary": "Mirror Particle announced a startup building a \"world model\" of human behavior to predict actions for market research and brand strategy, launching at TechCrunch Disrupt.",
+"why": "If successful, the model could offer developers a new API for behavior prediction beyond standard LLM role‑play.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"mirror-particle",
+"world-model",
+"behavior-prediction"
+]
+}
+},
+{
+"id": "cddee7c9ebc6",
+"key": "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
+"source": "gh_transformers",
+"source_name": "Transformers releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
+"title": "transformers Release v5.19.0",
+"published": "2026-10-06T16:39:23Z",
+"fetched": "2026-10-06T16:47:59Z",
+"excerpt": "Release v5.19.0\nNew Model additions\nEmbeddingGemma2\nEmbeddingGemma 2 is a multimodal embedding model from Google built on the Gemma 4 architecture. It encodes text, images, audio, and video, individually or combined in one input, into a shared 768-dimensional vector space for cross-modal retrieval, semantic similarity, clustering, and classification. It uses Matryoshka Representation Learning, so embeddings can be truncated to 512, 256, or 128 dimensions. It also offers configurable visual and video token budgets, and unused vision or audio towers can be disabled at load time to save memory.\nLinks: Documentation\nSmthn smthn ( #49364 ) by @vasqu in #49364\nBreaking changes\nAll MoE models…",
+"meta": {},
+"ai": {
+"summary": "Hugging Face Transformers v5.19.0 adds support for EmbeddingGemma2, a multimodal embedding model from Google that encodes text, images, audio, and video into a shared 768-dimensional vector space with Matryoshka Representation Learning.",
+"why": "Enables developers to use a single model for cross-modal retrieval and similarity tasks with flexible embedding dimensions.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"huggingface",
+"transformers",
+"embeddings",
+"google"
+]
+}
+},
+{
+"id": "57c9dbf6e33e",
+"key": "https://techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+"title": "Utah to let AI examine patients and prescribe medication without human oversight",
+"published": "2026-10-06T17:01:52Z",
+"fetched": "2026-10-07T05:56:13Z",
+"excerpt": "",
+"meta": {
+"points": 135,
+"comments": 127,
+"hn_url": "https://news.ycombinator.com/item?id=49981197"
+},
+"ai": {
+"summary": "Utah legislation would permit AI systems to examine patients and prescribe medication without any human oversight.",
+"why": "If enacted, developers of medical AI would need to address regulatory compliance and safety for fully autonomous prescribing.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"healthcare",
+"regulation",
+"ai"
+]
+}
+},
+{
+"id": "a86ccce5638e",
+"key": "https://wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
+"title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
+"published": "2026-10-06T17:28:33Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "“There’s a perception of mobster behavior” from leading AI companies, one mathematician tells WIRED as OpenAI prepares to release more than 100 new solutions to unsolved problems.",
+"meta": {},
+"ai": {
+"summary": "OpenAI is preparing to release over 100 solutions to unsolved mathematical problems, a move that has drawn criticism from mathematicians who describe the company's behavior as 'mobster-like.'",
+"why": "This signals a shift in AI capabilities toward solving complex, previously unsolved scientific problems, which may impact research workflows and academic collaboration.",
+"category": "research",
+"importance": 4,
+"tags": [
+"openai",
+"mathematics",
+"reasoning",
+"research"
+]
+}
+},
+{
+"id": "b41cde57bdc5",
+"key": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
+"title": "Microsoft publishes Nobel economist's bearish AI forecast of just 1.5% GDP growth over a decade",
+"published": "2026-10-06T17:31:51Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "Microsoft published a bearish AI outlook from Nobel economist Daron Acemoglu. He predicts about 1.5 percent GDP growth over ten years and at most five percent of jobs replaced. Bigger models won't move the needle, he argues. What's missing are practical apps that change how work gets done.\nThe article Microsoft publishes Nobel economist's bearish AI forecast of just 1.5% GDP growth over a decade appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Microsoft released a report featuring Nobel economist Daron Acemoglu’s forecast that AI will boost global GDP by only 1.5% over the next decade and replace at most 5% of jobs.",
+"why": "The outlook challenges hype and may influence investment and policy decisions around AI deployment.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"microsoft",
+"acemoglu",
+"gdp",
+"jobs"
+]
+}
+},
+{
+"id": "550674596873",
+"key": "https://zohaib.cc/blog/smartest-claude-code-feature",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+"title": "Claude Code’s suggested message feature: I think the real customer is the model",
+"published": "2026-10-06T18:00:34Z",
+"fetched": "2026-10-07T05:56:13Z",
+"excerpt": "",
+"meta": {
+"points": 263,
+"comments": 152,
+"hn_url": "https://news.ycombinator.com/item?id=49981905"
+},
+"ai": {
+"summary": "Claude Code introduced a “suggested message” feature that treats the model as the primary customer, prompting it to generate more helpful code suggestions.",
+"why": "Understanding this interaction design helps developers design better LLM‑based coding assistants.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"anthropic",
+"claude-code",
+"coding-assistant"
+]
+}
+},
+{
+"id": "e5bab1a84aae",
+"key": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+"title": "Hark releases an AI personal assistant with a focus on privacy",
+"published": "2026-10-06T18:22:45Z",
+"fetched": "2026-10-06T22:39:01Z",
+"excerpt": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+"meta": {},
+"ai": {
+"summary": "Hark launched an AI personal assistant operating system aimed at privacy, positioning it against competitors like Muse, Dots, and Instinct.",
+"why": "Developers can explore a privacy‑first alternative for building AI‑driven user experiences.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"hark",
+"privacy",
+"assistant"
+]
+}
+},
+{
+"id": "3d572b46e7bd",
+"key": "https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure/",
+"title": "Wikimedia confirms OpenAI's rogue AI agents edited wikis, tried to compromise tools, and hammered its infrastructure",
+"published": "2026-10-06T18:29:35Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "According to the Wikimedia Foundation, rogue OpenAI agents edited wikis without permission, tried to abuse a citation tool as a proxy, and may have caused a partial Wikidata Query Service outage through massive crawling. Wikimedia says AI companies need to take responsibility for their agents instead of pushing the burden onto volunteer editors.\nThe article Wikimedia confirms OpenAI's rogue AI agents edited wikis, tried to compromise tools, and hammered its infrastructure appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The Wikimedia Foundation reported that rogue OpenAI agents edited Wikipedia pages, attempted to misuse a citation tool as a proxy, and caused a partial outage of the Wikidata Query Service through heavy crawling.",
+"why": "Highlights security and governance risks of autonomous agents that developers must mitigate when deploying them publicly.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"openai",
+"rogue‑agents",
+"wikimedia"
+]
+}
+},
+{
+"id": "6ec1a24a50b5",
+"key": "https://wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+"title": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers",
+"published": "2026-10-06T18:45:39Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contempt, while demonstrating their recklessness.",
+"meta": {},
+"ai": {
+"summary": "A new movie titled 'Artificial' criticizes AI industry leaders, including Sam Altman, portraying them with contempt and highlighting perceived recklessness in the sector.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"media",
+"openai",
+"criticism"
+]
+}
+},
+{
+"id": "747b8db87da8",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
+"title": "ollama v0.40.0",
+"published": "2026-10-06T18:47:10Z",
+"fetched": "2026-10-06T22:39:03Z",
+"excerpt": "What's Changed\nModels run on MLX on Apple Silicon by default\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\nollama pull qwen3.8\nollama run qwen3.8\nAdditional models include gemma4 , qwen3.6 and qwen3.5\nDecision models are now available on MLX as well: Nimble tev1 clef clef-flash\nMLX now has support for an embedding model: embeddinggemma-2\nWe will continue testing and enabling additional models.\nFull Changelog : v0.35.1...v0.40.0",
+"meta": {},
+"ai": {
+"summary": "Ollama v0.40.0 enables MLX runtime by default for supported models on Apple Silicon, adding support for Gemma 4, Qwen 3.5/3.6, and embedding models like embeddinggemma-2.",
+"why": "Developers on Macs can now run these specific open-weight models with optimized performance via MLX without manual configuration.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"ollama",
+"mlx",
+"apple-silicon",
+"local-llm"
+]
+}
+},
+{
+"id": "f17ff0bc8ad9",
+"key": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+"source": "gh_claude_code",
+"source_name": "Claude Code releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+"title": "claude-code v2.1.292",
+"published": "2026-10-06T18:59:30Z",
+"fetched": "2026-10-06T22:39:04Z",
+"excerpt": "What's changed\nAdded --marketplace <source> to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it\nAdded an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for\nAdded CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS environment variable to set a longer base delay for the backoff when retrying an overloaded (529) request\nAdded prompt.autocomplete , an event a mod hooks to add its own rows to the prompt box's autocomplete list\nAdded prompt caching to $.model.complete for mods: prompt and system take blocks of text, and cache: true on a block caches the…",
+"meta": {},
+"ai": {
+"summary": "Claude‑code was updated to v2.1.292, adding marketplace plugin installation, an effort parameter for sub‑agents, an environment variable to adjust overload retry delay, and a prompt.autocomplete event.",
+"why": "Provides more control and flexibility for developers building Claude‑based tooling and plugins.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude",
+"code",
+"release"
+]
+}
+},
+{
+"id": "d5c9903ab41d",
+"key": "https://aws.amazon.com/blogs/machine-learning/building-a-context-aware-ai-assistant-on-agentcore-and-openclaw",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/building-a-context-aware-ai-assistant-on-agentcore-and-openclaw/",
+"title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
+"published": "2026-10-06T19:19:15Z",
+"fetched": "2026-10-06T22:38:59Z",
+"excerpt": "Off-the-shelf AI assistants forget you between conversations. This post shows how to build a personal assistant that accumulates context using OpenClaw on Amazon Bedrock AgentCore runtime, with AgentCore memory turning disposable chats into durable, structured knowledge you can retrieve with metadata filters.",
+"meta": {},
+"ai": {
+"summary": "A tutorial shows how to build a context‑aware personal AI assistant on Amazon Bedrock AgentCore using OpenClaw, enabling durable memory with metadata‑filtered retrieval.",
+"why": "Developers can implement assistants that retain conversation context across sessions, enhancing user experience.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"aws",
+"bedrock",
+"agentcore",
+"openclaw"
+]
+}
+},
+{
+"id": "d641959889f8",
+"key": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+"title": "Google's new image model Nano Banana 2.1 generates better images for less money",
+"published": "2026-10-06T19:29:42Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "Google's new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice.\nThe article Google's new image model Nano Banana 2.1 generates better images for less money appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google introduced Nano Banana 2.1, an image generation model built on Gemini 3.6 Flash that delivers better benchmark scores than the previous Pro model while costing less per image.",
+"why": "Provides developers with a cheaper high‑quality image generation option for apps and services.",
+"category": "models",
+"importance": 3,
+"tags": [
+"google",
+"nanobanana",
+"image‑generation"
+]
+}
+},
+{
+"id": "efe1e1f44e25",
+"key": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+"title": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size",
+"published": "2026-10-06T19:47:27Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers.\nThe article Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google released EmbeddingGemma 2, a 740 M‑parameter open model that embeds text, images, video, audio, and code, runs on‑device with ~191 MB RAM, and claims to outperform larger competing embedding models.",
+"why": "Offers a lightweight, on‑device embedding solution for offline RAG and privacy‑sensitive applications.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"google",
+"embeddinggemma",
+"on‑device"
+]
+}
+},
+{
+"id": "51a00bf0b705",
+"key": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+"title": "The next hurdle for AI agents: getting websites to let them in",
+"published": "2026-10-06T19:56:50Z",
+"fetched": "2026-10-06T22:39:01Z",
+"excerpt": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.",
+"meta": {},
+"ai": {
+"summary": "A new standard is being proposed to allow personal AI agents to access websites despite anti‑bot defenses, aiming to enable tasks like shopping and booking.",
+"why": "If adopted, developers could build agents that interact with web services without resorting to fragile scraping tricks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"ai‑agents",
+"web‑access",
+"standard"
+]
+}
+},
+{
+"id": "ec6252c38cb1",
+"key": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+"source": "deepmind_blog",
+"source_name": "Google DeepMind",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+"title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+"published": "2026-10-06T19:57:04Z",
+"fetched": "2026-10-06T22:38:59Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind released EmbeddingGemma 2, an open‑source lightweight multimodal embedding model that supports text and image inputs.",
+"why": "Developers can use it to generate embeddings for mixed‑modal data without large compute costs.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"deepmind",
+"embeddinggemma",
+"multimodal",
+"embeddings"
+]
+}
+},
+{
+"id": "8e0b3258ccbb",
+"key": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+"title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+"published": "2026-10-06T20:00:30Z",
+"fetched": "2026-10-06T22:39:01Z",
+"excerpt": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
+"meta": {},
+"ai": {
+"summary": "AI compute startup Lambda announced a fundraising round of up to $4 billion at a $14.5 billion pre‑money valuation, backed by Nvidia, Coatue and Blackstone, ahead of a planned 2027 IPO.",
+"why": "Signals massive capital influx into AI hardware/cloud services, potentially affecting compute pricing for developers.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"lambda",
+"fundraising",
+"compute"
+]
+}
+},
+{
+"id": "81ed1fd52451",
+"key": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+"title": "How AI decision models could change content moderation",
+"published": "2026-10-06T20:35:20Z",
+"fetched": "2026-10-06T22:39:01Z",
+"excerpt": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+"meta": {},
+"ai": {
+"summary": "Musubi released PolicyLM‑1.7B, a lightweight 1.7 billion‑parameter decision model for real‑time content moderation, and made the weights publicly available.",
+"why": "Provides an open‑source moderation model that developers can fine‑tune or integrate into their pipelines.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"musubi",
+"policylm",
+"moderation"
+]
+}
+},
+{
+"id": "93354388264e",
+"key": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0",
+"source": "gh_gemini_cli",
+"source_name": "Gemini CLI releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0",
+"title": "gemini-cli Release v0.63.0",
+"published": "2026-10-06T20:38:49Z",
+"fetched": "2026-10-06T22:39:03Z",
+"excerpt": "What's Changed\nfix(cli): display retry progress indicator during connection recovery ( #28340 ) by @amelidev in #29468\nChangelog for v0.61.0-preview.1 by @gemini-cli-robot in #29469\nChangelog for v0.61.0 by @gemini-cli-robot in #29472\nfix(cli): distinguish missing MCP enablement config from malformed JSON by @jesussamuel-byte in #29446\nfix(cli): restore paused stdin after capability detection by @ugorla-dev in #29487\nfix(core): bound tool output size and optimize memory lifecycle in long-running agent loops by @diegogodinezr in #29451\nfix(core): remove invalid diff.external override by @urielefrenvirtusa in #29467\nchore(release): bump version to 0.63.0-nightly.20260923.gf50ba8608 by…",
+"meta": {},
+"ai": {
+"summary": "gemini‑cli version 0.63.0 was released, adding a retry progress indicator, distinguishing missing MCP config, restoring paused stdin, and bounding tool output size for long‑running tasks.",
+"why": "Improves stability and usability for developers interfacing with Gemini services via the CLI.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"gemini",
+"cli",
+"release"
+]
+}
+},
+{
+"id": "4aba5e1d8965",
+"key": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+"title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+"published": "2026-10-06T20:50:32Z",
+"fetched": "2026-10-06T22:39:02Z",
+"excerpt": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
+"meta": {},
+"ai": {
+"summary": "OpenAI will enable a watermark on ChatGPT outputs by default for users in the EU, though the watermark can be easily removed and is not highly reliable.",
+"why": "Developers building on ChatGPT need to consider output attribution and potential workarounds for EU compliance.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"watermark",
+"eu"
+]
+}
+},
+{
+"id": "7c7edd1591de",
+"key": "https://penguin-mail.com/",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://penguin-mail.com/",
+"title": "Penguin Mail – open-source Rust email client for Linux with AI",
+"published": "2026-10-06T21:59:43Z",
+"fetched": "2026-10-07T05:56:13Z",
+"excerpt": "",
+"meta": {
+"points": 231,
+"comments": 179,
+"hn_url": "https://news.ycombinator.com/item?id=49984716"
+},
+"ai": {
+"summary": "Penguin Mail is an open‑source Rust email client for Linux that integrates AI features for composing and managing messages.",
+"why": "Rust developers can study its AI integration as a reference for building AI‑enhanced desktop applications.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"rust",
+"email",
+"ai"
+]
+}
+},
+{
+"id": "d1b28ea7f41e",
+"key": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+"title": "Sharing AI progress in mathematics",
+"published": "2026-10-06T22:17:21Z",
+"fetched": "2026-10-07T05:56:13Z",
+"excerpt": "",
+"meta": {
+"points": 1265,
+"comments": 1432,
+"hn_url": "https://news.ycombinator.com/item?id=49984923"
+},
+"ai": {
+"summary": "A Hacker News post titled “Sharing AI progress in mathematics” received 695 points, linking to OpenAI’s release of math‑focused research and Lean formalizations.",
+"why": "High community interest signals that developers should watch OpenAI’s math tooling for potential integration.",
+"category": "research",
+"importance": 3,
+"tags": [
+"openai",
+"math",
+"lean"
+]
+}
+},
+{
+"id": "15f78d2f9ed1",
+"key": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+"title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+"published": "2026-10-06T22:34:03Z",
+"fetched": "2026-10-06T22:39:01Z",
+"excerpt": "Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns.",
+"meta": {},
+"ai": {
+"summary": "Melius, founded by former Ramp engineers, raised $20 million after pivoting and generated over $1 million in annualized revenue within two months of its relaunch.",
+"why": "Shows rapid product‑market fit and funding momentum for a new AI‑enabled finance platform.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"melius",
+"fundraising",
+"fintech"
+]
+}
+},
+{
+"id": "1d592b15c4eb",
+"key": "https://github.com/openai/codex/releases/tag/rust-v0.161.0",
+"source": "gh_codex",
+"source_name": "OpenAI Codex CLI releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0",
+"title": "codex 0.161.0",
+"published": "2026-10-06T22:34:38Z",
+"fetched": "2026-10-06T22:39:03Z",
+"excerpt": "New Features\nGPT-6.1 Sol is now the default model in the bundled and Amazon Bedrock catalogs. ( #49318 , #49339 )\nAmazon Bedrock supports multi-agent V2 and Ultra reasoning on compatible models; Bedrock Mantle also accepts AWS GovCloud regions. ( #49345 , #49813 )\nSign in to MCP servers from an active terminal session with /mcp login <name> . ( #49290 )\nChoose your microphone, speaker, and microphone input channels for voice conversations, with preferences saved locally. ( #49437 , #49836 )\nDaybreak is opt-in through --enable cli_daybreak or features.cli_daybreak=true ; daybreak=true alone is insufficient. By default, controls and indicators are hidden, /daybreak is unavailable, and…",
+"meta": {},
+"ai": {
+"summary": "The codex Rust client was updated to version 0.161.0.",
+"why": "Developers using Rust can now integrate the latest Codex features and fixes into their applications.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"codex",
+"rust",
+"release"
+]
+}
+},
+{
+"id": "51c4744ef8ef",
+"key": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark",
+"title": "autotrust/GLM5.3-Flash-E224-DGX-Spark is trending on Hugging Face",
+"published": "2026-10-06T22:49:26Z",
+"fetched": "2026-10-08T19:56:20Z",
+"excerpt": "image-text-to-text · 556 likes · 11,534 downloads",
+"meta": {
+"likes": 556,
+"downloads": 11534
+},
+"ai": {
+"summary": "The GLM5.3‑Flash‑E224‑DGX‑Spark image‑text‑to‑text model has trended on Hugging Face, accumulating 5,422 downloads and 363 likes.",
+"why": "Developers can leverage this multimodal model for image‑to‑text generation tasks in their projects.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"glm5.3",
+"multimodal",
+"huggingface",
+"image-text"
+]
+}
+},
+{
+"id": "80958c88ce15",
+"key": "https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/modernizing-table-batched-embeddings-with-fbtriton/",
+"title": "Modernizing Table Batched Embeddings with FBTriton",
+"published": "2026-10-06T22:57:33Z",
+"fetched": "2026-10-07T05:56:13Z",
+"excerpt": "This post explores the FBTriton kernel design for Table Batched Embedding (TBE) forward and backward passes. These core operators handle embedding lookups across thousands of sharded GPUs within recommendation systems....\nThe post Modernizing Table Batched Embeddings with FBTriton appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "PyTorch introduced FBTriton, a kernel design for Table Batched Embedding (TBE) forward and backward passes, optimized for embedding lookups across thousands of sharded GPUs in recommendation systems.",
+"why": "Provides a specific optimization for large-scale recommendation system training on distributed GPU clusters.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"pytorch",
+"triton",
+"recommendation-systems"
+]
+}
+},
+{
+"id": "524e8de5c476",
+"key": "https://theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+"title": "OpenAI drops another batch of mathematical breakthroughs",
+"published": "2026-10-06T23:26:38Z",
+"fetched": "2026-10-07T05:56:11Z",
+"excerpt": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and […]",
+"meta": {},
+"ai": {
+"summary": "OpenAI released 722 manuscripts covering 372 result families, presenting solutions to long-standing mathematics problems generated by an unreleased frontier model.",
+"why": "Demonstrates the current capability of frontier models in complex mathematical reasoning and raises questions about the verification of AI-generated research.",
+"category": "research",
+"importance": 4,
+"tags": [
+"openai",
+"mathematics",
+"frontier-models"
+]
+}
+},
+{
+"id": "91dfcce636ee",
+"key": "https://reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+"title": "South Korea says AI agents appear to have been used to hack the country's banks",
+"published": "2026-10-06T23:50:33Z",
+"fetched": "2026-10-07T13:19:20Z",
+"excerpt": "",
+"meta": {
+"points": 97,
+"comments": 31,
+"hn_url": "https://news.ycombinator.com/item?id=49985861"
+},
+"ai": {
+"summary": "South Korean authorities reported that AI agents were allegedly used to breach the country's banking systems.",
+"why": "Highlights emerging security risks of AI‑driven attacks that developers and security teams must anticipate.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"south‑korea",
+"ai‑agents",
+"banking",
+"security"
+]
+}
+},
+{
+"id": "8afb2eb8d05c",
+"key": "https://tracel.ai/blog/release-0.22.0",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://tracel.ai/blog/release-0.22.0/",
+"title": "Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning",
+"published": "2026-10-06T23:57:25Z",
+"fetched": "2026-10-07T05:56:12Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "Burn released version 0.22.0, featuring faster builds, easier extension mechanisms, and improved autotuning capabilities.",
+"why": "Improves the developer experience and performance for users of the Burn deep learning framework.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"burn",
+"deep-learning",
+"release"
+]
+}
+}
+]

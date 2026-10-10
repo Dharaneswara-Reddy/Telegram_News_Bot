@@ -1,0 +1,482 @@
+[
+{
+"id": "1ad8950f6743",
+"key": "https://cohere.com/blog/cohere-and-aleph-alpha-sign-agreement",
+"source": "cohere_blog",
+"source_name": "Cohere",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://cohere.com/blog/cohere-and-aleph-alpha-sign-agreement",
+"title": "Cohere and Aleph Alpha sign agreement to become the first transatlantic sovereign AI solution",
+"published": "2026-09-16T00:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "Cohere and Aleph Alpha sign agreement to become the first transatlantic sovereign AI solution",
+"meta": {},
+"ai": null
+},
+{
+"id": "1eabe2ee30a4",
+"key": "https://x.ai/news/grok-build-memory",
+"source": "xai_news",
+"source_name": "xAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://x.ai/news/grok-build-memory",
+"title": "Memory in Grok Build",
+"published": "2026-09-16T00:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "Grok Build now carries conventions, decisions, and project facts from one session to the next. Notes are written in the background as you work and read back when you return to the project.",
+"meta": {},
+"ai": {
+"summary": "Grok Build now retains conventions, decisions and project facts across sessions, automatically writing and recalling notes as users work.",
+"why": "Adds persistent memory to the coding assistant, improving continuity for developers on long‑term projects.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"xai",
+"grok",
+"memory"
+]
+}
+},
+{
+"id": "3b25abf14885",
+"key": "https://cohere.com/blog/cohere-and-open-text-partner-to-bring-trusted-ai",
+"source": "cohere_blog",
+"source_name": "Cohere",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://cohere.com/blog/cohere-and-open-text-partner-to-bring-trusted-ai",
+"title": "Cohere and OpenText partner to bring trusted agentic AI to governments and regulated industries",
+"published": "2026-09-16T00:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "Cohere and OpenText partner to bring trusted agentic AI to governments and regulated industries",
+"meta": {},
+"ai": null
+},
+{
+"id": "8565cd2923b8",
+"key": "https://claude.com/blog/cowork-is-now-claude",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/blog/cowork-is-now-claude",
+"title": "Claude Cowork and chat are now one Claude",
+"published": "2026-09-16T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Claude Cowork and chat are now one Claude",
+"meta": {},
+"ai": {
+"summary": "Claude Cowork and Claude chat have been merged into a single Claude interface.",
+"why": "Users will now interact with a unified Claude experience across collaboration and chat contexts.",
+"category": "other",
+"importance": 1,
+"tags": [
+"claude"
+]
+}
+},
+{
+"id": "8a300f91f116",
+"key": "https://x.ai/news/grok-voice-transcribe-2",
+"source": "xai_news",
+"source_name": "xAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://x.ai/news/grok-voice-transcribe-2",
+"title": "Introducing Grok Voice Transcribe 2.0",
+"published": "2026-09-16T00:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "Announcing SpaceXAI's newest speech-to-text model, with unparalleled accuracy and cost effectiveness.",
+"meta": {},
+"ai": {
+"summary": "xAI announced Grok Voice Transcribe 2.0, a new speech‑to‑text model that claims higher accuracy and lower cost than previous versions.",
+"why": "Provides a cost‑effective transcription service that can be integrated into apps requiring real‑time speech recognition.",
+"category": "models",
+"importance": 3,
+"tags": [
+"xai",
+"grok",
+"voice-transcribe"
+]
+}
+},
+{
+"id": "b5bab5054fc3",
+"key": "https://mistral.ai/news/mistral-x-mozilla",
+"source": "mistral_news",
+"source_name": "Mistral AI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://mistral.ai/news/mistral-x-mozilla/",
+"title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
+"published": "2026-09-16T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Mozilla and Mistral AI are partnering to bring open, private and multilingual AI to Firefox Smart Window.",
+"meta": {},
+"ai": {
+"summary": "Mistral AI and Mozilla are partnering to embed an open, private, multilingual AI model into Firefox’s Smart Window feature.",
+"why": "Enables developers to build browser‑based AI tools that run locally with privacy guarantees.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"mistral",
+"mozilla",
+"firefox",
+"multilingual"
+]
+}
+},
+{
+"id": "b747f615045a",
+"key": "https://artificialanalysis.ai/articles/ant-group-releases-finance-focused-ling-3-0-flash-fin",
+"source": "artificial_analysis",
+"source_name": "Artificial Analysis",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://artificialanalysis.ai/articles/ant-group-releases-finance-focused-ling-3-0-flash-fin",
+"title": "Ant Group releases finance-focused Ling-3.0-flash-Fin",
+"published": "2026-09-16T00:00:00Z",
+"fetched": "2026-10-01T19:40:22Z",
+"excerpt": "Ant Group releases finance-focused Ling-3.0-flash-Fin",
+"meta": {},
+"ai": {
+"summary": "Ant Group has released Ling‑3.0‑flash‑Fin, a finance‑focused language model.",
+"why": "Developers building financial applications can leverage a model tuned for finance terminology and tasks.",
+"category": "models",
+"importance": 3,
+"tags": [
+"ant group",
+"ling-3.0-flash-fin",
+"finance"
+]
+}
+},
+{
+"id": "192f05cfc4e1",
+"key": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+"title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+"published": "2026-09-16T05:00:42Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the […]",
+"meta": {},
+"ai": null
+},
+{
+"id": "192c25741208",
+"key": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
+"source": "gh_vllm",
+"source_name": "vLLM releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
+"title": "proto-v0.2.0: vllm-proto 0.2.0",
+"published": "2026-09-16T08:32:41Z",
+"fetched": "2026-10-01T19:23:59Z",
+"excerpt": "Validated by PR #56538 CI at fa2a26f .",
+"meta": {},
+"ai": null
+},
+{
+"id": "3f40edd10afe",
+"key": "https://openai.com/index/hex-gpt-6-astra",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/hex-gpt-6-astra",
+"title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+"published": "2026-09-16T12:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+"meta": {},
+"ai": {
+"summary": "Hex integrated OpenAI's GPT‑6 Astra into its data agents so that answers are automatically turned into interactive visual reports that employees can share.",
+"why": "Developers can use GPT‑6 Astra to add auto‑visualization features to internal data tools.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"hex",
+"gpt-6",
+"visualization"
+]
+}
+},
+{
+"id": "91f4180959c9",
+"key": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+"title": "How to connect AI usage to business value",
+"published": "2026-09-16T12:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+"meta": {},
+"ai": {
+"summary": "OpenAI released ChatGPT Work and Codex analytics dashboards that show team AI usage, spending, training gaps, and link adoption to business outcomes.",
+"why": "Teams can monitor and optimize AI spend and training needs directly from the dashboards.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"chatgpt",
+"codex",
+"analytics"
+]
+}
+},
+{
+"id": "2762830514ef",
+"key": "https://openai.com/index/reimagining-advertising-with-ai",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/reimagining-advertising-with-ai",
+"title": "Reimagining advertising with AI",
+"published": "2026-09-16T13:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+"meta": {},
+"ai": {
+"summary": "OpenAI unveiled AI‑powered advertising tools, including Sponsored Agents and integrations with HubSpot and Shopify for marketers.",
+"why": "Provides new APIs and agent capabilities that developers can embed in advertising platforms.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openai",
+"advertising",
+"sponsored‑agents"
+]
+}
+},
+{
+"id": "2893853e7717",
+"key": "https://blogs.nvidia.com/blog/ai-energy-management-alliance",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+"title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+"published": "2026-09-16T13:00:33Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use […]",
+"meta": {},
+"ai": null
+},
+{
+"id": "1d701332d772",
+"key": "https://content.knowledgehub.wiley.com/single-phase-direct-liquid-cooling-is-proven-for-the-next-decade-of-ultra-dense-compute",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://content.knowledgehub.wiley.com/single-phase-direct-liquid-cooling-is-proven-for-the-next-decade-of-ultra-dense-compute/",
+"title": "Single-Phase Direct Liquid Cooling Is Proven for the Next Decade of Ultra-Dense Compute",
+"published": "2026-09-16T13:24:18Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Learn how single-phase direct liquid cooling manages the rising heat of AI and high-performance computing, and how it compares with two-phase and immersion approaches.\nDownload this free whitepaper now!",
+"meta": {},
+"ai": null
+},
+{
+"id": "3a16e67d2af5",
+"key": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+"title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+"published": "2026-09-16T15:00:48Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. […]",
+"meta": {},
+"ai": null
+},
+{
+"id": "f2947b72bc31",
+"key": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+"title": "Helping older adults use AI in everyday life",
+"published": "2026-09-16T16:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+"meta": {},
+"ai": {
+"summary": "OpenAI and AARP are offering free, hands‑on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to teach practical AI use safely.",
+"why": "Shows a scalable model for community AI education that developers can replicate for other user groups.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"openai",
+"aarp",
+"accessibility"
+]
+}
+},
+{
+"id": "d59986fad183",
+"key": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
+"title": "Rethinking Robot Safety in the Age of AI",
+"published": "2026-09-16T16:51:02Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "This article is brought to you by VicOne .\nRobot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed?\nAs AI and robotics continue to advance at an unprecedented pace, modern robots perceive through multimodal sensors, interpret context using AI models, and translate those interpretations into physical action. As they move into dynamic environments, their safety increasingly depends on the integrity of the data guiding their decisions.\nThat dependence creates risks that conventional safety assessments…",
+"meta": {},
+"ai": null
+},
+{
+"id": "f6ec4b812b8f",
+"key": "https://openai.com/index/model-misalignment-reporting-framework",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/model-misalignment-reporting-framework",
+"title": "Our framework for reporting model misalignment",
+"published": "2026-09-16T17:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+"meta": {},
+"ai": {
+"summary": "OpenAI released a framework for tracking, investigating, and disclosing model misalignment, accompanied by six case reports of unexpected behavior.",
+"why": "Gives developers a concrete process for monitoring safety and compliance of deployed models.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"misalignment",
+"safety"
+]
+}
+},
+{
+"id": "8065d8dc4111",
+"key": "https://latent.space/p/aiuc",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/aiuc",
+"title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+"published": "2026-09-16T18:07:45Z",
+"fetched": "2026-10-01T19:24:22Z",
+"excerpt": "We sit down with AIUC’s CEO on their Series A!",
+"meta": {},
+"ai": {
+"summary": "AIUC’s CEO discussed the company’s Series A funding round and its focus on underwriting superintelligence agents that could be legally liable.",
+"why": "Signals growing investor interest in AI agent liability and compliance tooling.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"aiuc",
+"series-a",
+"agents"
+]
+}
+},
+{
+"id": "b128392eb2e8",
+"key": "https://pytorch.org/blog/low-precision-flash-attention-4-end-to-end-block-scaled-attention-for-blackwell",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/low-precision-flash-attention-4-end-to-end-block-scaled-attention-for-blackwell/",
+"title": "Low Precision Flash Attention 4: End-to-End Block-Scaled Attention for Blackwell",
+"published": "2026-09-16T18:55:21Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "TL;DR We extend FlashAttention-4 [1] with MXFP8 forward and backward, reaching 2.85 PF/s forward and 2 PF/s backward on LLM shapes. On our internal shapes, FA4 MX8 reaches 2.54 PF/s...",
+"meta": {},
+"ai": null
+},
+{
+"id": "8d4630858d02",
+"key": "https://pytorch.org/blog/open-research-tooling-optimization-at-pytorch-conference-north-america-2026",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/open-research-tooling-optimization-at-pytorch-conference-north-america-2026/",
+"title": "Open Research, Tooling & Optimization at PyTorch Conference North America 2026",
+"published": "2026-09-16T19:00:47Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "TL;DR Taking place October 20 to 21 in San Jose, California, PyTorch Conference North America 2026 highlights open research, tooling, and performance optimization across compiler architecture, cross-hardware kernel domain-specific languages,...",
+"meta": {},
+"ai": null
+},
+{
+"id": "13b5fc5c2e60",
+"key": "https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education",
+"source": "microsoft_ai_blog",
+"source_name": "Microsoft AI",
+"src_category": "labs",
+"weight": 3,
+"kind": "article",
+"url": "https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education/",
+"title": "Microsoft’s commitment for AI in education",
+"published": "2026-09-16T22:36:04Z",
+"fetched": "2026-10-01T19:40:26Z",
+"excerpt": "AI can personalize learning, reduce administrative burden, accelerate research and expand access to high-quality instruction. It also brings real risk.\nThe post Microsoft’s commitment for AI in education appeared first on The Microsoft Cloud Blog .",
+"meta": {},
+"ai": null
+},
+{
+"id": "5cb326b3bb1f",
+"key": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+"title": "prism-ml/Ternary-Bonsai-2-27B-gguf is trending on Hugging Face",
+"published": "2026-09-16T23:40:56Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "text-generation · 2,397 likes · 3,969,867 downloads",
+"meta": {
+"likes": 2397,
+"downloads": 3969867
+},
+"ai": null
+}
+]
