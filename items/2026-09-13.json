@@ -1,0 +1,34 @@
+[
+{
+"id": "c9b9a079141c",
+"key": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+"source": "cohere_blog",
+"source_name": "Cohere",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+"title": "Who Gets to Define the Rules for AI?",
+"published": "2026-09-13T00:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "Who Gets to Define the Rules for AI?",
+"meta": {},
+"ai": null
+},
+{
+"id": "cd9f4f0bc0b3",
+"key": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
+"title": "Long Live the Short King: Why 4-hi HBM Wins",
+"published": "2026-09-13T18:19:39Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Same Bandwidth, Fewer Dies: How 4-hi HBM Cuts Inference Costs and Makes Scarce DRAM Go Further",
+"meta": {},
+"ai": null
+}
+]

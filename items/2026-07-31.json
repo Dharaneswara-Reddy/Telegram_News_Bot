@@ -1,0 +1,28 @@
+[
+{
+"id": "8f17bf05a144",
+"key": "https://thinkingmachines.ai/blog/a-safe-path-to-open-weights",
+"source": "thinking_machines",
+"source_name": "Thinking Machines",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://thinkingmachines.ai/blog/a-safe-path-to-open-weights/",
+"title": "A Safe Path to Open Weights",
+"published": "2026-07-31T00:00:00Z",
+"fetched": "2026-10-01T19:40:21Z",
+"excerpt": "Abstract: Safe open-weight models are public goods, as they put AI development and safety work in many hands and make training choices inspectable. Open models also carry real misuse risks, and release is irreversible. To release safely, we must consider both the model and the ecosystem it enters. For the model, we conduct robust safety testing and research whether dangerous capabilities can be decoupled from general intelligence. For the ecosystem, we invest in its readiness through staged releases, supporting defenders, and collaboration with safety researchers. By iteratively choosing the most open option the evidence supports while building up the ecosystem's resilience, we can move…",
+"meta": {},
+"ai": {
+"summary": "Thinking Machines proposes a framework for safely releasing open‑weight models, involving robust safety testing, decoupling dangerous capabilities, and staged ecosystem readiness.",
+"why": "It offers a structured approach for developers and organizations to responsibly share and use large open‑weight models.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"openweights",
+"safety",
+"ecosystem"
+]
+}
+}
+]

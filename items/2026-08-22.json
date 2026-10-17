@@ -1,0 +1,28 @@
+[
+{
+"id": "197f8f9a2388",
+"key": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+"source": "ahead_of_ai",
+"source_name": "Ahead of AI",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+"title": "How Claude Watermarks AI-Generated Text",
+"published": "2026-08-22T11:11:39Z",
+"fetched": "2026-10-01T19:23:58Z",
+"excerpt": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+"meta": {},
+"ai": {
+"summary": "Claude introduced a watermarking technique that embeds a subtle pattern into generated text, and a 48‑minute video demonstrates token sampling, watermark detection, and removal.",
+"why": "Developers can use the watermark to verify authenticity of Claude outputs or to detect AI‑generated content in their applications.",
+"category": "research",
+"importance": 3,
+"tags": [
+"claude",
+"watermark",
+"token-sampling"
+]
+}
+}
+]

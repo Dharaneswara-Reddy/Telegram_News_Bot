@@ -1,0 +1,28 @@
+[
+{
+"id": "088da045c963",
+"key": "https://lilianweng.github.io/posts/2026-07-04-harness",
+"source": "lilian_weng",
+"source_name": "Lil'Log (Lilian Weng)",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+"title": "Harness Engineering for Self-Improvement",
+"published": "2026-07-04T00:00:00Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965) , where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase “recursive self-improvement” for a specific feedback loop: an AI uses its current intelligence to improve the cognitive machinery that produces its intelligence.\nThis feedback loop in modern AI may indicate the model rewriting its own weights directly, or more broadly the model improves the training pipeline and the deployment system , which in turn enables a better successor model with improved performance across…",
+"meta": {},
+"ai": {
+"summary": "The post discusses recursive self‑improvement (RSI), tracing its origins to I.J. Good and Yudkowsky, and examines how modern AI models might rewrite their own code to enhance performance.",
+"why": "Understanding RSI helps developers anticipate future capabilities and design safer, more controllable AI systems.",
+"category": "research",
+"importance": 3,
+"tags": [
+"recursive-self-improvement",
+"ai-safety",
+"model-improvement"
+]
+}
+}
+]
