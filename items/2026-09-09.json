@@ -1,0 +1,53 @@
+[
+{
+"id": "acba9f62440e",
+"key": "https://interconnects.ai/p/when-will-average-people-feel-ais",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
+"title": "When will average people feel AI’s impact?",
+"published": "2026-09-09T11:01:23Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "We’re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
+"meta": {},
+"ai": {
+"summary": "Interconnects examines when average people will feel AI’s impact, arguing that we are less than five years into a compounding revolution that could last a century.",
+"why": "Provides context for developers on the long‑term societal implications of AI progress.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"ai-impact",
+"society"
+]
+}
+},
+{
+"id": "e56aa2812f95",
+"key": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+"source": "ahead_of_ai",
+"source_name": "Ahead of AI",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+"title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+"published": "2026-09-09T11:14:25Z",
+"fetched": "2026-10-01T19:23:58Z",
+"excerpt": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+"meta": {},
+"ai": {
+"summary": "Ahead of AI discusses GPT‑6 Astra, Looping Transformers, and hidden reasoning, reviewing recent research on recurrent depth and looping transformer blocks.",
+"why": "Sheds light on architectural innovations that could improve reasoning in large language models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"gpt-6-astra",
+"transformer",
+"reasoning"
+]
+}
+}
+]

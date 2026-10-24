@@ -1,0 +1,114 @@
+[
+{
+"id": "b059da45341c",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
+"title": "ollama v0.40.11",
+"published": "2026-10-24T00:30:13Z",
+"fetched": "2026-10-24T04:33:03Z",
+"excerpt": "What's Changed\nqwen3coder: preserve literal function closing tags in parameters by @hoyyeva in #19228\nlaunch: use allocated context for OpenCode by @hoyyeva in #19193\ndecision: allow empty state for vllm-d3 by @SynapShift in #19173\nllama.cpp: version bump b11845 by @dhiltgen in #19250\nmlxrunner: spell out symbols, numbers and links for Phonon by @jmorganca in #19234\nvoice: add voice catalog for Phonon by @jmorganca in #19242\nNew Contributors\n@SynapShift made their first contribution in #19173\nFull Changelog : v0.40.10...v0.40.11-rc0",
+"meta": {},
+"ai": {
+"summary": "Ollama 0.40.11 adds several fixes: Qwen3Coder now preserves literal function‑closing tags, launch uses allocated context for OpenCode, decision permits empty state for vllm‑d3, llama.cpp is bumped to commit b11845, mlxrunner improves symbol handling, and a voice catalog for Phonon is added, with a new contributor joining the project.",
+"why": "These updates improve stability and feature support for running a wider range of models locally with Ollama.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"ollama",
+"v0.40.11",
+"llama.cpp",
+"phonon"
+]
+}
+},
+{
+"id": "5fbfb8972914",
+"key": "https://reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+"title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+"published": "2026-10-24T05:49:57Z",
+"fetched": "2026-10-24T10:55:46Z",
+"excerpt": "",
+"meta": {
+"points": 165,
+"comments": 37,
+"hn_url": "https://news.ycombinator.com/item?id=50218633"
+},
+"ai": {
+"summary": "A researcher reverse‑engineered a Samsung TV and discovered an on‑board AI voice assistant that streams audio to an OpenAI endpoint, leading OpenAI to suspend the associated account.",
+"why": "It exposes privacy and security risks of embedded AI in consumer hardware.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"samsung",
+"privacy",
+"openai",
+"hardware"
+]
+}
+},
+{
+"id": "31a1adb583ce",
+"key": "https://latent.space/p/ainews-kimi-31",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-kimi-31/",
+"title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+"published": "2026-10-24T07:18:29Z",
+"fetched": "2026-10-24T10:55:46Z",
+"excerpt": "We have Fable at home... or so we are being told by paid shills",
+"meta": {},
+"ai": {
+"summary": "Kimi released the 3.1 Pro model with 104 billion parameters, trained on 2.8 trillion tokens, and open‑weight weights comparable to Fable‑5.1, plus a high‑speed API that is 2–3× faster than previous versions.",
+"why": "It gives developers an open‑weight, high‑throughput alternative to closed‑AI offerings.",
+"category": "models",
+"importance": 3,
+"tags": [
+"kimi",
+"fable",
+"open-weights",
+"api"
+]
+}
+},
+{
+"id": "1a548613a2fc",
+"key": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+"title": "Fancy harnesses make coding agents more expensive but not better, study finds",
+"published": "2026-10-24T09:21:39Z",
+"fetched": "2026-10-24T10:55:46Z",
+"excerpt": "A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven mainly by the system prompt that gets resent with every step.\nThe article Fancy harnesses make coding agents more expensive but not better, study finds appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "A controlled study found that swapping coding‑agent harnesses such as Claude Code, OpenCode, or mini‑SWE‑agent changes pass rates only marginally, but can triple per‑task cost due to repeated system prompts.",
+"why": "It shows developers should weigh cost against modest accuracy gains when choosing a harness.",
+"category": "research",
+"importance": 3,
+"tags": [
+"coding-agent",
+"cost",
+"study",
+"benchmark"
+]
+}
+}
+]
