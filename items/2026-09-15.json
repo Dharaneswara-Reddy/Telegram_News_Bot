@@ -1,0 +1,376 @@
+[
+{
+"id": "65e7e5f88505",
+"key": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+"title": "Building an AI-native revenue organization",
+"published": "2026-09-15T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Building an AI-native revenue organization",
+"meta": {},
+"ai": {
+"summary": "A guide outlines how to build an AI‑native revenue organization.",
+"why": "Provides a framework for integrating AI into revenue operations, relevant for developers working on sales or marketing tech.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ai revenue",
+"sales"
+]
+}
+},
+{
+"id": "7f49a9b7d12e",
+"key": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+"title": "Claude for Small Business launches new workflows, integrations, and training programs",
+"published": "2026-09-15T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Claude for Small Business launches new workflows, integrations, and training programs",
+"meta": {},
+"ai": {
+"summary": "Claude for Small Business launches new workflows, integrations, and training programs.",
+"why": "Small‑business developers can adopt these features to streamline operations and AI adoption.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude",
+"small business"
+]
+}
+},
+{
+"id": "ab8c3e8a570e",
+"key": "https://claude.com/blog/salesforce-in-claude",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/blog/salesforce-in-claude",
+"title": "Bringing Salesforce into Claude",
+"published": "2026-09-15T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Bringing Salesforce into Claude",
+"meta": {},
+"ai": {
+"summary": "Salesforce integration is being added to Claude.",
+"why": "Enables developers to connect Claude with Salesforce data and workflows for enhanced customer engagement.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude",
+"salesforce"
+]
+}
+},
+{
+"id": "6a1b12487f80",
+"key": "https://github.com/enactic/OpenArm",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://github.com/enactic/OpenArm",
+"title": "openarm: A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments",
+"published": "2026-09-15T12:52:26Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": null
+},
+{
+"id": "4680b48b7fc4",
+"key": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+"title": "New insights from Google’s AI & Economy ATLAS",
+"published": "2026-09-15T13:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Text \"AI & Economy Atlas v1.0 2026\" with the Google G and a spinning globe illustration",
+"meta": {},
+"ai": {
+"summary": "Google AI releases Atlas v1.0, a dataset and analysis tool mapping AI’s economic impact worldwide.",
+"why": "Developers can use the data to assess AI adoption and economic effects.",
+"category": "research",
+"importance": 3,
+"tags": [
+"google",
+"atlas",
+"economy",
+"ai"
+]
+}
+},
+{
+"id": "655b0086c41f",
+"key": "https://bensbites.com/p/good-luck-slowing-this-down",
+"source": "bens_bites",
+"source_name": "Ben's Bites",
+"src_category": "analysis",
+"weight": 2,
+"kind": "article",
+"url": "https://www.bensbites.com/p/good-luck-slowing-this-down",
+"title": "Good luck slowing this down",
+"published": "2026-09-15T13:02:52Z",
+"fetched": "2026-10-01T19:40:23Z",
+"excerpt": "plus what’s new in AI this week",
+"meta": {},
+"ai": null
+},
+{
+"id": "921670b12ba4",
+"key": "https://taggart-tech.com/lying",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://taggart-tech.com/lying/",
+"title": "Model Training Incidents are Negligence",
+"published": "2026-09-15T13:55:32Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": null
+},
+{
+"id": "1f723cdcd628",
+"key": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+"title": "Building AI to accelerate science and improve lives",
+"published": "2026-09-15T16:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "B-roll showing diverse environments and people, including a teacher and students in a classroom and a patient with a doctor",
+"meta": {},
+"ai": {
+"summary": "Google AI showcases initiatives that use AI to accelerate scientific research and improve healthcare outcomes, featuring diverse environments.",
+"why": "It highlights potential use cases for developers working in science and health domains.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"google",
+"science",
+"healthcare"
+]
+}
+},
+{
+"id": "8bb553420cd1",
+"key": "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips/",
+"title": "4 ways to tackle household chores with Gemini",
+"published": "2026-09-15T16:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "A photo of a broken doorknob with the prompt: How can I fix this?",
+"meta": {},
+"ai": {
+"summary": "Gemini offers four methods for handling household chores, such as troubleshooting a broken doorknob.",
+"why": "Illustrates Gemini’s practical problem‑solving use cases, useful for developers building home‑automation or support tools.",
+"category": "other",
+"importance": 2,
+"tags": [
+"gemini",
+"household chores"
+]
+}
+},
+{
+"id": "b9a15c5570ce",
+"key": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+"title": "AI for everyone in every language",
+"published": "2026-09-15T16:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Animation of several words in different languages slowly zooming past",
+"meta": {},
+"ai": {
+"summary": "Google AI presents multilingual AI models that support a wide range of languages, enabling broader accessibility.",
+"why": "Developers can integrate multilingual support into their applications.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"multilingual",
+"ai"
+]
+}
+},
+{
+"id": "c01015f614f6",
+"key": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+"title": "AI for Societal Impact",
+"published": "2026-09-15T16:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+"meta": {},
+"ai": {
+"summary": "Google AI releases a collection illustrating how experts and local leaders apply AI breakthroughs to promote inclusive opportunities.",
+"why": "Developers can learn real‑world applications that demonstrate societal impact.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"google",
+"societal-impact",
+"ai"
+]
+}
+},
+{
+"id": "b610ff411683",
+"key": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+"title": "Your Agent Aced the Task. Will It Do It Again?",
+"published": "2026-09-15T16:00:44Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face evaluates whether an agent that succeeded on a task will consistently perform, analyzing repeatability and reliability.",
+"why": "It informs developers about the stability of agent frameworks they might adopt.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"huggingface",
+"agent",
+"reliability"
+]
+}
+},
+{
+"id": "d0fa4b92807e",
+"key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+"title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+"published": "2026-09-15T17:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "Text \"Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking\" with the Gemini Spark, all on a light blue background",
+"meta": {},
+"ai": {
+"summary": "Google Gemini introduces Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, adding new live‑interaction and extended‑thinking capabilities.",
+"why": "Developers can experiment with Gemini’s live and extended‑thinking modes for more interactive AI applications.",
+"category": "models",
+"importance": 4,
+"tags": [
+"gemini",
+"3.8 live",
+"extended thinking"
+]
+}
+},
+{
+"id": "d2b196fbe062",
+"key": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+"source": "deepmind_blog",
+"source_name": "Google DeepMind",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+"title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+"published": "2026-09-15T17:05:57Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind announced Gemini 3.8 Live, adding real‑time response capability, and Gemini 3.8 Live Extended Thinking for longer, more coherent reasoning.",
+"why": "Developers can build applications that need up‑to‑date answers or deeper chain‑of‑thought reasoning using the new Gemini variants.",
+"category": "models",
+"importance": 4,
+"tags": [
+"gemini-3.8",
+"live",
+"extended-thinking"
+]
+}
+},
+{
+"id": "7a2b81cecac2",
+"key": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train",
+"source": "google_research",
+"source_name": "Google Research",
+"src_category": "research",
+"weight": 4,
+"kind": "article",
+"url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
+"title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+"published": "2026-09-15T20:00:00Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "Algorithms & Theory",
+"meta": {},
+"ai": {
+"summary": "Google Research introduces Retrieve‑for‑Train, a technique that pre‑retrieves data during training to accelerate inference for complex AI search tasks.",
+"why": "It can reduce latency for search‑based models, helping developers build faster applications.",
+"category": "research",
+"importance": 3,
+"tags": [
+"google",
+"retrieve-for-train",
+"inference",
+"search"
+]
+}
+},
+{
+"id": "7fd52e09af8e",
+"key": "https://newsletter.semianalysis.com/p/everyone-says-datacenter-moratoriums",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/everyone-says-datacenter-moratoriums",
+"title": "Everyone Says Datacenter Moratoriums Are Killing the US Buildout. We disagree",
+"published": "2026-09-15T20:54:41Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "20GW sits inside a restricted local boundary, 1,525MW actually slips, 2.3GW nationwide including New York",
+"meta": {},
+"ai": null
+}
+]

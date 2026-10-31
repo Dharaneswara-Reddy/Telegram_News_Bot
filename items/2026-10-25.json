@@ -1,0 +1,639 @@
+[
+{
+"id": "854e248c4e8d",
+"key": "https://cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+"title": "Cerebras Deploys Trillion-Parameter AI Models",
+"published": "2026-10-25T01:33:49Z",
+"fetched": "2026-10-25T11:22:34Z",
+"excerpt": "",
+"meta": {
+"points": 358,
+"comments": 137,
+"hn_url": "https://news.ycombinator.com/item?id=50227356"
+},
+"ai": {
+"summary": "Cerebras announced that its wafer‑scale engine is now capable of running trillion‑parameter AI models in production.",
+"why": "Enables developers to experiment with extremely large models without needing multi‑node clusters.",
+"category": "models",
+"importance": 4,
+"tags": [
+"cerebras",
+"trillion-parameter",
+"wafer-scale"
+]
+}
+},
+{
+"id": "aaa93f1cda9f",
+"key": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+"title": "ccore/Qwen3.5-4B-3D-Coder is trending on Hugging Face",
+"published": "2026-10-25T05:43:34Z",
+"fetched": "2026-10-29T05:44:17Z",
+"excerpt": "model · 364 likes · 29,615 downloads",
+"meta": {
+"likes": 364,
+"downloads": 29615
+},
+"ai": {
+"summary": "The Qwen3.5‑4B‑3D‑Coder model by ccore has become a trending Hugging Face model, accumulating 243 likes and 6,944 downloads.",
+"why": "A popular, open‑weight 4B‑parameter coder model that developers can fine‑tune or integrate for code generation tasks.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"qwen3.5",
+"coder",
+"open-source"
+]
+}
+},
+{
+"id": "63c11d23a5a6",
+"key": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+"title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
+"published": "2026-10-25T06:55:22Z",
+"fetched": "2026-10-25T11:22:34Z",
+"excerpt": "Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest among open agents, the authors say.\nThe article OpenMobile-2 proves open-source smartphone agents can rival proprietary models appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The OpenMobile‑2 project released an open‑source smartphone agent trained on interactions from over 110 apps, including 35 replicas of popular apps, achieving the highest benchmark scores among open agents on real Android devices.",
+"why": "Demonstrates that open‑source mobile agents can match proprietary performance, offering developers a free alternative for on‑device AI.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"openmobile-2",
+"smartphone-agent",
+"open-source"
+]
+}
+},
+{
+"id": "2527ff50afa6",
+"key": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+"title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
+"published": "2026-10-25T07:30:11Z",
+"fetched": "2026-10-25T11:22:34Z",
+"excerpt": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure.\nThe article OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI announced discount programs of up to 90 % for customers switching from Anthropic, with companies like Rippling, Replit, and DataCamp reporting similar cost reductions.",
+"why": "Creates a pricing pressure that may affect developers' choice of LLM providers and budgeting decisions.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"anthropic",
+"discounts",
+"pricing"
+]
+}
+},
+{
+"id": "6fc6082303c9",
+"key": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+"title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies",
+"published": "2026-10-25T08:09:32Z",
+"fetched": "2026-10-25T11:22:34Z",
+"excerpt": "In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than $600 billion in 2026. Yet mounting debt, protests against data centers, and a potential chip crisis over Taiwan could stall both superpowers.\nThe article Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Former Google CEO Eric Schmidt, in a Foreign Affairs piece, described OpenAI and Anthropic as modern colonial trading companies, noting that US firms plan to spend over $600 billion on AI in 2026 amid geopolitical and supply‑chain risks.",
+"why": "Highlights the scale of corporate AI investment and potential strategic constraints for developers and startups.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"eric-schmidt",
+"openai",
+"anthropic",
+"ai-spending"
+]
+}
+},
+{
+"id": "0b249ab23636",
+"key": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+"title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
+"published": "2026-10-25T09:12:10Z",
+"fetched": "2026-10-25T11:22:34Z",
+"excerpt": "Anthropic says companies should evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one architecture comparison, the single-agent setup ran about twice as fast. Anthropic has published a migration kit on GitHub to help teams make the transition.\nThe article Anthropic says one AI agent beats many subagents now that models can handle complexity alone appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic released a migration kit on GitHub showing that a single, context‑loading AI agent can run about twice as fast as a hierarchy of sub‑agents for comparable tasks.",
+"why": "Helps developers simplify agent architectures and reduce latency in production systems.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"single-agent",
+"migration-kit"
+]
+}
+},
+{
+"id": "dd6e7ffe2c6e",
+"key": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+"title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+"published": "2026-10-25T09:37:46Z",
+"fetched": "2026-10-25T11:22:34Z",
+"excerpt": "A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027.\nThe article Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027 appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Jack Clark of Anthropic updated his timeline, now predicting that self‑improving AI systems could appear by 2027, based on a new P‑Zero Research benchmark measuring AI‑driven experiment design.",
+"why": "Signals a faster horizon for autonomous AI research, prompting developers to consider safety and alignment early.",
+"category": "research",
+"importance": 4,
+"tags": [
+"anthropic",
+"self-improving",
+"p-zero"
+]
+}
+},
+{
+"id": "b75a4eadea17",
+"key": "https://techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+"title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+"published": "2026-10-25T09:51:17Z",
+"fetched": "2026-10-25T16:13:52Z",
+"excerpt": "",
+"meta": {
+"points": 144,
+"comments": 87,
+"hn_url": "https://news.ycombinator.com/item?id=50229827"
+},
+"ai": {
+"summary": "The winner of a Nikon photography contest had the title revoked after scientists identified AI‑generated artifacts in the submitted image.",
+"why": "Highlights the need for robust AI‑detection tools in content verification.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nikon",
+"ai‑detection",
+"photography"
+]
+}
+},
+{
+"id": "4ed9c990e2c2",
+"key": "https://wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+"title": "What the US Movement Against Data Centers Can Learn From Abroad",
+"published": "2026-10-25T10:00:00Z",
+"fetched": "2026-10-25T11:22:34Z",
+"excerpt": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
+"meta": {},
+"ai": {
+"summary": "Paris Marx’s article in Wired compares US anti‑data‑center activism with movements in Ireland, New Zealand, and other countries, outlining lessons for U.S. policy makers.",
+"why": "Provides context for developers concerned about the environmental and regulatory landscape of large‑scale AI infrastructure.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"paris-marx",
+"data-centers",
+"policy"
+]
+}
+},
+{
+"id": "85489edafbb8",
+"key": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+"title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+"published": "2026-10-25T10:08:49Z",
+"fetched": "2026-10-25T11:22:34Z",
+"excerpt": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive accuracy. Nvidia is positioning Flora as a key piece of its strategy to control the entire robotics value chain.\nThe article Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Nvidia open‑sourced the Flora data engine, which uses three fine‑tuned Qwen‑3.5 models to label an hour of robot video for $0.72, 125× cheaper than using GPT‑6 Astra, while achieving slightly higher quality.",
+"why": "Provides a cost‑effective tool for developers building robotics perception pipelines.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"nvidia",
+"flora",
+"robotics",
+"qwen-3.5"
+]
+}
+},
+{
+"id": "183faf41805b",
+"key": "https://interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+"title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+"published": "2026-10-25T11:49:00Z",
+"fetched": "2026-10-25T16:13:50Z",
+"excerpt": "#20",
+"meta": {},
+"ai": {
+"summary": "The Kimi K3.1 Pro device was announced as the latest version in the Kimi series, featuring upgraded sensors and a new cyber‑reality interface.",
+"why": "Developers can explore its enhanced AR/VR capabilities for immersive applications.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"kimi",
+"cyber-reality",
+"hardware"
+]
+}
+},
+{
+"id": "0f654513a888",
+"key": "https://theverge.com/column/1017983/google-ai-search-online-publishing",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+"title": "Google’s AI search changes upended online publishing",
+"published": "2026-10-25T12:00:00Z",
+"fetched": "2026-10-25T16:13:51Z",
+"excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on […]",
+"meta": {},
+"ai": {
+"summary": "Google rolled out new AI‑driven search features that altered how online publishers’ content is indexed and monetized, prompting industry backlash.",
+"why": "Publishers and developers must adapt SEO and content strategies to the AI‑augmented search landscape.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"google",
+"search",
+"ai‑seo"
+]
+}
+},
+{
+"id": "d6f393612c7e",
+"key": "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine",
+"title": "Poetry for Engineers: Of Code and Shortleaf Pine",
+"published": "2026-10-25T12:00:02Z",
+"fetched": "2026-10-26T19:55:49Z",
+"excerpt": "I step into the warm moist air\namong the columns of the pines,\ntheir net of twigs and roots\ncomplex as any lines of code.\nThe trees purify and anchor.\nTheir branches balance my restlessness.\nTheir calling is to be present,\nmine to develop apps. Our tasks\nverge toward a common logic:\nliving filaments of root, of interface.",
+"meta": {},
+"ai": {
+"summary": "IEEE Spectrum published a poetic piece titled “Poetry for Engineers: Of Code and Shortleaf Pine,” blending imagery of pine trees with code logic and development themes.",
+"why": "No direct technical content; primarily artistic reflection on engineering.",
+"category": "other",
+"importance": 1,
+"tags": [
+"poetry",
+"engineering",
+"art"
+]
+}
+},
+{
+"id": "2ecd7a5f9aa7",
+"key": "https://twitter.com/boneGPT/status/2114035719853265264",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://twitter.com/boneGPT/status/2114035719853265264",
+"title": "Imagine an AI future where being banned means you are now economically useless",
+"published": "2026-10-25T12:47:20Z",
+"fetched": "2026-10-25T19:03:01Z",
+"excerpt": "",
+"meta": {
+"points": 98,
+"comments": 78,
+"hn_url": "https://news.ycombinator.com/item?id=50230995"
+},
+"ai": {
+"summary": "An opinion piece warns that future AI regulations that ban certain tools could leave individuals who rely on them economically useless.",
+"why": "It highlights a potential socioeconomic impact of AI bans that developers and policymakers need to consider.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"ai-governance",
+"ban",
+"economy"
+]
+}
+},
+{
+"id": "707097caffa8",
+"key": "https://theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+"title": "r/opensource just banned AI, non-English speakers, and more",
+"published": "2026-10-25T13:25:32Z",
+"fetched": "2026-10-25T16:13:51Z",
+"excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]",
+"meta": {},
+"ai": {
+"summary": "The moderators of r/opensource updated the subreddit rules to ban any projects that use, are made by, or are intended for AI.",
+"why": "Sets a precedent for community governance around AI in open‑source ecosystems.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"reddit",
+"opensource",
+"ai‑policy"
+]
+}
+},
+{
+"id": "1d0fc1a492da",
+"key": "https://reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+"title": "R/open source bans all solo projects and projects using LLMs",
+"published": "2026-10-25T14:05:03Z",
+"fetched": "2026-10-26T04:43:06Z",
+"excerpt": "",
+"meta": {
+"points": 90,
+"comments": 128,
+"hn_url": "https://news.ycombinator.com/item?id=50231722"
+},
+"ai": {
+"summary": "The r/open_source subreddit updated its rules to ban solo‑maintainer projects and any projects that use large language models.",
+"why": "These restrictions could limit community contributions and the growth of LLM‑based open‑source tools.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"reddit",
+"policy",
+"open-source"
+]
+}
+},
+{
+"id": "311738ca11f0",
+"key": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+"title": "The hottest AI wearables and gadgets you should know about",
+"published": "2026-10-25T14:10:00Z",
+"fetched": "2026-10-25T16:13:51Z",
+"excerpt": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch compiled a list of current AI‑powered wearables, including the Muse Charm, Bee, Friend, and Plaud devices.",
+"why": "Provides developers a quick reference of consumer AI hardware to target with integrations.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"wearables",
+"ai‑gadgets",
+"muse"
+]
+}
+},
+{
+"id": "976d5d18a4a5",
+"key": "https://dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+"title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+"published": "2026-10-25T16:28:26Z",
+"fetched": "2026-10-25T22:31:58Z",
+"excerpt": "",
+"meta": {
+"points": 236,
+"comments": 328,
+"hn_url": "https://news.ycombinator.com/item?id=50233304"
+},
+"ai": {
+"summary": "UC Berkeley math professor Michael Nielsen said that because students can use AI tools to obtain correct solutions, grading homework has become pointless for him.",
+"why": "Highlights how AI is reshaping assessment practices in education, prompting developers to consider tools for academic integrity.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"uc-berkeley",
+"education",
+"ai"
+]
+}
+},
+{
+"id": "1c8baf4ab6be",
+"key": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+"title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+"published": "2026-10-25T16:57:32Z",
+"fetched": "2026-10-25T19:03:01Z",
+"excerpt": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+"meta": {},
+"ai": {
+"summary": "An Apollo economist claims AI has delivered zero financial payoff to most corporate America outside of the tech sector despite massive investment and hype.",
+"why": "It cautions companies about over‑investing in AI without clear ROI, prompting developers to focus on measurable value.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ai-investment",
+"roi",
+"corporate"
+]
+}
+},
+{
+"id": "789a46f61ac2",
+"key": "https://lynchlab.net/llm-skin-cancer",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://lynchlab.net/llm-skin-cancer",
+"title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+"published": "2026-10-25T17:15:38Z",
+"fetched": "2026-10-25T19:03:01Z",
+"excerpt": "",
+"meta": {
+"points": 656,
+"comments": 269,
+"hn_url": "https://news.ycombinator.com/item?id=50233779"
+},
+"ai": {
+"summary": "A study found that a 10‑year‑old convolutional neural network model outperforms current frontier large language models on skin‑cancer diagnosis tasks.",
+"why": "It shows that specialized, older vision models can still beat generic LLMs in medical imaging, guiding developers toward task‑specific solutions.",
+"category": "research",
+"importance": 4,
+"tags": [
+"cnn",
+"skin-cancer",
+"llm",
+"medical-imaging"
+]
+}
+},
+{
+"id": "afaf2324e9f7",
+"key": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+"title": "AI didn't cause the tech jobs bust, but it explains why there's no recovery",
+"published": "2026-10-25T18:42:23Z",
+"fetched": "2026-10-26T19:55:49Z",
+"excerpt": "",
+"meta": {
+"points": 84,
+"comments": 55,
+"hn_url": "https://news.ycombinator.com/item?id=50234699"
+},
+"ai": {
+"summary": "The article argues that AI was not the primary cause of the recent tech‑jobs slowdown, but it helps explain why hiring has not rebounded.",
+"why": "Understanding AI's limited role clarifies labor‑market dynamics for developers and investors.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ai",
+"jobs",
+"economy"
+]
+}
+},
+{
+"id": "7bd9574749c7",
+"key": "https://minimaxir.com/2026/10/cheap-llms",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://minimaxir.com/2026/10/cheap-llms/",
+"title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+"published": "2026-10-25T21:11:31Z",
+"fetched": "2026-10-26T04:43:06Z",
+"excerpt": "",
+"meta": {
+"points": 422,
+"comments": 427,
+"hn_url": "https://news.ycombinator.com/item?id=50236102"
+},
+"ai": {
+"summary": "OpenAI reduced API prices for GPT‑4o and GPT‑4 Turbo by up to 80% and Anthropic cut Claude pricing by a similar margin within a few months.",
+"why": "Lower costs make advanced LLMs more accessible for developers and startups.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"openai",
+"anthropic",
+"pricing"
+]
+}
+},
+{
+"id": "b2e5ff8d267c",
+"key": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+"title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+"published": "2026-10-25T21:31:16Z",
+"fetched": "2026-10-25T22:31:57Z",
+"excerpt": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+"meta": {},
+"ai": {
+"summary": "Grok released a seven‑minute excerpt of its AI‑generated film \"Odyssey,\" demonstrating the current visual and narrative quality of the system.",
+"why": "Shows the state of AI‑driven video generation, useful for developers building or evaluating generative media pipelines.",
+"category": "models",
+"importance": 2,
+"tags": [
+"grok",
+"ai-video",
+"odyssey"
+]
+}
+}
+]

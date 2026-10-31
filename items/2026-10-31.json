@@ -1,0 +1,268 @@
+[
+{
+"id": "3dafa18afc8f",
+"key": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+"source": "gh_claude_code",
+"source_name": "Claude Code releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+"title": "claude-code v2.1.316",
+"published": "2026-10-31T01:01:35Z",
+"fetched": "2026-10-31T05:36:28Z",
+"excerpt": "What's changed\nAdded CLAUDE_CODE_DISABLE_ULTRATHINK , which turns the ultrathink keyword off\nAdded pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with pooled_budget on the spend limits admin API\nAdded CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP to keep system cross-certificates that certify each other in a loop, for servers whose private CA needs one\nAdded CLAUDE_CODE_SUBAGENT_EFFORT to set the effort level subagents run at when nothing else names one, instead of inheriting the session's\nAdded managed.policy_mode: layered to the Claude apps gateway: every policy that matches a developer applies, each…",
+"meta": {},
+"ai": {
+"summary": "Claude Code 2.1.316 adds flags to disable ultrathink and looped cross‑cert drops, introduces pooled group budgets for Claude apps, and a sub‑agent effort setting.",
+"why": "Provides developers finer control over Claude Code behavior and budgeting, improving manageability of AI‑assisted coding workflows.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude-code",
+"update"
+]
+}
+},
+{
+"id": "31af2811d73e",
+"key": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+"title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+"published": "2026-10-31T01:20:05Z",
+"fetched": "2026-10-31T05:36:26Z",
+"excerpt": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+"meta": {},
+"ai": {
+"summary": "Nvidia is considering co‑signing a loan for Nscale’s AI data‑center project in West Virginia to help secure financing.",
+"why": "Nvidia’s backing could lower financing risk and accelerate deployment of AI infrastructure in new regions.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"nscale",
+"datacenter",
+"financing"
+]
+}
+},
+{
+"id": "d8e15ecc8b32",
+"key": "https://wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+"title": "OpenAI raises less than half of $30B target",
+"published": "2026-10-31T03:22:44Z",
+"fetched": "2026-10-31T05:36:28Z",
+"excerpt": "",
+"meta": {
+"points": 157,
+"comments": 149,
+"hn_url": "https://news.ycombinator.com/item?id=50312922"
+},
+"ai": {
+"summary": "OpenAI raised less than $15 billion in its latest funding round, falling short of its $30 billion target.",
+"why": "Signals a slowdown in large‑scale AI financing, which may affect future compute and model development plans.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"funding"
+]
+}
+},
+{
+"id": "7a5976300952",
+"key": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+"title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+"published": "2026-10-31T05:00:48Z",
+"fetched": "2026-10-31T05:36:28Z",
+"excerpt": "It turns out you cannot have your cake AND eat it",
+"meta": {},
+"ai": {
+"summary": "Google reported that its AI Mode feature cut Search revenue by 15%, amounting to a $500 billion loss, the worst decline since its 2004 IPO.",
+"why": "Shows the financial risk of integrating AI into core products, prompting developers to weigh revenue impact versus feature innovation.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"google",
+"search",
+"ai-mode"
+]
+}
+},
+{
+"id": "053dd3e543a6",
+"key": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+"title": "OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite",
+"published": "2026-10-31T09:22:52Z",
+"fetched": "2026-10-31T12:22:25Z",
+"excerpt": "OpenAI raised only about $11 billion in its latest funding round, less than half of the $30 billion it was targeting. At $1.25 trillion, the valuation falls short of expectations, and major investors appear to be pulling back amid the recent tech sell-off. Meanwhile, rival Anthropic is pushing to go public as early as November.\nThe article OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI raised roughly $11 billion in its latest funding round, far short of its $30 billion target, valuing the company at about $1.25 trillion.",
+"why": "The reduced funding reflects a cooling investor appetite, which may slow OpenAI’s product rollout pace and affect developer access to upcoming APIs.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"funding",
+"valuation"
+]
+}
+},
+{
+"id": "7e2bc61f5e8e",
+"key": "https://wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+"title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+"published": "2026-10-31T10:00:00Z",
+"fetched": "2026-10-31T12:22:24Z",
+"excerpt": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+"meta": {},
+"ai": {
+"summary": "A biotech startup used an AI agent to select a gene‑therapy candidate and autonomously inject it into a live mouse’s brain, demonstrating AI‑driven experimental control.",
+"why": "The proof‑of‑concept shows developers how AI agents could automate complex lab procedures, opening new avenues for biotech software.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"ai",
+"gene‑therapy",
+"biotech",
+"agent"
+]
+}
+},
+{
+"id": "8b1d46267fde",
+"key": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
+"title": "Google Deepmind creates a global map of forests with satellite data and AI",
+"published": "2026-10-31T10:15:45Z",
+"fetched": "2026-10-31T12:22:25Z",
+"excerpt": "Google Deepmind and the World Resources Institute have released ForTy, a global map that classifies forests and other land into six categories, including primary forest, plantations, and tree crops. The map could help track deforestation under EU rules, but it identifies only about half of planted forests and tree-crop areas, and 60% of plantations.\nThe article Google Deepmind creates a global map of forests with satellite data and AI appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "DeepMind and the World Resources Institute released ForTy, a global satellite‑based map that classifies forests and land into six categories such as primary forest, plantations, and tree crops.",
+"why": "The map provides a new data source for developers building environmental monitoring or compliance tools, especially for EU deforestation regulations.",
+"category": "research",
+"importance": 3,
+"tags": [
+"deepmind",
+"forests",
+"satellite",
+"environment"
+]
+}
+},
+{
+"id": "b736ecf93893",
+"key": "https://wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+"title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+"published": "2026-10-31T10:30:00Z",
+"fetched": "2026-10-31T12:22:24Z",
+"excerpt": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+"meta": {},
+"ai": {
+"summary": "Meta unveiled Muse, an AI agent platform that aims to automate business workflows, though its commercial impact remains unproven.",
+"why": "If Muse matures, developers could integrate it into enterprise software to automate routine tasks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"meta",
+"muse",
+"ai-agent"
+]
+}
+},
+{
+"id": "8c12fe94536c",
+"key": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
+"title": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams",
+"published": "2026-10-31T10:43:58Z",
+"fetched": "2026-10-31T12:22:25Z",
+"excerpt": "Microsoft is offering voluntary severance packages to about 60,000 employees, roughly a quarter of its workforce, in the second such program this year. The company's headcount has held flat at around 223,000 since 2022 even as it plans to spend about $170 billion on AI infrastructure in 2026 alone.\nThe article Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Microsoft announced a voluntary severance program for about 60,000 employees, roughly a quarter of its 223,000‑person workforce, while keeping AI‑critical teams intact.",
+"why": "It signals a restructuring that could affect developer hiring and the focus of AI resources at Microsoft.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"microsoft",
+"severance",
+"ai"
+]
+}
+},
+{
+"id": "24090b7f546c",
+"key": "https://wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+"title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+"published": "2026-10-31T12:00:00Z",
+"fetched": "2026-10-31T12:22:24Z",
+"excerpt": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+"meta": {},
+"ai": {
+"summary": "Researchers identified a new malware family called Volta‑Autodoxer that uses AI tools to automatically gather victims' credentials, credit‑card numbers, Discord sessions, and UberEats receipts.",
+"why": "Developers of security tools need to account for AI‑enhanced data‑exfiltration techniques when designing defenses.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"malware",
+"ai",
+"security"
+]
+}
+}
+]

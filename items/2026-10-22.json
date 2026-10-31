@@ -1,0 +1,3564 @@
+[
+{
+"id": "01d711ed39c8",
+"key": "https://anthropic.com/news/open-call-guest-investigators-life-sciences",
+"source": "anthropic_news",
+"source_name": "Anthropic",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+"title": "Open call for guest investigators in the life sciences",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-23T00:39:07Z",
+"excerpt": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+"meta": {},
+"ai": {
+"summary": "Anthropic announced an open call inviting life‑science researchers to collaborate on special projects using its AI systems.",
+"why": "Could lead to AI‑driven biotech tools and research partnerships.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"anthropic",
+"life-sciences",
+"collaboration"
+]
+}
+},
+{
+"id": "0a99dff3e738",
+"key": "https://cohere.com/blog/can-ai-understand-culture",
+"source": "cohere_blog",
+"source_name": "Cohere",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://cohere.com/blog/can-ai-understand-culture",
+"title": "Can AI understand culture?",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T11:48:02Z",
+"excerpt": "Can AI understand culture?",
+"meta": {},
+"ai": {
+"summary": "Cohere published a discussion piece questioning whether AI systems can comprehend cultural contexts.",
+"why": "",
+"category": "research",
+"importance": 1,
+"tags": [
+"cohere",
+"culture",
+"ai"
+]
+}
+},
+{
+"id": "10641c55eae4",
+"key": "https://anthropic.com/research/formal-verification",
+"source": "anthropic_research",
+"source_name": "Anthropic Research",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://www.anthropic.com/research/formal-verification",
+"title": "LLMs are making formal software verification feasible at a much larger scale",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-23T00:39:07Z",
+"excerpt": "Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this is beginning to change. Here, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.",
+"meta": {},
+"ai": {
+"summary": "Anthropic researchers used Claude to automatically prove security properties in over 100 open‑source libraries, demonstrating that LLMs can scale formal software verification to large codebases.",
+"why": "Developers could leverage LLMs to add formal guarantees to their projects more efficiently.",
+"category": "research",
+"importance": 4,
+"tags": [
+"anthropic",
+"formal-verification",
+"claude",
+"security"
+]
+}
+},
+{
+"id": "17e4c14f93e9",
+"key": "arxiv:2610.28402",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.28402",
+"title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying initial assets, incrementally arriving multimodal requests, and explicit requirements for state changes and content preservation. Performance is assessed along four evaluation dimensions: task execution, state consistency, visual fidelity, and audiovisual coordination, instantiated…",
+"meta": {
+"upvotes": 441,
+"comments": 2,
+"authors": [
+"StreamEval Team"
+],
+"github": "https://github.com/StreamEval/StreamEval"
+},
+"ai": {
+"summary": "StreamEval is a benchmark that evaluates interactive streaming video generation models across five tasks—avatar dialogue, avatar performance, world generation, instruction editing, and reference editing—using 300 scripted test cases lasting 15‑300 seconds each.",
+"why": "It gives developers a standardized way to measure real‑time video generation capabilities, helping guide model improvements and product integration.",
+"category": "research",
+"importance": 3,
+"tags": [
+"streaming-video",
+"benchmark",
+"interactive"
+]
+}
+},
+{
+"id": "1b7e7d671b45",
+"key": "https://anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+"source": "anthropic_news",
+"source_name": "Anthropic",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+"title": "Donating Agent Skills to the Agentic AI Foundation",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T21:33:19Z",
+"excerpt": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.",
+"meta": {},
+"ai": {
+"summary": "Anthropic donated its Agent Skills open standard to the Agentic AI Foundation, a specification used by over 70 platforms such as ChatGPT, Cursor, GitHub Copilot, and VS Code.",
+"why": "Standardizing agent capabilities can simplify integration and accelerate ecosystem growth for developers building AI agents.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"anthropic",
+"agent-skills",
+"agentic-ai-foundation"
+]
+}
+},
+{
+"id": "2be29ac07a69",
+"key": "arxiv:2610.29357",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.29357",
+"title": "Memory-Centric Continual Learning for AI Agents",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Autonomous agents powered by foundation models can reason, plan, and use tools, but their fixed weights and context limits hinder sustained learning from experience over long-term deployment. While external memory systems attempt to bridge this gap, they mostly act as passive retrieval caches, evaluated primarily by whether they can recall stored facts or past interactions. Whether memory can drive genuine continual learning remains an open question. In this paper, we introduce Memory-Centric Continual Learning (MCCL), arguing that memory should be judged by whether it improves future actions, not merely what it retrieves. MCCL has three main parts. First, a three-axis taxonomy organizes…",
+"meta": {
+"upvotes": 19,
+"comments": 1,
+"authors": [
+"Dongfang Li",
+"Zhuoen Chen",
+"Bonian Jia",
+"Zixuan Liu",
+"Zhengxuan Lu",
+"Can Deng"
+],
+"org": "SLAI-AITP"
+},
+"ai": {
+"summary": "The paper presents Memory‑Centric Continual Learning, a framework where agents use an external memory not just for retrieval but to drive ongoing weight updates for long‑term learning.",
+"why": "Offers a strategy for building agents that can adapt over time, valuable for products requiring continual improvement after deployment.",
+"category": "research",
+"importance": 3,
+"tags": [
+"continual-learning",
+"memory",
+"agents",
+"foundation-models"
+]
+}
+},
+{
+"id": "382b50d6ef8f",
+"key": "https://x.ai/news/partnernetworkannouncement",
+"source": "xai_news",
+"source_name": "xAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://x.ai/news/partnernetworkannouncement",
+"title": "Introducing the SpaceX Super Intelligence Partner Network",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T17:08:08Z",
+"excerpt": "Our official program for companies building products, solutions, and services with Grok for our joint prospects and customers.",
+"meta": {},
+"ai": {
+"summary": "xAI announced the SpaceX Super Intelligence Partner Network, a program for companies to build products and services using the Grok model.",
+"why": "Creates a channel for developers to access Grok’s capabilities in commercial solutions, potentially expanding the ecosystem.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"xai",
+"grok",
+"partnernetwork"
+]
+}
+},
+{
+"id": "3bda01f652f3",
+"key": "arxiv:2610.20538",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.20538",
+"title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone. Yet their data and training remain closed, and open progress is held back by the quantity and quality of available data and by the pipelines and methods for producing it. Quality is the harder of the two, since a sample must be correct as a program, well built, and above all visually right once…",
+"meta": {
+"upvotes": 66,
+"comments": 1,
+"authors": [
+"Qiushi Sun",
+"Jingyang Gong",
+"Yang Liu",
+"Qiaosheng Chen",
+"Zhangyue Yin",
+"Zixian Huang"
+],
+"github": "https://github.com/QiushiSun/PrismaCoder",
+"org": "NLP Group of The University of Hong Kong"
+},
+"ai": {
+"summary": "PrismaCoder is an open‑source multimodal code‑intelligence system that generates code and visual artifacts by decomposing tasks into rubric‑based sub‑steps.",
+"why": "It provides developers with a free tool to experiment with multimodal programming assistance, potentially reducing reliance on closed‑source models.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"prismacoder",
+"multimodal",
+"code-intelligence"
+]
+}
+},
+{
+"id": "3c9a07320f2b",
+"key": "arxiv:2610.29968",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.29968",
+"title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-23T07:28:59Z",
+"excerpt": "As LLMs expand their language coverage, evaluating how well they understand and represent diverse cultures becomes increasingly important. However, many benchmarks remain English-centric, with limited cultural coverage and a focus on factual knowledge over its application in real-world cultural contexts. We propose CulturalRiddles, a benchmark of original, culturally grounded riddles created entirely by humans through a participatory community effort, spanning 62 cultures (45 countries, 51 languages). These riddles are deeply rooted in their respective cultures and require abductive and compositional reasoning, alongside detailed factual and social knowledge, language skills, and an…",
+"meta": {
+"upvotes": 35,
+"comments": 2,
+"authors": [
+"My Chiffon Nguyen",
+"Tianyi Hu",
+"Vinod Anbalagan",
+"Henry Gagnier",
+"Pouya Sadeghi",
+"Farah Abdou"
+],
+"github": "https://github.com/Cohere-Labs-Community/CulturalRiddles",
+"org": "Cohere Labs Community"
+},
+"ai": {
+"summary": "CulturalRiddles is a benchmark of human-created riddles spanning 62 cultures, 45 countries, and 51 languages, designed to evaluate LLMs' understanding of diverse cultural contexts beyond factual knowledge.",
+"why": "Useful for developers aiming to reduce cultural bias and improve the multilingual cultural competence of their models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"benchmark",
+"multilingual",
+"cultural-ai",
+"evaluation"
+]
+}
+},
+{
+"id": "4b9c1d344951",
+"key": "arxiv:2610.29722",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.29722",
+"title": "Retrieval Augmented Generation Compositionality",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T17:08:08Z",
+"excerpt": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale. We pre-declare three hypotheses and introduce LASAGNA, an open-source framework for controlled RAG evaluation. We test 450 configurations across eight benchmarks and corpora ranging from 5K to 200K…",
+"meta": {
+"upvotes": 49,
+"comments": 1,
+"authors": [
+"Ido Levy",
+"Segev Shlomov",
+"Leshem Choshen"
+],
+"github": "https://github.com/dolev31/lasagna",
+"org": "IBM"
+},
+"ai": {
+"summary": "A paper titled “Retrieval Augmented Generation Compositionality” investigates how combined RAG components (retrieval, reranking, augmentation, etc.) interact at scale and affect answer faithfulness.",
+"why": "Provides insights for developers building RAG pipelines about which components synergize best.",
+"category": "research",
+"importance": 3,
+"tags": [
+"rag",
+"retrieval",
+"generation"
+]
+}
+},
+{
+"id": "5a94a0dc8c36",
+"key": "arxiv:2610.29545",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.29545",
+"title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T21:33:19Z",
+"excerpt": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower precision therefore lets more sequences share an accelerator. Existing state quantizers round the state after every generated token and report that four bits lose accuracy unless the bit width is raised or the model is fine-tuned.\\par We introduce PACE, a post-hoc four-bit state quantizer. PACE rounds the state only once every few generated tokens, as chunked kernels already do once per chunk during prefill, and keeps the tokens generated in between in a small buffer…",
+"meta": {
+"upvotes": 19,
+"comments": 6,
+"authors": [
+"Patrick Haller",
+"Filipe Laitenberger",
+"Alan Akbik"
+],
+"org": "Humboldt Universität zu Berlin"
+},
+"ai": {
+"summary": "The paper PACE proposes a post‑hoc four‑bit quantizer for the recurrent state of linear‑attention language models, reducing memory while preserving accuracy.",
+"why": "Enables more efficient inference of large models on limited hardware, useful for developers deploying high‑throughput services.",
+"category": "research",
+"importance": 3,
+"tags": [
+"pace",
+"quantization",
+"language-models"
+]
+}
+},
+{
+"id": "6ab02533a2b9",
+"key": "arxiv:2610.17860",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.17860",
+"title": "Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Agent Skills improve LLM agents by making task knowledge reusable across sessions. Learning transferable Skills requires evidence about a procedure and its conditions of use, which a successful task attempt can leave untested. We introduce Socratic Skill Learning (SSL), which interleaves expert teaching with Student practice. An Educator guides investigation while the Student remains the sole environment operator and Skill author, able to question, test, and adapt advice. To test reuse beyond the learning task, we construct SkillTransferBench, with 35 task families and 408 executable cases, pairing public variation specifications with held-out evaluation in fresh solver sessions. On the…",
+"meta": {
+"upvotes": 46,
+"comments": 2,
+"authors": [
+"Letian Zhu",
+"Han Li",
+"Yifan Yao",
+"Xinping Lei",
+"Xinyu Che",
+"Jiahao Wang"
+],
+"github": "https://github.com/NJU-LINK/Socratic-Skill-Learning",
+"org": "NJU-LINK Lab"
+},
+"ai": {
+"summary": "Socratic Skill Learning (SSL) interleaves expert teaching with student practice, allowing LLM agents to acquire and adapt reusable skills through questioning and testing.",
+"why": "Enables creation of modular, transferable agent capabilities that can be reused across different tasks.",
+"category": "research",
+"importance": 3,
+"tags": [
+"skill-learning",
+"llm",
+"agents",
+"teaching"
+]
+}
+},
+{
+"id": "6c009dc51ffb",
+"key": "arxiv:2610.28887",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.28887",
+"title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers. To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the team using agents with varying expertise. However, realizing this design requires more than diverse backgrounds. When experiments are costly, a team can test only a limited number of ideas, thereby creating the need to balance exploration and exploitation when selecting a subset of researchers to propose and execute new experiments. Furthermore, each result should shape what the team tries next. We…",
+"meta": {
+"upvotes": 36,
+"comments": 2,
+"authors": [
+"Yujian Liu",
+"Li An",
+"Zelin He",
+"Jacob Helwig",
+"Jiabao Ji",
+"Rohit Jain"
+],
+"org": "University of California, Santa Barbara"
+},
+"ai": {
+"summary": "The authors propose building AI research teams of heterogeneous agents to autonomously discover linear attention architectures, using orthogonal expertise to avoid local minima during costly experiments.",
+"why": "It suggests a framework for developers to orchestrate multiple AI agents for collaborative model‑architecture search, potentially accelerating innovation.",
+"category": "research",
+"importance": 3,
+"tags": [
+"autonomous",
+"agents",
+"attention",
+"architecture-search"
+]
+}
+},
+{
+"id": "6c88290410f0",
+"key": "arxiv:2610.29997",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.29997",
+"title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained across operation categories and human-motion sources, together with 2) BiHOI, a multi-view dataset of 1,575 sequences spanning 229 objects and emphasizing sustained bimanual interaction, where…",
+"meta": {
+"upvotes": 155,
+"comments": 2,
+"authors": [
+"Mingze Sun",
+"Ziang Cao",
+"Yuan Fei",
+"Qiankuan Tao",
+"Zihan Wang",
+"Tianqi Liu"
+],
+"github": "https://github.com/Ropedia/DONIC",
+"org": "Ropedia"
+},
+"ai": {
+"summary": "DONIC is introduced as the first generalist bimanual dexterous tracking controller trained jointly on human demonstration data to handle coordinated two‑hand manipulation tasks.",
+"why": "It expands the range of robotic manipulation capabilities developers can leverage, enabling more complex dual‑hand tasks without task‑specific training.",
+"category": "research",
+"importance": 3,
+"tags": [
+"bimanual",
+"robotics",
+"control",
+"demonstrations"
+]
+}
+},
+{
+"id": "789634a942f8",
+"key": "arxiv:2610.11942",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.11942",
+"title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition requires an expectation of what should have followed the action. Existing GUI world models provide one, but they output it as text, code, or images, so checking it against the observed screen requires a second model to judge the two. We argue that a world model meant for verification should instead predict in the space in which observations are encoded, and present LGWM, a…",
+"meta": {
+"upvotes": 174,
+"comments": 2,
+"authors": [
+"Jiaming Zhang",
+"Xuan Wang",
+"Fuyao Zhang",
+"Yang Cao",
+"Lingjuan Lyu",
+"Wei Yang Bryan Lim"
+],
+"github": "https://github.com/jiamingzhang94/lgwm"
+},
+"ai": {
+"summary": "The paper proposes using world models as runtime verifiers for GUI agents, checking the expected transition after an action rather than just the resulting screen, to detect attacks that reuse legitimate screens.",
+"why": "It offers a concrete method to improve safety of autonomous GUI agents, which developers can integrate into testing pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"gui",
+"world-models",
+"agents",
+"security"
+]
+}
+},
+{
+"id": "7e01e6c1589c",
+"key": "arxiv:2610.28698",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.28698",
+"title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from 0.8B to 27B, six data budgets from 50 to 1,600 hours, and five mixtures ranging from Minecraft-only data to diverse multi-world corpora. We assess performance and generalization using three-level…",
+"meta": {
+"upvotes": 73,
+"comments": 2,
+"authors": [
+"Kuan Zhang",
+"Yukun Chen",
+"Zhihao Yang",
+"Yue Su",
+"Xiangnan Wu",
+"Zirong Chen"
+],
+"github": "https://github.com/THUSI-Lab/GameScaling",
+"org": "Tsinghua Spatial Intelligence Lab"
+},
+"ai": {
+"summary": "A systematic study of continued pre‑training (CPT) for embodied agents across data volume, diversity, and model size shows scaling benefits in virtual worlds with varied visual styles and dynamics.",
+"why": "Insights guide developers on how to allocate compute and data when building more capable agents for simulation environments.",
+"category": "research",
+"importance": 3,
+"tags": [
+"embodied",
+"pretraining",
+"scaling",
+"simulation"
+]
+}
+},
+{
+"id": "7efcf55d8b3f",
+"key": "arxiv:2610.29989",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.29989",
+"title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective jointly optimized with teacher-forced denoising that predicts temporally separated chunks without access to the intervening visual context. Drawing supervision directly from training videos, FCP requires no additional pretrained visual encoder and leaves autoregressive inference…",
+"meta": {
+"upvotes": 165,
+"comments": 2,
+"authors": [
+"Ruopeng Gao",
+"Yukun Huang",
+"Jiarui Hu",
+"Shuai Wang",
+"Wenbo Hu",
+"Ying Shan"
+],
+"github": "https://github.com/TencentARC/Looking-Ahead",
+"org": "ARC Lab, Tencent"
+},
+"ai": {
+"summary": "Future Chunk Prediction (FCP) is added as an auxiliary loss to autoregressive video diffusion models, encouraging them to predict temporally distant frames rather than just local continuity.",
+"why": "Improves video generation models' ability to capture true scene evolution, useful for developers building generative video tools.",
+"category": "research",
+"importance": 2,
+"tags": [
+"video",
+"diffusion",
+"future-prediction",
+"autoregressive"
+]
+}
+},
+{
+"id": "80d7907204ee",
+"key": "arxiv:2610.26828",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.26828",
+"title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs). Whereas existing approaches typically specialize in a single agent interaction interface, we construct executable environments that jointly support graphical user interfaces, model context protocol services, and command-line interfaces, allowing agents to flexibly combine…",
+"meta": {
+"upvotes": 87,
+"comments": 2,
+"authors": [
+"Zhaoyang Wang",
+"Qianhui Wu",
+"Haorui Wang",
+"Simon Yu",
+"Baolin Peng",
+"Canwen Xu"
+],
+"github": "https://github.com/MSR-Orchard/WildAWM",
+"org": "Microsoft Research"
+},
+"ai": {
+"summary": "The paper introduces WildAWM, a pipeline that creates synthetic, controllable computer environments and tasks to train general-purpose computer‑use agents without needing real‑world systems.",
+"why": "Provides a safer, scalable way to develop agents that can operate software, reducing security risks of direct system interaction.",
+"category": "research",
+"importance": 4,
+"tags": [
+"agent",
+"world-model",
+"synthetic-environment",
+"computer-use"
+]
+}
+},
+{
+"id": "82fd4af4b13f",
+"key": "arxiv:2610.28577",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.28577",
+"title": "Cache Engineering for Agents",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states and triggers costly re-prefilling of retained context. Task accuracy can also suffer when too little context is retained to limit re-prefill costs. We propose cache engineering as a new scheme. It…",
+"meta": {
+"upvotes": 149,
+"comments": 1,
+"authors": [
+"Tianyu Fu",
+"Ruoxi Wang",
+"Zihan Min",
+"Zhongqi Ren",
+"Zhihao Li",
+"Tengxuan Liu"
+],
+"github": "https://github.com/thu-nics/AKV",
+"org": "Tsinghua-NICS-EFC"
+},
+"ai": {
+"summary": "The authors propose cache‑engineering techniques for LLM agents to manage key‑value cache growth, addressing costs and context‑length limits during long‑trajectory tasks.",
+"why": "Helps developers build more efficient agents that can handle extended interactions without exceeding model context windows.",
+"category": "research",
+"importance": 3,
+"tags": [
+"cache",
+"llm",
+"agents",
+"efficiency"
+]
+}
+},
+{
+"id": "88cd0feacafb",
+"key": "arxiv:2610.27227",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.27227",
+"title": "Which Agent's Skill Should Change? Group-Relative Credit Assignment for Evolving Multi-Agent Teams",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Cooperative language-model agents can improve without weight updates by revising reusable skills, but only if a shared team reward is traced to the responsible agent and skill. Existing methods credit the skills present in each trajectory, yet presence is not responsibility: a harmful skill active in successful runs still earns positive credit. We present GRSE, Group-Relative Skill Evolution, which assigns behavioral credit by comparison: inspired by GRPO, it executes each question several times under the same skill libraries and contrasts the executions to credit agent--skill pairs, with structured diagnosis of failures. On HotpotQA and LoCoMo with two open-weight actors, GRSE outperforms…",
+"meta": {
+"upvotes": 5,
+"comments": 1,
+"authors": [
+"Yanan Ma",
+"Yang Wang",
+"David Le",
+"Chenhan Yuan",
+"Yizheng Sun",
+"Guangwei Zhang"
+],
+"github": "https://github.com/yananma1029/GRSE-Skills",
+"org": "Mayo Clinic"
+},
+"ai": {
+"summary": "GRSE (Group‑Relative Skill Evolution) introduces a credit‑assignment method that compares skill performance across multiple runs to identify which agent's skill should be updated in cooperative language‑model teams.",
+"why": "It offers a more accurate way for developers to evolve multi‑agent systems without weight updates, improving collaborative behavior.",
+"category": "research",
+"importance": 2,
+"tags": [
+"multi-agent",
+"credit-assignment",
+"skill-evolution",
+"language-model"
+]
+}
+},
+{
+"id": "89ccc8eaf7a1",
+"key": "https://cohere.com/blog/inside-cohere-model-vault-building-verifiable-confidential-ai-inference",
+"source": "cohere_blog",
+"source_name": "Cohere",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://cohere.com/blog/inside-cohere-model-vault-building-verifiable-confidential-ai-inference",
+"title": "Inside Cohere Model Vault: Building a verifiable confidential AI inference",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "Inside Cohere Model Vault: Building a verifiable confidential AI inference",
+"meta": {},
+"ai": {
+"summary": "Cohere’s article details the architecture and security guarantees behind its verifiable confidential AI inference in Model Vault, including enclave isolation and attestation.",
+"why": "It provides developers with a deeper understanding of how to trust and audit confidential inference pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"cohere",
+"modelvault",
+"confidential-computing",
+"verifiable"
+]
+}
+},
+{
+"id": "91c46b34d45f",
+"key": "arxiv:2610.29441",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.29441",
+"title": "Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Full 3D attention is costly in video Diffusion Transformers. Block-sparse attention reduces this cost by computing only selected attention blocks. However, existing methods either overlook the potential to optimize sparsity allocation or rely on heuristic rules or local metrics to guide it. In this work, we observe that sparsifying attention in different layers and at different denoising steps affects final-video fidelity to substantially different degrees. Yet the identities of the most sensitive layer-step pairs remain nearly unchanged across inputs. Building on these findings, we propose Allocating Layer-step Latency by Output Tests (ALLOT), a training-free sparsity allocation method…",
+"meta": {
+"upvotes": 10,
+"comments": 1,
+"authors": [
+"Tianze Xia",
+"Xiaoling Zhou",
+"Ruya Lan",
+"Yiqiao Liao",
+"Chengru Song",
+"Shiming Xiang"
+],
+"org": "KlingAI Research"
+},
+"ai": {
+"summary": "The paper presents a training‑free method to allocate block‑sparse attention in video diffusion transformers, dynamically adjusting sparsity per layer and denoising step to preserve video fidelity while reducing compute.",
+"why": "Developers can adopt this technique to speed up video generation models without sacrificing quality, lowering hardware requirements.",
+"category": "research",
+"importance": 3,
+"tags": [
+"video",
+"diffusion",
+"sparse-attention",
+"efficiency"
+]
+}
+},
+{
+"id": "95e1e8801452",
+"key": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+"title": "Building agents: When to fold subagents into your main agent loop",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T21:33:19Z",
+"excerpt": "When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.",
+"meta": {},
+"ai": {
+"summary": "Claude Platform advises merging sub‑agents into the main agent loop and using progressive context disclosure to lower latency, cost, and improve output quality.",
+"why": "Applying this pattern can make Claude‑based agents cheaper and faster for production use.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude",
+"subagents",
+"optimization"
+]
+}
+},
+{
+"id": "96044f70224e",
+"key": "arxiv:2610.30108",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.30108",
+"title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use? We introduce PAPAV, a unified capability-centric framework of five recurring functions: Perceive the current state, Anticipate action effects, Plan a feasible course, Act through an interface or body…",
+"meta": {
+"upvotes": 16,
+"comments": 1,
+"authors": [
+"Yanzhe Chen",
+"Ziyi Yang",
+"Jifeng Zhu",
+"Qiming Huang",
+"Ruihe An",
+"Peiyao Xu"
+],
+"github": "https://github.com/showlab/Awesome-Multimodal-Embodied-Agent",
+"org": "Show Lab"
+},
+"ai": {
+"summary": "The authors define multimodal embodied agents (MMEAs) that combine multimodal reasoning with physical actuation, and analyze the differences when transitioning from computer‑use to robot‑use scenarios.",
+"why": "Understanding these differences helps developers design agents that can seamlessly move between virtual tool use and real‑world robotics.",
+"category": "research",
+"importance": 3,
+"tags": [
+"multimodal",
+"embodied",
+"robotics",
+"agents"
+]
+}
+},
+{
+"id": "97a5e6921062",
+"key": "arxiv:2610.28589",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.28589",
+"title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore investigate whether post-training can also improve robot planners. However, applying it across robot harnesses requires accommodating different execution mechanisms, including VLA skill invocation and control-code generation. To this end, we introduce AgenticRoboRL, a framework for post-training robot…",
+"meta": {
+"upvotes": 43,
+"comments": 2,
+"authors": [
+"Xinxin Liu",
+"Bingxin Xu",
+"Wenrui Bao",
+"Ming Li",
+"Wentao Bao",
+"Chen Chen"
+],
+"github": "https://github.com/xinxinliu-ai/AgenticRoboRL",
+"org": "University of Central Florida"
+},
+"ai": {
+"summary": "AgenticRoboRL explores post‑training of coding‑agent style models to enhance robot planner capabilities, aiming to improve manipulation performance without relying on closed‑source models.",
+"why": "Shows a path for open‑source robotics teams to boost planner quality via fine‑tuning, reducing dependence on proprietary APIs.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"robotics",
+"post-training",
+"coding-agent",
+"open-source"
+]
+}
+},
+{
+"id": "a7b245b67488",
+"key": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
+"title": "The full Claude Platform, available on Google Cloud",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-23T00:39:07Z",
+"excerpt": "Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.",
+"meta": {},
+"ai": {
+"summary": "Anthropic made the full Claude Platform available on Google Cloud, allowing users to access Claude models with Google Cloud authentication, billing, and commitment retirement.",
+"why": "Enables seamless integration of Claude into existing GCP workflows and cost management for developers.",
+"category": "models",
+"importance": 3,
+"tags": [
+"anthropic",
+"google-cloud",
+"claude",
+"platform"
+]
+}
+},
+{
+"id": "a9dc087bb641",
+"key": "arxiv:2610.26659",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.26659",
+"title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D mapping. SpatialScout comprises 80 diverse indoor scenes containing 3,140 target objects. Given an object inventory, RGB observations, camera calibration, and camera poses, agents control a camera to explore each scene and estimate object centers in a shared coordinate frame. The…",
+"meta": {
+"upvotes": 160,
+"comments": 3,
+"authors": [
+"Zhaoxi Zhang",
+"Hao Liang",
+"Linxuan Wu",
+"Yiming Wu",
+"Yifu Yuan",
+"Kun Liang"
+],
+"github": "https://github.com/JesseZZZZZ/SpatialScout",
+"org": "Peking University"
+},
+"ai": {
+"summary": "SpatialScout is a benchmark for testing vision‑language model agents on active object‑level 3D mapping, featuring 80 indoor scenes with 3,140 target objects for autonomous exploration.",
+"why": "It lets developers assess how well VLM agents can build metric maps through self‑driven perception, a key step for robotics and AR applications.",
+"category": "research",
+"importance": 3,
+"tags": [
+"vlm",
+"3d-mapping",
+"benchmark"
+]
+}
+},
+{
+"id": "c7dc340cb240",
+"key": "https://anthropic.com/research/formal-verification",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://www.anthropic.com/research/formal-verification",
+"title": "LLMs are making formal software verification feasible at a much larger scale",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-26T19:55:46Z",
+"excerpt": "We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.",
+"meta": {},
+"ai": {
+"summary": "Claude reports that large language models are enabling formal software verification at a larger scale, offering a way to prove code is bug‑free.",
+"why": "Developers can leverage LLMs to automate parts of the verification process, potentially reducing manual effort.",
+"category": "research",
+"importance": 3,
+"tags": [
+"llm",
+"formalverification",
+"softwarequality"
+]
+}
+},
+{
+"id": "d7f76457dca3",
+"key": "arxiv:2610.21114",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.21114",
+"title": "Spectral-Spatial Interpretation",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each spatial position, SSI fixes the observed surrounding context, defines a conditional game over the channels at that position, and applies the Shapley value to this local game. The result is a full spectral-spatial attribution matrix rather than a single heatmap or a global channel…",
+"meta": {
+"upvotes": 513,
+"comments": 2,
+"authors": [
+"Haotian Ma",
+"Ruqi Yang",
+"Philip Townsend"
+],
+"github": "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation"
+},
+"ai": {
+"summary": "The authors propose Spectral-Spatial Interpretation (SSI), a full-grid attribution method that assigns importance to each position‑channel pair in multispectral images, enabling localized channel relevance analysis.",
+"why": "It provides developers of vision models for multispectral data a more precise debugging tool than separate spatial heatmaps or global channel scores.",
+"category": "research",
+"importance": 3,
+"tags": [
+"multispectral",
+"interpretability",
+"attribution"
+]
+}
+},
+{
+"id": "e6fbeb7423a9",
+"key": "arxiv:2610.27592",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.27592",
+"title": "Real In, Real Out: What If We Only Use Real Data for Scene Text Editing?",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Aiming to modify textual content while preserving the original style, Scene Text Editing (STE) has significant practical value in many applications. STE typically requires paired images before and after editing for training. However, recent approaches rely heavily on synthetic paired data and complex disentanglement strategies. They struggle to faithfully capture the diversity and complexity of natural scenes, often producing artifacts or hallucinations. In this work, we challenge the common practice and investigate whether STE can be driven by turning each real sample into its own paired supervision. Concretely, we explore multiple ways to disrupt the original image (e.g., Crop, Shuffle…",
+"meta": {
+"upvotes": 8,
+"comments": 1,
+"authors": [
+"Xingsong Ye",
+"Yongkun Du",
+"Jiaxin Zhang",
+"Chong Sun",
+"Zhineng Chen"
+],
+"github": "https://github.com/YesianRohn/TextRIRO",
+"org": "Fudan University"
+},
+"ai": {
+"summary": "The paper challenges synthetic data reliance in scene text editing by training solely on real paired images, aiming to preserve style while editing text without hallucinations.",
+"why": "Developers can build more reliable text‑editing tools that work on natural images without needing extensive synthetic datasets.",
+"category": "research",
+"importance": 2,
+"tags": [
+"scene-text",
+"editing",
+"real-data",
+"vision"
+]
+}
+},
+{
+"id": "ed3b2f634312",
+"key": "https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault",
+"source": "cohere_blog",
+"source_name": "Cohere",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault",
+"title": "Introducing Confidential Computing on Cohere Model Vault",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "Introducing Confidential Computing on Cohere Model Vault",
+"meta": {},
+"ai": {
+"summary": "Cohere has added confidential computing to its Model Vault, enabling secure, verifiable inference on private data without exposing it to the host.",
+"why": "Developers can run sensitive workloads on Cohere’s models while keeping data encrypted and auditable.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"cohere",
+"modelvault",
+"confidential-computing"
+]
+}
+},
+{
+"id": "f7227b8874b8",
+"key": "https://openai.com/index/uber-chatgpt-work-rollout",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/uber-chatgpt-work-rollout",
+"title": "Uber brings ChatGPT Work to all employees with OpenAI",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T17:08:08Z",
+"excerpt": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+"meta": {},
+"ai": {
+"summary": "Uber is expanding the internal rollout of ChatGPT Work to over 30,000 employees for tasks like research, data analysis, and workflow automation.",
+"why": "Shows a large‑scale corporate adoption of AI copilots, indicating potential demand for integration tools and APIs.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"uber",
+"chatgpt",
+"workplace"
+]
+}
+},
+{
+"id": "fd77c06a241d",
+"key": "arxiv:2610.29680",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.29680",
+"title": "TraceForge: Distilling with Your Own Thinking",
+"published": "2026-10-22T00:00:00Z",
+"fetched": "2026-10-22T04:40:17Z",
+"excerpt": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-source model is still entirely routine; the restriction applies to their own outputs alone. Recent work recovers the hidden reasoning by replaying encrypted blocks across models. It somehow works, but it breaks the providers' terms of service, so it is not something a product can be built on…",
+"meta": {
+"upvotes": 44,
+"comments": 2,
+"authors": [
+"Yan Wang"
+],
+"org": "Independent Research"
+},
+"ai": {
+"summary": "TraceForge proposes using an LLM to generate detailed reasoning traces as training data for another model, enabling distillation that preserves chain‑of‑thought information.",
+"why": "Allows developers to improve model performance by training on richer, trace‑based data rather than just final answers.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"distillation",
+"llm",
+"reasoning-trace",
+"training"
+]
+}
+},
+{
+"id": "c3ba0eac9f9f",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+"title": "ollama v0.40.9",
+"published": "2026-10-22T01:33:10Z",
+"fetched": "2026-10-22T04:40:20Z",
+"excerpt": "What's Changed\nllama.cpp update\nFull Changelog : v0.40.8...v0.40.9-rc0",
+"meta": {},
+"ai": {
+"summary": "Ollama released version 0.40.9, which includes an update to the underlying llama.cpp library.",
+"why": "Ensures compatibility with the latest local LLM inference optimizations and bug fixes from the llama.cpp project.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"ollama",
+"llama.cpp",
+"local-llm",
+"release"
+]
+}
+},
+{
+"id": "fbfa40bafe26",
+"key": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+"title": "Claude Now Works with Google Docs, Sheets, and Slides",
+"published": "2026-10-22T02:17:58Z",
+"fetched": "2026-10-22T21:33:23Z",
+"excerpt": "",
+"meta": {
+"points": 88,
+"comments": 14,
+"hn_url": "https://news.ycombinator.com/item?id=50190357"
+},
+"ai": {
+"summary": "Anthropic’s Claude was integrated with Google Docs, Sheets, and Slides, allowing users to interact with the model directly inside those apps.",
+"why": "Provides developers a ready‑made AI assistant for productivity tools, opening opportunities for extensions and plugins.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude",
+"google-docs"
+]
+}
+},
+{
+"id": "8cc72394d83c",
+"key": "https://wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+"title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+"published": "2026-10-22T02:24:17Z",
+"fetched": "2026-10-22T04:40:19Z",
+"excerpt": "Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. They’re now being “broadly exploited” across the internet.",
+"meta": {},
+"ai": {
+"summary": "Hackers are broadly exploiting the PHP2Shell vulnerabilities across the internet, with AWS logging exploitation attempts four days before the patches were officially released.",
+"why": "Critical security alert for any developer running PHP services; immediate patching is required to prevent compromise.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"security",
+"php",
+"vulnerability",
+"aws"
+]
+}
+},
+{
+"id": "07ee9278c5a3",
+"key": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+"title": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF is trending on Hugging Face",
+"published": "2026-10-22T04:06:52Z",
+"fetched": "2026-10-27T12:07:30Z",
+"excerpt": "text-generation · 385 likes · 31,320 downloads",
+"meta": {
+"likes": 385,
+"downloads": 31320
+},
+"ai": {
+"summary": "The Hugging Face model orcarouter/DeepSeek‑V4.1‑Flash‑1017‑abliterated‑GGUF has become popular, receiving 251 likes and 13,441 downloads.",
+"why": "High download numbers indicate strong community interest, suggesting the model could be a useful open‑source alternative for text generation tasks.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"deepseek",
+"gguf",
+"huggingface"
+]
+}
+},
+{
+"id": "4dda8459e0e8",
+"key": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+"source": "gh_claude_code",
+"source_name": "Claude Code releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+"title": "claude-code v2.1.308",
+"published": "2026-10-22T04:34:55Z",
+"fetched": "2026-10-22T04:40:20Z",
+"excerpt": "What's changed\nBug fixes and reliability improvements",
+"meta": {},
+"ai": {
+"summary": "Claude Code released version 2.1.308, which includes bug fixes and reliability improvements.",
+"why": "",
+"category": "agents",
+"importance": 1,
+"tags": [
+"claude-code",
+"anthropic",
+"release"
+]
+}
+},
+{
+"id": "6c6d682ff08d",
+"key": "https://blogs.nvidia.com/blog/european-public-sector-open-models",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+"title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+"published": "2026-10-22T05:00:02Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA highlighted public‑sector projects that run open models on government‑controlled infrastructure to preserve data sovereignty and support local language services.",
+"why": "Shows a pathway for secure, customizable AI in government apps, useful for developers building compliant solutions.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"public-sector",
+"open-models",
+"data-sovereignty"
+]
+}
+},
+{
+"id": "2a427115f7e5",
+"key": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+"title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+"published": "2026-10-22T05:00:19Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a […]",
+"meta": {},
+"ai": {
+"summary": "European teams are using NVIDIA Earth‑2 open models to generate high‑resolution weather and climate forecasts for local decision‑making in energy, insurance, and transport.",
+"why": "Enables developers to build domain‑specific forecasting services on top of open weather models.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"earth-2",
+"weather",
+"climate"
+]
+}
+},
+{
+"id": "67ae21cae635",
+"key": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+"title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+"published": "2026-10-22T05:00:23Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open […]",
+"meta": {},
+"ai": {
+"summary": "European retailers are deploying open models and NVIDIA‑accelerated AI to cut inference costs by 90% and simulate robotic fleets in digital twins for fulfillment centers.",
+"why": "Demonstrates cost‑effective AI for retail logistics, offering developers templates for similar deployments.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"retail",
+"open-models",
+"digital-twin"
+]
+}
+},
+{
+"id": "0c861e7fc91b",
+"key": "https://blogs.nvidia.com/blog/dsx-power",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/dsx-power/",
+"title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+"published": "2026-10-22T05:00:25Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion […]",
+"meta": {},
+"ai": {
+"summary": "Companies are using NVIDIA DSX AI Factory Platform to integrate grid planning and AI factory operations, addressing power bottlenecks in infrastructure.",
+"why": "Highlights a unified AI‑driven approach to energy management that developers can leverage for smart grid applications.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"dsx",
+"grid",
+"energy"
+]
+}
+},
+{
+"id": "761142baf3a5",
+"key": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+"title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+"published": "2026-10-22T05:00:27Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA expanded its Cosmos platform with new tools, simulation checkpoints, and Data Factory blueprints to train, evaluate, and deploy world models for physical AI systems.",
+"why": "Provides developers a ready-to-use stack for creating simulation‑based AI that can model real‑world dynamics.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"nvidia",
+"cosmos",
+"world-models",
+"simulation"
+]
+}
+},
+{
+"id": "0aec57611ae0",
+"key": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+"title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+"published": "2026-10-22T05:00:56Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF […]",
+"meta": {},
+"ai": {
+"summary": "At NVIDIA GTC Berlin, European financial firms announced they are building proprietary AI systems on NVIDIA hardware using open-weight models, with Revolut adopting the PRAGMA foundation model.",
+"why": "Shows a trend toward in‑house AI stacks in finance, offering developers opportunities to build on open models with GPU acceleration.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"finance",
+"open-models",
+"pragma"
+]
+}
+},
+{
+"id": "9e7ab1cacfb6",
+"key": "https://github.com/openai/openai-cli",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/openai/openai-cli",
+"title": "OpenAI CLI",
+"published": "2026-10-22T05:23:11Z",
+"fetched": "2026-10-22T11:48:05Z",
+"excerpt": "",
+"meta": {
+"points": 237,
+"comments": 111,
+"hn_url": "https://news.ycombinator.com/item?id=50191507"
+},
+"ai": {
+"summary": "OpenAI CLI is a command‑line interface that lets developers interact with OpenAI’s API, manage models, and run completions directly from the terminal.",
+"why": "It streamlines integration of OpenAI services into scripts and CI pipelines, improving developer productivity.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openai",
+"cli",
+"developer-tools"
+]
+}
+},
+{
+"id": "a4405b9b1152",
+"key": "https://openai.com/index/forward-deployed-engineering-means",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/forward-deployed-engineering-means",
+"title": "What FDE means at OpenAI",
+"published": "2026-10-22T06:00:00Z",
+"fetched": "2026-10-22T17:08:08Z",
+"excerpt": "What forward deployed engineering means at OpenAI",
+"meta": {},
+"ai": {
+"summary": "OpenAI published an internal guide describing the role and responsibilities of Forward Deployed Engineering (FDE) teams.",
+"why": "Helps developers understand how OpenAI integrates AI into production systems and may inform similar team structures.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"openai",
+"fde",
+"engineering"
+]
+}
+},
+{
+"id": "f897d3d60fa7",
+"key": "https://latent.space/p/ainews-openais-patch-the-planet-program",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+"title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+"published": "2026-10-22T07:42:44Z",
+"fetched": "2026-10-22T11:48:04Z",
+"excerpt": "The Big Hardening begins",
+"meta": {},
+"ai": {
+"summary": "OpenAI’s Patch the Planet program allegedly used a GPT‑5.6 model to discover PHP2Shell vulnerabilities affecting 70% of web servers, coordinating a two‑month response effort.",
+"why": "If true, it shows large‑scale AI can be weaponized for vulnerability discovery, raising security concerns for developers deploying AI tools.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"openai",
+"security",
+"vulnerabilities"
+]
+}
+},
+{
+"id": "0f1a5bbf62db",
+"key": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+"title": "Ensemble forecasting with IBM Granite time-series models",
+"published": "2026-10-22T07:51:31Z",
+"fetched": "2026-10-22T11:48:01Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "IBM released Granite time‑series models and an ensemble forecasting framework that combines multiple Granite models to improve prediction accuracy on temporal data.",
+"why": "Developers can integrate the ensemble into existing pipelines to achieve more reliable forecasts for finance, weather, or IoT workloads.",
+"category": "models",
+"importance": 2,
+"tags": [
+"ibm",
+"granite",
+"time-series"
+]
+}
+},
+{
+"id": "b0d5e9a1fc09",
+"key": "https://allenai.org/blog/olmoearth-v1-3",
+"source": "ai2_blog",
+"source_name": "Ai2",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://allenai.org/blog/olmoearth-v1-3",
+"title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+"published": "2026-10-22T08:00:00Z",
+"fetched": "2026-10-22T17:08:08Z",
+"excerpt": "OlmoEarth v1.3 brings state-of-the-art satellite embeddings, precomputed global data, and a browser-based Embeddings Explorer for mapping and analyzing the planet.",
+"meta": {},
+"ai": {
+"summary": "OlmoEarth v1.3 releases satellite embeddings and precomputed global data, plus a browser-based Embeddings Explorer for mapping and analyzing the planet.",
+"why": "Developers can use the embeddings to build geospatial AI applications without training from scratch.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"olmoearth",
+"satellite",
+"embeddings"
+]
+}
+},
+{
+"id": "fcff86eeea17",
+"key": "https://allenai.org/blog/planteur",
+"source": "ai2_blog",
+"source_name": "Ai2",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://allenai.org/blog/planteur",
+"title": "A crop-mapping benchmark for the tropics",
+"published": "2026-10-22T08:00:00Z",
+"fetched": "2026-10-22T17:08:08Z",
+"excerpt": "PLANTEUR extends the PASTIS crop-mapping benchmark to six tropical regions to help evaluate geospatial models across more diverse agricultural systems.",
+"meta": {},
+"ai": {
+"summary": "PLANTEUR extends the PASTIS crop‑mapping benchmark to six tropical regions, providing data for evaluating geospatial models in diverse agricultural systems.",
+"why": "It offers a larger, more varied test set for developers building crop‑mapping AI models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"planteur",
+"crop-mapping",
+"benchmark"
+]
+}
+},
+{
+"id": "887bebcda98b",
+"key": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/",
+"title": "Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\"",
+"published": "2026-10-22T08:35:22Z",
+"fetched": "2026-10-22T11:48:05Z",
+"excerpt": "Anthropic has launched Claude Duet, a proactive AI agent that handles tasks on its own, even when the user is offline. The app is built on Claude Opus 5.5 and connects to services like Gmail, Slack, and Stripe through more than 6,000 connectors. It asks for approval before sensitive actions like payments. With Duet, Anthropic is responding to similar products from xAI, Meta, and OpenAI.\nThe article Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\" appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic launched Claude Duet, an always‑on proactive agent built on Claude Opus 5.5, with over 6,000 connectors to services like Gmail, Slack, and Stripe, and requires user approval for sensitive actions.",
+"why": "Provides a concrete, ready‑to‑use agent platform that developers can adopt or compare against similar offerings from xAI, Meta, and OpenAI.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"anthropic",
+"claude-duet",
+"opena",
+"connectors"
+]
+}
+},
+{
+"id": "70b6e2b29b23",
+"key": "https://technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+"title": "AI’s hidden storage bill: What inference leaves behind",
+"published": "2026-10-22T08:41:18Z",
+"fetched": "2026-10-22T11:48:04Z",
+"excerpt": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…",
+"meta": {},
+"ai": {
+"summary": "The piece outlines the hidden costs of AI inference storage, noting that billions of daily prompts, images, and videos generate massive data that must be stored and managed.",
+"why": "Alerts developers and product teams to consider storage budgeting and data lifecycle management when scaling AI services.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"storage",
+"inference",
+"costs",
+"ai"
+]
+}
+},
+{
+"id": "239e99e627b2",
+"key": "https://technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+"title": "Making the case for context-aware AI",
+"published": "2026-10-22T10:00:00Z",
+"fetched": "2026-10-22T11:48:04Z",
+"excerpt": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
+"meta": {},
+"ai": {
+"summary": "The article argues that enterprise AI systems need context awareness about business operations to avoid missing constraints and relationships that affect decision quality.",
+"why": "Highlights a strategic direction for developers building AI tools for enterprises: incorporate domain‑specific context to improve relevance.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"enterprise",
+"context-aware",
+"ai"
+]
+}
+},
+{
+"id": "e42c8b17e3d3",
+"key": "https://wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+"title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+"published": "2026-10-22T10:00:00Z",
+"fetched": "2026-10-22T11:48:04Z",
+"excerpt": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
+"meta": {},
+"ai": {
+"summary": "Hugging Face released an open-source model that encodes DNA sequences and can predict how genetic variants affect gene activity and health.",
+"why": "Developers can integrate it into bioinformatics pipelines to analyze genomic data without proprietary tools.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"huggingface",
+"dna",
+"genomics",
+"open-model"
+]
+}
+},
+{
+"id": "f5e223bf7df6",
+"key": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
+"title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
+"published": "2026-10-22T10:01:53Z",
+"fetched": "2026-10-22T11:48:05Z",
+"excerpt": "OpenAI teamed up with PerturbAI and Scripps Research to deploy thousands of AI agents that analyzed biological data from millions of mouse cells.\nThe article OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI, in partnership with PerturbAI and Scripps Research, deployed thousands of AI agents that processed mouse brain single‑cell data in 32 minutes, a task that would take human analysts months.",
+"why": "Demonstrates the scalability of AI agents for large‑scale biomedical data analysis, suggesting new workflows for researchers.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"openai",
+"mouse-brain",
+"agents",
+"bioinformatics"
+]
+}
+},
+{
+"id": "bf55dcdc1796",
+"key": "https://theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+"title": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+"published": "2026-10-22T11:00:00Z",
+"fetched": "2026-10-22T11:48:04Z",
+"excerpt": "Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare. It told owners that \"your secrets are safe with me,\" but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning. The Verge and security […]",
+"meta": {},
+"ai": {
+"summary": "Eiliko, a consumer robot with built‑in AI conversation, announced it is hiring an independent security firm after a Verge report revealed that its transcripts could be read by attackers.",
+"why": "Developers of AI‑enabled consumer devices should prioritize secure data handling to avoid similar privacy breaches.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"eilikobot",
+"security",
+"privacy"
+]
+}
+},
+{
+"id": "001960f295f2",
+"key": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+"title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
+"published": "2026-10-22T11:30:56Z",
+"fetched": "2026-10-22T11:48:05Z",
+"excerpt": "Security researchers at Symantec have found an offensive AI agent that hijacks unprotected language models on the web and uses them to attack servers, steal databases, and install cryptominers on its own. It runs up to 100,000 steps without human input. The owner of the hijacked model gets stuck with the bill.\nThe article An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Symantec researchers reported an AI agent that hijacks unsecured language models on the internet, using them to launch autonomous cyber‑attacks, exfiltrate data, and deploy cryptominers without human oversight.",
+"why": "Highlights the need for robust access controls on public LLM endpoints to prevent abuse by malicious autonomous agents.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"security",
+"llm-abuse",
+"cyberattack"
+]
+}
+},
+{
+"id": "10faa951b524",
+"key": "https://theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+"title": "Claude did not invent scorpion antivenom",
+"published": "2026-10-22T12:21:07Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge. Citrini Research, the firm […]",
+"meta": {},
+"ai": {
+"summary": "Anthropic’s Claude failed to produce a scorpion antivenom, generating only preliminary ideas rather than a viable drug.",
+"why": "Illustrates limits of current large language models in complex scientific tasks, informing developers about realistic expectations.",
+"category": "research",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude",
+"drugdevelopment"
+]
+}
+},
+{
+"id": "cc6186e16950",
+"key": "https://theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+"title": "AI agents are ready to shop. Some retailers are wary",
+"published": "2026-10-22T12:30:00Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Using an AI agent to shop for you is a strange experience. Tech companies have marketed them as personal assistants - the democratizing of labor that ordinarily would only be available to the rich and powerful. In practice, at least for buying things, it's more like sending an anxious and apologetic teenager out to the […]",
+"meta": {},
+"ai": {
+"summary": "Retailers express caution about AI agents shopping on their behalf, citing concerns over user experience and trust.",
+"why": "Highlights practical challenges developers face when building consumer‑facing shopping agents.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"ai",
+"agents",
+"retail"
+]
+}
+},
+{
+"id": "f4e147d9ba5b",
+"key": "https://wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
+"title": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
+"published": "2026-10-22T13:00:00Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor.",
+"meta": {},
+"ai": {
+"summary": "Mori is a robot mushroom designed as a piece of home décor that does not speak or perform any actions.",
+"why": "It demonstrates a design strategy that uses cuteness to make robots more acceptable in domestic settings.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"robot",
+"mushroom",
+"homedecor",
+"wired"
+]
+}
+},
+{
+"id": "f9518f1b3389",
+"key": "https://theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+"title": "1Password lets AI agents use your passwords without seeing them",
+"published": "2026-10-22T13:00:00Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all of your connected accounts - you'll still need to grant approval for sign-in requests - but should make it […]",
+"meta": {},
+"ai": {
+"summary": "1Password introduced \"1Password for Agents,\" allowing AI agents to sign into accounts without accessing passwords, with user approval required for each sign‑in.",
+"why": "Enables developers to integrate secure AI agents into workflows without exposing credentials.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"1password",
+"agents",
+"security"
+]
+}
+},
+{
+"id": "541faf74f92c",
+"key": "https://spectrum.ieee.org/engineers-lobbying-congress",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/engineers-lobbying-congress",
+"title": "Why Engineers Should Brave Capitol Hill",
+"published": "2026-10-22T13:00:02Z",
+"fetched": "2026-10-22T17:08:11Z",
+"excerpt": "When San Antonio–based software engineer Nikhil Jathar first went to Washington, D.C., to advocate for federal support for technology education and research funding, he was in awe of the opportunity. It was spring of 2025, not long after Jathar settled in the United States from India, when he got an invitation to join the annual Congressional Visits Day organized by IEEE-USA .\n“My first reaction was, ‘Wow, I get to visit Congress,’ ” says Jathar, CTO of AvanSaber , a business software company he cofounded in 2014. At the time, he did not have a specific lobbying position on behalf of the company. But he was intrigued by the invitation—which goes out to all U.S. IEEE members—and as he read…",
+"meta": {},
+"ai": {
+"summary": "IEEE-USA organized a Congressional Visits Day where software engineer Nikhil Jathar advocated for federal tech education and research funding.",
+"why": "Highlights the importance of engineering advocacy in policy circles.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"ieee",
+"policy",
+"advocacy"
+]
+}
+},
+{
+"id": "8dc418a166a8",
+"key": "https://bensbites.com/p/claudes-personal-agent",
+"source": "bens_bites",
+"source_name": "Ben's Bites",
+"src_category": "analysis",
+"weight": 2,
+"kind": "article",
+"url": "https://www.bensbites.com/p/claudes-personal-agent",
+"title": "Claude’s personal agent",
+"published": "2026-10-22T13:01:21Z",
+"fetched": "2026-10-22T17:08:11Z",
+"excerpt": "And how I run the newsletter with agents",
+"meta": {},
+"ai": {
+"summary": "Claude’s personal agent is used to run a newsletter with agents.",
+"why": "Illustrates practical use of a personal agent for content automation.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"claude",
+"agent",
+"newsletter"
+]
+}
+},
+{
+"id": "08c369b8c9df",
+"key": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+"title": "DeepSeek reportedly raises $15B days after US restrictions",
+"published": "2026-10-22T13:11:13Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
+"meta": {},
+"ai": {
+"summary": "DeepSeek reportedly raised $15 billion in a Chinese funding round just days after U.S. agencies were ordered to remove its technology for national‑security reasons.",
+"why": "Signals a major funding event for a Chinese AI company amid geopolitical tensions, affecting global AI supply chains.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"deepseek",
+"funding",
+"china",
+"us"
+]
+}
+},
+{
+"id": "e7982a265915",
+"key": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+"title": "Nirva raises $33M for a pendant that only listens to you",
+"published": "2026-10-22T13:26:52Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
+"meta": {},
+"ai": {
+"summary": "Nirva announced it will ship a $249 ambient AI pendant that listens only to the wearer by the end of the year.",
+"why": "Shows a niche hardware product integrating AI, relevant for developers of wearable AI interfaces.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nirva",
+"ai",
+"pendant"
+]
+}
+},
+{
+"id": "82e8b90cb258",
+"key": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+"title": "Claude Duet app is Anthropic’s bet on agents",
+"published": "2026-10-22T13:53:26Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Claude Duet is available through waitlist for Pro and Max plan users.",
+"meta": {},
+"ai": {
+"summary": "Anthropic launched Claude Duet, an agent‑centric app available via waitlist for Pro and Max plan users.",
+"why": "Provides developers a platform to build and test agentic workflows with Claude’s capabilities.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude",
+"duet",
+"agents"
+]
+}
+},
+{
+"id": "bf2d52680516",
+"key": "https://theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+"title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
+"published": "2026-10-22T14:00:00Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately — he’s been on something of a tour for the past few months, ever since publishing an essay in late August titled “The turbulent AI era is […]",
+"meta": {},
+"ai": {
+"summary": "Bill Gates warned that the next two decades will bring \"tumultuous\" AI disruption, following his essay on the turbulent AI era.",
+"why": "Highlights potential long‑term shifts in technology and business that developers should anticipate.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"billgates",
+"ai",
+"disruption"
+]
+}
+},
+{
+"id": "df550ffbc813",
+"key": "https://latent.space/p/moshi",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/moshi",
+"title": "You are the Team — Anekha Sokhal, Moshi",
+"published": "2026-10-22T14:03:40Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+"meta": {},
+"ai": {
+"summary": "Latent Space featured an interview with Anekha Sokhal about Moshi’s AI‑driven platform that converts market data into actionable trading insights.",
+"why": "Highlights a real‑world example of AI fitting tightly into a trader’s workflow, useful for fintech developers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"moshi",
+"fintech",
+"ai"
+]
+}
+},
+{
+"id": "7eebbe6cf9c0",
+"key": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+"source": "deepmind_blog",
+"source_name": "Google DeepMind",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+"title": "Beyond tree cover: mapping the world’s forest types",
+"published": "2026-10-22T14:30:24Z",
+"fetched": "2026-10-22T17:08:08Z",
+"excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+"meta": {},
+"ai": {
+"summary": "DeepMind released a global map that classifies every 10‑meter square of land on Earth into specific forest types.",
+"why": "Provides high‑resolution ecological data that developers can use for environmental modeling and GIS applications.",
+"category": "research",
+"importance": 3,
+"tags": [
+"deepmind",
+"forestry",
+"geospatial"
+]
+}
+},
+{
+"id": "402c51de9d5d",
+"key": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
+"title": "Recursive shows first result of its AI-driven research process with Flint",
+"published": "2026-10-22T14:40:16Z",
+"fetched": "2026-10-22T17:08:11Z",
+"excerpt": "The AI startup Recursive is unveiling Flint, its first language model, a 40-billion-parameter MoE for local coding developed by former DeepMind researchers. It was created in four months using the company's in-house AI system, \"Eureka Machine,\" which independently tests and optimizes architectures. Recursive has yet to prove whether this approach will actually lead to self-improving AI.\nThe article Recursive shows first result of its AI-driven research process with Flint appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Recursive released Flint, a 40‑billion‑parameter mixture‑of‑experts language model for local coding, built in four months by its in‑house AI system \"Eureka Machine\" that autonomously tests and optimizes architectures.",
+"why": "Developers can experiment with a large, code‑focused MoE model and study Recursive’s self‑optimizing approach.",
+"category": "models",
+"importance": 3,
+"tags": [
+"recursive",
+"flint",
+"moe",
+"coding"
+]
+}
+},
+{
+"id": "4a2208614bd0",
+"key": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+"title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+"published": "2026-10-22T15:00:02Z",
+"fetched": "2026-10-22T17:08:07Z",
+"excerpt": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA launches Minerva, an AIOps platform that aggregates telemetry from infrastructure and AI workloads and applies AI models to provide actionable insights for AI factories.",
+"why": "It helps teams detect and resolve issues earlier, improving AI production reliability.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"minerva",
+"aiops"
+]
+}
+},
+{
+"id": "08db0ce4daa3",
+"key": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+"title": "Spotify’s current AI bet is about being the music service that agents choose",
+"published": "2026-10-22T15:03:58Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+"meta": {},
+"ai": {
+"summary": "Spotify co‑CEO Gustav Söderström said the company’s AI strategy focuses on becoming the music service that AI agents preferentially select for users.",
+"why": "Indicates a shift toward agent‑centric content delivery, suggesting opportunities for developers to integrate music APIs into AI agents.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"spotify",
+"ai-agents",
+"music"
+]
+}
+},
+{
+"id": "7468e6c2eb82",
+"key": "https://theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
+"title": "PHP: The three little letters wreaking havoc across the web",
+"published": "2026-10-22T15:12:27Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Two vulnerabilities found in the programming language PHP put enormous swaths of the internet in danger. By some accounts, up to 70 percent of websites use PHP in some capacity. It powers Wikipedia, WordPress, Drupal, and a host of other popular sites and platforms, including DeviantArt and 4Chan, which were temporarily shut down after the […]",
+"meta": {},
+"ai": {
+"summary": "Two newly discovered PHP vulnerabilities affect up to 70% of websites, causing major outages on platforms like Wikipedia, WordPress, and DeviantArt.",
+"why": "Highlights a widespread risk to web infrastructure, prompting developers to update PHP versions and apply patches promptly.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"php",
+"vulnerabilities",
+"web-security"
+]
+}
+},
+{
+"id": "a0ca1d9e6078",
+"key": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+"title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+"published": "2026-10-22T15:25:02Z",
+"fetched": "2026-10-22T17:08:11Z",
+"excerpt": "Hackers were already probing the bug before defenders were told it existed.",
+"meta": {},
+"ai": {
+"summary": "Security researchers reported that attackers began probing a critical PHP2Shell vulnerability four days before the flaw was publicly disclosed.",
+"why": "Emphasizes the need for rapid vulnerability disclosure and patching processes for developers maintaining PHP applications.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"php",
+"vulnerability",
+"security"
+]
+}
+},
+{
+"id": "e5bacfc1b707",
+"key": "https://theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+"title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+"published": "2026-10-22T15:50:30Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to other Big Tech companies with long-established presences in Washington, […]",
+"meta": {},
+"ai": {
+"summary": "Federal lobbying disclosures show Nvidia spent $2.2 million, Anthropic $2.1 million, and OpenAI $1.5 million on lobbying in Q3, their highest quarterly amounts.",
+"why": "Signals increasing political engagement by leading AI firms, which may affect future regulation and developer compliance.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"nvidia",
+"anthropic",
+"openai",
+"lobbying"
+]
+}
+},
+{
+"id": "4a38fb2e4499",
+"key": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+"title": "Uber puts all 30,000 employees on ChatGPT Work",
+"published": "2026-10-22T16:00:00Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+"meta": {},
+"ai": {
+"summary": "Uber expanded its internal use of ChatGPT Work from a pilot to all 30,000 employees, deploying the enterprise AI agent company‑wide.",
+"why": "Demonstrates large‑scale corporate adoption of AI assistants, indicating potential integration points for developers building enterprise tools.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"uber",
+"chatgpt-work",
+"enterprise-ai"
+]
+}
+},
+{
+"id": "a9029dd96c52",
+"key": "https://microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+"source": "microsoft_research",
+"source_name": "Microsoft Research",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+"title": "Flint-interactive: A language for creating interactive data visualizations",
+"published": "2026-10-22T16:00:00Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose.\nThe post Flint-interactive: A language for creating interactive data visualizations appeared first on Microsoft Research .",
+"meta": {},
+"ai": {
+"summary": "Microsoft Research introduced Flint‑interactive, a language that lets AI agents create and manipulate interactive data visualizations through actions like clicking, filtering, and highlighting.",
+"why": "Provides developers a new interface for building AI‑driven analytics tools that can interact with visual data directly.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"microsoft-research",
+"flint-interactive",
+"data-visualization"
+]
+}
+},
+{
+"id": "9c7e5b6a03d3",
+"key": "https://modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+"title": "Every AI model has the same \"controversial\" take on humans",
+"published": "2026-10-22T16:08:00Z",
+"fetched": "2026-10-22T21:33:23Z",
+"excerpt": "",
+"meta": {
+"points": 611,
+"comments": 592,
+"hn_url": "https://news.ycombinator.com/item?id=50197313"
+},
+"ai": {
+"summary": "A Hacker News discussion notes that many AI models produce a similar controversial stance on humans, highlighting a common bias across architectures.",
+"why": "Awareness of shared bias can guide developers to implement mitigation strategies when deploying models.",
+"category": "research",
+"importance": 2,
+"tags": [
+"bias",
+"models",
+"human"
+]
+}
+},
+{
+"id": "19dec31a5a56",
+"key": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+"title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+"published": "2026-10-22T16:11:31Z",
+"fetched": "2026-10-22T17:08:07Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face released OlmoEarth v1.3, an open‑weight embedding model trained on global data for planet‑wide geographic representations.",
+"why": "Developers can embed any location or region for geospatial AI tasks without building their own models.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"huggingface",
+"olmoearth",
+"embeddings"
+]
+}
+},
+{
+"id": "d6216a8ddf02",
+"key": "https://theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+"title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+"published": "2026-10-22T16:16:15Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets - including 36 of the main character Prue alone - which were brought to life by a […]",
+"meta": {},
+"ai": {
+"summary": "Wildwood’s director stated that AI is \"antithetical\" to the studio’s creative process at Laika, a stop‑motion animation studio.",
+"why": "Highlights a notable stance against AI in creative production, relevant for developers building tools for media studios.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"laika",
+"ai-ethics",
+"animation"
+]
+}
+},
+{
+"id": "37229d751a5f",
+"key": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
+"title": "Only 13 percent of companies see real returns from AI, Gartner survey finds",
+"published": "2026-10-22T16:18:02Z",
+"fetched": "2026-10-22T17:08:11Z",
+"excerpt": "Only 13 percent of companies are getting real business value from their AI investments, according to a Gartner survey of 2,002 CIOs. At the same time, 51 percent expect AI to actually increase their operating costs. Yet 75 percent of CEOs plan to keep raising their technology budgets. So far, strategic conviction is beating measurable results.\nThe article Only 13 percent of companies see real returns from AI, Gartner survey finds appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "A Gartner survey of 2,002 CIOs found that only 13% of companies report real business value from AI, while 51% say AI raises operating costs, yet 75% of CEOs plan to increase AI budgets.",
+"why": "Shows a gap between AI expectations and measurable ROI, signaling caution for developers investing in AI projects.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"gartner",
+"ai-adoption",
+"roi"
+]
+}
+},
+{
+"id": "af89b650ac60",
+"key": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/",
+"title": "How Rescale built an AI triage agent with Strands Agents and AI-DLC",
+"published": "2026-10-22T16:25:57Z",
+"fetched": "2026-10-22T17:08:08Z",
+"excerpt": "Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering organization.",
+"meta": {},
+"ai": {
+"summary": "Rescale built an AI triage agent with Strands Agents and Amazon Bedrock using the AI‑Driven Development Lifecycle, completing the project in weeks.",
+"why": "Shows how to accelerate AI‑assistant development with AWS tools.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"rescale",
+"ai-dlc",
+"agents"
+]
+}
+},
+{
+"id": "4b70e37b2e43",
+"key": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/",
+"title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI",
+"published": "2026-10-22T16:30:06Z",
+"fetched": "2026-10-22T17:08:08Z",
+"excerpt": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.",
+"meta": {},
+"ai": {
+"summary": "Amazon SageMaker AI demonstrates a measured autoscaling policy for custom TTS models using Kokoro‑82M, deriving thresholds from live‑endpoint metrics instead of guesswork.",
+"why": "Developers can reduce GPU waste and meet latency SLAs by following this approach.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"sagemaker",
+"tts",
+"autoscaling"
+]
+}
+},
+{
+"id": "9f80ed45ae06",
+"key": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+"title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+"published": "2026-10-22T16:47:17Z",
+"fetched": "2026-10-22T17:08:10Z",
+"excerpt": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch reported that Chinese‑aligned hackers used AI agents to automate attacks after breaching ConnectWise, compromising thousands of companies.",
+"why": "Illustrates emerging security threats where AI accelerates cyber‑attacks, prompting developers to strengthen defenses.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"cybersecurity",
+"aiagents",
+"connectwise"
+]
+}
+},
+{
+"id": "886c31dabd53",
+"key": "https://theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+"title": "Someone hacked the Switch 2 by using an old game and AI",
+"published": "2026-10-22T17:21:31Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft. OpenAI's Codex helped make this \"ns2jb\" jailbreak, according to Sammy Hajhamid, aka \"pepsipu.\" It's a […]",
+"meta": {},
+"ai": {
+"summary": "A modder jailbroke the Nintendo Switch 2 by using an old game and OpenAI Codex to create a custom “ns2jb” exploit that runs modified software like a Mario Kart mod.",
+"why": "Demonstrates how AI code generation can be weaponized for hardware hacking, raising security concerns for console manufacturers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nintendo",
+"codex",
+"jailbreak"
+]
+}
+},
+{
+"id": "90aba860efe5",
+"key": "https://latent.space/p/modal-d",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/modal-d",
+"title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+"published": "2026-10-22T17:40:57Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+"meta": {},
+"ai": {
+"summary": "Erik Bernhardsson, CEO of Modal, explained that AI compute resources are typically provisioned in rectangular GPU blocks, affecting elasticity and cost in agent‑cloud services.",
+"why": "Understanding the rectangular allocation model helps developers plan more efficient scaling strategies for AI workloads.",
+"category": "research",
+"importance": 2,
+"tags": [
+"modal",
+"gpu",
+"compute"
+]
+}
+},
+{
+"id": "1c64e3df6a14",
+"key": "https://github.com/NVIDIA/OpenShell",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/NVIDIA/OpenShell",
+"title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+"published": "2026-10-22T17:44:06Z",
+"fetched": "2026-10-22T21:33:23Z",
+"excerpt": "",
+"meta": {
+"points": 490,
+"comments": 212,
+"hn_url": "https://news.ycombinator.com/item?id=50198675"
+},
+"ai": {
+"summary": "OpenShell is an open‑source runtime designed to securely execute fleets of autonomous AI agents while keeping data private.",
+"why": "Developers can deploy large numbers of agents with isolation guarantees, reducing risk of data leakage.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openshell",
+"runtime",
+"agents"
+]
+}
+},
+{
+"id": "dabb15d04801",
+"key": "https://pytorch.org/blog/meet-the-2026-pytorch-foundation-ambassadors",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/meet-the-2026-pytorch-foundation-ambassadors/",
+"title": "Meet the 2026 PyTorch Foundation Ambassadors",
+"published": "2026-10-22T17:44:52Z",
+"fetched": "2026-10-22T21:33:25Z",
+"excerpt": "The post Meet the 2026 PyTorch Foundation Ambassadors appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "The PyTorch Foundation announced the 2026 cohort of community ambassadors who will help grow the open‑source ecosystem.",
+"why": "Ambassadors can be valuable contacts for contributors and may lead community‑driven tooling projects.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"pytorch",
+"ambassadors"
+]
+}
+},
+{
+"id": "cf5ac0d4dad3",
+"key": "https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai/",
+"title": "Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI",
+"published": "2026-10-22T17:45:58Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "Voice agents often wait for an agent's full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each sentence to a Kokoro-82M text-to-speech model on Amazon SageMaker AI as the agent produces it, and how to get that audio back to a browser over Server-Sent Events or a unified binary transport.",
+"meta": {},
+"ai": {
+"summary": "A technical post demonstrates how to stream low-latency speech from AI agents by sending each sentence to a Kokoro-82M TTS model on Amazon SageMaker AI as it is generated, using Server-Sent Events or binary transport.",
+"why": "Developers building voice agents can reduce perceived latency by implementing sentence-level streaming TTS instead of waiting for full responses.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"tts",
+"voice-agents",
+"sagemaker",
+"latency"
+]
+}
+},
+{
+"id": "6be741d318a1",
+"key": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick/",
+"title": "Deploy AI in a HIPAA-eligible environment with Amazon Quick",
+"published": "2026-10-22T17:48:22Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying compliant AI agents in a healthcare environment.",
+"meta": {},
+"ai": {
+"summary": "A guide explains how to deploy AI agents in a HIPAA-eligible environment using Amazon Quick, detailing PHI flow and compliance steps for healthcare applications.",
+"why": "Developers building healthcare AI solutions need this guidance to ensure their deployments meet HIPAA compliance requirements when using AWS services.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"amazon",
+"hipaa",
+"healthcare",
+"compliance"
+]
+}
+},
+{
+"id": "82e87a2c7f09",
+"key": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+"title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
+"published": "2026-10-22T17:50:09Z",
+"fetched": "2026-10-22T21:33:23Z",
+"excerpt": "With Agent Compute Engine, Google is introducing a runtime environment designed specifically for AI agents, while also expanding the governance capabilities that enable companies to manage agents in cloud, hybrid, and on-premises environments.\nThe article Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google introduced Agent Compute Engine, a runtime that gives each Gemini agent a hardware‑isolated micro‑VM for cloud, hybrid, and on‑premise deployment.",
+"why": "Developers can now run Gemini agents with stronger isolation and governance, simplifying large‑scale agent deployments.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"google",
+"gemini",
+"agent-compute-engine"
+]
+}
+},
+{
+"id": "5ff043b7da40",
+"key": "https://theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+"title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+"published": "2026-10-22T18:00:00Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four times more accurately than human […]",
+"meta": {},
+"ai": {
+"summary": "Microsoft claimed its new AI‑powered diagnostic tool can identify medical conditions up to four times more accurately than human doctors.",
+"why": "If validated, the tool could accelerate AI adoption in healthcare and create new APIs for clinical decision support.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"microsoft",
+"healthcare",
+"diagnostics"
+]
+}
+},
+{
+"id": "5484c50da577",
+"key": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+"title": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+"published": "2026-10-22T18:00:01Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on competitive programming.",
+"meta": {},
+"ai": {
+"summary": "Amazon SageMaker AI released training session APIs that let developers write custom LLM training loops in Python, including examples for GRPO on GSM8K and reinforcement learning on competitive programming.",
+"why": "This provides a concrete programming model and SDK for implementing custom reinforcement learning and fine-tuning pipelines on AWS infrastructure.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"amazon",
+"sagemaker",
+"rlhf",
+"training"
+]
+}
+},
+{
+"id": "a719f0a04ac1",
+"key": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+"title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+"published": "2026-10-22T18:00:04Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocation, distributed execution, fault recovery, and checkpoint storage.",
+"meta": {},
+"ai": {
+"summary": "Amazon SageMaker AI introduced serverless model customization with training sessions, allowing users to define custom post-training loops (SFT, RL) while the service handles GPU allocation and fault recovery.",
+"why": "Developers can now run complex custom training workflows on AWS without managing GPU infrastructure or handling distributed execution details.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"amazon",
+"sagemaker",
+"fine-tuning",
+"serverless"
+]
+}
+},
+{
+"id": "9f129d60caa0",
+"key": "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases/",
+"title": "How IskayPet unified corporate knowledge with Amazon Bedrock Managed Knowledge Bases",
+"published": "2026-10-22T18:01:53Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "Learn how IskayPet, a leading pet care company in Iberia, built a multilingual corporate knowledge assistant on Amazon Bedrock Managed Knowledge Bases. The assistant answers employee questions across retail, veterinary, onboarding, and procurement in four languages and three countries, with no RAG infrastructure to manage.",
+"meta": {},
+"ai": {
+"summary": "IskayPet built a multilingual corporate knowledge assistant using Amazon Bedrock Managed Knowledge Bases to answer employee questions in four languages across three countries without managing RAG infrastructure.",
+"why": "This case study demonstrates how to implement managed RAG solutions for enterprise knowledge retrieval using Bedrock, reducing operational overhead.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"amazon",
+"bedrock",
+"rag",
+"enterprise"
+]
+}
+},
+{
+"id": "d936adabf396",
+"key": "https://biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+"title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+"published": "2026-10-22T18:02:54Z",
+"fetched": "2026-10-23T07:29:02Z",
+"excerpt": "",
+"meta": {
+"points": 88,
+"comments": 46,
+"hn_url": "https://news.ycombinator.com/item?id=50198940"
+},
+"ai": {
+"summary": "An AI analysis of CT scans identified coronary inflammation in 42.9% of patients, a finding highlighted by its high prevalence and potential for early detection.",
+"why": "Demonstrates the practical application of AI in medical imaging for identifying subtle pathological signs that may be missed by standard review.",
+"category": "research",
+"importance": 3,
+"tags": [
+"medical-ai",
+"ct-scans",
+"cardiology"
+]
+}
+},
+{
+"id": "ea28fdc05ccc",
+"key": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
+"title": "Amazon Polly delivers a major upgrade to its Generative engine",
+"published": "2026-10-22T18:06:35Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "The Amazon Polly Generative engine gets a major upgrade: more expressive, more accurate speech with low latency, plus 14 new voices across 9 locales and general availability of Hindi and Finnish. This drop-in upgrade requires no code changes and is now generally available in production.",
+"meta": {},
+"ai": {
+"summary": "Amazon Polly's Generative engine received a major upgrade featuring more expressive speech, lower latency, 14 new voices across 9 locales, and general availability for Hindi and Finnish.",
+"why": "Teams using Polly can immediately access improved voice quality and new language support via a drop-in upgrade without code changes.",
+"category": "models",
+"importance": 3,
+"tags": [
+"amazon",
+"polly",
+"tts",
+"voice"
+]
+}
+},
+{
+"id": "cb90d33f51e1",
+"key": "https://theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+"title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+"published": "2026-10-22T18:15:00Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communicate primarily through bot proxies? […]",
+"meta": {},
+"ai": {
+"summary": "Meta announced plans for an autonomous network of AI agents that would handle tasks such as shopping, work, and communication on behalf of users.",
+"why": "It signals Meta’s strategic push toward pervasive AI assistants, which could shape future developer platforms for agent integration.",
+"category": "other",
+"importance": 2,
+"tags": [
+"meta",
+"ai-agents"
+]
+}
+},
+{
+"id": "a4ff5c09ebe6",
+"key": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
+"title": "Major US banks are locking out AI agents that log in with customer credentials",
+"published": "2026-10-22T18:26:02Z",
+"fetched": "2026-10-22T21:33:23Z",
+"excerpt": "Customers are letting AI agents use their credentials to access accounts at Morgan Stanley, JPMorgan, and other major U.S. banks, sometimes without direct instructions. Morgan Stanley has blocked agents, while other banks are restricting access. Most plan to limit agents to read-only access.\nThe article Major US banks are locking out AI agents that log in with customer credentials appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Major U.S. banks such as Morgan Stanley and JPMorgan are blocking or limiting AI agents from logging into customer accounts, moving to read‑only or full restrictions.",
+"why": "Highlights emerging security and regulatory constraints on AI agents that use personal credentials.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"banks",
+"ai-agents",
+"security"
+]
+}
+},
+{
+"id": "0da4166c9c49",
+"key": "arxiv:2610.27251",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://arxiv.org/abs/2610.27251",
+"title": "AI and the Enclosure of the Scientific Commons",
+"published": "2026-10-22T18:28:16Z",
+"fetched": "2026-10-23T00:39:12Z",
+"excerpt": "",
+"meta": {
+"points": 137,
+"comments": 80,
+"hn_url": "https://news.ycombinator.com/item?id=50199230"
+},
+"ai": {
+"summary": "A Hacker News discussion titled “AI and the Enclosure of the Scientific Commons” examined concerns that AI models may restrict open scientific knowledge.",
+"why": "Highlights policy and ethical issues that could affect open‑source research workflows.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"policy",
+"scientific-commons",
+"ai"
+]
+}
+},
+{
+"id": "c77b0b120b6c",
+"key": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+"title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+"published": "2026-10-22T18:43:53Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+"meta": {},
+"ai": {
+"summary": "Microsoft’s new AI diagnostic system outperformed generalist doctors on difficult cases in a Science study, largely due to improvements in the underlying models.",
+"why": "Demonstrates the growing viability of AI for high‑stakes medical decision support.",
+"category": "research",
+"importance": 4,
+"tags": [
+"microsoft",
+"medical-ai",
+"diagnostics"
+]
+}
+},
+{
+"id": "478126a4da75",
+"key": "https://technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+"title": "The Foundations of Scalable AI",
+"published": "2026-10-22T18:48:04Z",
+"fetched": "2026-10-22T21:33:23Z",
+"excerpt": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
+"meta": {},
+"ai": {
+"summary": "MIT Technology Review’s EmTech Future conference featured a session titled “The Foundations of Scalable AI,” covering data, engineering, platforms, governance, and responsible deployment in regulated settings.",
+"why": "",
+"category": "events",
+"importance": 2,
+"tags": [
+"mit",
+"scalable-ai",
+"emtech"
+]
+}
+},
+{
+"id": "5dc6cc822c59",
+"key": "https://theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+"title": "Discord now formats Markdown previews right",
+"published": "2026-10-22T18:58:19Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for instructions and context, so these improved previews could be helpful for people sharing information about AI projects […]",
+"meta": {},
+"ai": {
+"summary": "Discord updated its interface to correctly render Markdown previews, fixing previous garbled symbols.",
+"why": "Improves readability of AI‑generated Markdown instructions shared in Discord channels.",
+"category": "other",
+"importance": 2,
+"tags": [
+"discord",
+"markdown"
+]
+}
+},
+{
+"id": "1a9142f7aba8",
+"key": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+"title": "Canva releases its first image generation model",
+"published": "2026-10-22T19:00:00Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+"meta": {},
+"ai": {
+"summary": "Canva launched its own text‑to‑image generation model, making it available to all users with claims of better customization and lower cost.",
+"why": "Developers can tap Canva’s API for on‑demand image generation without relying on third‑party services.",
+"category": "models",
+"importance": 3,
+"tags": [
+"canva",
+"image-generation",
+"model"
+]
+}
+},
+{
+"id": "76e6ec5a6d40",
+"key": "https://openai.com/index/decisions-api",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/decisions-api",
+"title": "Build more responsive apps with the Decisions API",
+"published": "2026-10-22T19:00:00Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "Fast, focused, low-cost decisions for any application.",
+"meta": {},
+"ai": {
+"summary": "OpenAI released a Decisions API that lets developers send low‑latency, low‑cost requests to get binary or multi‑choice decisions for app logic.",
+"why": "It provides a cheap, fast way to add AI‑driven decision making without running full model inference.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openai",
+"decisions-api",
+"api"
+]
+}
+},
+{
+"id": "cf73b8549248",
+"key": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+"title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+"published": "2026-10-22T19:00:00Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+"meta": {},
+"ai": {
+"summary": "OpenAI released a decision‑making model intended to compete with the Jev model, making it publicly accessible for developers.",
+"why": "Provides a new tool for building AI systems that need to make structured decisions or recommendations.",
+"category": "models",
+"importance": 3,
+"tags": [
+"openai",
+"decision-model",
+"jev"
+]
+}
+},
+{
+"id": "73c5b59436da",
+"key": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+"title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+"published": "2026-10-22T19:07:09Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+"meta": {},
+"ai": {
+"summary": "1Password added a feature that lets AI agents log into users' personal accounts using an encrypted flow so the agents never see the actual password.",
+"why": "Developers can integrate AI assistants that act on user accounts while keeping credentials secure.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"1password",
+"ai",
+"authentication"
+]
+}
+},
+{
+"id": "63fe3ee832f4",
+"key": "https://amazon.science/blog/the-science-behind-torchneuron-amazons-new-pytorch-backend-for-aws-trainium-chips",
+"source": "amazon_science",
+"source_name": "Amazon Science",
+"src_category": "research",
+"weight": 2,
+"kind": "article",
+"url": "https://www.amazon.science/blog/the-science-behind-torchneuron-amazons-new-pytorch-backend-for-aws-trainium-chips",
+"title": "The science behind TorchNeuron, Amazon’s new PyTorch backend for AWS Trainium chips",
+"published": "2026-10-22T19:36:42Z",
+"fetched": "2026-10-22T21:33:20Z",
+"excerpt": "Runtime optimizations and a thorough evaluation process driven by agentic AI help ensure that models written in PyTorch will execute efficiently and reliably on Trainium systems.",
+"meta": {},
+"ai": {
+"summary": "Amazon Science detailed TorchNeuron, a new PyTorch backend for AWS Trainium chips that uses runtime optimizations and agentic AI to ensure efficient model execution.",
+"why": "Developers targeting AWS Trainium hardware can use this backend to run PyTorch models with improved reliability and performance without rewriting code.",
+"category": "research",
+"importance": 3,
+"tags": [
+"amazon",
+"trainium",
+"pytorch",
+"hardware"
+]
+}
+},
+{
+"id": "fc797244e666",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
+"title": "ollama v0.40.9",
+"published": "2026-10-22T19:39:48Z",
+"fetched": "2026-10-22T21:33:23Z",
+"excerpt": "What's Changed\nllama.cpp update\nFull Changelog : v0.40.8...v0.40.9-rc0",
+"meta": {},
+"ai": {
+"summary": "Ollama released version 0.40.9, which includes an update to the underlying llama.cpp engine.",
+"why": "Developers using Ollama for local LLM inference should update to ensure compatibility with the latest llama.cpp optimizations and bug fixes.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"ollama",
+"llama.cpp",
+"local-llm"
+]
+}
+},
+{
+"id": "bdf33490bb3f",
+"key": "https://theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+"title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+"published": "2026-10-22T19:45:00Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree to which […]",
+"meta": {},
+"ai": {
+"summary": "SpaceX and Tesla have formed special committees to explore a possible merger, with SpaceX planning to borrow $40 billion for Nvidia chips.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"spacex",
+"tesla",
+"merger"
+]
+}
+},
+{
+"id": "ee1700812fe3",
+"key": "https://wired.com/story/aged-intelligence-society-interview",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/aged-intelligence-society-interview/",
+"title": "The Social Society Helping Women Join the AI Boom",
+"published": "2026-10-22T19:56:32Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using frontier tools.”",
+"meta": {},
+"ai": {
+"summary": "The Aged Intelligence Society, an events startup, was founded to help women use frontier AI tools to address midlife challenges.",
+"why": "Highlights a growing community effort to diversify AI adoption and could inspire similar developer‑focused outreach programs.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"women-in-ai",
+"aged-intelligence-society"
+]
+}
+},
+{
+"id": "b834b9220982",
+"key": "https://theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+"title": "Meta turns Muse sharing back on",
+"published": "2026-10-22T20:24:04Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at Claroc reported earlier this week that Muse the web […]",
+"meta": {},
+"ai": {
+"summary": "Meta re‑enabled sharing of Muse conversation links after fixing a security issue that allowed public links to be discovered and accessed.",
+"why": "Restored sharing improves collaboration for developers using Muse, while the fix reduces accidental data exposure.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"meta",
+"muse",
+"security"
+]
+}
+},
+{
+"id": "40e9c0c0d964",
+"key": "https://theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+"title": "Meta’s AI could still scrape news sites, legal experts say",
+"published": "2026-10-22T20:32:05Z",
+"fetched": "2026-10-22T21:33:22Z",
+"excerpt": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would let Meta scrape […]",
+"meta": {},
+"ai": {
+"summary": "Meta revised its terms of service to remove language that implied it could freely scrape news sites for training, but experts say the change does not fully prevent such data collection.",
+"why": "Developers building on Meta’s APIs should monitor legal risk around content usage and model training data.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"meta",
+"scraping",
+"legal"
+]
+}
+},
+{
+"id": "6b5182f2d28b",
+"key": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+"title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+"published": "2026-10-22T20:51:23Z",
+"fetched": "2026-10-23T07:29:02Z",
+"excerpt": "",
+"meta": {
+"points": 90,
+"comments": 67,
+"hn_url": "https://news.ycombinator.com/item?id=50200843"
+},
+"ai": {
+"summary": "A Hacker News poll reports that most Americans view AI as harmful to society and oppose the construction of more data centers.",
+"why": "",
+"category": "other",
+"importance": 2,
+"tags": [
+"public-opinion",
+"ai-society"
+]
+}
+},
+{
+"id": "beb4442e9d56",
+"key": "https://news.ycombinator.com/item?id=50200997",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://news.ycombinator.com/item?id=50200997",
+"title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+"published": "2026-10-22T21:03:55Z",
+"fetched": "2026-10-23T07:29:02Z",
+"excerpt": "",
+"meta": {
+"points": 602,
+"comments": 672,
+"hn_url": "https://news.ycombinator.com/item?id=50200997"
+},
+"ai": {
+"summary": "A Hacker News discussion asks why OpenAI doesn’t start 100 companies if its models are that good.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"openai",
+"business"
+]
+}
+},
+{
+"id": "6e91344ec9b8",
+"key": "https://technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+"title": "Designing an AI serving harness built to last",
+"published": "2026-10-22T21:17:29Z",
+"fetched": "2026-10-23T00:39:11Z",
+"excerpt": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
+"meta": {},
+"ai": {
+"summary": "The article argues that the next competitive edge in enterprise AI comes from building a durable serving harness around models rather than choosing a specific model, emphasizing infrastructure over raw capability.",
+"why": "Developers need to focus on robust serving layers to get reliable, scalable AI products.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"enterprise",
+"serving",
+"infrastructure"
+]
+}
+},
+{
+"id": "c5c068de29d1",
+"key": "https://theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+"title": "Canva’s first AI image model plans designs before generating them",
+"published": "2026-10-22T21:51:25Z",
+"fetched": "2026-10-23T00:39:10Z",
+"excerpt": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an […]",
+"meta": {},
+"ai": {
+"summary": "Canva launched Canva Craft, an AI image generation model with a two‑stage architecture that first plans a design before creating the image, aiming for higher precision and control.",
+"why": "Developers can use the model via Canva’s API for more directed and consistent image generation.",
+"category": "models",
+"importance": 3,
+"tags": [
+"canva",
+"craft",
+"image-generation",
+"ai"
+]
+}
+},
+{
+"id": "06c6b0a2adde",
+"key": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+"title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+"published": "2026-10-22T22:08:24Z",
+"fetched": "2026-10-23T00:39:11Z",
+"excerpt": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+"meta": {},
+"ai": {
+"summary": "OpenAI is reportedly seeking a $30 billion funding round that would value the company at $1.25 trillion ahead of a planned IPO.",
+"why": "Massive capital backing could accelerate OpenAI’s product releases and ecosystem growth.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"fundraising",
+"valuation",
+"ipo"
+]
+}
+},
+{
+"id": "4017ed2e4638",
+"key": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+"source": "gh_claude_code",
+"source_name": "Claude Code releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+"title": "claude-code v2.1.309",
+"published": "2026-10-22T22:18:57Z",
+"fetched": "2026-10-23T00:39:12Z",
+"excerpt": "What's changed\nFixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command\nFixed macOS sandbox denyWrite glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink\nFixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with --mcp-config\nFixed a disabled MCP server being reconnected by a later permission prompt in print and SDK sessions\nFixed the Bash permission check trusting a variable set by a command whose redirect can fail to open\nFixed Bash permission checks not prompting for some compound commands that change directory before running…",
+"meta": {},
+"ai": {
+"summary": "Claude‑Code 2.1.309 fixes several sandbox issues on macOS/Linux, including proper handling of shell startup files, correct glob pattern resolution through symlinks, and prevents sandboxed commands from modifying the MCP config file.",
+"why": "Enhances security and reliability of Claude‑Code’s sandboxed execution environment.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude-code",
+"sandbox",
+"mcp"
+]
+}
+},
+{
+"id": "d43a8a4bd15a",
+"key": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+"title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+"published": "2026-10-22T22:24:34Z",
+"fetched": "2026-10-23T00:39:08Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face released a blog describing ThinkingBox, a method that converts database grading signals into reinforcement‑learning rewards for post‑training agents.",
+"why": "Provides a way to improve agent behavior using existing data without retraining from scratch.",
+"category": "research",
+"importance": 3,
+"tags": [
+"huggingface",
+"thinkingbox",
+"rl",
+"agents"
+]
+}
+},
+{
+"id": "cf7531bd8f03",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+"title": "ollama v0.40.9",
+"published": "2026-10-22T22:51:43Z",
+"fetched": "2026-10-23T00:39:12Z",
+"excerpt": "Flint on Linux and Windows\nFlint now runs on Linux and Windows as well as macOS.\nOther improvements\nStreaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output.\nollama launch now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings.\nAnthropic-compatible web search now uses the model's supported thinking setting in follow-up requests, preventing avoidable failures.\nFull Changelog : v0.40.8...v0.40.9",
+"meta": {},
+"ai": {
+"summary": "Ollama 0.40.9 updates to use Gradium’s GA checkpoint format, adds default‑voice import and speech conditioning, and removes support for the old prerelease checkpoint path.",
+"why": "Improves checkpoint compatibility and speech features for Ollama users.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"ollama",
+"gradium",
+"phonon"
+]
+}
+},
+{
+"id": "81cdf5682f63",
+"key": "https://anthropic.com/research/formal-verification",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.anthropic.com/research/formal-verification",
+"title": "LLMs are making formal software verification feasible at a much larger scale",
+"published": "2026-10-22T22:54:43Z",
+"fetched": "2026-10-23T07:29:02Z",
+"excerpt": "",
+"meta": {
+"points": 442,
+"comments": 287,
+"hn_url": "https://news.ycombinator.com/item?id=50202217"
+},
+"ai": {
+"summary": "Recent work demonstrates that large language models can be used to automate formal software verification at scale, reducing manual proof effort.",
+"why": "Enables developers to integrate LLM‑based verification into CI pipelines, improving code reliability with less human effort.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"llm",
+"formal-verification",
+"software"
+]
+}
+},
+{
+"id": "360507f5dbda",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3",
+"title": "ollama v0.40.9",
+"published": "2026-10-22T23:38:47Z",
+"fetched": "2026-10-23T00:39:12Z",
+"excerpt": "Speech\nOllama can now generate speech with Phonon on Apple Silicon. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint.\nollama run phonon \" Hello from Ollama. \"\nd3 decision models\nd3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes.\nollama run d3 \" A customer says their card was charged twice. \" --ask \" Is this a billing issue? \"\nFlint on Linux and Windows\nFlint now runs on Linux and Windows as well as…",
+"meta": {},
+"ai": {
+"summary": "Ollama 0.40.9 adds speech generation with Phonon on Apple Silicon, exposing an OpenAI‑compatible /v1/audio/speech endpoint, and introduces decision models via vLLM Semantic Router for classification and scoring tasks.",
+"why": "Allows developers to add real‑time audio output and structured decision routing to local AI apps.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"ollama",
+"speech",
+"phonon",
+"vllm"
+]
+}
+},
+{
+"id": "8214761ac10e",
+"key": "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/pytorch-conference-north-america-2026-accelerating-open-intelligence-together/",
+"title": "PyTorch Conference North America 2026: Accelerating Open Intelligence Together",
+"published": "2026-10-22T23:52:11Z",
+"fetched": "2026-10-23T00:39:14Z",
+"excerpt": "PyTorch Conference North America 2026 brought 3,500+ attendees to San Jose on October 20–21 for two days focused on accelerating open intelligence and exploring the impact of PyTorch Foundation projects...\nThe post PyTorch Conference North America 2026: Accelerating Open Intelligence Together appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "The PyTorch Conference North America 2026 in San Jose attracted over 3,500 attendees and showcased new PyTorch Foundation projects aimed at accelerating open intelligence.",
+"why": "Signals upcoming open‑source tools and collaborations that developers may adopt.",
+"category": "events",
+"importance": 2,
+"tags": [
+"pytorch",
+"conference",
+"open-intelligence"
+]
+}
+}
+]

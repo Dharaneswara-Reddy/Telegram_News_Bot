@@ -1,0 +1,28 @@
+[
+{
+"id": "c2ef8518277f",
+"key": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human",
+"source": "thinking_machines",
+"source_name": "Thinking Machines",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/",
+"title": "The Future Worth Building Is Human",
+"published": "2026-07-10T00:00:00Z",
+"fetched": "2026-10-01T19:40:21Z",
+"excerpt": "The mission of Thinking Machines is to build AI that extends human will and judgment.\nArtificial intelligence can do more every day, but deciding what it should do is up to us: individuals, organizations, humanity as a whole. These decisions require knowledge and judgment that people acquire through continuous contact with the work, increasingly done alongside AI. Shaping the goals of advanced intelligence is also a continuous process of feedback, learning, and realignment.\nMost AI in use today is trained in a handful of places and then frozen. It isn’t shaped by the people it serves, and doesn’t learn much from the work they do together. Extending human will and judgment calls for AIs as…",
+"meta": {},
+"ai": {
+"summary": "Thinking Machines emphasizes that AI should extend human will and judgment, advocating continuous feedback and realignment of AI goals with human values.",
+"why": "It highlights the importance of aligning AI systems with human decision‑making processes for developers building responsible AI.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"human-centered",
+"alignment",
+"ai-goals"
+]
+}
+}
+]
