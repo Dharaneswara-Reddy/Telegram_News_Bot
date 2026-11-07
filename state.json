@@ -1,0 +1,734 @@
+{
+ "sources": {
+  "openai_news": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.58,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 40
+  },
+  "anthropic_news": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.12,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 8
+  },
+  "deepmind_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.73,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "google_ai_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.62,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "google_research": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.99,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "microsoft_research": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 3.05,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 7
+  },
+  "nvidia_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.49,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 14
+  },
+  "apple_ml": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.2,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "huggingface_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.64,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 21
+  },
+  "aws_ml_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.95,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "bair_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.94,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "hf_daily_papers": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.43,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 30
+  },
+  "simon_willison": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.28,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "import_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.45,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "interconnects": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.97,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 7
+  },
+  "latent_space": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 1.73,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "ahead_of_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 2.25,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "one_useful_thing": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 1.2,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "last_week_in_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.7,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "lilian_weng": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.34,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "the_decoder": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 1.24,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "verge_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.35,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "techcrunch_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.21,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "ars_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.46,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "mit_tech_review_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.38,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "hacker_news": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.4,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 15
+  },
+  "hf_trending_models": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.2,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 8
+  },
+  "gh_vllm": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 1.64,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 3
+  },
+  "gh_ollama": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.45,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "gh_transformers": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 1.72,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "gh_claude_code": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.42,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "gh_codex": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.83,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "gh_gemini_cli": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.88,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "anthropic_research": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.1,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 11
+  },
+  "claude_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.09,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 19
+  },
+  "gemini_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.38,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 14
+  },
+  "meta_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.08,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "mistral_news": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.09,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "xai_news": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.59,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "deepseek_updates": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.21,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "qwen_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.49,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "zai_releases": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.48,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "cohere_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.57,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "microsoft_ai_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 6.43,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "thinking_machines": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 1.24,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "ai2_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.42,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "sakana_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.28,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "amazon_science": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.76,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "artificial_analysis": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.32,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 8
+  },
+  "uk_aisi": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.25,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 3
+  },
+  "semianalysis": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 2.56,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 7
+  },
+  "understanding_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.49,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "bens_bites": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.61,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "ai_snake_oil": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 2.11,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "karpathy": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.49,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 7
+  },
+  "wired_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.23,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "ieee_spectrum_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.59,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 13
+  },
+  "lobsters_ai": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.46,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 12
+  },
+  "pytorch_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 1.36,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "ollama_blog": {
+   "last_checked": "2026-11-07T08:44:43Z",
+   "seconds": 0.24,
+   "last_ok": "2026-11-07T08:44:43Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  }
+ },
+ "trending_models": [
+  {
+   "id": "moonshotai/Kimi-K3.1-Pro",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "likes": 1567,
+   "downloads": 18432,
+   "task": "image-text-to-text",
+   "created": "2026-11-02T04:13:51Z"
+  },
+  {
+   "id": "speridlabs/idol",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "likes": 983,
+   "downloads": 19139,
+   "task": "image-to-3d",
+   "created": "2026-10-28T15:55:17Z"
+  },
+  {
+   "id": "ccore/Qwen3.5-4B-3D-Coder",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "likes": 810,
+   "downloads": 190243,
+   "task": "",
+   "created": "2026-10-25T05:43:34Z"
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "likes": 10896,
+   "downloads": 2607491,
+   "task": "image-to-video",
+   "created": "2026-07-23T07:55:24Z"
+  },
+  {
+   "id": "burner22/numbat",
+   "url": "https://huggingface.co/burner22/numbat",
+   "likes": 372,
+   "downloads": 9066,
+   "task": "",
+   "created": "2026-10-23T01:37:02Z"
+  },
+  {
+   "id": "ricursiveAI/Ripple-65B-Preview",
+   "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+   "likes": 344,
+   "downloads": 2013,
+   "task": "",
+   "created": "2026-11-04T02:41:21Z"
+  },
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "likes": 19295,
+   "downloads": 7845288,
+   "task": "image-text-to-text",
+   "created": "2026-08-05T08:22:59Z"
+  },
+  {
+   "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "likes": 3082,
+   "downloads": 61049,
+   "task": "automatic-speech-recognition",
+   "created": "2026-10-07T22:50:21Z"
+  },
+  {
+   "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "likes": 2614,
+   "downloads": 1518569,
+   "task": "image-text-to-text",
+   "created": "2026-09-01T07:01:09Z"
+  },
+  {
+   "id": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+   "likes": 359,
+   "downloads": 108162,
+   "task": "text-generation",
+   "created": "2026-10-28T04:48:45Z"
+  },
+  {
+   "id": "black-forest-labs/flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+   "likes": 2638,
+   "downloads": 1109078,
+   "task": "image-to-image",
+   "created": "2026-10-14T12:00:13Z"
+  },
+  {
+   "id": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+   "url": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+   "likes": 269,
+   "downloads": 2640,
+   "task": "text-generation",
+   "created": "2026-10-23T08:59:53Z"
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "likes": 5370,
+   "downloads": 259511,
+   "task": "image-text-to-text",
+   "created": "2026-10-17T02:40:38Z"
+  },
+  {
+   "id": "mistralai/Mistral-Large-4-1T-A52B",
+   "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+   "likes": 1627,
+   "downloads": 10530,
+   "task": "image-text-to-text",
+   "created": "2026-09-30T18:35:13Z"
+  },
+  {
+   "id": "LiquidAI/LFM3-1.7B",
+   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+   "likes": 1531,
+   "downloads": 66003,
+   "task": "text-generation",
+   "created": "2026-10-23T21:35:42Z"
+  },
+  {
+   "id": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+   "likes": 5693,
+   "downloads": 135850,
+   "task": "text-to-image",
+   "created": "2026-09-20T15:51:13Z"
+  },
+  {
+   "id": "ccore/Qwen3.5-4B-GLB-3D-Coder",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+   "likes": 229,
+   "downloads": 20256,
+   "task": "text-generation",
+   "created": "2026-11-01T22:30:01Z"
+  },
+  {
+   "id": "facebook/sam3",
+   "url": "https://huggingface.co/facebook/sam3",
+   "likes": 6018,
+   "downloads": 1920315,
+   "task": "mask-generation",
+   "created": "2025-11-07T05:17:48Z"
+  },
+  {
+   "id": "PrunaAI/P-H3-Image-Comfy",
+   "url": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
+   "likes": 226,
+   "downloads": 398138,
+   "task": "text-to-image",
+   "created": "2026-10-28T11:26:05Z"
+  },
+  {
+   "id": "Edge0/Audio8-TTS-Realistic-Air",
+   "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air",
+   "likes": 337,
+   "downloads": 12847,
+   "task": "text-to-speech",
+   "created": "2026-10-14T03:02:49Z"
+  },
+  {
+   "id": "webAI-Official/TwIL-8B",
+   "url": "https://huggingface.co/webAI-Official/TwIL-8B",
+   "likes": 190,
+   "downloads": 8209,
+   "task": "text-generation",
+   "created": "2026-10-14T16:50:12Z"
+  },
+  {
+   "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
+   "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+   "likes": 1479,
+   "downloads": 1309045,
+   "task": "image-text-to-text",
+   "created": "2026-08-26T12:29:32Z"
+  },
+  {
+   "id": "sensenova/SenseNova-Loop-9B-Preview",
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+   "likes": 267,
+   "downloads": 3138,
+   "task": "image-text-to-text",
+   "created": "2026-10-28T15:34:40Z"
+  },
+  {
+   "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+   "likes": 186,
+   "downloads": 222222,
+   "task": "image-text-to-text",
+   "created": "2026-11-02T13:52:10Z"
+  },
+  {
+   "id": "baidu/Unlimited-OCR-2",
+   "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+   "likes": 639,
+   "downloads": 310955,
+   "task": "image-text-to-text",
+   "created": "2026-10-26T03:57:46Z"
+  },
+  {
+   "id": "xiaomi-research/Xiaomi-OCR-0",
+   "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
+   "likes": 305,
+   "downloads": 23683,
+   "task": "image-text-to-text",
+   "created": "2026-09-29T16:41:40Z"
+  },
+  {
+   "id": "microsoft/Mage-VL-Cowork",
+   "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+   "likes": 206,
+   "downloads": 2826,
+   "task": "image-text-to-text",
+   "created": "2026-10-30T12:13:24Z"
+  },
+  {
+   "id": "LiquidAI/LFM3-Omni-2B",
+   "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+   "likes": 394,
+   "downloads": 15319,
+   "task": "any-to-any",
+   "created": "2026-10-21T16:58:40Z"
+  },
+  {
+   "id": "Viggle/Viggle-Remake",
+   "url": "https://huggingface.co/Viggle/Viggle-Remake",
+   "likes": 143,
+   "downloads": 43477,
+   "task": "video-to-video",
+   "created": "2026-10-22T19:06:17Z"
+  },
+  {
+   "id": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "likes": 732,
+   "downloads": 4015818,
+   "task": "image-text-to-text",
+   "created": "2026-10-02T03:42:33Z"
+  }
+ ],
+ "last_run": {
+  "at": "2026-11-07T08:44:46Z",
+  "new_items": 2,
+  "sources_ok": 60,
+  "sources_failed": [],
+  "llm_calls": 2,
+  "seconds": 10.1
+ }
+}

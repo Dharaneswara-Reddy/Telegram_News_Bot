@@ -1,0 +1,28 @@
+[
+{
+"id": "a167d8a7b953",
+"key": "https://interconnects.ai/p/latest-open-artifacts-24-motif-3",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+"title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+"published": "2026-09-08T14:15:25Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "The open model ecosystem continues to expand in its breadth",
+"meta": {},
+"ai": {
+"summary": "Interconnects lists recent open artifacts, including Motif‑3, GLM‑5.3, Hy4‑preview, and new open model licenses, noting the expanding breadth of the ecosystem.",
+"why": "Keeps developers aware of new open models and licensing options for integration.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"motif-3",
+"glm-5.3",
+"open-models"
+]
+}
+}
+]

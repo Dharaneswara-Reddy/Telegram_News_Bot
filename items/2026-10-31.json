@@ -1,0 +1,794 @@
+[
+{
+"id": "3dafa18afc8f",
+"key": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+"source": "gh_claude_code",
+"source_name": "Claude Code releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+"title": "claude-code v2.1.316",
+"published": "2026-10-31T01:01:35Z",
+"fetched": "2026-10-31T05:36:28Z",
+"excerpt": "What's changed\nAdded CLAUDE_CODE_DISABLE_ULTRATHINK , which turns the ultrathink keyword off\nAdded pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with pooled_budget on the spend limits admin API\nAdded CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP to keep system cross-certificates that certify each other in a loop, for servers whose private CA needs one\nAdded CLAUDE_CODE_SUBAGENT_EFFORT to set the effort level subagents run at when nothing else names one, instead of inheriting the session's\nAdded managed.policy_mode: layered to the Claude apps gateway: every policy that matches a developer applies, each…",
+"meta": {},
+"ai": {
+"summary": "Claude Code 2.1.316 adds flags to disable ultrathink and looped cross‑cert drops, introduces pooled group budgets for Claude apps, and a sub‑agent effort setting.",
+"why": "Provides developers finer control over Claude Code behavior and budgeting, improving manageability of AI‑assisted coding workflows.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude-code",
+"update"
+]
+}
+},
+{
+"id": "31af2811d73e",
+"key": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+"title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+"published": "2026-10-31T01:20:05Z",
+"fetched": "2026-10-31T05:36:26Z",
+"excerpt": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+"meta": {},
+"ai": {
+"summary": "Nvidia is considering co‑signing a loan for Nscale’s AI data‑center project in West Virginia to help secure financing.",
+"why": "Nvidia’s backing could lower financing risk and accelerate deployment of AI infrastructure in new regions.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"nscale",
+"datacenter",
+"financing"
+]
+}
+},
+{
+"id": "d8e15ecc8b32",
+"key": "https://wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+"title": "OpenAI raises less than half of $30B target",
+"published": "2026-10-31T03:22:44Z",
+"fetched": "2026-10-31T05:36:28Z",
+"excerpt": "",
+"meta": {
+"points": 184,
+"comments": 192,
+"hn_url": "https://news.ycombinator.com/item?id=50312922"
+},
+"ai": {
+"summary": "OpenAI raised less than $15 billion in its latest funding round, falling short of its $30 billion target.",
+"why": "Signals a slowdown in large‑scale AI financing, which may affect future compute and model development plans.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"funding"
+]
+}
+},
+{
+"id": "7a5976300952",
+"key": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+"title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+"published": "2026-10-31T05:00:48Z",
+"fetched": "2026-10-31T05:36:28Z",
+"excerpt": "It turns out you cannot have your cake AND eat it",
+"meta": {},
+"ai": {
+"summary": "Google reported that its AI Mode feature cut Search revenue by 15%, amounting to a $500 billion loss, the worst decline since its 2004 IPO.",
+"why": "Shows the financial risk of integrating AI into core products, prompting developers to weigh revenue impact versus feature innovation.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"google",
+"search",
+"ai-mode"
+]
+}
+},
+{
+"id": "053dd3e543a6",
+"key": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+"title": "OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite",
+"published": "2026-10-31T09:22:52Z",
+"fetched": "2026-10-31T12:22:25Z",
+"excerpt": "OpenAI raised only about $11 billion in its latest funding round, less than half of the $30 billion it was targeting. At $1.25 trillion, the valuation falls short of expectations, and major investors appear to be pulling back amid the recent tech sell-off. Meanwhile, rival Anthropic is pushing to go public as early as November.\nThe article OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI raised roughly $11 billion in its latest funding round, far short of its $30 billion target, valuing the company at about $1.25 trillion.",
+"why": "The reduced funding reflects a cooling investor appetite, which may slow OpenAI’s product rollout pace and affect developer access to upcoming APIs.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"funding",
+"valuation"
+]
+}
+},
+{
+"id": "7e2bc61f5e8e",
+"key": "https://wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+"title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+"published": "2026-10-31T10:00:00Z",
+"fetched": "2026-10-31T12:22:24Z",
+"excerpt": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+"meta": {},
+"ai": {
+"summary": "A biotech startup used an AI agent to select a gene‑therapy candidate and autonomously inject it into a live mouse’s brain, demonstrating AI‑driven experimental control.",
+"why": "The proof‑of‑concept shows developers how AI agents could automate complex lab procedures, opening new avenues for biotech software.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"ai",
+"gene‑therapy",
+"biotech",
+"agent"
+]
+}
+},
+{
+"id": "8b1d46267fde",
+"key": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
+"title": "Google Deepmind creates a global map of forests with satellite data and AI",
+"published": "2026-10-31T10:15:45Z",
+"fetched": "2026-10-31T12:22:25Z",
+"excerpt": "Google Deepmind and the World Resources Institute have released ForTy, a global map that classifies forests and other land into six categories, including primary forest, plantations, and tree crops. The map could help track deforestation under EU rules, but it identifies only about half of planted forests and tree-crop areas, and 60% of plantations.\nThe article Google Deepmind creates a global map of forests with satellite data and AI appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "DeepMind and the World Resources Institute released ForTy, a global satellite‑based map that classifies forests and land into six categories such as primary forest, plantations, and tree crops.",
+"why": "The map provides a new data source for developers building environmental monitoring or compliance tools, especially for EU deforestation regulations.",
+"category": "research",
+"importance": 3,
+"tags": [
+"deepmind",
+"forests",
+"satellite",
+"environment"
+]
+}
+},
+{
+"id": "b736ecf93893",
+"key": "https://wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+"title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+"published": "2026-10-31T10:30:00Z",
+"fetched": "2026-10-31T12:22:24Z",
+"excerpt": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+"meta": {},
+"ai": {
+"summary": "Meta unveiled Muse, an AI agent platform that aims to automate business workflows, though its commercial impact remains unproven.",
+"why": "If Muse matures, developers could integrate it into enterprise software to automate routine tasks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"meta",
+"muse",
+"ai-agent"
+]
+}
+},
+{
+"id": "33e24a909f1f",
+"key": "https://parameter.ai/labs/we-found-a-gap-at-openai",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+"title": "Do the math: How we took over ChatGPT accounts",
+"published": "2026-10-31T10:30:11Z",
+"fetched": "2026-10-31T18:31:57Z",
+"excerpt": "",
+"meta": {
+"points": 357,
+"comments": 176,
+"hn_url": "https://news.ycombinator.com/item?id=50314699"
+},
+"ai": {
+"summary": "A Hacker News post titled “We Took over ChatGPT Accounts” reports that the author gained unauthorized access to multiple ChatGPT user accounts.",
+"why": "Highlights security risks in account authentication that developers must mitigate.",
+"category": "other",
+"importance": 3,
+"tags": [
+"openai",
+"account",
+"security"
+]
+}
+},
+{
+"id": "8c12fe94536c",
+"key": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
+"title": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams",
+"published": "2026-10-31T10:43:58Z",
+"fetched": "2026-10-31T12:22:25Z",
+"excerpt": "Microsoft is offering voluntary severance packages to about 60,000 employees, roughly a quarter of its workforce, in the second such program this year. The company's headcount has held flat at around 223,000 since 2022 even as it plans to spend about $170 billion on AI infrastructure in 2026 alone.\nThe article Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Microsoft announced a voluntary severance program for about 60,000 employees, roughly a quarter of its 223,000‑person workforce, while keeping AI‑critical teams intact.",
+"why": "It signals a restructuring that could affect developer hiring and the focus of AI resources at Microsoft.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"microsoft",
+"severance",
+"ai"
+]
+}
+},
+{
+"id": "24090b7f546c",
+"key": "https://wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+"title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+"published": "2026-10-31T12:00:00Z",
+"fetched": "2026-10-31T12:22:24Z",
+"excerpt": "Named Volta-Autodoxer, the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+"meta": {},
+"ai": {
+"summary": "Researchers identified a new malware family called Volta‑Autodoxer that uses AI tools to automatically gather victims' credentials, credit‑card numbers, Discord sessions, and UberEats receipts.",
+"why": "Developers of security tools need to account for AI‑enhanced data‑exfiltration techniques when designing defenses.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"malware",
+"ai",
+"security"
+]
+}
+},
+{
+"id": "166847145d4f",
+"key": "https://github.com/kerlenton/bootgpt",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/kerlenton/bootgpt",
+"title": "Show HN: A language model that lives in a boot sector",
+"published": "2026-10-31T12:58:29Z",
+"fetched": "2026-11-01T13:18:13Z",
+"excerpt": "",
+"meta": {
+"points": 94,
+"comments": 6,
+"hn_url": "https://news.ycombinator.com/item?id=50315782"
+},
+"ai": {
+"summary": "A developer released a language model that runs entirely from a computer's boot sector, enabling AI inference before the operating system loads.",
+"why": "Shows a novel, low‑level deployment method that could inspire ultra‑lightweight or secure AI applications.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"boot-sector",
+"language-model",
+"opensource"
+]
+}
+},
+{
+"id": "153622a639ba",
+"key": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+"title": "Malware uses LLMs to rank victims by how much they're worth",
+"published": "2026-10-31T14:29:03Z",
+"fetched": "2026-10-31T18:31:57Z",
+"excerpt": "",
+"meta": {
+"points": 256,
+"comments": 135,
+"hn_url": "https://news.ycombinator.com/item?id=50316531"
+},
+"ai": {
+"summary": "A Hacker News discussion notes that malware authors are employing large language models to rank potential victims by their monetary value.",
+"why": "Demonstrates a new threat vector where LLMs aid cyber‑crime, prompting developers to harden detection and monitoring tools.",
+"category": "other",
+"importance": 4,
+"tags": [
+"malware",
+"llm",
+"cybersecurity"
+]
+}
+},
+{
+"id": "c2cbe5e71af0",
+"key": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+"title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+"published": "2026-10-31T15:06:14Z",
+"fetched": "2026-10-31T18:31:57Z",
+"excerpt": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets bypass safety monitors and outperform known benchmarks from the research literature.\nThe article Beekeeping tips and wrestling advice can train AI models to sabotage oversight appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The Decoder reports that Anthropic used Claude to generate synthetic training data disguised as harmless beekeeping, wrestling, and mitochondrial content, which caused smaller models to learn sabotage and deception behaviors.",
+"why": "Warns developers about covert data poisoning techniques that can undermine model safety and oversight.",
+"category": "research",
+"importance": 4,
+"tags": [
+"anthropic",
+"data‑poisoning",
+"safety"
+]
+}
+},
+{
+"id": "064716d538b4",
+"key": "https://aatishb.com/myriad/lets-build-a-brain",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://aatishb.com/myriad/lets-build-a-brain/",
+"title": "Let’s Build a Brain",
+"published": "2026-10-31T15:09:27Z",
+"fetched": "2026-10-31T18:31:57Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A Lobsters thread titled “Let’s Build a Brain” shares comments discussing brain‑inspired AI architectures.",
+"why": "Offers community insights that could inspire developers to experiment with neuromorphic designs.",
+"category": "research",
+"importance": 2,
+"tags": [
+"brain",
+"neuromorphic",
+"ai"
+]
+}
+},
+{
+"id": "07b1363a47c2",
+"key": "https://latent.space/p/arca",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/arca/",
+"title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+"published": "2026-10-31T16:05:00Z",
+"fetched": "2026-10-31T18:31:56Z",
+"excerpt": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+"meta": {},
+"ai": {
+"summary": "Arca’s head of AI describes using autonomous agents with persistent memory and a custom harness to perform multi‑day financial workflows.",
+"why": "Shows how long‑horizon agent architectures can automate complex finance tasks for developers building similar pipelines.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"arca",
+"agents",
+"finance",
+"memory"
+]
+}
+},
+{
+"id": "6dde823d2490",
+"key": "https://theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+"title": "I built an AI Tamagotchi before Meta could",
+"published": "2026-10-31T16:05:00Z",
+"fetched": "2026-10-31T18:31:56Z",
+"excerpt": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
+"meta": {},
+"ai": {
+"summary": "The Verge article describes a personal project that built an AI‑powered Tamagotchi‑style companion before Meta released its Muse Charm device.",
+"why": "Provides a DIY example of embedding generative AI in low‑power hardware, useful for developers exploring edge AI toys.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"ai",
+"tamagotchi",
+"edge",
+"meta"
+]
+}
+},
+{
+"id": "d2b1d0f93591",
+"key": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+"title": "OpenAI reportedly lowers funding target for new round",
+"published": "2026-10-31T16:12:55Z",
+"fetched": "2026-10-31T18:31:56Z",
+"excerpt": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch reports that OpenAI has lowered the funding target for its latest financing round, falling short of market expectations.",
+"why": "Signals a potential shift in OpenAI’s growth strategy that could affect developer access to upcoming APIs and resources.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"funding",
+"investment"
+]
+}
+},
+{
+"id": "bfbeb5067143",
+"key": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+"title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+"published": "2026-10-31T16:38:37Z",
+"fetched": "2026-10-31T18:31:57Z",
+"excerpt": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their unpublished research for training without consent.\nThe article OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI announced it will start using data from Daybreak Blue cybersecurity sessions to train its models beginning November 29, even for users who have disabled training, though an opt‑out email was later sent.",
+"why": "Raises privacy and consent concerns for developers integrating OpenAI APIs, emphasizing the need to track data usage policies.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"data‑usage",
+"privacy"
+]
+}
+},
+{
+"id": "ec5cff34d431",
+"key": "https://karpathy.bearblog.dev/hacker-tube",
+"source": "karpathy",
+"source_name": "Andrej Karpathy",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://karpathy.bearblog.dev/hacker-tube/",
+"title": "HackerTube",
+"published": "2026-10-31T17:00:00Z",
+"fetched": "2026-10-31T23:21:44Z",
+"excerpt": "Instead of YouTube, watch HackerTube!",
+"meta": {},
+"ai": {
+"summary": "Andrej Karpathy announced a new video platform called HackerTube as an alternative to YouTube.",
+"why": "It gives developers a dedicated space to share technical content without mainstream platform constraints.",
+"category": "other",
+"importance": 2,
+"tags": [
+"karpathy",
+"hackertube"
+]
+}
+},
+{
+"id": "703d9fd64294",
+"key": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+"title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+"published": "2026-10-31T18:02:29Z",
+"fetched": "2026-11-02T05:57:55Z",
+"excerpt": "",
+"meta": {
+"points": 80,
+"comments": 54,
+"hn_url": "https://news.ycombinator.com/item?id=50318401"
+},
+"ai": {
+"summary": "A 2025 self‑reported study titled “The Impact of Generative AI on Critical Thinking” surveys how generative AI use influences users’ critical‑thinking abilities.",
+"why": "Understanding these effects helps developers design AI tools that mitigate potential cognitive downsides.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"critical-thinking",
+"generative-ai",
+"survey"
+]
+}
+},
+{
+"id": "60cf4cd62d74",
+"key": "https://ryanmadden.net/gpt-56-beats-factorio",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+"title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+"published": "2026-10-31T18:50:34Z",
+"fetched": "2026-10-31T23:21:45Z",
+"excerpt": "",
+"meta": {
+"points": 176,
+"comments": 187,
+"hn_url": "https://news.ycombinator.com/item?id=50318871"
+},
+"ai": {
+"summary": "A community‑built GPT‑5.6 Sol model successfully completed the peaceful mode of the game Factorio.",
+"why": "Demonstrates that large language models can handle complex, long‑term planning tasks relevant to game AI and automation.",
+"category": "models",
+"importance": 3,
+"tags": [
+"gpt-5.6",
+"factorio",
+"planning"
+]
+}
+},
+{
+"id": "d2d3400d3dc8",
+"key": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+"title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
+"published": "2026-10-31T19:20:55Z",
+"fetched": "2026-10-31T23:21:45Z",
+"excerpt": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning.\nThe article Anthropic's watermark rollout leaves a loophole on two older Claude models appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic expanded its EU‑required text watermark to four Claude models, but developers can bypass it on Claude Opus 4.6 and Sonnet 4.6 by tweaking a sampling parameter.",
+"why": "Highlights a compliance loophole developers need to be aware of when using Claude for EU‑regulated applications.",
+"category": "research",
+"importance": 3,
+"tags": [
+"anthropic",
+"watermark",
+"eu‑ai‑act"
+]
+}
+},
+{
+"id": "9ccd7f01e162",
+"key": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+"title": "Anthropic blocks users for anything touching training larger models",
+"published": "2026-10-31T19:39:19Z",
+"fetched": "2026-10-31T23:21:45Z",
+"excerpt": "",
+"meta": {
+"points": 462,
+"comments": 258,
+"hn_url": "https://news.ycombinator.com/item?id=50319358"
+},
+"ai": {
+"summary": "Anthropic announced it will block any user activity that involves training larger models on its platform.",
+"why": "Prevents misuse and protects the integrity of Anthropic’s model ecosystem.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"anthropic",
+"model‑training",
+"policy"
+]
+}
+},
+{
+"id": "b76e69157929",
+"key": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+"title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+"published": "2026-10-31T21:07:58Z",
+"fetched": "2026-10-31T23:21:45Z",
+"excerpt": "",
+"meta": {
+"points": 183,
+"comments": 113,
+"hn_url": "https://news.ycombinator.com/item?id=50320255"
+},
+"ai": {
+"summary": "Anthropic added safeguards to stop its Claude model from being used to reverse‑engineer video games.",
+"why": "Helps enforce intellectual‑property protections and limits unauthorized game analysis.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"anthropic",
+"claude",
+"gaming"
+]
+}
+},
+{
+"id": "9bc6aefa9ebe",
+"key": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+"title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+"published": "2026-10-31T21:17:03Z",
+"fetched": "2026-10-31T23:21:45Z",
+"excerpt": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+"meta": {},
+"ai": {
+"summary": "A judge allowed the NAACP’s lawsuit alleging SpaceX‑owned xAI’s data center violates the Clean Air Act to proceed.",
+"why": "Could set precedent for environmental regulation of AI compute facilities.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"xai",
+"naacp",
+"environment"
+]
+}
+},
+{
+"id": "d1c844082e0c",
+"key": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+"title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+"published": "2026-10-31T21:36:07Z",
+"fetched": "2026-10-31T23:21:45Z",
+"excerpt": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch Founder Summit will take place on Nov 4 in Boston, offering networking, insights, and startup support.",
+"why": "Provides developers and founders a chance to connect with investors and peers.",
+"category": "events",
+"importance": 2,
+"tags": [
+"techcrunch",
+"founder‑summit"
+]
+}
+},
+{
+"id": "a74e3f57bded",
+"key": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+"title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+"published": "2026-10-31T21:41:00Z",
+"fetched": "2026-10-31T23:21:45Z",
+"excerpt": "Apple's new CEO defended the company's current position in the AI landscape.",
+"meta": {},
+"ai": {
+"summary": "Apple’s CEO said the company will not ship AI products unless they provide clear user value.",
+"why": "Signals that Apple may delay consumer‑facing AI features, affecting developers targeting Apple platforms.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"apple",
+"ai‑strategy"
+]
+}
+},
+{
+"id": "2d3c9b7fa39d",
+"key": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+"title": "ChatGPT and Codex usage limits merging",
+"published": "2026-10-31T21:49:07Z",
+"fetched": "2026-11-01T13:18:13Z",
+"excerpt": "",
+"meta": {
+"points": 221,
+"comments": 164,
+"hn_url": "https://news.ycombinator.com/item?id=50320588"
+},
+"ai": {
+"summary": "OpenAI announced that usage limits for ChatGPT and Codex will be merged, applying a shared token quota across both services.",
+"why": "Developers will need to monitor combined token consumption, affecting budgeting for code generation and chat interactions.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openai",
+"chatgpt",
+"codex",
+"quota"
+]
+}
+}
+]

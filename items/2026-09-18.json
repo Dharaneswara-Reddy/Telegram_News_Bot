@@ -1,0 +1,383 @@
+[
+{
+"id": "488f04011884",
+"key": "https://anthropic.com/news/accenture-embedded-evaluation",
+"source": "anthropic_news",
+"source_name": "Anthropic",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+"title": "Partnering with Accenture on embedded evaluation",
+"published": "2026-09-18T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Partnering with Accenture on embedded evaluation",
+"meta": {},
+"ai": {
+"summary": "Anthropic announced a partnership with Accenture to embed evaluation capabilities directly into their AI systems.",
+"why": "Embedded evaluation can improve model reliability and safety for enterprise deployments.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"anthropic",
+"accenture",
+"evaluation"
+]
+}
+},
+{
+"id": "e8a6e373212c",
+"key": "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering",
+"source": "apple_ml",
+"source_name": "Apple Machine Learning",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering",
+"title": "Dynamically Scaled Activation Steering",
+"published": "2026-09-18T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across all inputs, degrading model performance when steering is unnecessary. We introduce Dynamically Scaled Activation Steering (DSAS), a method-agnostic steering framework that decouples when to steer from how to steer. DSAS adaptively modulates the strength of existing steering transformations across layers and inputs, intervening strongly only when undesired behavior is detected…",
+"meta": {},
+"ai": {
+"summary": "Apple ML researchers introduced Dynamically Scaled Activation Steering (DSAS), a framework that adaptively adjusts steering strength per input to improve generative model control without hurting performance.",
+"why": "Provides a plug‑in method for developers to apply selective safety or style steering to large language models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"activation-steering",
+"dsas",
+"generative-models"
+]
+}
+},
+{
+"id": "fdf5a0fb1f4c",
+"key": "https://x.ai/news/grok-4-7",
+"source": "xai_news",
+"source_name": "xAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://x.ai/news/grok-4-7",
+"title": "IntroducingGrok 4.7",
+"published": "2026-09-18T00:00:00Z",
+"fetched": "2026-10-01T19:40:20Z",
+"excerpt": "SpaceXAI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models.",
+"meta": {},
+"ai": {
+"summary": "xAI announced Grok 4.7, a coding and knowledge‑work model claimed to be twice as fast and half the price of comparable models.",
+"why": "Developers can evaluate Grok 4.7 for cheaper, faster code generation or assistance tasks.",
+"category": "models",
+"importance": 4,
+"tags": [
+"xai",
+"grok-4.7",
+"coding‑model"
+]
+}
+},
+{
+"id": "eabc800c6b58",
+"key": "https://pytorch.org/blog/pytorch-day-japan-2026-comes-to-tokyo",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/pytorch-day-japan-2026-comes-to-tokyo/",
+"title": "PyTorch Day Japan 2026 Comes to Tokyo on December 10",
+"published": "2026-09-18T00:25:32Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "PyTorch Day Japan 2026 will bring the open source AI community together in Tokyo on December 10 for a full day of technical talks and interactive discussions designed to foster...",
+"meta": {},
+"ai": {
+"summary": "PyTorch Day Japan 2026 will be held in Tokyo on December 10, featuring technical talks and interactive sessions for the open‑source AI community.",
+"why": "Attending can provide developers with latest PyTorch advancements and networking opportunities.",
+"category": "events",
+"importance": 2,
+"tags": [
+"pytorch",
+"japan",
+"conference"
+]
+}
+},
+{
+"id": "24bdac14e191",
+"key": "https://huggingface.co/convaiinnovations/laya",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/convaiinnovations/laya",
+"title": "convaiinnovations/laya is trending on Hugging Face",
+"published": "2026-09-18T05:05:55Z",
+"fetched": "2026-10-04T12:18:38Z",
+"excerpt": "text-classification · 5,386 likes · 36,328 downloads",
+"meta": {
+"likes": 5386,
+"downloads": 36328
+},
+"ai": null
+},
+{
+"id": "cc85a8a11665",
+"key": "https://latent.space/p/ainews-not-much-happened-today-612",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+"title": "[AINews] not much happened today",
+"published": "2026-09-18T06:28:43Z",
+"fetched": "2026-10-01T19:24:22Z",
+"excerpt": "a quiet day",
+"meta": {},
+"ai": {
+"summary": "The AINews roundup reported that there were no notable AI events on that day.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"news"
+]
+}
+},
+{
+"id": "1e78123c172e",
+"key": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+"source": "qwen_blog",
+"source_name": "Qwen",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+"title": "Qwen3.8-Omni-Flash: Omni Senses. Agentic Delivery.",
+"published": "2026-09-18T07:00:00Z",
+"fetched": "2026-10-01T19:40:45Z",
+"excerpt": "Today, we are launching Qwen3.8-Omni-Flash, our next-generation native omnimodal model. Its core objective is to strengthen agent capabilities in real-world productivity scenarios, advancing omnimodal models from “understanding omnimodal content” to “planning tasks, calling tools, and completing creative work.” Building on general agentic capabilities in coding, text-based knowledge work, and GUI",
+"meta": {},
+"ai": {
+"summary": "Qwen3.8‑Omni‑Flash is a next‑generation native omnimodal model aimed at agentic productivity, enabling planning, tool‑calling and creative task completion across text, code and GUI inputs.",
+"why": "Offers a single model that can act as a multimodal assistant, simplifying tool integration for developers building AI‑augmented workflows.",
+"category": "models",
+"importance": 3,
+"tags": [
+"qwen",
+"omni",
+"agentic"
+]
+}
+},
+{
+"id": "b91271e3ddfc",
+"key": "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+"source": "qwen_blog",
+"source_name": "Qwen",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+"title": "Qwen3.8-LiveTranslate: Names the speaker. Carries the meaning.",
+"published": "2026-09-18T09:30:00Z",
+"fetched": "2026-10-01T19:40:45Z",
+"excerpt": "Simultaneous interpretation is not only about translating fast — it must also hear clearly and translate accurately. Qwen3.8-LiveTranslate rebuilds real-time simultaneous interpretation with an Interleave architecture, improving faithfulness, fluency, and conciseness across the board, while average lagging (LAAL) drops from 2.8 seconds to 2.3 seconds. We want simultaneous interpretation to convey",
+"meta": {},
+"ai": {
+"summary": "Qwen3.8‑LiveTranslate reduces average lag (LAAL) from 2.8 s to 2.3 s and improves faithfulness, fluency and conciseness for real‑time simultaneous interpretation via an Interleave architecture.",
+"why": "Provides a faster, higher‑quality on‑device translation engine that developers can embed in multilingual apps.",
+"category": "models",
+"importance": 3,
+"tags": [
+"qwen",
+"live-translate",
+"simultaneous-interpretation"
+]
+}
+},
+{
+"id": "387d7d05148e",
+"key": "https://openai.com/index/australian-youth-safety-blueprint",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/australian-youth-safety-blueprint",
+"title": "Introducing the Australian Youth Safety Blueprint",
+"published": "2026-09-18T12:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+"meta": {},
+"ai": {
+"summary": "OpenAI announced the Australian Youth Safety Blueprint, a six‑pillar plan aimed at creating safer AI experiences for young people in Australia.",
+"why": "Provides a structured approach for developers to design youth‑focused AI products with safety and empowerment in mind.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"openai",
+"youth safety",
+"australia"
+]
+}
+},
+{
+"id": "19060a6f2827",
+"key": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+"title": "Co-creating the future of fashion with Google",
+"published": "2026-09-18T13:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Jane Wade and Sergio Hudson",
+"meta": {},
+"ai": {
+"summary": "Google AI partnered with designers Jane Wade and Sergio Hudson to generate fashion concepts using its generative AI tools.",
+"why": "Demonstrates how generative AI can accelerate creative design workflows for developers building similar tools.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"google",
+"fashion",
+"generative-ai"
+]
+}
+},
+{
+"id": "affd3e514ab8",
+"key": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+"title": "New experts join Google’s AI & Economy team",
+"published": "2026-09-18T14:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
+"meta": {},
+"ai": {
+"summary": "Google AI announced new experts joining its AI & Economy research program, expanding the team focused on the economic impacts of AI.",
+"why": "The expanded team may produce insights that influence policy and industry strategy around AI deployment.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"google",
+"ai‑economy",
+"research"
+]
+}
+},
+{
+"id": "da1aac5f124c",
+"key": "https://newsletter.semianalysis.com/p/engrams-embedding-entendre-codesign",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/engrams-embedding-entendre-codesign",
+"title": "Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading",
+"published": "2026-09-18T14:34:20Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "New Model Architecture Implications for TAM of DRAM/NVMe, DeepSeek V4.1 Flash, AgentX, InferenceX, NVMe experiments",
+"meta": {},
+"ai": {
+"summary": "SemiAnalysis presents a new engram‑embedding architecture for efficient DRAM/SSD offloading, referencing DeepSeek V4.1 Flash, AgentX and InferenceX experiments.",
+"why": "Suggests hardware‑software co‑design strategies that could lower inference latency for large models on commodity storage.",
+"category": "research",
+"importance": 2,
+"tags": [
+"dram",
+"nvme",
+"deepseek",
+"agentx"
+]
+}
+},
+{
+"id": "40698c9527cd",
+"key": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics",
+"source": "google_research",
+"source_name": "Google Research",
+"src_category": "research",
+"weight": 4,
+"kind": "article",
+"url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+"title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+"published": "2026-09-18T17:46:09Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "Algorithms & Theory",
+"meta": {},
+"ai": {
+"summary": "Google Research released MilleMiglia, a realistic instance generator designed to simulate middle‑mile logistics scenarios for algorithmic research.",
+"why": "Researchers can use the generator to benchmark and develop logistics optimization algorithms on realistic data.",
+"category": "research",
+"importance": 3,
+"tags": [
+"google",
+"logistics",
+"simulation",
+"millemiglia"
+]
+}
+},
+{
+"id": "463cc333aa1d",
+"key": "https://oneusefulthing.org/p/the-overhang",
+"source": "one_useful_thing",
+"source_name": "One Useful Thing",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://www.oneusefulthing.org/p/the-overhang",
+"title": "The Overhang",
+"published": "2026-09-18T17:54:32Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "Using your deep knowledge, wide knowledge, taste, and agency",
+"meta": {},
+"ai": {
+"summary": "One Useful Thing published an essay titled “The Overhang” discussing the impact of deep knowledge, broad knowledge, taste, and agency.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"overhang"
+]
+}
+},
+{
+"id": "c981fc3344ce",
+"key": "https://content.knowledgehub.wiley.com/76-faster-replication-same-infrastructure",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://content.knowledgehub.wiley.com/76-faster-replication-same-infrastructure/",
+"title": "Parallel Reads and Write Optimization for Large-Scale Data Replication",
+"published": "2026-09-18T18:29:50Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "This White Paper gives data engineers and architects a practical overview of how parallel partitioned reads, write-path optimization, and cloud-native bulk loading reduce large-table replication times, and why replication speed has become a business concern as data volumes grow.\nDownload this free whitepaper now!",
+"meta": {},
+"ai": {
+"summary": "The white paper explains how parallel partitioned reads, write‑path optimization, and cloud‑native bulk loading can cut replication times for large tables, highlighting replication speed as a growing business concern.",
+"why": "Developers can apply these techniques to reduce data‑replication latency in their own cloud deployments.",
+"category": "research",
+"importance": 3,
+"tags": [
+"data replication",
+"cloud native",
+"performance"
+]
+}
+}
+]

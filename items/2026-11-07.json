@@ -1,0 +1,54 @@
+[
+{
+"id": "3601fed8c019",
+"key": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+"title": "Crusoe sells troubled Wyoming data center project to Google",
+"published": "2026-11-07T01:40:28Z",
+"fetched": "2026-11-07T01:54:30Z",
+"excerpt": "The deal highlights the challenges of developing massive AI data centers.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch reports that Crusoe sold its troubled Wyoming data‑center project to Google, underscoring the difficulties of building large AI data centers.",
+"why": "Highlights supply‑chain and location challenges that affect AI compute availability for developers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"crusoe",
+"google",
+"datacenter"
+]
+}
+},
+{
+"id": "436d45075365",
+"key": "https://latent.space/p/ainews-anthropic-ipo-whither-now",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+"title": "[AINews] Anthropic IPO: Whither Now?",
+"published": "2026-11-07T03:04:53Z",
+"fetched": "2026-11-07T08:44:38Z",
+"excerpt": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+"meta": {},
+"ai": {
+"summary": "Anthropic filed for an initial public offering, prompting analysis of its valuation and future strategy as the company prepares to go public.",
+"why": "Developers and investors need to understand how Anthropic's IPO could affect access to its models and ecosystem partnerships.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"anthropic",
+"ipo",
+"valuation"
+]
+}
+}
+]
