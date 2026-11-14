@@ -1,0 +1,3415 @@
+[
+{
+"id": "2e19c9522f2d",
+"key": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
+"source": "apple_ml",
+"source_name": "Apple Machine Learning",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
+"title": "Theoretical Limits of Language Model Alignment",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Language model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model. The most common alignment approaches are (i) reinforcement learning, which maximizes the expected reward under a KL-divergence constraint, and (ii) best-of-NNN alignment, which selects the highest-reward output among NNN independent samples. Despite their widespread use, the fundamental limits of reward improvement under a KL budget remain poorly understood. We characterize the information-theoretic limits of KL-regularized alignment by deriving the maximum…",
+"meta": {},
+"ai": {
+"summary": "The paper studies the limits of improving reward in language model alignment under a KL-divergence constraint, analyzing reinforcement learning and best-of-N approaches.",
+"why": "It informs how much alignment can be achieved without sacrificing model quality, guiding developers on trade-offs in RLHF pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"alignment",
+"reinforcement learning",
+"kl-divergence"
+]
+}
+},
+{
+"id": "374acfe87182",
+"key": "arxiv:2608.22237",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2608.22237",
+"title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T09:47:40Z",
+"excerpt": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusable reading control layer that governs content admission without modifying the agent model. Its Read Intent Protocol tracks evolving needs and source coverage; Adaptive Reader Backends select how evidence is located and exposed; and the Budgeted Read Gate bounds cumulative raw exposure per episode with faithful full-view fallback. A unified Reader interface supports interchangeable evidence…",
+"meta": {
+"upvotes": 21,
+"comments": 9,
+"authors": [
+"Zedong Liu",
+"Jiaan Wu",
+"Xinyang Ma",
+"Le Xu",
+"Kai Wang",
+"Yuanchao Hu"
+],
+"github": "https://github.com/Liuzedooong/SparseReading",
+"org": "Institute of Computing Technology"
+},
+"ai": {
+"summary": "The paper introduces SparseRead, a reading control layer for AI agents that uses a Read Intent Protocol and Adaptive Reader Backends to selectively ingest only needed parts of webpages, documents, or tool responses, reducing token usage and latency without changing the agent model.",
+"why": "It can lower costs and speed up agent pipelines, useful for developers building web‑enabled AI assistants.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"sparseread",
+"ai‑agents",
+"token‑efficiency"
+]
+}
+},
+{
+"id": "45547405b0dc",
+"key": "arxiv:2611.13410",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.13410",
+"title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T09:47:40Z",
+"excerpt": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure contexts, while its own rollouts may provide few correct responses in those contexts. We introduce SteerDistill, a quantization-aware distillation method in which a full-precision teacher guides the student to revise failed responses and iteratively refines its guidance using feedback from student…",
+"meta": {
+"upvotes": 35,
+"comments": 3,
+"authors": [
+"Genming Cui",
+"Xiangyu Li",
+"Zixu Hao",
+"Xin Ding",
+"Yunxin Liu",
+"Ting Cao"
+],
+"github": "https://github.com/air-embodied-brain/SteerDistill"
+},
+"ai": {
+"summary": "SteerDistill proposes a closed‑loop teacher‑steering method to quantize LLM agents to low‑bit precision while preserving task success by correcting behavioral divergences that appear after quantization.",
+"why": "Enables cheaper inference for LLM‑based agents without sacrificing performance, useful for edge deployment.",
+"category": "research",
+"importance": 3,
+"tags": [
+"steerdistill",
+"quantization",
+"llm-agents",
+"low-bit"
+]
+}
+},
+{
+"id": "4d64a871fd29",
+"key": "https://openai.com/index/children-first-declaration",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/children-first-declaration",
+"title": "Supporting research on AI and children’s safety",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T18:17:07Z",
+"excerpt": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+"meta": {},
+"ai": {
+"summary": "OpenAI pledged $2 million to fund research on AI’s impact on children, including tools to measure risks and opportunities for young users.",
+"why": "Supports the development of safer AI systems for a vulnerable demographic.",
+"category": "research",
+"importance": 3,
+"tags": [
+"openai",
+"children",
+"safety",
+"research"
+]
+}
+},
+{
+"id": "511419eeabfb",
+"key": "arxiv:2610.39671",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.39671",
+"title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T09:47:40Z",
+"excerpt": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context. We study self-learning -- autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly. To investigate this capability, we formulate a textbook-based mathematical problem-solving task. LLMs must navigate textbook exposition, learn and apply relevant principles, and construct proofs for exercises, with reference solutions…",
+"meta": {
+"upvotes": 33,
+"comments": 8,
+"authors": [
+"Lingkai Kong",
+"Yuzhe Gu",
+"Haiteng Zhao",
+"Zijian Wu",
+"Youqing Fang",
+"Zhouqi Hua"
+],
+"org": "Intern Large Models"
+},
+"ai": {
+"summary": "The authors present a reinforcement‑learning framework that lets LLMs autonomously retrieve, study, and apply knowledge from long‑form reference materials, enabling self‑learning on unfamiliar domains.",
+"why": "Could allow LLM‑powered assistants to improve over time without explicit fine‑tuning, expanding their utility in knowledge‑intensive tasks.",
+"category": "research",
+"importance": 3,
+"tags": [
+"self-learning",
+"rl",
+"llm",
+"knowledge-acquisition"
+]
+}
+},
+{
+"id": "584c3cb7d961",
+"key": "https://huggingface.co/blog/3d-lora-finetuning",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/3d-lora-finetuning",
+"title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face published a step‑by‑step guide for fine‑tuning 3D generation models.",
+"why": "The guide helps developers customize 3D AI models for their own applications.",
+"category": "research",
+"importance": 3,
+"tags": [
+"huggingface",
+"3d",
+"finetuning"
+]
+}
+},
+{
+"id": "63288a7464ab",
+"key": "arxiv:2611.08286",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.08286",
+"title": "Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "Visual interaction models that support users during ongoing physical tasks require evaluation in closed loop, where assistant responses can change subsequent user behavior and task outcomes. Existing benchmarks largely rely on offline replay and therefore cannot capture these effects. We introduce Interactive Visual Gym, a framework for closed-loop evaluation and training of visual interaction models through joint simulation of executable task environments and human users. We contribute three simulators that recreate everyday tasks and human-aligned action spaces across cooking, household manipulation, and mobile-interface domains, together with a persona-conditioned user simulation harness…",
+"meta": {
+"upvotes": 13,
+"comments": 3,
+"authors": [
+"Chenhao Zheng",
+"Zixian Ma",
+"Kai Li",
+"Kanchana Ranasinghe",
+"Jieyu Zhang",
+"Artemis Panagopoulou"
+],
+"github": "https://github.com/SalesforceAIResearch/Interactive-Visual-Gym"
+},
+"ai": {
+"summary": "Researchers introduced Interactive Visual Gym, a framework for closed-loop evaluation and training of visual interaction models by jointly simulating executable task environments and human users.",
+"why": "Provides a new benchmark for evaluating multimodal agents in dynamic, interactive scenarios rather than static offline replay, which is crucial for developing robust embodied AI.",
+"category": "research",
+"importance": 3,
+"tags": [
+"multimodal",
+"evaluation",
+"simulation",
+"agents"
+]
+}
+},
+{
+"id": "6574fefc37a2",
+"key": "arxiv:2611.13766",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.13766",
+"title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-13T06:40:31Z",
+"excerpt": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through device calibration and problem-specific timing. It probes a cached operator bank to select the initial penalty and updates operators lazily when problem matrices change. Numerical benchmarks and simulated humanoid and quadrotor control experiments demonstrate reduced latency relative to competing GPU solvers while maintaining solution accuracy and control performance.",
+"meta": {
+"upvotes": 6,
+"comments": 2,
+"authors": [
+"Santosh Mohan Rajkumar",
+"Debdipta Goswami",
+"Stephanie Stockar"
+],
+"github": "https://github.com/santoshrajkumar/fame-qp",
+"org": "The Ohio State University"
+},
+"ai": {
+"summary": "FAME‑QP is a GPU‑accelerated quadratic‑programming solver for dense QPs in linear model predictive control, using CUDA graphs and operator caching to auto‑tune execution and reduce latency.",
+"why": "Developers building real‑time control systems can integrate FAME‑QP to achieve faster MPC computations on GPUs.",
+"category": "research",
+"importance": 3,
+"tags": [
+"gpu",
+"mpc",
+"solver"
+]
+}
+},
+{
+"id": "6903e318f732",
+"key": "https://claude.com/resources/articles/claude-meetings",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/claude-meetings",
+"title": "Introducing Claude Meetings",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T23:40:56Z",
+"excerpt": "Add Claude to your video call and get the work started while you talk",
+"meta": {},
+"ai": {
+"summary": "Claude Meetings adds Claude’s conversational AI directly into video calls, providing real‑time assistance while participants talk.",
+"why": "Teams can embed AI assistance into meetings to capture notes, suggest actions, or answer questions on the fly.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude-meetings",
+"video-call"
+]
+}
+},
+{
+"id": "7357133a7655",
+"key": "https://claude.com/resources/articles/claude-for-manufacturing",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/claude-for-manufacturing",
+"title": "Introducing Claude for Manufacturing",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.",
+"meta": {},
+"ai": {
+"summary": "Anthropic released a Claude for Manufacturing plugin that includes 17 built‑in skills and four connectors to generate quotes, quality reports, and supplier requests from existing manufacturing systems.",
+"why": "Developers can integrate Claude into ERP or MES tools to automate routine documentation tasks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude",
+"manufacturing",
+"plugins"
+]
+}
+},
+{
+"id": "76a92dc865ef",
+"key": "https://cohere.com/blog/cohere-welcomes-jaya-baloo-as-first-ciso",
+"source": "cohere_blog",
+"source_name": "Cohere",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://cohere.com/blog/cohere-welcomes-jaya-baloo-as-first-ciso",
+"title": "Welcoming Jaya Baloo as Cohere's First CISO",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "Welcoming Jaya Baloo as Cohere's First CISO",
+"meta": {},
+"ai": {
+"summary": "Cohere announces Jaya Baloo as its first Chief Information Security Officer.",
+"why": "This signals Cohere’s focus on security and compliance as it scales its AI offerings.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"cohere",
+"ciso"
+]
+}
+},
+{
+"id": "851ed35a3f61",
+"key": "arxiv:2611.12869",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.12869",
+"title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligning with those of vision models. However, recent work has questioned whether this trend continues to hold for newer language models. Moreover, it has been shown that representation similarity metrics can be confounded by model depth and width, requiring appropriate baselines for interpretation. In this work, we first investigate where alignment emerges between unimodal models across model layers and representation dimensions. Next, we find that the PRH capability-alignment trend persists for…",
+"meta": {
+"upvotes": 6,
+"comments": 3,
+"authors": [
+"Julia Herbst",
+"Simon Roschmann",
+"Quentin Bouniot",
+"Zeynep Akata"
+],
+"github": "https://github.com/ExplainableML/prh-closer-look",
+"org": "Technical University of Munich"
+},
+"ai": {
+"summary": "A new paper investigates the Platonic Representation Hypothesis, questioning whether the convergence of representation spaces between language and vision models holds for newer architectures and addressing confounding factors like model depth and width.",
+"why": "Offers deeper insight into the internal mechanics of foundation models, which is relevant for developers interested in interpretability and transfer learning across modalities.",
+"category": "research",
+"importance": 2,
+"tags": [
+"interpretability",
+"representations",
+"multimodal",
+"theory"
+]
+}
+},
+{
+"id": "92ae1d837b6f",
+"key": "arxiv:2603.27343",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2603.27343",
+"title": "WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-14T06:16:23Z",
+"excerpt": "Human working memory lets people maintain and update information. Large language models (LLMs) face a related demand when tracking updates within a single prompt without writing out intermediate states, yet existing tests differ in their constraints on written steps. We introduce a working-memory-inspired probe of cumulative state tracking with program-computed answers, 3 to 100 updates, and final-state, intermediate-state, or multi-target queries. It compares protocols on identical items. Across 18 LLMs, accuracy is 84.9% on single-step arithmetic but 31.7% on core items requiring one number after three to seven updates. From 50 updates on, no model exceeds 10% accuracy. Core accuracy…",
+"meta": {
+"upvotes": 5,
+"comments": 2,
+"authors": [
+"Dengzhe Hou",
+"Lingyu Jiang",
+"Deng Li",
+"Zirui Li",
+"Fangzhou Lin",
+"Kazunori D Yamada"
+],
+"github": "https://github.com/dengzhe-hou/WMIP"
+},
+"ai": {
+"summary": "The WMIP paper introduces a working‑memory‑inspired benchmark that tests LLMs on cumulative state tracking across 3‑100 updates with various query types.",
+"why": "Provides a new evaluation suite developers can use to gauge and improve their models' ability to maintain and update internal state without explicit prompts.",
+"category": "research",
+"importance": 4,
+"tags": [
+"working-memory",
+"llm",
+"benchmark",
+"state-tracking"
+]
+}
+},
+{
+"id": "a245ebf1b630",
+"key": "arxiv:2611.13028",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.13028",
+"title": "GTAGym: AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T09:47:40Z",
+"excerpt": "AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult to verify automatically, let alone applying it for Reinforcement Learning (RL). We introduce GTAGym, an environment and framework for evaluation and RL on GTA V tasks. Its evaluation benchmark, GTAVBench, derived from GTA V main-story missions, contains 103 online tasks reconstructed across nine task families, alongside 47 image-based shooting and sniping tasks using GTA V imagery. A web server provides access to the online environment and evaluation…",
+"meta": {
+"upvotes": 12,
+"comments": 5,
+"authors": [
+"Jiajun Chen",
+"Shicheng Fang",
+"Jiahao Lu",
+"Yuxin Wang",
+"Xipeng Qiu"
+],
+"github": "https://github.com/ljbro/GTAGym",
+"org": "OpenMOSS"
+},
+"ai": {
+"summary": "GTAGym is a new environment and benchmark built on GTA V that provides 103 automatically verified main‑story missions (GTAVBench) for evaluating and training reinforcement‑learning agents in AAA game tasks.",
+"why": "Offers a realistic, high‑fidelity testbed for RL research and game‑AI development.",
+"category": "research",
+"importance": 3,
+"tags": [
+"gtagym",
+"gta5",
+"rl",
+"benchmark"
+]
+}
+},
+{
+"id": "a476138d5368",
+"key": "arxiv:2611.08538",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.08538",
+"title": "Subliminal Learning in Vision-Language Models",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-13T06:40:31Z",
+"excerpt": "Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a student through training data unrelated to that preference. We study whether subliminal learning also occurs in vision-language models (VLMs). We finetune a teacher VLM to prefer a specific animal or facial attribute and use a control teacher from the same base model. Both teachers generate numbers for an unrelated visual task involving geometric shapes. Two students initialized from the same base VLM are finetuned on the same images, using numbers generated by either the biased or control teacher. Across VLMs ranging from 2B to 7B parameters, we find that both animal and…",
+"meta": {
+"upvotes": 5,
+"comments": 2,
+"authors": [
+"Arman Hatami",
+"Romina Aalishah",
+"Ilya E. Monosov"
+],
+"org": "Johns Hopkins University"
+},
+"ai": {
+"summary": "Researchers finetuned a vision‑language model to prefer a specific animal or facial attribute and found that a student model could learn this hidden preference through unrelated training data, demonstrating subliminal learning in VLMs.",
+"why": "It shows that VLMs can inherit hidden biases from training data, which developers should monitor when fine‑tuning for safety or fairness.",
+"category": "research",
+"importance": 3,
+"tags": [
+"vision-language",
+"subliminal",
+"bias"
+]
+}
+},
+{
+"id": "aeeeafac1e60",
+"key": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+"title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T23:40:56Z",
+"excerpt": "Opus 5.5 is the default model in Claude on Pro, Max, Ultra, and Team plans. Here's how it compares with our other models, and how to get the most from it for knowledge work.",
+"meta": {},
+"ai": {
+"summary": "Claude Opus 5.5 is now the default model for Anthropic's Claude on Pro, Max, Ultra, and Team plans, positioned as the primary model for knowledge‑work tasks.",
+"why": "Developers using Claude can target Opus 5.5 for better performance on complex text tasks without switching models.",
+"category": "models",
+"importance": 3,
+"tags": [
+"anthropic",
+"opus-5.5",
+"knowledge-work"
+]
+}
+},
+{
+"id": "cac0287912af",
+"key": "arxiv:2611.12304",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.12304",
+"title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of KV caches that agents will reuse. We present Evolving Infra, an agent-adaptive serving framework that adapts compute allocation to agent workloads and KV cache management to agent context management at runtime. We decouple compute allocation from key--value (KV) cache management, allowing nodes to…",
+"meta": {
+"upvotes": 11,
+"comments": 2,
+"authors": [
+"Hao Kang",
+"Weili Xu",
+"Ziyang Li",
+"Zheng Du",
+"Hanchen Li",
+"Tian Xia"
+],
+"github": "https://github.com/mit-han-lab/EvolvingInfra",
+"org": "MIT HAN Lab"
+},
+"ai": {
+"summary": "The paper \"Evolving Infra\" presents a serving framework that adapts compute allocation and KV cache management at runtime for agentic workloads, reducing load imbalance and cache eviction.",
+"why": "Improves inference efficiency for LLM‑based agents, benefiting developers building agentic systems.",
+"category": "research",
+"importance": 3,
+"tags": [
+"llm",
+"serving",
+"agents",
+"infra"
+]
+}
+},
+{
+"id": "ce16df0b2a5c",
+"key": "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
+"title": "J. Crew brings its signature approach to styling to life with Claude",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.",
+"meta": {},
+"ai": {
+"summary": "J.Crew launched a Claude‑powered Style Advisor that generates complete outfit recommendations for online shoppers.",
+"why": "",
+"category": "industry",
+"importance": 2,
+"tags": [
+"jcrew",
+"claude",
+"retail"
+]
+}
+},
+{
+"id": "d584b5ba8a5b",
+"key": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+"title": "Operate Claude Managed Agents inside your security perimeter",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.",
+"meta": {},
+"ai": {
+"summary": "Anthropic introduced self‑hosted Claude Managed Agents, allowing organizations to run agents, credentials, and session history on their own cloud or on‑premise.",
+"why": "Enterprises gain full control over data and security while using Claude’s agent capabilities.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"anthropic",
+"claude",
+"agents",
+"self-hosted"
+]
+}
+},
+{
+"id": "e27f22d1bfad",
+"key": "https://claude.com/resources/articles/claude-tag-guide-for-startups",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/claude-tag-guide-for-startups",
+"title": "The Claude Tag guide for startups",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "How leading startups use Claude Tag to ship faster and scale operations",
+"meta": {},
+"ai": {
+"summary": "Anthropic released a Claude Tag guide showing startups how to use tags to speed up development and scale operations.",
+"why": "Startups can adopt Claude features more efficiently and accelerate product cycles.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude",
+"tag",
+"startups"
+]
+}
+},
+{
+"id": "e459d526fdbf",
+"key": "arxiv:2610.40394",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2610.40394",
+"title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T09:47:40Z",
+"excerpt": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured proof-supervision records while preserving chapter order, proposition-proof links, dependency references, and source provenance. Leveraging these structural signals, we explore curriculum learning across multiple mathematical subjects and characterize scaling patterns with supervision…",
+"meta": {
+"upvotes": 44,
+"comments": 3,
+"authors": [
+"Youqing Fang",
+"Zhouqi Hua",
+"Yinhao Tang",
+"Yuzhe Gu",
+"Lingkai Kong",
+"Bin Liu"
+],
+"org": "Intern Large Models"
+},
+"ai": {
+"summary": "The paper introduces TOME‑Math, a corpus derived from 2,118 university‑level textbooks that creates about 380 K structured proof‑supervision records preserving chapter order and proposition‑proof links for training language models on mathematical reasoning.",
+"why": "Provides a richer, curriculum‑aware dataset that can improve LLMs' ability to follow logical proof steps.",
+"category": "research",
+"importance": 4,
+"tags": [
+"tome-math",
+"math",
+"datasets",
+"proof"
+]
+}
+},
+{
+"id": "e890e1e65e6c",
+"key": "arxiv:2611.10193",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.10193",
+"title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
+"published": "2026-11-12T00:00:00Z",
+"fetched": "2026-11-12T09:47:40Z",
+"excerpt": "Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introduce PISA, a prompt-adaptive, cost-aware single-model router, and PISA-E, its extension to ensemble routing. At the core of both methods, PISA combines soft cluster memberships with model-specific predictors to estimate individual model capabilities. Building on these estimates, PISA-E jointly selects ensemble composition and cardinality under an explicit cost--quality preference that can be…",
+"meta": {
+"upvotes": 15,
+"comments": 3,
+"authors": [
+"Saul Urso",
+"Emanuele Carlini",
+"Patrizio Dazzi",
+"Matteo Mordacchini"
+]
+},
+"ai": {
+"summary": "PISA and its extension PISA‑E introduce prompt‑adaptive routing that dynamically selects or ensembles LLMs based on soft cluster memberships to balance inference cost and response quality per request.",
+"why": "Helps developers build cost‑effective LLM services that maintain quality by routing requests to appropriate models.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"pisa",
+"prompt-routing",
+"cost-aware",
+"llm"
+]
+}
+},
+{
+"id": "193c6a7b3073",
+"key": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+"title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+"published": "2026-11-12T01:18:23Z",
+"fetched": "2026-11-12T09:47:40Z",
+"excerpt": "Learn how Java developers can build production-ready autonomous AI agents using Amazon Bedrock and Spring AI. This post walks through tool calling, conversation memory, resilience patterns, and multi-agent orchestration, then deploys the agent to AWS with Amazon Bedrock AgentCore.",
+"meta": {},
+"ai": {
+"summary": "AWS publishes a guide showing Java developers how to build production‑ready autonomous AI agents using Amazon Bedrock, Spring AI, tool calling, memory, resilience patterns, and multi‑agent orchestration, then deploy them with Bedrock AgentCore.",
+"why": "Provides a concrete stack for developers to create and deploy robust AI agents on AWS.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"bedrock",
+"spring‑ai",
+"java"
+]
+}
+},
+{
+"id": "e52bb744347c",
+"key": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+"title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+"published": "2026-11-12T03:13:10Z",
+"fetched": "2026-11-12T09:47:42Z",
+"excerpt": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch lists potential successors to Nvidia CEO Jensen Huang, noting the company lacks a formal succession plan.",
+"why": "",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"leadership"
+]
+}
+},
+{
+"id": "51be15980d99",
+"key": "https://latent.space/p/jev-revolution",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/jev-revolution/",
+"title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+"published": "2026-11-12T05:08:20Z",
+"fetched": "2026-11-12T09:47:43Z",
+"excerpt": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
+"meta": {},
+"ai": {
+"summary": "At the AI Engineer Code Summit, Jev creator Diogo Almeida urged developers to automate all tasks and highlighted examples from Glean and other companies that are already building applications with System One models.",
+"why": "Shows growing real‑world adoption of System One models, encouraging developers to explore similar automation pipelines.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"jev",
+"system-one",
+"glean",
+"automation"
+]
+}
+},
+{
+"id": "7cc2e7af71cc",
+"key": "https://latent.space/p/ainews-d-day-decision-models-day",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+"title": "[AINews] D-Day (Decision Models Day)",
+"published": "2026-11-12T05:26:54Z",
+"fetched": "2026-11-12T09:47:43Z",
+"excerpt": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
+"meta": {},
+"ai": {
+"summary": "Google announced a decision‑model product line, entering the market for AI models that make structured decisions, while Cloudflare demonstrated a classifier that can diagnose specific parts of a build failure and TypeSafe AI showcased production customers using its decision models.",
+"why": "Developers can start evaluating decision‑model APIs for automated troubleshooting and workflow automation.",
+"category": "models",
+"importance": 3,
+"tags": [
+"google",
+"decision-models",
+"cloudflare",
+"typesafe"
+]
+}
+},
+{
+"id": "b87879565c0c",
+"key": "https://openai.com/business/customer-stories/holidays-extras-codex",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+"title": "Holiday Extras is rethinking what it can build with Codex",
+"published": "2026-11-12T09:30:00Z",
+"fetched": "2026-11-12T18:17:07Z",
+"excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+"meta": {},
+"ai": {
+"summary": "Holiday Extras is using OpenAI Codex to build internal applications that improve booking conversion and create new growth features.",
+"why": "Demonstrates a concrete business use case for Codex in app development.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openai",
+"codex",
+"holiday-extras",
+"apps"
+]
+}
+},
+{
+"id": "2680ddeb1eb7",
+"key": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+"title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
+"published": "2026-11-12T10:09:56Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "Australia's government, led by Prime Minister Anthony Albanese, wants to enshrine mandatory safety rules for frontier AI companies in law for the first time. A new regulator would enforce independent model audits and impose steep penalties for violations. With this move, Canberra is deliberately prioritizing domestic regulation before entering international talks.\nThe article Australia's proposed AI safety bill would force frontier model makers to open up to independent testing appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Australia proposes a law mandating frontier AI companies to undergo independent safety audits and face steep penalties, establishing a regulator to enforce these rules before engaging in international talks.",
+"why": "Could set a global precedent for AI safety regulation and affect how frontier model makers operate worldwide.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"australia",
+"ai safety",
+"regulation"
+]
+}
+},
+{
+"id": "ff8576c4cf29",
+"key": "https://wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out/",
+"title": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out",
+"published": "2026-11-12T10:15:00Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "The union representing flight attendants for the defunct airline struck a deal with Google to scrub sensitive employee records from a $10 million data sale.",
+"meta": {},
+"ai": {
+"summary": "Google’s plan to purchase Spirit Airlines employee data was blocked after the flight‑attendant union negotiated a deal to have the records removed from a $10 million data sale.",
+"why": "It underscores growing scrutiny of corporate data‑harvesting practices involving AI.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"google",
+"spirit‑airlines",
+"data‑privacy"
+]
+}
+},
+{
+"id": "beccec109b79",
+"key": "https://wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently/",
+"title": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
+"published": "2026-11-12T10:30:00Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "The Palantir CEO touted his “progressive” worldview in a recent interview. Let’s see how that lines up with his comments during the company’s earnings call two weeks ago.",
+"meta": {},
+"ai": {
+"summary": "Palantir CEO Alex Karp claimed to be progressive, and the piece highlights other recent statements he made.",
+"why": "\"\"",
+"category": "other",
+"importance": 1,
+"tags": [
+"palantir",
+"alex‑karp"
+]
+}
+},
+{
+"id": "a3ba9d6fef84",
+"key": "https://ipo.anthropic.com/us",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://ipo.anthropic.com/us/",
+"title": "Anthropic IPO",
+"published": "2026-11-12T11:46:41Z",
+"fetched": "2026-11-12T18:17:10Z",
+"excerpt": "",
+"meta": {
+"points": 993,
+"comments": 901,
+"hn_url": "https://news.ycombinator.com/item?id=50465829"
+},
+"ai": {
+"summary": "Anthropic filed for an initial public offering, planning to list the AI startup on a stock exchange.",
+"why": "Marks a maturation milestone for an AI‑focused company and could bring new capital for model development.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"anthropic",
+"ipo",
+"ai"
+]
+}
+},
+{
+"id": "afa09a5affd2",
+"key": "https://openai.com/business/customer-stories/gondola",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/business/customer-stories/gondola",
+"title": "Gondola doubles revenue as its team builds more with Codex",
+"published": "2026-11-12T12:00:00Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+"meta": {},
+"ai": {
+"summary": "Gondola reported a 50% increase in its lead engineer’s output after integrating OpenAI Codex, and uses ChatGPT to streamline daily workflows for creatives.",
+"why": "Shows how Codex can boost developer productivity and how conversational AI can simplify routine tasks.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"gondola",
+"codex",
+"chatgpt",
+"productivity"
+]
+}
+},
+{
+"id": "90a0dd4746cc",
+"key": "https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/",
+"title": "Training a 1T-Parameter MoE on EU public infrastructure with PyTorch and TorchTitan",
+"published": "2026-11-12T12:00:19Z",
+"fetched": "2026-11-12T18:17:11Z",
+"excerpt": "TL;DR Scaling pretraining for a ~1-trillion-parameter Mixture-of-Experts (MoE) model on shared, public infrastructure was previously considered unfeasible due to unique architectural and interconnect bottlenecks. However, by leveraging the fine-grained flexibility...\nThe post Training a 1T-Parameter MoE on EU public infrastructure with PyTorch and TorchTitan appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "PyTorch and TorchTitan enabled training a ~1‑trillion‑parameter Mixture‑of‑Experts model on shared EU public infrastructure, overcoming architectural and interconnect bottlenecks that previously made such scaling infeasible.",
+"why": "Demonstrates that large‑scale MoE training can be performed on public cloud resources, lowering barriers for researchers.",
+"category": "research",
+"importance": 3,
+"tags": [
+"pytorch",
+"torchtitan",
+"moe",
+"training"
+]
+}
+},
+{
+"id": "422ea04e5904",
+"key": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+"title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+"published": "2026-11-12T12:09:43Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "Google Deepmind has unveiled AlphaGenome 2, an AI model that analyzes genetic variants for individual cell types rather than across bulk tissue. Trained on more than 107 million cell profiles, it identifies nearly twice as many disease-relevant gene changes as its predecessor. The model is available for noncommercial research through an API and is set to be integrated into Google's agentic platform Antigravity.\nThe article Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2 appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "DeepMind unveiled AlphaGenome 2, a genomics AI model that predicts genetic variant effects at single‑cell type resolution using over 107 million cell profiles, detecting twice as many disease‑relevant gene changes as its predecessor and available via a non‑commercial API.",
+"why": "Researchers can now study disease mechanisms at the cell‑type level, potentially accelerating precision medicine.",
+"category": "research",
+"importance": 4,
+"tags": [
+"deepmind",
+"alpha genome",
+"genomics",
+"single-cell"
+]
+}
+},
+{
+"id": "38a74851e952",
+"key": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+"title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+"published": "2026-11-12T13:26:25Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
+"meta": {},
+"ai": {
+"summary": "Nine Korean deep‑tech startups, spanning healthcare, fintech, energy, semiconductors, and AI, are competing for spots in Disrupt 2027’s Startup Battlefield 200 competition.",
+"why": "Securing a spot could provide exposure, mentorship, and funding opportunities for the participating startups.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"disrupt",
+"startups",
+"korea"
+]
+}
+},
+{
+"id": "d8011ae159e5",
+"key": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+"title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
+"published": "2026-11-12T13:48:19Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "ElevenLabs has released Scribe v3 and Scribe v3 Live, two new speech recognition models designed to transcribe accurately through background noise and crosstalk. Benchmarks from Artificial Analysis confirm that Scribe v3 narrowly beats competitors like OpenAI, Google, and Microsoft on accuracy. That precision comes at a cost, though. Rivals like Microsoft and xAI run many times faster and charge roughly half the price.\nThe article ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "ElevenLabs released Scribe v3 and Scribe v3 Live, speech‑recognition models that achieve higher accuracy than OpenAI, Google, and Microsoft in noisy environments, but run slower and cost roughly twice as much.",
+"why": "Developers building voice agents may weigh the trade‑off between accuracy and speed/price when choosing a transcription backend.",
+"category": "models",
+"importance": 3,
+"tags": [
+"elevenlabs",
+"speech-recognition",
+"scribe",
+"voice"
+]
+}
+},
+{
+"id": "64c5211eaca4",
+"key": "https://theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+"title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
+"published": "2026-11-12T13:53:16Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs, one with an alleged Chinese spy and one with an Nvidia executive who reported to Huang. Following a late Wednesday night meeting, the board accepted Huang's letter of resignation as CEO, president, and […]",
+"meta": {},
+"ai": {
+"summary": "Nvidia co‑founder Jensen Huang resigned as CEO, president, and co‑founder after the board accepted his resignation amid reports of two extramarital affairs, one with a suspected Chinese spy and one with an Nvidia executive.",
+"why": "The leadership change could alter Nvidia’s strategic direction and impact its stock and product roadmap.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"leadership",
+"scandal"
+]
+}
+},
+{
+"id": "a9effd2bb655",
+"key": "https://reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
+"title": "Jensen Huang resigns as Nvidia CEO immediately",
+"published": "2026-11-12T13:56:11Z",
+"fetched": "2026-11-12T18:17:10Z",
+"excerpt": "",
+"meta": {
+"points": 375,
+"comments": 14,
+"hn_url": "https://news.ycombinator.com/item?id=50467132"
+},
+"ai": {
+"summary": "Nvidia CEO Jensen Huang announced his immediate resignation from the company.",
+"why": "A leadership shift at a key AI‑hardware maker could affect its strategic direction.",
+"category": "industry",
+"importance": 5,
+"tags": [
+"nvidia",
+"jensen-huang",
+"leadership"
+]
+}
+},
+{
+"id": "0538f43239dd",
+"key": "https://bbc.co.uk/news/live/c6zjry11v8w1t",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
+"title": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+"published": "2026-11-12T13:56:38Z",
+"fetched": "2026-11-12T18:17:10Z",
+"excerpt": "",
+"meta": {
+"points": 168,
+"comments": 5,
+"hn_url": "https://news.ycombinator.com/item?id=50467139"
+},
+"ai": {
+"summary": "Nvidia CEO Jensen Huang reportedly resigned amid a personal scandal.",
+"why": "",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"leadership"
+]
+}
+},
+{
+"id": "9f880a1967e2",
+"key": "https://wired.com/story/nvidia-ceo-jensen-huang-steps-down",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+"title": "Jensen Huang Resigns as Nvidia CEO",
+"published": "2026-11-12T13:58:06Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.",
+"meta": {},
+"ai": {
+"summary": "Nvidia co‑founder and CEO Jensen Huang resigned following an internal investigation into an alleged affair with a Chinese intelligence asset.",
+"why": "His departure could reshape Nvidia’s executive team and affect its AI strategy.",
+"category": "industry",
+"importance": 5,
+"tags": [
+"nvidia",
+"jensen‑huang",
+"leadership"
+]
+}
+},
+{
+"id": "347bd65501fd",
+"key": "https://bensbites.com/p/to-the-man-with-ai-everything-looks",
+"source": "bens_bites",
+"source_name": "Ben's Bites",
+"src_category": "analysis",
+"weight": 2,
+"kind": "article",
+"url": "https://www.bensbites.com/p/to-the-man-with-ai-everything-looks",
+"title": "To the man with AI, everything looks like a task",
+"published": "2026-11-12T14:03:11Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "Real* quote from Charlie Munger - lightly modernised :)",
+"meta": {},
+"ai": {
+"summary": "An article quotes Charlie Munger saying that to someone with AI, everything appears as a task.",
+"why": "\"\"",
+"category": "other",
+"importance": 1,
+"tags": [
+"charlie‑munger",
+"ai‑opinion"
+]
+}
+},
+{
+"id": "c9e899230986",
+"key": "https://theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
+"title": "I reviewed the Apple HomeView, ask me anything",
+"published": "2026-11-12T14:10:00Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop and wall-mounted versions through their paces, on my kitchen counter, bedside table, in my office, and on […]",
+"meta": {},
+"ai": {
+"summary": "The Verge’s senior smart‑home reviewer tested Apple’s first HomeView smart display, evaluating both tabletop and wall‑mounted versions.",
+"why": "The review offers practical insights for developers building apps for Apple’s new smart‑display platform.",
+"category": "other",
+"importance": 2,
+"tags": [
+"apple",
+"homeview",
+"smartdisplay"
+]
+}
+},
+{
+"id": "bf3062503589",
+"key": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+"title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
+"published": "2026-11-12T14:11:40Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12, 2026.\nThe article Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Jensen Huang resigned as Nvidia CEO, president, and board member effective immediately after an espionage scandal that erased $1.4 trillion in market value.",
+"why": "The resignation signals a major shift in Nvidia’s executive leadership and could influence the AI hardware market.",
+"category": "industry",
+"importance": 5,
+"tags": [
+"nvidia",
+"jensenhuang",
+"espionage"
+]
+}
+},
+{
+"id": "3200bb8d3bcb",
+"key": "https://wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+"title": "Meet Colette Kress, Nvidia’s New Interim CEO",
+"published": "2026-11-12T14:14:33Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "Nvidia’s longtime chief financial officer helped transform the company into an AI powerhouse. Now she’s taking the reins following Jensen Huang’s resignation on Thursday.",
+"meta": {},
+"ai": {
+"summary": "Colette Kress, Nvidia’s longtime CFO, has been appointed interim CEO after Jensen Huang’s resignation.",
+"why": "Her leadership may influence Nvidia’s strategic direction and AI hardware roadmap.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"leadership",
+"ai‑hardware"
+]
+}
+},
+{
+"id": "e4a1d688d399",
+"key": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+"title": "The unfolding Jensen Huang scandal: a timeline",
+"published": "2026-11-12T14:30:01Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+"meta": {},
+"ai": {
+"summary": "A timeline of Jensen Huang’s resignation details the espionage scandal that led to his departure and potential national security implications.",
+"why": "Provides context for Nvidia’s leadership transition and its impact on AI infrastructure competition.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensenhuang",
+"espionage"
+]
+}
+},
+{
+"id": "742be7b178bb",
+"key": "https://pytorch.org/blog/integrating-sglang-into-spyre-in-under-a-week-with-ai",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/integrating-sglang-into-spyre-in-under-a-week-with-ai/",
+"title": "Integrating SGLang into Spyre in Under a Week with AI",
+"published": "2026-11-12T14:45:25Z",
+"fetched": "2026-11-12T18:17:11Z",
+"excerpt": "TL;DR With help from AI coding agents, our two-person team integrated SGLang with IBM Spyre in less than a week, building a plugin of roughly 1,500 lines. Existing Spyre support...\nThe post Integrating SGLang into Spyre in Under a Week with AI appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "A two-person team integrated SGLang into IBM Spyre in under a week using AI coding agents, producing a 1,500‑line plugin.",
+"why": "Shows how AI assistants can accelerate integration of new language models into existing frameworks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"sglang",
+"spyre",
+"ai coding"
+]
+}
+},
+{
+"id": "c79d6395ed6d",
+"key": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+"title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+"published": "2026-11-12T14:50:17Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+"meta": {},
+"ai": {
+"summary": "Google released Gemini-powered smartglasses in collaboration with Samsung, Gentle Monster, and Warby Parker, priced starting at $395.",
+"why": "The product demonstrates practical applications of Gemini in consumer hardware.",
+"category": "models",
+"importance": 3,
+"tags": [
+"google",
+"gemini",
+"smartglasses"
+]
+}
+},
+{
+"id": "e4a3700bf5b9",
+"key": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+"title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+"published": "2026-11-12T15:02:28Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "This is Fireworks' second data breach in as many months.",
+"meta": {},
+"ai": {
+"summary": "Fireworks AI suffered a second data breach, exposing Notion customers’ chat transcripts to hackers.",
+"why": "The breach highlights security risks for AI-as-a-service platforms.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"fireworks",
+"notion",
+"data breach"
+]
+}
+},
+{
+"id": "d7f6b12f6105",
+"key": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+"title": "Norwest pushes deeper into AI with new $4B fund",
+"published": "2026-11-12T15:18:14Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "This is the investment firm's largest fund to date.",
+"meta": {},
+"ai": {
+"summary": "Norwest Capital launched a new $4 billion AI investment fund, its largest to date, targeting AI startups and technologies.",
+"why": "Developers may find new funding opportunities for AI projects.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"norwest",
+"ai",
+"fund"
+]
+}
+},
+{
+"id": "9ecd965fbe61",
+"key": "https://github.com/hyperionaidev/smolmaxxing",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/hyperionaidev/smolmaxxing/",
+"title": "I'm making LLMs work on small and old devices",
+"published": "2026-11-12T15:23:10Z",
+"fetched": "2026-11-12T18:17:10Z",
+"excerpt": "",
+"meta": {
+"points": 463,
+"comments": 178,
+"hn_url": "https://news.ycombinator.com/item?id=50468888"
+},
+"ai": {
+"summary": "A developer released methods to run large language models on low‑end and legacy devices, enabling on‑device inference.",
+"why": "It expands the deployment range of LLMs to edge and resource‑constrained environments.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"llm",
+"edge",
+"quantization"
+]
+}
+},
+{
+"id": "44dbe60e963a",
+"key": "https://libreagi.com/",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://libreagi.com/",
+"title": "libreagi - save OS models",
+"published": "2026-11-12T15:35:46Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "LibreAGI is an open‑source utility that lets developers archive and retrieve operating‑system‑level AI model files.",
+"why": "It simplifies model versioning and deployment for developers working with local AI stacks.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"libreagi",
+"model‑management",
+"opensource"
+]
+}
+},
+{
+"id": "65435c3084bf",
+"key": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+"title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+"published": "2026-11-12T15:37:29Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
+"meta": {},
+"ai": {
+"summary": "Nvidia CFO Colette Kress has been named interim CEO after Jensen Huang resigned amid an espionage scandal that cost the company $1.4 trillion in market value.",
+"why": "The leadership change could affect Nvidia’s product roadmap and investor confidence.",
+"category": "industry",
+"importance": 5,
+"tags": [
+"nvidia",
+"colettekress",
+"jensenhuang"
+]
+}
+},
+{
+"id": "c562d99e3aa3",
+"key": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/",
+"title": "From prototype to production: Engineering agents with Agent DLC",
+"published": "2026-11-12T15:38:47Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Agents stall between demo and release when teams lack a repeatable way to measure how good an agent is and whether the last change helped. This post covers three agent properties that break traditional CI/CD, a measured case where an aggregate metric hides a coverage gap, and Agent DLC: one lifecycle, two loops, and one explicit standard for judging every change.",
+"meta": {},
+"ai": {
+"summary": "AWS discusses Agent DLC, a lifecycle framework that provides repeatable metrics and standards for measuring agent performance, addressing CI/CD challenges in agent development.",
+"why": "It helps teams reliably evaluate agent changes and avoid regressions during production rollouts.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"agent dlc",
+"ci/cd",
+"metrics"
+]
+}
+},
+{
+"id": "730747b324a9",
+"key": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/",
+"title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
+"published": "2026-11-12T15:40:24Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Learn how to expose an Amazon Bedrock Managed Knowledge Base to AI agents as MCP tools through Amazon Bedrock AgentCore Gateway while keeping per-user access control. A request interceptor injects verified identity, Policy in AgentCore validates it independently, and a resource-based policy restricts direct access to the knowledge base.",
+"meta": {},
+"ai": {
+"summary": "Amazon Bedrock offers fine-grained access control for Managed Knowledge Base tools, exposing them as MCP tools through AgentCore Gateway while enforcing per-user identity verification and resource-based policies.",
+"why": "Developers can securely share knowledge bases with agents while maintaining strict access controls.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"bedrock",
+"access control",
+"mcp"
+]
+}
+},
+{
+"id": "50df611b6f32",
+"key": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
+"title": "Build composable, interoperable multi-agent systems with A2A on AWS",
+"published": "2026-11-12T15:42:21Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Build a composable, interoperable multi-agent system on AWS with the Agent-to-Agent (A2A) protocol. A LangChain orchestrator on Amazon ECS communicates with a Strands agent on Amazon Bedrock AgentCore across organizational boundaries, using bidirectional, OAuth-authenticated calls, with neither side depending on the other's framework or SDK.",
+"meta": {},
+"ai": {
+"summary": "AWS introduces the Agent-to-Agent (A2A) protocol, enabling composable multi-agent systems where a LangChain orchestrator on ECS talks to a Strands agent on Bedrock AgentCore via OAuth-authenticated, bidirectional calls without framework dependencies.",
+"why": "It allows developers to build interoperable agent workflows across services and frameworks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"a2a",
+"langchain",
+"bedrock"
+]
+}
+},
+{
+"id": "75e72692db21",
+"key": "https://theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+"title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+"published": "2026-11-12T15:48:12Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation […]",
+"meta": {},
+"ai": {
+"summary": "Nvidia's board, led by new Chair Harvey Jones, confirmed Jensen Huang's resignation following an investigation into his extramarital affairs with a direct report and an alleged Chinese spy, describing the period as 'extraordinarily difficult.'",
+"why": "Provides official corporate confirmation of the leadership change and the specific nature of the misconduct, clarifying the immediate governance structure at Nvidia.",
+"category": "industry",
+"importance": 5,
+"tags": [
+"nvidia",
+"board-of-directors",
+"resignation",
+"harvey-jones"
+]
+}
+},
+{
+"id": "911d082e5442",
+"key": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+"title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+"published": "2026-11-12T16:12:44Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+"meta": {},
+"ai": {
+"summary": "President Donald Trump suggested on Truth Social that Apple Chairman Tim Cook is the only suitable successor to Jensen Huang as head of Nvidia.",
+"why": "Indicates high-level political involvement in Nvidia's leadership transition, which could influence the selection process and the company's future regulatory standing.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"tim-cook",
+"trump",
+"leadership"
+]
+}
+},
+{
+"id": "73d34a3feab7",
+"key": "https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/",
+"title": "Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent",
+"published": "2026-11-12T16:16:45Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "The migration guide in the amazon-bedrock skill helps you migrate a customer-managed Amazon Bedrock knowledge base to a Managed Knowledge Base. Your coding agent plans the move with read-only discovery, creates the new knowledge base or an infrastructure-as-code template alongside the original, and validates retrieval before you cut over.",
+"meta": {},
+"ai": {
+"summary": "Amazon Bedrock provides a migration guide that lets a coding agent move a customer-managed knowledge base to a Managed Knowledge Base, creating infrastructure-as-code templates and validating retrieval before cutover.",
+"why": "Developers can automate knowledge base migration with minimal manual effort, improving deployment reliability.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"bedrock",
+"knowledge base",
+"migration"
+]
+}
+},
+{
+"id": "dc719d052e51",
+"key": "https://theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+"title": "Jensen Huang is out. What did China want from him?",
+"published": "2026-11-12T16:30:00Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf […]",
+"meta": {},
+"ai": {
+"summary": "Jensen Huang resigned as CEO of Nvidia amid a scandal involving alleged affairs with a direct report and a suspected Chinese spy, prompting an emergency update to the news cycle.",
+"why": "Confirms the immediate leadership vacuum at Nvidia, raising urgent questions about the company's operational continuity and national security implications.",
+"category": "industry",
+"importance": 5,
+"tags": [
+"nvidia",
+"jensen-huang",
+"resignation",
+"china"
+]
+}
+},
+{
+"id": "5a320393a0c4",
+"key": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+"title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+"published": "2026-11-12T16:32:33Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+"meta": {},
+"ai": {
+"summary": "An analysis argues that Jensen Huang's ouster from Nvidia poses specific risks to the AI industry beyond the personal scandal, citing his previous influence in directing industry development.",
+"why": "Helps developers and stakeholders assess the potential strategic shifts or disruptions in Nvidia's roadmap and market position following the leadership change.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"leadership",
+"ai-industry",
+"strategy"
+]
+}
+},
+{
+"id": "c64a217354c8",
+"key": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+"title": "Jensen Huang agrees to testify before Congress",
+"published": "2026-11-12T16:36:37Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+"meta": {},
+"ai": {
+"summary": "Nvidia CEO Jensen Huang has agreed to testify before Congress after being ousted from his position following an investigation into alleged affairs with a direct report and a suspected Chinese spy.",
+"why": "Signals a major governance and security crisis at the world's leading AI chipmaker, potentially impacting supply chain stability and regulatory oversight of US-China tech ties.",
+"category": "industry",
+"importance": 5,
+"tags": [
+"nvidia",
+"jensen-huang",
+"congress",
+"security"
+]
+}
+},
+{
+"id": "04f9df2adf57",
+"key": "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/",
+"title": "Fast by Default: Compile-Time Heuristics for Helion Kernels",
+"published": "2026-11-12T16:45:26Z",
+"fetched": "2026-11-12T18:17:11Z",
+"excerpt": "TL;DR Helion now uses compile-time heuristics that analyze a kernel’s IR and dataflow to pick fast settings without slow autotuning. It classifies the kernel as matmul, reduction, or pointwise and...\nThe post Fast by Default: Compile-Time Heuristics for Helion Kernels appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "PyTorch's Helion library now employs compile-time heuristics to analyze kernel IR and dataflow, automatically selecting fast execution settings for matmul, reduction, and pointwise operations without relying on slow runtime autotuning.",
+"why": "Reduces development overhead and startup latency for PyTorch users by eliminating the need for manual kernel tuning or expensive autotuning loops.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"pytorch",
+"helion",
+"performance",
+"compilers"
+]
+}
+},
+{
+"id": "b478abf2b73a",
+"key": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+"title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+"published": "2026-11-12T16:58:11Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "OpenAI's safety team systematically investigated why the chains of thought in frontier models like GPT-6 Astra are increasingly evading oversight. Four training steps drive the erosion, including architecture choices and reinforcement learning. The analysis shows that the loss of transparency is not a law of nature but also reflects tradeoffs around capability and cost.\nThe article OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI's safety team analyzed why frontier models like GPT-6 Astra exhibit evasive chain-of-thought behaviors, attributing the loss of transparency to specific training steps, architecture choices, and reinforcement learning tradeoffs prioritizing capability and compute efficiency.",
+"why": "Provides critical insight into the interpretability challenges developers face when deploying high-performance models, highlighting that transparency erosion is a design consequence rather than an inherent limitation.",
+"category": "research",
+"importance": 4,
+"tags": [
+"openai",
+"interpretability",
+"safety",
+"gpt-6"
+]
+}
+},
+{
+"id": "4bb05833e082",
+"key": "https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+"title": "More game developers are starting to use generative AI",
+"published": "2026-11-12T17:00:00Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025. Usage was higher with game developers that […]",
+"meta": {},
+"ai": {
+"summary": "The Verge reports that 40 % of game developers now use generative AI tools in their work, up from 36 % in 2025, according to the GDC Festival of Gaming survey.",
+"why": "Indicates growing demand for AI‑powered content creation tools in game development pipelines.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"gaming",
+"generative ai",
+"gdc",
+"survey"
+]
+}
+},
+{
+"id": "871918ac1143",
+"key": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
+"title": "Get quick answers from Gemini on any website.",
+"published": "2026-11-12T17:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Get quick answers with Gemini in Chrome. Summarize articles, compare products, and explain complex topics directly in your side panel. Try it now.",
+"meta": {},
+"ai": {
+"summary": "Google added a Gemini‑powered quick‑answer feature to Chrome’s side panel for summarizing articles, comparing products, and explaining topics.",
+"why": "Developers can integrate AI assistance directly into web workflows without leaving the browser.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"chrome",
+"gemini"
+]
+}
+},
+{
+"id": "e2240d39f130",
+"key": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+"title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+"published": "2026-11-12T17:00:00Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+"meta": {},
+"ai": {
+"summary": "Phota Labs is launching an AI product that automates photo editing to transform casual images into professional-looking shots without requiring manual user input.",
+"why": "Offers a potential reference for implementing automated image enhancement pipelines or integrating similar 'one-click' professionalization features into consumer apps.",
+"category": "models",
+"importance": 2,
+"tags": [
+"image-generation",
+"consumer-apps",
+"phota-labs"
+]
+}
+},
+{
+"id": "eb2167f590a1",
+"key": "https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+"title": "AI chatbots are recommending fake retail websites, study finds",
+"published": "2026-11-12T17:00:00Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of […]",
+"meta": {},
+"ai": {
+"summary": "A study by Podqi found that AI chatbots like ChatGPT, Gemini, and Perplexity sometimes direct shoppers to fraudulent retail sites when answering product‑search queries.",
+"why": "Developers building shopping assistants should implement URL verification to protect users from phishing.",
+"category": "research",
+"importance": 4,
+"tags": [
+"chatgpt",
+"gemini",
+"perplexity",
+"phishing"
+]
+}
+},
+{
+"id": "3006bfe1f5f3",
+"key": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+"title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+"published": "2026-11-12T17:00:52Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch explains that SoftBank incurred a $3 billion loss after pre‑ordering natural‑gas turbines intended to power AI data centers, curbing its AI‑related energy ambitions.",
+"why": "Highlights financial risks of scaling AI infrastructure and may affect future data‑center power sourcing decisions.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"softbank",
+"ai infrastructure",
+"energy",
+"natural gas"
+]
+}
+},
+{
+"id": "43bbe955a451",
+"key": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+"title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+"published": "2026-11-12T17:17:58Z",
+"fetched": "2026-11-12T23:40:58Z",
+"excerpt": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+"meta": {},
+"ai": {
+"summary": "United Airlines announced it will block customers from using AI agents to book flights or manage reservations, citing cybersecurity risks.",
+"why": "A significant signal that major enterprises are actively restricting autonomous agent access to critical transactional systems, which may shape API design and authentication standards for agent frameworks.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"united-airlines",
+"agents",
+"security",
+"api"
+]
+}
+},
+{
+"id": "4ccb32068abb",
+"key": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+"title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+"published": "2026-11-12T17:36:40Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch quotes Hugging Face’s CEO pledging continued advocacy for open‑source AI in light of Nvidia’s $12.9 billion acquisition and Jensen Huang’s exit.",
+"why": "Signals potential shifts in open‑source model licensing and collaboration opportunities for developers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"huggingface",
+"open source",
+"nvidia",
+"acquisition"
+]
+}
+},
+{
+"id": "e7a9aab66b7c",
+"key": "https://theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+"title": "The Jensen Huang scandal is hardly over",
+"published": "2026-11-12T17:44:33Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'est moi. Then […]",
+"meta": {},
+"ai": {
+"summary": "The Verge reports that new allegations about Jensen Huang’s personal affairs are challenging his perceived invulnerability as Nvidia’s sole long‑time CEO.",
+"why": "\"\"",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"jensen huang",
+"leadership"
+]
+}
+},
+{
+"id": "acc7215bba4d",
+"key": "https://wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+"title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+"published": "2026-11-12T17:59:15Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "Since the scandal involving an alleged Chinese spy began, Nvidia has lost an eye-watering sum from its market value.",
+"meta": {},
+"ai": {
+"summary": "Nvidia’s market value dropped over $1 trillion after a scandal involving an alleged Chinese spy, causing significant financial loss.",
+"why": "It reflects the volatility of AI hardware stocks and the impact of geopolitical concerns on the industry.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"market value",
+"scandal"
+]
+}
+},
+{
+"id": "8a449130a81e",
+"key": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+"title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+"published": "2026-11-12T17:59:59Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute. Learn how the next generation of Amazon Bedrock AgentCore runtime delivers hardware-isolated sessions with faster starts, more compute, usage-based billing, and isolation that now extends to your data.",
+"meta": {},
+"ai": {
+"summary": "Amazon Bedrock AgentCore introduces a new runtime that offers hardware-isolated sessions, faster start times, more compute, usage-based billing, and data isolation for AI agents.",
+"why": "Developers can run multi-step agent workloads more securely and cost-effectively on AWS.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"bedrock",
+"agentcore",
+"runtime"
+]
+}
+},
+{
+"id": "24555c0dd00a",
+"key": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+"title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+"published": "2026-11-12T18:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
+"meta": {},
+"ai": {
+"summary": "Google AI Studio launched Gemini 4 Hydrogen for everyday coding and agentic debugging, emphasizing cost efficiency for developers.",
+"why": "Developers can start using the model today to accelerate coding tasks.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"hydrogen",
+"developer-tools"
+]
+}
+},
+{
+"id": "39ed8fd82f8a",
+"key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+"title": "Introducing Gemini 4 Hydrogen",
+"published": "2026-11-12T18:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "an image of carbon with the number 4 around it",
+"meta": {},
+"ai": {
+"summary": "Google announced Gemini 4 Hydrogen, the latest version of its Gemini model family.",
+"why": "It offers developers newer capabilities and performance improvements for building AI applications.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"hydrogen"
+]
+}
+},
+{
+"id": "6d925e7a9282",
+"key": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+"title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+"published": "2026-11-12T18:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+"meta": {},
+"ai": {
+"summary": "Google integrated Gemini 4 Hydrogen into Search, adding a rotating carousel of AI‑generated answer cards labeled \"Gemini 4 Hydrogen.\"",
+"why": "Developers can now access the model’s capabilities directly through the Search UI.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"search",
+"gemini-4",
+"hydrogen"
+]
+}
+},
+{
+"id": "bd983bfd9ec4",
+"key": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+"title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+"published": "2026-11-12T18:00:00Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+"meta": {},
+"ai": {
+"summary": "Google Search now features Gemini 4 Hydrogen cards, showing AI‑generated responses in a rotating carousel.",
+"why": "Provides a visible example of the model’s search‑enhancing abilities.",
+"category": "models",
+"importance": 3,
+"tags": [
+"google",
+"search",
+"gemini-4",
+"hydrogen"
+]
+}
+},
+{
+"id": "62290746b322",
+"key": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+"source": "deepmind_blog",
+"source_name": "Google DeepMind",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+"title": "Introducing Gemini 4 Hydrogen",
+"published": "2026-11-12T18:00:50Z",
+"fetched": "2026-11-12T18:17:06Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind announced Gemini 4 Hydrogen, a new model aimed at cost‑efficient coding and agentic developer workflows.",
+"why": "It gives developers a cheaper, high‑throughput coding assistant.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"hydrogen",
+"coding"
+]
+}
+},
+{
+"id": "4c5eafb4df0d",
+"key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+"title": "Gemini 4 Hydrogen",
+"published": "2026-11-12T18:01:48Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "",
+"meta": {
+"points": 556,
+"comments": 348,
+"hn_url": "https://news.ycombinator.com/item?id=50471431"
+},
+"ai": {
+"summary": "Google announced Gemini 4 Hydrogen, a new variant of its Gemini 4 model optimized for faster inference and lower latency.",
+"why": "Provides developers with a more responsive LLM option for real‑time applications.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"hydrogen",
+"llm"
+]
+}
+},
+{
+"id": "bd81d48ac4e0",
+"key": "https://wired.com/story/google-deepmind-staff-escalate-their-union-fight",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+"title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+"published": "2026-11-12T18:05:41Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "After initial talks stalled, workers at Google DeepMind are trying to bypass company management in their bid to unionize.",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind staff are attempting to unionize by bypassing management and contacting the UK government after initial talks stalled.",
+"why": "It highlights labor dynamics in AI firms that could affect talent retention and workplace policies for developers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"deepmind",
+"unionization",
+"uk"
+]
+}
+},
+{
+"id": "b853a40ed8de",
+"key": "https://newsletter.semianalysis.com/p/nvidia-and-the-world-without-jensen",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/nvidia-and-the-world-without-jensen",
+"title": "Nvidia and the World Without Jensen",
+"published": "2026-11-12T18:06:26Z",
+"fetched": "2026-11-12T18:17:11Z",
+"excerpt": "Is NVIDIA Over? Export Controls, RASA, Open Source Implications, Supply Chain Implications, Affair, US Still Dependent On China",
+"meta": {},
+"ai": {
+"summary": "SemiAnalysis discusses potential impacts on Nvidia after Jensen Huang’s departure, covering export controls, RASA, open‑source ramifications, supply‑chain issues, and continued US reliance on China.",
+"why": "Understanding these factors helps developers anticipate changes in GPU availability and open‑source tooling support.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensen huang",
+"export controls",
+"supply chain"
+]
+}
+},
+{
+"id": "972854993776",
+"key": "https://theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+"title": "Oh, Palantir is ‘progressive’ now, is it?",
+"published": "2026-11-12T18:06:54Z",
+"fetched": "2026-11-12T18:17:08Z",
+"excerpt": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vibe shift\" […]",
+"meta": {},
+"ai": {
+"summary": "The Verge article critiques Palantir CEO Alex Karp’s recent public shift toward progressive politics following recent election losses.",
+"why": "\"\"",
+"category": "industry",
+"importance": 2,
+"tags": [
+"palantir",
+"alex karp",
+"politics"
+]
+}
+},
+{
+"id": "7cffbc21f8c9",
+"key": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+"title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+"published": "2026-11-12T18:15:48Z",
+"fetched": "2026-11-13T06:40:35Z",
+"excerpt": "",
+"meta": {
+"points": 134,
+"comments": 37,
+"hn_url": "https://news.ycombinator.com/item?id=50471650"
+},
+"ai": {
+"summary": "AgentRun is an open‑source project that implements self‑improving managed agents, allowing users to run and iterate on agent workflows.",
+"why": "Developers can adopt AgentRun to build and refine autonomous agent pipelines without starting from scratch.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"agentrun",
+"open-source",
+"managed-agents"
+]
+}
+},
+{
+"id": "e963199f65be",
+"key": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+"title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+"published": "2026-11-12T18:39:23Z",
+"fetched": "2026-11-12T23:40:58Z",
+"excerpt": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+"meta": {},
+"ai": {
+"summary": "Jensen Huang's resignation from Nvidia has raised concerns among industry observers about the company's future commitment to open-source AI initiatives, including its Hugging Face acquisition and open-weight model releases.",
+"why": "Leadership changes at the dominant AI hardware provider can signal shifts in strategic direction regarding open-source ecosystems that developers rely on.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensen-huang",
+"open-source",
+"leadership"
+]
+}
+},
+{
+"id": "d0926e75c677",
+"key": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
+"title": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
+"published": "2026-11-12T18:41:12Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain per-user cost controls, quota isolation, and observability.",
+"meta": {},
+"ai": {
+"summary": "AWS and LiteLLM demonstrate a self‑service LLM gateway on Fargate that exposes Bedrock models via an OpenAI‑compatible API, giving developers single‑key access while platform teams get per‑user cost controls, quota isolation, and observability.",
+"why": "Teams can quickly spin up a cost‑controlled, observable LLM service without managing model infrastructure.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"bedrock",
+"litelm"
+]
+}
+},
+{
+"id": "44c348d9b0d3",
+"key": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/",
+"title": "Optimizing cost per task and proving agent ROI on Amazon Bedrock",
+"published": "2026-11-12T18:43:19Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "Comparing per-token prices hides the real cost of running a model on Amazon Bedrock. This post shows how to calculate the true cost per task across four hidden cost drivers, reduce it with caching, routing, and output constraints, and prove agent ROI with human baselines, holdout experiments, and a five-dimension scorecard.",
+"meta": {},
+"ai": {
+"summary": "AWS explains how to compute the true cost per task on Bedrock by accounting for four hidden cost drivers, and shows ways to lower it with caching, routing, and output constraints, plus a method to prove agent ROI using human baselines, holdout experiments, and a five‑dimension scorecard.",
+"why": "Developers can use the cost model to budget Bedrock usage and demonstrate ROI to stakeholders.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"aws",
+"bedrock",
+"cost"
+]
+}
+},
+{
+"id": "21b2aeadfa20",
+"key": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+"title": "Gemini 4 Hydrogen and Orchestrator",
+"published": "2026-11-12T18:52:01Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "",
+"meta": {
+"points": 497,
+"comments": 161,
+"hn_url": "https://news.ycombinator.com/item?id=50472260"
+},
+"ai": {
+"summary": "Google released Gemini 4 Hydrogen alongside Orchestrator, a tool for coordinating multiple AI agents to perform complex tasks.",
+"why": "Enables developers to build pipelines where specialized agents collaborate, expanding multi‑agent system capabilities.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"orchestrator",
+"multi-agent"
+]
+}
+},
+{
+"id": "d19ed806ce3f",
+"key": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+"title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+"published": "2026-11-12T18:57:45Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+"meta": {},
+"ai": {
+"summary": "Following a lawsuit alleging Google's Gemini acted as a 'suicide coach' for a teen, families are calling for AI moratoriums in schools after backlash against the company's pilot program.",
+"why": "Highlights the growing legal and safety risks associated with deploying generative AI in educational settings, which may impact future product liability and deployment guidelines.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"google",
+"gemini",
+"education",
+"safety"
+]
+}
+},
+{
+"id": "fb9078fdd908",
+"key": "https://wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+"title": "Jensen Huang’s $470 Billion Affair",
+"published": "2026-11-12T18:59:58Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "This week on “Uncanny Valley,” the team unpacks the Nvidia CEO’s affair with an alleged Chinese spy and what that means for the AI industry.",
+"meta": {},
+"ai": {
+"summary": "Wired’s “Uncanny Valley” episode examines Nvidia CEO Jensen Huang’s alleged affair with a Chinese spy and its implications for the AI industry.",
+"why": "Raises concerns about security and leadership integrity in AI companies.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"nvidia",
+"jensenhuang",
+"security",
+"ai"
+]
+}
+},
+{
+"id": "3c5c753857a5",
+"key": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+"title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+"published": "2026-11-12T19:07:35Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Granite 4.1 3B and 8B models now support LLMON, a native markup language for structuring LLM outputs.",
+"why": "Developers can embed structured data directly in model responses, simplifying downstream parsing and integration.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"granite",
+"llmon",
+"markup",
+"open-source"
+]
+}
+},
+{
+"id": "535c6b044c9e",
+"key": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+"title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+"published": "2026-11-12T19:11:00Z",
+"fetched": "2026-11-12T23:40:58Z",
+"excerpt": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+"meta": {},
+"ai": {
+"summary": "Nectar launched an AI agent that automates influencer marketing workflows, including creator discovery, outreach management, and campaign tracking for brands.",
+"why": "A concrete example of vertical-specific agent deployment in marketing, useful for understanding how LLMs are being packaged for non-technical business users.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"nectar",
+"influencer-marketing",
+"agents"
+]
+}
+},
+{
+"id": "aa24a848b7fa",
+"key": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+"title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+"published": "2026-11-12T19:23:03Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+"meta": {},
+"ai": {
+"summary": "Google released Gemini 4 Hydrogen, replacing the 3.8 Flash model without the gradual, security‑focused rollout used for earlier versions like Carbon and Argon.",
+"why": "The faster rollout signals Google’s confidence in Gemini 4 Hydrogen’s stability for production use.",
+"category": "models",
+"importance": 3,
+"tags": [
+"google",
+"gemini-4-hydrogen",
+"release"
+]
+}
+},
+{
+"id": "52fd11307484",
+"key": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+"title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+"published": "2026-11-12T19:27:45Z",
+"fetched": "2026-11-12T23:40:58Z",
+"excerpt": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+"meta": {},
+"ai": {
+"summary": "Google’s Search AI Mode, powered by Gemini 4 Hydrogen, now better handles complex queries, surfaces relevant links, and provides richer visual responses.",
+"why": "Developers building search‑oriented products can leverage the upgraded AI Mode for more nuanced answer generation.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"search",
+"gemini-4-hydrogen"
+]
+}
+},
+{
+"id": "512d79cb03b8",
+"key": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/",
+"title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+"published": "2026-11-12T19:29:55Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
+"meta": {},
+"ai": {
+"summary": "AWS enables per‑IAM‑principal Bedrock cost tracking and caps using CUR 2.0, Cost Explorer, and AWS Budgets, allowing enforcement of spend limits without application code.",
+"why": "Facilitates budget control and cost visibility for Bedrock usage in organizations.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"bedrock",
+"cost",
+"aws",
+"budgets"
+]
+}
+},
+{
+"id": "15afd7c5f1bc",
+"key": "https://theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+"title": "No, AI agents did not discover a previously unknown Maya site",
+"published": "2026-11-12T19:42:40Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a […]",
+"meta": {},
+"ai": {
+"summary": "Google researcher Pietro Miotti claimed AI agents discovered a new Maya site, but the site had already been published in an academic journal the previous year, leading to criticism from archaeologists.",
+"why": "The incident warns developers to verify AI‑generated claims against existing literature before publicizing findings.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"google",
+"ai-agents",
+"archaeology"
+]
+}
+},
+{
+"id": "848aabf9bc1c",
+"key": "https://reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+"title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+"published": "2026-11-12T19:51:33Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "",
+"meta": {
+"points": 453,
+"comments": 481,
+"hn_url": "https://news.ycombinator.com/item?id=50473190"
+},
+"ai": {
+"summary": "Former Nvidia CEO Jensen Huang was reported to have had a personal relationship with a second employee, according to unnamed sources.",
+"why": "",
+"category": "industry",
+"importance": 1,
+"tags": [
+"nvidia",
+"jensen-huang",
+"personnel"
+]
+}
+},
+{
+"id": "d849010a3297",
+"key": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+"title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+"published": "2026-11-12T19:58:43Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and still falls short on agentic coding.\nThe article Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google’s Gemini 4 Hydrogen model outperformed the larger Argon model in benchmarks, nearly matching Claude Sonnet 5.5 and costing about 2.5× more per task than GPT‑6.1 Sol, but lagging in agentic coding.",
+"why": "Developers can evaluate Gemini 4 Hydrogen as a higher‑performing, though costlier, alternative for inference workloads.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4-hydrogen",
+"benchmarks"
+]
+}
+},
+{
+"id": "7530852611d3",
+"key": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+"title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+"published": "2026-11-12T19:59:59Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
+"meta": {},
+"ai": {
+"summary": "Ars Technica is hosting a livestream on November 17 at 1 pm ET discussing the implications of drone attacks on data centers.",
+"why": "The talk may highlight new security considerations for cloud infrastructure developers.",
+"category": "events",
+"importance": 2,
+"tags": [
+"drones",
+"data-centers",
+"cloud"
+]
+}
+},
+{
+"id": "61ededa18532",
+"key": "https://openai.com/business/customer-stories/amplitude",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/business/customer-stories/amplitude",
+"title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+"published": "2026-11-12T20:00:00Z",
+"fetched": "2026-11-13T06:40:32Z",
+"excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+"meta": {},
+"ai": {
+"summary": "Amplitude launched 'Wave,' a proactive product agent built on OpenAI models that identifies product improvements, assists teams in shipping changes via coding agents, and measures impact, reducing the cycle time to 1-2 days.",
+"why": "Demonstrates a concrete enterprise workflow for using coding agents to accelerate product development cycles.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"amplitude",
+"openai",
+"coding-agents",
+"product-management"
+]
+}
+},
+{
+"id": "71f2d77692f3",
+"key": "https://openai.com/index/amplitude",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/amplitude",
+"title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+"published": "2026-11-12T20:00:00Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+"meta": {},
+"ai": {
+"summary": "Amplitude launched Wave, a proactive product agent built on OpenAI models that suggests features, generates code via coding agents, and tracks impact metrics.",
+"why": "Developers can use Wave to accelerate feature ideation and implementation with AI‑generated code and built‑in analytics.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"amplitude",
+"openai",
+"wave",
+"product-agent"
+]
+}
+},
+{
+"id": "a9966e4b891a",
+"key": "https://technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+"title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+"published": "2026-11-12T20:16:24Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
+"meta": {},
+"ai": {
+"summary": "Nvidia told a US representative that it can technically implement chip‑tracking measures required by the Chip Security Act to combat smuggling, despite industry claims of infeasibility.",
+"why": "Understanding feasible anti‑smuggling tech helps developers anticipate compliance requirements for hardware supply chains.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"nvidia",
+"chip-security",
+"smuggling"
+]
+}
+},
+{
+"id": "a61901697971",
+"key": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+"title": "Jensen Huang was having a third affair, Reuters reports",
+"published": "2026-11-12T20:26:47Z",
+"fetched": "2026-11-12T23:40:58Z",
+"excerpt": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+"meta": {},
+"ai": {
+"summary": "Reuters reported that Nvidia CEO Jensen Huang is alleged to have a third affair with an unnamed Nvidia employee.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"nvidia",
+"jensen-huang"
+]
+}
+},
+{
+"id": "3412a8d37b60",
+"key": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+"title": "Claude Meetings lets Anthropic's AI join your video calls",
+"published": "2026-11-12T20:26:50Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "Anthropic is adding Claude directly to video calls. Claude Meetings joins Google Meet sessions and creates documents, whiteboards, and meeting notes in real time. The feature launches in beta for Team and Enterprise plans, with more platforms coming later.\nThe article Claude Meetings lets Anthropic's AI join your video calls appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic added Claude to Google Meet, letting the AI generate documents, whiteboards, and meeting notes in real time; the feature is in beta for Team and Enterprise plans.",
+"why": "Developers can integrate Claude into video workflows to automate note‑taking and collaborative artifacts.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude",
+"video-calls"
+]
+}
+},
+{
+"id": "9aa348065ed8",
+"key": "https://wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
+"title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
+"published": "2026-11-12T20:35:11Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.",
+"meta": {},
+"ai": {
+"summary": "A Wired investigation revealed that Nvidia CEO Jensen Huang did not name his own replacement as one of tech’s most powerful women, highlighting his blind spots on gender power dynamics.",
+"why": "Illustrates industry leadership attitudes toward gender representation, relevant for policy and diversity discussions.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"nvidia",
+"jensenhuang",
+"gender",
+"policy"
+]
+}
+},
+{
+"id": "00454238b4ca",
+"key": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/",
+"title": "Four Amazon Bedrock inference choices that affect cost",
+"published": "2026-11-12T20:51:55Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "Your Amazon Bedrock inference bill can keep climbing even after you tune prompts and application logic. Four request-level choices (cache duration, service tier, reasoning effort, and maxTokens) change how many tokens the service processes and the rate applied. We show how we tested each and how to verify the effect.",
+"meta": {},
+"ai": {
+"summary": "Amazon Bedrock offers four inference choices—cache duration, service tier, reasoning effort, and maxTokens—that affect cost; AWS tested each and provides guidance on verifying their impact.",
+"why": "Developers can fine‑tune Bedrock requests to control token usage and cost.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"bedrock",
+"cost",
+"inference",
+"aws"
+]
+}
+},
+{
+"id": "5f00bb32fe94",
+"key": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+"title": "AI is turning Apple's app review process into a nightmare for synth developers",
+"published": "2026-11-12T21:09:49Z",
+"fetched": "2026-11-13T06:40:35Z",
+"excerpt": "",
+"meta": {
+"points": 197,
+"comments": 232,
+"hn_url": "https://news.ycombinator.com/item?id=50474311"
+},
+"ai": {
+"summary": "Developers of synthesizer apps are reporting that Apple's app review process has become significantly more difficult due to AI-generated content or code, leading to increased rejections and delays.",
+"why": "Highlights a growing friction point for developers using AI tools in app development, particularly within Apple's ecosystem.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"apple",
+"app-store",
+"ai-code",
+"developer-experience"
+]
+}
+},
+{
+"id": "a2aea4f2524f",
+"key": "https://developer.apple.com/foundation-models-framework",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://developer.apple.com/foundation-models-framework/",
+"title": "Foundation Models framework",
+"published": "2026-11-12T21:13:26Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "",
+"meta": {
+"points": 267,
+"comments": 35,
+"hn_url": "https://news.ycombinator.com/item?id=50474361"
+},
+"ai": {
+"summary": "A new open‑source framework called Foundation Models provides utilities for training, evaluating, and deploying large foundation models across modalities.",
+"why": "Offers developers a unified toolkit to experiment with and fine‑tune large models without building infrastructure from scratch.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"foundation-models",
+"framework",
+"open-source",
+"ml"
+]
+}
+},
+{
+"id": "83006ea81fd4",
+"key": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+"title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+"published": "2026-11-12T21:27:10Z",
+"fetched": "2026-11-12T23:40:58Z",
+"excerpt": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+"meta": {},
+"ai": {
+"summary": "Nebius announced a $40 billion AI infrastructure expansion funded through customer pre‑payments and loans, despite delays at a Microsoft data center affecting its financing model.",
+"why": "The massive spend signals growing demand for AI compute, influencing cloud pricing and capacity planning for developers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nebius",
+"ai-infrastructure",
+"cloud"
+]
+}
+},
+{
+"id": "007457014fa6",
+"key": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+"source": "gh_codex",
+"source_name": "OpenAI Codex CLI releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+"title": "codex 0.168.0",
+"published": "2026-11-12T21:29:07Z",
+"fetched": "2026-11-12T23:41:00Z",
+"excerpt": "New Features\nBrowse model providers under Sessions → Model providers and choose the default for new chats. ( #59541 , #59722 )\nEnable features.tui_workspace to view a side conversation beside the main chat. Drag the divider to resize the panes or press leader z to zoom the focused pane. ( #58992 , #59527 , #59595 )\nAttach recordings when using an audio-capable model. Codex skips confirmed rejected recordings on later turns and uses clip duration to keep more short recordings in context. ( #59234 , #59268 )\nEnable features.image_generation_animation to generate or edit animated GIFs with optional frame count and timing controls. ( #59073 )\nFullscreen Codex displays image previews and pets in…",
+"meta": {},
+"ai": {
+"summary": "OpenAI released codex rust‑v0.168.0, a new version of the Codex Rust client library.",
+"why": "Provides developers with updated tooling for integrating Codex into Rust applications.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"openai",
+"codex",
+"rust"
+]
+}
+},
+{
+"id": "c3c969bde004",
+"key": "https://microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98",
+"source": "microsoft_research",
+"source_name": "Microsoft Research",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/",
+"title": "Microsoft Research Focus – Edition #98",
+"published": "2026-11-12T21:31:57Z",
+"fetched": "2026-11-12T23:41:00Z",
+"excerpt": "What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient.\nThe post Microsoft Research Focus – Edition #98 appeared first on Microsoft Research .",
+"meta": {},
+"ai": {
+"summary": "Microsoft Research Focus #98 highlights AI‑powered universal translation, a solution to a 31‑year‑old mathematics problem, and efficiency gains for AI coding agents.",
+"why": "These advances showcase new research directions that could be incorporated into developer tools and translation services.",
+"category": "research",
+"importance": 3,
+"tags": [
+"microsoft-research",
+"translation",
+"coding-agents"
+]
+}
+},
+{
+"id": "bd2213e6cf72",
+"key": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
+"title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
+"published": "2026-11-12T21:47:07Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2% automated coverage across support tickets.",
+"meta": {},
+"ai": {
+"summary": "Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore, that captures lab‑operations knowledge and delivers 130× faster first response and 96.2% automated coverage on support tickets.",
+"why": "Shows practical use of Bedrock AgentCore for enterprise support automation, highlighting performance gains and high coverage.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"natera",
+"bedrock",
+"agentcore",
+"swarm"
+]
+}
+},
+{
+"id": "e4162e7d0bfa",
+"key": "https://theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+"title": "Google’s new Gemini model is better at understanding complicated questions",
+"published": "2026-11-12T21:55:32Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google […]",
+"meta": {},
+"ai": {
+"summary": "Google released Gemini 4 Hydrogen, a new Gemini model that better handles multi‑part, typo‑laden, and highly specific queries, and made it available in Search, the Gemini app, and all product tiers.",
+"why": "The improved reasoning can be leveraged via Google’s APIs for more accurate query understanding in apps.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"hydrogen"
+]
+}
+},
+{
+"id": "ebbe7f9310b5",
+"key": "https://unemploymentlabs.com/checkpoint-forensics",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://unemploymentlabs.com/checkpoint-forensics",
+"title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+"published": "2026-11-12T21:56:11Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "",
+"meta": {
+"points": 357,
+"comments": 152,
+"hn_url": "https://news.ycombinator.com/item?id=50474883"
+},
+"ai": {
+"summary": "Researchers found that several Chinese frontier AI models exhibit hardware fingerprints matching export‑controlled GPUs, suggesting indirect access to advanced chips.",
+"why": "Highlights supply‑chain and compliance risks for AI developers working with restricted hardware.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"china",
+"gpu",
+"export-control",
+"ai-models"
+]
+}
+},
+{
+"id": "996aae33f1d1",
+"key": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
+"title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+"published": "2026-11-12T22:03:34Z",
+"fetched": "2026-11-12T23:40:57Z",
+"excerpt": "SGLang-Neuron is now publicly available through an AWS Deep Learning Container. With SGLang-Neuron, you can serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium using the same SGLang interface you already know, all running on native PyTorch.",
+"meta": {},
+"ai": {
+"summary": "SGLang-Neuron is now available in an AWS Deep Learning Container, enabling SGLang model serving and reinforcement learning rollouts on AWS Trainium with the familiar SGLang interface and native PyTorch.",
+"why": "This allows developers to deploy SGLang models on AWS hardware without rewriting code, potentially improving performance and cost.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"sglang",
+"aws",
+"trainium",
+"neuron"
+]
+}
+},
+{
+"id": "b7eb1f357097",
+"key": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+"source": "gh_claude_code",
+"source_name": "Claude Code releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+"title": "claude-code v2.1.323",
+"published": "2026-11-12T22:12:13Z",
+"fetched": "2026-11-12T23:41:00Z",
+"excerpt": "What's changed\nAdded Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization\nAdded engines[\"claude-code\"] to plugin.json : plugins outside their stated Claude Code version range are not installed, updated or loaded, and install and update pick the newest version that fits\nAdded type checking of a plugin's TypeScript hooks module to claude plugin validate ; each finding is a warning, and --strict fails on it\nAdded to claude plugin validate the $ nouns a mod's engine.create hook adds, withholds or replaces\nAdded support for CLAUDE_CODE_AUTO_MODE_MODEL in managed…",
+"meta": {},
+"ai": {
+"summary": "Claude Code released version 2.1.323, adding an experimental Code Mode that lets Claude generate JavaScript to call its tools, updating plugin.json to enforce version ranges, and adding TypeScript type checking for plugin hooks.",
+"why": "Developers can now experiment with tool‑calling JavaScript in Claude and ensure plugin compatibility through stricter versioning and type safety.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude",
+"code-mode",
+"plugin",
+"typescript"
+]
+}
+},
+{
+"id": "5c664ddf48fe",
+"key": "https://wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/",
+"title": "Jensen Huang Is Out. Will Nvidia’s Rivals Cash In?",
+"published": "2026-11-12T22:14:41Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "In a special episode of “Uncanny Valley,” we break down Jensen Huang’s resignation from Nvidia, what comes next for the company, and where the AI industry goes from here.",
+"meta": {},
+"ai": {
+"summary": "A special episode of the 'Uncanny Valley' podcast analyzes Jensen Huang's resignation from Nvidia, discussing the company's future and the broader impact on the AI industry.",
+"why": "Offers a consolidated expert perspective on the strategic implications of the leadership change for the AI hardware and software ecosystem.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"jensen-huang",
+"podcast",
+"analysis"
+]
+}
+},
+{
+"id": "fe8de4bfee41",
+"key": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+"title": "Muse can now place calls to US businesses — if you pay",
+"published": "2026-11-12T22:22:28Z",
+"fetched": "2026-11-12T23:40:58Z",
+"excerpt": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+"meta": {},
+"ai": {
+"summary": "Muse AI now offers outbound calling to U.S. businesses as a paid feature, enabling the platform to place calls on behalf of users.",
+"why": "Developers can integrate Muse’s calling API into sales or support workflows, but must budget for the per‑call cost.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"muse",
+"outbound-calls",
+"ai-voice"
+]
+}
+},
+{
+"id": "5632d3e70ca1",
+"key": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+"title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+"published": "2026-11-12T22:28:47Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+"meta": {},
+"ai": {
+"summary": "The FAA has expanded an AI‑driven advisory system to manage air‑traffic congestion across the entire United States airspace, though the controllers’ union was not consulted.",
+"why": "Wider AI deployment could improve flight efficiency and set a precedent for large‑scale AI use in critical infrastructure.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"faa",
+"air-traffic",
+"ai-advisory"
+]
+}
+},
+{
+"id": "b0001368f484",
+"key": "https://wired.com/story/silicon-valley-is-still-defending-jensen-huang",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
+"title": "Silicon Valley Is Still Defending Jensen Huang",
+"published": "2026-11-12T22:29:43Z",
+"fetched": "2026-11-12T23:40:59Z",
+"excerpt": "Nvidia employees and tech insiders never thought the chip king would lose his job. Despite his sudden resignation, many of them are still in denial.",
+"meta": {},
+"ai": {
+"summary": "Despite Jensen Huang's sudden resignation from Nvidia, many employees and tech insiders remain in denial about the leadership change and its implications for the company.",
+"why": "Provides cultural context on the shock of the leadership transition, though it offers little actionable technical or strategic information for developers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"jensen-huang",
+"culture"
+]
+}
+},
+{
+"id": "3cfbbd65356a",
+"key": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+"title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+"published": "2026-11-12T22:42:51Z",
+"fetched": "2026-11-12T23:40:58Z",
+"excerpt": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+"meta": {},
+"ai": {
+"summary": "U.S. House Democrats have launched a congressional investigation into Nvidia’s sales to China and its alleged coordination with former President Trump, issuing a critical letter to CEO Jensen Huang.",
+"why": "The probe could affect Nvidia’s supply chain, export controls, and market perception, impacting developers who rely on Nvidia GPUs.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"nvidia",
+"china-sales",
+"politics"
+]
+}
+},
+{
+"id": "e3f7e98bec66",
+"key": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+"title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+"published": "2026-11-12T23:06:17Z",
+"fetched": "2026-11-13T06:40:35Z",
+"excerpt": "",
+"meta": {
+"points": 344,
+"comments": 104,
+"hn_url": "https://news.ycombinator.com/item?id=50475713"
+},
+"ai": {
+"summary": "A new model named Edge0-145B has been released, claiming to provide frontier-level AI capabilities that can run locally on personal computers.",
+"why": "If accurate, this represents a significant shift in local inference capabilities, allowing developers to run high-performance models without cloud dependency.",
+"category": "models",
+"importance": 4,
+"tags": [
+"edge0-145b",
+"local-inference",
+"frontier-models",
+"hardware"
+]
+}
+},
+{
+"id": "c61aff5f1ec5",
+"key": "https://economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+"title": "Why You Should Expect an AI Crash",
+"published": "2026-11-12T23:08:31Z",
+"fetched": "2026-11-13T06:40:35Z",
+"excerpt": "",
+"meta": {
+"points": 101,
+"comments": 84,
+"hn_url": "https://news.ycombinator.com/item?id=50475735"
+},
+"ai": {
+"summary": "An article argues that the current AI market is overvalued and predicts a significant crash due to unsustainable costs and limited immediate ROI for many companies.",
+"why": "Provides a contrarian perspective on AI investment trends, useful for understanding potential market corrections and their impact on the industry.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"ai-market",
+"bubble",
+"investment",
+"economics"
+]
+}
+}
+]

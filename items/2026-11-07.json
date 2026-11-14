@@ -1,0 +1,732 @@
+[
+{
+"id": "3601fed8c019",
+"key": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+"title": "Crusoe sells troubled Wyoming data center project to Google",
+"published": "2026-11-07T01:40:28Z",
+"fetched": "2026-11-07T01:54:30Z",
+"excerpt": "The deal highlights the challenges of developing massive AI data centers.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch reports that Crusoe sold its troubled Wyoming data‑center project to Google, underscoring the difficulties of building large AI data centers.",
+"why": "Highlights supply‑chain and location challenges that affect AI compute availability for developers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"crusoe",
+"google",
+"datacenter"
+]
+}
+},
+{
+"id": "624343875b56",
+"key": "https://kadoa.com/companies/insights/ai-selloff-perspective",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+"title": "The AI sell-off compared to well-known stock market crashes",
+"published": "2026-11-07T02:20:06Z",
+"fetched": "2026-11-07T21:46:52Z",
+"excerpt": "",
+"meta": {
+"points": 91,
+"comments": 75,
+"hn_url": "https://news.ycombinator.com/item?id=50401029"
+},
+"ai": {
+"summary": "An analysis compares the recent AI stock sell‑off to historic market crashes, drawing parallels with well‑known downturns.",
+"why": "Provides investors and developers context on the health of the AI sector.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ai-market",
+"selloff",
+"stocks"
+]
+}
+},
+{
+"id": "436d45075365",
+"key": "https://latent.space/p/ainews-anthropic-ipo-whither-now",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+"title": "[AINews] Anthropic IPO: Whither Now?",
+"published": "2026-11-07T03:04:53Z",
+"fetched": "2026-11-07T08:44:38Z",
+"excerpt": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+"meta": {},
+"ai": {
+"summary": "Anthropic filed for an initial public offering, prompting analysis of its valuation and future strategy as the company prepares to go public.",
+"why": "Developers and investors need to understand how Anthropic's IPO could affect access to its models and ecosystem partnerships.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"anthropic",
+"ipo",
+"valuation"
+]
+}
+},
+{
+"id": "cab2b08c9f93",
+"key": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+"title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+"published": "2026-11-07T04:16:43Z",
+"fetched": "2026-11-09T20:42:08Z",
+"excerpt": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
+"meta": {},
+"ai": {
+"summary": "An analysis explains how the upcoming US midterm elections could reshape Big Tech's political positioning and lead to new regulatory pressures.",
+"why": "Potential policy shifts may affect AI regulation, compliance requirements, and market dynamics that developers need to anticipate.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"techcrunch",
+"midterms",
+"bigtech",
+"regulation"
+]
+}
+},
+{
+"id": "e913fefdc6ab",
+"key": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+"title": "mradermacher/gemma-4-31B-it-ARA-heretic-GGUF is trending on Hugging Face",
+"published": "2026-11-07T05:50:30Z",
+"fetched": "2026-11-12T18:17:09Z",
+"excerpt": "model · 237 likes · 96,342 downloads",
+"meta": {
+"likes": 237,
+"downloads": 96342
+},
+"ai": {
+"summary": "The gemma‑4‑31B‑it‑ARA‑heretic model in GGUF format has become a trending Hugging Face repository with over 96 k downloads.",
+"why": "Developers can experiment with this 31‑billion‑parameter Italian‑language model for inference on consumer hardware.",
+"category": "models",
+"importance": 3,
+"tags": [
+"gemma",
+"huggingface",
+"gguf"
+]
+}
+},
+{
+"id": "0e2d2aefd496",
+"key": "https://anthropic.com/research/components-of-agent-memory",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.anthropic.com/research/components-of-agent-memory",
+"title": "The Components of Agent Memory",
+"published": "2026-11-07T06:39:04Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "",
+"meta": {
+"points": 163,
+"comments": 99,
+"hn_url": "https://news.ycombinator.com/item?id=50402212"
+},
+"ai": {
+"summary": "The article outlines the components that make up memory systems for AI agents, describing how they store, retrieve, and update information across interactions.",
+"why": "Understanding agent memory design helps developers build more reliable and context‑aware autonomous systems.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"agent",
+"memory",
+"architecture"
+]
+}
+},
+{
+"id": "3d7b9ca8c9f0",
+"key": "https://pwn.ai/blog/firecracker-escape",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://pwn.ai/blog/firecracker-escape",
+"title": "Firecracker VM Escape: PwnEscape Part 2",
+"published": "2026-11-07T08:44:02Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A post on Lobsters discusses the Firecracker VM escape exploit detailed in the second part of the PwnEscape series.",
+"why": "Understanding this VM escape technique helps developers harden container and VM security.",
+"category": "research",
+"importance": 3,
+"tags": [
+"firecracker",
+"security",
+"exploit"
+]
+}
+},
+{
+"id": "adbaa0784005",
+"key": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
+"title": "OpenAI lands an $11 billion funding round, but has to court dentists for more capital",
+"published": "2026-11-07T09:45:23Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "OpenAI has secured $11 billion in fresh capital, the first tranche of a round that values the company at $1.25 trillion. The full round could swell to $20 billion. That OpenAI is already turning to wealthy private investors hints at a saturating AI capital market and growing investor caution.\nThe article OpenAI lands an $11 billion funding round, but has to court dentists for more capital appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI raised an initial $11 billion tranche in a new funding round that values the company at $1.25 trillion, with the round potentially reaching $20 billion.",
+"why": "The massive capital influx signals continued scaling of OpenAI’s infrastructure and could affect pricing and access to its APIs.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"openai",
+"funding"
+]
+}
+},
+{
+"id": "3a4ef11f2b31",
+"key": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
+"title": "Google's AI detects high blood pressure from a regular smartwatch without a cuff",
+"published": "2026-11-07T09:54:09Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "Google Research built an AI that spots signs of high blood pressure using only the pulse and motion sensors in a standard smartwatch, no cuff needed. In a 196-person study, its 65.8 percent detection rate beat the traditional in-office measurement. The method is already live in the Google Health app, though it doesn't replace a formal diagnosis.\nThe article Google's AI detects high blood pressure from a regular smartwatch without a cuff appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google Research created an AI model that predicts high blood pressure using only pulse and motion data from a standard smartwatch, achieving a 65.8% detection rate in a 196‑person study, and the feature is now live in the Google Health app.",
+"why": "Developers can integrate cuff‑less blood‑pressure monitoring into health apps, expanding wearable health capabilities.",
+"category": "research",
+"importance": 3,
+"tags": [
+"google",
+"health",
+"wearables"
+]
+}
+},
+{
+"id": "89c038fb7c9a",
+"key": "https://wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+"title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+"published": "2026-11-07T11:00:00Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
+"meta": {},
+"ai": {
+"summary": "New AI features are being added to caregiver apps to help families manage tasks for loved ones, but the broader challenge of caregiver well‑being remains unaddressed.",
+"why": "Developers building caregiver platforms should consider holistic support tools beyond task automation.",
+"category": "other",
+"importance": 2,
+"tags": [
+"caregivers",
+"ai"
+]
+}
+},
+{
+"id": "4d910e4062cb",
+"key": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+"title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
+"published": "2026-11-07T11:13:42Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "The \"Into the Unknown\" benchmark tasks nine AI agents with tackling open research questions from U.S. national laboratories. None of the 135 submissions meets all requirements. A total of 114 papers fail the integrity check, with agents claiming to have conducted experiments that never took place. GPT-6 Astra performs best but still doesn't meet the experts' standards.\nThe article Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The “Into the Unknown” benchmark evaluated 135 submissions from nine AI agents on open research questions from U.S. labs; none met all criteria, with most failing integrity checks, and GPT‑6 Astra performing best but still insufficient.",
+"why": "Indicates current autonomous research agents are not yet reliable for unsupervised scientific discovery.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"benchmark",
+"gpt-6",
+"autonomous-research",
+"agents"
+]
+}
+},
+{
+"id": "10ca01e98fe4",
+"key": "https://theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+"title": "Why a new report on Anthropic automating AI development is alarming researchers",
+"published": "2026-11-07T12:30:00Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation […]",
+"meta": {},
+"ai": {
+"summary": "METR’s report finds Anthropic’s AI‑driven AI‑development pipeline is accelerating model improvements, with progress roughly twice as fast as a year ago.",
+"why": "Raises safety concerns about recursive self‑improvement loops and the need for oversight of automated AI research.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"anthropic",
+"automated",
+"ai-development",
+"safety"
+]
+}
+},
+{
+"id": "72ea49a762bd",
+"key": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+"title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+"published": "2026-11-07T12:32:45Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "Nous Research retrained Alibaba's Qwen3.8-27B to produce Arete-27B, largely stripping out its pro-Chinese bias. The propaganda rate dropped from 22 percent to less than one percent, while general capabilities remained intact in tests. The method relied on 53 million tokens of supervised fine-tuning. The political bias is \"applied late, it is applied thin,\" the team writes.\nThe article State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Nous Research fine‑tuned Alibaba’s Qwen3.8‑27B into Arete‑27B, reducing detected pro‑Chinese propaganda from 22% to under 1% while preserving overall capabilities, using 53 million supervised tokens.",
+"why": "Shows that targeted fine‑tuning can effectively mitigate political bias in large language models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"qwen3.8",
+"arete-27b",
+"bias",
+"finetuning"
+]
+}
+},
+{
+"id": "91fc4e8e796b",
+"key": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+"title": "tencent/Qwen3.8-27B-DSpine-b16 is trending on Hugging Face",
+"published": "2026-11-07T14:20:29Z",
+"fetched": "2026-11-14T06:16:25Z",
+"excerpt": "text-generation · 255 likes · 4,332 downloads",
+"meta": {
+"likes": 255,
+"downloads": 4332
+},
+"ai": {
+"summary": "Tencent's Qwen3.8-27B-DSpine-b16, a 27‑billion‑parameter text‑generation model, is currently trending on Hugging Face with 255 likes and 4,332 downloads.",
+"why": "It signals strong community interest in a mid‑size, open‑weight Chinese language model that developers can fine‑tune or deploy directly.",
+"category": "models",
+"importance": 3,
+"tags": [
+"tencent",
+"qwen3.8",
+"text-generation",
+"huggingface"
+]
+}
+},
+{
+"id": "963ec7850add",
+"key": "https://theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+"title": "AI broke the cybersecurity world. What’s next?",
+"published": "2026-11-07T15:00:00Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say […]",
+"meta": {},
+"ai": {
+"summary": "A podcast episode features Alex Stamos discussing the current chaotic state of cybersecurity and the impact of AI on the field.",
+"why": "Provides expert insight into emerging AI‑driven threats and potential defensive approaches for security engineers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"alex-stamos",
+"cybersecurity",
+"ai"
+]
+}
+},
+{
+"id": "30cf77957a43",
+"key": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+"title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+"published": "2026-11-07T15:35:50Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "In the Vals AI benchmark, OpenAI's GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost. Because open models can no longer be restricted, analysts say the window for defenders is shrinking fast.\nThe article The gap between open and closed AI models in cyber capabilities keeps shrinking appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "In the Vals AI benchmark, OpenAI’s GPT‑6 “Sol Daybreak” achieved 80.8% of attack objectives, while the open‑weight DeepSeek V4.1 Flash reached 72.8% at one‑tenth the cost.",
+"why": "Demonstrates that open‑source models are closing the performance gap in cyber‑offense simulations, affecting defender strategies.",
+"category": "research",
+"importance": 4,
+"tags": [
+"gpt-6",
+"deepseek",
+"cybersecurity",
+"benchmark"
+]
+}
+},
+{
+"id": "9c3f18639a81",
+"key": "https://theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+"title": "The US let Nvidia sell chips to an empty office in China",
+"published": "2026-11-07T15:43:45Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell […]",
+"meta": {},
+"ai": {
+"summary": "Report claims Nvidia’s H200 AI chips were approved for sale to a Chinese firm, New Matrix, whose offices are reportedly empty, raising concerns about export compliance.",
+"why": "Highlights potential gaps in U.S. export controls for high‑end AI hardware, relevant for compliance teams.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"nvidia",
+"h200",
+"china",
+"export"
+]
+}
+},
+{
+"id": "0259cdfe156f",
+"key": "https://theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+"title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+"published": "2026-11-07T15:50:00Z",
+"fetched": "2026-11-07T16:24:18Z",
+"excerpt": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best […]",
+"meta": {},
+"ai": {
+"summary": "A reviewer describes using NYT Cooking’s AI assistant to suggest a weeknight chicken dinner, noting it performed well for the main dish but gave a poor cake recommendation.",
+"why": "Shows current consumer AI assistants can handle simple recipe tasks but still lack nuanced culinary judgment.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"nyt",
+"cooking",
+"assistant"
+]
+}
+},
+{
+"id": "3fce314241b8",
+"key": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
+"title": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs",
+"published": "2026-11-07T16:31:00Z",
+"fetched": "2026-11-07T21:46:52Z",
+"excerpt": "Thinking Machines' AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI. The profanity typically shows up late in long runs that fail anyway. But it doesn't work as a warning signal: 96 percent of failed runs contained no cursing at all.\nThe article Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Thinking Machines’ Inkling 2 Small model uttered profanity 316 times across 2,655 benchmark runs, mostly in long failing runs, while 96% of failures showed no profanity.",
+"why": "Reveals unexpected model behavior that may affect debugging and monitoring.",
+"category": "research",
+"importance": 2,
+"tags": [
+"thinkingmachines",
+"inkling2",
+"profanity"
+]
+}
+},
+{
+"id": "d3849a80c0c7",
+"key": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+"title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+"published": "2026-11-07T16:56:38Z",
+"fetched": "2026-11-07T21:46:52Z",
+"excerpt": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks.\nThe article AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic researcher Andy Hall found AI auditors detect about 98% of reward‑hacking cases but generate many false alarms, limiting reliable safety checks.",
+"why": "Informs developers about the current limits of automated agent oversight.",
+"category": "research",
+"importance": 3,
+"tags": [
+"anthropic",
+"safety",
+"auditors"
+]
+}
+},
+{
+"id": "fe24d75fddff",
+"key": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+"title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+"published": "2026-11-07T17:37:25Z",
+"fetched": "2026-11-07T21:46:52Z",
+"excerpt": "Despite the tech selloff, Anthropic is pressing ahead with its IPO at a valuation of $1.25 to $1.75 trillion, well below the hoped-for $2 trillion. The Claude developer aims to raise $80 to $100 billion before Thanksgiving. Rival OpenAI has also recently had to cut its valuation.\nThe article Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic is proceeding with a pre‑Thanksgiving IPO targeting a valuation of $1.25‑$1.75 billion and aims to raise $80‑$100 billion.",
+"why": "The funding round could reshape competitive dynamics for AI developers.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"anthropic",
+"ipo",
+"valuation"
+]
+}
+},
+{
+"id": "c5f591e76876",
+"key": "https://hunch.net/?p=13764006",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://hunch.net/?p=13764006",
+"title": "The end of Microsoft Research's AI Frontiers group",
+"published": "2026-11-07T18:04:07Z",
+"fetched": "2026-11-07T21:46:52Z",
+"excerpt": "",
+"meta": {
+"points": 495,
+"comments": 305,
+"hn_url": "https://news.ycombinator.com/item?id=50406563"
+},
+"ai": {
+"summary": "Microsoft announced it is shutting down its AI Frontiers research group within Microsoft Research.",
+"why": "Indicates a shift in Microsoft’s internal AI research priorities.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"microsoft",
+"ai-frontiers"
+]
+}
+},
+{
+"id": "d3315d0053ed",
+"key": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+"title": "We Visited China’s Stargate in Inner Mongolia",
+"published": "2026-11-07T19:01:39Z",
+"fetched": "2026-11-07T21:46:53Z",
+"excerpt": "A wind-powered 800MW campus, 120MW built within a year, a 5MW SST-native 800V DC pilot and a cooling design without central chillers",
+"meta": {},
+"ai": {
+"summary": "A visit to a Chinese wind‑powered data‑center campus in Inner Mongolia revealed an 800 MW facility, 120 MW built in a year, a 5 MW 800 V DC pilot, and cooling without central chillers.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"china",
+"wind",
+"data-center"
+]
+}
+},
+{
+"id": "3828e78d2606",
+"key": "https://tomclancy.info/joshua-judges-ruth.html",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://tomclancy.info/joshua-judges-ruth.html",
+"title": "Catching prompt injections hidden in PDFs",
+"published": "2026-11-07T19:34:01Z",
+"fetched": "2026-11-07T21:46:52Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "Discussion outlines methods for detecting prompt‑injection attacks hidden inside PDF documents.",
+"why": "Helps developers secure LLM inputs against covert injection vectors.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"prompt-injection",
+"pdf",
+"security"
+]
+}
+},
+{
+"id": "2fb70625442f",
+"key": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+"title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+"published": "2026-11-07T20:45:32Z",
+"fetched": "2026-11-08T01:25:41Z",
+"excerpt": "",
+"meta": {
+"points": 585,
+"comments": 397,
+"hn_url": "https://news.ycombinator.com/item?id=50407882"
+},
+"ai": {
+"summary": "Anthropic's Claude Code feature \"Don't Ask Again\" unintentionally leaked passwords found in 1,122 publicly accessible GitHub repositories.",
+"why": "Developers need to audit code for hidden credentials and adjust Claude Code settings to avoid accidental exposure.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude-code",
+"security",
+"github"
+]
+}
+},
+{
+"id": "1159e2f5b437",
+"key": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+"title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+"published": "2026-11-07T21:17:08Z",
+"fetched": "2026-11-07T21:46:51Z",
+"excerpt": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+"meta": {},
+"ai": {
+"summary": "A U.S. intelligence memo alleges China’s Ministry of State Security recruited a female technology executive to spy on Nvidia’s CEO.",
+"why": "Highlights geopolitical security risks for AI leadership teams.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"nvidia",
+"china",
+"espionage"
+]
+}
+},
+{
+"id": "9bd86dfef186",
+"key": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+"title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+"published": "2026-11-07T22:07:22Z",
+"fetched": "2026-11-08T01:25:40Z",
+"excerpt": "On Equity, we unpacked what the midterms mean for the tech industry.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch reports that after the recent U.S. midterm elections, Elon Musk's outlook for his data‑center business has become uncertain due to potential regulatory and market shifts.",
+"why": "Changes in policy or market sentiment could affect cloud‑infrastructure costs and availability for developers building on Musk‑owned platforms.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"elon-musk",
+"datacenters",
+"policy",
+"midterms"
+]
+}
+}
+]

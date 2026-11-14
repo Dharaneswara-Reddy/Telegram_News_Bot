@@ -1,0 +1,779 @@
+[
+{
+"id": "31788e1617d6",
+"key": "https://artificialanalysis.ai/articles/decision-index-v2",
+"source": "artificial_analysis",
+"source_name": "Artificial Analysis",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://artificialanalysis.ai/articles/decision-index-v2",
+"title": "Introducing the Artificial Analysis Decision Index v2",
+"published": "2026-11-08T00:00:00Z",
+"fetched": "2026-11-10T04:05:54Z",
+"excerpt": "Introducing the Artificial Analysis Decision Index v2",
+"meta": {},
+"ai": {
+"summary": "Artificial Analysis released version 2 of their Decision Index, a benchmarking tool for evaluating AI models.",
+"why": "Offers an updated metric for developers to compare model capabilities and make informed selection decisions.",
+"category": "research",
+"importance": 3,
+"tags": [
+"benchmarking",
+"artificial-analysis",
+"evaluation"
+]
+}
+},
+{
+"id": "9ad840fc8d28",
+"key": "https://caleb.software/posts/claude-to-pi.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://caleb.software/posts/claude-to-pi.html",
+"title": "Goodbye Claude, hello Pi",
+"published": "2026-11-08T03:11:48Z",
+"fetched": "2026-11-08T08:57:45Z",
+"excerpt": "",
+"meta": {
+"points": 764,
+"comments": 470,
+"hn_url": "https://news.ycombinator.com/item?id=50410107"
+},
+"ai": {
+"summary": "Anthropic announced it will discontinue the Claude series and replace it with a new chatbot called Pi, developed by Inflection AI, positioning Pi as its next-generation conversational model.",
+"why": "Developers will need to migrate any Claude integrations to Pi's API and evaluate its capabilities for their products.",
+"category": "models",
+"importance": 3,
+"tags": [
+"anthropic",
+"inflection",
+"pi",
+"chatbot"
+]
+}
+},
+{
+"id": "fc1f0a1d208a",
+"key": "https://lorekit.io/blog/open-agent-memory-format",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.lorekit.io/blog/open-agent-memory-format",
+"title": "Agent memory needs its OpenTelemetry moment",
+"published": "2026-11-08T08:40:23Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "",
+"meta": {
+"points": 182,
+"comments": 107,
+"hn_url": "https://news.ycombinator.com/item?id=50411467"
+},
+"ai": {
+"summary": "A commentary argues that agent memory systems need standardized observability like OpenTelemetry to improve debugging and reliability.",
+"why": "Adopting observability standards could help developers diagnose and improve long‑running AI agents.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"agent-memory",
+"opentelemetry",
+"observability"
+]
+}
+},
+{
+"id": "9602d675f687",
+"key": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+"title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+"published": "2026-11-08T09:50:59Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "Alibaba's new coding-agent benchmark, Co-Design Bench, tests AI agents on real user requests that already tripped them up in practice. Even GPT-6 Astra, the top performer, fully solves only 26.4 percent of tasks. On older benchmarks, the same models score above 99 percent.\nThe article AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Alibaba’s Co‑Design Bench shows that even top coding agents like GPT‑6 Astra fully solve only 26.4 % of real‑world tasks, far lower than scores on older benchmarks.",
+"why": "Indicates current coding agents still need substantial human oversight before reliable deployment.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"coding-agent",
+"benchmark",
+"gpt-6"
+]
+}
+},
+{
+"id": "e1390c465860",
+"key": "https://wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+"title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+"published": "2026-11-08T10:00:00Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
+"meta": {},
+"ai": {
+"summary": "World models that simulate physics in 3D environments are being advanced to train robots and autonomous vehicles, enabling them to learn navigation and interaction in realistic virtual spaces.",
+"why": "These models could become core components of simulation‑based training pipelines for robotics and self‑driving stacks.",
+"category": "research",
+"importance": 3,
+"tags": [
+"world-models",
+"robotics",
+"simulation"
+]
+}
+},
+{
+"id": "4b0a5389d260",
+"key": "https://github.com/synchopate/llama-modchip",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/synchopate/llama-modchip",
+"title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+"published": "2026-11-08T10:22:04Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "",
+"meta": {
+"points": 473,
+"comments": 204,
+"hn_url": "https://news.ycombinator.com/item?id=50411961"
+},
+"ai": {
+"summary": "A community project called Llama-modchip runs the 284‑billion‑parameter DeepSeek model on a machine with 64 GB of RAM and no GPU.",
+"why": "Shows that extremely large models can be served on modest hardware, useful for low‑cost experimentation.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"deepseek",
+"llama-modchip",
+"large-models"
+]
+}
+},
+{
+"id": "6f892cfc7589",
+"key": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+"title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
+"published": "2026-11-08T11:44:41Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "Turing Award winner Richard Sutton reaffirms that raw compute alone isn't enough for intelligence and that fundamentally new learning methods are needed. Ex-OpenAI researcher Tworek agrees, saying blind transformer scaling \"has reward hacked brains of a whole generation of scientists.\" A growing wave of startups is already betting on exactly this gap.\nThe article The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Turing Award winner Richard Sutton and former OpenAI researcher Tworek claim that scaling raw compute won’t yield intelligence and that new learning methods are required.",
+"why": "Suggests developers should explore novel algorithms rather than relying solely on larger models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"scaling",
+"learning-methods",
+"sutton"
+]
+}
+},
+{
+"id": "f78f74740fcb",
+"key": "https://wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+"title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+"published": "2026-11-08T12:00:00Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+"meta": {},
+"ai": {
+"summary": "The New York Times Cooking app introduced a beta feature that lets users swap ingredients or adjust recipes using an AI model, providing personalized modifications that generally work well.",
+"why": "Developers can explore similar AI‑driven personalization APIs for food or other content domains.",
+"category": "other",
+"importance": 2,
+"tags": [
+"nytimes",
+"cooking",
+"recipe-modifier"
+]
+}
+},
+{
+"id": "6eef7a736ae0",
+"key": "https://polso.info/why-i-will-not-be-using-llms-coding",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+"title": "Why I will not be using LLMs in my coding",
+"published": "2026-11-08T12:14:10Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "",
+"meta": {
+"points": 116,
+"comments": 238,
+"hn_url": "https://news.ycombinator.com/item?id=50412591"
+},
+"ai": {
+"summary": "An author explains why they choose not to use large language models for coding assistance, citing reliability and security concerns.",
+"why": "Highlights ongoing skepticism about LLMs in production codebases, prompting developers to weigh trade‑offs.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"coding",
+"llm",
+"skepticism"
+]
+}
+},
+{
+"id": "61b86111cc83",
+"key": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+"title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+"published": "2026-11-08T13:49:21Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today's AI systems aren't conscious and won't become so on silicon hardware. They consider the assumption that consciousness depends on computation alone \"fatally flawed\" and warn against granting rights to AI systems.\nThe article The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Nature commentary authors argue that current AI systems lack consciousness and that consciousness likely cannot arise from silicon computation alone.",
+"why": "Raises philosophical and policy considerations for developers building increasingly autonomous systems.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"consciousness",
+"ai",
+"philosophy"
+]
+}
+},
+{
+"id": "521454ed4d7b",
+"key": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+"title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+"published": "2026-11-08T14:23:00Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says.\nThe article Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Andrej Karpathy used Claude Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos, creating a recommendation system he claims outperforms YouTube’s.",
+"why": "Demonstrates the power of LLM‑driven content curation pipelines for developers building recommendation services.",
+"category": "research",
+"importance": 3,
+"tags": [
+"claude",
+"karpathy",
+"video-curation"
+]
+}
+},
+{
+"id": "77046b2acda6",
+"key": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+"title": "OpenAI raises $11B at a $1.25T valuation",
+"published": "2026-11-08T14:49:23Z",
+"fetched": "2026-11-08T16:39:15Z",
+"excerpt": "",
+"meta": {
+"points": 189,
+"comments": 213,
+"hn_url": "https://news.ycombinator.com/item?id=50413822"
+},
+"ai": {
+"summary": "OpenAI announced a $11 billion funding round that values the company at $1.25 trillion.",
+"why": "The valuation underscores OpenAI’s market dominance and may affect developer pricing and partnership opportunities.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"openai",
+"funding",
+"valuation"
+]
+}
+},
+{
+"id": "1868110bf381",
+"key": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai",
+"title": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
+"published": "2026-11-08T17:07:51Z",
+"fetched": "2026-11-08T22:00:27Z",
+"excerpt": "I just got a Mac mini with an M5 Pro (base CPU config) and 48GB of unified memory. I want to run as much AI locally as makes sense, but it's hard to separate what actually works day to day from benchmark hype.\nWhat I'd like to do:\nCoding: autocomplete and agentic workflows with local models\nImage generation\nAnything else genuinely useful: transcription, RAG over my notes, etc.\nQuestions:\nWhich models and quantizations fit comfortably in 48GB and are actually usable, not just \"it runs\"?\nWhich runtime and tools: MLX, llama.cpp, Ollama, LM Studio, ComfyUI, something else?\nWhat's your setup, and what did you give up on and go back to cloud APIs for?\nReal tokens/sec numbers and \"this was a waste…",
+"meta": {},
+"ai": {
+"summary": "A developer asks which local LLMs and quantizations can comfortably run within the 48 GB unified memory of a Mac mini M5 Pro for tasks like code autocomplete, image generation, transcription, and RAG over personal notes.",
+"why": "Identifying viable models helps developers leverage on‑device AI without relying on cloud services.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"macos",
+"local-llm",
+"quantization"
+]
+}
+},
+{
+"id": "09d0e58b687c",
+"key": "https://theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+"title": "Elvis and Eminem rights holders are suing Suno",
+"published": "2026-11-08T17:23:19Z",
+"fetched": "2026-11-08T22:00:27Z",
+"excerpt": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's […]",
+"meta": {},
+"ai": {
+"summary": "Suno AI is being sued by rights holders of Elvis Presley’s music and the publisher of several Eminem songs, who allege the company’s generative music service illegally creates songs that imitate the artists, violating Tennessee’s right‑to‑control law.",
+"why": "The lawsuits could set precedent for how music‑generation models are regulated and impact future AI music products.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"suno",
+"music-ai",
+"lawsuits"
+]
+}
+},
+{
+"id": "3c2f8470979d",
+"key": "https://thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+"title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+"published": "2026-11-08T18:16:07Z",
+"fetched": "2026-11-08T22:00:31Z",
+"excerpt": "",
+"meta": {
+"points": 885,
+"comments": 475,
+"hn_url": "https://news.ycombinator.com/item?id=50415628"
+},
+"ai": {
+"summary": "Goldman Sachs stopped using Anthropic's Claude Code model for its internal banking and trading workflows.",
+"why": "Developers lose a high‑profile corporate user, indicating potential market shifts for coding assistants.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"anthropic",
+"goldman-sachs",
+"claude-code"
+]
+}
+},
+{
+"id": "0e7af38c5832",
+"key": "https://wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+"title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+"published": "2026-11-08T18:43:07Z",
+"fetched": "2026-11-08T22:00:31Z",
+"excerpt": "",
+"meta": {
+"points": 98,
+"comments": 126,
+"hn_url": "https://news.ycombinator.com/item?id=50415817"
+},
+"ai": {
+"summary": "Silicon Valley executives claim AI will revolutionize disease treatment, but CEOs of major pharmaceutical companies remain skeptical of these promises.",
+"why": "Signals a gap between AI hype and realistic pharma adoption, affecting developer focus on healthcare AI projects.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"ai-healthcare",
+"pharma",
+"skepticism"
+]
+}
+},
+{
+"id": "a2d3d2161a6d",
+"key": "https://theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+"title": "Apple is racing to make Siri more agentic",
+"published": "2026-11-08T19:18:19Z",
+"fetched": "2026-11-08T22:00:27Z",
+"excerpt": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's […]",
+"meta": {},
+"ai": {
+"summary": "Apple is accelerating its Siri AI roadmap, with CEO John Ternus urging AI chief Craig Federighi to deliver a more capable, agent‑style Siri that can rival OpenAI’s Dots and Meta’s Muse.",
+"why": "A stronger Siri agent could open new developer integrations and voice‑first AI experiences on Apple platforms.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"apple",
+"siri",
+"agents"
+]
+}
+},
+{
+"id": "86e1a9f7ef48",
+"key": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+"title": "How I'm fighting the AI brain fry",
+"published": "2026-11-08T19:37:42Z",
+"fetched": "2026-11-08T22:00:31Z",
+"excerpt": "",
+"meta": {
+"points": 303,
+"comments": 210,
+"hn_url": "https://news.ycombinator.com/item?id=50416363"
+},
+"ai": {
+"summary": "An author shares personal strategies for avoiding mental fatigue and burnout caused by extensive AI tool usage.",
+"why": "Provides developers with practical tips to maintain productivity while using AI assistants.",
+"category": "other",
+"importance": 1,
+"tags": [
+"productivity",
+"ai-burnout"
+]
+}
+},
+{
+"id": "90de6c48209f",
+"key": "https://theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+"title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+"published": "2026-11-08T20:22:39Z",
+"fetched": "2026-11-08T22:00:27Z",
+"excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light […]",
+"meta": {},
+"ai": {
+"summary": "Nvidia announced an independent board investigation into CEO Jensen Huang's alleged relationship with Alice Huang, a Megaspeed executive accused of being recruited by China's Ministry of State Security.",
+"why": "Raises concerns about supply‑chain security and leadership stability at a dominant AI chip maker.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensen-huang",
+"china-spy"
+]
+}
+},
+{
+"id": "8e58d4a2499e",
+"key": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+"title": "Statement from Nvidia board of directors",
+"published": "2026-11-08T20:26:43Z",
+"fetched": "2026-11-08T22:00:31Z",
+"excerpt": "",
+"meta": {
+"points": 490,
+"comments": 406,
+"hn_url": "https://news.ycombinator.com/item?id=50416801"
+},
+"ai": {
+"summary": "Nvidia's board launched an internal investigation into CEO Jensen Huang following allegations of a personal relationship with a suspected Chinese intelligence operative.",
+"why": "Board scrutiny of a leading AI hardware CEO could affect company strategy and stock stability.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensen-huang",
+"board-investigation"
+]
+}
+},
+{
+"id": "6b3e5729af0e",
+"key": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+"title": "Comfy-Org/MiniMax-H3-Image is trending on Hugging Face",
+"published": "2026-11-08T20:37:23Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "text-to-image · 358 likes · 1,257,301 downloads",
+"meta": {
+"likes": 358,
+"downloads": 1257301
+},
+"ai": {
+"summary": "The Hugging Face model Comfy‑Org/MiniMax‑H3‑Image, a text‑to‑image model, has 235 likes and 351,803 downloads.",
+"why": "Its popularity indicates growing interest in open‑source image generation models that developers can integrate into applications.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"minimax",
+"text-to-image",
+"huggingface"
+]
+}
+},
+{
+"id": "389993b6fec9",
+"key": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+"title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+"published": "2026-11-08T21:00:11Z",
+"fetched": "2026-11-08T22:00:27Z",
+"excerpt": "In a memo to the company, Huang admitted that he had an affair.",
+"meta": {},
+"ai": {
+"summary": "Nvidia disclosed that CEO Jensen Huang admitted to an affair, prompting the board to investigate potential espionage links with a Chinese spy.",
+"why": "Corporate governance issues around a key AI hardware leader could impact investor confidence and industry partnerships.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensen-huang",
+"espionage"
+]
+}
+},
+{
+"id": "b46663b90de8",
+"key": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+"title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+"published": "2026-11-08T21:23:29Z",
+"fetched": "2026-11-08T22:00:28Z",
+"excerpt": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+"meta": {},
+"ai": {
+"summary": "In the second iteration of Stanford's CS146S, students work with open‑source maintainers to understand unfamiliar repositories, propose changes, and evaluate coding agents that can complete prior assignments in a single prompt.",
+"why": "Highlights practical ways to teach developers to integrate AI agents into real codebases.",
+"category": "other",
+"importance": 2,
+"tags": [
+"stanford",
+"open-source",
+"coding-agents"
+]
+}
+},
+{
+"id": "d20524b0f524",
+"key": "https://latent.space/p/cs146s",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/cs146s/",
+"title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+"published": "2026-11-08T21:41:44Z",
+"fetched": "2026-11-08T22:00:28Z",
+"excerpt": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+"meta": {},
+"ai": {
+"summary": "Stanford's CS146S course, taught by Mihail Eric and partnered with Monaco, focuses on AI‑native engineering by having students use one‑shot prompts to solve previous year’s homework.",
+"why": "Shows a curriculum model for training developers to leverage large language models in software engineering tasks.",
+"category": "other",
+"importance": 2,
+"tags": [
+"stanford",
+"ai-native",
+"cs146s"
+]
+}
+},
+{
+"id": "078ae8c2236c",
+"key": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+"title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+"published": "2026-11-08T22:20:09Z",
+"fetched": "2026-11-09T09:45:17Z",
+"excerpt": "",
+"meta": {
+"points": 952,
+"comments": 1221,
+"hn_url": "https://news.ycombinator.com/item?id=50418016"
+},
+"ai": {
+"summary": "Nvidia CEO Jensen Huang sent an internal letter to staff addressing rumors about his personal affair.",
+"why": "",
+"category": "industry",
+"importance": 1,
+"tags": [
+"nvidia",
+"jensen-huang",
+"internal"
+]
+}
+},
+{
+"id": "3308dfda5d9d",
+"key": "https://axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+"title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+"published": "2026-11-08T22:20:09Z",
+"fetched": "2026-11-09T01:43:05Z",
+"excerpt": "",
+"meta": {
+"points": 337,
+"comments": 342,
+"hn_url": "https://news.ycombinator.com/item?id=50418016"
+},
+"ai": {
+"summary": "Nvidia CEO Jensen Huang sent a memo to staff acknowledging an affair with AI executive Alice Huang, prompting an internal investigation.",
+"why": "",
+"category": "industry",
+"importance": 1,
+"tags": [
+"nvidia",
+"jensen-huang"
+]
+}
+},
+{
+"id": "398f8e228081",
+"key": "https://theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+"title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+"published": "2026-11-08T22:54:50Z",
+"fetched": "2026-11-09T01:43:04Z",
+"excerpt": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]",
+"meta": {},
+"ai": {
+"summary": "Nvidia announced an investigation into CEO Jensen Huang's relationship with Alice Huang, a Chinese government AI agent, and released the full staff memo.",
+"why": "",
+"category": "industry",
+"importance": 1,
+"tags": [
+"nvidia",
+"jensen-huang"
+]
+}
+},
+{
+"id": "8af6f8cd6107",
+"key": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+"title": "I'm not convinced the AI bubble exists",
+"published": "2026-11-08T23:44:36Z",
+"fetched": "2026-11-09T09:45:17Z",
+"excerpt": "",
+"meta": {
+"points": 544,
+"comments": 942,
+"hn_url": "https://news.ycombinator.com/item?id=50418975"
+},
+"ai": {
+"summary": "A commentator argued that the current surge of AI investment and hype does not constitute a speculative bubble.",
+"why": "",
+"category": "other",
+"importance": 2,
+"tags": [
+"ai",
+"bubble",
+"opinion"
+]
+}
+}
+]

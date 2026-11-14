@@ -1,0 +1,115 @@
+[
+{
+"id": "b145772e000b",
+"key": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+"title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+"published": "2026-11-14T02:21:36Z",
+"fetched": "2026-11-14T06:16:26Z",
+"excerpt": "",
+"meta": {
+"points": 152,
+"comments": 34,
+"hn_url": "https://news.ycombinator.com/item?id=50492993"
+},
+"ai": {
+"summary": "A Nvidia director sold nearly $1 billion in company stock weeks before a scandal involving CEO Jensen Huang emerged.",
+"why": "Signals possible insider‑trading concerns that may impact investor confidence and corporate governance.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"insider-trading",
+"stock"
+]
+}
+},
+{
+"id": "a84555cccc97",
+"key": "https://techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+"title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+"published": "2026-11-14T02:52:59Z",
+"fetched": "2026-11-14T06:16:26Z",
+"excerpt": "",
+"meta": {
+"points": 277,
+"comments": 140,
+"hn_url": "https://news.ycombinator.com/item?id=50493251"
+},
+"ai": {
+"summary": "Reports claim Nvidia funded AI startups to create demand for its GPUs, intentionally limiting supply and driving scarcity.",
+"why": "Highlights potential supply‑chain manipulation that could affect hardware planning for AI projects.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"gpu",
+"market",
+"scarcity"
+]
+}
+},
+{
+"id": "13daa3f88248",
+"key": "https://alexwang.ai/posts/associative-memory",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://alexwang.ai/posts/associative-memory/",
+"title": "You could have invented transformers from memory",
+"published": "2026-11-14T04:49:47Z",
+"fetched": "2026-11-14T06:16:25Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A discussion post argues that the core ideas of transformers could be derived from memory of earlier sequence models, emphasizing conceptual continuity.",
+"why": "Encourages developers to revisit earlier architectures for insights when designing new transformer variants.",
+"category": "research",
+"importance": 3,
+"tags": [
+"transformers",
+"history",
+"architecture"
+]
+}
+},
+{
+"id": "7e09774a9d22",
+"key": "arxiv:2605.29713",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "paper",
+"url": "https://arxiv.org/abs/2605.29713",
+"title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+"published": "2026-11-14T04:51:14Z",
+"fetched": "2026-11-14T06:16:25Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "The Little Book of Generative AI Foundations offers an intuitive mathematical primer covering core concepts behind generative models.",
+"why": "Serves as a concise reference for developers needing a solid theoretical grounding before building or fine‑tuning models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"generative-ai",
+"math",
+"primer"
+]
+}
+}
+]

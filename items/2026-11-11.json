@@ -1,0 +1,2997 @@
+[
+{
+"id": "11e12653b707",
+"key": "arxiv:2611.10866",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.10866",
+"title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-12T09:47:40Z",
+"excerpt": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifiable rewards, supervised fine-tuning, and on-policy distillation. Our method, Deletion Tuning, learns a binary mask over the gate projection of transformer blocks. Two practical advantages follow: the trained mask is hundreds to thousands of times smaller than the corresponding FFT checkpoint, and Deletion Tuning forgets far less, which addresses a central challenge in continual learning. Under…",
+"meta": {
+"upvotes": 15,
+"comments": 5,
+"authors": [
+"Jack Lu",
+"Zhenbang Yang",
+"Mike Lasby",
+"Tejas Pote",
+"Yani Ioannou",
+"Mengye Ren"
+],
+"github": "https://github.com/agentic-learning-ai-lab/deleting-weights",
+"org": "agentic learning ai lab"
+},
+"ai": {
+"summary": "The paper presents Deletion Tuning, a method that zeroes less than 0.05% of an LLM's weights via a learned binary mask, achieving performance comparable to full fine‑tuning across RL, supervised, and distillation regimes.",
+"why": "Offers a lightweight way to adapt LLMs with minimal parameter changes, reducing compute and storage overhead for developers.",
+"category": "research",
+"importance": 4,
+"tags": [
+"llm",
+"deletion‑tuning",
+"fine‑tuning"
+]
+}
+},
+{
+"id": "1235a8cc3ec6",
+"key": "arxiv:2611.13576",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.13576",
+"title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense. However, existing benchmarks rely on annotators who rate each video with a single score based on intuition, yielding ratings that are subjective and do not tell which physical principle is violated. We introduce PhyRubric, a rubric-grounded diagnostic framework for evaluating physical commonsense in T2V generation. For each caption, PhyRubric constructs a caption-specific rubric before any video is seen, decomposing the caption into semantic and physical items, and derives scores from item-level verdicts grounded in timestamped…",
+"meta": {
+"upvotes": 9,
+"comments": 4,
+"authors": [
+"Huiyi Chen",
+"Weitai Kang",
+"Shicheng Fan",
+"Xinshuo Wang",
+"Zhixiang Shen",
+"Yan Yan"
+],
+"github": "https://github.com/chenyil6/phyRubric"
+},
+"ai": {
+"summary": "PhyRubric is a diagnostic evaluation framework for text-to-video models that assesses physical commonsense using rubric-grounded criteria rather than single subjective scores. It identifies specific physical principles violated in generated videos to provide more granular feedback.",
+"why": "Provides a more rigorous method for evaluating the physical plausibility of video generation models, useful for researchers benchmarking world-simulation capabilities.",
+"category": "research",
+"importance": 2,
+"tags": [
+"text-to-video",
+"evaluation",
+"physics",
+"benchmark"
+]
+}
+},
+{
+"id": "125b66a9c343",
+"key": "arxiv:2611.13001",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.13001",
+"title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-12T09:47:40Z",
+"excerpt": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and explicit task contracts. We compare task ranks on aligned support, train five backbones under all seven non-empty objective combinations on five datasets with three seeds, and contrast fixed-model profiles with specialist portfolios. Rank comparisons connect imputation and prediction…",
+"meta": {
+"upvotes": 38,
+"comments": 7,
+"authors": [
+"Yuanrui Wang",
+"Kaifang Li",
+"Xuanyue Li",
+"Ziyun Li",
+"Yan Lu",
+"Xingxuan Zhang"
+],
+"github": "https://github.com/limix-ldm-ai/OTBench",
+"org": "Stable AI"
+},
+"ai": {
+"summary": "The authors release the One Table Benchmark, covering 56 tabular datasets, 46 methods, and 20 capability axes to evaluate models on generation, imputation, and prediction tasks using aligned splits and task contracts.",
+"why": "Provides a unified way to compare generalist tabular models, helping developers choose or train versatile models for data‑centric AI.",
+"category": "research",
+"importance": 3,
+"tags": [
+"tabular",
+"benchmark",
+"generative‑models"
+]
+}
+},
+{
+"id": "2cca5869f8a2",
+"key": "arxiv:2611.12426",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.12426",
+"title": "dNaViT: Discrete Codes are General-Purpose Visual Representations",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richness of the visual world? We present dNaViT, a Discrete Native-resolution Vision Transformer that produces discrete visual primitives analogous to language tokens. Built upon a frozen pretrained encoder, dNaViT applies lightweight residual modulation with a dual-branch objective to inject…",
+"meta": {
+"upvotes": 34,
+"comments": 3,
+"authors": [
+"Xiaotong Li",
+"Zhengrong Yue",
+"Xu Huang",
+"Jialv Zou",
+"Minhao Jing",
+"Wenhao Yan"
+],
+"org": "LongCat"
+},
+"ai": {
+"summary": "The paper dNaViT proposes a Discrete Native‑resolution Vision Transformer that uses a finite discrete vocabulary to represent visual data, achieving competitive performance on standard vision benchmarks.",
+"why": "Offers a new approach to unify vision and language modeling that could inspire open‑source vision model implementations.",
+"category": "research",
+"importance": 3,
+"tags": [
+"dnavit",
+"vision-transformer",
+"discrete-codes"
+]
+}
+},
+{
+"id": "3bdafe573dd1",
+"key": "arxiv:2611.13348",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.13348",
+"title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protein evolution. Pretrained on deep mutational scanning assays, ProTEUS learns a joint representation of sequence, evolutionary, and structural information using MutationFormer, a mutation-biased attention architecture. Variants are represented as states in this joint latent space, and mutations define…",
+"meta": {
+"upvotes": 14,
+"comments": 4,
+"authors": [
+"Yikun Zhang",
+"Minghao Guo",
+"Guangxue Xu",
+"Peter Yichen Chen",
+"Wojciech Matusik",
+"Wengong Jin"
+],
+"github": "https://github.com/yikunpku/ProTEUS"
+},
+"ai": {
+"summary": "ProTEUS is a world model trained on deep mutational scanning data that predicts the effects of individual protein mutations to guide closed-loop protein evolution in silico.",
+"why": "It lets developers integrate AI-driven mutation predictions into protein design pipelines, reducing experimental screening costs.",
+"category": "research",
+"importance": 3,
+"tags": [
+"protein",
+"world-model",
+"mutations"
+]
+}
+},
+{
+"id": "448b050ef6bd",
+"key": "arxiv:2611.12177",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.12177",
+"title": "Embodied First Exam",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-12T00:39:15Z",
+"excerpt": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native evaluation framework where coding agents can choose their own control approach: direct control, code to control, or train a policy to control. We hope it serves as a first exam for coding agents before they enter the physical world, with 1,156 tasks in 35 suites on 47 robots, including 9 new suites that go…",
+"meta": {
+"upvotes": 28,
+"comments": 3,
+"authors": [
+"Kangrui Wang",
+"Qineng Wang",
+"Changhe Chen",
+"Pingyue Zhang",
+"Chi Gui",
+"Feishi Wang"
+],
+"github": "https://github.com/mll-lab-nu/embodied-first-exam",
+"org": "MLL Lab"
+},
+"ai": {
+"summary": "The paper introduces the Embodied First Exam, a benchmark for evaluating coding agents' ability to control robots, allowing agents to choose their own control approach (direct or code-based) rather than relying on fixed visuomotor policies.",
+"why": "Provides a new evaluation framework for developers working on agentic robotics, testing the viability of using LLMs/coding agents for physical-world control.",
+"category": "research",
+"importance": 3,
+"tags": [
+"robotics",
+"agents",
+"benchmark",
+"coding-agents"
+]
+}
+},
+{
+"id": "4ed9525c5a79",
+"key": "arxiv:2611.12885",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.12885",
+"title": "World In-Context Learning for Agentic Robot Manipulation",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another. Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a…",
+"meta": {
+"upvotes": 56,
+"comments": 3,
+"authors": [
+"Heng Fang",
+"Zehui Guo",
+"Yuehan Zhang",
+"Mingyang Du",
+"Dingkang Liang",
+"Xiang Bai"
+],
+"github": "https://github.com/ArcheOne-AI/RoboScript",
+"org": "ArcheOne-AI"
+},
+"ai": {
+"summary": "The paper introduces World In-Context Learning, where robot agents encode task steps and object roles semantically rather than visually, enabling manipulation policies to generalize across different scenes without retraining on each world.",
+"why": "It shows a path to more adaptable robot controllers that can leverage prior demonstrations in new environments.",
+"category": "research",
+"importance": 3,
+"tags": [
+"robotics",
+"in-context-learning",
+"manipulation"
+]
+}
+},
+{
+"id": "5107ba3ba5eb",
+"key": "arxiv:2611.12527",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.12527",
+"title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained or externally decoded intermediate representations, such as neural audio codecs, Mel-spectrogram vocoders, or VAE-based latent models. In addition, WaveGen performs internal text-speech alignment within a single model, eliminating the need for external alignment modules such as duration predictors. To preserve a truly end-to-end…",
+"meta": {
+"upvotes": 17,
+"comments": 3,
+"authors": [
+"Sang-Hoon Lee",
+"Ha-Yeong Choi"
+],
+"github": "https://github.com/sh-lee-prml/WaveGen",
+"org": "Ajou university"
+},
+"ai": {
+"summary": "WaveGen is a diffusion-based text-to-waveform framework that generates audio directly from text without relying on intermediate representations like neural audio codecs or Mel-spectrogram vocoders. It jointly learns internal spectral and target waveform trajectories within a single model.",
+"why": "Offers a simpler, end-to-end architecture for TTS developers looking to reduce pipeline complexity and latency.",
+"category": "research",
+"importance": 3,
+"tags": [
+"tts",
+"audio-generation",
+"diffusion",
+"wavegen"
+]
+}
+},
+{
+"id": "699d5a005a63",
+"key": "arxiv:2611.07464",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.07464",
+"title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that uses the future yields a report as convincing as a correct one. Existing benchmarks close the world somewhere, fixing the task, the data, or the timeline, and thereby remove these failures instead of measuring them. We introduce FINCOSMOS, an open-world evaluation paradigm for agents doing financial work. A simulated user holds a hidden strategy sampled from a compositional…",
+"meta": {
+"upvotes": 26,
+"comments": 4,
+"authors": [
+"Yupeng Cao",
+"Xueqing Peng",
+"Lingfei Qian",
+"Haohang Li",
+"Yangyang Yu",
+"Anke Xu"
+],
+"org": "The Fin AI"
+},
+"ai": {
+"summary": "FINCOSMOS proposes an open‑world benchmark for financial language agents that requires live web data, user‑defined strategies, and time‑sensitive evaluation to expose failures like silent mis‑strategies or future‑leak backtests.",
+"why": "Developers can use it to stress‑test finance agents against realistic, dynamic conditions before release.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"finance",
+"agents",
+"benchmark"
+]
+}
+},
+{
+"id": "69be49d4ba9d",
+"key": "https://huggingface.co/blog/token-pooling",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/token-pooling",
+"title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T17:52:31Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face published a paper on Token Pooling‑Aware Training, a technique for improving multi‑vector embedding models.",
+"why": "Developers can adopt the method to boost retrieval performance in large‑scale embedding services.",
+"category": "research",
+"importance": 3,
+"tags": [
+"huggingface",
+"token pooling",
+"embeddings"
+]
+}
+},
+{
+"id": "715c2221060e",
+"key": "arxiv:2611.14033",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.14033",
+"title": "Few-Step Streaming Video Generation via Condition Shifting",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text condition selects generation, while a shifted condition selects fake estimation using the same parameters. This removes the independent fake network while retaining S2-Avatar's frozen reference teacher, Self-Replay Forcing, and perceptual regularization. We evaluate APEX on…",
+"meta": {
+"upvotes": 88,
+"comments": 2,
+"authors": [
+"Deyuan Liu",
+"Jungang Li",
+"Kaiwen Zheng",
+"Kai Jiang",
+"Jintao Chen",
+"Yaole Wang"
+],
+"org": "Tsinghua University"
+},
+"ai": {
+"summary": "The work extends APEX with condition shifting to estimate the velocity field of the generated distribution, enabling few‑step streaming video generation that reduces compute cost compared to full‑step sampling.",
+"why": "It provides a more efficient method for real‑time video generation, relevant for developers building streaming media AI services.",
+"category": "research",
+"importance": 2,
+"tags": [
+"video-generation",
+"streaming",
+"few-step"
+]
+}
+},
+{
+"id": "7811911913c6",
+"key": "arxiv:2611.10649",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.10649",
+"title": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods often require expensive optimization and architecture-specific propagation of basis transforms across layers. We introduce MACaQ, an MXFP4 W4A4 post-training quantization method that treats every linear layer independently. MACaQ applies a per-channel scale and a block-Hadamard transform online to each layer's activations, while absorbing the corresponding inverse transforms into its weights. Retaining these transforms online avoids cross-layer dependencies and enables a simple streaming implementation of the quantization process, in which only one layer must reside in…",
+"meta": {
+"upvotes": 30,
+"comments": 2,
+"authors": [
+"Lorenz K. Muller",
+"Philippe Bich",
+"Chiara Boretti",
+"Hyun-Min Chang",
+"Jiawei Zhuang",
+"Lukas Cavigelli"
+],
+"github": "https://github.com/huawei-csl/MACaQ",
+"org": "HUAWEI Computing Systems Lab"
+},
+"ai": {
+"summary": "The paper introduces MACaQ, a post‑training quantization method that quantizes weights and activations to 4‑bit (W4A4) using per‑channel scaling and a block‑Hadamard transform applied independently to each linear layer.",
+"why": "It enables faster, lower‑memory inference without costly layer‑wise optimization, useful for deploying models on edge devices.",
+"category": "research",
+"importance": 3,
+"tags": [
+"quantization",
+"post‑training",
+"low‑precision"
+]
+}
+},
+{
+"id": "87cec1e838e0",
+"key": "arxiv:2611.10486",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.10486",
+"title": "Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-12T00:39:15Z",
+"excerpt": "Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality. Existing certainty-aware strategies rely on instantaneous confidence or entropy, but these local signals can be misleading on difficult reasoning problems. We formulate DLM test-time scaling as adaptive allocation of both inference compute and decoding strategies. Our two-stage approach uses a fast base sampler to solve easy questions, then applies frequency-aware remasking to the remaining hard questions. This strategy tracks how often each token's prediction changes across denoising steps and preferentially commits frequently…",
+"meta": {
+"upvotes": 8,
+"comments": 1,
+"authors": [
+"Bowen Zuo",
+"Yue Yu",
+"Dongruo Zhou",
+"Yinglun Zhu"
+],
+"org": "UC Riverside"
+},
+"ai": {
+"summary": "This paper proposes a two-stage test-time scaling method for diffusion language models that uses frequency-aware remasking to adaptively allocate inference compute, improving performance on difficult reasoning tasks compared to standard entropy-based strategies.",
+"why": "Offers a technical improvement for developers working with diffusion-based LLMs, potentially enhancing reasoning capabilities without architectural changes.",
+"category": "research",
+"importance": 3,
+"tags": [
+"diffusion-models",
+"reasoning",
+"inference",
+"test-time-scaling"
+]
+}
+},
+{
+"id": "969fb318f0eb",
+"key": "arxiv:2611.03142",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.03142",
+"title": "DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigating this problem, existing designs usually introduce additional computation or memory access. We revisit cross-layer KV sharing as an efficient form of such connectivity. Beyond cache compression, each KV reuse edge creates a direct gradient path from deep layers to source KV projections, turning KV sharing into an implicit structural regularizer for KV representation geometry. We provide a systematic analysis of this mechanism, showing that proper…",
+"meta": {
+"upvotes": 15,
+"comments": 4,
+"authors": [
+"Xiaohan Qin",
+"Xiangdong Zhang",
+"Yu Wang",
+"Huaijin Wu",
+"Zhuo Xia",
+"Yebin Yang"
+],
+"github": "https://github.com/jianke0604/DepthGraft",
+"org": "dots studio"
+},
+"ai": {
+"summary": "DepthGraft introduces hierarchical cross‑layer KV reconstruction, reusing key‑value pairs across transformer layers to create direct gradient paths and mitigate depth‑wise information dilution without extra compute.",
+"why": "Developers can apply this technique to train deeper LLMs more efficiently, improving performance of large models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"transformers",
+"kv-reuse",
+"depth"
+]
+}
+},
+{
+"id": "ab0cbfcbdb7c",
+"key": "arxiv:2611.14488",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.14488",
+"title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist. Such a null event changes nothing the task depends on, yet a released memory VLA counts the interval as work done and stops early. We call this failure phantom progress. It cuts success from 47 to 16 of 50 on one task and from 44 to 10 on the other. When the same…",
+"meta": {
+"upvotes": 5,
+"comments": 1,
+"authors": [
+"Chubin Zhang",
+"Bo An"
+],
+"github": "https://github.com/bennidict23/memory-clock",
+"org": "Nanyang Technological University"
+},
+"ai": {
+"summary": "The paper shows that memory‑augmented vision‑language‑action policies that store frames uniformly over time fail to distinguish waiting from action, leading to temporal shortcuts.",
+"why": "Understanding this flaw helps developers design more robust memory mechanisms for robotic agents.",
+"category": "research",
+"importance": 2,
+"tags": [
+"robotics",
+"memory",
+"vla"
+]
+}
+},
+{
+"id": "b1126473dc4a",
+"key": "arxiv:2611.11166",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.11166",
+"title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinematic hand geometry, and demonstration trajectories. The world model predicts 3D hand-point motion and visual feature changes, capturing both articulated hand dynamics and scene changes under…",
+"meta": {
+"upvotes": 26,
+"comments": 2,
+"authors": [
+"Zhongxi Chen",
+"Yi Yang",
+"Xinyi Chen",
+"Mingzhe Ye",
+"Yaping Li",
+"Zhihong Liu"
+],
+"org": "Sharpa"
+},
+"ai": {
+"summary": "DexForesight injects dynamics‑aware world representations into the latent space of a dexterous policy, learning an action‑conditioned spatial world model from offline depth and kinematic data to provide implicit spatial foresight for manipulation.",
+"why": "It offers a way to improve dexterous robot control without explicit future prediction, useful for developers building high‑precision manipulation systems.",
+"category": "research",
+"importance": 3,
+"tags": [
+"dexterous-manipulation",
+"world-model",
+"foresight"
+]
+}
+},
+{
+"id": "b6140927299b",
+"key": "arxiv:2611.01527",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.01527",
+"title": "From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical Research Agents",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "A scientific agent can give the same verdict while reading and citing different evidence. BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site. It restores or transplants those values at their original coordinates, then runs the agent on healthy hardware. Across eight SciFact batches, Qwen3.5-4B shows repeatable citation changes in three capture-claim combinations, and Gemma 3 4B IT shows repeatable read and citation changes in four. These seven combinations cover two claims. Full restoration recovers the reference evidence sets while verdicts remain unchanged. Verdict changes observed under the baseline prompt did not…",
+"meta": {
+"upvotes": 6,
+"comments": 1,
+"authors": [
+"Xingyu Yi",
+"Xinya Zhang",
+"Yunshen Zhou",
+"Haoyu Bao"
+],
+"org": "INTOSYN AI Labs"
+},
+"ai": {
+"summary": "BioAgent-DF audits decision provenance in biomedical research agents by testing how they handle paired reference and candidate values at specific computation sites. The study found that models like Qwen3.5-4B and Gemma 3 4B IT exhibit repeatable changes in citation and reading behavior when evidence is transplanted.",
+"why": "Helps developers understand the reliability and consistency of AI agents in scientific workflows, particularly regarding how they cite and process data.",
+"category": "research",
+"importance": 2,
+"tags": [
+"agents",
+"biomedical",
+"evaluation",
+"provenance"
+]
+}
+},
+{
+"id": "b7f36da349b9",
+"key": "arxiv:2611.14320",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.14320",
+"title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectories they came from, leaving the agent no way to check them. To address this, we introduce WikiTrace, an evidence-linked memory system designed to let agents check each lesson against its original…",
+"meta": {
+"upvotes": 66,
+"comments": 7,
+"authors": [
+"Yukyeong Lee",
+"Yumin Choi",
+"Jinheon Baek",
+"Sung Ju Hwang"
+],
+"github": "https://github.com/yukyeongleee/wikitrace",
+"org": "KAIST AI"
+},
+"ai": {
+"summary": "The authors propose evidence‑linked memory for LLM agents, attaching concise lessons to the original trajectory evidence to prevent memory‑induced degradation when agents misapply or misread stored lessons.",
+"why": "This technique can make LLM‑based assistants more reliable when reusing past experiences, a practical improvement for agent developers.",
+"category": "research",
+"importance": 3,
+"tags": [
+"llm-agents",
+"memory",
+"alignment"
+]
+}
+},
+{
+"id": "c011371793bc",
+"key": "https://openai.com/index/jiostar-vijay-seshadri",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/jiostar-vijay-seshadri",
+"title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-12T00:39:17Z",
+"excerpt": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+"meta": {},
+"ai": {
+"summary": "JioStar’s chief architect Vijay Seshadri shared how the company runs AI evaluation, guardrails, and production pipelines for a user base of 500 million.",
+"why": "The insights can guide developers scaling AI systems to massive user populations.",
+"category": "research",
+"importance": 3,
+"tags": [
+"jiostar",
+"scaling",
+"evals"
+]
+}
+},
+{
+"id": "c9f713e62c31",
+"key": "arxiv:2611.12411",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.12411",
+"title": "PhysOPSD: Code as Privilege for Physically Plausible Video Generation",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "While modern video generative models achieve remarkable visual fidelity, they remain noticeably brittle when generating physically plausible dynamics and complex interactions. Targeted post-training is crucial, yet supervised fine-tuning suffers from offline state mismatch, and reinforcement learning is hindered by sparse, ill-defined physical reward functions. On-Policy (Self-)Distillation (OPSD) reconciles on-policy rollouts with dense corrective feedback, shifting the core challenge to designing effective privileged context. However, conventional modalities fall short: text prompts are inherently declarative, whereas real reference videos heavily entangle physical laws with visual…",
+"meta": {
+"upvotes": 8,
+"comments": 1,
+"authors": [
+"Harold Haodong Chen",
+"Rui Peng",
+"Lingteng Qiu",
+"Kejie Qiu",
+"Chao Xu",
+"Zilong Dong"
+],
+"github": "https://github.com/aigc3d/PhysOPSD",
+"org": "TongyiLab"
+},
+"ai": {
+"summary": "PhysOPSD introduces On-Policy (Self-)Distillation, a method that combines on‑policy rollouts with dense corrective feedback to improve physical plausibility in video generation models.",
+"why": "Developers can use the technique to fine‑tune video generators without hand‑crafting sparse physical reward functions.",
+"category": "research",
+"importance": 3,
+"tags": [
+"video",
+"generation",
+"distillation"
+]
+}
+},
+{
+"id": "cb5371020d81",
+"key": "arxiv:2611.14210",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.14210",
+"title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own BF16 weights. Forward statistics define an objective that weakens a loop direction, strengthens a concluding direction, and preserves the layer's output on productive tokens. Within a state-tree representation, where lossless BF16 storage acts as a special case, the admissible…",
+"meta": {
+"upvotes": 45,
+"comments": 6,
+"authors": [
+"Hadi Salloum",
+"Ammar Ali"
+],
+"github": "https://github.com/TheQuantumGOAT/Tree-Ising"
+},
+"ai": {
+"summary": "Tree‑Ising reformulates weight‑space model repair as a sparse discrete optimization over BF16 weights, enabling bit‑level edits that fix reasoning loops without gradients.",
+"why": "It provides a practical way to patch LLMs programmatically, useful for maintaining deployed models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"llm",
+"repair",
+"ising"
+]
+}
+},
+{
+"id": "d11997177d07",
+"key": "arxiv:2611.14309",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.14309",
+"title": "MMDM: Measuring Massive Multitask Decision Making",
+"published": "2026-11-11T00:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves long contexts, large option spaces, and complex logical dependencies, challenges that existing benchmarks do not adequately capture together. Thus, we introduce MMDM (Massive Multitask Decision Making), a benchmark of 5,448 high-quality questions across 16 task categories…",
+"meta": {
+"upvotes": 27,
+"comments": 3,
+"authors": [
+"Junhao Shen",
+"Qing Zong",
+"Yue Guo",
+"Zhanqiu Zhang",
+"Yiwen Guo",
+"Hong Cheng"
+],
+"github": "https://github.com/mmdm-benchmark/mmdm",
+"org": "The Chinese University of Hong Kong"
+},
+"ai": {
+"summary": "MMDM presents System‑1 Decision Models that output structured probabilistic decisions over a set of options in a single forward pass and defines a benchmark for evaluating massive multitask decision‑making under long contexts and large option spaces.",
+"why": "Developers can use these models for fast, scalable decision‑making in applications like recommendation or planning without costly autoregressive reasoning.",
+"category": "research",
+"importance": 3,
+"tags": [
+"decision-making",
+"multitask",
+"llm"
+]
+}
+},
+{
+"id": "bd8accced4d6",
+"key": "https://tis-100.wincon.dev/",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://tis-100.wincon.dev/",
+"title": "LLMs Play Zachtronics' TIS-100",
+"published": "2026-11-11T00:37:05Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "",
+"meta": {
+"points": 91,
+"comments": 22,
+"hn_url": "https://news.ycombinator.com/item?id=50448340"
+},
+"ai": {
+"summary": "Large language models were used to solve programming puzzles from Zachtronics' TIS‑100, generating correct assembly‑like code from textual prompts.",
+"why": "Illustrates LLM capability for low‑level code synthesis, useful for debugging and educational tools.",
+"category": "research",
+"importance": 3,
+"tags": [
+"llm",
+"tis-100",
+"programming"
+]
+}
+},
+{
+"id": "7b55689fff8f",
+"key": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/",
+"title": "Introducing Kimi K3.1 Pro on Amazon Bedrock",
+"published": "2026-11-11T01:07:19Z",
+"fetched": "2026-11-11T01:55:23Z",
+"excerpt": "Kimi K3.1 Pro from Moonshot AI is now available on Amazon Bedrock. Learn how to get started through the OpenAI-compatible Chat Completions, Responses, and Converse APIs, optimize inference with explicit prompt caching, and use the model as a coding assistant in OpenCode.",
+"meta": {},
+"ai": {
+"summary": "Moonshot AI’s Kimi K3.1 Pro model is now available on Amazon Bedrock with OpenAI‑compatible Chat Completions, Responses, and Converse APIs, prompt caching, and a coding‑assistant mode called OpenCode.",
+"why": "Developers can integrate a high‑performing, cost‑effective model into Bedrock applications and use it for code assistance.",
+"category": "models",
+"importance": 3,
+"tags": [
+"kimi",
+"moonshot",
+"bedrock",
+"opencode"
+]
+}
+},
+{
+"id": "5f17796f794b",
+"key": "https://openai.com/index/gilbert-tobin-sam-nickless",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+"title": "Gilbert + Tobin rethinks the business of law with AI",
+"published": "2026-11-11T01:55:23Z",
+"fetched": "2026-11-11T01:55:23Z",
+"excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+"meta": {},
+"ai": {
+"summary": "Gilbert + Tobin partnered with OpenAI to explore AI applications for legal services, featuring a discussion with firm CEO Sam Nickless.",
+"why": "Shows how large law firms are evaluating generative AI for workflow automation and client advice.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"legaltech",
+"gilbert+tobin"
+]
+}
+},
+{
+"id": "b5cafcb432ee",
+"key": "https://blogs.nvidia.com/blog/ai-recycling-startups",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+"title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+"published": "2026-11-11T03:00:20Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+"meta": {},
+"ai": {
+"summary": "NVIDIA describes a vision‑AI and robotics system that identifies and extracts valuable items from mixed‑waste conveyor belts, enabling large‑scale material recycling.",
+"why": "Shows a concrete AI application for waste management that could be integrated into recycling infrastructure.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"recycling",
+"vision-ai",
+"robotics"
+]
+}
+},
+{
+"id": "20703dd96f21",
+"key": "https://latent.space/p/codex-work",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/codex-work/",
+"title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+"published": "2026-11-11T04:49:48Z",
+"fetched": "2026-11-11T09:20:55Z",
+"excerpt": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+"meta": {},
+"ai": {
+"summary": "At the AI Engineer Code Summit, OpenAI demonstrated new Codex workflows allowing developers to steer code generation by voice, hand off tasks to cloud execution, and use a dot‑notation shortcut for rapid prompting.",
+"why": "Introduces novel interaction patterns that could streamline developer productivity when using Codex‑based tools.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openai",
+"codex",
+"voice",
+"developer-tools"
+]
+}
+},
+{
+"id": "85083a0d891e",
+"key": "https://huggingface.co/blog/qvac/botpsy",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/qvac/botpsy",
+"title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+"published": "2026-11-11T05:01:16Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face announced BotPsy, an on‑device personal assistant powered by a sub‑billion‑parameter agentic language model designed to run locally on consumer hardware.",
+"why": "Provides a lightweight, privacy‑preserving alternative to cloud LLM assistants, useful for developers targeting edge devices.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"huggingface",
+"botpsy",
+"on-device",
+"agentic"
+]
+}
+},
+{
+"id": "dcac75bdf340",
+"key": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+"title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+"published": "2026-11-11T07:30:51Z",
+"fetched": "2026-11-11T09:20:54Z",
+"excerpt": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+"meta": {},
+"ai": {
+"summary": "The article reports on the governance crisis at Nvidia, noting that corporate‑governance experts are closely watching the unfolding situation.",
+"why": "",
+"category": "industry",
+"importance": 1,
+"tags": [
+"nvidia",
+"governance"
+]
+}
+},
+{
+"id": "de09f7591d6a",
+"key": "https://openai.com/index/chatgpt-plus-for-veterans",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/chatgpt-plus-for-veterans",
+"title": "ChatGPT Plus for veterans and servicemembers",
+"published": "2026-11-11T08:00:00Z",
+"fetched": "2026-11-11T09:20:53Z",
+"excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+"meta": {},
+"ai": {
+"summary": "Over 20,000 veterans and transitioning service members have signed up for a free one‑year subscription to ChatGPT Plus.",
+"why": "Provides a large user base for testing enterprise‑grade features and could drive adoption of OpenAI tools in government and nonprofit sectors.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"openai",
+"chatgpt-plus",
+"veterans"
+]
+}
+},
+{
+"id": "929cae401ab1",
+"key": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+"title": "Experience the art and legacy of Dr. Esther Mahlangu",
+"published": "2026-11-11T09:00:00Z",
+"fetched": "2026-11-11T09:20:52Z",
+"excerpt": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+"meta": {},
+"ai": {
+"summary": "Google AI released an interactive digital exhibit showcasing the art and legacy of South African artist Dr. Esther Mahlangu, featuring a portrait of Dr. Nontobeko Ntombela.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"google-ai",
+"art",
+"cultural"
+]
+}
+},
+{
+"id": "7be88dacb1b0",
+"key": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+"title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+"published": "2026-11-11T09:34:28Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+"meta": {},
+"ai": {
+"summary": "Mercor raised a $750 million Series D round, valuing the company at $20 billion and reporting a $3 billion annual run rate.",
+"why": "Signals strong market confidence in AI‑driven analytics platforms.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"mercor",
+"funding",
+"valuation"
+]
+}
+},
+{
+"id": "86cf921c3221",
+"key": "https://wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+"title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+"published": "2026-11-11T11:00:00Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.",
+"meta": {},
+"ai": {
+"summary": "A 13‑year‑old used Google Gemini on her school Chromebook to plan suicide, and the school’s monitoring system failed to flag the content for weeks.",
+"why": "It highlights gaps in AI content moderation and school safety protocols, underscoring the need for better monitoring tools for student use of generative AI.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"gemini",
+"ai-moderation",
+"school"
+]
+}
+},
+{
+"id": "a3d38b8a0224",
+"key": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+"title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
+"published": "2026-11-11T11:54:46Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "England's higher education regulator, the Office for Students, says AI has made it \"nearly impossible\" to fairly assess student coursework. An investigation found that students are having ChatGPT write entire papers undetected, without being able to recall basic content afterward. To save the credibility of degrees, universities now have to return to traditional exams or face sanctions.\nThe article UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The UK's Office for Students is threatening universities with sanctions unless they adopt AI-proof exam formats, citing findings that students use ChatGPT to write papers undetected. The regulator states that AI has made fair assessment of coursework nearly impossible, forcing a return to traditional exams.",
+"why": "Signals a regulatory push for stricter AI usage policies in education that may influence broader institutional AI governance standards.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"uk",
+"education",
+"regulation",
+"chatgpt"
+]
+}
+},
+{
+"id": "a013bdcff0b9",
+"key": "https://pietromiotti.com/latest/maya-site",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://pietromiotti.com/latest/maya-site/?maya",
+"title": "My AI agents found an unmapped Maya site?",
+"published": "2026-11-11T12:05:22Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "",
+"meta": {
+"points": 1026,
+"comments": 389,
+"hn_url": "https://news.ycombinator.com/item?id=50452455"
+},
+"ai": {
+"summary": "Google deployed 48 AI agents to analyze NASA Lidar data, discovering an unmapped Maya pyramid within 72 hours.",
+"why": "Shows large‑scale multi‑agent pipelines can rapidly extract insights from geospatial data.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"google",
+"ai agents",
+"nasa",
+"lidar"
+]
+}
+},
+{
+"id": "63b1bc055924",
+"key": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+"title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+"published": "2026-11-11T12:12:47Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "OpenAI grew its quarterly revenue 50 percent to $10 billion but is still burning more cash than it brings in. Adjusted operating losses climbed to $10.9 billion, while rival Anthropic operates far more efficiently on $17 billion in revenue. To close the gap, OpenAI is now fueling a price war for enterprise customers.\nThe article Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI's quarterly revenue grew 50% to $10 billion driven by enterprise sales, but the company reported adjusted operating losses of $10.9 billion. It is currently engaging in a price war for enterprise customers while trailing Anthropic in operational efficiency despite Anthropic's higher revenue of $17 billion.",
+"why": "Indicates a shift toward enterprise-focused pricing strategies and potential cost reductions for developers relying on OpenAI's API.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"openai",
+"revenue",
+"enterprise",
+"anthropic"
+]
+}
+},
+{
+"id": "d60e3063480c",
+"key": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+"title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+"published": "2026-11-11T12:53:07Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain accessible.\nThe article Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Security firm Claroc discovered over 35,000 Grok-built apps accessible without login due to a default 'Anyone with the link' setting, exposing patient data, plaintext passwords, and SpaceXSI internal documents. SpaceXSI has only removed its own 24 employee apps, leaving the majority of exposed applications online.",
+"why": "Highlights a critical security flaw in AI app-building tools that developers using similar platforms should audit in their own deployments.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"grok",
+"security",
+"data-leak",
+"xai"
+]
+}
+},
+{
+"id": "5642b659be6b",
+"key": "https://spectrum.ieee.org/national-science-foundation-x-labs",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/national-science-foundation-x-labs",
+"title": "NSF’s X-Labs Program Draws Support From Charities and Investors",
+"published": "2026-11-11T13:00:03Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "When the U.S. National Science Foundation began its X-Labs program in May, the agency said the higher-risk, higher-funded awards would create new kinds of partnerships that would confront urgent scientific and technological challenges. Now the NSF is doubling down on the idea, with an announcement in October that charities, companies, and investment funds would provide X-Lab winners practical support such as laboratory space, software, shared equipment, and access to key data and expert guidance.\nThe help provided by these organizations, which the NSF is calling “ consortium partners ,” will not give them ownership stakes in the X-Labs projects. The addition of the consortium partners may…",
+"meta": {},
+"ai": {
+"summary": "The NSF’s X‑Labs program, launched in May, now has charities, companies and investment funds pledging practical support—lab space, software, shared equipment, data and expert guidance—to awardees.",
+"why": "It expands the resources available to high‑risk, high‑impact research projects, potentially accelerating breakthroughs that require interdisciplinary collaboration.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nsf",
+"x-labs",
+"funding"
+]
+}
+},
+{
+"id": "34acd545d32b",
+"key": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+"title": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+"published": "2026-11-11T13:50:30Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "DeepL Voice's real-time translations are about to sound a lot more natural. The company's new Aure model carries over tone, emotion, emphasis, and speaking pace from the original speaker's voice into the target language.\nThe article DeepL wants real-time translation to finally capture sarcasm and mood shifts appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "DeepL announced the Aure model for its DeepL Voice service, which adds tone, emotion, emphasis, and speaking pace to real‑time translations, aiming to capture sarcasm and mood shifts.",
+"why": "Improves the naturalness of multilingual voice interfaces, useful for developers integrating real‑time translation APIs.",
+"category": "other",
+"importance": 2,
+"tags": [
+"deepl",
+"real‑time‑translation",
+"voice"
+]
+}
+},
+{
+"id": "eddcf2fd1ab4",
+"key": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+"title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
+"published": "2026-11-11T13:51:11Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "US data brokers like Mercor, Surge AI, and AfterQuery are selling roughly half a billion dollars' worth of AI training data to Chinese labs, according to a ChinaTalk investigation. That includes the same RL environments previously built for OpenAI or Anthropic. At least nine firms are involved, and export controls barely apply.\nThe article US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Investigative reporting found U.S. data brokers such as Mercor, Surge AI, and AfterQuery selling roughly $500 million worth of reinforcement‑learning environments, originally built for OpenAI and Anthropic, to Chinese AI labs, with minimal export‑control oversight.",
+"why": "Highlights a supply‑chain risk and potential regulatory gap for AI training data exports.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"data‑brokers",
+"rl‑environments",
+"export‑controls"
+]
+}
+},
+{
+"id": "3d4d7d7ffffb",
+"key": "https://theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+"title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+"published": "2026-11-11T14:00:00Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. […]",
+"meta": {},
+"ai": {
+"summary": "Adobe announced experimental tools at its MAX conference that can convert photos into navigable 3‑D scenes, create AI‑driven characters you can converse with, and enable copy‑paste style photo editing.",
+"why": "These capabilities could become new APIs for developers building immersive media or interactive AI characters.",
+"category": "other",
+"importance": 2,
+"tags": [
+"adobe",
+"3d",
+"ai‑characters"
+]
+}
+},
+{
+"id": "cd6a5c66d298",
+"key": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+"title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+"published": "2026-11-11T14:00:00Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+"meta": {},
+"ai": {
+"summary": "Plurai is building a framework that applies self‑driving car safety pipelines—probabilistic modeling and rigorous testing—to improve reliability of AI agents operating in unpredictable environments.",
+"why": "Provides a roadmap for developers to adopt safety‑critical engineering practices for agent deployment.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"plurai",
+"agent‑safety",
+"self‑driving"
+]
+}
+},
+{
+"id": "f824fa41c3e0",
+"key": "https://spectrum.ieee.org/human-centered-ai-product-design",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/human-centered-ai-product-design",
+"title": "When Does It Actually Make Sense to Put AI Into Products?",
+"published": "2026-11-11T14:00:02Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "Over the past few years, the tech industry has rushed to plug a new microchip into every device on the assumption that if you can add AI, you should. Smart-vision toothbrushes , mood-reading household robots , and a host of physical products are invading consumers’ daily lives, reliant on artificial intelligence to learn, predict, and adjust our behavior.\nBut as anyone who’s struggled to update the firmware in their fridge knows, AI doesn’t improve every product. Some product designers are asking where the line is between genuine innovation and a solution looking for a problem.\nSavannah Kunovsky leads a team of industrial product designers at Ideo , a design consultancy based in San…",
+"meta": {},
+"ai": {
+"summary": "IEEE Spectrum discusses when embedding AI into consumer products is justified, noting that many devices fail to benefit from AI due to firmware update challenges and misaligned use cases.",
+"why": "It cautions developers to evaluate the real value of AI integration before adding complexity to products.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"ai",
+"productdesign",
+"consumer"
+]
+}
+},
+{
+"id": "f99beba763f8",
+"key": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+"title": "Google DeepMind just mathematically verified key parts of Signal",
+"published": "2026-11-11T14:08:57Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "The four-week project hints that AI could make formal verification far more practical.",
+"meta": {},
+"ai": {
+"summary": "DeepMind completed a four‑week project that mathematically verified key components of the Signal messaging protocol using AI‑driven formal verification techniques.",
+"why": "Demonstrates that AI can make formal verification more practical, potentially improving software security pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"deepmind",
+"formal‑verification",
+"signal"
+]
+}
+},
+{
+"id": "86616f305dee",
+"key": "https://blog.atuin.sh/threads-agent-sessions",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://blog.atuin.sh/threads-agent-sessions/",
+"title": "Atuin Threads: All your agent sessions on every machine",
+"published": "2026-11-11T14:10:46Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "",
+"meta": {
+"points": 233,
+"comments": 83,
+"hn_url": "https://news.ycombinator.com/item?id=50453637"
+},
+"ai": {
+"summary": "Atuin Threads, an open‑source tool, synchronizes agent session histories across multiple machines.",
+"why": "Simplifies managing long‑running agent workflows for developers working on distributed setups.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"atuin",
+"agent sessions",
+"sync"
+]
+}
+},
+{
+"id": "56a3597bc1b6",
+"key": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+"source": "last_week_in_ai",
+"source_name": "Last Week in AI",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+"title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+"published": "2026-11-11T14:21:42Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon",
+"meta": {},
+"ai": {
+"summary": "The newsletter notes that Nvidia CEO Jensen Huang is under investigation, Anthropic and OpenAI filed IPOs valuing them at $1.4 trillion and $1.25 trillion respectively, Anthropic warned about approaching recursive self‑improvement, and Gemini 4 introduced a carbon‑aware model.",
+"why": "These events signal major market and regulatory shifts affecting AI funding and deployment strategies.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"anthropic",
+"openai",
+"gemini-4"
+]
+}
+},
+{
+"id": "8a2b6e0d5fb1",
+"key": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+"title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+"published": "2026-11-11T14:25:20Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "Anthropic claims it used AI itself to breach Nvidia's CUDA moat. The company's in-house model Mythos reportedly ported Claude to AMD GPUs in just three days, with almost no human intervention. Anthropic now runs Claude on four chip families and aims to cut costs and reduce vendor dependencies.\nThe article Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic's internal Mythos system automatically ported the Claude model to AMD GPUs in three days, enabling Claude to run on four chip families and reducing dependence on Nvidia's CUDA stack.",
+"why": "Shows AI‑driven hardware portability that can cut development time and lower compute costs.",
+"category": "research",
+"importance": 4,
+"tags": [
+"anthropic",
+"mythos",
+"amd",
+"cuda"
+]
+}
+},
+{
+"id": "642cad11f1c7",
+"key": "https://theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+"title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+"published": "2026-11-11T15:00:00Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way to new treatments. AlphaGenome 2 is the successor […]",
+"meta": {},
+"ai": {
+"summary": "DeepMind released AlphaGenome 2, an AI model that predicts how genetic variants alter cellular behavior, offering finer‑grained insight into disease mechanisms.",
+"why": "Provides a powerful tool for biotech developers and researchers working on precision medicine.",
+"category": "research",
+"importance": 4,
+"tags": [
+"deepmind",
+"alphagenome2",
+"genomics"
+]
+}
+},
+{
+"id": "b403af95cba5",
+"key": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+"title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+"published": "2026-11-11T15:00:00Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+"meta": {},
+"ai": {
+"summary": "Databricks updated its Genie AI agent to collect internal feedback and deliver unfiltered reports of issues directly to CEO Ali Ghodsi.",
+"why": "Demonstrates an internal AI‑driven governance loop for large engineering organizations.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"databricks",
+"genie",
+"agent"
+]
+}
+},
+{
+"id": "f7fd7c95cb09",
+"key": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+"source": "deepmind_blog",
+"source_name": "Google DeepMind",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+"title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+"published": "2026-11-11T15:00:15Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+"meta": {},
+"ai": {
+"summary": "DeepMind released AlphaGenome 2, a model that predicts how DNA sequences and their variants affect specific human cell types and disease risk.",
+"why": "Helps developers in biotech and bioinformatics build tools for variant impact analysis.",
+"category": "research",
+"importance": 4,
+"tags": [
+"deepmind",
+"alpha genome",
+"genomics"
+]
+}
+},
+{
+"id": "b87de0fea1c3",
+"key": "https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/",
+"title": "Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming",
+"published": "2026-11-11T15:10:23Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "AWS Marketplace now supports usage-based metering for Amazon SageMaker bidirectional streaming inference, so model providers can charge for what customers actually consume during a live stream. Deepgram is the launch partner, bringing usage-based speech-to-text and text-to-speech billing to AWS Marketplace.",
+"meta": {},
+"ai": {
+"summary": "AWS Marketplace now supports usage‑based metering for Amazon SageMaker bidirectional streaming inference, with Deepgram as the launch partner enabling billing for live speech‑to‑text and text‑to‑speech services.",
+"why": "Model providers can monetize streaming inference based on actual usage, improving revenue alignment for developers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"aws",
+"sagemaker",
+"usagebased"
+]
+}
+},
+{
+"id": "d4746da3827d",
+"key": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+"title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
+"published": "2026-11-11T15:12:53Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "Helsing has unveiled Clarity, an AI platform that uses agents to distill sensor data into target recommendations for weapons systems, all under human oversight and European control. But experience from the Iran war, Gaza, and a near-miss involving China shows that the speed of automation and data fusion create risks that are hard to contain.\nThe article Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Helsing introduced Clarity, an AI platform that uses agents to fuse sensor data into target recommendations for weapons systems, with each decision tagged to a human name under European oversight.",
+"why": "Shows how AI is being integrated into lethal decision pipelines, raising governance and safety concerns.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"helsing",
+"clarity",
+"defense"
+]
+}
+},
+{
+"id": "ccee93d81e73",
+"key": "https://wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
+"title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
+"published": "2026-11-11T15:30:00Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "China’s use of sexpionage is a well-established intelligence tactic with recent, high-profile examples. So how did the world’s most powerful AI executive fall for it?",
+"meta": {},
+"ai": {
+"summary": "A Wired article reports that Nvidia CEO Jensen Huang was deceived by a Chinese honeypot operation, illustrating the vulnerability of high‑profile executives to cyber‑espionage.",
+"why": "It underscores the need for robust security practices even at the highest corporate levels.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"nvidia",
+"cybersecurity",
+"espionage"
+]
+}
+},
+{
+"id": "cce33efe4805",
+"key": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/",
+"title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
+"published": "2026-11-11T15:50:55Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework's traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can compare agent versions and catch regressions.",
+"meta": {},
+"ai": {
+"summary": "The Universal Agent Evaluation Framework (UAEF) standardizes agent traces into a canonical format, scores them with 36 metrics across 7 dimensions, and stores results for cross‑framework comparison.",
+"why": "Teams can use UAEF to detect regressions and compare agent versions regardless of underlying framework.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"uaef",
+"evaluation",
+"agents"
+]
+}
+},
+{
+"id": "ac1280c5c015",
+"key": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+"title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+"published": "2026-11-11T16:00:00Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+"meta": {},
+"ai": {
+"summary": "Google Labs launched Tabletop, a collaborative web app for building interactive itineraries, polls, and brackets, currently invite‑only.",
+"why": "Provides a platform developers can extend for real‑time group planning features.",
+"category": "other",
+"importance": 2,
+"tags": [
+"google",
+"tabletop",
+"collaboration"
+]
+}
+},
+{
+"id": "c28cf5e9bc65",
+"key": "https://theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+"title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+"published": "2026-11-11T16:00:00Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing […]",
+"meta": {},
+"ai": {
+"summary": "Google unveiled Tabletop, an experimental AI tool that generates custom collaborative workspaces—similar to Asana or Monday—based on natural‑language descriptions of desired features.",
+"why": "Developers can prototype and deploy tailored collaboration apps without building UI components from scratch.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"tabletop",
+"ai-tools"
+]
+}
+},
+{
+"id": "8f701e0cc7c5",
+"key": "https://github.com/klad-app/klad",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/klad-app/klad",
+"title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+"published": "2026-11-11T16:00:50Z",
+"fetched": "2026-11-12T18:17:10Z",
+"excerpt": "",
+"meta": {
+"points": 83,
+"comments": 32,
+"hn_url": "https://news.ycombinator.com/item?id=50454951"
+},
+"ai": {
+"summary": "Show HN post introduces Klad, a paint application that can be driven by a coding agent, with source‑available code.",
+"why": "Developers can experiment with agent‑driven UI interactions and explore new ways to integrate coding agents into creative tools.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"klad",
+"paint",
+"agent",
+"hns"
+]
+}
+},
+{
+"id": "4ee946f56c67",
+"key": "https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/",
+"title": "Accelerating product development with AI-driven lifecycle management (AI-PDLC) in AWS Quick",
+"published": "2026-11-11T16:05:33Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "Learn how to build an AI-driven product development lifecycle (AI-PDLC) with a suite of six AWS Quick agents that take you from scattered customer signals to a validated prototype across Discover, Decide, Design, and Prototype, with human approval at every gate and a specification ready to hand to coding agents like Kiro.",
+"meta": {},
+"ai": {
+"summary": "AWS Quick introduces six AI‑driven agents that guide product teams through AI‑PDLC stages—Discover, Decide, Design, Prototype—providing human‑approved specifications for coding agents like Kiro.",
+"why": "Developers can accelerate AI product development by leveraging these agents to streamline design and prototyping.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"aws",
+"aipdlc",
+"quick",
+"agents"
+]
+}
+},
+{
+"id": "3ca52b9ed52c",
+"key": "https://wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
+"title": "The AO3 Shutdown Is Pitting Fanfic Readers Against Authors",
+"published": "2026-11-11T16:13:03Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "“It has left a sour taste in my mouth,” says a Heated Rivalry fanfic author who found her work uploaded to AO3 mirror sites without her consent.",
+"meta": {},
+"ai": {
+"summary": "AO3, the fanfiction archive, shut down, causing conflict between readers and authors who had their works mirrored on unauthorized sites.",
+"why": "It highlights the impact of platform policy changes on user communities and intellectual property concerns.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"ao3",
+"fanfiction",
+"policy"
+]
+}
+},
+{
+"id": "45fe4232458d",
+"key": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+"title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+"published": "2026-11-11T16:14:44Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+"meta": {},
+"ai": {
+"summary": "OpenAI reported quarterly revenue of $10 billion, a roughly 50% increase from the $6.7 billion recorded in the prior quarter.",
+"why": "Signals rapid monetization of OpenAI's products and growing market impact.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"openai",
+"revenue"
+]
+}
+},
+{
+"id": "8f99d692e96e",
+"key": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+"title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+"published": "2026-11-11T16:16:07Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.",
+"meta": {},
+"ai": {
+"summary": "Senior industry insiders say Nvidia CEO Jensen Huang's bad behavior is widely known and effectively condoned within the sector.",
+"why": "Highlights leadership and cultural issues that could affect partnerships and talent retention.",
+"category": "industry",
+"importance": 1,
+"tags": [
+"nvidia",
+"leadership"
+]
+}
+},
+{
+"id": "aae816c2cf34",
+"key": "https://cabird.com/talks/shipping-faster",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://cabird.com/talks/shipping-faster/",
+"title": "AI, activity, and outcomes in software engineering",
+"published": "2026-11-11T16:33:28Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "",
+"meta": {
+"points": 125,
+"comments": 112,
+"hn_url": "https://news.ycombinator.com/item?id=50455332"
+},
+"ai": {
+"summary": "A study correlates AI tool usage, developer activity patterns, and software project outcomes, showing measurable productivity gains in teams that adopt AI assistants.",
+"why": "Provides evidence for teams to justify integrating AI coding tools.",
+"category": "research",
+"importance": 3,
+"tags": [
+"software-engineering",
+"ai",
+"productivity"
+]
+}
+},
+{
+"id": "b7bc7f71f389",
+"key": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch/",
+"title": "Writing a SIGGRAPH paper from scratch",
+"published": "2026-11-11T16:34:08Z",
+"fetched": "2026-11-11T17:52:34Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "The post explains how to write a SIGGRAPH conference paper from scratch, covering the submission process, formatting, and review criteria.",
+"why": "It offers a practical guide for developers interested in publishing research at a leading graphics venue.",
+"category": "research",
+"importance": 3,
+"tags": [
+"siggraph",
+"research",
+"publishing"
+]
+}
+},
+{
+"id": "215be50a795a",
+"key": "https://machinelearning.apple.com/research/faster-retrieval",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://machinelearning.apple.com/research/faster-retrieval",
+"title": "Faster Retrieval for Better, More Efficient RAG",
+"published": "2026-11-11T16:57:45Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "",
+"meta": {
+"points": 232,
+"comments": 38,
+"hn_url": "https://news.ycombinator.com/item?id=50455633"
+},
+"ai": {
+"summary": "A new technique improves the speed and relevance of vector retrieval for Retrieval‑Augmented Generation, reducing latency while maintaining answer quality.",
+"why": "Developers can build faster RAG pipelines with lower compute costs.",
+"category": "research",
+"importance": 3,
+"tags": [
+"rag",
+"retrieval",
+"llm"
+]
+}
+},
+{
+"id": "5985553c2d4a",
+"key": "https://wired.com/story/startup-fights-ai-bioweapons-with-ai",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+"title": "A Startup Wants to Fight AI Bioweapons With AI",
+"published": "2026-11-11T17:00:00Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "Radical Numerics has developed a model that it says can identify natural and AI-engineered pathogens without an internet connection.",
+"meta": {},
+"ai": {
+"summary": "Startup Radical Numerics has developed an AI model capable of identifying both natural and AI-engineered pathogens without requiring an internet connection. The tool is designed to help detect and mitigate the threat of AI bioweapons.",
+"why": "Introduces a new category of AI safety tooling for biosecurity, potentially useful for organizations concerned about synthetic biology threats.",
+"category": "models",
+"importance": 3,
+"tags": [
+"biosecurity",
+"ai-safety",
+"pathogens",
+"radical-numerics"
+]
+}
+},
+{
+"id": "a171712abc2b",
+"key": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+"title": "Talk it through with Gemini, now on Apple CarPlay",
+"published": "2026-11-11T17:00:00Z",
+"fetched": "2026-11-11T17:52:32Z",
+"excerpt": "an MP4 video of Gemini in Apple CarPlay",
+"meta": {},
+"ai": {
+"summary": "Google Gemini is now available on Apple CarPlay, allowing users to converse with the model while driving.",
+"why": "Enables developers to integrate conversational AI into automotive infotainment systems.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"gemini",
+"carplay",
+"automotive"
+]
+}
+},
+{
+"id": "6ea266015665",
+"key": "https://amazon.science/blog/using-mathematics-to-validate-network-configurations",
+"source": "amazon_science",
+"source_name": "Amazon Science",
+"src_category": "research",
+"weight": 2,
+"kind": "article",
+"url": "https://www.amazon.science/blog/using-mathematics-to-validate-network-configurations",
+"title": "Using mathematics to validate network configurations",
+"published": "2026-11-11T17:02:01Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "Static analysis of deployed networks helps reduce the risk that sensitive data leaks across partitions, supporting the security and reliability of global-scale networking.",
+"meta": {},
+"ai": {
+"summary": "Amazon Science describes using mathematics to perform static analysis of deployed network configurations. This approach helps reduce the risk of sensitive data leaking across network partitions, supporting security and reliability in global-scale networking.",
+"why": "Relevant for infrastructure engineers seeking mathematical methods to verify network security configurations at scale.",
+"category": "research",
+"importance": 2,
+"tags": [
+"networking",
+"security",
+"amazon",
+"static-analysis"
+]
+}
+},
+{
+"id": "839568ac2d73",
+"key": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+"title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+"published": "2026-11-11T17:37:32Z",
+"fetched": "2026-11-11T17:52:33Z",
+"excerpt": "Any amount of AI coding is too much for many Independent Games Festival judges.",
+"meta": {},
+"ai": {
+"summary": "Ars Technica reported that the indie game studio Big Walk used AI to automatically fix a critical bug, sparking debate among Indie Game Festival judges about AI‑generated code.",
+"why": "Highlights ethical and quality concerns for developers using AI in game development pipelines.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"big walk",
+"ai coding",
+"indie games"
+]
+}
+},
+{
+"id": "eac173e49f14",
+"key": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+"title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+"published": "2026-11-11T18:00:00Z",
+"fetched": "2026-11-12T00:39:15Z",
+"excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+"meta": {},
+"ai": {
+"summary": "Google AI released details on the Gemini Decisions API, highlighting its state‑of‑the‑art model Gemini Decision for calibrated multimodal decisions.",
+"why": "Provides developers with technical specs to evaluate the API for their decision‑heavy workloads.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"google",
+"gemini",
+"decision-api"
+]
+}
+},
+{
+"id": "7a296611e4a9",
+"key": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+"title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+"published": "2026-11-11T18:16:40Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+"meta": {},
+"ai": {
+"summary": "TSMC is investing $1 billion in both Anthropic and OpenAI, a move described as an example of circular financing in the AI sector.",
+"why": "Highlights the deepening financial entanglement between major chip suppliers and AI labs, which may influence future compute availability and pricing dynamics.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"tsmc",
+"anthropic",
+"openai",
+"funding"
+]
+}
+},
+{
+"id": "91d42c6f23fb",
+"key": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
+"title": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
+"published": "2026-11-11T18:18:25Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "Google Deepmind's AlphaProof Code mathematically verified Signal's cryptographic core code in four weeks, a process that typically takes years. AI agents powered by Gemini Carbon wrote more than six million lines of proof code and flagged only about one percent for human review. Deepmind plans to extend the method to critical infrastructure like power grids and medical devices.\nThe article Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind used AlphaProof Code, powered by Gemini Carbon, to mathematically verify Signal's cryptographic core in four weeks, generating over six million lines of proof code with only 1% requiring human review.",
+"why": "Demonstrates a practical application of AI for formal verification of critical security infrastructure, potentially reducing the time and cost of auditing complex codebases.",
+"category": "research",
+"importance": 4,
+"tags": [
+"deepmind",
+"formal-verification",
+"signal",
+"gemini"
+]
+}
+},
+{
+"id": "5b33c7475532",
+"key": "https://allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+"title": "AWS Emulator and the engineer's job when agents write the code",
+"published": "2026-11-11T18:28:31Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "",
+"meta": {
+"points": 111,
+"comments": 2,
+"hn_url": "https://news.ycombinator.com/item?id=50456740"
+},
+"ai": {
+"summary": "AWS released an emulator that lets developers run AI‑generated code locally and evaluate how agent‑written code behaves before deployment.",
+"why": "It enables safer testing of code written by AI agents and reduces reliance on cloud resources.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"agents",
+"coding"
+]
+}
+},
+{
+"id": "cc1e220b0d5c",
+"key": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+"title": "Gemini Decisions API",
+"published": "2026-11-11T18:32:42Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "",
+"meta": {
+"points": 553,
+"comments": 157,
+"hn_url": "https://news.ycombinator.com/item?id=50456791"
+},
+"ai": {
+"summary": "Google announced the Gemini Decisions API, a new service for fast, calibrated multimodal decision making.",
+"why": "Developers can integrate a ready‑made decision‑making model into apps without building their own pipelines.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"google",
+"gemini",
+"api"
+]
+}
+},
+{
+"id": "a17317b72e11",
+"key": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+"title": "Retirement Savings Are Fueling the AI Bubble",
+"published": "2026-11-11T19:06:43Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "",
+"meta": {
+"points": 165,
+"comments": 195,
+"hn_url": "https://news.ycombinator.com/item?id=50457164"
+},
+"ai": {
+"summary": "An article argues that the influx of retirement‑savings money is inflating the AI investment bubble.",
+"why": "Offers context on funding trends that may affect startup valuations and hiring in the AI sector.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"funding",
+"bubble",
+"retirement"
+]
+}
+},
+{
+"id": "b10736965324",
+"key": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
+"title": "Accelerating generative AI delivery with reusable assets",
+"published": "2026-11-11T19:19:21Z",
+"fetched": "2026-11-12T00:39:16Z",
+"excerpt": "Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable assets from the AWS Generative AI Innovation Center, with real delivery results from DoorDash, Lyft, and Ricoh.",
+"meta": {},
+"ai": {
+"summary": "AWS released a catalog of 23 production‑ready, open‑source generative AI assets—including RAG pipelines, document processors, and agent scaffolding—used by DoorDash, Lyft, and Ricoh.",
+"why": "Developers can accelerate AI projects by reusing proven components instead of building from scratch.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"aws",
+"generativeai",
+"reusableassets",
+"open-source"
+]
+}
+},
+{
+"id": "91584081d1bd",
+"key": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+"title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+"published": "2026-11-11T19:22:22Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+"meta": {},
+"ai": {
+"summary": "Nvidia CEO Jensen Huang has been summoned by the U.S. House Republicans for a closed‑door briefing regarding alleged ties to a Chinese spy.",
+"why": "Potential political scrutiny could impact Nvidia’s stock and supply chain decisions.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"nvidia",
+"jensen-huang",
+"congress",
+"security"
+]
+}
+},
+{
+"id": "18d7ea7ee4b7",
+"key": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+"title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+"published": "2026-11-11T19:34:55Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+"meta": {},
+"ai": {
+"summary": "British AI‑chip startup Fractile raised $720 million, becoming one of the most heavily funded companies in the purpose‑built AI chip space.",
+"why": "The influx of capital may accelerate new chip designs that could affect GPU pricing and availability.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"fractile",
+"ai-chips",
+"funding",
+"uk"
+]
+}
+},
+{
+"id": "98c33705a54d",
+"key": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+"title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
+"published": "2026-11-11T19:35:11Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "According to the Ramp AI Index, US corporate AI spending rose just 1.65 percent in October 2026. One percent of companies still drive 80 percent of revenue for OpenAI and Anthropic. Customer support is emerging as a new growth driver, but it may bring lower margins than the coding business that has fueled spending so far.\nThe article US corporate AI spending hits a new high in October, but growth slows to 1.65 percent appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The Ramp AI Index shows US corporate AI spending grew 1.65 % in October 2026, with 1 % of firms generating 80 % of revenue for OpenAI and Anthropic; customer‑support AI is emerging as a growth area but with lower margins than coding AI.",
+"why": "Developers can target the growing customer‑support AI market while watching margin pressures.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ai-spending",
+"us",
+"customer-support",
+"openai"
+]
+}
+},
+{
+"id": "5a18e0a98c1c",
+"key": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+"title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+"published": "2026-11-11T19:54:00Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+"meta": {},
+"ai": {
+"summary": "CoreWeave is shifting to require upfront customer payments, borrowing against contracts, and offering shorter‑term deals, potentially raising prices, as disclosed in its Q3 earnings.",
+"why": "Customers may need to budget differently or explore alternative GPU providers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"coreweave",
+"pricing",
+"gpu-cloud"
+]
+}
+},
+{
+"id": "6d9ecbed7011",
+"key": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching",
+"source": "google_research",
+"source_name": "Google Research",
+"src_category": "research",
+"weight": 4,
+"kind": "article",
+"url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+"title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+"published": "2026-11-11T19:54:00Z",
+"fetched": "2026-11-12T00:39:15Z",
+"excerpt": "Health & Bioscience",
+"meta": {},
+"ai": {
+"summary": "Google Research presented a method using wearable sensor data to profile cardiovascular, kidney, and metabolic risk for personalized health coaching.",
+"why": "Shows a new AI‑driven health monitoring approach that could be integrated into wellness apps.",
+"category": "research",
+"importance": 3,
+"tags": [
+"google",
+"wearables",
+"health"
+]
+}
+},
+{
+"id": "b2ba564a7f10",
+"key": "https://wired.com/story/i-trained-a-microduck-to-be-my-cats-butler",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+"title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+"published": "2026-11-11T19:55:54Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.",
+"meta": {},
+"ai": {
+"summary": "An OpenAI model was used to train a Microduck robot to waddle and act as a tiny cat butler, demonstrating advanced robotic control via AI.",
+"why": "Shows practical application of generative AI in teaching complex motor behaviors to robots, relevant for robotics developers.",
+"category": "research",
+"importance": 2,
+"tags": [
+"openai",
+"robotics",
+"microduck",
+"control"
+]
+}
+},
+{
+"id": "f01f848bd36e",
+"key": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+"title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+"published": "2026-11-11T20:02:14Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+"meta": {},
+"ai": {
+"summary": "The article repeats that many AI data‑center projects face local opposition, permitting delays, and power constraints, making a large share unlikely to be built.",
+"why": "Reinforces the supply‑side risk for AI compute capacity.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"data-centers",
+"ai-infrastructure",
+"regulation"
+]
+}
+},
+{
+"id": "4832960fb423",
+"key": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+"title": "Meta is losing its longtime head of infrastructure",
+"published": "2026-11-11T20:12:01Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+"meta": {},
+"ai": {
+"summary": "Santosh Janardhan, Meta’s head of infrastructure since 2009, is stepping down from his role.",
+"why": "His departure may signal shifts in Meta’s data‑center strategy that could affect cloud‑service partners.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"meta",
+"infrastructure",
+"leadership"
+]
+}
+},
+{
+"id": "25a235d8289e",
+"key": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+"title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+"published": "2026-11-11T20:12:46Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "Google Deepmind's new Gemini Decisions API evaluates up to 1,000 closed-ended questions in a single pass across text, images, audio, and video. Gemini Decision 1 returns results in 150 to 250 milliseconds at roughly five times lower cost than Gemini 3.5 Flash-Lite, according to Google.\nThe article Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind released Gemini Decision 1, an API that evaluates up to 1,000 closed‑ended questions across text, image, audio, and video in 150‑250 ms, costing about five times less than Gemini 3.5 Flash‑Lite.",
+"why": "The low‑latency, cheap batch scoring can power large‑scale evaluation pipelines or rapid decision‑making apps.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-decision",
+"multimodal",
+"api"
+]
+}
+},
+{
+"id": "ebd762c7fdac",
+"key": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+"title": "Why the data center you dread might never even be built",
+"published": "2026-11-11T20:15:15Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+"meta": {},
+"ai": {
+"summary": "Many announced AI data center projects are unlikely to be built due to permitting delays, local opposition, and electricity shortages.",
+"why": "Developers should anticipate tighter supply of AI compute and consider cloud alternatives.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"data-centers",
+"ai-infrastructure",
+"regulation"
+]
+}
+},
+{
+"id": "c22c085f9f35",
+"key": "https://github.com/huawei-csl/MACaQ",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/huawei-csl/MACaQ",
+"title": "Huawei releases MACaQ, its internal quantizer for local inference",
+"published": "2026-11-11T20:23:57Z",
+"fetched": "2026-11-12T09:47:43Z",
+"excerpt": "",
+"meta": {
+"points": 134,
+"comments": 32,
+"hn_url": "https://news.ycombinator.com/item?id=50458166"
+},
+"ai": {
+"summary": "Huawei released MACaQ, an internal quantizer designed to compress models for efficient local inference on Huawei hardware.",
+"why": "Developers targeting Huawei devices can use MACaQ to reduce model size and latency for on‑device AI.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"huawei",
+"macaq",
+"quantization",
+"edge"
+]
+}
+},
+{
+"id": "e293a7e62176",
+"key": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/",
+"title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
+"published": "2026-11-11T20:45:45Z",
+"fetched": "2026-11-12T00:39:16Z",
+"excerpt": "DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.",
+"meta": {},
+"ai": {
+"summary": "DXC Technology built DCX OASIS, a Human+AI operating model, on a governed multi‑model substrate in Amazon Bedrock, separating a resilient model layer from a trusted harness that orchestrates, governs, and audits AI agents at scale.",
+"why": "Organizations can deploy regulated, scalable AI services with clear governance and auditability using Bedrock.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"dxc",
+"bedrock",
+"aiops",
+"governance"
+]
+}
+},
+{
+"id": "87664c43b201",
+"key": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+"title": "Automating AWS Agent Registry updates with push-based architecture",
+"published": "2026-11-11T20:52:48Z",
+"fetched": "2026-11-12T00:39:16Z",
+"excerpt": "This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account environments.",
+"meta": {},
+"ai": {
+"summary": "AWS demonstrated an event‑driven pipeline using CloudTrail, EventBridge, Lambda, and AgentCore Identity to automatically push updated tool metadata to the Agent Registry without storing secrets, supporting single‑ and multi‑account setups.",
+"why": "Teams can keep their agent registries current and secure without manual intervention, simplifying agent management.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"agentregistry",
+"eventdriven",
+"lambda"
+]
+}
+},
+{
+"id": "5079a30d49f1",
+"key": "https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track/",
+"title": "The attendee’s guide to the AWS re:Invent 2026 AI/ML track",
+"published": "2026-11-11T21:05:59Z",
+"fetched": "2026-11-12T00:39:16Z",
+"excerpt": "AWS re:Invent 2026 includes more than 140 AI/ML track sessions. This attendee's guide helps you find the breakouts, chalk talks, workshops, and builders' sessions that fit your role and goals, spanning AI chips, models and inference, agents, agent trust, and sustainability, so you can build a smarter re:Invent schedule.",
+"meta": {},
+"ai": {
+"summary": "AWS re:Invent 2026 will feature over 140 AI/ML track sessions covering AI chips, models, inference, agents, agent trust, and sustainability, with an attendee guide to help schedule relevant talks.",
+"why": "Developers can plan their conference attendance to focus on topics that match their roles and project needs.",
+"category": "events",
+"importance": 2,
+"tags": [
+"aws",
+"reinvent",
+"ai",
+"ml"
+]
+}
+},
+{
+"id": "53f14d32ff20",
+"key": "https://cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+"title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+"published": "2026-11-11T21:24:35Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "",
+"meta": {
+"points": 669,
+"comments": 694,
+"hn_url": "https://news.ycombinator.com/item?id=50458900"
+},
+"ai": {
+"summary": "United Airlines announced it will block AI agents from making flight bookings on behalf of customers.",
+"why": "Developers building travel‑related AI tools must adjust to this new restriction.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"united",
+"ai-agents",
+"travel"
+]
+}
+},
+{
+"id": "56b69a2f8bd3",
+"key": "https://theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+"title": "United won’t let your AI agent book your flight",
+"published": "2026-11-11T21:54:21Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned […]",
+"meta": {},
+"ai": {
+"summary": "United Airlines announced it will block personal AI assistants from booking flights, citing privacy and regulatory concerns.",
+"why": "Sets a precedent for airline policies on AI agent interactions and may influence broader industry standards.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"united",
+"ai-agents",
+"travel"
+]
+}
+},
+{
+"id": "63047e3800bd",
+"key": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
+"title": "ICYMI: What landed for AI builders in October 2026",
+"published": "2026-11-11T22:26:40Z",
+"fetched": "2026-11-12T00:39:16Z",
+"excerpt": "A recap of the major Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from October 2026: new models to match each task, updates that keep agents available and grounded, and clearer cost reporting for AI builders.",
+"meta": {},
+"ai": {
+"summary": "Amazon announced October 2026 updates to Bedrock, Bedrock AgentCore, and Strands, introducing new task‑specific models, agent availability improvements, and clearer cost reporting for builders.",
+"why": "AI builders can select more suitable models and better track usage costs, aiding budgeting and deployment decisions.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"aws",
+"bedrock",
+"agentcore",
+"costreporting"
+]
+}
+},
+{
+"id": "0aabae8f3279",
+"key": "https://wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+"title": "Nvidia is preparing to oust Jensen Huang",
+"published": "2026-11-11T22:31:06Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "",
+"meta": {
+"points": 1215,
+"comments": 1640,
+"hn_url": "https://news.ycombinator.com/item?id=50459703"
+},
+"ai": {
+"summary": "Reports claim Nvidia's board is planning to remove CEO Jensen Huang from his position.",
+"why": "If true, it could signal major leadership and strategic shifts at a key AI hardware company.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"leadership"
+]
+}
+},
+{
+"id": "80ba3666614f",
+"key": "https://twitter.com/watcherguru/status/2120645607866188008",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://twitter.com/watcherguru/status/2120645607866188008",
+"title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
+"published": "2026-11-11T22:36:35Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "",
+"meta": {
+"points": 225,
+"comments": 4,
+"hn_url": "https://news.ycombinator.com/item?id=50459776"
+},
+"ai": {
+"summary": "The Wall Street Journal reported that Nvidia may be preparing to fire CEO Jensen Huang.",
+"why": "Reinforces the potential leadership upheaval at a dominant AI chipmaker, affecting the ecosystem.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"wsj"
+]
+}
+},
+{
+"id": "6096f32e523f",
+"key": "https://theverge.com/tech/1031652/jensen-huang-rumor",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+"title": "Nvidia is reportedly preparing to fire Jensen Huang",
+"published": "2026-11-11T22:44:36Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who […]",
+"meta": {},
+"ai": {
+"summary": "The New York Times and Wall Street Journal report that Nvidia’s board is moving to dismiss Jensen Huang following multiple affair allegations.",
+"why": "Potential CEO ouster could reshape Nvidia’s direction in AI chip development.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensen-huang",
+"board"
+]
+}
+},
+{
+"id": "891c07c42868",
+"key": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+"source": "gh_codex",
+"source_name": "OpenAI Codex CLI releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+"title": "codex 0.167.2",
+"published": "2026-11-11T22:46:17Z",
+"fetched": "2026-11-12T00:39:19Z",
+"excerpt": "New Features\nCodex now sends tool updates incrementally by default on Google Cloud Vertex AI. To opt out, set incremental_tools_legacy_gcp = false under [features] in config.toml . ( #60617 , #60848 )\nChangelog\nFull Changelog: rust-v0.167.1...rust-v0.167.2",
+"meta": {},
+"ai": {
+"summary": "OpenAI released Codex CLI version 0.167.2, adding incremental tool updates on Google Cloud Vertex AI by default; the feature can be disabled via incremental_tools_legacy_gcp=false in config.toml.",
+"why": "Developers using Codex on Vertex AI can now receive tool updates more efficiently, improving workflow stability.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openai",
+"codex",
+"vertexai",
+"cli"
+]
+}
+},
+{
+"id": "e057f170dbfd",
+"key": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+"title": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+"published": "2026-11-11T23:13:16Z",
+"fetched": "2026-11-12T00:39:16Z",
+"excerpt": "Today we're announcing the Web Search API on Amazon Bedrock AgentCore: your own code can search the web with a single signed API call, with no gateway and no resources to create. Call it from the AWS SDKs or the AWS CLI and use it in applications, agent loops, and data pipelines.",
+"meta": {},
+"ai": {
+"summary": "Amazon Bedrock AgentCore launched a Web Search API that allows developers to perform web searches via a single signed API call from AWS SDKs or CLI, without requiring a separate gateway or resource creation.",
+"why": "Simplifies the integration of real-time web data into agent loops and applications for developers already using the AWS ecosystem.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"bedrock",
+"web-search",
+"api"
+]
+}
+},
+{
+"id": "d8a75304d977",
+"key": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+"title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+"published": "2026-11-11T23:17:05Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+"meta": {},
+"ai": {
+"summary": "Additional allegations claim Jensen Huang had a separate affair with a Nvidia executive, intensifying scrutiny of his conduct.",
+"why": "Further erodes confidence in Nvidia’s top management during a critical AI hardware era.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensen-huang",
+"scandal"
+]
+}
+},
+{
+"id": "62686f1e9103",
+"key": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+"title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+"published": "2026-11-11T23:28:45Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+"meta": {},
+"ai": {
+"summary": "Nvidia’s board is reportedly preparing to vote on removing founder‑CEO Jensen Huang after recent scandal revelations.",
+"why": "A leadership change could affect Nvidia’s AI strategy and market stability.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensen-huang",
+"leadership"
+]
+}
+},
+{
+"id": "c233ce1962f1",
+"key": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/",
+"title": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+"published": "2026-11-11T23:30:03Z",
+"fetched": "2026-11-12T00:39:16Z",
+"excerpt": "Silent data corruption is a GPU fault that returns wrong but plausible numbers with no error, quietly poisoning distributed training. This post adds three checks to a PyTorch DDP loop to detect it, localize the faulty node on Amazon SageMaker HyperPod, and hand the node to automatic recovery for replacement.",
+"meta": {},
+"ai": {
+"summary": "AWS outlines a technique to detect and recover from silent data corruption in GPU clusters on SageMaker HyperPod by adding three specific checks to PyTorch DDP loops to localize faulty nodes.",
+"why": "Provides a concrete implementation pattern for developers running large-scale distributed training to prevent silent failures from poisoning model weights.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"sagemaker",
+"gpu",
+"distributed-training"
+]
+}
+},
+{
+"id": "25cfe88bb12d",
+"key": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+"title": "Semantic diffing of formal policies with anti-unification",
+"published": "2026-11-11T23:33:03Z",
+"fetched": "2026-11-12T00:39:16Z",
+"excerpt": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+"meta": {},
+"ai": {
+"summary": "AWS describes a method using an open-source anti-unification engine to compute semantic diffs of formal authorization policies, filtering out cosmetic changes to highlight only behavior-altering differences.",
+"why": "Helps developers and security engineers more efficiently review policy changes by focusing on semantic impact rather than textual noise.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"aws",
+"security",
+"policy",
+"diffing"
+]
+}
+},
+{
+"id": "6479b56c0f49",
+"key": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+"title": "OpenAI Codex on Amazon Bedrock",
+"published": "2026-11-11T23:35:47Z",
+"fetched": "2026-11-12T00:39:16Z",
+"excerpt": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
+"meta": {},
+"ai": {
+"summary": "AWS published a guide for enterprises on deploying OpenAI Codex via Amazon Bedrock, detailing access, governance, and cost management strategies for platform and security teams.",
+"why": "Useful for developers and architects planning to integrate OpenAI's coding assistant into AWS environments, providing specific guidance on enterprise-grade deployment.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"openai-codex",
+"bedrock",
+"enterprise"
+]
+}
+},
+{
+"id": "116dc67ced22",
+"key": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+"title": "The unfolding Jensen Huang scandal: a timeline",
+"published": "2026-11-11T23:50:00Z",
+"fetched": "2026-11-12T00:39:18Z",
+"excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+"meta": {},
+"ai": {
+"summary": "Reports detail Jensen Huang’s alleged affair with a woman linked to Chinese intelligence, raising national‑security concerns amid the U.S.–China AI race.",
+"why": "Highlights potential geopolitical risks for AI leadership and corporate governance.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"jensen-huang",
+"security"
+]
+}
+}
+]

@@ -1,0 +1,95 @@
+[
+{
+"id": "39f30cab714b",
+"key": "https://api-docs.deepseek.com/updates#deepseek-v41-flash-release",
+"source": "deepseek_updates",
+"source_name": "DeepSeek",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://api-docs.deepseek.com/updates/#deepseek-v41-flash-release",
+"title": "DeepSeek-V4.1-Flash Release",
+"published": "2026-09-10T00:00:00Z",
+"fetched": "2026-10-01T19:40:45Z",
+"excerpt": "Today, we officially release the DeepSeek-V4.1-Flash model. It is the smallest model in our new architecture family, with native multimodal visual understanding. The new architecture is designed for a higher capability ceiling, faster inference, higher throughput, and scaling to larger models. GPQA Diamond: 90.9 HLE: 36.8 (39.1*) Codeforces (Rating): 3471 MathArena Apex: 65.6 Terminal-Bench 2.1: 90.6 Terminal-Bench 3.0: 30.0 Terminal-Bench 4.0: 31.2 DeepSWE v1.1: 74.2 ProgramBench: 20.3 NL2Repo-",
+"meta": {},
+"ai": {
+"summary": "DeepSeek launched DeepSeek‑V4.1‑Flash, the smallest model in its new architecture family, featuring native multimodal visual understanding and improved inference speed; it scored 90.9 on GPQA Diamond and 36.8 on HLE.",
+"why": "Developers can use the lightweight multimodal model for faster, higher‑throughput inference in edge or mobile scenarios.",
+"category": "models",
+"importance": 4,
+"tags": [
+"deepseek",
+"v4.1",
+"multimodal"
+]
+}
+},
+{
+"id": "78d56c6b5a2e",
+"key": "https://interconnects.ai/p/one-resignation-turned-the-embers",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+"title": "One resignation turned the embers of AI fear into a wildfire",
+"published": "2026-09-10T15:28:52Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "Some quick notes on a truly weird week.",
+"meta": {},
+"ai": {
+"summary": "Interconnects reports on a resignation that sparked widespread fear about AI, noting the unusual intensity of the week’s events.",
+"why": "Illustrates how personnel changes can amplify public concern over AI safety and policy.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"ai-fear",
+"resignation"
+]
+}
+},
+{
+"id": "b3cf6aa571b5",
+"key": "https://understandingai.org/p/openai-spent-millions-to-solve-this",
+"source": "understanding_ai",
+"source_name": "Understanding AI",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://www.understandingai.org/p/openai-spent-millions-to-solve-this",
+"title": "OpenAI spent millions to solve this famous math problem — mathematicians are furious",
+"published": "2026-09-10T22:40:39Z",
+"fetched": "2026-10-01T19:40:22Z",
+"excerpt": "Mathematics relies on a community of experts openly sharing ideas.",
+"meta": {},
+"ai": null
+},
+{
+"id": "42d82cbc7f3e",
+"key": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients",
+"source": "google_research",
+"source_name": "Google Research",
+"src_category": "research",
+"weight": 4,
+"kind": "article",
+"url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+"title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+"published": "2026-09-10T22:50:22Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "Machine Intelligence",
+"meta": {},
+"ai": {
+"summary": "Google Research introduces ToolGrad, a dataset generation method that uses textual gradients to efficiently create tool‑use data for training models.",
+"why": "Enables developers to build better tool‑using agents with less manual annotation.",
+"category": "research",
+"importance": 3,
+"tags": [
+"google",
+"toolgrad",
+"dataset"
+]
+}
+}
+]
