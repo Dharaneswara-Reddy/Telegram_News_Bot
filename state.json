@@ -1,0 +1,736 @@
+{
+ "sources": {
+  "openai_news": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.1,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 40
+  },
+  "anthropic_news": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.34,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "deepmind_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.09,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "google_ai_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.53,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 14
+  },
+  "google_research": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.62,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 7
+  },
+  "microsoft_research": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 3.81,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "nvidia_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.2,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 16
+  },
+  "apple_ml": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.1,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "huggingface_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.51,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 24
+  },
+  "aws_ml_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.78,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "bair_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.43,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "hf_daily_papers": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.75,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 30
+  },
+  "simon_willison": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.54,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "import_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.39,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "interconnects": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.54,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "latent_space": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.01,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "ahead_of_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.81,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "one_useful_thing": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.7,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "last_week_in_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.37,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "lilian_weng": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.22,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "the_decoder": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.69,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "verge_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.16,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "techcrunch_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.13,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "ars_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.57,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "mit_tech_review_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.38,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "hacker_news": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.58,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "hf_trending_models": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.18,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 11
+  },
+  "gh_vllm": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.77,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 3
+  },
+  "gh_ollama": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.66,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 3
+  },
+  "gh_transformers": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.94,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "gh_claude_code": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.0,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "gh_codex": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.38,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "gh_gemini_cli": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.32,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "anthropic_research": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.57,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 9
+  },
+  "claude_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.42,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 24
+  },
+  "gemini_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.44,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "meta_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.56,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "mistral_news": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.37,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "xai_news": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.63,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "deepseek_updates": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.53,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "qwen_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.52,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "zai_releases": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.28,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "cohere_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.74,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "microsoft_ai_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 4.4,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 3
+  },
+  "thinking_machines": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.27,
+   "last_ok": "2026-11-13T06:40:37Z",
+   "error": "HTTP 404",
+   "fails": 25,
+   "last_count": 0
+  },
+  "ai2_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.34,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 7
+  },
+  "sakana_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.49,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "amazon_science": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.67,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "artificial_analysis": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.39,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "uk_aisi": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.24,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "semianalysis": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 2.21,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "understanding_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.77,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "bens_bites": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.83,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "ai_snake_oil": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.9,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "karpathy": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.46,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "wired_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.23,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "ieee_spectrum_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.57,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 16
+  },
+  "lobsters_ai": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.46,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 16
+  },
+  "pytorch_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 1.25,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "ollama_blog": {
+   "last_checked": "2026-11-21T12:36:26Z",
+   "seconds": 0.52,
+   "last_ok": "2026-11-21T12:36:26Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  }
+ },
+ "trending_models": [
+  {
+   "id": "thinkingmachines/Inkling-2-Mini",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "likes": 1228,
+   "downloads": 7944,
+   "task": "image-text-to-text",
+   "created": "2026-11-17T00:26:57Z"
+  },
+  {
+   "id": "higurashi-ai/Haru-4B",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "likes": 811,
+   "downloads": 8120,
+   "task": "audio-to-audio",
+   "created": "2026-11-12T11:05:59Z"
+  },
+  {
+   "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+   "likes": 850,
+   "downloads": 2383,
+   "task": "image-text-to-text",
+   "created": "2026-11-16T06:52:31Z"
+  },
+  {
+   "id": "unsloth/Inkling-2-Mini-GGUF",
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+   "likes": 403,
+   "downloads": 238152,
+   "task": "image-text-to-text",
+   "created": "2026-11-20T13:09:48Z"
+  },
+  {
+   "id": "tencent/Hy4-flash",
+   "url": "https://huggingface.co/tencent/Hy4-flash",
+   "likes": 561,
+   "downloads": 5588,
+   "task": "image-text-to-text",
+   "created": "2026-11-17T03:44:46Z"
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "likes": 12856,
+   "downloads": 3000544,
+   "task": "image-to-video",
+   "created": "2026-07-23T07:55:24Z"
+  },
+  {
+   "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
+   "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+   "likes": 400,
+   "downloads": 3031,
+   "task": "",
+   "created": "2026-11-13T02:45:33Z"
+  },
+  {
+   "id": "n4ze3m/tiny-voca",
+   "url": "https://huggingface.co/n4ze3m/tiny-voca",
+   "likes": 393,
+   "downloads": 9323,
+   "task": "text-to-speech",
+   "created": "2026-11-14T15:46:27Z"
+  },
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "likes": 20759,
+   "downloads": 6298190,
+   "task": "image-text-to-text",
+   "created": "2026-08-05T08:22:59Z"
+  },
+  {
+   "id": "RadixArk/DaisyRose-27B",
+   "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
+   "likes": 290,
+   "downloads": 1375,
+   "task": "image-text-to-text",
+   "created": "2026-11-18T05:31:35Z"
+  },
+  {
+   "id": "sensenova/SenseNova-Loop-9B",
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+   "likes": 428,
+   "downloads": 1745,
+   "task": "image-text-to-text",
+   "created": "2026-11-17T10:16:41Z"
+  },
+  {
+   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+   "likes": 693,
+   "downloads": 195916,
+   "task": "text-generation",
+   "created": "2026-10-05T04:26:43Z"
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-H3-Image",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "likes": 1696,
+   "downloads": 916726,
+   "task": "text-to-image",
+   "created": "2026-11-03T06:34:36Z"
+  },
+  {
+   "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "likes": 777,
+   "downloads": 339903,
+   "task": "text-to-image",
+   "created": "2026-11-03T16:13:25Z"
+  },
+  {
+   "id": "maxwell-model/Maxwell-V1-Flash",
+   "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
+   "likes": 304,
+   "downloads": 2959,
+   "task": "text-generation",
+   "created": "2026-10-13T07:53:39Z"
+  },
+  {
+   "id": "unsloth/Qwen3.8-27B-GGUF",
+   "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+   "likes": 6221,
+   "downloads": 7532043,
+   "task": "",
+   "created": "2026-08-13T08:28:40Z"
+  },
+  {
+   "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "likes": 3451,
+   "downloads": 1787788,
+   "task": "image-text-to-text",
+   "created": "2026-09-01T07:01:09Z"
+  },
+  {
+   "id": "facebook/sam3",
+   "url": "https://huggingface.co/facebook/sam3",
+   "likes": 7167,
+   "downloads": 1850744,
+   "task": "mask-generation",
+   "created": "2025-11-07T05:17:48Z"
+  },
+  {
+   "id": "black-forest-labs/flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+   "likes": 3583,
+   "downloads": 964439,
+   "task": "image-to-image",
+   "created": "2026-10-14T12:00:13Z"
+  },
+  {
+   "id": "microsoft/Aion-1.0-Instruct-2.3B",
+   "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
+   "likes": 181,
+   "downloads": 3099,
+   "task": "text-generation",
+   "created": "2026-11-18T17:05:50Z"
+  },
+  {
+   "id": "thinkingmachines/Inkling-2-Small",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+   "likes": 674,
+   "downloads": 45356,
+   "task": "image-text-to-text",
+   "created": "2026-11-04T19:51:05Z"
+  },
+  {
+   "id": "Zyphra/ZONOS3-Mini",
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+   "likes": 624,
+   "downloads": 154251,
+   "task": "text-to-speech",
+   "created": "2026-11-09T05:03:57Z"
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "likes": 6053,
+   "downloads": 511124,
+   "task": "image-text-to-text",
+   "created": "2026-10-17T02:40:38Z"
+  },
+  {
+   "id": "AngelSlim/Hy4-flash-GGUF",
+   "url": "https://huggingface.co/AngelSlim/Hy4-flash-GGUF",
+   "likes": 120,
+   "downloads": 94791,
+   "task": "",
+   "created": "2026-11-16T14:28:43Z"
+  },
+  {
+   "id": "facebook/sam-3d-body-dinov3",
+   "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
+   "likes": 1736,
+   "downloads": 18111,
+   "task": "",
+   "created": "2025-11-17T18:44:24Z"
+  },
+  {
+   "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+   "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+   "likes": 2192,
+   "downloads": 2242769,
+   "task": "image-text-to-text",
+   "created": "2026-07-19T04:33:55Z"
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "likes": 2518,
+   "downloads": 4489052,
+   "task": "image-text-to-text",
+   "created": "2026-08-16T13:18:55Z"
+  },
+  {
+   "id": "Reson8/Rumble-2-Flash",
+   "url": "https://huggingface.co/Reson8/Rumble-2-Flash",
+   "likes": 264,
+   "downloads": 2354,
+   "task": "automatic-speech-recognition",
+   "created": "2026-10-14T19:47:55Z"
+  },
+  {
+   "id": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+   "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+   "likes": 323,
+   "downloads": 45186,
+   "task": "image-text-to-text",
+   "created": "2025-02-11T07:06:01Z"
+  },
+  {
+   "id": "internlm/Sage-S2.1-Flash",
+   "url": "https://huggingface.co/internlm/Sage-S2.1-Flash",
+   "likes": 261,
+   "downloads": 1201,
+   "task": "",
+   "created": "2026-11-15T02:34:59Z"
+  }
+ ],
+ "last_run": {
+  "at": "2026-11-21T12:36:32Z",
+  "new_items": 12,
+  "sources_ok": 59,
+  "sources_failed": [
+   "thinking_machines"
+  ],
+  "llm_calls": 4,
+  "seconds": 11.0
+ }
+}

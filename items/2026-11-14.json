@@ -1,0 +1,756 @@
+[
+{
+"id": "04af7826a700",
+"key": "https://claude.com/resources/articles/projects-redesigned",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://claude.com/resources/articles/projects-redesigned",
+"title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+"published": "2026-11-14T00:28:11Z",
+"fetched": "2026-11-14T13:36:20Z",
+"excerpt": "",
+"meta": {
+"points": 98,
+"comments": 91,
+"hn_url": "https://news.ycombinator.com/item?id=50492141"
+},
+"ai": {
+"summary": "Anthropic upgraded Claude Code Projects to support parallel AI workers, enabling multiple code‑generation agents to run concurrently on the same project.",
+"why": "Developers can speed up large codebases refactoring or multi‑module generation by leveraging parallelism.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude",
+"parallel",
+"coding"
+]
+}
+},
+{
+"id": "b145772e000b",
+"key": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+"title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+"published": "2026-11-14T02:21:36Z",
+"fetched": "2026-11-14T06:16:26Z",
+"excerpt": "",
+"meta": {
+"points": 216,
+"comments": 53,
+"hn_url": "https://news.ycombinator.com/item?id=50492993"
+},
+"ai": {
+"summary": "A Nvidia director sold nearly $1 billion in company stock weeks before a scandal involving CEO Jensen Huang emerged.",
+"why": "Signals possible insider‑trading concerns that may impact investor confidence and corporate governance.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"insider-trading",
+"stock"
+]
+}
+},
+{
+"id": "a84555cccc97",
+"key": "https://techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+"title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+"published": "2026-11-14T02:52:59Z",
+"fetched": "2026-11-14T06:16:26Z",
+"excerpt": "",
+"meta": {
+"points": 1062,
+"comments": 628,
+"hn_url": "https://news.ycombinator.com/item?id=50493251"
+},
+"ai": {
+"summary": "Reports claim Nvidia funded AI startups to create demand for its GPUs, intentionally limiting supply and driving scarcity.",
+"why": "Highlights potential supply‑chain manipulation that could affect hardware planning for AI projects.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"gpu",
+"market",
+"scarcity"
+]
+}
+},
+{
+"id": "13daa3f88248",
+"key": "https://alexwang.ai/posts/associative-memory",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://alexwang.ai/posts/associative-memory/",
+"title": "You could have invented transformers from memory",
+"published": "2026-11-14T04:49:47Z",
+"fetched": "2026-11-14T06:16:25Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A discussion post argues that the core ideas of transformers could be derived from memory of earlier sequence models, emphasizing conceptual continuity.",
+"why": "Encourages developers to revisit earlier architectures for insights when designing new transformer variants.",
+"category": "research",
+"importance": 3,
+"tags": [
+"transformers",
+"history",
+"architecture"
+]
+}
+},
+{
+"id": "7e09774a9d22",
+"key": "arxiv:2605.29713",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "paper",
+"url": "https://arxiv.org/abs/2605.29713",
+"title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+"published": "2026-11-14T04:51:14Z",
+"fetched": "2026-11-14T06:16:25Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "The Little Book of Generative AI Foundations offers an intuitive mathematical primer covering core concepts behind generative models.",
+"why": "Serves as a concise reference for developers needing a solid theoretical grounding before building or fine‑tuning models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"generative-ai",
+"math",
+"primer"
+]
+}
+},
+{
+"id": "32ae78ff31a3",
+"key": "https://news.ycombinator.com/item?id=50494696",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://news.ycombinator.com/item?id=50494696",
+"title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+"published": "2026-11-14T06:56:42Z",
+"fetched": "2026-11-15T06:24:06Z",
+"excerpt": "",
+"meta": {
+"points": 86,
+"comments": 51,
+"hn_url": "https://news.ycombinator.com/item?id=50494696"
+},
+"ai": {
+"summary": "A Hacker News thread asks the community to list the most practical AI skills that can be self‑taught.",
+"why": "Identifying concrete skills helps developers prioritize learning for building AI products.",
+"category": "other",
+"importance": 2,
+"tags": [
+"ai",
+"skills",
+"learning"
+]
+}
+},
+{
+"id": "6b4021ab3fae",
+"key": "https://latent.space/p/ainews-the-no-ai-slop-manifesto",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+"title": "[AINews] The No AI Slop Manifesto",
+"published": "2026-11-14T08:31:02Z",
+"fetched": "2026-11-14T13:36:19Z",
+"excerpt": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+"meta": {},
+"ai": {
+"summary": "The “No AI Slop Manifesto” was released by AIE speakers on November 13, 2026, outlining principles to combat low-quality or “sloppy” AI outputs.",
+"why": "Adopting these guidelines can help developers improve model reliability and user trust.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"aie",
+"manifesto",
+"quality"
+]
+}
+},
+{
+"id": "e851605b8f5f",
+"key": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+"title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+"published": "2026-11-14T09:45:45Z",
+"fetched": "2026-11-14T13:36:19Z",
+"excerpt": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though.\nThe article Runway's open-source Praxis-1 turns video AI into a robot controller appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Runway released Praxis‑1, an open‑weight robotics model under Apache 2.0 that leverages video training to control robots and leads Nvidia’s RoboLab‑120 benchmark for World Action Models.",
+"why": "Developers can use Praxis‑1 as a starting point for vision‑based robot control projects without licensing fees.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"runway",
+"praxis-1",
+"robotics",
+"video"
+]
+}
+},
+{
+"id": "8c8f4d7bf536",
+"key": "https://wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+"title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+"published": "2026-11-14T11:00:00Z",
+"fetched": "2026-11-14T13:36:19Z",
+"excerpt": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
+"meta": {},
+"ai": {
+"summary": "AI systems are being trialed to replace pilots and assist air traffic controllers, with experiments exploring autonomous flight and AI‑driven traffic management.",
+"why": "If successful, developers could build safety‑critical aviation AI tools and need to address new regulatory and reliability challenges.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"aviation",
+"ai",
+"autonomy",
+"safety"
+]
+}
+},
+{
+"id": "3bb21216e2b6",
+"key": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+"title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+"published": "2026-11-14T11:21:41Z",
+"fetched": "2026-11-14T13:36:19Z",
+"excerpt": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so competitors can catch up and human-level AI can become a commodity.\nThe article Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Former researcher Jacob Coxon claimed Anthropic can retrain its Mythos model using a fraction of the compute originally required, citing an IPO slide as evidence.",
+"why": "If true, this could lower the barrier for fine‑tuning large models, benefiting developers with limited resources.",
+"category": "research",
+"importance": 3,
+"tags": [
+"anthropic",
+"mythos",
+"compute"
+]
+}
+},
+{
+"id": "8393c9eb1227",
+"key": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+"title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+"published": "2026-11-14T11:40:51Z",
+"fetched": "2026-11-14T13:36:19Z",
+"excerpt": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company frames as a way to accelerate its robotics efforts.\nThe article OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI dissolved its dedicated robotics team, stating that general‑purpose models like GPT‑6 Astra can now directly control robots, making a specialized unit redundant.",
+"why": "Developers can start experimenting with GPT‑6 Astra for robot control without needing a separate robotics stack.",
+"category": "research",
+"importance": 4,
+"tags": [
+"openai",
+"gpt-6",
+"robotics"
+]
+}
+},
+{
+"id": "378142b87030",
+"key": "https://theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+"title": "Jensen Huang and the decline of the visionary showman founder CEO",
+"published": "2026-11-14T12:00:00Z",
+"fetched": "2026-11-14T13:36:18Z",
+"excerpt": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]",
+"meta": {},
+"ai": {
+"summary": "The piece reflects on Nvidia CEO Jensen Huang’s high‑profile stage appearance on January 6, 2025, and argues that his showmanship era is ending.",
+"why": "Signals potential strategic or leadership changes at Nvidia that could affect its AI roadmap.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"jensen-huang",
+"leadership"
+]
+}
+},
+{
+"id": "41510d10354e",
+"key": "https://interconnects.ai/p/open-source-ai-without-jensen",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+"title": "Open-source AI without Jensen",
+"published": "2026-11-14T12:23:15Z",
+"fetched": "2026-11-14T13:36:18Z",
+"excerpt": "A decapitation. It’s time to rebuild.",
+"meta": {},
+"ai": {
+"summary": "The article titled “Open-source AI without Jensen” suggests a major shift away from Nvidia’s influence in open-source AI development, calling for a rebuild of the ecosystem.",
+"why": "Developers may need to explore alternative hardware and software stacks beyond Nvidia’s ecosystem.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"open-source",
+"ai"
+]
+}
+},
+{
+"id": "2db737379b81",
+"key": "https://wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+"title": "Beware the New AI-Fueled Ransomware Boom",
+"published": "2026-11-14T13:00:00Z",
+"fetched": "2026-11-14T13:36:19Z",
+"excerpt": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+"meta": {},
+"ai": {
+"summary": "Wired warns that while fully automated ransomware isn’t widespread yet, attackers are increasingly using AI tools to enhance ransomware campaigns.",
+"why": "Security‑focused developers should monitor AI‑assisted threat vectors and update defenses accordingly.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ransomware",
+"ai",
+"security"
+]
+}
+},
+{
+"id": "d50bc7eb68f4",
+"key": "https://netmeister.org/blog/claude-delusion.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.netmeister.org/blog/claude-delusion.html",
+"title": "The Claude Delusion",
+"published": "2026-11-14T13:36:17Z",
+"fetched": "2026-11-14T19:09:17Z",
+"excerpt": "",
+"meta": {
+"points": 151,
+"comments": 199,
+"hn_url": "https://news.ycombinator.com/item?id=50496921"
+},
+"ai": {
+"summary": "The article titled “The Claude Delusion” critiques the hype around Anthropic’s Claude models, arguing that performance claims are overstated.",
+"why": "Understanding the realistic capabilities of Claude helps developers set appropriate expectations when evaluating it for projects.",
+"category": "research",
+"importance": 2,
+"tags": [
+"anthropic",
+"claude",
+"hype"
+]
+}
+},
+{
+"id": "938e68bc02d4",
+"key": "https://github.com/paul-nameless/agweb",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/paul-nameless/agweb",
+"title": "Show HN: Agweb – a browser for agents that stays out of your way",
+"published": "2026-11-14T14:08:12Z",
+"fetched": "2026-11-14T23:54:03Z",
+"excerpt": "",
+"meta": {
+"points": 107,
+"comments": 37,
+"hn_url": "https://news.ycombinator.com/item?id=50497147"
+},
+"ai": {
+"summary": "Agweb is a minimal browser UI designed for AI agents, allowing them to browse the web without interfering with the user’s workflow.",
+"why": "It gives developers a plug‑and‑play environment to test web‑enabled agents.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"agweb",
+"agents",
+"browser",
+"tooling"
+]
+}
+},
+{
+"id": "9cef81fb1c4e",
+"key": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+"title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+"published": "2026-11-14T14:09:25Z",
+"fetched": "2026-11-14T19:09:17Z",
+"excerpt": "",
+"meta": {
+"points": 144,
+"comments": 69,
+"hn_url": "https://news.ycombinator.com/item?id=50497155"
+},
+"ai": {
+"summary": "A deployment of the GLM‑5.3 model achieved 607.8 tokens per second using vLLM across two Nvidia DGX stations.",
+"why": "The benchmark shows that vLLM can efficiently scale large language models on high‑end GPU hardware, useful for latency‑sensitive applications.",
+"category": "models",
+"importance": 3,
+"tags": [
+"glm-5.3",
+"vllm",
+"nvidia",
+"dgx"
+]
+}
+},
+{
+"id": "c210b3b024bd",
+"key": "https://theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+"title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+"published": "2026-11-14T15:00:00Z",
+"fetched": "2026-11-14T19:09:17Z",
+"excerpt": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
+"meta": {},
+"ai": {
+"summary": "Helen Toner, former OpenAI board member, argued that AI CEOs remain untrustworthy, discussing governance challenges in an interview on the Verge.",
+"why": "The perspective underscores the need for robust oversight mechanisms when integrating AI services into products.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"helen-toner",
+"openai",
+"ai‑governance",
+"trust"
+]
+}
+},
+{
+"id": "809c150decc6",
+"key": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+"title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+"published": "2026-11-14T15:04:15Z",
+"fetched": "2026-11-14T23:54:03Z",
+"excerpt": "",
+"meta": {
+"points": 272,
+"comments": 27,
+"hn_url": "https://news.ycombinator.com/item?id=50497589"
+},
+"ai": {
+"summary": "A GitHub repo provides a ~200‑line pure JAX implementation that loads and runs the DeepSeek‑V3 language model.",
+"why": "Developers can quickly prototype and benchmark DeepSeek‑V3 inference without heavy frameworks.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"deepseek",
+"jax",
+"v3",
+"llm"
+]
+}
+},
+{
+"id": "fcfea70d443a",
+"key": "https://huggingface.co/n4ze3m/tiny-voca",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/n4ze3m/tiny-voca",
+"title": "n4ze3m/tiny-voca is trending on Hugging Face",
+"published": "2026-11-14T15:46:27Z",
+"fetched": "2026-11-17T15:56:50Z",
+"excerpt": "text-to-speech · 393 likes · 9,323 downloads",
+"meta": {
+"likes": 393,
+"downloads": 9323
+},
+"ai": {
+"summary": "The Hugging Face model n4ze3m/tiny-voca, a text‑to‑speech system, has 218 likes and 3,042 downloads.",
+"why": "Potentially useful for developers needing lightweight TTS models.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"text to speech",
+"tiny voca",
+"huggingface"
+]
+}
+},
+{
+"id": "1d5018d0d0c3",
+"key": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+"title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+"published": "2026-11-14T16:34:15Z",
+"fetched": "2026-11-14T19:09:17Z",
+"excerpt": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+"meta": {},
+"ai": {
+"summary": "Asian governments responded to Nvidia CEO Jensen Huang’s departure by confirming chip supply commitments, monitoring project impacts, and addressing ongoing investigations.",
+"why": "Supply‑chain stability for Nvidia GPUs affects developers building AI workloads in the region.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"jensen-huang",
+"asia",
+"chip‑supply"
+]
+}
+},
+{
+"id": "36442c0fb617",
+"key": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+"title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+"published": "2026-11-14T16:42:56Z",
+"fetched": "2026-11-14T19:09:17Z",
+"excerpt": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort.\nThe article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic made Claude Opus 5.5 the default on paid plans and released a guide urging users to drop outdated prompts like “think hard” and use a “Medium” effort setting.",
+"why": "Adopting the new prompting style can reduce latency and token usage for developers integrating Claude Opus 5.5.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude-opus-5.5",
+"prompting"
+]
+}
+},
+{
+"id": "737781593fed",
+"key": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+"title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+"published": "2026-11-14T16:48:01Z",
+"fetched": "2026-11-14T19:09:17Z",
+"excerpt": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task.\nThe article Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google’s Gemini 4 Carbon and Anthropic’s Fable 5.2 topped the MathArena benchmark, overtaking OpenAI’s GPT‑6.1 Sol, but Gemini’s cost was about 15× higher per token.",
+"why": "The result shows a trade‑off between accuracy and cost that developers must weigh when choosing a model for math‑heavy tasks.",
+"category": "models",
+"importance": 3,
+"tags": [
+"gemini-4-carbon",
+"fable-5.2",
+"gpt-6.1-sol",
+"matharena"
+]
+}
+},
+{
+"id": "93b428df45c7",
+"key": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+"title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+"published": "2026-11-14T17:30:00Z",
+"fetched": "2026-11-14T19:09:17Z",
+"excerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch compiled a list of AI projects and startups that failed or underperformed, including Apple’s delayed Siri AI and OpenAI’s “super app” launch.",
+"why": "The recap offers developers lessons on common pitfalls in AI product launches and market timing.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"ai‑failures",
+"apple",
+"openai",
+"siri"
+]
+}
+},
+{
+"id": "a327cb57ae68",
+"key": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+"title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+"published": "2026-11-14T19:05:17Z",
+"fetched": "2026-11-14T19:09:17Z",
+"excerpt": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty.\nThe article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic CEO Dario Amodei said the company faces “huge uncertainty” about next year’s revenue while preparing for a record‑size IPO, noting compute commitments of nearly $901 billion.",
+"why": "The financial pressure highlights the importance of cost‑effective compute strategies for developers using Anthropic’s APIs.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"anthropic",
+"ipo",
+"compute",
+"dario-amodei"
+]
+}
+},
+{
+"id": "614435ad231f",
+"key": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+"title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+"published": "2026-11-14T21:41:22Z",
+"fetched": "2026-11-14T23:54:02Z",
+"excerpt": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+"meta": {},
+"ai": {
+"summary": "Elon Musk and other tech executives signed a petition that has gathered over 115,000 signatures urging Nvidia to reinstate Jensen Huang.",
+"why": "Shows high‑profile industry pressure on Nvidia’s leadership decisions, which could affect partnerships and hardware roadmaps.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"jensen-huang",
+"petition",
+"elon-musk"
+]
+}
+},
+{
+"id": "d65fec5ad209",
+"key": "https://techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+"title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+"published": "2026-11-14T22:26:30Z",
+"fetched": "2026-11-15T06:24:06Z",
+"excerpt": "",
+"meta": {
+"points": 446,
+"comments": 236,
+"hn_url": "https://news.ycombinator.com/item?id=50501631"
+},
+"ai": {
+"summary": "Nvidia used circular financing arrangements to keep GPU prices artificially high.",
+"why": "Higher GPU costs affect developers’ compute budgets and hardware planning.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"gpu",
+"pricing"
+]
+}
+}
+]

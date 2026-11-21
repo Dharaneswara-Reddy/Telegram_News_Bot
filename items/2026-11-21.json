@@ -1,0 +1,302 @@
+[
+{
+"id": "89a1b053c60b",
+"key": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+"title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+"published": "2026-11-21T00:14:26Z",
+"fetched": "2026-11-21T03:11:45Z",
+"excerpt": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
+"meta": {},
+"ai": {
+"summary": "The distributed KV caching skill for the AWS Agent Toolkit uses Amazon ElastiCache to cache LLM context, reducing inference cost up to 40% and first‑token latency up to 80%.",
+"why": "Developers can lower GPU expenses and speed up self‑hosted LLM applications.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"aws",
+"kv‑cache",
+"elastiscache",
+"llm"
+]
+}
+},
+{
+"id": "282003e54096",
+"key": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+"title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+"published": "2026-11-21T01:06:42Z",
+"fetched": "2026-11-21T03:11:45Z",
+"excerpt": "AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads and Amplitude.",
+"meta": {},
+"ai": {
+"summary": "AWS Quick added chat‑driven business‑process flows, an updated web UI for daily triage, multi‑agent answer aggregation, and new data source connectors for Meta ads and Amplitude.",
+"why": "Enables teams to build AI‑powered workflows and retrieve richer answers without leaving the workspace.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"quick",
+"agents",
+"data‑connectors"
+]
+}
+},
+{
+"id": "9f58c80d1dee",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+"title": "ollama v0.40.17",
+"published": "2026-11-21T03:03:47Z",
+"fetched": "2026-11-21T03:11:48Z",
+"excerpt": "Inkling 2 Mini\nInkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active.\nIts looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified).\nollama run inkling-2-mini\nNote: inkling-2-mini is supported on Apple silicon only in this release. PC support will follow in an upcoming release.\nWhat's Changed\nollama launch claude supports Claude Code's deferred tool loading, so MCP tools are loaded when needed instead of all at\nonce\nOllama on Apple silicon now serves multiple requests at once.\nollama launch opencode sets thinking…",
+"meta": {},
+"ai": {
+"summary": "Ollama released version 0.40.17, adding support for the mlx backend and addressing issue #19806.",
+"why": "The update provides developers with broader hardware compatibility for running open‑weight models locally.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"ollama",
+"mlx",
+"release"
+]
+}
+},
+{
+"id": "ef5452efac24",
+"key": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+"title": "[AINews] Riemann Hypothesis proved...twice independently",
+"published": "2026-11-21T05:02:13Z",
+"fetched": "2026-11-21T12:36:23Z",
+"excerpt": "November 20 2026 —",
+"meta": {},
+"ai": {
+"summary": "Two separate groups announced proofs of the Riemann hypothesis: Anthropic claimed Claude generated a formal Lean proof of over 250,000 pages, and Stanford researchers released an independent all‑human draft proof.",
+"why": "If validated, these would be landmark achievements for AI‑assisted mathematics and for pure mathematical research.",
+"category": "research",
+"importance": 4,
+"tags": [
+"anthropic",
+"claude",
+"stanford",
+"riemann"
+]
+}
+},
+{
+"id": "d221ce131b2e",
+"key": "https://ricapar.net/ClawDOS",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "http://ricapar.net/ClawDOS/",
+"title": "ClawDOS – An AI coding agent for DOS",
+"published": "2026-11-21T05:38:01Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "",
+"meta": {
+"points": 89,
+"comments": 24,
+"hn_url": "https://news.ycombinator.com/item?id=50586292"
+},
+"ai": {
+"summary": "ClawDOS is an AI‑powered coding assistant that can write, debug, and execute programs for the DOS operating system.",
+"why": "Developers can use it to experiment with legacy software or create retro‑style applications without manual DOS expertise.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"clawdos",
+"ai",
+"coding",
+"dos"
+]
+}
+},
+{
+"id": "efe4d98baa2b",
+"key": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+"source": "last_week_in_ai",
+"source_name": "Last Week in AI",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+"title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
+"published": "2026-11-21T08:41:43Z",
+"fetched": "2026-11-21T12:36:23Z",
+"excerpt": "Anthropic's $81B IPO, AI stocks enter a correction, Huang resigns from Nvidia, Trump and Xi agree on military AI",
+"meta": {},
+"ai": {
+"summary": "The latest \"Last Week in AI\" newsletter (issue #348) covered Anthropic’s $81 B IPO, a broad AI‑stock correction, new GPT and Gemini releases, Nvidia’s leadership change, and geopolitical AI discussions.",
+"why": "Provides a concise roundup of the week’s most impactful AI business and policy developments for busy developers.",
+"category": "events",
+"importance": 2,
+"tags": [
+"newsletter",
+"anthropic",
+"gpt",
+"nvidia"
+]
+}
+},
+{
+"id": "15d591d2e67d",
+"key": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+"title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+"published": "2026-11-21T09:17:24Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available.\nThe article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Bytedance and partner US universities introduced Axion 1.0, an open‑source AI agent that matches top commercial models on benchmarks after only three curated training phases, and released the model, data, and code publicly.",
+"why": "The result challenges the prevailing belief that massive training compute is required for state‑of‑the‑art performance, encouraging more efficient research.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"bytedance",
+"axion",
+"openai",
+"efficiency"
+]
+}
+},
+{
+"id": "1687271a1c42",
+"key": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+"title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+"published": "2026-11-21T10:27:44Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "The Nasdaq 100 has slipped into a bear market after its worst weekly loss since the Covid-19 crisis. Nvidia plunged 14 percent as the SEC reviews its accounting, and Anthropic lost nearly all of its gains a day after its record IPO. AI doubts, scandals, rising interest rates, and political headwinds are hitting overheated valuations all at once.\nThe article US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "US technology stocks posted their worst weekly decline since the pandemic, with the Nasdaq‑100 entering a bear market; Nvidia fell 14% amid an SEC accounting review and Anthropic lost most of its IPO gains.",
+"why": "The slide signals heightened market skepticism toward AI hype and could affect funding and hiring in the sector.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nasdaq",
+"nvidia",
+"anthropic",
+"ai‑stocks"
+]
+}
+},
+{
+"id": "0ead08bd99c9",
+"key": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+"title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+"published": "2026-11-21T10:33:02Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at roughly six times lower cost.\nThe article New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Thinking Machines released Inkling 2 Mini, an open‑weight transformer that runs 12 of its 24 layers three times per token, allowing longer internal reasoning while staying laptop‑friendly and about six times cheaper than comparable models on the Intelligence Index.",
+"why": "Developers can run a relatively powerful reasoning model locally without cloud costs, enabling new edge‑AI applications.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"inkling",
+"thinkingmachines",
+"openmodel",
+"laptop"
+]
+}
+},
+{
+"id": "b4e63f59947a",
+"key": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+"title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+"published": "2026-11-21T11:19:49Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof, and mathematicians are now checking whether either one holds up.\nThe article Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic mathematician Levent Alpöge reported that Claude produced a Lean formalization of a proof of the Riemann hypothesis spanning more than 250,000 pages, and Stanford released a competing human‑written draft proof hours later.",
+"why": "The parallel claims highlight both the potential and the current limits of large language models in deep mathematical reasoning.",
+"category": "research",
+"importance": 4,
+"tags": [
+"anthropic",
+"claude",
+"stanford",
+"riemann"
+]
+}
+},
+{
+"id": "dea839f11a78",
+"key": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+"source": "gh_transformers",
+"source_name": "Transformers releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+"title": "transformers Release v5.24.0",
+"published": "2026-11-21T12:28:26Z",
+"fetched": "2026-11-21T12:36:25Z",
+"excerpt": "Release v5.24.0\nNew Model additions\nInkling 2 Mini\nInkling 2 Mini is a multimodal model from Thinking Machines Lab that takes text and images as input and generates text. It is based on Inkling 2 Small, but has 24 decoder layers instead of 48. To make up for the smaller depth, layers 6 to 17 are looped three times, and a learned message-passing mechanism mixes the residuals of the previous pass into the attention and MoE inputs of each loop layer. The decoder routes each token to 8 of 128 experts. A research checkpoint with a variable number of loop passes is also released, so you can trade speed against quality at inference time. Both checkpoints contain NVFP4 and MXFP8 layers that are…",
+"meta": {},
+"ai": {
+"summary": "Hugging Face Transformers 5.24.0 was released, adding support for Inkling 2 Mini—a 24‑layer multimodal decoder that loops layers 6‑17 three times and routes tokens to 8 of 128 MoE experts.",
+"why": "Developers can now load and use Inkling 2 Mini directly through the Transformers library.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"transformers",
+"inkling-2-mini",
+"multimodal",
+"moe"
+]
+}
+}
+]

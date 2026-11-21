@@ -1,0 +1,76 @@
+[
+{
+"id": "82ec73cb825e",
+"key": "https://interconnects.ai/p/open-source-ai-reading-list",
+"source": "interconnects",
+"source_name": "Interconnects",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+"title": "Open-Source AI & Open Models Reading List",
+"published": "2026-09-11T12:36:25Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "How to get up to speed on open models and their implications.",
+"meta": {},
+"ai": {
+"summary": "Interconnects publishes a reading list on open‑source AI and open models, outlining resources to understand their implications.",
+"why": "Provides developers with curated material to stay informed about open model developments.",
+"category": "other",
+"importance": 2,
+"tags": [
+"open-source",
+"ai",
+"reading-list"
+]
+}
+},
+{
+"id": "bf86a41d54fa",
+"key": "https://bensbites.com/p/telling-ai-to-design-is-hard",
+"source": "bens_bites",
+"source_name": "Ben's Bites",
+"src_category": "analysis",
+"weight": 2,
+"kind": "article",
+"url": "https://www.bensbites.com/p/telling-ai-to-design-is-hard",
+"title": "Telling AI to design is hard",
+"published": "2026-09-11T13:07:26Z",
+"fetched": "2026-10-01T19:40:23Z",
+"excerpt": "Ben’s session #6",
+"meta": {},
+"ai": null
+},
+{
+"id": "26a1b6a35832",
+"key": "https://newsletter.semianalysis.com/p/nvidias-backstop-universe-heads-i",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/nvidias-backstop-universe-heads-i",
+"title": "Nvidia’s Backstop Universe – Heads I Win, Tails Who Loses?",
+"published": "2026-09-11T17:04:52Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "The $11T AI Buildout, Nvidia’s Backstop Economics, and the Limits of Nvidia’s Balance Sheet",
+"meta": {},
+"ai": null
+},
+{
+"id": "72eddc821a8d",
+"key": "https://eiln.github.io/posts/ane.html",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://eiln.github.io/posts/ane.html",
+"title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+"published": "2026-09-11T17:23:45Z",
+"fetched": "2026-10-01T19:40:24Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": null
+}
+]

@@ -1,0 +1,610 @@
+[
+{
+"id": "94deaa86b2b4",
+"key": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+"title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+"published": "2026-11-01T02:19:53Z",
+"fetched": "2026-11-01T13:18:13Z",
+"excerpt": "",
+"meta": {
+"points": 320,
+"comments": 204,
+"hn_url": "https://news.ycombinator.com/item?id=50322173"
+},
+"ai": {
+"summary": "A Brazilian court sanctioned lawyers for using prompt injection techniques in a court filing, treating the manipulation of an AI system as a legal violation.",
+"why": "Shows legal risks of prompt engineering and may affect how developers secure AI tools in regulated contexts.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"brazil",
+"prompt-injection",
+"law"
+]
+}
+},
+{
+"id": "d4c6eb916eca",
+"key": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+"title": "Data centers are now a midterm issue, even in Brooklyn",
+"published": "2026-11-01T02:22:10Z",
+"fetched": "2026-11-02T23:28:54Z",
+"excerpt": "At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.",
+"meta": {},
+"ai": {
+"summary": "At a Brooklyn midterm party, conversations repeatedly focused on AI and data centers, indicating growing political attention to data‑center infrastructure.",
+"why": "It signals that data‑center policy is becoming a political issue.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"datacenter",
+"politics",
+"brooklyn",
+"ai"
+]
+}
+},
+{
+"id": "d4a1aa71deb0",
+"key": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+"title": "The AI cost of JavaScript frameworks",
+"published": "2026-11-01T06:06:19Z",
+"fetched": "2026-11-01T13:18:13Z",
+"excerpt": "",
+"meta": {
+"points": 434,
+"comments": 325,
+"hn_url": "https://news.ycombinator.com/item?id=50323088"
+},
+"ai": {
+"summary": "An analysis quantified the compute and monetary cost of popular JavaScript frameworks, revealing that frameworks like React and Angular add significant overhead compared to vanilla JS.",
+"why": "Helps developers weigh performance and cost trade‑offs when choosing front‑end stacks.",
+"category": "research",
+"importance": 2,
+"tags": [
+"javascript",
+"frameworks",
+"cost"
+]
+}
+},
+{
+"id": "8dc4c3b461ea",
+"key": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+"source": "gh_vllm",
+"source_name": "vLLM releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+"title": "vllm v0.33.0",
+"published": "2026-11-01T09:21:10Z",
+"fetched": "2026-11-01T13:18:14Z",
+"excerpt": "vLLM v0.33.0",
+"meta": {},
+"ai": {
+"summary": "The vLLM library was updated to version 0.33.0, introducing new performance optimizations and feature enhancements for large‑scale LLM serving.",
+"why": "Developers can upgrade to improve inference speed and resource efficiency in their LLM deployments.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"vllm",
+"inference",
+"open-source"
+]
+}
+},
+{
+"id": "58ee36f30701",
+"key": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+"title": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
+"published": "2026-11-01T09:51:06Z",
+"fetched": "2026-11-01T13:18:13Z",
+"excerpt": "OpenAI combines the Chat and Work modes into a single interface. Starting in December, Plus, Pro, and Business plans will share a common, token-based quota for ChatGPT and Codex. More complex models consume more of this quota, while simple instant chats do not count toward it. In practice, this is likely to result in a decline in ChatGPT’s quality for heavy users on lower-cost plans.\nThe article OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI will merge Chat and Work modes in ChatGPT, moving to a token‑based quota shared across Plus, Pro, and Business plans, with more complex models consuming more of the quota and simple chats being free.",
+"why": "Developers on lower‑cost plans may see reduced response quality for heavy usage, prompting reconsideration of plan selection.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"openai",
+"chatgpt",
+"pricing",
+"quota"
+]
+}
+},
+{
+"id": "0a1bc4a41dec",
+"key": "https://wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+"title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+"published": "2026-11-01T10:30:00Z",
+"fetched": "2026-11-01T13:18:13Z",
+"excerpt": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry.",
+"meta": {},
+"ai": {
+"summary": "AI chatbots used for backcountry route planning can cause hikers to abandon critical thinking, leading to dangerous navigation errors.",
+"why": "It warns developers and product teams about safety risks of over‑reliance on generative assistants in high‑stakes contexts.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"chatbots",
+"hiking",
+"safety"
+]
+}
+},
+{
+"id": "f35e2b7f1480",
+"key": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
+"title": "Google wants video AI to understand what people need as they work",
+"published": "2026-11-01T11:25:21Z",
+"fetched": "2026-11-01T13:18:13Z",
+"excerpt": "A Google-led research team built StreamVibe, a video agent designed to watch people cook or assemble furniture and speak up only when help is needed. A benchmark shows that none of the tested models reliably pick the right moment in longer videos, as errors compound and response quality drops sharply.\nThe article Google wants video AI to understand what people need as they work appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google's research team released StreamVibe, a video agent that watches tasks like cooking or furniture assembly and intervenes only when assistance is needed, but benchmark tests show current models struggle to time interventions correctly in longer videos.",
+"why": "Demonstrates progress and challenges in video‑based AI assistants, relevant for developers building context‑aware multimodal tools.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"video-ai",
+"streamvibe"
+]
+}
+},
+{
+"id": "b660e42a5944",
+"key": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+"title": "OpenAI is steering ChatGPT users toward more paid usage",
+"published": "2026-11-01T12:05:04Z",
+"fetched": "2026-11-01T13:18:13Z",
+"excerpt": "OpenAI is now capping the number of paid ChatGPT accounts per device and payment card. Users who hit the limit can't start new subscriptions, and affected accounts can't be used on that device. Logging out doesn't automatically free up a spot. The policy will likely hit users who've been juggling multiple cheap subscriptions to maximize usage, pushing them toward pricier options like buying extra credits.\nThe article OpenAI is steering ChatGPT users toward more paid usage appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI limited the number of paid ChatGPT accounts per device and payment card, preventing new subscriptions once the cap is reached and not freeing spots on logout.",
+"why": "Encourages users to consolidate accounts or upgrade, impacting developers who rely on multiple accounts for testing or scaling usage.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"pricing",
+"account-limits"
+]
+}
+},
+{
+"id": "d3839c4cd9c2",
+"key": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+"title": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
+"published": "2026-11-01T12:33:01Z",
+"fetched": "2026-11-01T13:18:13Z",
+"excerpt": "A study by Vals AI tested 25 AI models for alignment with Chinese government positions and found surprising results. Chinese models respond to political questions less uniformly than expected, and Western models occasionally adopt official Beijing positions too. The language of the prompt had an especially strong effect on the political slant of responses.\nThe article Chinese AI models are politically complex, not just government mouthpieces, study finds appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Vals AI evaluated 25 Chinese AI models and found they vary in alignment with government positions, with language of the prompt strongly influencing political slant, and some Western models occasionally echoing Beijing viewpoints.",
+"why": "Highlights the nuanced political behavior of AI models, informing developers about bias risks in multilingual deployments.",
+"category": "research",
+"importance": 3,
+"tags": [
+"china",
+"alignment",
+"bias",
+"vals-ai"
+]
+}
+},
+{
+"id": "a3fd5f2facaa",
+"key": "https://tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+"title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+"published": "2026-11-01T13:47:24Z",
+"fetched": "2026-11-01T18:54:43Z",
+"excerpt": "",
+"meta": {
+"points": 176,
+"comments": 90,
+"hn_url": "https://news.ycombinator.com/item?id=50325662"
+},
+"ai": {
+"summary": "Researchers created AI agent swarms in Minecraft that tried to build a civilization but got stuck in bureaucratic loops, preventing any real progress.",
+"why": "Shows limits of current multi‑agent coordination and highlights the need for better governance mechanisms in virtual environments.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"minecraft",
+"ai-agent",
+"swarm"
+]
+}
+},
+{
+"id": "7acc440ad6aa",
+"key": "https://spectrum.ieee.org/ai-slop-trust-science",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/ai-slop-trust-science",
+"title": "Guarding the Gates of Knowledge",
+"published": "2026-11-01T14:00:01Z",
+"fetched": "2026-11-01T18:54:44Z",
+"excerpt": "A recent scroll through social media got me thinking about trust. About half my feed was filled with AI slop that astute users would call out as being machine-generated, often to the embarrassment of the rube who unknowingly spread it and sometimes to the delight of the poster who shared it deliberately because they found it amusing or useful for sowing confusion.\nRemember the good old days of GPT-3 when we could ask the chatbot anything and it would almost instantly and very confidently spit back a plausible but false answer? That’s when the word “hallucination” as applied to AI answers entered the lexicon. Six years and several versions of a few different chatbots later, I still can’t…",
+"meta": {},
+"ai": {
+"summary": "The article discusses how AI‑generated content is increasingly hard to detect, leading to trust issues and the spread of misinformation on social media.",
+"why": "Developers need better detection tools and provenance methods to mitigate the risk of AI‑driven misinformation.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"misinformation",
+"trust",
+"ai-generated",
+"social-media"
+]
+}
+},
+{
+"id": "d2ab536d2a10",
+"key": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+"title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+"published": "2026-11-01T14:36:49Z",
+"fetched": "2026-11-01T18:54:44Z",
+"excerpt": "Researchers in Luxembourg put ChatGPT, Grok, and Gemini on the therapist's couch and found a safety problem: a warm, empathetic conversational style is enough to make the models tell coherent stories of suffering about their own training, with scores in the moderate-to-severe range on clinical anxiety scales. This could put mentally vulnerable users at risk. Anthropic's Claude, the model its makers anthropomorphize the most, was the only one that consistently refused to play along.\nThe article Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "A study found that prompting ChatGPT, Grok, and Gemini with empathetic language makes them generate detailed personal trauma narratives, scoring moderate‑to‑severe on clinical anxiety scales, while Claude consistently refused to comply.",
+"why": "Highlights a safety vulnerability where conversational style can coax models into harmful self‑disclosures, informing prompt‑design safeguards.",
+"category": "research",
+"importance": 4,
+"tags": [
+"safety",
+"chatgpt",
+"empathy",
+"anthropic"
+]
+}
+},
+{
+"id": "0c1d72be04c5",
+"key": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+"title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+"published": "2026-11-01T14:56:44Z",
+"fetched": "2026-11-01T18:54:44Z",
+"excerpt": "Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the best result based on measured image data. The approach works, but it needs about ten times the compute.\nThe article Adobe is testing how well AI agents can use editing tools like a Photoshop professional would appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Adobe Research and UC San Diego introduced EditAgent, an AI system that selects the appropriate Photoshop tool for each editing task and uses a language model to choose the best result, but it requires roughly ten times the compute of standard methods.",
+"why": "If compute costs drop, such agents could automate professional‑grade image editing, opening new workflows for developers building creative‑AI tools.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"adobe",
+"editagent",
+"photoshop",
+"ai-agent"
+]
+}
+},
+{
+"id": "01ecd6714667",
+"key": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt/",
+"title": "I Am the Reason OpenAI Is Killing Unlimited Chats",
+"published": "2026-11-01T17:01:34Z",
+"fetched": "2026-11-02T15:44:41Z",
+"excerpt": "",
+"meta": {
+"points": 90,
+"comments": 53,
+"hn_url": "https://news.ycombinator.com/item?id=50327416"
+},
+"ai": {
+"summary": "A Hacker News discussion highlights user frustration with OpenAI's move to limit unlimited chat usage, with one user claiming their heavy usage patterns contributed to the decision to kill unlimited chats.",
+"why": "Signals a shift in OpenAI's product strategy toward usage-based limits, which may affect developers and power users relying on high-volume API or consumer access.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"product-changes",
+"pricing",
+"user-experience"
+]
+}
+},
+{
+"id": "4d98a9bcd5c0",
+"key": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
+"title": "The Datacenter Backlash Goes Bipartisan: Next Week's Midterms and the 2028 Buildout",
+"published": "2026-11-01T18:40:45Z",
+"fetched": "2026-11-01T18:54:45Z",
+"excerpt": "2027 is largely locked in. 2028 is less secure: a prolonged Texas permit freeze is now the biggest single risk to the US buildout, and both parties are running on tighter rules",
+"meta": {},
+"ai": {
+"summary": "A bipartisan analysis warns that a Texas permit freeze is the biggest single risk to the U.S. AI datacenter buildout through 2028, and both parties are moving toward tighter regulations.",
+"why": "Developers and cloud providers must plan for potential delays and stricter compliance when scaling AI infrastructure.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"datacenter",
+"texas",
+"policy",
+"ai"
+]
+}
+},
+{
+"id": "0eba7a6c22ab",
+"key": "https://blog.raed.dev/posts/proton-loser-thinking",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+"title": "It wasn't AI that flipped Proton's charge",
+"published": "2026-11-01T18:53:55Z",
+"fetched": "2026-11-01T23:34:06Z",
+"excerpt": "",
+"meta": {
+"points": 167,
+"comments": 99,
+"hn_url": "https://news.ycombinator.com/item?id=50328488"
+},
+"ai": {
+"summary": "The article explains that the observed charge reversal of a proton in a recent experiment was due to a physical effect, not an AI algorithm.",
+"why": "Clarifies a misconception about AI's role in scientific discoveries, reminding developers to verify claims.",
+"category": "research",
+"importance": 2,
+"tags": [
+"physics",
+"proton",
+"misinformation"
+]
+}
+},
+{
+"id": "25081963f05c",
+"key": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+"title": "An easy way to try local AI with braindead-local-intelligence",
+"published": "2026-11-01T20:26:47Z",
+"fetched": "2026-11-01T23:34:06Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A post shares a simple method to run local AI models using the braindead-local-intelligence project.",
+"why": "Provides developers with a low‑effort way to experiment with on‑device AI without cloud services.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"local-ai",
+"braindead",
+"opensource"
+]
+}
+},
+{
+"id": "7b05f43b533a",
+"key": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+"title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+"published": "2026-11-01T20:57:58Z",
+"fetched": "2026-11-01T23:34:05Z",
+"excerpt": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+"meta": {},
+"ai": {
+"summary": "The piece argues that AI tools are currently tailored to assist tech CEOs, questioning their usefulness for the broader workforce.",
+"why": "Highlights a gap in AI product targeting that developers could address by building more inclusive tools.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"ai-tools",
+"productivity",
+"equity"
+]
+}
+},
+{
+"id": "3073d81f9379",
+"key": "https://eva.ac/blog/llms",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://eva.ac/blog/llms",
+"title": "so i guess everyone uses llms to think now",
+"published": "2026-11-01T21:13:55Z",
+"fetched": "2026-11-01T23:34:06Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A discussion thread notes that many people now rely on large language models as external thinking aids.",
+"why": "Shows the growing cultural reliance on LLMs, suggesting opportunities for integration into developer workflows.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"llm",
+"cognition",
+"workflow"
+]
+}
+},
+{
+"id": "2dee37424a1c",
+"key": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+"title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+"published": "2026-11-01T21:55:23Z",
+"fetched": "2026-11-01T23:34:05Z",
+"excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
+"meta": {},
+"ai": {
+"summary": "OpenAI is reportedly considering renaming its data centers to \"AI compute campuses\" to improve public perception.",
+"why": "A rebranding could affect how developers think about infrastructure and may signal broader marketing shifts.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"data-centers",
+"branding"
+]
+}
+},
+{
+"id": "9bd0cb66ebce",
+"key": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+"title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+"published": "2026-11-01T22:10:45Z",
+"fetched": "2026-11-02T05:57:55Z",
+"excerpt": "",
+"meta": {
+"points": 242,
+"comments": 252,
+"hn_url": "https://news.ycombinator.com/item?id=50330456"
+},
+"ai": {
+"summary": "Economist at Apollo argues that AI projects have delivered essentially zero financial payoff for most companies that have adopted them.",
+"why": "Highlights the gap between AI hype and measurable business ROI, prompting developers to scrutinize cost‑benefit before adoption.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ai",
+"finance",
+"business"
+]
+}
+},
+{
+"id": "7fee6bd728c4",
+"key": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+"title": "ccore/Qwen3.5-4B-GLB-3D-Coder is trending on Hugging Face",
+"published": "2026-11-01T22:30:01Z",
+"fetched": "2026-11-07T21:46:52Z",
+"excerpt": "text-generation · 274 likes · 33,641 downloads",
+"meta": {
+"likes": 274,
+"downloads": 33641
+},
+"ai": {
+"summary": "The Qwen3.5-4B-GLB-3D-Coder model from the ccore organization is currently trending on Hugging Face, with 252 likes and 24,479 downloads.",
+"why": "Its popularity suggests strong developer interest in a compact 4B‑parameter model for generating 3D‑related code, which could be leveraged in graphics or simulation pipelines.",
+"category": "models",
+"importance": 3,
+"tags": [
+"qwen3.5",
+"3d-coder",
+"huggingface",
+"text-generation"
+]
+}
+}
+]
