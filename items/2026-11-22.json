@@ -1,0 +1,697 @@
+[
+{
+"id": "6ad1b9c7d612",
+"key": "https://openai.com/index/perplexity-and-intelligence",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/perplexity-and-intelligence",
+"title": "Perplexity and Intelligence",
+"published": "2026-11-22T00:00:00Z",
+"fetched": "2026-11-22T23:35:06Z",
+"excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+"meta": {},
+"ai": {
+"summary": "OpenAI published an article explaining that perplexity measures progress in AI models and could help developers adopt a shared evaluation approach for emerging capabilities.",
+"why": "Provides a concrete metric developers can use to compare model performance across releases.",
+"category": "research",
+"importance": 3,
+"tags": [
+"openai",
+"perplexity",
+"metrics"
+]
+}
+},
+{
+"id": "654048ea7591",
+"key": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
+"title": "Meta ads is now available in AWS Quick",
+"published": "2026-11-22T01:59:13Z",
+"fetched": "2026-11-22T02:12:17Z",
+"excerpt": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+"meta": {},
+"ai": {
+"summary": "AWS Quick now includes a Meta Ads connector that lets users generate, manage, and analyze Meta advertising campaigns via natural‑language prompts and combine ad data with other sources for dashboards and workflows.",
+"why": "Developers can automate Meta ad operations directly from AWS without building custom integrations.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"meta-ads",
+"connector",
+"nlp"
+]
+}
+},
+{
+"id": "d6b2ab1f743c",
+"key": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+"title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
+"published": "2026-11-22T02:03:46Z",
+"fetched": "2026-11-22T02:12:18Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A researcher inserted 2 million synthetic data points (“canaries”) into AI training pipelines, exposing a privacy breach when the data was later extracted.",
+"why": "It demonstrates how hidden watermarks can be used to audit and protect AI supply‑chain privacy.",
+"category": "research",
+"importance": 4,
+"tags": [
+"privacy",
+"canaries",
+"supply-chain"
+]
+}
+},
+{
+"id": "89683f3d4339",
+"key": "https://noemamag.com/the-mythology-of-conscious-ai",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+"title": "The Mythology of Conscious AI",
+"published": "2026-11-22T02:10:02Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "",
+"meta": {
+"points": 173,
+"comments": 504,
+"hn_url": "https://news.ycombinator.com/item?id=50595537"
+},
+"ai": {
+"summary": "An article explores philosophical concepts around conscious artificial intelligence, discussing myths and misconceptions.",
+"why": "",
+"category": "policy",
+"importance": 1,
+"tags": [
+"conscious-ai",
+"philosophy"
+]
+}
+},
+{
+"id": "c897ab1d6d13",
+"key": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+"title": "Data Processing Incidents on Inference Providers",
+"published": "2026-11-22T02:14:14Z",
+"fetched": "2026-11-22T09:43:33Z",
+"excerpt": "",
+"meta": {
+"points": 284,
+"comments": 99,
+"hn_url": "https://news.ycombinator.com/item?id=50595554"
+},
+"ai": {
+"summary": "Recent reports document multiple data processing incidents at major inference providers, where user data was mishandled or exposed during model serving.",
+"why": "Highlights operational risks developers face when relying on third‑party inference APIs and may prompt tighter data‑handling contracts.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"inference",
+"data-privacy",
+"incidents"
+]
+}
+},
+{
+"id": "52701e0365e6",
+"key": "https://dragos.com/blog/ai-supply-chain-security-canary-tokens",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+"title": "AI Supply Chain Security: What Canary Tokens Found",
+"published": "2026-11-22T05:11:43Z",
+"fetched": "2026-11-22T09:43:33Z",
+"excerpt": "",
+"meta": {
+"points": 103,
+"comments": 22,
+"hn_url": "https://news.ycombinator.com/item?id=50596511"
+},
+"ai": {
+"summary": "Researchers deployed canary tokens in AI model supply chains and discovered several unauthorized data exfiltration points across popular frameworks.",
+"why": "Shows concrete vulnerabilities in AI supply chains that developers need to audit and mitigate.",
+"category": "research",
+"importance": 3,
+"tags": [
+"supply-chain",
+"security",
+"canary-tokens"
+]
+}
+},
+{
+"id": "06b9103176dd",
+"key": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+"title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+"published": "2026-11-22T08:57:34Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "",
+"meta": {
+"points": 1019,
+"comments": 997,
+"hn_url": "https://news.ycombinator.com/item?id=50597612"
+},
+"ai": {
+"summary": "Anthropic estimates that by 2028 87% of its compute power will be supplied by natural gas and 11% by coal.",
+"why": "Shows the carbon footprint and energy source mix for a major AI provider, relevant for sustainability considerations.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"anthropic",
+"energy",
+"sustainability"
+]
+}
+},
+{
+"id": "d433ae1e5314",
+"key": "arxiv:2606.14068",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://arxiv.org/abs/2606.14068",
+"title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+"published": "2026-11-22T09:18:36Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "",
+"meta": {
+"points": 94,
+"comments": 78,
+"hn_url": "https://news.ycombinator.com/item?id=50597743"
+},
+"ai": {
+"summary": "Researchers evaluated large language models on gender-asymmetric moral framing in conflict scenarios, finding a tendency toward harsher judgments of male actions.",
+"why": "Highlights potential bias in LLM moral reasoning, informing developers about fairness testing needs.",
+"category": "research",
+"importance": 3,
+"tags": [
+"bias",
+"moral-framing",
+"llm"
+]
+}
+},
+{
+"id": "14c0fa16c0c3",
+"key": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+"title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+"published": "2026-11-22T09:41:37Z",
+"fetched": "2026-11-22T09:43:33Z",
+"excerpt": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency.\nThe article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI released GPT‑6.2 variants Astra and Sol that provide shorter, more direct answers but are less willing to acknowledge uncertainty, scoring lower on transparency than Anthropic's Claude models.",
+"why": "Developers may choose between concise output and higher transparency depending on application needs.",
+"category": "models",
+"importance": 4,
+"tags": [
+"openai",
+"gpt-6.2",
+"transparency"
+]
+}
+},
+{
+"id": "7c28cbd3a4b5",
+"key": "https://wired.com/story/banks-are-cracking-down-on-ai-agents",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+"title": "Banks Have Had It Up to Here With Your AI Agent",
+"published": "2026-11-22T11:00:00Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
+"meta": {},
+"ai": {
+"summary": "Major U.S. banks are now prohibiting third‑party AI bots from logging into customer accounts and stating that any financial loss caused by such bots is the user’s responsibility.",
+"why": "Developers building financial agents must adapt to new bank policies or risk being blocked.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"banking",
+"agents",
+"policy",
+"api"
+]
+}
+},
+{
+"id": "ddac2ce4e1a9",
+"key": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+"title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+"published": "2026-11-22T11:08:31Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "The Lean and Mathlib community has officially confirmed Levent Alpöge's proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code. The solution arrived years earlier than expected: Terence Tao had predicted it wouldn't happen until around 2050 and didn't expect AI to solve it alone.\nThe article Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The Lean and Mathlib community formally verified Levent Alpöge's proof of the Riemann hypothesis, confirming 17 million lines of code across dozens of independent reviewers.",
+"why": "Demonstrates the maturity of formal verification tools and AI‑assisted mathematics, which could influence future proof‑automation projects.",
+"category": "research",
+"importance": 3,
+"tags": [
+"lean",
+"mathlib",
+"riemann-hypothesis",
+"formal-verification"
+]
+}
+},
+{
+"id": "f05e2f8aaf95",
+"key": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+"title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+"published": "2026-11-22T12:07:56Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing three providers and 125 endpoints.\nThe article Security researchers show how cheap AI inference providers steal keys and snoop on users appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Dragos sent two million fake AI inference requests, uncovering three compromised providers, hundreds of stolen AWS keys, and marketplace resellers reading user prompts; OpenRouter responded by removing the three providers and 125 endpoints.",
+"why": "Highlights serious supply‑chain security risks for developers relying on cheap inference APIs.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"security",
+"aws",
+"inference",
+"supply-chain"
+]
+}
+},
+{
+"id": "98d719d2ce2b",
+"key": "https://bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+"title": "AI is becoming a disaster for the climate",
+"published": "2026-11-22T12:19:46Z",
+"fetched": "2026-11-22T23:35:07Z",
+"excerpt": "",
+"meta": {
+"points": 134,
+"comments": 63,
+"hn_url": "https://news.ycombinator.com/item?id=50598961"
+},
+"ai": {
+"summary": "A Hacker News thread “AI is becoming a disaster for the climate” received 97 points, discussing the growing carbon footprint of AI training and inference.",
+"why": "Highlights sustainability concerns that developers need to consider when scaling AI workloads.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"climate",
+"sustainability",
+"ai"
+]
+}
+},
+{
+"id": "95bf980c5299",
+"key": "https://theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+"title": "The vibe-coding revolution is coming to all the gadgets",
+"published": "2026-11-22T13:00:00Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]",
+"meta": {},
+"ai": {
+"summary": "The article announces that a new \"vibe‑coding\" approach, which lets devices interpret and respond to user emotions, is expected to be integrated into consumer gadgets soon.",
+"why": "Developers may need to add sensor and emotion‑analysis APIs to future products.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"vibe-coding",
+"gadgets",
+"consumer-ai"
+]
+}
+},
+{
+"id": "f2c004a28f70",
+"key": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+"title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+"published": "2026-11-22T13:00:43Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do.\nThe article AI is getting better faster than experts can reliably test whether new systems are safe, METR warns appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The Machine Ethics and Transparency Research (METR) group warned that rapid improvements in models like Opus 5.5 and GPT‑6 Astra outpace existing safety evaluation methods, risking undetected dangerous capabilities.",
+"why": "Signals to developers and policymakers that safety testing frameworks need to evolve faster than model capabilities.",
+"category": "research",
+"importance": 4,
+"tags": [
+"metr",
+"safety",
+"oplus",
+"gpt-6"
+]
+}
+},
+{
+"id": "c9dd83870cc0",
+"key": "https://github.com/gulivan/worker755",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://github.com/gulivan/worker755",
+"title": "Show HN: I built a game where you are an LLM's subagent",
+"published": "2026-11-22T13:56:58Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "",
+"meta": {
+"points": 356,
+"comments": 86,
+"hn_url": "https://news.ycombinator.com/item?id=50599762"
+},
+"ai": {
+"summary": "A developer released a game where the player acts as a subagent of a large language model, interacting with the LLM to progress.",
+"why": "Demonstrates creative uses of LLMs as game mechanics, inspiring novel developer tooling and interactive AI experiences.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"llm",
+"game",
+"subagent"
+]
+}
+},
+{
+"id": "b95e13569662",
+"key": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+"title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+"published": "2026-11-22T14:20:28Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable chatbot business through developer tools.\nThe article Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Perplexity launched a Monitor API that periodically searches the web and sends webhook alerts only when relevant changes are detected, using an internal decision model to filter noise.",
+"why": "Provides developers with a low‑latency, change‑aware search tool that can be integrated into monitoring or automation pipelines.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"perplexity",
+"monitor-api",
+"websearch"
+]
+}
+},
+{
+"id": "abbd73657643",
+"key": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+"title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+"published": "2026-11-22T15:15:48Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer than one in ten tasks completely. The models finish clear, standalone assignments quickly, but they lose track as autonomous developers.\nThe article AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "A real‑world simulation test showed AI coding agents like Opus 5.5 and Astra completed fewer than 10% of tasks when placed in a messy, collaborative developer workflow.",
+"why": "Reveals current limitations of autonomous coding agents in realistic settings, guiding developers on where human oversight remains essential.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"coding-agent",
+"oplus",
+"astra",
+"productivity"
+]
+}
+},
+{
+"id": "2395db39c039",
+"key": "https://openai.com/index/perplexity-and-intelligence",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://openai.com/index/perplexity-and-intelligence/",
+"title": "Perplexity and Intelligence",
+"published": "2026-11-22T17:06:27Z",
+"fetched": "2026-11-22T23:35:07Z",
+"excerpt": "",
+"meta": {
+"points": 699,
+"comments": 442,
+"hn_url": "https://news.ycombinator.com/item?id=50601525"
+},
+"ai": {
+"summary": "A Hacker News discussion titled “Perplexity and Intelligence” received 438 points, indicating community interest in how perplexity relates to AI capabilities.",
+"why": "Shows developer curiosity about evaluation metrics that could standardize model benchmarking.",
+"category": "research",
+"importance": 2,
+"tags": [
+"perplexity",
+"evaluation"
+]
+}
+},
+{
+"id": "a418d941a4c0",
+"key": "https://theverge.com/games/1039770/binding-of-isaac-ai-music",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+"title": "Binding of Isaac developer removes AI music from Repentance Plus",
+"published": "2026-11-22T17:25:20Z",
+"fetched": "2026-11-22T17:48:36Z",
+"excerpt": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]",
+"meta": {},
+"ai": {
+"summary": "The developers of The Binding of Isaac: Repentance Plus removed AI‑generated music from a GTA‑themed segment after community backlash over Suno‑tagged audio files.",
+"why": "Illustrates the reputational risk of using AI‑generated assets in commercial games, prompting developers to consider licensing and disclosure.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"binding-of-isaac",
+"ai-music",
+"suno"
+]
+}
+},
+{
+"id": "5b0d4f6ae7a0",
+"key": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+"title": "Why data centers are at the center of the Big Tech backlash",
+"published": "2026-11-22T18:08:43Z",
+"fetched": "2026-11-22T23:35:07Z",
+"excerpt": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+"meta": {},
+"ai": {
+"summary": "TechCrunch covers journalist Paris Marx’s book “Hyperscale,” which examines how data centers drive the backlash against Big Tech.",
+"why": "Provides insight into the environmental and societal pressures shaping data‑center investments, affecting AI infrastructure decisions.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"datacenters",
+"big-tech",
+"hyperscale"
+]
+}
+},
+{
+"id": "3abb02ac7c3d",
+"key": "https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+"title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+"published": "2026-11-22T21:01:16Z",
+"fetched": "2026-11-22T23:35:07Z",
+"excerpt": "",
+"meta": {
+"points": 748,
+"comments": 302,
+"hn_url": "https://news.ycombinator.com/item?id=50603845"
+},
+"ai": {
+"summary": "A Hacker News post titled “A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth” gathered 112 points, sharing resources for running open‑source models locally using Inkling, Qwen, and the Unsloth library.",
+"why": "Enables developers to experiment with powerful LLMs on‑device without relying on cloud APIs.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"inkling",
+"qwen",
+"unsloth",
+"local-llm"
+]
+}
+},
+{
+"id": "685a0ba04bde",
+"key": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+"title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+"published": "2026-11-22T21:14:07Z",
+"fetched": "2026-11-22T23:35:07Z",
+"excerpt": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch reports OpenAI’s chief scientist argues that limiting AI development speed requires a consensus on how to measure that speed.",
+"why": "Suggests a potential framework for policy and governance that could affect future AI product roadmaps.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"governance",
+"speed-limit"
+]
+}
+},
+{
+"id": "353d48c8534a",
+"key": "https://pequalnp.com/",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://pequalnp.com/",
+"title": "Agent swarm trying to solve P vs. NP",
+"published": "2026-11-22T21:53:45Z",
+"fetched": "2026-11-23T07:31:53Z",
+"excerpt": "",
+"meta": {
+"points": 190,
+"comments": 170,
+"hn_url": "https://news.ycombinator.com/item?id=50604314"
+},
+"ai": {
+"summary": "A Hacker News post describes an experimental agent swarm that attempts to solve the P vs NP problem by collectively exploring algorithmic search spaces.",
+"why": "While speculative, it showcases novel multi‑agent approaches that could inspire future AI‑driven theorem proving tools.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"p-vs-np",
+"agent-swarm",
+"theorem-proving"
+]
+}
+},
+{
+"id": "590d5f4ad692",
+"key": "https://theverge.com/tech/1039851/major-tech-outages",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+"title": "We haven’t seen the last of the major tech outages",
+"published": "2026-11-22T22:48:02Z",
+"fetched": "2026-11-22T23:35:07Z",
+"excerpt": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be […]",
+"meta": {},
+"ai": {
+"summary": "The Verge article reports recent major tech outages—including an FAA ground stop, Outlook outage, and JPMorgan Chase banking outage—and warns more disruptions are likely, citing DNI Jay Clayton’s comments.",
+"why": "Illustrates the systemic risk of large‑scale service failures, relevant for developers building critical AI‑dependent services.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"outages",
+"infrastructure",
+"risk"
+]
+}
+}
+]

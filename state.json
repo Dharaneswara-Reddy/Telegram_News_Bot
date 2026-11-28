@@ -1,0 +1,736 @@
+{
+ "sources": {
+  "openai_news": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 1.11,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 40
+  },
+  "anthropic_news": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.1,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "deepmind_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.43,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "google_ai_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.58,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 14
+  },
+  "google_research": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.7,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 7
+  },
+  "microsoft_research": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 3.88,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "nvidia_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.58,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 15
+  },
+  "apple_ml": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.22,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "huggingface_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.43,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 22
+  },
+  "aws_ml_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.28,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "bair_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.72,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "hf_daily_papers": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.66,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 25
+  },
+  "simon_willison": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.57,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "import_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.48,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "interconnects": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.65,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 3
+  },
+  "latent_space": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.86,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "ahead_of_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 1.58,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "one_useful_thing": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.57,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "last_week_in_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.42,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "lilian_weng": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.28,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "the_decoder": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.82,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "verge_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.28,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "techcrunch_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.27,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "ars_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.63,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "mit_tech_review_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.43,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "hacker_news": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.47,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 13
+  },
+  "hf_trending_models": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.2,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "gh_vllm": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 1.41,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "gh_ollama": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.64,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 3
+  },
+  "gh_transformers": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 1.63,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "gh_claude_code": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.94,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "gh_codex": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.75,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "gh_gemini_cli": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 1.0,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 3
+  },
+  "anthropic_research": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.3,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "claude_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.49,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 26
+  },
+  "gemini_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.3,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 20
+  },
+  "meta_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.47,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "mistral_news": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.3,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "xai_news": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.35,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "deepseek_updates": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.35,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "qwen_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.27,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "zai_releases": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.54,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "cohere_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.52,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "microsoft_ai_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 3.56,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 3
+  },
+  "thinking_machines": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.19,
+   "last_ok": "2026-11-13T06:40:37Z",
+   "error": "HTTP 404",
+   "fails": 44,
+   "last_count": 0
+  },
+  "ai2_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.36,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "sakana_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.43,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 0
+  },
+  "amazon_science": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.47,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "artificial_analysis": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.43,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 8
+  },
+  "uk_aisi": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.43,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  },
+  "semianalysis": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 1.99,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 4
+  },
+  "understanding_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.92,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "bens_bites": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.78,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 5
+  },
+  "ai_snake_oil": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 1.62,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 2
+  },
+  "karpathy": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.62,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 6
+  },
+  "wired_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.33,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "ieee_spectrum_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 1.27,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 16
+  },
+  "lobsters_ai": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.41,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 14
+  },
+  "pytorch_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 1.36,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 10
+  },
+  "ollama_blog": {
+   "last_checked": "2026-11-28T16:51:18Z",
+   "seconds": 0.44,
+   "last_ok": "2026-11-28T16:51:18Z",
+   "error": "",
+   "fails": 0,
+   "last_count": 1
+  }
+ },
+ "trending_models": [
+  {
+   "id": "thinkingmachines/Inkling-2-Mini",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "likes": 6552,
+   "downloads": 177012,
+   "task": "image-text-to-text",
+   "created": "2026-11-17T00:26:57Z"
+  },
+  {
+   "id": "unsloth/Inkling-2-Mini-GGUF",
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+   "likes": 1651,
+   "downloads": 3621301,
+   "task": "image-text-to-text",
+   "created": "2026-11-20T13:09:48Z"
+  },
+  {
+   "id": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "likes": 685,
+   "downloads": 473980,
+   "task": "text-generation",
+   "created": "2026-11-24T16:32:20Z"
+  },
+  {
+   "id": "SulphurAI/Sulphur-3",
+   "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+   "likes": 1417,
+   "downloads": 759937,
+   "task": "",
+   "created": "2026-10-31T20:31:01Z"
+  },
+  {
+   "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+   "likes": 1064,
+   "downloads": 1297386,
+   "task": "image-text-to-text",
+   "created": "2026-11-20T20:42:23Z"
+  },
+  {
+   "id": "inworld/voice-isolator",
+   "url": "https://huggingface.co/inworld/voice-isolator",
+   "likes": 1023,
+   "downloads": 22810,
+   "task": "audio-to-audio",
+   "created": "2026-11-14T02:14:35Z"
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "likes": 13797,
+   "downloads": 3088512,
+   "task": "image-to-video",
+   "created": "2026-07-23T07:55:24Z"
+  },
+  {
+   "id": "llamaindex/OCRia-nano-1",
+   "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+   "likes": 381,
+   "downloads": 9982,
+   "task": "image-to-text",
+   "created": "2026-11-03T21:44:40Z"
+  },
+  {
+   "id": "ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+   "likes": 325,
+   "downloads": 97896,
+   "task": "text-generation",
+   "created": "2026-11-26T13:01:01Z"
+  },
+  {
+   "id": "nvidia/Nemotron-Labs-Image-30B-A3B",
+   "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+   "likes": 355,
+   "downloads": 2042,
+   "task": "text-to-image",
+   "created": "2026-09-24T21:13:25Z"
+  },
+  {
+   "id": "strata-engine/Inkling-2-Mini-Strata",
+   "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+   "likes": 322,
+   "downloads": 5018,
+   "task": "image-text-to-text",
+   "created": "2026-11-21T18:46:06Z"
+  },
+  {
+   "id": "baidu/ERNIE-5.5-Flash-Preview",
+   "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+   "likes": 399,
+   "downloads": 3585,
+   "task": "text-generation",
+   "created": "2026-11-23T09:00:29Z"
+  },
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "likes": 21962,
+   "downloads": 5595700,
+   "task": "image-text-to-text",
+   "created": "2026-08-05T08:22:59Z"
+  },
+  {
+   "id": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
+   "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
+   "likes": 354,
+   "downloads": 22971,
+   "task": "text-generation",
+   "created": "2026-11-23T05:14:32Z"
+  },
+  {
+   "id": "inclusionAI/Ling-3.2-air",
+   "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+   "likes": 310,
+   "downloads": 2797,
+   "task": "",
+   "created": "2026-11-23T03:55:12Z"
+  },
+  {
+   "id": "facebook/sam-3d-body-dinov3",
+   "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
+   "likes": 2196,
+   "downloads": 22313,
+   "task": "",
+   "created": "2025-11-17T18:44:24Z"
+  },
+  {
+   "id": "Lakonik/pi-H3",
+   "url": "https://huggingface.co/Lakonik/pi-H3",
+   "likes": 375,
+   "downloads": 110842,
+   "task": "image-text-to-video",
+   "created": "2026-11-12T03:39:03Z"
+  },
+  {
+   "id": "black-forest-labs/flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+   "likes": 4807,
+   "downloads": 830099,
+   "task": "image-to-image",
+   "created": "2026-10-14T12:00:13Z"
+  },
+  {
+   "id": "nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "likes": 255,
+   "downloads": 39569,
+   "task": "image-text-to-text",
+   "created": "2026-11-20T01:27:15Z"
+  },
+  {
+   "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "likes": 1072,
+   "downloads": 636548,
+   "task": "text-to-image",
+   "created": "2026-11-03T16:13:25Z"
+  },
+  {
+   "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+   "likes": 1201,
+   "downloads": 4528,
+   "task": "image-text-to-text",
+   "created": "2026-11-16T06:52:31Z"
+  },
+  {
+   "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "likes": 4484,
+   "downloads": 1956180,
+   "task": "image-text-to-text",
+   "created": "2026-09-01T07:01:09Z"
+  },
+  {
+   "id": "facebook/sam3",
+   "url": "https://huggingface.co/facebook/sam3",
+   "likes": 8408,
+   "downloads": 1710912,
+   "task": "mask-generation",
+   "created": "2025-11-07T05:17:48Z"
+  },
+  {
+   "id": "sensenova/SenseNova-Loop-9B",
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+   "likes": 823,
+   "downloads": 4591,
+   "task": "image-text-to-text",
+   "created": "2026-11-17T10:16:41Z"
+  },
+  {
+   "id": "KRAFTON/Raon-1-mini",
+   "url": "https://huggingface.co/KRAFTON/Raon-1-mini",
+   "likes": 208,
+   "downloads": 1951,
+   "task": "text-generation",
+   "created": "2026-11-24T13:17:11Z"
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "likes": 6829,
+   "downloads": 552769,
+   "task": "image-text-to-text",
+   "created": "2026-10-17T02:40:38Z"
+  },
+  {
+   "id": "inclusionAI/LingSante-3.1-flash",
+   "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+   "likes": 256,
+   "downloads": 2606,
+   "task": "text-generation",
+   "created": "2026-11-19T04:30:30Z"
+  },
+  {
+   "id": "Aleph-Alpha/Kolibri-1.1",
+   "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
+   "likes": 223,
+   "downloads": 2072,
+   "task": "text-generation",
+   "created": "2026-11-20T09:01:10Z"
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "likes": 2745,
+   "downloads": 4711632,
+   "task": "image-text-to-text",
+   "created": "2026-08-16T13:18:55Z"
+  },
+  {
+   "id": "Alissonerdx/TE-PK-Minimax-H3",
+   "url": "https://huggingface.co/Alissonerdx/TE-PK-Minimax-H3",
+   "likes": 89,
+   "downloads": 6198,
+   "task": "",
+   "created": "2026-11-26T16:21:48Z"
+  }
+ ],
+ "last_run": {
+  "at": "2026-11-28T16:51:27Z",
+  "new_items": 10,
+  "sources_ok": 59,
+  "sources_failed": [
+   "thinking_machines"
+  ],
+  "llm_calls": 4,
+  "seconds": 13.0
+ }
+}

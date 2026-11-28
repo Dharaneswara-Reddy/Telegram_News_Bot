@@ -1,0 +1,566 @@
+[
+{
+"id": "14f7c249347b",
+"key": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+"title": "Where was Nvidia’s security team?",
+"published": "2026-11-15T00:08:07Z",
+"fetched": "2026-11-15T06:24:05Z",
+"excerpt": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+"meta": {},
+"ai": {
+"summary": "Nvidia’s chief security officer left in August, and the CEO Jensen Huang stepped down amid allegations of ties to a firm suspected of shipping chips to China.",
+"why": "Leadership turnover and security lapses could impact Nvidia’s product roadmap and supply chain reliability for developers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"security",
+"leadership"
+]
+}
+},
+{
+"id": "5741c9d5d773",
+"key": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+"title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+"published": "2026-11-15T10:06:06Z",
+"fetched": "2026-11-15T15:38:32Z",
+"excerpt": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no mention of Nvidia GPUs.\nThe article Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Meituan open‑sourced LongCat‑2.5, a 1.6‑trillion‑parameter agent model trained entirely on Chinese Huawei Ascend chips, achieving 88.4 on the Terminal Bench, just behind Claude Opus 5.",
+"why": "The model demonstrates a viable, Nvidia‑free path for building massive agent models, offering developers an alternative hardware stack.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"meituan",
+"longcat-2.5",
+"agent-model",
+"ascend"
+]
+}
+},
+{
+"id": "4a8fa9eed169",
+"key": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+"title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+"published": "2026-11-15T10:45:58Z",
+"fetched": "2026-11-15T15:38:32Z",
+"excerpt": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers. Author Mike Major cautions against jumping to conclusions, however, noting that business cycle shifts and remote work trends could also explain the numbers.\nThe article Australia's central bank finds AI hitting young workers first, especially in software and customer service appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Australia’s central bank reports that AI adoption has led to a sharper decline in job postings for 15‑ to 24‑year‑old workers in software development and customer service compared with older cohorts since ChatGPT’s launch.",
+"why": "The trend signals potential talent‑supply shifts that hiring managers and developers should monitor when planning recruitment and training.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"australia",
+"labor-market",
+"ai-impact"
+]
+}
+},
+{
+"id": "aeead1487ad7",
+"key": "https://wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+"title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+"published": "2026-11-15T11:00:00Z",
+"fetched": "2026-11-15T15:38:31Z",
+"excerpt": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
+"meta": {},
+"ai": {
+"summary": "A Carnegie Mellon student created OATs, tiny E‑ink devices that attach to everyday objects and act as AI‑driven virtual pets that encourage better habits.",
+"why": "Shows a novel edge‑AI interaction model that could inspire developers to embed lightweight AI personalities in IoT devices.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"iot",
+"virtual-pet",
+"e-ink"
+]
+}
+},
+{
+"id": "10d2e3c2e071",
+"key": "https://wired.com/story/ai-djs-completely-kill-my-groove",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+"title": "AI DJs Completely Kill My Groove",
+"published": "2026-11-15T12:00:00Z",
+"fetched": "2026-11-15T15:38:31Z",
+"excerpt": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+"meta": {},
+"ai": {
+"summary": "Wired critiques AI‑generated DJ hosts on YouTube Music and Spotify, arguing their scripted banter and trivia degrade the listening experience.",
+"why": "Highlights user‑experience risks of deploying generative AI in consumer media products, a caution for developers building similar features.",
+"category": "other",
+"importance": 2,
+"tags": [
+"ai-dj",
+"spotify",
+"youtube-music"
+]
+}
+},
+{
+"id": "ff25ed4e9cc5",
+"key": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+"source": "ahead_of_ai",
+"source_name": "Ahead of AI",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+"title": "Understanding Positional Embeddings in Modern LLMs",
+"published": "2026-11-15T12:10:37Z",
+"fetched": "2026-11-15T15:38:34Z",
+"excerpt": "The Methods Behind How LLMs Represent Token Positions",
+"meta": {},
+"ai": {
+"summary": "The article explains how modern large language models encode token positions using various positional embedding techniques such as rotary embeddings, absolute sinusoidal embeddings, and learned embeddings.",
+"why": "Understanding these methods helps developers choose or fine‑tune models for tasks where token order matters.",
+"category": "research",
+"importance": 3,
+"tags": [
+"positional-embeddings",
+"llms",
+"model-architecture"
+]
+}
+},
+{
+"id": "6b512d133d4d",
+"key": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+"title": "Understanding Positional Embeddings in Modern LLMs",
+"published": "2026-11-15T12:14:06Z",
+"fetched": "2026-11-15T21:01:45Z",
+"excerpt": "",
+"meta": {
+"points": 241,
+"comments": 27,
+"hn_url": "https://news.ycombinator.com/item?id=50506376"
+},
+"ai": {
+"summary": "A Hacker News discussion explains how positional embeddings are used in modern large language models to encode token order.",
+"why": "Understanding embedding mechanisms helps developers fine‑tune models and design more efficient architectures.",
+"category": "research",
+"importance": 3,
+"tags": [
+"llm",
+"positional-embeddings",
+"nlp"
+]
+}
+},
+{
+"id": "fa707a0887ff",
+"key": "https://theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+"title": "An overview of Jensen Huang’s messy days",
+"published": "2026-11-15T13:00:00Z",
+"fetched": "2026-11-15T15:38:31Z",
+"excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October […]",
+"meta": {},
+"ai": {
+"summary": "The Verge’s newsletter \"The Stepback\" provides a recap of Jensen Huang’s resignation from Nvidia and the resulting leadership turmoil at the company.",
+"why": "Developers tracking Nvidia’s strategic direction need to know how leadership changes might impact hardware roadmaps and software ecosystems.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"leadership",
+"jensen-huang"
+]
+}
+},
+{
+"id": "88edd025eafd",
+"key": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+"title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+"published": "2026-11-15T14:45:12Z",
+"fetched": "2026-11-15T15:38:32Z",
+"excerpt": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent.\nThe article Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Megaspeed, a firm owned by Alice Huang, arranged roughly $12 billion in Nvidia chip orders for Chinese customers between 2024 and 2025, suggesting Nvidia’s revenue from China may exceed the reported 7 % share.",
+"why": "The scale of unofficial China sales could affect supply chain planning and geopolitical risk assessments for developers relying on Nvidia hardware.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"china",
+"chip-sales"
+]
+}
+},
+{
+"id": "6d2af681548f",
+"key": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+"title": "All AI-generated code should be Open Source",
+"published": "2026-11-15T14:46:58Z",
+"fetched": "2026-11-15T21:01:45Z",
+"excerpt": "",
+"meta": {
+"points": 1240,
+"comments": 649,
+"hn_url": "https://news.ycombinator.com/item?id=50507303"
+},
+"ai": {
+"summary": "A post on Hacker News argues that all AI‑generated code should be released under an open‑source license.",
+"why": "Open‑sourcing AI‑generated code could improve transparency, reproducibility, and community safety.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"openai",
+"code",
+"opensource"
+]
+}
+},
+{
+"id": "5c31f95bcc1e",
+"key": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+"title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+"published": "2026-11-15T15:42:03Z",
+"fetched": "2026-11-15T21:01:36Z",
+"excerpt": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application. A single photorealistic parking garage scene took roughly 700,000 strokes, according to Anthropic employee Jake Eaton.\nThe article Anthropic's Claude Fable 5.2 doesn't generate images, it paints them appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The Decoder reports that Anthropic’s Claude Fable 5.2 generates images by outputting Python code that simulates brushstrokes, rather than directly rendering pixels.",
+"why": "This novel approach enables a language model to create high‑detail visual content while keeping the generation process interpretable as code.",
+"category": "models",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude-fable",
+"image-generation"
+]
+}
+},
+{
+"id": "f4a9cd80e460",
+"key": "https://theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+"title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+"published": "2026-11-15T19:15:43Z",
+"fetched": "2026-11-15T21:01:35Z",
+"excerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority […]",
+"meta": {},
+"ai": {
+"summary": "The Verge notes that U.S. Congress is drafting legislation to tighten export controls on AI chips following a suspected espionage incident involving Nvidia executives.",
+"why": "Stricter export rules could limit developers’ access to high‑end GPUs and reshape the AI hardware supply chain.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"nvidia",
+"ai-chips",
+"export-controls"
+]
+}
+},
+{
+"id": "4d96684dc272",
+"key": "https://ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+"title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+"published": "2026-11-15T19:31:11Z",
+"fetched": "2026-11-16T02:01:49Z",
+"excerpt": "",
+"meta": {
+"points": 132,
+"comments": 129,
+"hn_url": "https://news.ycombinator.com/item?id=50509883"
+},
+"ai": {
+"summary": "Jensen Huang discussed a possible comeback as Nvidia CEO with allies in a public forum.",
+"why": "Reinforces speculation about Nvidia’s governance and could signal upcoming shifts in AI chip strategy.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"jensen-huang"
+]
+}
+},
+{
+"id": "244c555e5863",
+"key": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+"title": "‘SNL’ gathers all the tech tycoons for a lesson in dating and spycraft",
+"published": "2026-11-15T20:20:57Z",
+"fetched": "2026-11-15T21:01:35Z",
+"excerpt": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch describes a Saturday Night Live episode that parodied tech executives through sketches about dating and spycraft.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"snl",
+"techculture"
+]
+}
+},
+{
+"id": "a6a893bd00d4",
+"key": "https://theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+"title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+"published": "2026-11-15T20:43:49Z",
+"fetched": "2026-11-15T21:01:35Z",
+"excerpt": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO, […]",
+"meta": {},
+"ai": {
+"summary": "The Verge reports rumors that Nvidia co‑founder Jensen Huang may be seeking to return as CEO amid ongoing corporate drama.",
+"why": "Leadership changes at Nvidia could affect product roadmaps and developer access to GPU technologies.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"jensen-huang",
+"leadership"
+]
+}
+},
+{
+"id": "90dfbf94744c",
+"key": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+"title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+"published": "2026-11-15T21:56:35Z",
+"fetched": "2026-11-16T02:01:47Z",
+"excerpt": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+"meta": {},
+"ai": {
+"summary": "An opinion piece argues that any negative news about Jensen Huang could have broader repercussions for the AI industry due to Nvidia’s market dominance.",
+"why": "Highlights the systemic risk of over‑reliance on a single AI hardware supplier.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"jensen-huang",
+"market-risk"
+]
+}
+},
+{
+"id": "feca8e3f7ccc",
+"key": "https://openai.com/index/our-new-blog-for-science",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/our-new-blog-for-science",
+"title": "Our new blog for science",
+"published": "2026-11-15T22:00:00Z",
+"fetched": "2026-11-16T02:01:46Z",
+"excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+"meta": {},
+"ai": {
+"summary": "OpenAI launched a science‑focused blog that will publish new AI‑driven research findings, methods, and case studies.",
+"why": "Provides developers a curated source of practical AI applications in scientific domains.",
+"category": "other",
+"importance": 2,
+"tags": [
+"openai",
+"science-blog"
+]
+}
+},
+{
+"id": "4504f186e41e",
+"key": "https://openai.com/index/step-toward-defining-the-standard-model",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/step-toward-defining-the-standard-model",
+"title": "A step toward defining the Standard Model on a lattice",
+"published": "2026-11-15T22:00:01Z",
+"fetched": "2026-11-16T02:01:46Z",
+"excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+"meta": {},
+"ai": {
+"summary": "OpenAI used its GPT-6 Astra model to generate a detailed proof for a candidate nonperturbative lattice definition of the Standard Model.",
+"why": "Shows how advanced language models can assist in high‑energy physics research and formal proof generation.",
+"category": "research",
+"importance": 4,
+"tags": [
+"openai",
+"gpt-6",
+"standard-model",
+"lattice"
+]
+}
+},
+{
+"id": "06914a929138",
+"key": "https://reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+"title": "Jensen Huang might return to Nvidia as CEO",
+"published": "2026-11-15T23:24:53Z",
+"fetched": "2026-11-16T02:01:49Z",
+"excerpt": "",
+"meta": {
+"points": 177,
+"comments": 190,
+"hn_url": "https://news.ycombinator.com/item?id=50511982"
+},
+"ai": {
+"summary": "Rumors suggest Jensen Huang may return to Nvidia as CEO after stepping down.",
+"why": "Potential leadership change could affect Nvidia’s strategic direction and AI hardware roadmap.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"jensen-huang",
+"leadership"
+]
+}
+},
+{
+"id": "c870d60c8d80",
+"key": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+"title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+"published": "2026-11-15T23:30:00Z",
+"fetched": "2026-11-16T02:01:47Z",
+"excerpt": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies, including General Atomics.",
+"meta": {},
+"ai": {
+"summary": "Indian startup Bharat Semi raised $24 million in seed funding to develop AI‑enabled sensor technology and has secured design wins with companies like General Atomics.",
+"why": "Funding accelerates development of AI edge sensors, expanding the hardware ecosystem for AI inference.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"bharat-semi",
+"ai-sensors",
+"funding"
+]
+}
+},
+{
+"id": "dd6ee55bad33",
+"key": "https://steveblank.com/2026/11/15/whats-next-for-nvidia",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+"title": "What's Next for Nvidia?",
+"published": "2026-11-15T23:55:55Z",
+"fetched": "2026-11-16T09:37:08Z",
+"excerpt": "",
+"meta": {
+"points": 465,
+"comments": 571,
+"hn_url": "https://news.ycombinator.com/item?id=50512235"
+},
+"ai": {
+"summary": "A Hacker News discussion titled “What’s Next for Nvidia?” examines Nvidia’s upcoming product roadmap, competitive positioning, and potential impact on AI hardware markets.",
+"why": "Understanding Nvidia’s strategy helps developers anticipate hardware availability and cost trends for training and inference.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"industry"
+]
+}
+}
+]

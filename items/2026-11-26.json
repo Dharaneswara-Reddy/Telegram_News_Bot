@@ -1,0 +1,1428 @@
+[
+{
+"id": "075474476699",
+"key": "arxiv:2611.34466",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34466",
+"title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the surrounding context. We call this interaction paradigm Ego Use. However, first-person observations are limited by the wearer's viewpoint and may provide incomplete or ambiguous evidence of ongoing activities. As new observations arrive, agents may need to revise their understanding of the physical…",
+"meta": {
+"upvotes": 20,
+"comments": 2,
+"authors": [
+"Yurun Chen",
+"Biao Yi",
+"Qihang Yu",
+"Keting Yin",
+"Shengyu Zhang"
+],
+"github": "https://github.com/YurunChen/EgoUseBench",
+"org": "Zhejiang University"
+},
+"ai": {
+"summary": "EgoUseBench is a benchmark that evaluates computer‑use agents that operate from first‑person wearable observations, testing how they handle tasks grounded in a user's physical context.",
+"why": "It provides a standard for measuring and improving agents that integrate AR/VR wearables with digital workflows.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"ego-use",
+"benchmark",
+"wearables"
+]
+}
+},
+{
+"id": "294f5ff5a533",
+"key": "arxiv:2611.34347",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34347",
+"title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuring where an online social decision fails. We introduce AIRIS, a causal streaming benchmark that formulates social embodied intelligence as a time-anchored chain of Attention, Intention, Reaction, and Interaction (A-I-R-I). AIRIS contains 8,000 expert-curated questions grounded in 357 egocentric clips across 11 context categories and 36 capability dimensions. At each query…",
+"meta": {
+"upvotes": 17,
+"comments": 2,
+"authors": [
+"Yuchen Zhou",
+"Hongsheng Wu",
+"Jiayu Tang",
+"Yunxuan Mao",
+"Hanjing Ye",
+"Shenghao Zhang"
+],
+"github": "https://github.com/AIRIS-bench/AIRIS",
+"org": "Tencent"
+},
+"ai": {
+"summary": "AIRIS is a causal streaming benchmark that evaluates social embodied intelligence by requiring agents to make time‑anchored decisions in egocentric videos, testing attention, intent, and response under social norms.",
+"why": "Provides a realistic testbed for developers building socially aware embodied agents.",
+"category": "research",
+"importance": 3,
+"tags": [
+"embodied-ai",
+"benchmark",
+"social-intelligence"
+]
+}
+},
+{
+"id": "2c89c9f83342",
+"key": "arxiv:2611.34575",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34575",
+"title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activated parameters, built by combining stage-specific curation over 322.7 million candidate records with a…",
+"meta": {
+"upvotes": 82,
+"comments": 2,
+"authors": [
+"Med Team",
+"Ming Hu",
+"Cheng Tang",
+"Wei Li",
+"Rongbin Li",
+"Feilong Tang"
+],
+"github": "https://github.com/Sage-Med/Sage-Med-Preview",
+"org": "Shanghai AI Laboratory"
+},
+"ai": {
+"summary": "Sage‑Med presents scaling experiments on medical multimodal large language models, finding that larger model sizes improve text tasks but do not close the visual perception gap compared to frontier general‑purpose LLMs.",
+"why": "The results guide developers on where scaling effort yields returns and where architectural changes are needed for medical vision tasks.",
+"category": "research",
+"importance": 3,
+"tags": [
+"sage-med",
+"medical-ml",
+"multimodal"
+]
+}
+},
+{
+"id": "3be2aee093ef",
+"key": "arxiv:2611.33144",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.33144",
+"title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations. The programmatic policy is developed in two stages: during exploration, multiple agents explore in parallel for task skills and ways to compose them, and a distilling agent condenses the successful attempts into a task library and one program. During refinement, this program is improved…",
+"meta": {
+"upvotes": 43,
+"comments": 3,
+"authors": [
+"Feixiang Ruan",
+"Guodong Lv",
+"Kewei Zhang",
+"Wenbo Huang",
+"Yintianrun Zhang",
+"Qiang Wang"
+],
+"org": "DAGroup-PKU"
+},
+"ai": {
+"summary": "PyRUA‑Dex introduces a framework where coding agents learn programmatic policies for dexterous bimanual manipulation without human demonstrations, using exploration and refinement stages.",
+"why": "Enables developers to create high‑precision robotic control software via code generation rather than costly data collection.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"pyrua-dex",
+"dexterous-manipulation",
+"coding-agent"
+]
+}
+},
+{
+"id": "4348cf03e41a",
+"key": "arxiv:2611.34929",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34929",
+"title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T21:28:05Z",
+"excerpt": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretrained pixel-space diffusion transformers for high-fidelity image matting. We show that strong image-conditioned matting capabilities can be acquired even from a pure text-to-image model without paired image-to-image pretraining. Our approach reuses the backbone's native patch embedding to jointly…",
+"meta": {
+"upvotes": 21,
+"comments": 4,
+"authors": [
+"Baihan Yang",
+"Xin Lin",
+"Yufan Wei",
+"Baiang Li",
+"Yuheng Liu",
+"Juanxi Tian"
+],
+"github": "https://github.com/White-YC/pixelmatte"
+},
+"ai": {
+"summary": "PixelMatte is a new framework that adapts pretrained pixel‑space diffusion transformers for high‑fidelity image matting, avoiding the low‑frequency limitations of latent diffusion models.",
+"why": "The method can be used to build more accurate matting tools in graphics and vision pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"image-matting",
+"diffusion",
+"transformers"
+]
+}
+},
+{
+"id": "459be3b14114",
+"key": "arxiv:2611.28732",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.28732",
+"title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-27T04:13:48Z",
+"excerpt": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard action losses allow policies to rely on initial-scene or task-identity shortcuts rather than tracking the context. We present Entangle, an in-context world-action model that maps a single human video and current robot observations to future visual states and executable actions. To scale temporally…",
+"meta": {
+"upvotes": 34,
+"comments": 3,
+"authors": [
+"Chendong Xiang",
+"Chengwen Zhang",
+"Ruowen Zhao",
+"Zeyuan Wang",
+"Shuhe Huang",
+"Rongxu Cui"
+]
+},
+"ai": {
+"summary": "The paper introduces Entangle, a world-action model that uses in‑context learning from human videos to perform robotic manipulation tasks without fine‑tuning, addressing misalignment between human‑robot video pairs and shortcut learning in action losses.",
+"why": "It shows how to leverage unaligned human video data for more generalizable robot policies, which developers can adapt for flexible robot control pipelines.",
+"category": "research",
+"importance": 4,
+"tags": [
+"robotics",
+"in‑context‑learning",
+"world‑action‑model"
+]
+}
+},
+{
+"id": "5d52403a3b53",
+"key": "arxiv:2611.34907",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34907",
+"title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not allow. We present Agentic LongLive, an asynchronous agentic memory for long video generation. A memory agent on separate GPUs reads only the prompts revealed so far, never the generated video, and keeps a text state and evolving images for every person, object, and scene. From this entity memory it…",
+"meta": {
+"upvotes": 25,
+"comments": 2,
+"authors": [
+"Shaoteng Liu",
+"Shuai Yang",
+"Wei Huang",
+"Luozhou Wang",
+"Song Han",
+"Yukang Chen"
+],
+"github": "https://github.com/NVlabs/LongLive",
+"org": "NVIDIA"
+},
+"ai": {
+"summary": "Agentic LongLive introduces an asynchronous agentic memory system that lets real-time autoregressive video generators maintain consistent people, objects, and places over long interactive stories without pre‑reading the entire script.",
+"why": "It enables developers building live video generation tools to keep narrative coherence across extended streams.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"video-generation",
+"agentic-memory",
+"longlive"
+]
+}
+},
+{
+"id": "5f27653c5e89",
+"key": "arxiv:2611.34923",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34923",
+"title": "Mixture-of-Loops Transformer",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embeddings and reads current-loop local KV with preceding-loop memory KV at earlier positions for efficiency…",
+"meta": {
+"upvotes": 76,
+"comments": 2,
+"authors": [
+"Lianghui Zhu",
+"Shijie Wang",
+"Xinggang Wang",
+"Jinze Bai",
+"Bo Wang",
+"Xiang Bai"
+],
+"github": "https://github.com/hustvl/MoLT",
+"org": "ByteDance Seed"
+},
+"ai": {
+"summary": "The Mixture‑of‑Loops Transformer (MoLT) introduces Mixture‑of‑Loops Attention, using keys and values as reusable memory across transformer loops to improve expressivity without sacrificing efficiency.",
+"why": "Developers can adopt MoLT to build deeper or loop‑based models that retain performance while reducing compute overhead.",
+"category": "models",
+"importance": 3,
+"tags": [
+"molt",
+"transformer",
+"attention"
+]
+}
+},
+{
+"id": "5fd921ccb32c",
+"key": "arxiv:2611.33457",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.33457",
+"title": "Playfulness as Feedback for Agentic Game Development",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Coding agents can generate runnable games from natural-language descriptions. However, a runnable game does not guarantee an excellent gameplay experience for players. In our view, a playful game should provide 1) reliable core functionality, 2) appealing visual design and assets, and 3) rich gameplay that supports exploration and progression. How agents can improve these aspects of playfulness remains underexplored. In our work, we propose Play2Evolve, a recursive game development framework with three stages: Initialization, Refinement, and Evolution. Using playfulness as feedback, agents playtest the game and diagnose issues in its functionality, visual presentation, and gameplay. Their…",
+"meta": {
+"upvotes": 22,
+"comments": 4,
+"authors": [
+"Weijia Mao",
+"Kevin Qinghong Lin",
+"Zhen Fang",
+"Danze Chen",
+"Dongxing Mao",
+"Mike Zheng Shou"
+],
+"github": "https://github.com/showlab/Play2Evolve",
+"org": "Show Lab"
+},
+"ai": {
+"summary": "Play2Evolve is a recursive framework where a coding agent iteratively refines a game’s core functionality, visual assets, and gameplay depth, using playfulness as feedback to improve generated games.",
+"why": "Offers a concrete pipeline for developers to automate game creation and iterative quality improvement.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"game-development",
+"coding-agent",
+"playfulness"
+]
+}
+},
+{
+"id": "674be24b4e55",
+"key": "arxiv:2611.30844",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.30844",
+"title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Looped MoE DiT (DyLoMo-DiT), which reuses parameters rather than adding them: a weight-shared loop repeatedly applies the middle layers, while sparse experts allocate parameter capacity across tokens. This design deepens the network without adding parameters, freeing the parameter budget for other uses, such as more experts or more distinct layers. It also allocates compute dynamically, varying the…",
+"meta": {
+"upvotes": 73,
+"comments": 5,
+"authors": [
+"Lernie Li",
+"Yuanliu Liu",
+"Pengfei Xiong",
+"Wei Zhang"
+],
+"github": "https://github.com/OneBoxCream/DyLoMo-DiT"
+},
+"ai": {
+"summary": "DyLoMo-DiT proposes a Dynamic Looped Mixture‑of‑Experts diffusion transformer that reuses middle‑layer weights in a weight‑shared loop and adds sparse experts, increasing parameter capacity while keeping per‑token compute stable.",
+"why": "Developers can train larger diffusion models with lower memory overhead, enabling more powerful generative applications.",
+"category": "research",
+"importance": 3,
+"tags": [
+"diffusion",
+"moe",
+"transformer"
+]
+}
+},
+{
+"id": "6d1d83fef761",
+"key": "arxiv:2611.30472",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.30472",
+"title": "Target-Part Preference Optimization for Part-Aware 3D Generation",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Part-aware 3D generation requires not only globally plausible objects but also complete, well-separated semantic parts, yet high-quality part decompositions remain too scarce to support large-scale supervised fine-tuning. We study whether preference fine-tuning based on Direct Preference Optimization (DPO) can adapt a pretrained part-aware generator from limited part-annotated data without architectural changes. We rank candidates generated with different random seeds against ground-truth (GT) geometric metrics, and select the (object, target-part) examples with the largest across-seed quality gap. Each selected example stores a seed pair whose two flow trajectories share one clean GT…",
+"meta": {
+"upvotes": 14,
+"comments": 2,
+"authors": [
+"Zishan Qin",
+"Rui Li",
+"Zeyu Zhang",
+"Sevvandi Kandanaarachchi",
+"Lina Yao",
+"Dong Gong"
+]
+},
+"ai": {
+"summary": "The paper proposes using Direct Preference Optimization to fine‑tune a pretrained part‑aware 3D generator on limited part‑annotated data, improving semantic part separation without changing the model architecture.",
+"why": "Developers can improve 3D generation quality for applications like CAD or gaming using small labeled datasets.",
+"category": "research",
+"importance": 3,
+"tags": [
+"3d-generation",
+"dpo",
+"part-aware"
+]
+}
+},
+{
+"id": "7896768d533c",
+"key": "arxiv:2611.34420",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34420",
+"title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We introduce DocSEAM (Document Selective Enrichment via Anchored Masking), a lightweight module inserted between a pretrained vision encoder and the language model that injects the inductive bias of local cross-page context into visual representations. For each page, DocSEAM forms a local triplet with its two neighbors, applies center-anchored masked self-attention with directional salience gates to fuse…",
+"meta": {
+"upvotes": 28,
+"comments": 4,
+"authors": [
+"Hoang-Nhat Nguyen",
+"Chen Change Loy"
+],
+"github": "https://github.com/mossbee/DocSEAM",
+"org": "MMLab@NTU"
+},
+"ai": {
+"summary": "DocSEAM is a lightweight module inserted between a pretrained vision encoder and language model that injects cross‑page visual context via anchored masking, improving multi‑page document understanding.",
+"why": "It enables developers to build better V‑L systems for PDFs and scanned books without retraining large models.",
+"category": "research",
+"importance": 3,
+"tags": [
+"document-understanding",
+"vision-language",
+"docseam"
+]
+}
+},
+{
+"id": "8764d97bc682",
+"key": "arxiv:2611.34237",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34237",
+"title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding session bloats its long-horizon context, while critiquing only the finished full-resolution render turns early design mistakes into costly rewrites. We introduce VibeVideoAgent, a training-free…",
+"meta": {
+"upvotes": 58,
+"comments": 5,
+"authors": [
+"Xuanyu Zheng",
+"Luoyuan Zhang",
+"Yancheng Long",
+"Haoyang Xu",
+"Muxi Diao",
+"Yuzhe Chen"
+],
+"github": "https://github.com/Kling-Keye/VibeVideoAgent",
+"org": "Kling-Keye"
+},
+"ai": {
+"summary": "VibeVideoAgent proposes a coding‑agent loop that generates video by writing rendering code, runs it, and feeds the resulting frames and audio back into the agent for iterative improvement.",
+"why": "It offers a concrete framework for developers to build controllable, editable video generation pipelines driven by code rather than black‑box diffusion models.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"vibevideoagent",
+"video-generation",
+"coding-agent"
+]
+}
+},
+{
+"id": "a0a1b3347ed9",
+"key": "arxiv:2611.31237",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.31237",
+"title": "Let Vision-Language Models Generate Images through Their Representations",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-27T04:13:48Z",
+"excerpt": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this knowledge effectively accessible to visual generation remains nontrivial. We find that a central challenge lies in the heterogeneous visual representations used for understanding and generation. To address this challenge, we introduce Integral, which converts a pretrained vision-language model into a unified multimodal model by constructing a shared visual representation space across the two…",
+"meta": {
+"upvotes": 19,
+"comments": 3,
+"authors": [
+"JB Kim",
+"Byungwoo Jeon",
+"Kyungmin Lee",
+"Hyeonmo Kang",
+"Cheonbok Park",
+"Shinyoung Joo"
+],
+"github": "https://github.com/the-jb/integral",
+"org": "KAIST AI"
+},
+"ai": {
+"summary": "The authors propose a method for vision‑language models to generate images by reusing their internal multimodal representations, bridging the gap between understanding and synthesis in unified models.",
+"why": "Enabling image generation from existing VL models could simplify building multimodal applications without training separate generators.",
+"category": "research",
+"importance": 3,
+"tags": [
+"vision‑language",
+"image‑generation",
+"multimodal"
+]
+}
+},
+{
+"id": "a2a2c76e85dc",
+"key": "arxiv:2611.34128",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34128",
+"title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable pipeline that directly recovers continuous, high-fidelity 3D surfaces from unposed images by seamlessly integrating pointmap- and ray-based representations. Our approach first extracts explicit geometric priors using a pre-trained pointmap model. A query-view-centric selection module then identifies geometrically relevant reference views via a robust surfel voting mechanism. Next, a cross-attention regressor bridges…",
+"meta": {
+"upvotes": 17,
+"comments": 2,
+"authors": [
+"Shenxing Wei",
+"Jinxi Li",
+"Zihui Zhang",
+"Ajay Kumar",
+"Wei Wang",
+"Bo Yang"
+],
+"github": "https://github.com/vLAR-group/FoundSurface",
+"org": "The Hong Kong Polytechnic University"
+},
+"ai": {
+"summary": "FoundSurface presents a feed‑forward pipeline that combines point‑map and ray‑based representations to reconstruct continuous, high‑fidelity 3D surfaces directly from unposed images.",
+"why": "Enables developers to obtain accurate 3D models without needing camera pose estimation, simplifying 3D reconstruction pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"3d-reconstruction",
+"unposed-images",
+"foundsurface"
+]
+}
+},
+{
+"id": "af8ce9f5d2f8",
+"key": "https://huggingface.co/blog/training-swarms",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/training-swarms",
+"title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T21:28:05Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "A guide details how to design, train, and evaluate multi‑agent systems such as swarms, flocks, and gangs using existing frameworks.",
+"why": "Helps developers implement complex coordinated AI behaviors for simulations or robotics.",
+"category": "research",
+"importance": 3,
+"tags": [
+"multi‑agent",
+"swarm",
+"training"
+]
+}
+},
+{
+"id": "b1ae7e9bd6cf",
+"key": "arxiv:2611.34849",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34849",
+"title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2SimLab, a unified platform for real-to-simulation transfer. It evaluates a method by running its written program and scoring the output simulation with the original scorer of each benchmark. Moreover…",
+"meta": {
+"upvotes": 18,
+"comments": 3,
+"authors": [
+"Yongchang Zhang",
+"Jie Huang",
+"Yunhe Ni",
+"Ningyu Zhou",
+"Guangyu Zhao",
+"Ruixun Liu"
+],
+"github": "https://github.com/Real2SimHub/Real2SimLab",
+"org": "PKU-VaLuE-Lab"
+},
+"ai": {
+"summary": "The authors introduce Real2SimLab, a unified platform that standardizes inputs, outputs, and evaluation pipelines for real-to-simulation transfer benchmarks, eliminating the need for separate integrations across methods and benchmarks.",
+"why": "It lets developers compare and benchmark coding agents for simulation generation on a common framework, speeding research cycles.",
+"category": "research",
+"importance": 3,
+"tags": [
+"real2sim",
+"simulation",
+"coding-agents"
+]
+}
+},
+{
+"id": "d1fc14ed5163",
+"key": "arxiv:2611.34941",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34941",
+"title": "Improving and Expanding Video Editing Capabilities Without Videos",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural changes and no new videos, using only individual images. Our key idea is to let the video editor role-play as an image editor: it edits an image as a one-frame video, with the image editor guiding the…",
+"meta": {
+"upvotes": 47,
+"comments": 3,
+"authors": [
+"Ji Xie",
+"Yanhao Jia",
+"Xiangpeng Yang",
+"Martin Q. Ma",
+"Sihan Xu",
+"Erik Cambria"
+],
+"github": "https://github.com/HorizonWind2004/i2v-transfer",
+"org": "Carnegie Mellon University School of Computer Science"
+},
+"ai": {
+"summary": "The paper introduces Image-to-Video Transfer (I2VT), a method that upgrades pretrained video editors with capabilities from image editors without needing new paired video data, using post‑training only and no architectural changes.",
+"why": "It lets developers add advanced image‑editing functions to existing video models cheaply, expanding video editing toolkits.",
+"category": "research",
+"importance": 3,
+"tags": [
+"video-editing",
+"image-to-video",
+"i2vt"
+]
+}
+},
+{
+"id": "e3449ea4d4f9",
+"key": "arxiv:2611.34811",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.34811",
+"title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+"published": "2026-11-26T00:00:00Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusion transformer (DiT) module reads RGB features through asymmetric attention, allowing its objective to shape the visual representation used for control. The module is used only during training and removed at inference, preserving FastWAM's RGB-to-action architecture. We evaluate four controlled observation corruptions through a visual-corruption extension of RoboTwin, termed RoboTwin-Plus…",
+"meta": {
+"upvotes": 23,
+"comments": 2,
+"authors": [
+"Boxuan Dong",
+"Yupeng Qian",
+"Ying Wu",
+"Heshuai Li",
+"Junhao Tan",
+"Zhenxiong Tan"
+],
+"github": "https://github.com/iPPLab/HOG-WAM",
+"org": "intelligence++"
+},
+"ai": {
+"summary": "HOG‑WAM adds an auxiliary HOG diffusion transformer that predicts future Histograms of Oriented Gradients from demonstration images, providing structural supervision to improve visual robustness in world‑action models.",
+"why": "The technique can be added during training to make vision‑based policies more resilient to visual corruption.",
+"category": "research",
+"importance": 3,
+"tags": [
+"robustness",
+"world-action",
+"hog"
+]
+}
+},
+{
+"id": "8fa3567926f0",
+"key": "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases",
+"source": "semianalysis",
+"source_name": "SemiAnalysis",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases",
+"title": "Evaluating Recent Model Releases on GDPx",
+"published": "2026-11-26T00:05:35Z",
+"fetched": "2026-11-26T00:18:41Z",
+"excerpt": "GPT-6.2 Astra takes the crown but bad at software engineering, Gemini 4 Neon is an impressive improvement from Google but still overrated, Fable 5.2 is smart but expensive, and new Chinese models as well",
+"meta": {},
+"ai": {
+"summary": "GPT‑6.2 Astra was ranked top on the GDPx benchmark, while Gemini 4 Neon showed notable gains over previous Google models, and Fable 5.2 performed well but at a high cost; several new Chinese models were also evaluated.",
+"why": "Shows current performance landscape for developers choosing models for production workloads.",
+"category": "models",
+"importance": 3,
+"tags": [
+"gpt-6.2",
+"gemini-4",
+"fable-5.2"
+]
+}
+},
+{
+"id": "abbb1b4dad78",
+"key": "https://pytorch.org/blog/explore-the-pytorch-day-china-2026-schedule",
+"source": "pytorch_blog",
+"source_name": "PyTorch",
+"src_category": "opensource",
+"weight": 3,
+"kind": "article",
+"url": "https://pytorch.org/blog/explore-the-pytorch-day-china-2026-schedule/",
+"title": "Explore the PyTorch Day China 2026 Schedule",
+"published": "2026-11-26T02:44:16Z",
+"fetched": "2026-11-26T10:51:06Z",
+"excerpt": "The next wave of AI innovation is happening now. Join the developers, researchers, engineers, and industry leaders driving that progress at PyTorch Day China 2026, taking place December 12 in...\nThe post Explore the PyTorch Day China 2026 Schedule appeared first on PyTorch .",
+"meta": {},
+"ai": {
+"summary": "PyTorch Day China 2026 will be held on December 12, featuring talks and demos from developers, researchers, and industry leaders in AI.",
+"why": "Attending offers networking and insight into the latest PyTorch advancements relevant to developers.",
+"category": "events",
+"importance": 2,
+"tags": [
+"pytorch",
+"china",
+"conference"
+]
+}
+},
+{
+"id": "23a70f274b38",
+"key": "https://twitter.com/thsottiaux/status/2125784147889393806",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+"title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+"published": "2026-11-26T03:36:58Z",
+"fetched": "2026-11-26T10:51:05Z",
+"excerpt": "",
+"meta": {
+"points": 495,
+"comments": 269,
+"hn_url": "https://news.ycombinator.com/item?id=50651117"
+},
+"ai": {
+"summary": "OpenAI announced that the GPT‑6.2 model now enforces usage limits that trigger 40% faster throttling for the Astra endpoint and 25% faster throttling for the Sol endpoint.",
+"why": "Developers using these endpoints must adjust request rates or handle faster rate‑limit errors to avoid service interruptions.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"openai",
+"gpt-6.2",
+"rate-limits"
+]
+}
+},
+{
+"id": "8e88413da532",
+"key": "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime",
+"title": "Browser tabs as a container runtime",
+"published": "2026-11-26T04:57:04Z",
+"fetched": "2026-11-26T10:51:04Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A discussion post on Lobsters proposes treating browser tabs as a lightweight container runtime, drawing parallels to process isolation and resource management.",
+"why": "If adopted, this idea could inspire new tooling for web‑based development environments.",
+"category": "other",
+"importance": 2,
+"tags": [
+"browser",
+"container-runtime",
+"lobsters"
+]
+}
+},
+{
+"id": "6393ef423d0a",
+"key": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+"title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+"published": "2026-11-26T05:05:36Z",
+"fetched": "2026-11-26T10:51:02Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "A guide details how to fine‑tune Nemotron 3.5‑Parse using open data and achieve faster inference through optimization techniques.",
+"why": "Provides a practical roadmap for developers to adapt Nemotron 3.5‑Parse for custom parsing tasks with improved latency.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"nemotron-3.5",
+"fine-tuning",
+"inference"
+]
+}
+},
+{
+"id": "6d4e70dd1a5a",
+"key": "https://micjm.com/blog/openai-is-in-cost-control-mode",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+"title": "OpenAI may be in cost control mode",
+"published": "2026-11-26T07:33:12Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "",
+"meta": {
+"points": 340,
+"comments": 348,
+"hn_url": "https://news.ycombinator.com/item?id=50652527"
+},
+"ai": {
+"summary": "Reports suggest OpenAI is tightening spending, possibly limiting compute or scaling back new model releases.",
+"why": "May affect developers relying on OpenAI APIs for cost‑sensitive projects.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"cost",
+"budget"
+]
+}
+},
+{
+"id": "00022a35e899",
+"key": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+"title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+"published": "2026-11-26T09:44:23Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "",
+"meta": {
+"points": 363,
+"comments": 309,
+"hn_url": "https://news.ycombinator.com/item?id=50653477"
+},
+"ai": {
+"summary": "Google announced that its Multi‑Client Presence (MCP) servers will host AI agents, but the Gmail‑linked agent currently cannot send emails.",
+"why": "Indicates upcoming server‑side AI agent capabilities and current functional limits for developers building on Google’s platform.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"mcp",
+"ai‑agents"
+]
+}
+},
+{
+"id": "f9cedb94b85e",
+"key": "https://theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+"title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+"published": "2026-11-26T09:54:40Z",
+"fetched": "2026-11-26T10:51:03Z",
+"excerpt": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+"meta": {},
+"ai": {
+"summary": "A coalition of 42 U.S. state attorneys general is seeking to block Character.AI from selling the private chat histories of over 21 million U.S. accounts while the company is in Chapter 11 bankruptcy.",
+"why": "The outcome could set precedents for how AI companies handle user data and bankruptcy proceedings.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"character.ai",
+"data-privacy",
+"attorneys-general"
+]
+}
+},
+{
+"id": "6379abfc5989",
+"key": "https://wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+"title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+"published": "2026-11-26T10:51:27Z",
+"fetched": "2026-11-26T21:28:07Z",
+"excerpt": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+"meta": {},
+"ai": {
+"summary": "Meta declined a UK FCA request to collaborate on testing its personal agent, prompting the FCA to warn against potential risks from such agents.",
+"why": "The incident highlights regulatory scrutiny of AI agents in financial contexts, affecting developers building or deploying similar systems.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"meta",
+"fca",
+"personal-agent",
+"regulation"
+]
+}
+},
+{
+"id": "37334df1cca8",
+"key": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+"title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+"published": "2026-11-26T11:21:16Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking buyers for thousands of B300 chips, while one cloud executive describes \"chaos\", Loans and major deals are now on the line for Southeast Asia's data centers.\nThe article Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Nvidia instructed partners such as Dell and Supermicro to stop shipping servers containing B300 chips to Malaysia, Singapore, Thailand, and Indonesia following tighter US export controls aimed at limiting Chinese cloud access.",
+"why": "Companies with supply chains in Southeast Asia need to reassess hardware sourcing and compliance.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"export-controls",
+"southeast-asia"
+]
+}
+},
+{
+"id": "0caafbc8cf9e",
+"key": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+"title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+"published": "2026-11-26T11:30:06Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system. Microsoft recommends deception techniques like honeypots and faked success signals as defenses, but how long those will hold up against agents that learn and adapt remains an open question.\nThe article Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Microsoft published the architecture of ARTEX, an AI framework that automates cyber‑attacks with specialized agents and minimal human input, now used by state‑backed groups in China and North Korea, and recommended deception‑based defenses.",
+"why": "Security‑focused developers should consider hardening systems against autonomous AI‑driven attacks.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"artex",
+"microsoft",
+"cyberattacks",
+"ai-agents"
+]
+}
+},
+{
+"id": "d92cd440970d",
+"key": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+"title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+"published": "2026-11-26T11:37:17Z",
+"fetched": "2026-11-26T21:28:05Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face released a benchmark dashboard that measures llama.cpp inference speed on various AMD Ryzen CPUs and Radeon GPUs.",
+"why": "Provides developers with performance data to choose hardware and tune settings for LLaMA inference.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"benchmark",
+"llama.cpp",
+"amd"
+]
+}
+},
+{
+"id": "12dfca28cab9",
+"key": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+"title": "ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF is trending on Hugging Face",
+"published": "2026-11-26T13:01:01Z",
+"fetched": "2026-11-27T13:51:27Z",
+"excerpt": "text-generation · 325 likes · 97,896 downloads",
+"meta": {
+"likes": 325,
+"downloads": 97896
+},
+"ai": {
+"summary": "The Inkling-2-Mini-GSQ-RCO model, a GGUF‑formatted text‑generation model, has reached 194 likes and 24,931 downloads on Hugging Face.",
+"why": "Developers can quickly download and run a compact, open‑weight text generator for low‑resource applications.",
+"category": "models",
+"importance": 3,
+"tags": [
+"inkling-2",
+"gguf",
+"text-generation"
+]
+}
+},
+{
+"id": "c7c0fa66e448",
+"key": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+"title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
+"published": "2026-11-26T13:41:07Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites to process AI data as orbital data centers. SpaceX is targeting its first launches in 2027, and the full constellation is set to be operating by 2040. Google and Blue Origin are also working on AI infrastructure in space, but Boston Consulting Group estimates costs will stay well above ground-based data centers for now.\nThe article FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040 appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The FCC authorized SpaceX to deploy up to one million Starmind satellites as orbital AI data centers, with first launches planned for 2027 and full operation targeted by 2040.",
+"why": "This could open new low‑latency AI compute options for edge applications.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"spacex",
+"starmind",
+"satellites",
+"ai-infrastructure"
+]
+}
+},
+{
+"id": "0052a97db6a7",
+"key": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+"title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+"published": "2026-11-26T15:45:08Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data.\nThe article After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Chinese AI firms Z.AI and Moonshot AI delayed their upcoming flagship models and are now seeking new training data sources from Google and Meta after OpenAI and Anthropic stopped providing data access.",
+"why": "Developers tracking model availability in China should watch for potential delays and new data partnerships.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"china",
+"z.ai",
+"moonshot",
+"data"
+]
+}
+},
+{
+"id": "e5d57ad439e8",
+"key": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+"title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+"published": "2026-11-26T16:00:00Z",
+"fetched": "2026-11-26T21:28:07Z",
+"excerpt": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+"meta": {},
+"ai": {
+"summary": "Anthropic went public on the same day Rockstar released Grand Theft Auto VI, which became one of the most successful entertainment launches ever, underscoring that raw efficiency isn’t the sole driver of success.",
+"why": "\"\"",
+"category": "other",
+"importance": 1,
+"tags": [
+"anthropic",
+"gta-vi"
+]
+}
+},
+{
+"id": "6cc6dd1638ae",
+"key": "https://devnull.land/amd-specific-llama-cpp",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://devnull.land/amd-specific-llama-cpp",
+"title": "AMD-specific fork of llama.cpp",
+"published": "2026-11-26T17:11:29Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "",
+"meta": {
+"points": 437,
+"comments": 104,
+"hn_url": "https://news.ycombinator.com/item?id=50657265"
+},
+"ai": {
+"summary": "Patch updates for the llama.cpp inference library add AMD‑specific optimizations for better performance on Ryzen CPUs and Radeon GPUs.",
+"why": "Developers can integrate these patches to run LLaMA‑style models faster on AMD hardware.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"llama.cpp",
+"amd",
+"optimization"
+]
+}
+},
+{
+"id": "35e5c656bb61",
+"key": "https://diseasescuredbyai.com/",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://diseasescuredbyai.com/",
+"title": "Tracking Diseases Cured by AI",
+"published": "2026-11-26T17:16:41Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "",
+"meta": {
+"points": 319,
+"comments": 195,
+"hn_url": "https://news.ycombinator.com/item?id=50657307"
+},
+"ai": {
+"summary": "A collection of disease cases that were diagnosed or treated using AI tools is being compiled and shared online.",
+"why": "Shows concrete medical impact of AI and may guide developers building health‑tech applications.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ai",
+"healthcare",
+"disease"
+]
+}
+},
+{
+"id": "15d08be66f8a",
+"key": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+"title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+"published": "2026-11-26T17:28:56Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week. As an apology, subscribers get an extra reset, and business users get free Fast Mode through year-end. OpenAI is also testing a Chat and Work mode merger.\nThe article GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI fixed a billing bug that had given GPT‑6.2 Astra users incorrect discounts; after the fix Astra users now reach their usage limits 40 % faster and Sol users 25 % faster, and OpenAI added an extra reset for subscribers and free Fast Mode for business users through year‑end while testing a Chat‑and‑Work mode merger.",
+"why": "Developers need to adjust their usage expectations and may benefit from the temporary free Fast Mode.",
+"category": "models",
+"importance": 3,
+"tags": [
+"openai",
+"gpt-6.2",
+"pricing"
+]
+}
+},
+{
+"id": "b5333710e370",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+"title": "ollama v0.40.19",
+"published": "2026-11-26T17:52:02Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "What's Changed\ninkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881\nmlxrunner: compact Engram history buffers by @pdevine in #19913\nbump llama-server by @pdevine in #19917\nFull Changelog : v0.40.18...v0.40.19-rc0",
+"meta": {},
+"ai": {
+"summary": "Ollama released v0.40.19, adding faster short‑history handling via inkling2, compact Engram history buffers in mlxrunner, and bumping llama‑server.",
+"why": "Users of Ollama can benefit from improved performance and memory efficiency in local LLM deployments.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"ollama",
+"llama-server",
+"mlxrunner",
+"inkling2"
+]
+}
+},
+{
+"id": "f490f111756b",
+"key": "https://chrhenning.com/blog/2026/introduction-to-uncertainty",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+"title": "An introduction to uncertainty in machine learning",
+"published": "2026-11-26T19:04:50Z",
+"fetched": "2026-11-27T13:51:27Z",
+"excerpt": "",
+"meta": {
+"points": 140,
+"comments": 13,
+"hn_url": "https://news.ycombinator.com/item?id=50658498"
+},
+"ai": {
+"summary": "An introductory article explains sources of uncertainty in machine learning, covering data noise, model variance, and prediction confidence intervals.",
+"why": "Equips developers with concepts to better assess model reliability in production systems.",
+"category": "research",
+"importance": 3,
+"tags": [
+"uncertainty",
+"ml",
+"confidence"
+]
+}
+},
+{
+"id": "83c05cfee7e1",
+"key": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+"title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+"published": "2026-11-26T19:31:46Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to threatening all life on Earth. He's also \"virtually certain\" that AI labs are sitting on \"one or more bombshells\" in cryptography.\nThe article Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Former OpenAI researcher Scott Aaronson argues that an AI‑generated proof of the Riemann hypothesis is less important than demonstrating AI can produce such proofs, warning of potential cryptographic risks.",
+"why": "Highlights broader security and societal implications of AI‑driven mathematics for developers working on AI safety and cryptography.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"riemann",
+"ai‑math",
+"security"
+]
+}
+},
+{
+"id": "2a70de2ec706",
+"key": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+"title": "Nvidia hits pause on chip shipments to Southeast Asia",
+"published": "2026-11-26T20:03:54Z",
+"fetched": "2026-11-26T21:28:07Z",
+"excerpt": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+"meta": {},
+"ai": {
+"summary": "Nvidia instructed its manufacturing partners to pause server‑grade AI chip shipments to Malaysia, Singapore, Thailand, and Indonesia amid U.S. export restrictions.",
+"why": "Could delay access to Nvidia hardware for developers and startups in Southeast Asia.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"export‑controls",
+"asia"
+]
+}
+},
+{
+"id": "8de7d72ce48f",
+"key": "https://blainehansen.me/post/mainstream-verifiable-language",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+"title": "The need for a formally verifiable mainstream programming language",
+"published": "2026-11-26T20:06:50Z",
+"fetched": "2026-11-26T21:28:08Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A discussion post argues for the creation of a mainstream programming language that supports formal verification of code correctness.",
+"why": "If such a language emerges, developers could write more reliable software with provable guarantees.",
+"category": "other",
+"importance": 2,
+"tags": [
+"programming-language",
+"verification"
+]
+}
+},
+{
+"id": "4a5877eb9203",
+"key": "https://janlukas.blog/posts/ai-self-hosting",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://janlukas.blog/posts/ai-self-hosting",
+"title": "AI made self-hosting fun again",
+"published": "2026-11-26T21:47:45Z",
+"fetched": "2026-11-27T04:13:51Z",
+"excerpt": "",
+"meta": {
+"points": 1114,
+"comments": 515,
+"hn_url": "https://news.ycombinator.com/item?id=50660180"
+},
+"ai": {
+"summary": "A new open-source project releases a self‑hosting platform that bundles LLM inference, UI and deployment scripts to make running AI models locally as easy as installing a web app.",
+"why": "Developers can quickly spin up private LLM instances without deep ops work.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"self-hosting",
+"llm",
+"open-source",
+"devops"
+]
+}
+},
+{
+"id": "203f115d7044",
+"key": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+"title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+"published": "2026-11-26T23:02:48Z",
+"fetched": "2026-11-27T04:13:51Z",
+"excerpt": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+"meta": {},
+"ai": {
+"summary": "Clay outlines its go‑to‑market (GTM) agent platform, pricing a $1,500 qualification service to onboard any company and addressing pain points like model selector frustration.",
+"why": "Shows a commercial approach to scaling AI agents for enterprise sales pipelines.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"clay",
+"gtm",
+"agents",
+"enterprise"
+]
+}
+}
+]

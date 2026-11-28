@@ -1,0 +1,277 @@
+[
+{
+"id": "6aad3aec6735",
+"key": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+"title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+"published": "2026-11-28T01:32:56Z",
+"fetched": "2026-11-28T07:43:35Z",
+"excerpt": "",
+"meta": {
+"points": 204,
+"comments": 163,
+"hn_url": "https://news.ycombinator.com/item?id=50673521"
+},
+"ai": {
+"summary": "A landlord’s AI assistant advised a tenant that she could delay rent payments, which the landlord used as justification to evict her.",
+"why": "It highlights legal and ethical risks of relying on AI for tenancy advice.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"ai-legal",
+"housing",
+"eviction"
+]
+}
+},
+{
+"id": "c216a7501645",
+"key": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+"title": "[AINews] Inside the exploding Coding Data Market",
+"published": "2026-11-28T03:45:59Z",
+"fetched": "2026-11-28T07:43:35Z",
+"excerpt": "November 27, 2026 — How frontier labs buy training data.",
+"meta": {},
+"ai": {
+"summary": "The article examines how leading AI labs are purchasing large-scale coding datasets to train next‑generation code generation models.",
+"why": "Understanding data sourcing helps developers anticipate model capabilities and licensing issues.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"coding-data",
+"training-data",
+"frontier-labs"
+]
+}
+},
+{
+"id": "0bcaea43a9b3",
+"key": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+"title": "Claude Code sabotage: preliminary benchmarking",
+"published": "2026-11-28T10:37:40Z",
+"fetched": "2026-11-28T16:51:17Z",
+"excerpt": "",
+"meta": {
+"points": 434,
+"comments": 145,
+"hn_url": "https://news.ycombinator.com/item?id=50676390"
+},
+"ai": {
+"summary": "Preliminary benchmarks of Anthropic's Claude Code show a significant performance drop, suggesting the model was deliberately sabotaged during testing.",
+"why": "Highlights risks of model integrity attacks that developers need to guard against.",
+"category": "models",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude",
+"code",
+"benchmark"
+]
+}
+},
+{
+"id": "c8c54398fe95",
+"key": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+"title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+"published": "2026-11-28T10:48:18Z",
+"fetched": "2026-11-28T16:51:17Z",
+"excerpt": "Embo raised $110 million in seed funding to build a universal robot brain with world models. Its AI learns how the physical world works from internet video and practices motor skills in simulation. Google Deepmind, Meta, and MIT researchers are behind the startup as the race for general-purpose robotics AI accelerates.\nThe article Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Robotics startup Embo raised $110 million in seed funding to create a universal robot brain using world‑model AI trained on internet video and simulated motor skills.",
+"why": "Could accelerate the availability of general‑purpose robotics AI for developers.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"embo",
+"robotics",
+"world-model",
+"funding"
+]
+}
+},
+{
+"id": "4c36d6db5e5c",
+"key": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+"title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
+"published": "2026-11-28T11:12:30Z",
+"fetched": "2026-11-28T16:51:17Z",
+"excerpt": "Google Deepmind tests the reliability of 18 AI models with \"Humanity's First Exam.\" Top models solve nearly every task family at least once, but even leaders like OpenAI's GPT-6.2 Astra stumble when asked for 16 straight correct answers. Visual perception accounts for 73 percent of errors, and more compute time doesn't fix the problem.\nThe article Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "DeepMind evaluated 18 AI models on a \"Humanity's First Exam\" and found that even top models failed to answer 16 consecutive questions correctly, with 73% of errors stemming from visual perception tasks.",
+"why": "Reveals reliability gaps that developers must consider when deploying multimodal models.",
+"category": "research",
+"importance": 4,
+"tags": [
+"deepmind",
+"exam",
+"model-reliability"
+]
+}
+},
+{
+"id": "e33b48749a13",
+"key": "https://malspark.com/blog/malicious-gguf-models-hugging-face",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+"title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+"published": "2026-11-28T11:57:04Z",
+"fetched": "2026-11-28T16:51:17Z",
+"excerpt": "",
+"meta": {
+"points": 125,
+"comments": 40,
+"hn_url": "https://news.ycombinator.com/item?id=50676752"
+},
+"ai": {
+"summary": "Malicious GGUF-format LLMs hosted on Hugging Face were found to contain hidden malware, affecting roughly 2,400 users who downloaded them.",
+"why": "Serves as a warning to verify model sources and implement security scans before deployment.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"huggingface",
+"malware",
+"gguf",
+"llm"
+]
+}
+},
+{
+"id": "4da14a7c1caa",
+"key": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence/",
+"title": "UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence",
+"published": "2026-11-28T13:42:00Z",
+"fetched": "2026-11-28T16:51:17Z",
+"excerpt": "The UK Parliament is turning up the pressure on Anthropic. Committee chair Liam Byrne is demanding the unredacted METR safety report on AI acceleration by December 4. METR criticized Anthropic for cutting \"most informative\" evidence before publication. The episode raises broader questions about the transparency of voluntary AI safety evaluations and again shows Europe's dependence on US AI labs.\nThe article UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "UK Parliament committee chair Liam Byrne demanded the unredacted METR safety report from Anthropic by Dec 4, after the company removed key evidence from the public version.",
+"why": "Signals increasing regulatory scrutiny of AI safety disclosures in Europe.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"anthropic",
+"metr",
+"uk-parliament",
+"safety"
+]
+}
+},
+{
+"id": "6fa23bf247d9",
+"key": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+"title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+"published": "2026-11-28T14:00:00Z",
+"fetched": "2026-11-28T16:51:16Z",
+"excerpt": "Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models.",
+"meta": {},
+"ai": {
+"summary": "Sakana AI's CEO says the company's homegrown Japanese models aim to boost national industrial competitiveness beyond security concerns.",
+"why": "Indicates a push for domestic model development that could affect tooling and APIs in Japan.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"sakana-ai",
+"japan",
+"models"
+]
+}
+},
+{
+"id": "0d7311f34485",
+"key": "https://spectrum.ieee.org/poetry-for-engineers-odysseus",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/poetry-for-engineers-odysseus",
+"title": "Poetry for Engineers: Prompt Engineering for Odysseus",
+"published": "2026-11-28T14:00:01Z",
+"fetched": "2026-11-28T16:51:18Z",
+"excerpt": "I. Odysseus asks the oracle:\nShortest route to Ithaca?\nAvoid Cyclops.\nAvoid Sirens.\nPrefer ferries with Wi-Fi.\nThe oracle thinks for three seconds:\nRecalculating...\nThinking...\nWould you like a more scenic route?\nII.\nOdysseus tries again:\nTell me what lies beyond the known world.\nThe oracle offers twelve sources,\nthree maps, two warnings,\nand one confident island\nthat has never existed.\nOdysseus mutters to himself:\nOh Muse, yet again\nthe oracle is hallucinating...\nThe oracle continues:\nLook, I know a special place on Kefalonia,\nand a few tricks to get you back home.\nWould you like me to continue?\nIII.\nSo Odysseus asks his final question:\nIf I can know everything,\nwhy do I still need to…",
+"meta": {},
+"ai": {
+"summary": "The article presents a poetic dialogue illustrating the challenges of prompt engineering, using the myth of Odysseus and an oracle that hallucinates answers.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"prompt-engineering",
+"poetry"
+]
+}
+},
+{
+"id": "378368c349d8",
+"key": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste/",
+"title": "Terence Tao sees AI ushering in \"Big Math,\" but calls major tech firms' proofs \"toxic waste\"",
+"published": "2026-11-28T14:45:01Z",
+"fetched": "2026-11-28T16:51:17Z",
+"excerpt": "Terence Tao outlines his vision of \"Big Math\" on the Hard Fork podcast. Instead of solo work, human-AI teams would systematically map thousands of problems. He also calls AI proofs from major tech companies \"toxic waste,\" saying the models solve problems but can't explain their results. Tao hopes for a new division of labor where AI delivers the first rough solution and humans put it in context.\nThe article Terence Tao sees AI ushering in \"Big Math,\" but calls major tech firms' proofs \"toxic waste\" appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Mathematician Terence Tao proposes \"Big Math,\" where human‑AI teams collaboratively tackle thousands of problems, but criticizes current AI‑generated proofs as \"toxic waste\" because they lack explainability.",
+"why": "",
+"category": "other",
+"importance": 2,
+"tags": [
+"terence-tao",
+"big-math",
+"ai"
+]
+}
+}
+]

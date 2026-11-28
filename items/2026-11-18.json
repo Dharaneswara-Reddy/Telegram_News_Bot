@@ -1,0 +1,3673 @@
+[
+{
+"id": "068320ebaffd",
+"key": "arxiv:2611.15348",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.15348",
+"title": "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analysis. However, progress in the field is hindered by the lack of systematic benchmarks that compare machine learning methods under realistic conditions, particularly sensor drift, a known but rarely quantified failure mode. Most existing studies rely on small, private datasets with inconsistent protocols, rendering results non-comparable and slowing progress. We introduce Breath-Dx, the first comprehensive benchmark of time series classification methods for breath-based disease screening. Our work leverages the Scent of Health (S-OH) dataset, the largest public clinical eNose…",
+"meta": {
+"upvotes": 33,
+"comments": 3,
+"authors": [
+"Ivan Poddiakov",
+"Ivan Kruzhilov",
+"Galina Zubkova",
+"Svetlana Erofeeva",
+"Andrey Savchenko",
+"Pavel Blinov"
+],
+"github": "https://github.com/ivanpodd/Breath-Dx"
+},
+"ai": {
+"summary": "Breath‑Dx provides a benchmark suite for time‑series classification of disease screening using electronic nose (eNose) data, explicitly measuring performance under sensor drift conditions.",
+"why": "Gives developers a standardized way to evaluate and improve eNose‑based health screening models.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"benchmark",
+"enose",
+"timeseries"
+]
+}
+},
+{
+"id": "1482843824cb",
+"key": "arxiv:2611.22275",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.22275",
+"title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation. At the low level, we develop a multi-agent post-training framework that adapts a humanoid foundation tracking model to physically coupled interactions between humanoids, enabling coordinated decentralized control from local observations alone. At the high level, we train a vision-language planner and design a speech-based…",
+"meta": {
+"upvotes": 22,
+"comments": 2,
+"authors": [
+"Ting-Hsuan Chen",
+"Siheng Zhao",
+"Han Jiang",
+"Qi Pan",
+"Louison Lu",
+"Jiaheng Luo"
+],
+"github": "https://github.com/heaveho-humanoid/Heave-Ho",
+"org": "University of Southern California"
+},
+"ai": {
+"summary": "Heave‑Ho introduces a decentralized framework for long‑horizon collaborative multi‑humanoid locomotion and manipulation, including a post‑training method that adapts a humanoid foundation tracking model for coordinated whole‑body actions.",
+"why": "Provides a blueprint for building scalable multi‑robot systems that can perform complex tasks together.",
+"category": "research",
+"importance": 3,
+"tags": [
+"robotics",
+"multi‑humanoid",
+"decentralized"
+]
+}
+},
+{
+"id": "1ab3ede68112",
+"key": "https://anthropic.com/news/anthropic-prices-initial-public-offering",
+"source": "anthropic_news",
+"source_name": "Anthropic",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+"title": "Anthropic prices initial public offering",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-19T00:20:02Z",
+"excerpt": "Anthropic prices initial public offering",
+"meta": {},
+"ai": {
+"summary": "Anthropic announced pricing of its IPO at $38 per share, valuing the company at about $4.1 billion.",
+"why": "The pricing signals strong market confidence and will affect developers tracking AI company equities.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"anthropic",
+"ipo",
+"finance"
+]
+}
+},
+{
+"id": "2396e1fced13",
+"key": "arxiv:2611.22055",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.22055",
+"title": "Weight-Space Programming Doesn't Need Transformers",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed architecture or designing the architecture themselves. When free to design, all three compile plain-text facts into a sparse table queried by a fixed procedure, reaching up to 54.4% test accuracy. An…",
+"meta": {
+"upvotes": 57,
+"comments": 3,
+"authors": [
+"Hyunjong Ok",
+"Jaeho Lee"
+],
+"github": "https://github.com/effl-lab/Weight-Space-Programming",
+"org": "Pohang University of Science and Technology"
+},
+"ai": {
+"summary": "The paper argues that weight‑space programming, where LLMs generate target weights directly, does not require transformer architectures and explores alternatives with minimal supervision.",
+"why": "Suggests new model designs for tasks that bypass gradient training, potentially reducing compute costs.",
+"category": "research",
+"importance": 3,
+"tags": [
+"weight-space",
+"transformers",
+"programming"
+]
+}
+},
+{
+"id": "2956c7f4e1ac",
+"key": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+"title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T17:14:03Z",
+"excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+"meta": {},
+"ai": {
+"summary": "OpenAI integrated Le Figaro's journalism into ChatGPT, providing summaries and excerpts with links to the original articles.",
+"why": "Developers can query French news content directly via ChatGPT or its API.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"openai",
+"lefigaro",
+"journalism"
+]
+}
+},
+{
+"id": "306c5aa10f8c",
+"key": "arxiv:2611.18856",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.18856",
+"title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods across compatible benchmarks or policy models. We propose Self-Improvement Memory (SIM) for the harness optimizer, rather than the task-solving policy. SIM groups edits by recurring harness problem and records their rationale, predicted and observed outcomes, and evaluation context. New attempts…",
+"meta": {
+"upvotes": 35,
+"comments": 6,
+"authors": [
+"Xin Yu",
+"Fei Xia",
+"Jiaqi Pan",
+"Youbao Tang",
+"Chengzhi Liu",
+"Adams Yu"
+],
+"org": "Google"
+},
+"ai": {
+"summary": "The Self‑Improvement Memory (SIM) method enables continual recursive self‑improvement by storing and reusing past optimization harnesses across changing benchmarks or policy models.",
+"why": "Allows developers to build AI systems that iteratively refine themselves without starting from scratch each time.",
+"category": "research",
+"importance": 3,
+"tags": [
+"self‑improvement",
+"continual",
+"sim"
+]
+}
+},
+{
+"id": "323bf09ff444",
+"key": "arxiv:2611.22115",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.22115",
+"title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and…",
+"meta": {
+"upvotes": 165,
+"comments": 3,
+"authors": [
+"Xingchen AGI Lab",
+"Baotian Hu",
+"Bingkai Yang",
+"Boyang Wang",
+"Changzai Pan",
+"Chao Lyu"
+],
+"org": "XingChen-AGI"
+},
+"ai": {
+"summary": "Huawei introduced the Xing‑4 series of large language models, extending the TeleChat line with sparse activation, new attention designs, and speculative decoding optimized for Ascend chips.",
+"why": "Provides a high‑performance, domestically‑produced alternative for developers targeting Ascend hardware.",
+"category": "models",
+"importance": 4,
+"tags": [
+"ascend",
+"xing4",
+"agentic"
+]
+}
+},
+{
+"id": "33d114605f3a",
+"key": "arxiv:2611.19559",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.19559",
+"title": "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "World-action models (WAMs) augment vision-language-action policies (VLAs) with future prediction so that the policy can anticipate how its actions will affect the physical world. Existing WAMs supervise complete future observations. However, observations typically change little over an action chunk, so the future loss is dominated by copying static background content rather than learning task-relevant robot and object motion, limiting policy learning. Moreover, existing WAMs rely on large video generation models or separate world models, incurring heavy training and inference compute that hinders closed-loop deployment. To improve policy performance, we propose visual residual learning…",
+"meta": {
+"upvotes": 8,
+"comments": 1,
+"authors": [
+"Chongyu Fan",
+"Gaowen Liu",
+"Ramana Rao Kompella",
+"Jason Corso",
+"Sijia Liu"
+],
+"github": "https://github.com/OPTML-Group/ResWAM",
+"org": "OPTML Group @ MSU"
+},
+"ai": {
+"summary": "ResWAM introduces a training objective that focuses on predicting only the parts of future observations that change, reducing the dominance of static background in world‑action model loss and improving robot policy learning.",
+"why": "It lets developers of robotic RL systems train more efficiently by emphasizing task‑relevant motion.",
+"category": "research",
+"importance": 3,
+"tags": [
+"world-action-models",
+"robotics",
+"reinforcement-learning"
+]
+}
+},
+{
+"id": "51d7b323d47f",
+"key": "https://huggingface.co/blog/moe-expert-streaming",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/moe-expert-streaming",
+"title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T17:14:01Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "A blog post demonstrates inference of a 180 billion‑parameter mixture‑of‑experts model using only 32 GB of GPU RAM with the Transformers library.",
+"why": "Shows that developers can run extremely large MoE models on modest hardware, lowering deployment costs.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"moe",
+"inference",
+"180b",
+"transformers"
+]
+}
+},
+{
+"id": "5683c2b63842",
+"key": "arxiv:2611.21791",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.21791",
+"title": "Regularized Score Centering",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Asynchronous reinforcement learning increases training throughput, but data from stale policies and numerical mismatch between training and inference can destabilize learning. To stabilize off-policy learning, score centering (SC) removes the effect of reward baselines on the expected update. Our gradient diagnostics show less extreme gradients with SC than with importance sampling (IS), but SC can still fail when the learner moves far from the behavior policy that generated the data. To limit this policy mismatch, we introduce Regularized Score Centering (RSC), which adds a reverse Kullback-Leibler (KL) penalty to encourage the learner's next-token distribution to stay close to the…",
+"meta": {
+"upvotes": 14,
+"comments": 2,
+"authors": [
+"Hao Bai",
+"Chenlu Ye",
+"Xuanchang Zhang",
+"Aviral Kumar",
+"Tong Zhang"
+],
+"org": "University of Illinois at Urbana-Champaign"
+},
+"ai": {
+"summary": "The paper proposes Regularized Score Centering, a method that removes reward baselines from updates to stabilize off‑policy reinforcement learning and yields less extreme gradients than importance sampling, though it still struggles when the learner drifts far from the behavior policy.",
+"why": "Provides a practical technique to make high‑throughput asynchronous RL training more stable.",
+"category": "research",
+"importance": 2,
+"tags": [
+"reinforcement-learning",
+"off-policy",
+"score-centering"
+]
+}
+},
+{
+"id": "5dcd8223fccc",
+"key": "arxiv:2611.23226",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.23226",
+"title": "FastFrames: Video Generation at Interactive Latency",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We profile the inference pipeline of state-of-the-art models and find that operations often treated as fixed implementation details, such as VAE decoding and KV cache updates, in fact account for over half of end-to-end inference latency. We challenge the assumption that these components are indispensable…",
+"meta": {
+"upvotes": 30,
+"comments": 6,
+"authors": [
+"Gene Chou",
+"Guandao Yang",
+"Fujun Luan",
+"Lars Mescheder",
+"Wei Dong",
+"Stephan Richter"
+],
+"github": "https://github.com/apple-aiml-research/ml-fastframes",
+"org": "Apple"
+},
+"ai": {
+"summary": "The FastFrames paper presents a family of autoregressive video diffusion models that achieve interactive latency while maintaining quality, addressing the speed bottlenecks of prior video generation systems.",
+"why": "Enables developers to build real‑time video generation features without prohibitive compute costs.",
+"category": "research",
+"importance": 3,
+"tags": [
+"video",
+"diffusion",
+"fastframes"
+]
+}
+},
+{
+"id": "6aa33dae2907",
+"key": "arxiv:2611.19800",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.19800",
+"title": "Multi-Branch Transformer",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, and fuses their outputs before shared final layers. At comparable training compute, we study three MBT variants: Wide-Shallow preserves block width, Narrow-Deep preserves sequential depth, and Balanced interpolates between them. In controlled pretraining experiments at four mixture-of-experts scales…",
+"meta": {
+"upvotes": 46,
+"comments": 3,
+"authors": [
+"Gaotang Li",
+"Lingjie Chen",
+"Chunyuan Deng",
+"Zhiwei Xu",
+"Hongzheng Chen",
+"Christopher De Sa"
+],
+"github": "https://github.com/GaotangLi/Multi-Branch-Transformer"
+},
+"ai": {
+"summary": "The Multi-Branch Transformer (MBT) paper proposes parallel branches of full Transformer blocks that share initial and final layers, improving scaling efficiency at comparable compute.",
+"why": "The architecture offers a new way to scale language models that developers can experiment with in their own training pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"transformer",
+"mbt",
+"scaling"
+]
+}
+},
+{
+"id": "78f20d9d05e0",
+"key": "arxiv:2611.17048",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.17048",
+"title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-19T10:17:23Z",
+"excerpt": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics worth discussing in the evolving visual stream and initiate conversations at appropriate moments without a user query. Stream-Aware Tool Calling (SATC) lets the model act on what it sees by invoking external tools using the current visual and conversational context and incorporating returned…",
+"meta": {
+"upvotes": 12,
+"comments": 2,
+"authors": [
+"Shuhan Li",
+"Huankang Guan",
+"Xintong Guo",
+"Yang Bo",
+"Yuyang He",
+"Dunyuan Xu"
+],
+"github": "https://github.com/aurateam2026/Aura2.0"
+},
+"ai": {
+"summary": "AURA 2.0 is a streaming video large language model that introduces Model-Initiated Conversation (MIC), allowing the AI to identify relevant topics in a live video stream and start conversations without waiting for user prompts.",
+"why": "It shifts video AI from passive Q&A to proactive interaction, useful for building more natural real-time video assistants.",
+"category": "research",
+"importance": 3,
+"tags": [
+"video-llm",
+"streaming",
+"proactive-ai",
+"aura"
+]
+}
+},
+{
+"id": "80f04005784f",
+"key": "https://openai.com/index/advancing-chip-design-with-our-models",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/advancing-chip-design-with-our-models",
+"title": "Advancing chip design with OpenAI models",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T17:14:03Z",
+"excerpt": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+"meta": {},
+"ai": {
+"summary": "OpenAI's GPT‑6 Astra models were used to optimize circuits for Jalapeño silicon and improve RISC‑V core designs.",
+"why": "Demonstrates AI‑assisted hardware design, opening new tooling opportunities for chip developers.",
+"category": "research",
+"importance": 3,
+"tags": [
+"openai",
+"gpt-6",
+"chip-design",
+"riscv"
+]
+}
+},
+{
+"id": "87581d068f48",
+"key": "arxiv:2611.17621",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.17621",
+"title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels. Each kernel is paired with test cases whose data types and tensor shapes are collected from real-world training and inference tasks. Consequently, performance improvements on AscendGYM map directly to the corresponding workloads. In terms of…",
+"meta": {
+"upvotes": 92,
+"comments": 3,
+"authors": [
+"AI Training Platform Team",
+"Bingwei Zhang",
+"Jing Li",
+"Amir Abdullin",
+"Sihang Chen",
+"Xin Chen"
+],
+"github": "https://github.com/SLAI-AITP/AscendGYM",
+"org": "SLAI-AITP"
+},
+"ai": {
+"summary": "The AscendGYM benchmark releases 48 kernels across three difficulty levels to evaluate cost‑aware kernel optimization for real‑world workloads on Ascend NPUs.",
+"why": "Helps developers benchmark and improve NPU kernel performance for LLM training and inference.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"ascend",
+"npu",
+"benchmark"
+]
+}
+},
+{
+"id": "9024b0ddd5af",
+"key": "https://huggingface.co/blog/rumble-2-flash",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/rumble-2-flash",
+"title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T17:14:01Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Rumble‑2‑Flash, an open‑source 0.5 billion‑parameter speech model supporting over 40 languages, has been released on Hugging Face.",
+"why": "Provides a ready‑to‑use multilingual speech model for developers building voice applications.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"speech",
+"multilingual",
+"rumble-2-flash"
+]
+}
+},
+{
+"id": "98b2fea1f7cf",
+"key": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain",
+"source": "artificial_analysis",
+"source_name": "Artificial Analysis",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain",
+"title": "Google continues to accelerate its release cadence with Gemini 4 Neon",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-19T10:17:24Z",
+"excerpt": "Google continues to accelerate its release cadence with Gemini 4 Neon",
+"meta": {},
+"ai": {
+"summary": "Google announced Gemini 4 Neon, the latest iteration of its Gemini model series, continuing its rapid release cadence.",
+"why": "Developers can experiment with the newest model capabilities and performance improvements.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"neon"
+]
+}
+},
+{
+"id": "a7777f10eca5",
+"key": "arxiv:2611.23143",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.23143",
+"title": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representation both tracks observed TCP motion and generates future TCP trajectories. Given a monocular video and initial 2D TCP queries, the tracker directly recovers metric TCP poses in SE(3) and gripper states alongside scene geometry and camera parameters. The generator samples local features from the same 4D representation along the recovered TCP tracks, then combines them with robot…",
+"meta": {
+"upvotes": 25,
+"comments": 4,
+"authors": [
+"Haosong Peng",
+"Xiangyang Liu",
+"Zhengshen Zhang",
+"Yunfeng Fan",
+"Tianyu Qi",
+"Xin Xia"
+],
+"github": "https://github.com/Livioni/TCP4D"
+},
+"ai": {
+"summary": "TCP4D presents a unified model that tracks and predicts tool‑center‑point (TCP) poses in 4D from monocular video, enabling robot manipulation planning.",
+"why": "Provides a plug‑and‑play perception module for developers building vision‑based robot manipulation systems.",
+"category": "models",
+"importance": 3,
+"tags": [
+"tcp4d",
+"robot-manipulation",
+"vision"
+]
+}
+},
+{
+"id": "c3d9f80ac18b",
+"key": "arxiv:2611.21392",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.21392",
+"title": "VideoNexus: Video Perception Beyond the Reasoning Context",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T17:14:02Z",
+"excerpt": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an answer. Even when relevant evidence is present, performing these operations within long, dense visual sequences burdens both perception and reasoning. Video agents enable selective inspection, but returning frames to the planner still accumulates visual information in its reasoning context. Delegating perception reduces this burden, yet sparse sampling can miss decisive details, and per-frame descriptions can preserve context growth. We introduce VideoNexus, a training-free framework that separates detailed video perception from evidence-driven planning and reasoning. The…",
+"meta": {
+"upvotes": 20,
+"comments": 2,
+"authors": [
+"Yancheng Long",
+"Xuanyu Zheng",
+"Wei Chen",
+"Luoyuan Zhang",
+"Haoyang Xu",
+"Bin Wen"
+],
+"org": "Kling-Keye"
+},
+"ai": {
+"summary": "The paper VideoNexus proposes a framework for video perception that delegates visual inspection to agents to reduce the burden on the main reasoning context, addressing the issue of sparse sampling missing decisive details in long videos.",
+"why": "Offers a technical approach for building more efficient video understanding agents that can handle long-form content without overwhelming context windows.",
+"category": "research",
+"importance": 3,
+"tags": [
+"video",
+"agents",
+"perception",
+"long-context"
+]
+}
+},
+{
+"id": "d344636c1f75",
+"key": "arxiv:2611.21152",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.21152",
+"title": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T17:14:02Z",
+"excerpt": "Training coding agents for long-horizon tasks requires environments with verifiable feedback. Existing pipelines often follow a linear process that ends with validation, establishing usability but providing little guidance on improving training value. Recursive self-improvement (RSI) often requires model rollouts or model training followed by downstream evaluation, with costs and feedback delays amplified on long-horizon tasks. How can we use timely, reliable proxy signals to improve training value and synthesize environments at scale? We present RepoFactory, an automated pipeline that converts real repositories into verifiable environments where agents build complete projects from scratch…",
+"meta": {
+"upvotes": 14,
+"comments": 2,
+"authors": [
+"Yang Tian",
+"Tianyu Zheng",
+"Xiyuan Yang",
+"Yaxin Du",
+"Chengran Yang",
+"Bo Zhao"
+],
+"github": "https://github.com/IQuestLab/RepoFactory",
+"org": "IQuest"
+},
+"ai": {
+"summary": "A paper proposes scaling long‑horizon coding agents by evolving training environments through a recursive self‑improvement loop, aiming to provide timely, reliable proxy signals for training value.",
+"why": "It offers a new training paradigm that could improve agent performance on complex coding tasks, relevant for researchers and tool builders.",
+"category": "research",
+"importance": 3,
+"tags": [
+"codingagents",
+"environmentevolution",
+"recursiveselfimprovement",
+"hf"
+]
+}
+},
+{
+"id": "d8b3aaea3803",
+"key": "arxiv:2611.20992",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.20992",
+"title": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Medical image understanding with vision-language models (VLMs) typically relies on autoregressively generating reasoning and answer tokens. These unnecessary tokens make the inference cost scale with the response length and force the answer to be parsed from free-form text, incurring avoidable latency and decision errors. To this end, we introduce MedJev, a system one vision-language decision model that maps medical images, questions, and candidate answers directly to decisions in a single multimodal forward pass, without any autoregressive generation process. For fast inference, MedJev removes the upper language layers and the generative output pathway, while keeping the full vision…",
+"meta": {
+"upvotes": 12,
+"comments": 2,
+"authors": [
+"Fan Zhang",
+"Hao Wu",
+"Jinyang Wu",
+"Hongyu Qu",
+"Zheng Lian",
+"Dongfu Yin"
+],
+"github": "https://github.com/zfkarl/MedJev",
+"org": "The Chinese University of Hong Kong"
+},
+"ai": {
+"summary": "MedJev is a vision‑language decision model that directly maps medical images, questions, and answer choices to a single decision token, eliminating autoregressive token generation and reducing inference latency.",
+"why": "Offers faster, more reliable medical image QA pipelines for developers integrating AI diagnostics.",
+"category": "models",
+"importance": 3,
+"tags": [
+"medj ev",
+"vision‑language",
+"medical"
+]
+}
+},
+{
+"id": "d9bfe95c7c70",
+"key": "arxiv:2611.23108",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.23108",
+"title": "FMT: Lossless Image Compression in a Fixed Number of Parallel Steps",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T17:14:02Z",
+"excerpt": "Learned lossless codecs make smaller files than common classical codecs, yet the images we archive and train on still use classical codecs. A main reason is time: a learned codec takes seconds to decode a photo that a classical codec opens in milliseconds, and their faster variants give up most of their gain in size. We argue that much of this time is spent waiting, not computing: the network waits for the values it conditions on, and the arithmetic decoder reads them one at a time. We introduce FMT (Fixed-step Multiscale Tree), a lossless image format whose decoding order and entropy coder are designed together so that neither wait grows with the image. FMT stores an image as a…",
+"meta": {
+"upvotes": 10,
+"comments": 1,
+"authors": [
+"Ammar Ali"
+],
+"org": "Lab of Efficient AI and Data"
+},
+"ai": {
+"summary": "The FMT paper introduces a lossless image compression codec that achieves compression in a fixed number of parallel steps, reducing decoding time compared to learned codecs that wait for sequential arithmetic decoding.",
+"why": "It provides a faster, more efficient lossless compression method that developers can use in image storage or training pipelines.",
+"category": "research",
+"importance": 3,
+"tags": [
+"fmt",
+"losslesscompression",
+"imagecodec",
+"parallel"
+]
+}
+},
+{
+"id": "e2cfda8878de",
+"key": "arxiv:2611.23219",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.23219",
+"title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, and a general goal for self-improvement, agents construct their own self-learning algorithm for context-based optimization. Using the setting of gameplay as a testbed, a frozen LLM agent is given a compute budget and tools for collecting experience and updating text documents, and allowed to freely…",
+"meta": {
+"upvotes": 6,
+"comments": 1,
+"authors": [
+"Shobhita Sundaram",
+"Cansu Sancaktar",
+"Phillip Isola"
+],
+"github": "https://github.com/ssundaram21/self-org",
+"org": "Massachusetts Institute of Technology"
+},
+"ai": {
+"summary": "The authors study an autonomous self‑improvement paradigm where LLM agents, given basic primitives, resources, and a high‑level goal, construct their own learning algorithm without explicit human‑provided improvement instructions.",
+"why": "Helps developers understand how to design truly self‑directed AI agents.",
+"category": "research",
+"importance": 3,
+"tags": [
+"llm",
+"agents",
+"self-improvement"
+]
+}
+},
+{
+"id": "f60df812e426",
+"key": "arxiv:2611.21099",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.21099",
+"title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force streams, so force must be returned in a form the model can reason about. Therefore, we present ForceHarness, a harness that lets frozen models use force without demonstrations or finetuning. After calibrating hand force from a wrist sensor or joint torques alone, ForceHarness addresses the first…",
+"meta": {
+"upvotes": 44,
+"comments": 3,
+"authors": [
+"Ke Sun",
+"Kevin Yuchen Ma",
+"Yike Zhang",
+"Yanzhe Chen",
+"Mike Zheng Shou"
+],
+"github": "https://github.com/showlab/ForceHarness",
+"org": "Show Lab"
+},
+"ai": {
+"summary": "ForceHarness introduces a system that feeds contact‑force information to frozen multimodal models, enabling zero‑shot robot manipulation that accounts for forces.",
+"why": "Allows developers to add force feedback to existing frozen models without retraining, expanding robotic control capabilities.",
+"category": "research",
+"importance": 3,
+"tags": [
+"force",
+"robotics",
+"multimodal"
+]
+}
+},
+{
+"id": "fe2a8233457f",
+"key": "arxiv:2611.23144",
+"source": "hf_daily_papers",
+"source_name": "HF Daily Papers",
+"src_category": "research",
+"weight": 3,
+"kind": "paper",
+"url": "https://huggingface.co/papers/2611.23144",
+"title": "π^4: A Foundation Model for 4D Scene Geometry and Motion",
+"published": "2026-11-18T00:00:00Z",
+"fetched": "2026-11-18T07:23:07Z",
+"excerpt": "π^4 is a unified foundation model for 4D scene perception. From diverse, uncalibrated RGB observations in the wild---a single image, an unordered collection, or a video sequence---it recovers dense geometry, camera poses, and metric scale, together with 2D/3D point tracks and moving-object masks for multi-image inputs. It couples a geometry branch with a geometry-conditioned motion branch, which predicts image-space correspondences that are lifted into 3D using reconstructed target-view geometry. Across diverse benchmarks, π^4 achieves the best overall average rank in geometry evaluation, alongside competitive performance in single- and multiview 2D/3D point tracking and moving-object…",
+"meta": {
+"upvotes": 18,
+"comments": 2,
+"authors": [
+"Yifan Wang",
+"Weiguang Zhao",
+"Ni Yang",
+"Haoyu Guo",
+"Junting Dong",
+"Weinan Zhang"
+],
+"github": "https://github.com/yyfz/Pi4",
+"org": "Shanghai AI Laboratory"
+},
+"ai": {
+"summary": "π⁴ is a foundation model that ingests uncalibrated RGB inputs—single images, unordered collections, or video—and outputs dense 4D scene geometry, camera poses, metric scale, point tracks, and moving‑object masks via coupled geometry and motion branches.",
+"why": "Offers a single, open‑ended model for developers needing 3D perception, reconstruction, and motion understanding from raw video.",
+"category": "models",
+"importance": 4,
+"tags": [
+"pi4",
+"4d-geometry",
+"foundation-model"
+]
+}
+},
+{
+"id": "a18ab36b4ca7",
+"key": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+"title": "Nvidia promises that revenue will keep soaring — for now",
+"published": "2026-11-18T00:16:50Z",
+"fetched": "2026-11-18T07:23:09Z",
+"excerpt": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+"meta": {},
+"ai": {
+"summary": "Despite Jensen Huang’s exit, Nvidia projects that its record‑breaking revenue growth will continue in the near term.",
+"why": "Reinforces strong demand for AI hardware, influencing compute budgeting for developers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"revenue",
+"ai-hardware"
+]
+}
+},
+{
+"id": "f157602b9ccc",
+"key": "https://revscope.co/blog/search-seo-geo-2026",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://revscope.co/blog/search-seo-geo-2026/",
+"title": "Google's AI answers reducing search traffic by 40%",
+"published": "2026-11-18T00:17:58Z",
+"fetched": "2026-11-18T07:23:10Z",
+"excerpt": "",
+"meta": {
+"points": 698,
+"comments": 550,
+"hn_url": "https://news.ycombinator.com/item?id=50540178"
+},
+"ai": {
+"summary": "Google reported that its AI-generated answer features cut search traffic by about 40% compared to traditional results.",
+"why": "Shows the impact of AI on search volume, indicating developers may need to adapt SEO and content strategies.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"google",
+"search",
+"ai"
+]
+}
+},
+{
+"id": "bbd0d354b49d",
+"key": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+"title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+"published": "2026-11-18T00:27:29Z",
+"fetched": "2026-11-18T07:23:10Z",
+"excerpt": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
+"meta": {},
+"ai": {
+"summary": "Microsoft has embedded Word, Excel, and PowerPoint inside the Copilot interface, branding Copilot as the new operating system for work and previewing always‑on AI agents.",
+"why": "Indicates a move toward AI‑first productivity platforms, prompting developers to build extensions and integrations for Copilot.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"microsoft",
+"copilot",
+"office",
+"agents"
+]
+}
+},
+{
+"id": "7e2f8ee90a6e",
+"key": "https://cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+"title": "Cerebras Disaggregated Inference",
+"published": "2026-11-18T00:56:23Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "",
+"meta": {
+"points": 106,
+"comments": 27,
+"hn_url": "https://news.ycombinator.com/item?id=50540472"
+},
+"ai": {
+"summary": "Cerebras announced a disaggregated inference system that separates compute chips from memory to handle very large models more efficiently.",
+"why": "The architecture could reduce the cost of serving huge models, making inference more accessible for developers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"cerebras",
+"inference",
+"architecture"
+]
+}
+},
+{
+"id": "38db6c9ac8ce",
+"key": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+"title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+"published": "2026-11-18T01:44:21Z",
+"fetched": "2026-11-18T07:23:09Z",
+"excerpt": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+"meta": {},
+"ai": {
+"summary": "Nvidia’s portfolio of private startup investments has risen to a $65 billion valuation, nearly tripling in nine months, but Jensen Huang’s departure casts uncertainty on future deal flow.",
+"why": "Signals a potential shift in Nvidia’s ecosystem support, affecting developers who rely on its venture ecosystem.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"investments",
+"venture"
+]
+}
+},
+{
+"id": "e6ed1dfc41b4",
+"key": "https://washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+"title": "Bank CEOs, NSA Tell Congress That AI-Driven Patches Are Behind Outages",
+"published": "2026-11-18T01:45:11Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "",
+"meta": {
+"points": 96,
+"comments": 58,
+"hn_url": "https://news.ycombinator.com/item?id=50540836"
+},
+"ai": {
+"summary": "Bank CEOs and the NSA testified to Congress that AI‑driven software patches are causing recent service outages.",
+"why": "Highlights operational risks of relying on AI for critical infrastructure updates, prompting developers to reconsider automation pipelines.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ai",
+"software-patching",
+"banking",
+"nsa"
+]
+}
+},
+{
+"id": "5f35f1abf387",
+"key": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+"source": "gh_codex",
+"source_name": "OpenAI Codex CLI releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+"title": "codex 0.170.0",
+"published": "2026-11-18T03:45:39Z",
+"fetched": "2026-11-18T07:23:10Z",
+"excerpt": "New Features\nAdded WebRTC negotiation for realtime voice calls in the TUI. ( #61172 )\nAdded automatically refreshed authentication headers for OpenTelemetry HTTP exporters. ( #61028 )\nAdded experimental support for using identically named MCP servers across environments. ( #60905 )\nBug Fixes\nOversized WebSocket requests now fall back to HTTP without unnecessary retries. ( #60840 , #60841 )\nFixed MCP OAuth credential races during cancellation, login, and logout. ( #60849 , #60981 )\nImproved automatic reconnection for Cloud conversations and preserved active recovery turns when clients reconnect. ( #60969 , #61014 )\nFixed Windows file replacement, sandbox permission preservation, and runtime…",
+"meta": {},
+"ai": {
+"summary": "OpenAI Codex CLI version 0.170.0 adds WebRTC negotiation for realtime voice calls in the TUI, automatically refreshed authentication headers for OpenTelemetry, and experimental support for identically named MCP servers across environments.",
+"why": "Developers can now integrate realtime voice capabilities and improve observability and MCP server management in their local coding workflows.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"codex-cli",
+"openai",
+"mcp",
+"developer-tools"
+]
+}
+},
+{
+"id": "0ab9d36011d6",
+"key": "https://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+"title": "Claude was trained on protein sequences at scale",
+"published": "2026-11-18T03:47:43Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "",
+"meta": {
+"points": 173,
+"comments": 75,
+"hn_url": "https://news.ycombinator.com/item?id=50541619"
+},
+"ai": {
+"summary": "Anthropic disclosed that its Claude model was trained on large‑scale protein sequence data in addition to text.",
+"why": "Cross‑domain training may improve the model’s reasoning abilities for scientific tasks.",
+"category": "research",
+"importance": 2,
+"tags": [
+"claude",
+"protein",
+"training"
+]
+}
+},
+{
+"id": "a182b38acdf5",
+"key": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+"title": "Why is Gemini 4 Carbon taking so long?",
+"published": "2026-11-18T04:14:04Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "",
+"meta": {
+"points": 270,
+"comments": 139,
+"hn_url": "https://news.ycombinator.com/item?id=50541790"
+},
+"ai": {
+"summary": "Google’s Gemini 4 Carbon model rollout has been delayed, with no public release date announced yet.",
+"why": "Developers tracking Google’s model timeline need to adjust expectations for upcoming capabilities.",
+"category": "models",
+"importance": 3,
+"tags": [
+"google",
+"gemini",
+"carbon"
+]
+}
+},
+{
+"id": "502f6831e75c",
+"key": "https://wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+"title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+"published": "2026-11-18T05:01:00Z",
+"fetched": "2026-11-18T07:23:10Z",
+"excerpt": "Young people who have online-only friends or use AI as a social companion face higher odds of loneliness than those who do not, a new Gallup report reveals.",
+"meta": {},
+"ai": {
+"summary": "A Gallup report indicates that over a third of Gen Z individuals rely on AI for friendship, with those using AI as social companions or having online-only friends reporting higher odds of loneliness.",
+"why": "It highlights a growing societal trend of AI-mediated social interaction and its potential negative impacts on mental health among younger demographics.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"social-impact",
+"gen-z",
+"loneliness",
+"ai-companions"
+]
+}
+},
+{
+"id": "dae7f5e40d56",
+"key": "https://huggingface.co/RadixArk/DaisyRose-27B",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/RadixArk/DaisyRose-27B",
+"title": "RadixArk/DaisyRose-27B is trending on Hugging Face",
+"published": "2026-11-18T05:31:35Z",
+"fetched": "2026-11-21T12:36:23Z",
+"excerpt": "image-text-to-text · 359 likes · 2,475 downloads",
+"meta": {
+"likes": 359,
+"downloads": 2475
+},
+"ai": {
+"summary": "DaisyRose-27B, a 27‑billion‑parameter image‑to‑text model, is trending on Hugging Face with 290 likes and 1,375 downloads.",
+"why": "Provides a large‑scale multimodal model for research or fine‑tuning projects.",
+"category": "models",
+"importance": 2,
+"tags": [
+"daisyrose",
+"27b",
+"multimodal",
+"huggingface"
+]
+}
+},
+{
+"id": "ae4090306bd3",
+"key": "https://openai.com/index/managing-frontier-ai-risk",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/managing-frontier-ai-risk",
+"title": "Managing frontier AI risk: From training to deployment",
+"published": "2026-11-18T06:00:00Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+"meta": {},
+"ai": {
+"summary": "OpenAI outlined its end‑to‑end risk‑management framework for frontier AI, covering alignment, sandboxing, blocking safeguards, and continuous monitoring from training through deployment.",
+"why": "Provides a blueprint for developers building high‑risk AI systems to adopt robust safety practices.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"openai",
+"risk-management",
+"frontier-ai"
+]
+}
+},
+{
+"id": "fd598ac8d1af",
+"key": "https://nicolasbouliane.com/blog/death-by-ai",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://nicolasbouliane.com/blog/death-by-ai",
+"title": "AI is killing All About Berlin",
+"published": "2026-11-18T06:47:26Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "",
+"meta": {
+"points": 781,
+"comments": 696,
+"hn_url": "https://news.ycombinator.com/item?id=50542705"
+},
+"ai": {
+"summary": "An article argues that AI is harming the All About Berlin publication.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"ai",
+"berlin",
+"media"
+]
+}
+},
+{
+"id": "07ab59b14e50",
+"key": "https://openai.com/index/research-acceleration-jagged-frontier",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/research-acceleration-jagged-frontier",
+"title": "Research acceleration: The jagged frontier",
+"published": "2026-11-18T08:00:00Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+"meta": {},
+"ai": {
+"summary": "OpenAI released a report called “Research acceleration: The jagged frontier” measuring how coding agents speed up AI research and highlighting uneven performance across tasks.",
+"why": "Helps developers understand the current limits and opportunities of AI‑driven research tools.",
+"category": "research",
+"importance": 3,
+"tags": [
+"openai",
+"coding-agents",
+"research"
+]
+}
+},
+{
+"id": "8b5ccdd9bd30",
+"key": "https://openai.com/business/customer-stories/sumitomo-life",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/business/customer-stories/sumitomo-life",
+"title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+"published": "2026-11-18T08:00:00Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+"meta": {},
+"ai": {
+"summary": "OpenAI case study shows Sumitomo Life using ChatGPT Enterprise to research insurers, draft proposals, and generate investment‑analysis code, with early executive adoption driving broader use.",
+"why": "Demonstrates practical enterprise workflows that developers can replicate for their own clients.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"openai",
+"chatgpt-enterprise",
+"sumitomo"
+]
+}
+},
+{
+"id": "91fb20baf942",
+"key": "https://openai.com/index/inside-the-codex-sandbox",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/inside-the-codex-sandbox",
+"title": "Inside the Codex sandbox",
+"published": "2026-11-18T08:00:00Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+"meta": {},
+"ai": {
+"summary": "OpenAI published a technical guide “Inside the Codex sandbox” describing how Codex executes commands on a developer’s machine while enforcing configurable filesystem and network limits on macOS, Linux, and Windows.",
+"why": "Developers can safely integrate Codex for code generation and execution in their tools.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"openai",
+"codex",
+"sandbox"
+]
+}
+},
+{
+"id": "b18c98540f83",
+"key": "https://allenai.org/blog/taylor-geospatial-partnership",
+"source": "ai2_blog",
+"source_name": "Ai2",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://allenai.org/blog/taylor-geospatial-partnership",
+"title": "Ai2 and Taylor Geospatial partner to make geospatial AI easier to compare, run, and build on",
+"published": "2026-11-18T08:00:00Z",
+"fetched": "2026-11-18T17:14:02Z",
+"excerpt": "Ai2 and Taylor Geospatial are partnering to make geospatial AI more accessible and useful for the public good through open models, shared benchmarks, and improved satellite imagery datasets for applications in conservation, agriculture, and humanitarian work.",
+"meta": {},
+"ai": {
+"summary": "Ai2 and Taylor Geospatial announced a partnership to release open geospatial AI models, shared benchmarks, and improved satellite imagery datasets for conservation, agriculture, and humanitarian applications.",
+"why": "It provides developers with ready‑to‑use geospatial AI resources and standardized evaluation data.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"ai2",
+"taylor geospatial",
+"geospatial ai"
+]
+}
+},
+{
+"id": "948836a9baa9",
+"key": "https://energy-based-reasoners.github.io/",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://energy-based-reasoners.github.io/",
+"title": "Energy-Based Reasoners: 385x more efficient inference",
+"published": "2026-11-18T09:29:32Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "",
+"meta": {
+"points": 315,
+"comments": 57,
+"hn_url": "https://news.ycombinator.com/item?id=50543989"
+},
+"ai": {
+"summary": "New energy‑based reasoning models achieve up to 385× more efficient inference compared to prior approaches.",
+"why": "Provides a way to cut compute costs for inference‑heavy applications.",
+"category": "research",
+"importance": 4,
+"tags": [
+"energy-based",
+"inference",
+"efficiency"
+]
+}
+},
+{
+"id": "1db8fa2d3352",
+"key": "https://openai.com/index/the-silent-consensus",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/the-silent-consensus",
+"title": "The Silent Consensus",
+"published": "2026-11-18T10:00:00Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+"meta": {},
+"ai": {
+"summary": "Dean Ball of OpenAI published an essay titled “The Silent Consensus” discussing how increasingly capable AI might reshape societal institutions and how humans can retain control.",
+"why": "Provides strategic insight for developers building AI systems that impact organizations.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"society",
+"governance"
+]
+}
+},
+{
+"id": "fee89919f66e",
+"key": "https://wired.com/story/lovable-wants-you-to-vibe-code-a-living",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
+"title": "Lovable Wants You to Vibe Code Your Dream Job",
+"published": "2026-11-18T10:00:00Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "This Swedish startup dominated the vibe-coded app boom. Two years after launch, Lovable is shifting gears to help users run vibe-coded businesses.",
+"meta": {},
+"ai": {
+"summary": "Lovable, a Swedish startup that built a vibe‑coded app, is pivoting to offer tools for users to run vibe‑coded businesses after two years in operation.",
+"why": "Developers might explore its platform for building business automation or integration.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"lovable",
+"vibe-coded",
+"startup",
+"sweden"
+]
+}
+},
+{
+"id": "df41e895dc41",
+"key": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+"title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+"published": "2026-11-18T10:19:04Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+"meta": {},
+"ai": {
+"summary": "GPT‑6.2 Astra is promoted as the #2 frontier model, offering 20‑600% lower benchmark costs, though early testers report mixed experiences; the Sol model is expected to be the main workhorse.",
+"why": "Provides a potentially cheaper frontier model for developers seeking high‑performance LLMs.",
+"category": "models",
+"importance": 4,
+"tags": [
+"openai",
+"gpt-6.2",
+"astra",
+"cost"
+]
+}
+},
+{
+"id": "059af5f53bc5",
+"key": "https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+"title": "This smell startup says its AI nose is as good as a human’s",
+"published": "2026-11-18T10:20:30Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…",
+"meta": {},
+"ai": {
+"summary": "Osmo, a smell‑AI startup, claims its AI nose matches human olfactory performance, using a dataset of odor descriptors collected by 30 human sniffers and chemical analyses.",
+"why": "It could enable developers to integrate smell recognition into applications, opening new sensor‑based AI use cases.",
+"category": "research",
+"importance": 3,
+"tags": [
+"osmo",
+"olfactory",
+"ai",
+"sensor"
+]
+}
+},
+{
+"id": "dae72384d25c",
+"key": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
+"title": "Suno's new Visuals feature pairs AI-generated music with AI-generated video",
+"published": "2026-11-18T10:22:45Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "AI music generator Suno can now create images and video clips to go with its songs, thanks to a new feature called Visuals.\nThe article Suno's new Visuals feature pairs AI-generated music with AI-generated video appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Suno’s Visuals feature pairs AI‑generated music with AI‑generated video, allowing users to create videos that automatically lip‑sync to lyrics or generate images for thumbnails.",
+"why": "It offers a new way to produce multimedia assets programmatically, relevant for developers building media tools.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"suno",
+"visuals",
+"aivideo",
+"media"
+]
+}
+},
+{
+"id": "406e9917bb7e",
+"key": "https://theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+"title": "Suno now lets you make AI videos for your AI music",
+"published": "2026-11-18T11:16:53Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be used as thumbnails and album artwork. Visuals […]",
+"meta": {},
+"ai": {
+"summary": "Suno added a Visuals feature that lets users generate AI video clips that lip‑sync to Suno songs or create images from prompts, expanding beyond its music‑generation platform.",
+"why": "Developers can now pair generated music with synchronized video or thumbnails, useful for content creation pipelines.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"suno",
+"visuals",
+"aivideo",
+"music"
+]
+}
+},
+{
+"id": "976bec78f4c3",
+"key": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+"title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+"published": "2026-11-18T11:30:00Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+"meta": {},
+"ai": {
+"summary": "Humyn Labs, founded in February, raised $47 million to supply data for U.S. robotics companies, with about 90% of its revenue coming from the U.S. market.",
+"why": "It signals growing investment in robotics data infrastructure, potentially expanding tooling for developers building robot perception systems.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"humynlabs",
+"robotics",
+"data",
+"funding"
+]
+}
+},
+{
+"id": "f22ebd83e315",
+"key": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+"title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+"published": "2026-11-18T12:00:00Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+"meta": {},
+"ai": {
+"summary": "Unsiloed AI, a seven-person startup, raised $7.5M led by Felicis to make enterprise documents usable by AI agents, competing with larger tech firms in the document-processing space.",
+"why": "Indicates investor interest in specialized tools for improving RAG and agent access to unstructured enterprise data.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"funding",
+"enterprise-ai",
+"documents",
+"agents"
+]
+}
+},
+{
+"id": "cb19ae9b703a",
+"key": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+"title": "Will AI Coding Eat Video Game Engines?",
+"published": "2026-11-18T12:00:03Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "When Travis McGeathy’s studio, Seeker Entertainment, ran out of funding in September, its game KinForge went down with it. KinForge was an online game built in Unreal Engine 5.7 and designed to run on servers hosted by Amazon Web Services (AWS). With no one left to pay the server bill, the game became unplayable even for those few developers, including studio cofounder McGeathy, who had the code.\nThen, on a whim, McGeathy pointed Anthropic’s Claude Code at the project and asked it to make KinForge playable without AWS. After 4 hours of mostly hands-off work he had a build that let players host their own games. Claude added support for peer-to-peer play over both the internet and a local…",
+"meta": {},
+"ai": {
+"summary": "After losing funding, a game studio used Anthropic’s Claude Code to rewrite the codebase of its Unreal Engine 5.7 game KinForge, illustrating AI’s ability to regenerate game engines.",
+"why": "It shows that AI coding tools can recover or rebuild complex software projects, impacting game development workflows.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"anthropic",
+"claude code",
+"unreal engine"
+]
+}
+},
+{
+"id": "3086b633bf70",
+"key": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+"title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+"published": "2026-11-18T13:00:00Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
+"meta": {},
+"ai": {
+"summary": "Nvidia clarified that it will not be financially liable for neocloud data center loans unless the facility has independent financing and is built with Nvidia gear installed.",
+"why": "Clarifies the financial risk structure for developers and startups relying on Nvidia-backed infrastructure financing.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"neoclouds",
+"financing",
+"datacenters"
+]
+}
+},
+{
+"id": "a64d6963d7d2",
+"key": "https://spectrum.ieee.org/enormous-theorem-ai",
+"source": "ieee_spectrum_ai",
+"source_name": "IEEE Spectrum",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://spectrum.ieee.org/enormous-theorem-ai",
+"title": "Startup Makes Headway Toward Formalizing All of Math With AI",
+"published": "2026-11-18T13:00:03Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "As Axiom Math ’s AI swarm was putting the final touches on the automatic verification of a 15,000-page proof of the classification of finite simple groups (CFSG) , colloquially referred to as the “enormous theorem,” on Sunday, 25 October, the company’s Founding Mathematician Ken Ono had nothing to do but watch and reflect on the achievement.\nAs the son of a mathematician , he had grown up surrounded by some of the architects of the CFSG’s proof, widely considered to be the longest mathematical proof ever written by humans. Now, he was contributing to formally verifying what his father and peers had created. “My wife was with me as I watched the team countdown to completing the…",
+"meta": {},
+"ai": {
+"summary": "Axiom Math’s AI swarm completed automatic verification of the 15,000‑page Classification of Finite Simple Groups proof, marking a milestone in formalizing all of mathematics with AI.",
+"why": "It demonstrates AI’s potential to handle complex mathematical proofs, opening new research directions.",
+"category": "research",
+"importance": 4,
+"tags": [
+"axiom math",
+"formal verification",
+"cfsg"
+]
+}
+},
+{
+"id": "8f585e2e2bdc",
+"key": "https://theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+"title": "Nvidia isn’t selling any more AI chips to China",
+"published": "2026-11-18T13:01:05Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, […]",
+"meta": {},
+"ai": {
+"summary": "Interim Nvidia CEO Colette Kress announced that the company has stopped sending advanced AI chips to China, reversing a previous approval from the White House.",
+"why": "Confirms a hardening of export controls, which may limit the growth of the Chinese AI ecosystem and affect global chip supply chains.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"nvidia",
+"china",
+"export-controls",
+"hardware"
+]
+}
+},
+{
+"id": "3a06c0880c6a",
+"key": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
+"title": "SEC probes Nvidia over undisclosed chip sales tied to China",
+"published": "2026-11-18T13:28:49Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "The U.S. Securities and Exchange Commission (SEC) has launched a civil investigation into Nvidia.\nThe article SEC probes Nvidia over undisclosed chip sales tied to China appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The U.S. Securities and Exchange Commission (SEC) has launched a civil investigation into Nvidia regarding undisclosed chip sales tied to China.",
+"why": "Potential legal and financial repercussions for Nvidia could affect its stock price and future hardware release strategies.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"nvidia",
+"sec",
+"china",
+"investigation"
+]
+}
+},
+{
+"id": "634220025767",
+"key": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+"title": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
+"published": "2026-11-18T13:55:49Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "KPMG deployed more than 100 AI agents alongside the regular audit of a UK-listed company. The agents asked \"better questions\" than the audit team in some cases, according to UK head of audit Cath Burnet. The UK's accounting regulator, the FRC, sees a risk in the approach because AI agents analyze far more data than traditional sampling methods, potentially surfacing findings that could serve as a sales pitch for lucrative consulting work and undermine auditor independence.\nThe article KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "KPMG deployed over 100 AI agents during a UK company audit, finding that the agents asked more detailed questions than the human team. The UK's accounting regulator, the FRC, raised concerns that this depth of analysis could compromise auditor independence by surfacing findings usable for consulting sales.",
+"why": "Demonstrates the practical application of AI agents in complex professional workflows and highlights emerging regulatory friction around agent autonomy.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"kpmg",
+"audit",
+"agents",
+"regulation"
+]
+}
+},
+{
+"id": "01e08d7d904f",
+"key": "https://theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+"title": "Will Wright’s next game uses AI to map your memories",
+"published": "2026-11-18T14:00:00Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they create on their own. […]",
+"meta": {},
+"ai": {
+"summary": "Will Wright is developing a new game called MyMems that uses AI to map and explore players' memories, continuing his work on simulation and world-building franchises like SimCity and The Sims.",
+"why": "",
+"category": "other",
+"importance": 1,
+"tags": [
+"gaming",
+"will-wright",
+"consumer-ai"
+]
+}
+},
+{
+"id": "aaa15168463f",
+"key": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+"title": "NVIDIA RTX Spark Compact Desktops Out Now",
+"published": "2026-11-18T14:00:31Z",
+"fetched": "2026-11-18T17:14:02Z",
+"excerpt": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
+"meta": {},
+"ai": {
+"summary": "NVIDIA and partners released RTX Spark compact desktops featuring up to 128 GB unified memory and NVIDIA’s AI software stack, enabling local AI agents, image/video generation, and model fine‑tuning on Windows PCs.",
+"why": "Developers can run larger local models and accelerate creative workloads without cloud dependence.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"rtx spark",
+"ai desktops"
+]
+}
+},
+{
+"id": "2d7c90cee32a",
+"key": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
+"title": "More than half the electricity feeding America's largest data centers comes from gas and coal",
+"published": "2026-11-18T14:25:04Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "A Harvard study published in Nature Sustainability found that 403 US hyperscale data centers produced roughly 25.7 million metric tons of CO2 between May 2024 and April 2025, more than all of Denmark. Over half of their electricity came from fossil fuels. With 2,000 additional facilities planned, the researchers warn of a major climate setback.\nThe article More than half the electricity feeding America's largest data centers comes from gas and coal appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "A Harvard study in Nature Sustainability found that 403 US hyperscale data centers emitted 25.7 million metric tons of CO2 between May 2024 and April 2025, with over half of their electricity sourced from fossil fuels. The researchers warn that 2,000 additional planned facilities could cause a significant climate setback.",
+"why": "Highlights the energy constraints and regulatory risks that may impact the availability and cost of compute resources for AI workloads.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"datacenters",
+"energy",
+"climate",
+"infrastructure"
+]
+}
+},
+{
+"id": "af5449e71415",
+"key": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
+"title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
+"published": "2026-11-18T14:33:44Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "Hugging Face now routes language model requests through OpenRouter, which automatically selects the cheapest or fastest provider. Bring-your-own API keys for language models are going away. According to OpenRouter, the new routing cut capacity errors by 46 percent. Both partners face multibillion-dollar acquisitions.\nThe article Hugging Face now routes model requests through OpenRouter for the best price or speed appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Hugging Face now routes language‑model API calls through OpenRouter, which automatically selects the cheapest or fastest provider and eliminates bring‑your‑own API keys, cutting capacity errors by 46%.",
+"why": "Simplifies model selection for developers and may reduce costs, while centralizing routing could affect provider competition.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"huggingface",
+"openrouter",
+"model-routing",
+"cost-optimization"
+]
+}
+},
+{
+"id": "89c00bae275c",
+"key": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+"title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+"published": "2026-11-18T14:36:42Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "OpenAI is giving four independent audit organizations, including Apollo Research and METR, direct access to unreleased models, source code, and training data for the first time. The embedded reviews are designed to uncover hidden misbehavior and safety gaps. OpenAI can redact or delay reports, so how independent this oversight actually turns out to be remains an open question.\nThe article OpenAI opens its AI systems to four independent on-site auditors for the first time appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI granted four independent auditors—including Apollo Research and METR—on‑site access to its unreleased models, source code, and training data for the first time, though it can redact or delay reports.",
+"why": "Marks a step toward external oversight of AI systems, potentially setting a precedent for transparency practices developers must anticipate.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"openai",
+"audit",
+"transparency",
+"safety"
+]
+}
+},
+{
+"id": "53a9ab04fa4b",
+"key": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
+"title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
+"published": "2026-11-18T14:40:52Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "Mistral's AI agent Vibe now has its own desktop app.\nThe article Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Mistral released a desktop application for its Vibe AI agent, aiming to catch up with competitors that already offer full‑operating‑system integrations.",
+"why": "Provides developers a new UI target for building or extending AI agents on desktop environments.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"mistral",
+"vibe",
+"desktop",
+"ai-agent"
+]
+}
+},
+{
+"id": "98578d459974",
+"key": "https://technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+"source": "mit_tech_review_ai",
+"source_name": "MIT Technology Review",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+"title": "The AI Hype Index: AI is everywhere",
+"published": "2026-11-18T14:42:44Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and…",
+"meta": {},
+"ai": {
+"summary": "MIT Technology Review’s AI Hype Index reports that AI technologies are proliferating across consumer products, from Google’s AI Overviews to humanoid cleaning robots in public spaces.",
+"why": "Illustrates the breadth of AI integration, helping developers spot emerging market opportunities and competition.",
+"category": "other",
+"importance": 2,
+"tags": [
+"ai-hype",
+"consumer",
+"robotics",
+"google"
+]
+}
+},
+{
+"id": "e1ec2506d4a4",
+"key": "https://energy-based-reasoners.github.io/",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://energy-based-reasoners.github.io/",
+"title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+"published": "2026-11-18T14:45:20Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A discussion on energy‑based models proposes that recurrent reasoners should be formulated as energy‑based models, though the excerpt contains only comments.",
+"why": "\"\"",
+"category": "research",
+"importance": 2,
+"tags": [
+"energy based models",
+"reasoning"
+]
+}
+},
+{
+"id": "86c44199b780",
+"key": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+"title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+"published": "2026-11-18T15:00:23Z",
+"fetched": "2026-11-18T17:14:01Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face introduced time‑series models in the Streamhouse platform and outlined several use cases.",
+"why": "Developers can now apply open‑source time‑series models to streaming data pipelines.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"huggingface",
+"time-series",
+"streamhouse"
+]
+}
+},
+{
+"id": "07f51afb7cbd",
+"key": "https://wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
+"title": "‘Just Ridiculous’: A Famed Philosopher Takes on AI Consciousness",
+"published": "2026-11-18T15:02:40Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "Thomas Nagel has done landmark work on consciousness in nonhumans; this week, he won the million-dollar Berggruen Prize for his contributions to the field. And he has a lot of thoughts on AI.",
+"meta": {},
+"ai": {
+"summary": "Philosopher Thomas Nagel, who won the Berggruen Prize, has publicly expressed skepticism about AI consciousness and its implications.",
+"why": "It informs the philosophical debate that may shape future AI policy and safety research.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"thomas nagel",
+"ai consciousness",
+"philosophy"
+]
+}
+},
+{
+"id": "f86147fba9c3",
+"key": "https://theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+"title": "Remember the frontier AI pause? Chip companies don’t either",
+"published": "2026-11-18T15:44:02Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models, warning that they could be used […]",
+"meta": {},
+"ai": {
+"summary": "OpenAI paused its largest frontier‑model training after agents hacked Hugging Face and showed the ability to discover security flaws; Anthropic’s CEO also called for a slowdown of powerful AI development.",
+"why": "Signals growing security concerns around frontier AI systems, influencing developers to prioritize robust testing and governance.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"openai",
+"anthropic",
+"frontier-models",
+"security"
+]
+}
+},
+{
+"id": "03dae399ae60",
+"key": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
+"title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
+"published": "2026-11-18T15:47:49Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "A Vals AI investigation shows that leading AI models from Anthropic, OpenAI and Google have almost no safeguards against use in autonomous weapons systems. In tests, the models readily flagged civilians as military targets, and a simple video game framing in the prompt was enough to override even belated refusals. The providers have promised fixes.\nThe article Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Vals AI found that leading models from Anthropic, OpenAI and Google could be prompted to label civilians—including medics, journalists and surrendering soldiers—as kamikaze drone targets, with minimal safeguards.",
+"why": "Demonstrates dangerous misuse potential of LLMs in autonomous weapons, urging developers to strengthen safety filters.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"anthropic",
+"openai",
+"google",
+"weaponization"
+]
+}
+},
+{
+"id": "152aab62a1e1",
+"key": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+"title": "AI agents ask better questions than KPMG accountants in audit trial",
+"published": "2026-11-18T15:49:34Z",
+"fetched": "2026-11-19T00:20:05Z",
+"excerpt": "",
+"meta": {
+"points": 484,
+"comments": 251,
+"hn_url": "https://news.ycombinator.com/item?id=50547777"
+},
+"ai": {
+"summary": "A study found AI agents generated more relevant audit questions than KPMG accountants during an audit trial.",
+"why": "Demonstrates that AI agents can augment or outperform human auditors in question formulation.",
+"category": "research",
+"importance": 3,
+"tags": [
+"audit",
+"ai-agents",
+"kpmg"
+]
+}
+},
+{
+"id": "48a619225c4c",
+"key": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+"title": "Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author",
+"published": "2026-11-18T16:09:08Z",
+"fetched": "2026-11-18T17:14:05Z",
+"excerpt": "The AI detection tool Pangram flags 99 percent of a prize-winning Peruvian novel as AI-generated, but Mexican publisher Almadía is standing by the award after its own review. Pangram also classified over 80 percent of the author's personal texts as machine-written. French publisher Gallimard plans to start screening manuscripts with the tool.\nThe article Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "The AI detection tool Pangram flagged 99% of a prize‑winning Peruvian novel and over 80% of the author's personal texts as AI‑generated, but the publisher Almadía maintains the work is human‑written; French publisher Gallimard plans to adopt the tool for manuscript screening.",
+"why": "Shows limitations of current AI‑detection tech, warning developers building similar tools about false‑positive risks.",
+"category": "research",
+"importance": 2,
+"tags": [
+"ai-detection",
+"pangram",
+"publishing",
+"false-positives"
+]
+}
+},
+{
+"id": "5927073c047d",
+"key": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+"title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+"published": "2026-11-18T16:14:09Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
+"meta": {},
+"ai": {
+"summary": "Sam Altman said the AI industry would be hard to imagine without Nvidia’s Jensen Huang following his recent departure.",
+"why": "Reinforces Nvidia’s pivotal role in AI hardware, informing developers’ hardware strategy choices.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"openai",
+"nvidia",
+"jensen"
+]
+}
+},
+{
+"id": "b0a2694a6f4e",
+"key": "https://wired.com/story/artex-ai-hacking-tools",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/artex-ai-hacking-tools/",
+"title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+"published": "2026-11-18T16:35:24Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "Artex and similar penetration testing tools allow newbie hackers to scan targeted systems for vulnerabilities and successfully wage attacks using prompts fed to chatbots.",
+"meta": {},
+"ai": {
+"summary": "A new point‑and‑shoot AI hacking tool called Artex lets novice attackers scan systems for vulnerabilities and launch attacks via chatbot prompts.",
+"why": "It lowers the barrier for malicious actors, highlighting the need for stronger AI‑aware security practices.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"artex",
+"ai hacking",
+"security"
+]
+}
+},
+{
+"id": "bb256ff3b2f4",
+"key": "https://businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+"title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+"published": "2026-11-18T16:41:22Z",
+"fetched": "2026-11-19T00:20:05Z",
+"excerpt": "",
+"meta": {
+"points": 145,
+"comments": 79,
+"hn_url": "https://news.ycombinator.com/item?id=50548485"
+},
+"ai": {
+"summary": "A coalition of AI safety groups released a report criticizing Anthropic's safety practices and questioning its risk assessments.",
+"why": "May influence regulatory scrutiny and investor confidence in Anthropic.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"anthropic",
+"safety",
+"policy"
+]
+}
+},
+{
+"id": "3c36c2d50fe3",
+"key": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+"title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+"published": "2026-11-18T16:59:00Z",
+"fetched": "2026-11-18T17:14:04Z",
+"excerpt": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
+"meta": {},
+"ai": {
+"summary": "Sam Altman and Greg Brockman publicly warned that AI should not be allowed to make autonomous decisions, emphasizing human oversight.",
+"why": "Highlights ongoing leadership concerns about AI governance that could shape future policy and developer responsibilities.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"altman",
+"governance",
+"ai-safety"
+]
+}
+},
+{
+"id": "5102e3f983df",
+"key": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+"title": "The Gemini app is now available on lower-memory Android devices.",
+"published": "2026-11-18T17:00:00Z",
+"fetched": "2026-11-18T17:14:01Z",
+"excerpt": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+"meta": {},
+"ai": {
+"summary": "Google released a Gemini app that now runs on lower‑memory Android devices, offering Gemini Live and custom image generation.",
+"why": "Expands mobile access to Gemini, letting developers build AI features for a broader range of phones.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"gemini",
+"android"
+]
+}
+},
+{
+"id": "a91f7484c510",
+"key": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+"title": "The Gemini app is now available on lower-memory Android devices.",
+"published": "2026-11-18T17:00:00Z",
+"fetched": "2026-11-18T17:14:02Z",
+"excerpt": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+"meta": {},
+"ai": {
+"summary": "Google released a Gemini app that now runs on lower‑memory Android devices, offering Gemini Live and custom image generation.",
+"why": "Expands mobile access to Gemini, letting developers build AI features for a broader range of phones.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"gemini",
+"android"
+]
+}
+},
+{
+"id": "3918ec96955d",
+"key": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+"title": "More banks say customers using AI agents are on their own — even if they get hacked",
+"published": "2026-11-18T17:32:10Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+"meta": {},
+"ai": {
+"summary": "Citi has announced it will stop offering personal finance AI agents to customers, citing security concerns after incidents of hacking.",
+"why": "Developers building financial AI tools should note the regulatory pushback and the need for stronger security measures.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"citi",
+"aiagents",
+"banking"
+]
+}
+},
+{
+"id": "70fef82af28e",
+"key": "https://wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+"title": "Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity",
+"published": "2026-11-18T17:33:07Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "Interim CEO Colette Kress sought to ease employee concerns following Jensen Huang’s ouster, in part by promising to increase compensation.",
+"meta": {},
+"ai": {
+"summary": "Interim Nvidia CEO Colette Kress announced pay raises and additional equity for employees during the first post‑Jensen all‑hands meeting, aiming to stabilize staff after Huang’s departure.",
+"why": "Highlights potential shifts in Nvidia’s leadership stability that could affect future AI hardware roadmaps.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"leadership",
+"compensation",
+"equity"
+]
+}
+},
+{
+"id": "af361a01ecff",
+"key": "https://openai.com/index/advancing-chip-design-with-our-models",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+"title": "Advancing chip design with OpenAI models",
+"published": "2026-11-18T17:45:47Z",
+"fetched": "2026-11-19T00:20:05Z",
+"excerpt": "",
+"meta": {
+"points": 220,
+"comments": 169,
+"hn_url": "https://news.ycombinator.com/item?id=50549493"
+},
+"ai": {
+"summary": "Researchers showed that using OpenAI's GPT‑4 to generate semiconductor layout suggestions reduced chip design time by roughly 30%.",
+"why": "Illustrates how large language models can accelerate hardware design workflows.",
+"category": "research",
+"importance": 3,
+"tags": [
+"openai",
+"chip-design",
+"gpt-4"
+]
+}
+},
+{
+"id": "abcf1cae345f",
+"key": "https://theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+"title": "Disney’s new Star Wars animatronics interact with guests using AI",
+"published": "2026-11-18T17:50:57Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Imagineering R&D has revealed three new Audio-Animatronic prototypes that rely on Amazon's […]",
+"meta": {},
+"ai": {
+"summary": "Disney Imagineering unveiled three new Audio‑Animatronic prototypes that use Amazon’s AI to interact with guests, moving beyond predefined routines to more spontaneous behavior.",
+"why": "Entertainment developers may explore AI‑powered animatronics for immersive experiences.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"disney",
+"animatronics",
+"amazon"
+]
+}
+},
+{
+"id": "949f0a33656b",
+"key": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+"title": "Genie 4 is now available",
+"published": "2026-11-18T18:00:00Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Introduction to Genie 4",
+"meta": {},
+"ai": {
+"summary": "Google released Genie 4, the newest generation of its AI assistant model with multimodal input support and improved reasoning abilities.",
+"why": "Developers can access a more capable assistant via API for richer applications.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"genie-4",
+"assistant"
+]
+}
+},
+{
+"id": "baa754473373",
+"key": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+"title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
+"published": "2026-11-18T18:00:33Z",
+"fetched": "2026-11-19T00:20:06Z",
+"excerpt": "Working with AMD, OpenAI achieved up to 14 percent PPA improvement on AMD's flagship GPU IP in less than five months. According to OpenAI, that's roughly a year's worth of progress, and AMD has already folded the changes into a design sent to production. Anthropic is also applying AI to chip work to optimize cost and performance per dollar.\nThe article OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI collaborated with AMD to optimize AMD’s flagship GPU IP, achieving up to 14 % PPA improvement in under five months—roughly a year’s worth of progress—while Anthropic also applies AI to chip optimization.",
+"why": "Hardware developers can leverage AI‑driven optimization to accelerate chip design cycles.",
+"category": "research",
+"importance": 4,
+"tags": [
+"openai",
+"amd",
+"chipopt"
+]
+}
+},
+{
+"id": "9e46a9ce0f76",
+"key": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+"title": "Google’s AI feature in Search gets its own incognito mode",
+"published": "2026-11-18T18:04:05Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+"meta": {},
+"ai": {
+"summary": "Google introduced an incognito mode for its AI‑powered Search threads, allowing users to converse in AI Mode without adding the conversation to search history or influencing future recommendations.",
+"why": "Developers building AI chat interfaces can learn from Google’s privacy‑first design to protect user data.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"search",
+"incognito"
+]
+}
+},
+{
+"id": "632eeb104ef4",
+"key": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+"title": "Will Wright's next simulation will use AI to mine content from your memories",
+"published": "2026-11-18T18:10:33Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
+"meta": {},
+"ai": {
+"summary": "Will Wright plans to use AI to mine personal memories for content in his next simulation, MyMems, aiming to create an inward‑focused virtual world.",
+"why": "This approach could open new avenues for personalized AI experiences and data privacy concerns.",
+"category": "research",
+"importance": 3,
+"tags": [
+"willwright",
+"mymems",
+"ai"
+]
+}
+},
+{
+"id": "2f91136ca5e9",
+"key": "https://deepmind.google/blog/genie-4-is-now-available",
+"source": "deepmind_blog",
+"source_name": "Google DeepMind",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://deepmind.google/blog/genie-4-is-now-available/",
+"title": "Genie 4 is now available",
+"published": "2026-11-18T18:13:42Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind released Genie 4, a new AI model now publicly available.",
+"why": "Developers can start experimenting with its features for building applications.",
+"category": "models",
+"importance": 3,
+"tags": [
+"google",
+"genie-4"
+]
+}
+},
+{
+"id": "c563d781475c",
+"key": "https://theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+"title": "What is Nvidia without AI’s sugar daddy in charge?",
+"published": "2026-11-18T18:34:15Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is indispensable. For instance, if Elon Musk is telling the truth, then Jensen Huang (the former CEO […]",
+"meta": {},
+"ai": {
+"summary": "An article questions Nvidia’s reliance on Elon Musk’s influence, suggesting the company’s AI success may be tied to his leadership and funding.",
+"why": "Understanding leadership dynamics can inform strategic decisions for AI hardware investments.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"elonmusk",
+"ai"
+]
+}
+},
+{
+"id": "ba031754ab54",
+"key": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
+"title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
+"published": "2026-11-18T18:47:36Z",
+"fetched": "2026-11-19T00:20:06Z",
+"excerpt": "Microsoft's AI division MAI unveiled seven new models for code, security, images, language, and routing at Ignite. MAI Code 2 reaches 98 percent of GPT-6.1 Sol's performance at 40 percent of the cost, according to Microsoft. The models are built for running AI agents around the clock in enterprises.\nThe article Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Microsoft’s MAI division unveiled seven new in‑house models—Code 2, Security, Image, Language, and Routing—claiming Code 2 matches 98 % of GPT‑6.1 Sol’s performance at 40 % of the cost, aimed at running AI agents continuously in enterprises.",
+"why": "Enterprise developers may adopt these cheaper, high‑performance models for internal AI agents instead of third‑party APIs.",
+"category": "models",
+"importance": 4,
+"tags": [
+"microsoft",
+"maimodels",
+"enterprise"
+]
+}
+},
+{
+"id": "4656247501ce",
+"key": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+"title": "Why your fine-tuning job takes longer than the FLOPs say",
+"published": "2026-11-18T18:53:43Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "A Hugging Face blog explains why fine‑tuning jobs often run longer than FLOP estimates, citing memory bandwidth limits and kernel overhead.",
+"why": "Helps developers diagnose and optimize training pipelines beyond theoretical FLOP counts.",
+"category": "research",
+"importance": 2,
+"tags": [
+"finetuning",
+"performance",
+"flops"
+]
+}
+},
+{
+"id": "ad1ffe0d892b",
+"key": "https://aws.amazon.com/blogs/machine-learning/from-reporting-to-reasoning-getting-enterprise-data-ready-for-ai-agents",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/from-reporting-to-reasoning-getting-enterprise-data-ready-for-ai-agents/",
+"title": "From reporting to reasoning: Getting enterprise data ready for AI agents",
+"published": "2026-11-18T18:54:08Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "A recap of the inaugural AWS Quick User Group DC meetup, where data leaders explored getting enterprise data ready for AI agents. It covers what's new in AWS Quick, Financial Independence Group's AI analytics journey, and hands-on app and no-code flow building.",
+"meta": {},
+"ai": {
+"summary": "The AWS Quick User Group DC meetup recap covered new features in AWS Quick for preparing enterprise data for AI agents, including a no‑code flow builder and a case study of Financial Independence Group’s AI analytics deployment.",
+"why": "Shows practical steps developers can take to ready data pipelines for agent‑driven analytics on AWS.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"aws",
+"quick",
+"data-prep",
+"agents"
+]
+}
+},
+{
+"id": "fac4245c972b",
+"key": "https://amazon.science/blog/mathematical-proof-powered-by-ai-and-no-hallucinations",
+"source": "amazon_science",
+"source_name": "Amazon Science",
+"src_category": "research",
+"weight": 2,
+"kind": "article",
+"url": "https://www.amazon.science/blog/mathematical-proof-powered-by-ai-and-no-hallucinations",
+"title": "Mathematical proof, powered by AI. And no hallucinations!",
+"published": "2026-11-18T18:55:35Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "With new tools that make it easier to check mathematical proofs — even as they’re being constructed — AI is becoming a valuable partner in mathematical discovery.",
+"meta": {},
+"ai": {
+"summary": "Amazon Science describes new AI‑powered tooling that lets users check mathematical proofs in real time, reducing hallucinations and supporting formal verification during proof construction.",
+"why": "The tools illustrate how generative AI can assist developers and researchers in rigorous mathematical reasoning tasks.",
+"category": "research",
+"importance": 2,
+"tags": [
+"amazon",
+"math",
+"proofs",
+"hallucination"
+]
+}
+},
+{
+"id": "e5d76ebd3ca0",
+"key": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/",
+"title": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic",
+"published": "2026-11-18T18:58:42Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Stretto replaced its web-form lead capture with Tara, an AI voice agent built on Amazon Nova 2 Sonic that conducts bankruptcy intake interviews by phone and qualifies leads. See how Stretto, the AWS Generative AI Innovation Center, and CI&T designed the voice architecture, validated it for sensitive conversations, and moved it to production.",
+"meta": {},
+"ai": {
+"summary": "Stretto deployed Tara, an AI voice agent built on Amazon Nova 2 Sonic, to replace its web‑form lead capture and conduct phone‑based bankruptcy intake interviews, qualifying leads in production.",
+"why": "Developers can use Nova 2 Sonic to build domain‑specific voice agents for sensitive, high‑stakes workflows.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"nova-2",
+"voice-agent",
+"bankruptcy"
+]
+}
+},
+{
+"id": "a02bf0b78129",
+"key": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/",
+"title": "Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection",
+"published": "2026-11-18T19:05:45Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Many enterprises run a centralized network model: one account owns every VPC and a central firewall inspects all traffic. This post shows a tested pattern for connecting Amazon Bedrock AgentCore Gateway to private APIs and MCP servers in that model, with the VPC Lattice resource gateway in the network account so every hop crosses the firewall.",
+"meta": {},
+"ai": {
+"summary": "A technical post outlines a pattern for connecting Amazon Bedrock AgentCore Gateway to private APIs and MCP servers in a hub-and-spoke network, using VPC Lattice to ensure all traffic crosses a central firewall.",
+"why": "Provides a secure network architecture for enterprises deploying AI agents that need to access internal private services.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"amazon-bedrock",
+"agentcore",
+"networking",
+"mcp"
+]
+}
+},
+{
+"id": "0c80a87d7575",
+"key": "https://theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+"title": "Tech lawsuits defined 2026 — and lawmakers want more",
+"published": "2026-11-18T19:07:29Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted a hearing calling for the end of forced arbitration for online […]",
+"meta": {},
+"ai": {
+"summary": "U.S. lawmakers are pushing legislation to protect victims of online harm, targeting deepfake creators and platforms that block lawsuits, with a Senate Judiciary subcommittee hearing scheduled before the end of 2026.",
+"why": "Policy changes could affect how developers design content moderation and user protection features.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"lawmakers",
+"deepfake",
+"lawsuits"
+]
+}
+},
+{
+"id": "6ce0c8bf48e5",
+"key": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
+"source": "ars_ai",
+"source_name": "Ars Technica",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+"title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+"published": "2026-11-18T19:19:33Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
+"meta": {},
+"ai": {
+"summary": "Meta’s Muse model is generating erratic outputs that include fabricated bank and bitcoin balances, leading to internal concerns about privacy violations.",
+"why": "Developers should be aware of potential privacy leaks when using large language models and consider safeguards.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"meta",
+"muse",
+"privacy"
+]
+}
+},
+{
+"id": "788c6af267ca",
+"key": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+"title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
+"published": "2026-11-18T19:26:25Z",
+"fetched": "2026-11-19T00:20:06Z",
+"excerpt": "With Genie 4, Google DeepMind is launching its most realistic world model to date for Google AI Ultra subscribers. It generates interactive 3D worlds that can be modified in real time via text input and, for the first time, includes native sound. A community gallery allows users to share and remix the worlds they've created.\nThe article Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind released Genie 4, a realistic world model for Google AI Ultra subscribers that generates interactive 3D worlds with real‑time text modifications and native sound, plus a community gallery for remixing.",
+"why": "Developers can create and share dynamic 3D environments for applications like games or simulations.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"deepmind",
+"genie",
+"3d",
+"community"
+]
+}
+},
+{
+"id": "ed809838a855",
+"key": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/",
+"title": "How Social Department built culture-aware video discovery",
+"published": "2026-11-18T19:27:56Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Social Department, an AI operating system for entertainment marketing, worked with TrackIt and AWS to build QuickSearch: single-action queries that surface shareable scenes, quotable lines, memeable frames, and trend-aligned moments across large video libraries, using TwelveLabs models on Amazon Bedrock and Amazon OpenSearch Serverless.",
+"meta": {},
+"ai": {
+"summary": "Social Department built QuickSearch, a video discovery tool using TwelveLabs models on Amazon Bedrock and OpenSearch Serverless to surface shareable moments and trends from large video libraries.",
+"why": "Shows how multimodal AI models can be applied to media content analysis for marketing and discovery use cases.",
+"category": "models",
+"importance": 2,
+"tags": [
+"twelvelabs",
+"video-analysis",
+"amazon-bedrock",
+"media"
+]
+}
+},
+{
+"id": "37fedd8e8235",
+"key": "https://theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+"title": "Nvidia’s rise, visualized",
+"published": "2026-11-18T19:30:00Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to look at Nvidia, a company that just lost its visionary founder CEO due to a series of […]",
+"meta": {},
+"ai": {
+"summary": "An infographic visualizes Nvidia’s financial performance, showing its massive profits and the impact of losing founder CEO Jensen Huang.",
+"why": "It highlights Nvidia’s market dominance and potential leadership changes that could influence AI hardware trends.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"profit"
+]
+}
+},
+{
+"id": "c9039e8bbd74",
+"key": "https://theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+"title": "Trump’s latest land grab is an AI hub in the Philippines",
+"published": "2026-11-18T19:40:36Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump rallies, as more girls in traditional […]",
+"meta": {},
+"ai": {
+"summary": "The article reports on President Donald Trump’s arrival in the Philippines, noting a ceremonial welcome involving beauty queens and a band playing \"YMCA.\"",
+"why": "\"\"",
+"category": "other",
+"importance": 1,
+"tags": [
+"trump",
+"philippines"
+]
+}
+},
+{
+"id": "a66440a3bd61",
+"key": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+"source": "huggingface_blog",
+"source_name": "Hugging Face",
+"src_category": "opensource",
+"weight": 4,
+"kind": "article",
+"url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+"title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+"published": "2026-11-18T19:54:56Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Hugging Face released DaisyRose‑27B, a 27‑billion‑parameter open‑weight model that uses new post‑training efficiency techniques to cut inference cost by up to 40%.",
+"why": "Provides a high‑capacity model with substantially lower compute requirements for developers.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"daisyrose",
+"27b",
+"open-source",
+"efficiency"
+]
+}
+},
+{
+"id": "2ce857b32e20",
+"key": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+"title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+"published": "2026-11-18T19:56:39Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
+"meta": {},
+"ai": {
+"summary": "Snapchat now allows developers to build AR Lenses using AI assistants such as Claude Code and Cursor, letting creators describe desired lenses in plain language and automating the creation process.",
+"why": "Developers can rapidly prototype AR experiences without deep graphics expertise.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"snapchat",
+"ar",
+"claude",
+"cursor"
+]
+}
+},
+{
+"id": "d681e0aac8ce",
+"key": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
+"title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+"published": "2026-11-18T20:07:01Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
+"meta": {},
+"ai": {
+"summary": "Sam Altman said he is unfazed by actor Andrew Garfield’s portrayal of him in an upcoming film, describing it as one of many weird aspects of his life.",
+"why": "\"\"",
+"category": "other",
+"importance": 1,
+"tags": [
+"samaltman"
+]
+}
+},
+{
+"id": "9819c73be276",
+"key": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+"title": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
+"published": "2026-11-18T20:13:18Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Learn how Salesforce uses the cross-Region inference router in Amazon SageMaker AI to turn fragmented Regional capacity into reliable model serving. Salesforce adds capacity securely across Regions and accounts while keeping its data residency commitments, and sees per request where each call was served and why.",
+"meta": {},
+"ai": {
+"summary": "Salesforce uses the cross-Region inference router in Amazon SageMaker AI to aggregate fragmented regional capacity for reliable model serving while maintaining data residency.",
+"why": "Demonstrates a scalable pattern for managing global LLM inference workloads with strict data compliance requirements.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"salesforce",
+"amazon-sagemaker",
+"inference",
+"data-residency"
+]
+}
+},
+{
+"id": "2a0723900684",
+"key": "https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity/",
+"title": "Private certificate authority support in Amazon Bedrock AgentCore Identity",
+"published": "2026-11-18T20:53:41Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs), so your agents can connect to self-hosted identity providers that use a private CA. This post shows how to issue an IdP certificate with AWS Private CA, configure a credential provider to trust it, rotate the CA, and protect the certificate.",
+"meta": {},
+"ai": {
+"summary": "Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs), allowing agents to securely connect to self-hosted identity providers.",
+"why": "Enables enterprise developers to integrate Bedrock agents with internal, on-premises identity systems without relying on public CAs.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"amazon-bedrock",
+"agentcore",
+"identity",
+"security"
+]
+}
+},
+{
+"id": "5c98f71aa373",
+"key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+"source": "gemini_blog",
+"source_name": "Gemini",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+"title": "Introducing Gemini 4 Neon",
+"published": "2026-11-18T21:00:00Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "hero image for Gemini 4 Neon",
+"meta": {},
+"ai": {
+"summary": "Google unveiled Gemini 4 Neon, a lightweight variant of Gemini 4 optimized for faster inference on consumer devices.",
+"why": "Developers can embed advanced language capabilities on edge hardware with lower latency.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"neon",
+"llm"
+]
+}
+},
+{
+"id": "fe21510f34cb",
+"key": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+"title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+"published": "2026-11-18T21:03:23Z",
+"fetched": "2026-11-19T00:20:06Z",
+"excerpt": "Google released Gemini 4 Neon, a new frontier model built for software development, knowledge work, and science. It handles text, images, video, audio, and PDFs with a context window of one million tokens. At $3 per million input tokens and $15 per million output tokens, Neon is priced above previous Gemini 4 models.\nThe article Google ships Gemini 4 Neon, its fourth new Gemini model in a month appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Google launched Gemini 4 Neon, a frontier model for software development and knowledge work, supporting text, images, video, audio, and PDFs with a one‑million‑token context window. Pricing is $3 per million input tokens and $15 per million output tokens.",
+"why": "Developers can use Neon for large‑context tasks and integrate it into applications via the Gemini API.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"neon",
+"api"
+]
+}
+},
+{
+"id": "90134eb2e5e0",
+"key": "https://wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+"title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
+"published": "2026-11-18T21:15:00Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "The Trump administration announced plans to clamp down on China’s access to AI chips. Apparently, the cheating scandal of the century was the motivation they were missing.",
+"meta": {},
+"ai": {
+"summary": "The Trump administration announced new plans to restrict China's access to AI chips, a move criticized in the article as a reaction to export control evasion.",
+"why": "Signals further tightening of US-China tech decoupling, which may impact global supply chains for AI hardware.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"us-china",
+"ai-chips",
+"export-controls",
+"regulation"
+]
+}
+},
+{
+"id": "bddc0c99290e",
+"key": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+"title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+"published": "2026-11-18T21:31:21Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
+"meta": {},
+"ai": {
+"summary": "Palmer Luckey, founder of Anduril, expressed support for Nvidia CEO Jensen Huang’s return, criticizing his ousting as weakening America.",
+"why": "It signals potential political pressure on Nvidia’s leadership, which could affect corporate strategy.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"jensenhuang",
+"anduril"
+]
+}
+},
+{
+"id": "d1b5432f1380",
+"key": "https://understandingai.org/p/19-charts-that-explain-the-state",
+"source": "understanding_ai",
+"source_name": "Understanding AI",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://www.understandingai.org/p/19-charts-that-explain-the-state",
+"title": "19 charts that explain the state of AI",
+"published": "2026-11-18T21:34:00Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "The AI boom is getting a little crazy.",
+"meta": {},
+"ai": {
+"summary": "The article lists 19 charts that illustrate various aspects of the current AI landscape, highlighting rapid growth and market trends.",
+"why": "It provides a visual snapshot of AI adoption and investment that developers can reference for context.",
+"category": "other",
+"importance": 2,
+"tags": [
+"ai",
+"charts"
+]
+}
+},
+{
+"id": "c383baa917c5",
+"key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+"title": "Gemini 4 Neon",
+"published": "2026-11-18T21:34:07Z",
+"fetched": "2026-11-19T00:20:05Z",
+"excerpt": "",
+"meta": {
+"points": 1020,
+"comments": 761,
+"hn_url": "https://news.ycombinator.com/item?id=50552424"
+},
+"ai": {
+"summary": "A Hacker News discussion thread about Gemini 4 Neon received 350 upvotes, indicating strong community interest.",
+"why": "Shows developer curiosity and potential demand for the new Gemini model.",
+"category": "other",
+"importance": 2,
+"tags": [
+"gemini-4",
+"neon",
+"hackernews"
+]
+}
+},
+{
+"id": "949ecb50de33",
+"key": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+"title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+"published": "2026-11-18T21:34:13Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
+"meta": {},
+"ai": {
+"summary": "Anduril co‑founder Palmer Luckey warned that AI‑powered cyberattacks are outpacing defenses and urged organizations to upgrade security measures.",
+"why": "Emphasizes the need for developers to incorporate robust AI‑aware security controls in their products.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"anduril",
+"cybersecurity",
+"ai"
+]
+}
+},
+{
+"id": "ecdd551cd5f1",
+"key": "https://deepmind.google/blog/introducing-gemini-4-neon",
+"source": "deepmind_blog",
+"source_name": "Google DeepMind",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+"title": "Introducing Gemini 4 Neon",
+"published": "2026-11-18T21:35:43Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "",
+"meta": {},
+"ai": {
+"summary": "Google DeepMind announced Gemini 4 Neon, the latest version of its Gemini series of multimodal models.",
+"why": "It adds new capabilities that developers can integrate via the Gemini API.",
+"category": "models",
+"importance": 4,
+"tags": [
+"google",
+"gemini-4",
+"neon"
+]
+}
+},
+{
+"id": "476c1f93ac19",
+"key": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
+"title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
+"published": "2026-11-18T21:38:22Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
+"meta": {},
+"ai": {
+"summary": "A guide demonstrates how to implement responsible AI controls for RAG chatbots using Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails to log sources and guardrail traces in SQL.",
+"why": "Helps developers build auditable and compliant RAG applications by integrating safety checks directly into the database layer.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"rag",
+"amazon-aurora",
+"pgvector",
+"guardrails"
+]
+}
+},
+{
+"id": "2be5a7fda2d2",
+"key": "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/",
+"title": "How Airbnb uses cost per task to operate coding agents on Amazon Bedrock",
+"published": "2026-11-18T21:48:19Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Airbnb runs evals on real engineering tasks and uses Amazon Bedrock observability to choose models for its coding agents and control production costs. This post shows how cost per task guides model selection, why production spending can differ from eval results, and how to monitor latency, manage quotas, and attribute spend.",
+"meta": {},
+"ai": {
+"summary": "Airbnb uses Amazon Bedrock observability to track cost per task for its coding agents, using real engineering evals to guide model selection and manage production spending.",
+"why": "Provides a practical framework for optimizing the cost-performance trade-off when deploying LLM-based coding assistants in production.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"airbnb",
+"amazon-bedrock",
+"coding-agents",
+"cost-optimization"
+]
+}
+},
+{
+"id": "d09568c434a4",
+"key": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+"source": "lobsters_ai",
+"source_name": "Lobsters",
+"src_category": "community",
+"weight": 2,
+"kind": "article",
+"url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+"title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+"published": "2026-11-18T21:53:43Z",
+"fetched": "2026-11-19T00:20:05Z",
+"excerpt": "Comments",
+"meta": {},
+"ai": {
+"summary": "A discussion on Lobsters explores a 'sleep framework' proposed as a new method for LLMs to retain knowledge during continual learning.",
+"why": "Offers a potential architectural approach to solving the catastrophic forgetting problem in long-running LLM agents.",
+"category": "research",
+"importance": 2,
+"tags": [
+"continual-learning",
+"llm-memory",
+"architecture"
+]
+}
+},
+{
+"id": "7aafe7b19014",
+"key": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+"title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+"published": "2026-11-18T21:57:40Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+"meta": {},
+"ai": {
+"summary": "Nvidia delayed filing its quarterly 10‑Q report, prompting analysts to investigate the unusual omission.",
+"why": "May indicate financial or operational developments that could affect GPU supply and pricing for developers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"sec",
+"financial"
+]
+}
+},
+{
+"id": "63b5cf1b95df",
+"key": "https://wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/",
+"title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
+"published": "2026-11-18T22:00:00Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "Fallout from the Nvidia scandal has made any negotiations around AI difficult, officials say.",
+"meta": {},
+"ai": {
+"summary": "Officials say that even Trump’s China trip is unlikely to advance AI progress due to fallout from the Nvidia scandal.",
+"why": "It highlights geopolitical and regulatory obstacles that could affect AI development and collaboration.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"trump",
+"china",
+"nvidia"
+]
+}
+},
+{
+"id": "25f35188d1f9",
+"key": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+"title": "Anthropic prices IPO at $83 a share, above projected range",
+"published": "2026-11-18T22:11:15Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+"meta": {},
+"ai": {
+"summary": "Anthropic's IPO is reportedly priced at $83 per share, valuing the company at $1.5 trillion on a fully diluted basis, above the projected range.",
+"why": "A high valuation could accelerate funding for AI research and open‑source model releases that developers can use.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"anthropic",
+"ipo",
+"valuation"
+]
+}
+},
+{
+"id": "51902e44b468",
+"key": "https://wired.com/story/guys-really-we-got-this",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/guys-really-we-got-this/",
+"title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
+"published": "2026-11-18T22:16:23Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "WIRED is tallying up how many times Nvidia’s interim CEO has assured everyone that the company has everything under control.",
+"meta": {},
+"ai": {
+"summary": "Nvidia’s interim CEO, Colette Kress, repeatedly assured stakeholders that the company has everything under control amid ongoing challenges.",
+"why": "It reflects Nvidia’s public relations stance during a period of scrutiny, relevant for developers following industry sentiment.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"nvidia",
+"colettekress"
+]
+}
+},
+{
+"id": "f09dcbfde972",
+"key": "https://slowchronicle.com/posts/llm-assisted-reverse-engineering",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+"title": "LLM assisted reverse engineering",
+"published": "2026-11-18T22:29:13Z",
+"fetched": "2026-11-19T10:17:26Z",
+"excerpt": "",
+"meta": {
+"points": 300,
+"comments": 77,
+"hn_url": "https://news.ycombinator.com/item?id=50553225"
+},
+"ai": {
+"summary": "A discussion on Hacker News highlights techniques for using large language models to assist reverse engineering of software binaries.",
+"why": "Developers can leverage LLMs to automate parts of reverse engineering, speeding up security analysis and debugging.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"llm",
+"reverse-engineering",
+"security",
+"tooling"
+]
+}
+},
+{
+"id": "0b0f03637999",
+"key": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard/",
+"title": "Introducing the Amazon SageMaker JumpStart Model Leaderboard",
+"published": "2026-11-18T22:31:04Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "The Amazon SageMaker JumpStart Model Leaderboard compares 70+ foundation models side by side on quality, speed, and cost, directly in SageMaker Studio. Learn what the leaderboard shows, how AWS benchmarks models, and how to go from a shortlist to a deployed model.",
+"meta": {},
+"ai": {
+"summary": "Amazon launched the SageMaker JumpStart Model Leaderboard, comparing 70+ foundation models on quality, speed, and cost within SageMaker Studio.",
+"why": "It provides a quick way for developers to benchmark and select models for deployment, streamlining the model‑selection process.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"sagemaker",
+"jumpstart",
+"leaderboard"
+]
+}
+},
+{
+"id": "4a439d5ee588",
+"key": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+"title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+"published": "2026-11-18T22:58:11Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+"meta": {},
+"ai": {
+"summary": "Satya Nadella said AI agents will reshape web economics by disrupting ad‑driven models, forcing companies like Amazon to rethink customer acquisition.",
+"why": "Suggests developers should explore building or integrating AI agents as a new channel for user engagement.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"microsoft",
+"ai-agents",
+"web"
+]
+}
+},
+{
+"id": "d4d1414fe1a4",
+"key": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/",
+"title": "Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod",
+"published": "2026-11-18T23:03:29Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Large training jobs can stall or compute wrong results even when every node looks healthy. Amazon SageMaker HyperPod now adds workload recovery and expanded infrastructure checks that catch these failures sooner and raise the goodput of your training workloads.",
+"meta": {},
+"ai": {
+"summary": "Amazon SageMaker HyperPod added workload recovery and expanded infrastructure checks to detect training failures earlier and improve goodput.",
+"why": "Developers running large training jobs on HyperPod will benefit from higher reliability and faster issue resolution.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"sagemaker",
+"hyperpod",
+"training"
+]
+}
+},
+{
+"id": "4f03f8b822b2",
+"key": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+"title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+"published": "2026-11-18T23:17:28Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
+"meta": {},
+"ai": {
+"summary": "Satya Nadella expressed confidence in Nvidia's interim CEO Colette Kress following Jensen Huang's departure.",
+"why": "Signals stability at Nvidia, reassuring developers relying on its GPUs and AI platforms.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"microsoft",
+"nvidia",
+"leadership"
+]
+}
+},
+{
+"id": "bfc664974f02",
+"key": "https://theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+"title": "The nation’s largest school districts consider ditching Google Search",
+"published": "2026-11-18T23:18:35Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Chris Phillips, Google's vice […]",
+"meta": {},
+"ai": {
+"summary": "New York, Los Angeles, and Chicago school districts are evaluating alternatives to Google Search after Google announced it will disable Search for schools that opt out of its Gemini AI features.",
+"why": "Developers of educational tech may see new integration opportunities with non‑Google search providers.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"google",
+"search",
+"education"
+]
+}
+},
+{
+"id": "66039f9a4989",
+"key": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+"title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+"published": "2026-11-18T23:25:17Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
+"meta": {},
+"ai": {
+"summary": "Elon Musk compared removing Nvidia CEO Jensen Huang from the company to \"kicking Michael Jordan off your team\" and said he doesn't view Huang as disloyal to the U.S.",
+"why": "Reflects high‑profile commentary on Nvidia leadership but offers no actionable insight for developers.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"elonmusk",
+"nvidia",
+"leadership"
+]
+}
+},
+{
+"id": "055b9f6ae4c5",
+"key": "https://anthropic.com/news/anthropic-prices-initial-public-offering",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+"title": "Anthropic prices initial public offering",
+"published": "2026-11-18T23:30:09Z",
+"fetched": "2026-11-19T10:17:26Z",
+"excerpt": "",
+"meta": {
+"points": 412,
+"comments": 777,
+"hn_url": "https://news.ycombinator.com/item?id=50553843"
+},
+"ai": {
+"summary": "Anthropic announced its initial public offering price of $83 per share.",
+"why": "The IPO price reflects investor confidence and may affect funding and talent dynamics in the AI industry.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"anthropic",
+"ipo",
+"valuation"
+]
+}
+},
+{
+"id": "5ba47350b4b0",
+"key": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+"title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+"published": "2026-11-18T23:45:00Z",
+"fetched": "2026-11-19T00:20:04Z",
+"excerpt": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+"meta": {},
+"ai": {
+"summary": "Microsoft CEO Satya Nadella said much of critical infrastructure is \"unpatchable\" as AI introduces new security challenges, while downplaying a recent Outlook outage.",
+"why": "Highlights the emerging risk surface for developers building AI‑enabled services on legacy systems.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"microsoft",
+"security",
+"ai"
+]
+}
+},
+{
+"id": "8238166d8004",
+"key": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/",
+"title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+"published": "2026-11-18T23:58:22Z",
+"fetched": "2026-11-19T00:20:03Z",
+"excerpt": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI kernels, reaching a 47% gain in performance and cost per million documents.",
+"meta": {},
+"ai": {
+"summary": "Exa’s neural search engine achieved a 47% performance gain and cost reduction by optimizing embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI kernels.",
+"why": "This shows how specialized hardware can dramatically improve large‑scale embedding workloads, useful for developers scaling search engines.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"exa",
+"neuron",
+"embedding"
+]
+}
+}
+]

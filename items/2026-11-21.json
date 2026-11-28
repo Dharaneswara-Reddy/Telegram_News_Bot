@@ -1,0 +1,649 @@
+[
+{
+"id": "89a1b053c60b",
+"key": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+"title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+"published": "2026-11-21T00:14:26Z",
+"fetched": "2026-11-21T03:11:45Z",
+"excerpt": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
+"meta": {},
+"ai": {
+"summary": "The distributed KV caching skill for the AWS Agent Toolkit uses Amazon ElastiCache to cache LLM context, reducing inference cost up to 40% and first‑token latency up to 80%.",
+"why": "Developers can lower GPU expenses and speed up self‑hosted LLM applications.",
+"category": "agents",
+"importance": 4,
+"tags": [
+"aws",
+"kv‑cache",
+"elastiscache",
+"llm"
+]
+}
+},
+{
+"id": "282003e54096",
+"key": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together",
+"source": "aws_ml_blog",
+"source_name": "AWS Machine Learning",
+"src_category": "labs",
+"weight": 2,
+"kind": "article",
+"url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+"title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+"published": "2026-11-21T01:06:42Z",
+"fetched": "2026-11-21T03:11:45Z",
+"excerpt": "AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads and Amplitude.",
+"meta": {},
+"ai": {
+"summary": "AWS Quick added chat‑driven business‑process flows, an updated web UI for daily triage, multi‑agent answer aggregation, and new data source connectors for Meta ads and Amplitude.",
+"why": "Enables teams to build AI‑powered workflows and retrieve richer answers without leaving the workspace.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"aws",
+"quick",
+"agents",
+"data‑connectors"
+]
+}
+},
+{
+"id": "9f58c80d1dee",
+"key": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+"source": "gh_ollama",
+"source_name": "Ollama releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+"title": "ollama v0.40.17",
+"published": "2026-11-21T03:03:47Z",
+"fetched": "2026-11-21T03:11:48Z",
+"excerpt": "Inkling 2 Mini\nInkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active.\nIts looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified).\nollama run inkling-2-mini\nNote: inkling-2-mini is supported on Apple silicon only in this release. PC support will follow in an upcoming release.\nWhat's Changed\nollama launch claude supports Claude Code's deferred tool loading, so MCP tools are loaded when needed instead of all at\nonce\nOllama on Apple silicon now serves multiple requests at once.\nollama launch opencode sets thinking…",
+"meta": {},
+"ai": {
+"summary": "Ollama released version 0.40.17, adding support for the mlx backend and addressing issue #19806.",
+"why": "The update provides developers with broader hardware compatibility for running open‑weight models locally.",
+"category": "opensource",
+"importance": 2,
+"tags": [
+"ollama",
+"mlx",
+"release"
+]
+}
+},
+{
+"id": "ef5452efac24",
+"key": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+"title": "[AINews] Riemann Hypothesis proved...twice independently",
+"published": "2026-11-21T05:02:13Z",
+"fetched": "2026-11-21T12:36:23Z",
+"excerpt": "November 20 2026 —",
+"meta": {},
+"ai": {
+"summary": "Two separate groups announced proofs of the Riemann hypothesis: Anthropic claimed Claude generated a formal Lean proof of over 250,000 pages, and Stanford researchers released an independent all‑human draft proof.",
+"why": "If validated, these would be landmark achievements for AI‑assisted mathematics and for pure mathematical research.",
+"category": "research",
+"importance": 4,
+"tags": [
+"anthropic",
+"claude",
+"stanford",
+"riemann"
+]
+}
+},
+{
+"id": "d221ce131b2e",
+"key": "https://ricapar.net/ClawDOS",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "http://ricapar.net/ClawDOS/",
+"title": "ClawDOS – An AI coding agent for DOS",
+"published": "2026-11-21T05:38:01Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "",
+"meta": {
+"points": 164,
+"comments": 51,
+"hn_url": "https://news.ycombinator.com/item?id=50586292"
+},
+"ai": {
+"summary": "ClawDOS is an AI‑powered coding assistant that can write, debug, and execute programs for the DOS operating system.",
+"why": "Developers can use it to experiment with legacy software or create retro‑style applications without manual DOS expertise.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"clawdos",
+"ai",
+"coding",
+"dos"
+]
+}
+},
+{
+"id": "efe4d98baa2b",
+"key": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+"source": "last_week_in_ai",
+"source_name": "Last Week in AI",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+"title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
+"published": "2026-11-21T08:41:43Z",
+"fetched": "2026-11-21T12:36:23Z",
+"excerpt": "Anthropic's $81B IPO, AI stocks enter a correction, Huang resigns from Nvidia, Trump and Xi agree on military AI",
+"meta": {},
+"ai": {
+"summary": "The latest \"Last Week in AI\" newsletter (issue #348) covered Anthropic’s $81 B IPO, a broad AI‑stock correction, new GPT and Gemini releases, Nvidia’s leadership change, and geopolitical AI discussions.",
+"why": "Provides a concise roundup of the week’s most impactful AI business and policy developments for busy developers.",
+"category": "events",
+"importance": 2,
+"tags": [
+"newsletter",
+"anthropic",
+"gpt",
+"nvidia"
+]
+}
+},
+{
+"id": "15d591d2e67d",
+"key": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+"title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+"published": "2026-11-21T09:17:24Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available.\nThe article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Bytedance and partner US universities introduced Axion 1.0, an open‑source AI agent that matches top commercial models on benchmarks after only three curated training phases, and released the model, data, and code publicly.",
+"why": "The result challenges the prevailing belief that massive training compute is required for state‑of‑the‑art performance, encouraging more efficient research.",
+"category": "opensource",
+"importance": 4,
+"tags": [
+"bytedance",
+"axion",
+"openai",
+"efficiency"
+]
+}
+},
+{
+"id": "1687271a1c42",
+"key": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+"title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+"published": "2026-11-21T10:27:44Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "The Nasdaq 100 has slipped into a bear market after its worst weekly loss since the Covid-19 crisis. Nvidia plunged 14 percent as the SEC reviews its accounting, and Anthropic lost nearly all of its gains a day after its record IPO. AI doubts, scandals, rising interest rates, and political headwinds are hitting overheated valuations all at once.\nThe article US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "US technology stocks posted their worst weekly decline since the pandemic, with the Nasdaq‑100 entering a bear market; Nvidia fell 14% amid an SEC accounting review and Anthropic lost most of its IPO gains.",
+"why": "The slide signals heightened market skepticism toward AI hype and could affect funding and hiring in the sector.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nasdaq",
+"nvidia",
+"anthropic",
+"ai‑stocks"
+]
+}
+},
+{
+"id": "0ead08bd99c9",
+"key": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+"title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+"published": "2026-11-21T10:33:02Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at roughly six times lower cost.\nThe article New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Thinking Machines released Inkling 2 Mini, an open‑weight transformer that runs 12 of its 24 layers three times per token, allowing longer internal reasoning while staying laptop‑friendly and about six times cheaper than comparable models on the Intelligence Index.",
+"why": "Developers can run a relatively powerful reasoning model locally without cloud costs, enabling new edge‑AI applications.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"inkling",
+"thinkingmachines",
+"openmodel",
+"laptop"
+]
+}
+},
+{
+"id": "b4e63f59947a",
+"key": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+"title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+"published": "2026-11-21T11:19:49Z",
+"fetched": "2026-11-21T12:36:24Z",
+"excerpt": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof, and mathematicians are now checking whether either one holds up.\nThe article Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Anthropic mathematician Levent Alpöge reported that Claude produced a Lean formalization of a proof of the Riemann hypothesis spanning more than 250,000 pages, and Stanford released a competing human‑written draft proof hours later.",
+"why": "The parallel claims highlight both the potential and the current limits of large language models in deep mathematical reasoning.",
+"category": "research",
+"importance": 4,
+"tags": [
+"anthropic",
+"claude",
+"stanford",
+"riemann"
+]
+}
+},
+{
+"id": "dea839f11a78",
+"key": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+"source": "gh_transformers",
+"source_name": "Transformers releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+"title": "transformers Release v5.24.0",
+"published": "2026-11-21T12:28:26Z",
+"fetched": "2026-11-21T12:36:25Z",
+"excerpt": "Release v5.24.0\nNew Model additions\nInkling 2 Mini\nInkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with a looping mechanism in which layers 6 to 17 run three times. A learned message-passing mechanism mixes the residuals of the previous pass into the attention and mixture-of-experts inputs of each loop layer. The decoder has a hidden size of 2304 and routes each token to 8 of 128 experts. The image encoder, tokenizer and processor are the same as Inkling 2 Small's.\nA research checkpoint (…",
+"meta": {},
+"ai": {
+"summary": "Hugging Face Transformers 5.24.0 was released, adding support for Inkling 2 Mini—a 24‑layer multimodal decoder that loops layers 6‑17 three times and routes tokens to 8 of 128 MoE experts.",
+"why": "Developers can now load and use Inkling 2 Mini directly through the Transformers library.",
+"category": "opensource",
+"importance": 3,
+"tags": [
+"transformers",
+"inkling-2-mini",
+"multimodal",
+"moe"
+]
+}
+},
+{
+"id": "e45d6fc379fc",
+"key": "https://wired.com/story/brace-yourself-for-years-of-outage-chaos",
+"source": "wired_ai",
+"source_name": "Wired",
+"src_category": "news",
+"weight": 2,
+"kind": "article",
+"url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+"title": "The Outages Are Just Getting Started",
+"published": "2026-11-21T13:00:00Z",
+"fetched": "2026-11-21T20:30:24Z",
+"excerpt": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
+"meta": {},
+"ai": {
+"summary": "A Wired article reports that AI‑generated software vulnerabilities are leading to more frequent and severe internet outages as attackers exploit them faster than patches can be applied.",
+"why": "It signals rising security challenges that developers must address with faster patch cycles and stronger AI‑aware defenses.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"ai security",
+"outages",
+"vulnerabilities",
+"wired"
+]
+}
+},
+{
+"id": "7d352c04b382",
+"key": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+"title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+"published": "2026-11-21T13:32:35Z",
+"fetched": "2026-11-21T20:30:25Z",
+"excerpt": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding. The API is changing as well, since editing a conversation's history can discard reasoning content and lower response quality.\nThe article OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "OpenAI released new prompt templates for its GPT‑6.2 Astra and Sol models to address overly brief answers, unnecessary follow‑up questions, and excessive testing, and noted API changes where editing conversation history can discard reasoning content.",
+"why": "Developers using GPT‑6.2 can adopt these templates to improve response quality and adjust their API usage accordingly.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"openai",
+"gpt-6.2",
+"prompting"
+]
+}
+},
+{
+"id": "fbf6acfdeeb4",
+"key": "https://theverge.com/games/1038099/chess-classic-games-expansion-ai",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+"title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+"published": "2026-11-21T14:00:00Z",
+"fetched": "2026-11-21T20:30:24Z",
+"excerpt": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching […]",
+"meta": {},
+"ai": {
+"summary": "Chess.com launched a Classic Games platform adding ten new games—including backgammon, go, mahjong, and a Scrabble alternative—expanding beyond chess.",
+"why": "Developers can study Chess.com's diversification strategy for building multi‑game platforms or integrating AI opponents across classic games.",
+"category": "industry",
+"importance": 2,
+"tags": [
+"chess.com",
+"classic-games",
+"expansion"
+]
+}
+},
+{
+"id": "2e35313326fa",
+"key": "https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+"title": "Can Anthropic afford to put safety first?",
+"published": "2026-11-21T15:00:00Z",
+"fetched": "2026-11-21T20:30:24Z",
+"excerpt": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]",
+"meta": {},
+"ai": {
+"summary": "Anthropic completed its IPO on Nasdaq, raising a large valuation while emphasizing safety as a core focus of its Claude models.",
+"why": "Shows investor confidence in safety‑first AI companies and may influence developers to prioritize safety features in their own models.",
+"category": "industry",
+"importance": 4,
+"tags": [
+"anthropic",
+"ipo",
+"safety"
+]
+}
+},
+{
+"id": "107481ec88d5",
+"key": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+"title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+"published": "2026-11-21T16:00:00Z",
+"fetched": "2026-11-21T20:30:24Z",
+"excerpt": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+"meta": {},
+"ai": {
+"summary": "An actor licensed his facial likeness to a microdrama startup, a practice already common in China, sparking debate about its impact on Hollywood if it becomes widespread.",
+"why": "Developers working on synthetic media should monitor legal and licensing frameworks for AI-generated likenesses.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"deepfakes",
+"facial-licensing",
+"entertainment"
+]
+}
+},
+{
+"id": "47b2fe8b24bf",
+"key": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+"title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+"published": "2026-11-21T16:04:29Z",
+"fetched": "2026-11-21T20:30:25Z",
+"excerpt": "A Buddhist monastery in Vermont called Maple wants to establish itself as Silicon Valley's spiritual authority while creating its own AI god. According to a New Yorker report, leader Soryu Forall's group records every breath its members take to train an AI in his image. Former members report manipulation and psychological breakdowns.\nThe article Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "A New Yorker report describes a Vermont Buddhist monastery, Maple, positioning itself as a spiritual authority for Silicon Valley and training an AI modeled on its leader, with members reporting manipulation and psychological harm.",
+"why": "Highlights ethical and societal risks of AI cults, informing developers about potential misuse and the importance of responsible AI governance.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"ai-cults",
+"ethics",
+"silicon-valley"
+]
+}
+},
+{
+"id": "82c084a6db72",
+"key": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end",
+"source": "the_decoder",
+"source_name": "The Decoder",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+"title": "Nvidia researchers argue huge AI context windows are a dead end",
+"published": "2026-11-21T16:23:45Z",
+"fetched": "2026-11-21T20:30:25Z",
+"excerpt": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even proposes a new class of models that works with short notes instead of long context.\nThe article Nvidia researchers argue huge AI context windows are a dead end appeared first on The Decoder .",
+"meta": {},
+"ai": {
+"summary": "Nvidia researchers reported that large language model context windows are often unnecessary and proposed using periodic summaries, keyword search, and a new class of models that operate on short notes to reduce cost and errors.",
+"why": "If adopted, these techniques could lower inference costs for developers handling long documents or chat histories.",
+"category": "research",
+"importance": 3,
+"tags": [
+"nvidia",
+"context-windows",
+"efficiency"
+]
+}
+},
+{
+"id": "d1825a91ade9",
+"key": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+"title": "Here are the top AI agents that can live in your text messages",
+"published": "2026-11-21T17:00:00Z",
+"fetched": "2026-11-21T20:30:24Z",
+"excerpt": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch compiled a list of notable AI agents that can be integrated into text messaging platforms, covering general assistants and specialized agents for families, travel, and work.",
+"why": "Developers can explore these agents for embedding AI capabilities directly into messaging apps or building new bot experiences.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"ai-agents",
+"messaging",
+"productivity"
+]
+}
+},
+{
+"id": "8c2d9ddfd135",
+"key": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+"title": "strata-engine/Inkling-2-Mini-Strata is trending on Hugging Face",
+"published": "2026-11-21T18:46:06Z",
+"fetched": "2026-11-26T10:51:04Z",
+"excerpt": "image-text-to-text · 322 likes · 5,018 downloads",
+"meta": {
+"likes": 322,
+"downloads": 5018
+},
+"ai": {
+"summary": "strata-engine released the Inkling‑2‑Mini‑Strata image‑text‑to‑text model, which has 168 likes and 2,965 downloads on Hugging Face.",
+"why": "It provides a compact image‑to‑text solution that can be used for captioning or visual question answering.",
+"category": "other",
+"importance": 3,
+"tags": [
+"strata-engine",
+"inkling-2-mini",
+"image-text-to-text",
+"strata"
+]
+}
+},
+{
+"id": "615d5f1b9c40",
+"key": "https://theverge.com/tech/1039554/un-regulations-killer-robots",
+"source": "verge_ai",
+"source_name": "The Verge",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+"title": "The UN fails to agree on rules regulating ‘killer robots’",
+"published": "2026-11-21T20:03:37Z",
+"fetched": "2026-11-21T20:30:24Z",
+"excerpt": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]",
+"meta": {},
+"ai": {
+"summary": "UN diplomats in Geneva failed to reach an agreement on rules for autonomous weapons, but agreed to start discussing options after a week of largely fruitless negotiations.",
+"why": "Developers building AI for defense or policy analysis need to track the lack of binding regulation on lethal autonomous systems.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"un",
+"autonomous-weapons",
+"regulation"
+]
+}
+},
+{
+"id": "2f2150496223",
+"key": "https://pandex.io/",
+"source": "hacker_news",
+"source_name": "Hacker News",
+"src_category": "community",
+"weight": 3,
+"kind": "discussion",
+"url": "https://www.pandex.io",
+"title": "Pandex – Official European Law for AI Agents, over MCP",
+"published": "2026-11-21T20:47:41Z",
+"fetched": "2026-11-22T09:43:33Z",
+"excerpt": "",
+"meta": {
+"points": 139,
+"comments": 33,
+"hn_url": "https://news.ycombinator.com/item?id=50593481"
+},
+"ai": {
+"summary": "The EU enacted the Pandex regulation, an official law that governs AI agents and supersedes the Model Card Protocol (MCP).",
+"why": "Developers building AI agents for European markets must ensure compliance with the new legal requirements.",
+"category": "policy",
+"importance": 4,
+"tags": [
+"europe",
+"law",
+"ai-agents"
+]
+}
+},
+{
+"id": "44fdb9343cc7",
+"key": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+"title": "A tale of two Nvidias",
+"published": "2026-11-21T21:07:42Z",
+"fetched": "2026-11-22T02:12:18Z",
+"excerpt": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+"meta": {},
+"ai": {
+"summary": "TechCrunch contrasted Nvidia's strong quarterly earnings with public calls from tech executives for CEO Jensen Huang to step down.",
+"why": "Investor sentiment and leadership stability can affect Nvidia's AI hardware roadmap.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"nvidia",
+"earnings",
+"leadership"
+]
+}
+},
+{
+"id": "ebef5315c91e",
+"key": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+"source": "techcrunch_ai",
+"source_name": "TechCrunch",
+"src_category": "news",
+"weight": 3,
+"kind": "article",
+"url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+"title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+"published": "2026-11-21T21:37:10Z",
+"fetched": "2026-11-22T02:12:18Z",
+"excerpt": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+"meta": {},
+"ai": {
+"summary": "Signal added a restriction that prevents users from taking screenshots in its Android and iOS apps.",
+"why": "It reduces the risk of AI-powered screen‑capture tools leaking private conversations.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"signal",
+"privacy",
+"screenshots"
+]
+}
+}
+]

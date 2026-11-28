@@ -1,0 +1,444 @@
+[
+{
+"id": "12b86ba4f0c7",
+"key": "https://openai.com/index/astra-for-law",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/astra-for-law",
+"title": "Introducing Astra for Law",
+"published": "2026-09-17T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+"meta": {},
+"ai": {
+"summary": "OpenAI launched Astra for Law, a specialized large‑language model with built‑in legal workflows, data connectors, and confidentiality controls for law firms.",
+"why": "Provides a ready‑to‑use, domain‑specific model that developers can integrate into legal tech products.",
+"category": "models",
+"importance": 4,
+"tags": [
+"openai",
+"astra",
+"law",
+"legal‑ai"
+]
+}
+},
+{
+"id": "15dc6ec5bf94",
+"key": "https://claude.com/blog/projects-redesigned",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/blog/projects-redesigned",
+"title": "Projects redesigned: from folder to conversation",
+"published": "2026-09-17T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Projects redesigned: from folder to conversation",
+"meta": {},
+"ai": {
+"summary": "Claude introduced a redesign of its Projects feature, shifting from a folder‑based layout to a conversation‑oriented interface.",
+"why": "The new UI may streamline workflow for developers building multi‑step AI applications.",
+"category": "agents",
+"importance": 2,
+"tags": [
+"claude",
+"ui",
+"projects"
+]
+}
+},
+{
+"id": "52ae52dd8bbc",
+"key": "https://anthropic.com/news/life-sciences-verification-program",
+"source": "anthropic_news",
+"source_name": "Anthropic",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://www.anthropic.com/news/life-sciences-verification-program",
+"title": "Introducing the Life Sciences Verification Program",
+"published": "2026-09-17T00:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Introducing the Life Sciences Verification Program",
+"meta": {},
+"ai": {
+"summary": "Anthropic announced the Life Sciences Verification Program to certify that its models are used safely and accurately in life‑science applications.",
+"why": "Creates a trust framework that developers can leverage when building health‑related AI solutions.",
+"category": "policy",
+"importance": 2,
+"tags": [
+"anthropic",
+"life‑sciences",
+"verification"
+]
+}
+},
+{
+"id": "8596738cdff5",
+"key": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+"title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+"published": "2026-09-17T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+"meta": {},
+"ai": {
+"summary": "Balyasny Asset Management detailed its evaluation and governance framework for using Claude Fable 5 in financial decision‑making.",
+"why": "Provides a concrete example of AI governance practices for regulated industries.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"balyasny",
+"claude-fable-5",
+"governance"
+]
+}
+},
+{
+"id": "8bd5ec1c463c",
+"key": "https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+"title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+"published": "2026-09-17T00:00:00Z",
+"fetched": "2026-10-07T05:56:09Z",
+"excerpt": "Balyasny Asset Management (BAM) Chief AI Officer Charlie Flanagan on why the firm uses Claude Fable 5 and the role of safeguards in deploying frontier intelligence safely and reliably across the organization.\n‍",
+"meta": {},
+"ai": {
+"summary": "Balyasny Asset Management’s Chief AI Officer Charlie Flanagan explains why the firm adopts Claude Fable 5 and how safeguards are used to govern frontier AI deployment.",
+"why": "Shows enterprise governance practices for high‑stakes AI, useful for developers building compliant systems.",
+"category": "industry",
+"importance": 3,
+"tags": [
+"balya",
+"claude-fable-5",
+"governance",
+"enterprise"
+]
+}
+},
+{
+"id": "aaf3bb7970f3",
+"key": "https://anthropic.com/institute/measuring-pace-of-ai-development",
+"source": "anthropic_research",
+"source_name": "Anthropic Research",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+"title": "Measurements for understanding the pace of AI development inside frontier labs",
+"published": "2026-09-17T00:00:00Z",
+"fetched": "2026-10-04T21:21:31Z",
+"excerpt": "Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.",
+"meta": {},
+"ai": {
+"summary": "Anthropic outlines a set of metrics intended to give the public visibility into the speed of AI development inside leading frontier labs.",
+"why": "Could enable better external monitoring and inform policy decisions about AI progress.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"anthropic",
+"metrics",
+"ai-development",
+"transparency"
+]
+}
+},
+{
+"id": "d537b08fdb2c",
+"key": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
+"source": "anthropic_research",
+"source_name": "Anthropic Research",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+"title": "How Claude is uplifting biomolecular modeling",
+"published": "2026-09-17T00:00:00Z",
+"fetched": "2026-10-01T19:40:19Z",
+"excerpt": "How Claude is uplifting biomolecular modeling",
+"meta": {},
+"ai": {
+"summary": "Anthropic demonstrated that Claude can accelerate biomolecular modeling tasks, improving speed or accuracy in protein structure prediction.",
+"why": "Developers in biotech can leverage Claude’s APIs to speed up research pipelines.",
+"category": "research",
+"importance": 4,
+"tags": [
+"anthropic",
+"claude",
+"biomolecular",
+"modeling"
+]
+}
+},
+{
+"id": "e5b2be6d1fcf",
+"key": "https://claude.com/resources/articles/projects-redesigned",
+"source": "claude_blog",
+"source_name": "Claude",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://claude.com/resources/articles/projects-redesigned",
+"title": "Projects redesigned: from folder to conversation",
+"published": "2026-09-17T00:00:00Z",
+"fetched": "2026-10-07T05:56:09Z",
+"excerpt": "A new experience for Claude projects, now available in beta in Claude Code",
+"meta": {},
+"ai": {
+"summary": "Claude Code introduces a new project experience in beta that replaces the folder‑based interface with a conversation‑based workflow.",
+"why": "Developers can organize code and discussions together, potentially improving collaboration.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"claude-code",
+"projects",
+"conversation",
+"beta"
+]
+}
+},
+{
+"id": "f1cbeaad76bc",
+"key": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0",
+"source": "gh_vllm",
+"source_name": "vLLM releases",
+"src_category": "opensource",
+"weight": 2,
+"kind": "release",
+"url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0",
+"title": "vllm proto-v0.3.0",
+"published": "2026-09-17T03:47:02Z",
+"fetched": "2026-10-01T19:23:59Z",
+"excerpt": "Release vllm-proto 0.3.0",
+"meta": {},
+"ai": null
+},
+{
+"id": "3d72ad90a5e9",
+"key": "https://latent.space/p/ainews-reality-checks-on-ai-news",
+"source": "latent_space",
+"source_name": "Latent Space",
+"src_category": "analysis",
+"weight": 4,
+"kind": "article",
+"url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+"title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
+"published": "2026-09-17T07:28:25Z",
+"fetched": "2026-10-01T19:24:22Z",
+"excerpt": "A dash of cold water keeps the foomers away.",
+"meta": {},
+"ai": {
+"summary": "Latent Space’s newsletter highlighted a 60% price increase for Databricks’ Astra service and noted Yegge’s shutdown of Gas Town.",
+"why": "",
+"category": "industry",
+"importance": 2,
+"tags": [
+"databricks",
+"astra",
+"cost"
+]
+}
+},
+{
+"id": "c3710b372fea",
+"key": "https://allenai.org/blog/olmo-arena",
+"source": "ai2_blog",
+"source_name": "Ai2",
+"src_category": "research",
+"weight": 3,
+"kind": "article",
+"url": "https://allenai.org/blog/olmo-arena",
+"title": "What a crowdsourced game revealed about steering Olmo 3",
+"published": "2026-09-17T08:00:00Z",
+"fetched": "2026-10-01T19:40:21Z",
+"excerpt": "A crowdsourced game built on Olmo 3 showed how people can exploit unexpected model behaviors to stress-test prosocial AI evaluations—and how open access to a model’s internals can help researchers understand why those tests break.",
+"meta": {},
+"ai": null
+},
+{
+"id": "49b0bfe76222",
+"key": "https://lastweekin.ai/p/last-week-in-ai-344-navierstokes",
+"source": "last_week_in_ai",
+"source_name": "Last Week in AI",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://lastweekin.ai/p/last-week-in-ai-344-navierstokes",
+"title": "Last Week in AI #344 - Navier–Stokes, Pacing the Frontier, AI Misuse",
+"published": "2026-09-17T08:02:55Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "OpenAI claims a Millennium Prize proof amid a feud with mathematicians, Anthropic's CEO calls to pace the frontier, extinction warnings spur a regulation push, and more!",
+"meta": {},
+"ai": null
+},
+{
+"id": "12b2c8e8d83e",
+"key": "https://openai.com/index/cooley-gopublic",
+"source": "openai_news",
+"source_name": "OpenAI",
+"src_category": "labs",
+"weight": 5,
+"kind": "article",
+"url": "https://openai.com/index/cooley-gopublic",
+"title": "How Cooley is accelerating IPO work with ChatGPT",
+"published": "2026-09-17T12:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+"meta": {},
+"ai": {
+"summary": "Law firm Cooley launched GO Public, a tool that uses ChatGPT to automate parts of the IPO workflow, helping lawyers identify issues earlier.",
+"why": "Legal tech teams can leverage the tool to streamline due diligence and reduce manual review time.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"cooley",
+"chatgpt",
+"ipo",
+"legal‑ai"
+]
+}
+},
+{
+"id": "206eef53df83",
+"key": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo",
+"source": "nvidia_blog",
+"source_name": "NVIDIA",
+"src_category": "labs",
+"weight": 3,
+"kind": "article",
+"url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
+"title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+"published": "2026-09-17T13:00:55Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on […]",
+"meta": {},
+"ai": null
+},
+{
+"id": "aaef1cde9f12",
+"key": "https://bensbites.com/p/new-home-for-cowork",
+"source": "bens_bites",
+"source_name": "Ben's Bites",
+"src_category": "analysis",
+"weight": 2,
+"kind": "article",
+"url": "https://www.bensbites.com/p/new-home-for-cowork",
+"title": "New home for Cowork",
+"published": "2026-09-17T13:02:21Z",
+"fetched": "2026-10-01T19:40:23Z",
+"excerpt": "the successor of LLMs",
+"meta": {},
+"ai": null
+},
+{
+"id": "79091a4cc5a2",
+"key": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+"source": "hf_trending_models",
+"source_name": "Hugging Face Trending",
+"src_category": "opensource",
+"weight": 3,
+"kind": "model",
+"url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+"title": "Venastine-Research/Xing4.0-29B-A4B-GGUF is trending on Hugging Face",
+"published": "2026-09-17T18:37:31Z",
+"fetched": "2026-10-04T18:09:15Z",
+"excerpt": "text-generation · 638 likes · 36,481 downloads",
+"meta": {
+"likes": 638,
+"downloads": 36481
+},
+"ai": null
+},
+{
+"id": "89898ec9f5bf",
+"key": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform",
+"source": "google_ai_blog",
+"source_name": "Google AI",
+"src_category": "labs",
+"weight": 4,
+"kind": "article",
+"url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+"title": "Making global data easier to explore",
+"published": "2026-09-17T20:00:00Z",
+"fetched": "2026-10-01T19:23:56Z",
+"excerpt": "UN System Data Commons Data webpage",
+"meta": {},
+"ai": {
+"summary": "The UN System Data Commons launched a public webpage aggregating global data sets for easier exploration.",
+"why": "Provides developers a centralized source of open government data for building analytics applications.",
+"category": "other",
+"importance": 1,
+"tags": [
+"un",
+"data-commons"
+]
+}
+},
+{
+"id": "2a38587d88e5",
+"key": "https://understandingai.org/p/how-a-single-tweet-transformed-the",
+"source": "understanding_ai",
+"source_name": "Understanding AI",
+"src_category": "analysis",
+"weight": 3,
+"kind": "article",
+"url": "https://www.understandingai.org/p/how-a-single-tweet-transformed-the",
+"title": "How a single tweet transformed the AI safety debate",
+"published": "2026-09-17T20:21:40Z",
+"fetched": "2026-10-01T19:40:22Z",
+"excerpt": "Most people think AI is risky, but they don’t agree what to do next.",
+"meta": {},
+"ai": {
+"summary": "An analysis explains how a single tweet sparked a shift in the AI safety conversation, influencing public and policy discourse.",
+"why": "Highlights the impact of social media on shaping AI safety priorities for developers and policymakers.",
+"category": "policy",
+"importance": 3,
+"tags": [
+"ai‑safety",
+"social‑media",
+"tweet"
+]
+}
+},
+{
+"id": "207c0370da89",
+"key": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui",
+"source": "google_research",
+"source_name": "Google Research",
+"src_category": "research",
+"weight": 4,
+"kind": "article",
+"url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+"title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+"published": "2026-09-17T20:45:00Z",
+"fetched": "2026-10-01T19:23:57Z",
+"excerpt": "Education Innovation",
+"meta": {},
+"ai": {
+"summary": "Google Research introduced a generative UI system that lets teachers create interactive learning experiences without coding.",
+"why": "Offers a template for building low‑code generative UI tools that developers can adapt for other domains.",
+"category": "agents",
+"importance": 3,
+"tags": [
+"google",
+"education",
+"generative-ui"
+]
+}
+}
+]
